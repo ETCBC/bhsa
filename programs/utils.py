@@ -1,4 +1,4 @@
-import time,bz2
+import os,collections,time,bz2
 
 def bunzip(bzFile, uzFile):
     with bz2.open(bzFile, mode='rt') as bdata:

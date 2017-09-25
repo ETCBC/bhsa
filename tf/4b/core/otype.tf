@@ -7,7 +7,7 @@
 @valueType=str
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-09-25T05:14:51Z
+@dateWritten=2017-09-25T10:36:52Z
 
 1-426568	word
 426569-426607	book

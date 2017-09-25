@@ -7,7 +7,7 @@
 @valueType=str
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-09-25T05:14:47Z
+@dateWritten=2017-09-25T10:36:48Z
 
 427537	clause
 clause
