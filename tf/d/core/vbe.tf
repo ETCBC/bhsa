@@ -1,13 +1,7 @@
 @node
-@author=Eep Talstra Centre for Bible and Computer
-@dataset=BHSA
-@datasetName=Biblia Hebraica Stuttgartensia Amstelodamensis
-@email=shebanq@ancient-data.org
-@encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)
 @valueType=str
-@website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-09-25T16:29:20Z
+@dateWritten=2016-12-17T07:06:30Z
 
 n/a
 n/a

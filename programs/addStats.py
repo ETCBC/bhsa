@@ -44,10 +44,9 @@
 
 
 import os,sys,re,collections
-from glob import glob
-from shutil import rmtree, copytree
+from shutil import rmtree, copytree, copy
+from utils import startNow, tprint, checkDiffs
 from tf.fabric import Fabric
-from utils import bunzip, startNow, tprint
 from blang import bookLangs, bookNames
 
 
@@ -56,9 +55,12 @@ from blang import bookLangs, bookNames
 
 if 'SCRIPT' not in locals():
     SCRIPT = False
-    SOURCE_NAME = 'bhsa'
+    CORE_NAME = 'bhsa'
     VERSION= 'd'
-    TF_MODULE ='core' 
+    CORE_MODULE ='core' 
+
+def stop(good=False):
+    if SCRIPT: sys.exit(0 if good else 1)
 
 
 # # Setting up the context: source file and target directories
@@ -69,14 +71,15 @@ if 'SCRIPT' not in locals():
 # In[3]:
 
 
-repoBase = os.path.expanduser('~/github/bhsa')
+module = CORE_MODULE
+repoBase = os.path.expanduser('~/github/etcbc')
+thisRepo = '{}/{}'.format(repoBase, CORE_NAME)
 
-sourceBase = '{}/source'.format(repoBase)
-targetBase = '{}/tf'.format(repoBase)
+thisTemp = '{}/_temp/{}'.format(thisRepo, VERSION)
+thisSave = '{}/{}'.format(thisTemp, module)
 
-tfLocation = '{}/{}'.format(targetBase, VERSION)
-tfSave = '{}/{}/{}'.format(targetBase, VERSION, TF_MODULE)
-tfDeliver = '{}/{}'.format(tfLocation, TF_MODULE)
+thisTf = '{}/tf/{}'.format(thisRepo, VERSION)
+thisDeliver = '{}/{}'.format(thisTf, module)
 
 
 # In[4]:
@@ -100,9 +103,11 @@ newFeatures = newFeaturesStr.strip().split()
 
 
 if SCRIPT:
-    (good, work) = MUSTRUN(None, '{}/.tf/{}.tfx'.format(tfDeliver, newFeatures[0]))
-    if not good: sys.exit(1)
-    if not work: sys.exit(0)
+    if VERSION == 'd':
+        stop(good=True)
+    (good, work) = MUSTRUN(None, '{}/.tf/{}.tfx'.format(thisDeliver, newFeatures[0]))
+    if not good: stop(good=False)
+    if not work: stop(good=True)
 
 
 # # TF Settings
@@ -122,14 +127,14 @@ if SCRIPT:
 # 
 # We collect the statistics.
 
-# In[11]:
+# In[6]:
 
 
 def collect():
     startNow()
     tprint('Computing statistics')
 
-    TF = Fabric(locations=tfLocation, modules=TF_MODULE)
+    TF = Fabric(locations=thisTf, modules=module)
     api = TF.load('language lex g_cons')
     F = api.F
     
@@ -186,11 +191,38 @@ def collect():
         nodeFeatures['rank_lex'][w] = str(wstats['ranks']['lex'][lan][lex])
 
     tprint('Write out')
-    TF = Fabric(locations=tfSave)
+    TF = Fabric(locations=thisSave)
     TF.save(nodeFeatures=nodeFeatures, edgeFeatures=edgeFeatures, metaData=metaData)
-    
+
+
+# # Stage: Diffs
+# 
+# Check differences with previous versions.
+
+# # Stage: Deliver 
+# 
+# Copy the new TF features from the temporary location where they have been created to their final destination.
+
+# In[14]:
+
+
+def deliverDataset():
+    print('Copy features from {} to {}'.format(thisSave, thisDeliver))
+    for feature in newFeatures:
+        tempLoc = '{}/{}.tf'.format(thisSave, feature)
+        deliverLoc = '{}/{}.tf'.format(thisDeliver, feature)
+        print(feature)
+        copy(tempLoc, deliverLoc)      
+
+
+# # Stage: Compile TF
+
+# In[18]:
+
+
+def compileTfData():    
     tprint('Compile and test')
-    TF = Fabric(locations=tfLocation, modules=TF_MODULE)
+    TF = Fabric(locations=thisTf, modules=module)
     api = TF.load('lex '+newFeaturesStr)
     F = api.F
     mostFrequent = set()
@@ -209,16 +241,32 @@ def collect():
 
 # # Run it!
 
-# In[12]:
+# In[9]:
 
 
 collect()
 
 
-# If in script mode, we should tell whether the execution was successful or not.
-
-# In[8]:
+# In[10]:
 
 
-if SCRIPT: sys.exit(0 if good else 1)
+checkDiffs(thisSave, thisDeliver, only=set(newFeatures))
+
+
+# In[15]:
+
+
+deliverDataset()
+
+
+# In[19]:
+
+
+compileTfData()
+
+
+# In[ ]:
+
+
+
 

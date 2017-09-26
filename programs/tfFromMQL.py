@@ -31,15 +31,27 @@
 # Make sure to upgrade first.
 # 
 # ```sudo -H pip3 install text-fabric```
+# 
+# # Temporary hack
+# The ETCBC does not yet produce an MQL file that satisfies all the requirements.
+# Some features are still missing.
+# In the etcbc4c version I have worked around those details, which resulted in a complete dataset 4c.
+# 
+# In order to test the later modules dependent on the ETCBC data, we use this version, and call it `d`
+# (development purposes).
+# 
+# Hopefull we can agree on these requirements for the future continuous `c` version and the fixed versions `2017` etc.
+# 
+# So, in this notebook, if the version is `d`, we skip the mql version, and copy over the datasource straight from
+# the text-fabric-data/hebrew/4c directory.
 
 # In[1]:
 
 
 import os,sys,re,collections
-from glob import glob
 from shutil import rmtree, copytree
 from tf.fabric import Fabric
-from utils import bunzip, startNow, tprint
+from utils import bunzip, startNow, tprint, checkDiffs
 from blang import bookLangs, bookNames
 
 
@@ -78,9 +90,12 @@ from blang import bookLangs, bookNames
 
 if 'SCRIPT' not in locals():
     SCRIPT = False
-    SOURCE_NAME = 'bhsa'
+    CORE_NAME = 'bhsa'
     VERSION= 'd'
-    TF_MODULE ='core' 
+    CORE_MODULE ='core' 
+
+def stop(good=False):
+    if SCRIPT: sys.exit(0 if good else 1)
 
 
 # # Setting up the context: source file and target directories
@@ -91,19 +106,19 @@ if 'SCRIPT' not in locals():
 # In[3]:
 
 
-repoBase = os.path.expanduser('~/github/bhsa')
+module = CORE_MODULE
+repoBase = os.path.expanduser('~/github/etcbc')
+thisRepo = '{}/{}'.format(repoBase, CORE_NAME)
 
-sourceBase = '{}/source'.format(repoBase)
-tempBase = '{}/_temp'.format(repoBase)
-targetBase = '{}/tf'.format(repoBase)
+thisSource = '{}/source'.format(thisRepo)
+mqlzFile = '{}/{}-{}.mql.bz2'.format(thisSource, CORE_NAME, VERSION)
 
-mqlzFile = '{}/{}-{}.mql.bz2'.format(sourceBase, SOURCE_NAME, VERSION)
-mqlFile = '{}/{}-{}.mql'.format(tempBase, SOURCE_NAME, VERSION)
+thisTemp = '{}/_temp/{}'.format(thisRepo, VERSION)
+mqlFile = '{}/{}-{}.mql'.format(thisTemp, CORE_NAME, VERSION)
+thisSave = '{}/{}'.format(thisTemp, module)
 
-tfSave = '{}/{}/{}'.format(tempBase, VERSION, TF_MODULE)
-
-tfLocation = '{}/{}'.format(targetBase, VERSION)
-tfDeliver = '{}/{}'.format(tfLocation, TF_MODULE)
+thisTf = '{}/tf/{}'.format(thisRepo, VERSION)
+thisDeliver = '{}/{}'.format(thisTf, module)
 
 
 # # Test
@@ -111,13 +126,24 @@ tfDeliver = '{}/{}'.format(tfLocation, TF_MODULE)
 # Check whether this conversion is needed in the first place.
 # Only when run as a script.
 
-# In[4]:
+# In[3]:
 
 
 if SCRIPT:
-    (good, work) = MUSTRUN(mqlzFile, '{}/.tf/otype.tfx'.format(tfDeliver))
-    if not good: sys.exit(1)
-    if not work: sys.exit(0)
+    testFile = '{}/.tf/otype.tfx'.format(thisDeliver)
+    if VERSION == 'd':
+        testFile = '{}/otype.tf'.format(thisDeliver)
+        test = os.path.exists(testFile)
+        if test:
+            print('Dataset in place')
+        else: 
+            print('Dataset not present. Copy it over from {} to {}'.format(
+                'text-fabric-data/hebrew/etcbc4c', thisDeliver,
+            ))
+        stop(good=test)
+    (good, work) = MUSTRUN(mqlzFile, '{}/.tf/otype.tfx'.format(thisDeliver))
+    if not good: stop(good=False)
+    if not work: stop(good=True)
 
 
 # # TF Settings
@@ -225,7 +251,7 @@ oText = {
 
 
 def getOtext():
-    thisOtext = oText.get(SOURCE_NAME, {}).get(VERSION, oText[''][''])
+    thisOtext = oText.get(CORE_NAME, {}).get(VERSION, oText[''][''])
     otextInfo = dict(line[1:].split('=', 1) for line in thisOtext.strip().split('\n'))
 
     if thisOtext is oText['']['']:
@@ -280,12 +306,12 @@ def prepare():
     global thisoText
 
     startNow()
-    tprint('bunzipping {} ...'.format(mqlFile))
+    tprint('bunzipping {} ...'.format(mqlzFile))
     bunzip(mqlzFile, mqlFile)
     tprint('Done')
 
-    if os.path.exists(tfSave): rmtree(tfSave)
-    os.makedirs(tfSave)
+    if os.path.exists(thisSave): rmtree(thisSave)
+    os.makedirs(thisSave)
 
     thisoText = getOtext()
 
@@ -454,7 +480,8 @@ def parseMql():
     fh.close()
     for table in tables:
         print('{} objects of type {}'.format(len(tables[table]), table))
-    return good
+    if not good:
+        stop(good=False)
 
 
 # # Stage: TF generation
@@ -568,7 +595,7 @@ def tfFromData():
 
     tprint('write data set to TF ...')
 
-    TF = Fabric(locations=tfSave)
+    TF = Fabric(locations=thisSave)
     TF.save(nodeFeatures=nodeFeatures, edgeFeatures=edgeFeatures, metaData=metaData)
 
 
@@ -587,64 +614,18 @@ def tfFromData():
 # For each changed feature we show the first line where the new feature differs from the old one.
 # We ignore changes in the metadata, because the timestamp in the metadata will always change.
 
-# In[11]:
-
-
-def diffFeature(f):
-    sys.stdout.write('{:<25} ... '.format(f))
-    existingPath = '{}/{}.tf'.format(tfDeliver, f)
-    newPath = '{}/{}.tf'.format(tfSave, f)
-    with open(existingPath) as h: eLines = (d for d in h.readlines() if not d.startswith('@'))
-    with open(newPath) as h: nLines = (d for d in h.readlines() if not d.startswith('@'))
-    i = 0
-    equal = True
-    for (e, n) in zip(eLines, nLines):
-        i += 1
-        if e != n:
-            print('First diff in line {} after the  metadata'.format(i))
-            equal = False
-            continue
-    print('no changes' if equal else '')
-
-def checkDiffs():
-    startNow()
-    tprint('checkDiffs')
-    existingFiles = glob('{}/*.tf'.format(tfDeliver))
-    newFiles = glob('{}/*.tf'.format(tfSave))
-    existingFeatures = {os.path.basename(os.path.splitext(f)[0]) for f in existingFiles}
-    newFeatures = {os.path.basename(os.path.splitext(f)[0]) for f in newFiles}
-
-    addedOnes = newFeatures - existingFeatures
-    deletedOnes = existingFeatures - newFeatures
-    commonOnes = newFeatures & existingFeatures
-
-    if addedOnes:
-        print('{} features to add:\n\t{}'.format(len(addedOnes), ' '.join(sorted(addedOnes))))
-    else:
-        print('no features to add')
-    if deletedOnes:
-        print('{} features to delete:\n\t{}'.format(len(deletedOnes), ' '.join(sorted(deletedOnes))))
-    else:
-        print('no features to delete')
-
-    print('{} features in common'.format(len(commonOnes)))
-    
-    for f in sorted(commonOnes): diffFeature(f)
-
-
 # # Stage: Deliver 
 # 
 # Copy the new TF dataset from the temporary location where it has been created to its final destination.
 
-# In[12]:
+# In[11]:
 
 
 def deliverDataset():
-    print('Copy data set to {}'.format(tfDeliver))
-    if os.path.exists(tfDeliver):
-        rmtree(tfDeliver)
-    copytree(tfSave, tfDeliver)
-    moreWork = True            
+    print('Copy data set to {}'.format(thisDeliver))
+    if os.path.exists(thisDeliver):
+        rmtree(thisDeliver)
+    copytree(thisSave, thisDeliver)
 
 
 # # Stage: Compile TF
@@ -659,13 +640,13 @@ def deliverDataset():
 # At that point we have access to the full list of features.
 # We grab them and are going to load them all! 
 
-# In[13]:
+# In[12]:
 
 
 def compileTfData():
     startNow()
     tprint('compileTfData')
-    TF = Fabric(locations=tfLocation, modules=TF_MODULE)
+    TF = Fabric(locations=thisTf, modules=module)
     api = TF.load('')
     allFeatures = TF.explore(silent=False, show=True)
     loadableFeatures = allFeatures['nodes'] + allFeatures['edges']
@@ -675,7 +656,7 @@ def compileTfData():
 
 # # Run it!
 
-# In[14]:
+# In[ ]:
 
 
 prepare()
@@ -693,10 +674,10 @@ parseMql()
 tfFromData()
 
 
-# In[ ]:
+# In[13]:
 
 
-checkDiffs()
+checkDiffs(thisSave, thisDeliver)
 
 
 # In[ ]:
@@ -709,12 +690,4 @@ deliverDataset()
 
 
 compileTfData()
-
-
-# If in script mode, we should tell whether the execution was successful or not.
-
-# In[ ]:
-
-
-if SCRIPT: sys.exit(0 if good else 1)
 

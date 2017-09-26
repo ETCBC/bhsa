@@ -1,23 +1,18 @@
 @node
-@author=Eep Talstra Centre for Bible and Computer
-@dataset=BHSA
-@datasetName=Biblia Hebraica Stuttgartensia Amstelodamensis
-@email=shebanq@ancient-data.org
-@encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)
 @valueType=str
-@website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-09-25T16:29:04Z
+@dateWritten=2016-12-17T07:06:16Z
 
 1-426581	word
-426582-426620	book
-426621-427549	chapter
-427550-515549	clause
-515550-606111	clause_atom
-606112-651291	half_verse
-651292-904465	phrase
-904466-1171980	phrase_atom
-1171981-1235550	sentence
-1235551-1299889	sentence_atom
-1299890-1413681	subphrase
+426582-514581	clause
+514582-605143	clause_atom
+605144-858317	phrase
+858318-1125832	phrase_atom
+1125833-1189402	sentence
+1189403-1253741	sentence_atom
+1253742-1367533	subphrase
+1367534-1367572	book
+1367573-1368501	chapter
+1368502-1413681	half_verse
 1413682-1436894	verse
+1436895-1446130	lex

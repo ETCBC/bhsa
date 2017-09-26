@@ -1,4 +1,5 @@
-import os,collections,time,bz2
+import sys,os,collections,time,bz2
+from glob import glob
 
 def bunzip(bzFile, uzFile):
     with bz2.open(bzFile, mode='rt') as bdata:
@@ -23,3 +24,47 @@ def _duration():
 def tprint(msg):
     print('{:>11} {}'.format(_duration(), msg))
 
+def checkDiffs(thisSave, thisDeliver, only=None):
+    def diffFeature(f):
+        sys.stdout.write('{:<25} ... '.format(f))
+        existingPath = '{}/{}.tf'.format(thisDeliver, f)
+        newPath = '{}/{}.tf'.format(thisSave, f)
+        with open(existingPath) as h: eLines = (d for d in h.readlines() if not d.startswith('@'))
+        with open(newPath) as h: nLines = (d for d in h.readlines() if not d.startswith('@'))
+        i = 0
+        equal = True
+        for (e, n) in zip(eLines, nLines):
+            i += 1
+            if e != n:
+                print('First diff in line {} after the  metadata'.format(i))
+                equal = False
+                continue
+        print('no changes' if equal else '')
+
+    startNow()
+    tprint('checkDiffs')
+    existingFiles = glob('{}/*.tf'.format(thisDeliver))
+    newFiles = glob('{}/*.tf'.format(thisSave))
+    existingFeatures = {os.path.basename(os.path.splitext(f)[0]) for f in existingFiles}
+    newFeatures = {os.path.basename(os.path.splitext(f)[0]) for f in newFiles}
+
+    if only != None:
+        existingFeatures &= only
+        newFeatures &= only
+
+    addedOnes = newFeatures - existingFeatures
+    deletedOnes = existingFeatures - newFeatures
+    commonOnes = newFeatures & existingFeatures
+
+    if addedOnes:
+        print('{} features to add:\n\t{}'.format(len(addedOnes), ' '.join(sorted(addedOnes))))
+    else:
+        print('no features to add')
+    if deletedOnes:
+        print('{} features to delete:\n\t{}'.format(len(deletedOnes), ' '.join(sorted(deletedOnes))))
+    else:
+        print('no features to delete')
+
+    print('{} features in common'.format(len(commonOnes)))
+    
+    for f in sorted(commonOnes): diffFeature(f)
