@@ -7,7 +7,7 @@
 @valueType=str
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-09-25T14:20:04Z
+@dateWritten=2017-09-27T23:19:12Z
 
 427558	427557
 427570	105

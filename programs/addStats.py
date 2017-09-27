@@ -44,8 +44,7 @@
 
 
 import os,sys,re,collections
-from shutil import rmtree, copytree, copy
-from utils import startNow, tprint, checkDiffs
+from utils import startNow, tprint, checkDiffs, deliverFeatures
 from tf.fabric import Fabric
 from blang import bookLangs, bookNames
 
@@ -103,8 +102,6 @@ newFeatures = newFeaturesStr.strip().split()
 
 
 if SCRIPT:
-    if VERSION == 'd':
-        stop(good=True)
     (good, work) = MUSTRUN(None, '{}/.tf/{}.tfx'.format(thisDeliver, newFeatures[0]))
     if not good: stop(good=False)
     if not work: stop(good=True)
@@ -203,18 +200,6 @@ def collect():
 # 
 # Copy the new TF features from the temporary location where they have been created to their final destination.
 
-# In[14]:
-
-
-def deliverDataset():
-    print('Copy features from {} to {}'.format(thisSave, thisDeliver))
-    for feature in newFeatures:
-        tempLoc = '{}/{}.tf'.format(thisSave, feature)
-        deliverLoc = '{}/{}.tf'.format(thisDeliver, feature)
-        print(feature)
-        copy(tempLoc, deliverLoc)      
-
-
 # # Stage: Compile TF
 
 # In[18]:
@@ -256,7 +241,7 @@ checkDiffs(thisSave, thisDeliver, only=set(newFeatures))
 # In[15]:
 
 
-deliverDataset()
+deliverFeatures(thisSave, thisDeliver, newFeatures)
 
 
 # In[19]:

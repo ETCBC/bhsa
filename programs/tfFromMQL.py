@@ -37,21 +37,16 @@
 # Some features are still missing.
 # In the etcbc4c version I have worked around those details, which resulted in a complete dataset 4c.
 # 
-# In order to test the later modules dependent on the ETCBC data, we use this version, and call it `d`
-# (development purposes).
-# 
-# Hopefull we can agree on these requirements for the future continuous `c` version and the fixed versions `2017` etc.
-# 
-# So, in this notebook, if the version is `d`, we skip the mql version, and copy over the datasource straight from
-# the text-fabric-data/hebrew/4c directory.
+# I will implement those hacks in the pipeline, until they are not necessary anymore.
 
-# In[1]:
+# In[5]:
 
 
 import os,sys,re,collections
-from shutil import rmtree, copytree
+from shutil import rmtree
 from tf.fabric import Fabric
-from utils import bunzip, startNow, tprint, checkDiffs
+from tf.helpers import setFromSpec
+from utils import bunzip, startNow, tprint, checkDiffs, deliverDataset
 from blang import bookLangs, bookNames
 
 
@@ -85,13 +80,13 @@ from blang import bookLangs, bookNames
 # 
 # We pass the name of the data source, the version, and the name of a target TF module.
 
-# In[2]:
+# In[6]:
 
 
 if 'SCRIPT' not in locals():
     SCRIPT = False
     CORE_NAME = 'bhsa'
-    VERSION= 'd'
+    VERSION= 'c'
     CORE_MODULE ='core' 
 
 def stop(good=False):
@@ -103,18 +98,18 @@ def stop(good=False):
 # The conversion is executed in an environment of directories, so that sources, temp files and
 # results are in convenient places and do not have to be shifted around.
 
-# In[3]:
+# In[7]:
 
 
 module = CORE_MODULE
 repoBase = os.path.expanduser('~/github/etcbc')
 thisRepo = '{}/{}'.format(repoBase, CORE_NAME)
 
-thisSource = '{}/source'.format(thisRepo)
-mqlzFile = '{}/{}-{}.mql.bz2'.format(thisSource, CORE_NAME, VERSION)
+thisSource = '{}/source/{}'.format(thisRepo, VERSION)
+mqlzFile = '{}/{}.mql.bz2'.format(thisSource, CORE_NAME)
 
 thisTemp = '{}/_temp/{}'.format(thisRepo, VERSION)
-mqlFile = '{}/{}-{}.mql'.format(thisTemp, CORE_NAME, VERSION)
+mqlFile = '{}/{}.mql'.format(thisTemp, CORE_NAME)
 thisSave = '{}/{}'.format(thisTemp, module)
 
 thisTf = '{}/tf/{}'.format(thisRepo, VERSION)
@@ -126,21 +121,11 @@ thisDeliver = '{}/{}'.format(thisTf, module)
 # Check whether this conversion is needed in the first place.
 # Only when run as a script.
 
-# In[3]:
+# In[8]:
 
 
 if SCRIPT:
     testFile = '{}/.tf/otype.tfx'.format(thisDeliver)
-    if VERSION == 'd':
-        testFile = '{}/otype.tf'.format(thisDeliver)
-        test = os.path.exists(testFile)
-        if test:
-            print('Dataset in place')
-        else: 
-            print('Dataset not present. Copy it over from {} to {}'.format(
-                'text-fabric-data/hebrew/etcbc4c', thisDeliver,
-            ))
-        stop(good=test)
     (good, work) = MUSTRUN(mqlzFile, '{}/.tf/otype.tfx'.format(thisDeliver))
     if not good: stop(good=False)
     if not work: stop(good=True)
@@ -159,7 +144,7 @@ if SCRIPT:
 # We save the configs we need per source and version.
 # And we define a stripped down default version to start with.
 
-# In[5]:
+# In[9]:
 
 
 slotType = 'word'
@@ -179,10 +164,9 @@ oText = {
 @sectionFeatures=book,chapter,verse
 @sectionTypes=book,chapter,verse
 @fmt:text-orig-full={g_word_utf8}{g_suffix_utf8}
-        ''',
+''',
     },
-    'x_etcbc': {
-        '4': '''
+    '4': '''
 @fmt:lex-orig-full={g_lex_utf8} 
 @fmt:lex-orig-plain={lex_utf8} 
 @fmt:lex-trans-full={g_lex} 
@@ -195,8 +179,8 @@ oText = {
 @fmt:text-trans-plain={g_cons} 
 @sectionFeatures=book,chapter,verse
 @sectionTypes=book,chapter,verse
-        ''',
-        '4b': '''
+''',
+    '4b': '''
 @fmt:lex-orig-full={g_lex_utf8} 
 @fmt:lex-orig-plain={lex_utf8} 
 @fmt:lex-trans-full={g_lex} 
@@ -209,52 +193,50 @@ oText = {
 @fmt:text-trans-plain={g_cons} 
 @sectionFeatures=book,chapter,verse
 @sectionTypes=book,chapter,verse
-        ''',
-    },
-    'bhsa': {
-        'c': '''
+''',
+    'c': '''
 @fmt:lex-orig-full={g_lex_utf8} 
 @fmt:lex-orig-plain={lex_utf8} 
 @fmt:lex-trans-full={g_lex} 
 @fmt:lex-trans-plain={lex} 
-@fmt:text-orig-full={qere_utf8/g_word_utf8}{qere_trailer_utf8/trailer_utf8}
-@fmt:text-orig-full-ketiv={g_word_utf8}{trailer_utf8}
+@fmt:text-orig-full={g_word_utf8}{trailer_utf8}
 @fmt:text-orig-plain={g_cons_utf8}{trailer_utf8}
-@fmt:text-trans-full={qere/g_word}{qere_trailer/trailer}
-@fmt:text-trans-full-ketiv={g_word}{trailer}
+@fmt:text-trans-full={g_word}{trailer}
 @fmt:text-trans-plain={g_cons}{trailer}
 @sectionFeatures=book,chapter,verse
 @sectionTypes=book,chapter,verse
-        ''',
-        'd': '''
+''',
+    '2017': '''
 @fmt:lex-orig-full={g_lex_utf8} 
 @fmt:lex-orig-plain={lex_utf8} 
 @fmt:lex-trans-full={g_lex} 
 @fmt:lex-trans-plain={lex} 
-@fmt:text-orig-full={qere_utf8/g_word_utf8}{trailer_utf8}
-@fmt:text-orig-full-ketiv={g_word_utf8}{trailer_utf8}
+@fmt:text-orig-full={g_word_utf8}{trailer_utf8}
 @fmt:text-orig-plain={g_cons_utf8}{trailer_utf8}
-@fmt:text-trans-full={qere/g_word}{trailer}
-@fmt:text-trans-full-ketiv={g_word}{trailer}
+@fmt:text-trans-full={g_word}{trailer}
 @fmt:text-trans-plain={g_cons}{trailer}
 @sectionFeatures=book,chapter,verse
 @sectionTypes=book,chapter,verse
-        ''',
-    },
+''',
 }
 
+
+# @fmt:text-orig-full={qere_utf8/g_word_utf8}{qere_trailer_utf8/trailer_utf8}
+# @fmt:text-orig-full-ketiv={g_word_utf8}{trailer_utf8}
+# @fmt:text-trans-full={qere/g_word}{qere_trailer/trailer}
+# @fmt:text-trans-full-ketiv={g_word}{trailer}
 
 # The next function selects the proper otext material, falling back on a default if nothing 
 # appropriate has been specified in `oText`.
 
-# In[6]:
+# In[10]:
 
 
 def getOtext():
-    thisOtext = oText.get(CORE_NAME, {}).get(VERSION, oText[''][''])
-    otextInfo = dict(line[1:].split('=', 1) for line in thisOtext.strip().split('\n'))
+    thisOtext = oText.get(VERSION, oText[''])
+    otextInfo = dict(line[1:].split('=', 1) for line in thisOtext.strip('\n').split('\n'))
 
-    if thisOtext is oText['']['']:
+    if thisOtext is oText['']:
         print('WARNING: no otext feature info provided, using a meager default value') 
     else:
         print('INFO: otext feature information found')
@@ -285,7 +267,7 @@ def getOtext():
 #   * node features
 #   * edge features.
 
-# In[7]:
+# In[11]:
 
 
 objectTypes = dict()
@@ -299,13 +281,16 @@ nodeF = dict()
 # 
 # Check the source, bunzip it if needed, empty the result directory.
 
-# In[8]:
+# In[12]:
 
 
 def prepare():
     global thisoText
 
     startNow()
+    if not os.path.exists(thisTemp):
+        os.makedirs(thisTemp)
+
     tprint('bunzipping {} ...'.format(mqlzFile))
     bunzip(mqlzFile, mqlFile)
     tprint('Done')
@@ -323,22 +308,19 @@ def prepare():
 # Plough through the MQL file and grab all relevant information
 # and put it into the dedicated data structure.
 
-# In[9]:
+# In[13]:
 
 
-def setFromSpec(spec):
-    covered = set()
-    for r_str in spec.split(','):
-        bounds = r_str.split('-')
-        if len(bounds) == 1:
-            covered.add(int(r_str))
-        else:
-            b = int(bounds[0])
-            e = int(bounds[1])
-            if (e < b): (b, e) = (e, b)
-            for n in range(b, e+1): covered.add(n)
-    return covered
+uniscan = re.compile(r'(?:\\x..)+')
 
+def makeuni(match):
+    ''' Make proper unicode of a text that contains byte escape codes such as backslash xb6
+    '''
+    byts = eval('"' + match.group(0) + '"')
+    return byts.encode('latin1').decode('utf-8')
+
+def uni(line): return uniscan.sub(makeuni, line)
+    
 def parseMql():
     tprint('Parsing mql source ...')
     fh = open(mqlFile)
@@ -380,7 +362,7 @@ def parseMql():
             comp = comps[0].strip()
             words = comp.split()
             if words[0] == 'DEFAULT':
-                enums[curEnum]['default'] = words[1]
+                enums[curEnum]['default'] = uni(words[1])
                 value = words[1]
             else:
                 value = words[0]
@@ -403,7 +385,7 @@ def parseMql():
             fMQLType = fInfoComps[0]
             fDefault = fInfoComps[1].strip().split(' ', 1)[1] if len(fInfoComps) == 1 else None
             if fDefault != None and fMQLType in STRING_TYPES:
-                fDefault = fDefault[1:-1]
+                fDefault = uni(fDefault[1:-1])
             default = enums.get(fMQLType, {}).get('default', fDefault)
             ftype = 'str' if fMQLType in enums else                    'int' if fMQLType == 'integer' else                    'str' if fMQLType in STRING_TYPES else                    'int' if fInfo == 'id_d' else                    'str'
             isEdge = fMQLType == 'id_d'
@@ -443,7 +425,7 @@ def parseMql():
                             curValue += line
                         else:
                             curValue += line.rstrip().rstrip(';').rstrip('"')
-                            curObject['feats'][curFeature] = curValue
+                            curObject['feats'][curFeature] = uni(curValue)
                             curValue = None
                             curFeature = None
                         continue
@@ -459,7 +441,7 @@ def parseMql():
                             curValue = valuePart.lstrip('"')
                         else:
                             value = valuePart.rstrip().rstrip(';').strip('"')
-                            curObject['feats'][feature] = value
+                            curObject['feats'][feature] = uni(value) if isText else value
                     else:
                         tprint('ERROR: line {}: unrecognized line -->{}<--'.format(ln, line))
                         good = False
@@ -488,7 +470,7 @@ def parseMql():
 # Transform the collected information in feature-like datastructures, and write it all
 # out to `.tf` files.
 
-# In[10]:
+# In[14]:
 
 
 def tfFromData():
@@ -618,16 +600,6 @@ def tfFromData():
 # 
 # Copy the new TF dataset from the temporary location where it has been created to its final destination.
 
-# In[11]:
-
-
-def deliverDataset():
-    print('Copy data set to {}'.format(thisDeliver))
-    if os.path.exists(thisDeliver):
-        rmtree(thisDeliver)
-    copytree(thisSave, thisDeliver)
-
-
 # # Stage: Compile TF
 # 
 # Just to see whether everything loads and the precomputing of extra information works out.
@@ -640,7 +612,7 @@ def deliverDataset():
 # At that point we have access to the full list of features.
 # We grab them and are going to load them all! 
 
-# In[12]:
+# In[15]:
 
 
 def compileTfData():
@@ -656,38 +628,44 @@ def compileTfData():
 
 # # Run it!
 
-# In[ ]:
+# In[16]:
 
 
 prepare()
 
 
-# In[ ]:
+# In[17]:
 
 
 parseMql()
 
 
-# In[ ]:
+# In[18]:
 
 
 tfFromData()
 
 
-# In[13]:
+# In[19]:
 
 
 checkDiffs(thisSave, thisDeliver)
 
 
-# In[ ]:
+# In[20]:
 
 
-deliverDataset()
+deliverDataset(thisSave, thisDeliver)
 
 
-# In[ ]:
+# In[21]:
 
 
 compileTfData()
+
+
+# In[ ]:
+
+
+
 
