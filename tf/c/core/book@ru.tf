@@ -10,7 +10,7 @@
 @valueType=str
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-09-27T23:18:23Z
+@dateWritten=2017-09-28T15:07:46Z
 
 426582	Бытия
 Исход

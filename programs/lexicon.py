@@ -7,7 +7,7 @@
 # 
 # This notebook can read lexicon info in files issued by the etcbc and transform them 
 # into new features.
-# There will be features at the word level and a new level will be made: lexeme.
+# There will be new features at the word level and a new level will be made: lexeme.
 # 
 # Most lexical features do not go to the word nodes but to the lexeme nodes.
 # 
@@ -60,28 +60,68 @@
 # ## Varia
 # 1. `lex` contains the lexeme (in transcription) with disambiguation marks (`[/=`) appended.
 #    For text transformations we prefer the bare lexeme
-# 1. `lex_utf` has frills at the end of many values. Probably they have arisen by transforming the lexeme plus
-#    disambiguation marks into unicode. We overwrite this feature with the transform of the bare lexeme.
+# 1. `lex_utf` has frills at the end of many values. 
+#    They occur where the final consonant as an alternative form. See analysis below.
 # 1. `language` has values `Hebrew` and `Aramaic`. We prefer ISO language codes: `hbo` and `arc` instead.
 #    By adding `language` for lexeme nodes we already have switched to ISO codes. Here we do the rest.
+
+# # Analysis of lex_utf8
 # 
-# --to do
+# Let us focus on a few cases.
 # 
-# otext aanpassen
-# 
-# otype aanpassen: lex erin
-# 
-# features g_voc_lex en g_voc_lex_utf8 weghalen
-# 
-# feature lex0 maken
+# We translate the utf sequences found in the MQL source into real unicode characters:
+
+# In[46]:
+
+
+if not SCRIPT:
+    import unicodedata
+
+    uniscan = re.compile(r'(?:\\x..)+')
+
+    def makeuni(match):
+        ''' Make proper unicode of a text that contains byte escape codes such as backslash xb6
+        '''
+        byts = eval('"' + match.group(0) + '"')
+        return byts.encode('latin1').decode('utf-8')
+
+    def uni(line): return uniscan.sub(makeuni, line)
+
+    cases = dict(
+        b = r'\xd7\x91',
+        rcjt = r'\xd7\xa8\xd7\x90\xd7\xa9\xd7\x81\xd7\x99\xd7\xaa\xd6\x9c',
+        rcjt_nme = r'\xd6\x9c',
+        lhjm = r'\xd7\x90\xd7\x9c\xd7\x94\xd7\x99\xd7\x9d\xd6\x9c',
+        al = r'\xd7\xa2\xd7\x9c'
+    )
+
+    for (case, utf8) in sorted(cases.items()):
+        uword = uni(utf8)
+        uLast = uword[-1]
+        uCode = ord(uLast)
+        uName = unicodedata.name(uLast)
+        print('''{:<10}: 
+        MQL original   = {}
+        Unicode        = {}
+        Last char id   = {:>4x} {}
+        Last char uni  = {}
+    '''.format(case,
+            utf8,
+            uword,
+            uCode, uName,
+            uLast,
+        ))
+
+
+# It seems that some `lex_utf8` values end in an spurious GERESH accents.
+# We are going to remove them.
 
 # In[1]:
 
 
 import os,sys,re,collections
 from tf.fabric import Fabric
-from tf.transcription import Transcription
-from utils import startNow, tprint, checkDiffs, deliverFeatures
+import utils
 
 
 # In[2]:
@@ -89,6 +129,7 @@ from utils import startNow, tprint, checkDiffs, deliverFeatures
 
 if 'SCRIPT' not in locals():
     SCRIPT = False
+    FORCE = True
     CORE_NAME = 'bhsa'
     VERSION= 'c'
     CORE_MODULE ='core' 
@@ -133,7 +174,7 @@ testFeature = 'lex0'
 
 
 if SCRIPT:
-    (good, work) = MUSTRUN(None, '{}/.tf/{}.tfx'.format(thisDeliver, testFeature))
+    (good, work) = utils.mustRun(None, '{}/.tf/{}.tfx'.format(thisDeliver, testFeature), force=FORCE)
     if not good: stop(good=False)
     if not work: stop(good=True)
 
@@ -142,6 +183,8 @@ if SCRIPT:
 # 
 # * a piece of metadata that will go into these features; the time will be added automatically
 # * new text formats for the `otext` feature of TF, based on lexical features.
+#   We select the version specific otext material, 
+#   falling back on a default if nothing appropriate has been specified in oText.
 # 
 # We do not do this for the older versions 4 and 4b.
 
@@ -165,24 +208,15 @@ oText = {
 ''',
 }
 
+thisOtext = oText.get(VERSION, '')
+otextInfo = dict(line[1:].split('=', 1) for line in thisOtext.strip('\n').split('\n'))
 
-# The next function selects the proper otext material, falling back on a default if nothing 
-# appropriate has been specified in `oText`.
-
-# In[7]:
-
-
-def getOtext():
-    thisOtext = oText.get(VERSION, '')
-    otextInfo = dict(line[1:].split('=', 1) for line in thisOtext.strip('\n').split('\n'))
-
-    if thisOtext is '':
-        print('No additional text formats provided') 
-    else:
-        print('New text formats')
-    for x in sorted(otextInfo.items()):
-        print('{:<20} = "{}"'.format(*x))
-    return otextInfo
+if thisOtext is '':
+    utils.caption(0, 'No additional text formats provided') 
+else:
+    utils.caption(0, 'New text formats')
+for x in sorted(otextInfo.items()):
+    utils.caption(0, '{:<30} = "{}"'.format(*x))
 
 
 # # Stage: Lexicon preparation
@@ -190,11 +224,13 @@ def getOtext():
 # The lexical data will not be added as features of words, but as features of lexemes.
 # The lexemes will be added as fresh nodes, of a new type `lex`.
 
-# In[8]:
+# In[9]:
 
 
+utils.caption(4, 'Load the existing TF dataset')
 TF = Fabric(locations=thisTf, modules=module)
 api = TF.load('lex lex_utf8 language sp ls gn ps nu st g_voc_lex g_voc_lex_utf8 oslots')
+
 F = api.F
 Fs = api.Fs
 E = api.E
@@ -214,12 +250,18 @@ N = api.N
 # In[9]:
 
 
+utils.caption(4, 'Collect lexemes from the text')
+
 langMap = {
     'hbo': 'hbo',
     'Hebrew': 'hbo',
     'Aramaic': 'arc',
     'arc': 'arc',
 }
+
+doValueCompare = {'sp', 'ls', 'gn', 'ps', 'nu', 'st'}
+
+lexText = {}
 
 maxNode = F.otype.maxNode
 maxSlot = F.otype.maxSlot
@@ -237,15 +279,26 @@ for n in F.otype.s('word'):
     lan = langMap[F.language.v(n)]
     lexId = (lan, lex)
     lexOccs.setdefault(lexId, []).append(n)
+
+    for ft in doValueCompare:
+        val = Fs(ft).v(n)        
+        lexText.setdefault(lan, {}).setdefault(lex, {}).setdefault(ft, set()).add(val)
+
     if lexId not in nodeFromLex:
         lexNode += 1
         nodeFromLex[lexId] = lexNode
         lexFromNode[lexNode] = lexId
-print('added {} lexemes\nmaxNode is now {}'.format(len(nodeFromLex), lexNode))
 
 for n in range(maxNode+1, lexNode+1):
     otypeData[n] = 'lex'
     oslotsData[n] = lexOccs[lexFromNode[n]]
+    
+utils.caption(0, 'added {} lexemes'.format(len(nodeFromLex)))
+utils.caption(0, 'maxNode is now {}'.format(lexNode))
+
+for lan in sorted(lexText):
+    utils.caption(0, 'language {} has {:>5} lexemes in the text'.format(lan, len(lexText[lan])))
+    lexOccs.setdefault(lexId, []).append(n)
 
 
 # # Lexicon pass
@@ -253,6 +306,8 @@ for n in range(maxNode+1, lexNode+1):
 
 # In[10]:
 
+
+utils.caption(4, 'Collect lexeme info from the lexicon')
 
 langs = set(langMap.values())
 lexFile = dict((lan, '{}/lexicon_{}.txt'.format(thisSource, lan)) for lan in langs)
@@ -305,55 +360,32 @@ def readLex(lan):
     lexInfile.close()
     nErrors = len(errors)
     if len(errors):
-        print('Lexicon [{}]: {} error{}'.format(nErrors, '' if nErrors == 1 else 's'))
+        utils.caption(0, 'Lexicon [{}]: {} error{}'.format(nErrors, '' if nErrors == 1 else 's'))
     return lexItems
 
-print("Reading lexicon ...")
+utils.caption(0, 'Reading lexicon ...')
 lexEntries = dict((lan, readLex(lan)) for lan in sorted(langs))
 for lan in sorted(lexEntries):
-    print('Lexicon {} has {:>5} entries'.format(lan, len(lexEntries[lan])))
-print("Done")
+    utils.caption(0, 'Lexicon {} has {:>5} entries'.format(lan, len(lexEntries[lan])))
+utils.caption(0, 'Done')
 
 
 # # Tests
 # 
 # ## Matching of text and lexicon
 # 
-# We inspect all word occurrences of the BHSA core database, inspect their language and lexeme values, and construct sets of lexemes that belong to each of the two languages, ``hbo`` and ``arc``.
+# Let us now check whether all lexemes in the text occur in the lexicon and vice versa.
 
 # In[11]:
 
 
-lexText = {}
-doValueCompare = {'sp', 'ls', 'gn', 'ps', 'nu', 'st'}
-nodeLex = {}
-
-print('Reading the BHSA core data ...')
-textLangs = set()
-for n in F.otype.s('word'):
-    lan = langMap[F.language.v(n)]
-    textLangs.add(lan)
-    lex = F.lex.v(n)
-    nodeLex[n] = (lan,lex)
-    for ft in doValueCompare:
-        val = Fs(ft).v(n)        
-        lexText.setdefault(lan, {}).setdefault(lex, {}).setdefault(ft, set()).add(val)
-
-print("Done")
-for lan in sorted(lexText):
-    print('Language {} has {:>5} lexemes in the text'.format(lan, len(lexText[lan])))
-
-
-# Let us now check whether all lexemes in the text occur in the lexicon and vice versa.
-
-# In[12]:
-
+utils.caption(4, 'Test - Match between text and lexicon')
 
 arcLex = set(lexEntries['arc'])
 hboLex = set(lexEntries['hbo'])
 
-print('{} arc lexemes'.format(len(arcLex)))
-print('{} hbo lexemes'.format(len(hboLex)))
+utils.caption(0, '{} arc lexemes'.format(len(arcLex)))
+utils.caption(0, '{} hbo lexemes'.format(len(hboLex)))
 
 arcText = set(lexText['arc'])
 hboText = set(lexText['hbo'])
@@ -364,12 +396,12 @@ hboAndArcLex = arcLex & hboLex
 lexMinText = hboAndArcLex - hboAndArcText
 textMinLex = hboAndArcText - hboAndArcLex
 
-print('Equal lex values in hbo and arc in the BHSA   text contains {} lexemes'.format(len(hboAndArcText)))
-print('Equal lex values in hbo and arc in the lexicon     contains {} lexemes'.format(len(hboAndArcLex)))
-print("Common values in the lexicon but not in the text: {}x: {}".format(
+utils.caption(0, 'Equal lex values in hbo and arc in the BHSA   text contains {} lexemes'.format(len(hboAndArcText)))
+utils.caption(0, 'Equal lex values in hbo and arc in the lexicon     contains {} lexemes'.format(len(hboAndArcLex)))
+utils.caption(0, 'Common values in the lexicon but not in the text: {}x: {}'.format(
     len(lexMinText), lexMinText)
 )
-print("Common values in the text but not in the lexicon: {}x: {}".format(
+utils.caption(0, 'Common values in the text but not in the lexicon: {}x: {}'.format(
     len(textMinLex), textMinLex)
 )
 
@@ -385,7 +417,9 @@ for (myset, mymsg) in (
     (hboTextMinLex, 'hbo: lexemes in text but not in lexicon'),
     (hboLexMinText, 'hbo: lexemes in lexicon but not in text'),
 ):
-    print('{}: {}x{}'.format(mymsg, len(myset), '' if not myset else '\n\t{}'.format(', '.join(sorted(myset)))))
+    utils.caption(0, '{}: {}x{}'.format(
+        mymsg, len(myset), '' if not myset else '\n\t{}'.format(', '.join(sorted(myset))),
+    ))
 
 
 # ## Consistency of vocalized lexeme
@@ -401,8 +435,10 @@ for (myset, mymsg) in (
 # 
 # Supposing it is all consistent, we will call the new lexeme features `voc_lex` and `voc_lex_utf8`.
 
-# In[13]:
+# In[12]:
 
+
+utils.caption(4, 'Test - Consistency of vocalized lexeme')
 
 vocFeatures = dict(voc_lex={}, voc_lex_utf8={})
 
@@ -413,15 +449,15 @@ missing = {}
 def showExceptions(cases):
     nCases = len(cases)
     if nCases == 0:
-        print('Fully consistent')
+        utils.caption(0, '\tFully consistent')
     else:
-        print('{} inconsistent cases'.format(nCases))
+        utils.caption(0, '\t{} inconsistent cases'.format(nCases))
         limit = 10
         for (i, (lan, lex)) in enumerate(cases):
             if i == limit:
-                print('...and {} more.'.format(nCases - limit))
+                utils.caption(0, '\t\t...and {} more.'.format(nCases - limit))
                 break
-            print('{}-{}: {}'.format(lan, lex, ', '.join(sorted(cases[(lan, lex)]))))
+            utils.caption(0, '\t\t{}-{}: {}'.format(lan, lex, ', '.join(sorted(cases[(lan, lex)]))))
 
 for w in F.otype.s('word'):
     lan = langMap[F.language.v(w)]
@@ -442,13 +478,14 @@ for w in F.otype.s('word'):
                 exceptions['incons'][f].setdefault((lan, lex), {current}).add(new)
 
 nMissing = len(missing)
-print('lexemes with missing vc property: {}x'.format(nMissing))
+
+utils.caption(0, 'lexemes with missing vc property: {}x'.format(nMissing))
 for (lan, lex) in sorted(missing)[0:20]:
-    print('\t{}-{} supplied from occurrence: {}'.format(lan, lex, vocFeatures['voc_lex'][(lan, lex)]))
+    utils.caption(0, '\t{}-{} supplied from occurrence: {}'.format(lan, lex, vocFeatures['voc_lex'][(lan, lex)]))
 for f in vocFeatures:
-    print('Have all occurrences of a lexeme the same {} value?'.format(f))
+    utils.caption(0, 'Have all occurrences of a lexeme the same {} value?'.format(f))
     showExceptions(exceptions['incons'][f])
-print('Are the voc_lex values of the lexeme consistent with the vc value of the lexeme?')
+utils.caption(0, 'Are the voc_lex values of the lexeme consistent with the vc value of the lexeme?')
 showExceptions(exceptions['deviating'])                          
 
 
@@ -456,8 +493,10 @@ showExceptions(exceptions['deviating'])
 # 
 # We now collect the lexical information into the features for nodes of type `lex`.
 
-# In[14]:
+# In[13]:
 
+
+utils.caption(4, 'Prepare TF lexical features')
 
 nodeFeatures = {}
 
@@ -493,38 +532,37 @@ for (lan, lexemes) in lexEntries.items():
 
 # We address the issues listed under varia above.
 
-# In[15]:
+# In[14]:
 
+
+utils.caption(4, 'Various tweaks in features')
 
 nodeFeatures['lex0'] = {}
 nodeFeatures['lex_utf8'] = {}
 
+geresh = chr(0x59c)
+
 for n in F.otype.s('word'):
-    lex = F.lex.v(n).rstrip('[/=')
+    lex_utf8 = F.lex_utf8.v(n)
+    if lex_utf8.endswith(geresh): lex_utf8 = lex_utf8.rstrip(geresh)
     lan = F.language.v(n)
     nodeFeatures['lex0'][n] = lex
-    nodeFeatures['lex_utf8'][n] = Transcription.to_hebrew(lex)
+    nodeFeatures['lex_utf8'][n] = lex_utf8
     nodeFeatures['language'][n] = langMap[lan]
-
-
-# In[16]:
-
-
-testNodes = range(maxNode+1, maxNode + 10)
-[nodeFeatures['voc_lex_utf8'][n] for n in testNodes]
 
 
 # We update the `otype`, `otext` and `oslots` features.
 
-# In[17]:
+# In[15]:
 
 
+utils.caption(4, 'Update the otype, oslots and otext features')
 metaData = {}
 edgeFeatures = {}
 
 metaData['otext'] = dict()
 metaData['otext'].update(T.config)
-metaData['otext'].update(getOtext())
+metaData['otext'].update(otextInfo)
 metaData['otype'] = dict(valueType='str')
 metaData['oslots'] = dict(valueType='str')
 
@@ -539,9 +577,22 @@ edgeFeatures['oslots'] = dict((n, E.oslots.s(n)) for n in range(maxSlot + 1, max
 edgeFeatures['oslots'].update(oslotsData)
 
 
+# In[16]:
+
+
+utils.caption(0, 'Features that have new or modified data')
+for f in sorted(nodeFeatures) + sorted(edgeFeatures):
+    utils.caption(0, '\t{}'.format(f))
+
+testNodes = range(maxNode+1, maxNode + 10)
+utils.caption(0, 'Check voc_lex_utf8: {}'.format(
+    ' '.join(nodeFeatures['voc_lex_utf8'][n] for n in testNodes)
+))
+
+
 # We specify the features to delete and list the new/changed features.
 
-# In[18]:
+# In[17]:
 
 
 deleteFeatures = set('''
@@ -549,8 +600,12 @@ deleteFeatures = set('''
     g_voc_lex_utf8
 '''.strip().split())
 
+utils.caption(0, 'Features to remove')
+for f in sorted(deleteFeatures):
+    utils.caption(0, '\t{}'.format(f))
 
-# In[19]:
+
+# In[18]:
 
 
 changedDataFeatures = set(nodeFeatures) | set(edgeFeatures)
@@ -561,16 +616,12 @@ changedFeatures = changedDataFeatures | {'otext'}
 # Transform the collected information in feature-like datastructures, and write it all
 # out to `.tf` files.
 
-# In[20]:
+# In[19]:
 
 
-def tfFromData():
-    startNow()
-    tprint('write new/changed features to TF ...')
-    TF = Fabric(locations=thisSave)
-    TF.save(nodeFeatures=nodeFeatures, edgeFeatures=edgeFeatures, metaData=metaData)
-
-tfFromData()
+utils.caption(4, 'write new/changed features to TF ...')
+TF = Fabric(locations=thisSave, silent=True)
+TF.save(nodeFeatures=nodeFeatures, edgeFeatures=edgeFeatures, metaData=metaData)
 
 
 # # Stage: Diffs
@@ -588,31 +639,31 @@ tfFromData()
 # For each changed feature we show the first line where the new feature differs from the old one.
 # We ignore changes in the metadata, because the timestamp in the metadata will always change.
 
-# In[21]:
+# In[20]:
 
 
-checkDiffs(thisSave, thisDeliver, only=changedFeatures)
+utils.checkDiffs(thisSave, thisDeliver, only=changedFeatures)
 
 
 # # Stage: Deliver 
 # 
 # Copy the new TF dataset from the temporary location where it has been created to its final destination.
 
-# In[22]:
+# In[24]:
 
 
-deliverFeatures(thisSave, thisDeliver, changedFeatures, deleteFeatures=deleteFeatures)
+utils.deliverFeatures(thisSave, thisDeliver, changedFeatures, deleteFeatures=deleteFeatures)
 
 
 # # Stage: Compile TF
 # 
 # We load the new features, use the new format, check some values
 
-# In[23]:
+# In[25]:
 
 
-startNow()
-tprint('load features')
+utils.caption(4, 'Load and compile the new TF features')
+
 TF = Fabric(locations=thisTf, modules=module)
 api = TF.load(' '.join(changedDataFeatures))
 F = api.F
@@ -621,28 +672,37 @@ T = api.T
 L = api.L
 
 
-# In[25]:
+# In[26]:
 
 
 features = [f[1] for f in lexFields] + ['voc_lex', 'voc_lex_utf8']
 
-def printLex(w):
+def showLex(w):
     info = dict((f, Fs(f).v(w)) for f in features)
-    print('\t{} - {} - {}x'.format(
+    utils.caption(0, '\t{} - {} - {}x'.format(
         F.language.v(w),
         F.lex.v(w),
-        len(L.d(w, otype='word'))
+        len(L.d(w, otype='word')),
     ))
     for f in sorted(info):
-        print('\t\t{:<15} = {}'.format(f, info[f]))
+        utils.caption(0, '\t\t{:<15} = {}'.format(f, info[f]))
 
-print('new format (using lex0)')
-print(T.text(range(1,12), fmt='lex-trans-plain'))
-print('lex_utf8 feature')
-print(' '.join(F.lex_utf8.v(w) for w in range(1,12)))
-print('language feature')
-print(' '.join(F.language.v(w) for w in range(1,12)))
-for w in range(1, 12): printLex(L.u(w, otype='lex')[0])
+fmt = 'lex-trans-plain'
+utils.caption(0, '{:<30}: {}'.format(
+    'new format {} (using lex0)'.format(fmt),
+    T.text(range(1,12), fmt=fmt),
+))
+utils.caption(0, '{:<30}: {}'.format(
+    'lex_utf8 feature',
+    ' '.join(F.lex_utf8.v(w) for w in range(1,12)),
+))
+utils.caption(0, '{:<30}: {}'.format(
+    'language feature',
+    ' '.join(F.language.v(w) for w in range(1,12)),
+))
+utils.caption(4, 'Lexeme info for the first verse')
+
+for w in range(1, 12): showLex(L.u(w, otype='lex')[0])
 
 
 # In[ ]:

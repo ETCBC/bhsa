@@ -7,7 +7,7 @@
 @valueType=str
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-09-27T23:22:48Z
+@dateWritten=2017-09-28T15:12:11Z
 
 hbo
 hbo

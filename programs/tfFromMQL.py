@@ -39,14 +39,14 @@
 # 
 # I will implement those hacks in the pipeline, until they are not necessary anymore.
 
-# In[5]:
+# In[1]:
 
 
 import os,sys,re,collections
 from shutil import rmtree
 from tf.fabric import Fabric
 from tf.helpers import setFromSpec
-from utils import bunzip, startNow, tprint, checkDiffs, deliverDataset
+import utils
 from blang import bookLangs, bookNames
 
 
@@ -80,11 +80,12 @@ from blang import bookLangs, bookNames
 # 
 # We pass the name of the data source, the version, and the name of a target TF module.
 
-# In[6]:
+# In[2]:
 
 
 if 'SCRIPT' not in locals():
     SCRIPT = False
+    FORCE = True
     CORE_NAME = 'bhsa'
     VERSION= 'c'
     CORE_MODULE ='core' 
@@ -98,7 +99,7 @@ def stop(good=False):
 # The conversion is executed in an environment of directories, so that sources, temp files and
 # results are in convenient places and do not have to be shifted around.
 
-# In[7]:
+# In[3]:
 
 
 module = CORE_MODULE
@@ -121,12 +122,12 @@ thisDeliver = '{}/{}'.format(thisTf, module)
 # Check whether this conversion is needed in the first place.
 # Only when run as a script.
 
-# In[8]:
+# In[4]:
 
 
 if SCRIPT:
     testFile = '{}/.tf/otype.tfx'.format(thisDeliver)
-    (good, work) = MUSTRUN(mqlzFile, '{}/.tf/otype.tfx'.format(thisDeliver))
+    (good, work) = utils.mustRun(mqlzFile, '{}/.tf/otype.tfx'.format(thisDeliver), force=FORCE)
     if not good: stop(good=False)
     if not work: stop(good=True)
 
@@ -144,7 +145,7 @@ if SCRIPT:
 # We save the configs we need per source and version.
 # And we define a stripped down default version to start with.
 
-# In[9]:
+# In[5]:
 
 
 slotType = 'word'
@@ -221,15 +222,10 @@ oText = {
 }
 
 
-# @fmt:text-orig-full={qere_utf8/g_word_utf8}{qere_trailer_utf8/trailer_utf8}
-# @fmt:text-orig-full-ketiv={g_word_utf8}{trailer_utf8}
-# @fmt:text-trans-full={qere/g_word}{qere_trailer/trailer}
-# @fmt:text-trans-full-ketiv={g_word}{trailer}
-
 # The next function selects the proper otext material, falling back on a default if nothing 
 # appropriate has been specified in `oText`.
 
-# In[10]:
+# In[6]:
 
 
 def getOtext():
@@ -237,11 +233,11 @@ def getOtext():
     otextInfo = dict(line[1:].split('=', 1) for line in thisOtext.strip('\n').split('\n'))
 
     if thisOtext is oText['']:
-        print('WARNING: no otext feature info provided, using a meager default value') 
+        utils.caption(0, 'WARNING: no otext feature info provided, using a meager default value') 
     else:
-        print('INFO: otext feature information found')
+        utils.caption(0, 'INFO: otext feature information found')
     for x in sorted(otextInfo.items()):
-        print('{:<20} = "{}"'.format(*x))
+        utils.caption(0, '\t{:<20} = "{}"'.format(*x))
     return otextInfo
 
 
@@ -249,7 +245,7 @@ def getOtext():
 # 
 # The program has several stages:
 #    
-# 1. **prepare** the source (bunzip if needed)
+# 1. **prepare** the source (utils.bunzip if needed)
 # 1. **parse MQL** and collect information in datastructures
 # 1. **transform to TF** write the datastructures as TF features
 # 1. **differences** (informational)
@@ -267,7 +263,7 @@ def getOtext():
 #   * node features
 #   * edge features.
 
-# In[11]:
+# In[7]:
 
 
 objectTypes = dict()
@@ -279,21 +275,20 @@ nodeF = dict()
 
 # # Stage: Prepare
 # 
-# Check the source, bunzip it if needed, empty the result directory.
+# Check the source, utils.bunzip it if needed, empty the result directory.
 
-# In[12]:
+# In[8]:
 
 
 def prepare():
     global thisoText
 
-    startNow()
     if not os.path.exists(thisTemp):
         os.makedirs(thisTemp)
 
-    tprint('bunzipping {} ...'.format(mqlzFile))
-    bunzip(mqlzFile, mqlFile)
-    tprint('Done')
+    utils.caption(0, 'bunzipping {} ...'.format(mqlzFile))
+    utils.bunzip(mqlzFile, mqlFile)
+    utils.caption(0, 'Done')
 
     if os.path.exists(thisSave): rmtree(thisSave)
     os.makedirs(thisSave)
@@ -322,7 +317,7 @@ def makeuni(match):
 def uni(line): return uniscan.sub(makeuni, line)
     
 def parseMql():
-    tprint('Parsing mql source ...')
+    utils.caption(4, 'Parsing mql source ...')
     fh = open(mqlFile)
 
     curId = None
@@ -345,12 +340,12 @@ def parseMql():
     for (ln, line) in enumerate(fh):
         inThisChunk += 1
         if inThisChunk == chunkSize:
-            tprint('\tline {:>9}'.format(ln + 1))
+            utils.caption(0, '\tline {:>9}'.format(ln + 1))
             inThisChunk = 0
         if line.startswith('CREATE OBJECTS WITH OBJECT TYPE') or line.startswith('WITH OBJECT TYPE'):
             comps = line.rstrip().rstrip(']').split('[', 1)
             curTable = comps[1]
-            print('\t\tobjects in {}'.format(curTable))
+            utils.caption(0, '\t\tobjects in {}'.format(curTable))
             curObject = None
             if not curTable in tables:
                 tables[curTable] = dict()
@@ -375,7 +370,7 @@ def parseMql():
                 if line.startswith('['):
                     curObjectType = line.rstrip()[1:]
                     objectTypes[curObjectType] = dict()
-                    print('\t\totype {}'.format(curObjectType))
+                    utils.caption(0, '\t\totype {}'.format(curObjectType))
                     continue
             comps = line.strip().rstrip(';').split(':', 1)
             feature = comps[0].strip()
@@ -383,7 +378,7 @@ def parseMql():
             fCleanInfo = fInfo.replace('FROM SET', '')
             fInfoComps = fCleanInfo.split(' ', 1)
             fMQLType = fInfoComps[0]
-            fDefault = fInfoComps[1].strip().split(' ', 1)[1] if len(fInfoComps) == 1 else None
+            fDefault = fInfoComps[1].strip().split(' ', 1)[1] if len(fInfoComps) == 2 else None
             if fDefault != None and fMQLType in STRING_TYPES:
                 fDefault = uni(fDefault[1:-1])
             default = enums.get(fMQLType, {}).get('default', fDefault)
@@ -395,7 +390,7 @@ def parseMql():
                 nodeF.setdefault(curObjectType, set()).add(feature)
 
             objectTypes[curObjectType][feature] = (ftype, default)
-            print('\t\t\tfeature {} ({}) = {} : {}'.format(feature, ftype, default, 'edge' if isEdge else 'node'))
+            utils.caption(0, '\t\t\tfeature {} ({}) =def= {} : {}'.format(feature, ftype, default, 'edge' if isEdge else 'node'))
         elif curTable != None:
             if curObject != None:
                 if line.startswith(']'):
@@ -443,7 +438,7 @@ def parseMql():
                             value = valuePart.rstrip().rstrip(';').strip('"')
                             curObject['feats'][feature] = uni(value) if isText else value
                     else:
-                        tprint('ERROR: line {}: unrecognized line -->{}<--'.format(ln, line))
+                        utils.caption(0, 'ERROR: line {}: unrecognized line -->{}<--'.format(ln, line))
                         good = False
                         break
             else:
@@ -455,13 +450,13 @@ def parseMql():
                 words = line.split()
                 curEnum = words[2]
                 enums[curEnum] = dict(default=None, values=[])
-                print('\t\tenum {}'.format(curEnum))
+                utils.caption(0, '\t\tenum {}'.format(curEnum))
             elif line.startswith('CREATE OBJECT TYPE'):
                 curObjectType = True
-    tprint('{} lines parsed'.format(ln + 1))
+    utils.caption(0, '{} lines parsed'.format(ln + 1))
     fh.close()
     for table in tables:
-        print('{} objects of type {}'.format(len(tables[table]), table))
+        utils.caption(0, '{} objects of type {}'.format(len(tables[table]), table))
     if not good:
         stop(good=False)
 
@@ -474,7 +469,7 @@ def parseMql():
 
 
 def tfFromData():
-    tprint('Making TF data ...')
+    utils.caption(4, 'Making TF data ...')
     
     NIL = {'nil', 'NIL', 'Nil'}
 
@@ -502,7 +497,7 @@ def tfFromData():
             'languageEnglish': langEnglish,
         }
 
-    tprint('Monad - idd mapping ...')
+    utils.caption(0, 'Monad - idd mapping ...')
     otype = dict()
     for idd in tables.get(slotType, {}):
         monad = list(tables[slotType][idd]['monads'])[0]
@@ -511,9 +506,9 @@ def tfFromData():
         otype[monad] = slotType
 
     maxSlot = max(nodeFromIdd.values()) if len(nodeFromIdd) else 0
-    tprint('maxSlot={}'.format(maxSlot))
+    utils.caption(0, 'maxSlot={}'.format(maxSlot))
 
-    tprint('Node mapping and otype ...')
+    utils.caption(0, 'Node mapping and otype ...')
     node = maxSlot
     for t in tableOrder[1:]:
         for idd in sorted(tables[t]):
@@ -527,7 +522,7 @@ def tfFromData():
         valueType='str',
     )
 
-    tprint('oslots ...')
+    utils.caption(0, 'oslots ...')
     oslots = dict()
     for t in tableOrder[1:]:
         for idd in tables.get(t, {}):
@@ -539,7 +534,7 @@ def tfFromData():
         valueType='str',
     )
 
-    tprint('metadata ...')
+    utils.caption(0, 'metadata ...')
     for t in nodeF:
         for f in nodeF[t]:
             ftype = objectTypes[t][f][0]
@@ -548,15 +543,15 @@ def tfFromData():
         for f in edgeF[t]:
             metaData.setdefault(f, {})['valueType'] = 'str'
 
-    tprint('features ...')
+    utils.caption(4, 'features ...')
     chunkSize = 100000
     for t in tableOrder:
-        tprint('\tfeatures from {}s'.format(t))
+        utils.caption(0, '\tfeatures from {}s'.format(t))
         inThisChunk = 0
         for (i, idd) in enumerate(tables.get(t, {})):
             inThisChunk += 1
             if inThisChunk == chunkSize:
-                tprint('\t{:>9} {}s'.format(i + 1, t))
+                utils.caption(0, '\t{:>9} {}s'.format(i + 1, t))
                 inThisChunk = 0
             node = nodeFromIdd[idd]
             features = tables[t][idd]['feats']
@@ -567,17 +562,17 @@ def tfFromData():
                         edgeFeatures.setdefault(f, {}).setdefault(node, set()).add(nodeFromIdd[int(v)])
                 else:
                     nodeFeatures.setdefault(f, {})[node] = v
-        tprint('\t{:>9} {}s'.format(i + 1, t))
+        utils.caption(0, '\t{:>9} {}s'.format(i + 1, t))
 
-    tprint('book names ...')
+    utils.caption(0, 'book names ...')
     nodeFeatures['book@la'] = nodeFeatures.get('book', {})
     bookNodes = sorted(nodeFeatures.get('book', {}))
     for (langCode, langBookNames) in bookNames.items():
         nodeFeatures['book@{}'.format(langCode)] = dict(zip(bookNodes, langBookNames))
 
-    tprint('write data set to TF ...')
+    utils.caption(4, 'write data set to TF ...')
 
-    TF = Fabric(locations=thisSave)
+    TF = Fabric(locations=thisSave, silent=True)
     TF.save(nodeFeatures=nodeFeatures, edgeFeatures=edgeFeatures, metaData=metaData)
 
 
@@ -616,14 +611,22 @@ def tfFromData():
 
 
 def compileTfData():
-    startNow()
-    tprint('compileTfData')
+    ()
+    utils.caption(4, 'Load and compile standard TF features')
     TF = Fabric(locations=thisTf, modules=module)
     api = TF.load('')
+
+    utils.caption(4, 'Load and compile all other TF features')
     allFeatures = TF.explore(silent=False, show=True)
     loadableFeatures = allFeatures['nodes'] + allFeatures['edges']
-    print(' '.join(loadableFeatures))
     api = TF.load(loadableFeatures)
+    T = api.T
+    
+    utils.caption(4, 'Basic test')
+    utils.caption(4, 'First verse in all formats')
+    for fmt in T.formats:
+        utils.caption(0, '{}'.format(fmt), continuation=True)
+        utils.caption(0, '\t{}'.format(T.text(range(1,12), fmt=fmt)), continuation=True)
 
 
 # # Run it!
@@ -649,13 +652,13 @@ tfFromData()
 # In[19]:
 
 
-checkDiffs(thisSave, thisDeliver)
+utils.checkDiffs(thisSave, thisDeliver)
 
 
 # In[20]:
 
 
-deliverDataset(thisSave, thisDeliver)
+utils.deliverDataset(thisSave, thisDeliver)
 
 
 # In[21]:

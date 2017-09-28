@@ -44,7 +44,7 @@
 
 
 import os,sys,re,collections
-from utils import startNow, tprint, checkDiffs, deliverFeatures
+import utils
 from tf.fabric import Fabric
 from blang import bookLangs, bookNames
 
@@ -54,8 +54,9 @@ from blang import bookLangs, bookNames
 
 if 'SCRIPT' not in locals():
     SCRIPT = False
+    FORCE = True
     CORE_NAME = 'bhsa'
-    VERSION= 'd'
+    VERSION= 'c'
     CORE_MODULE ='core' 
 
 def stop(good=False):
@@ -102,7 +103,7 @@ newFeatures = newFeaturesStr.strip().split()
 
 
 if SCRIPT:
-    (good, work) = MUSTRUN(None, '{}/.tf/{}.tfx'.format(thisDeliver, newFeatures[0]))
+    (good, work) = utils.mustRun(None, '{}/.tf/{}.tfx'.format(thisDeliver, newFeatures[0]), force=FORCE)
     if not good: stop(good=False)
     if not work: stop(good=True)
 
@@ -127,127 +128,158 @@ if SCRIPT:
 # In[6]:
 
 
-def collect():
-    startNow()
-    tprint('Computing statistics')
+utils.caption(4, 'Loading felevant features')
 
-    TF = Fabric(locations=thisTf, modules=module)
-    api = TF.load('language lex g_cons')
-    F = api.F
-    
-    tprint('Counting')
-    wstats = {
-        'freqs': {
-            'lex': collections.defaultdict(lambda: collections.Counter()),
-            'occ': collections.defaultdict(lambda: collections.Counter()),
-        },
-        'ranks': {
-            'lex': collections.defaultdict(lambda: {}),
-            'occ': collections.defaultdict(lambda: {}),
-        },
-    }
-    langs = set()
+TF = Fabric(locations=thisTf, modules=module)
+api = TF.load('language lex g_cons')
+F = api.F
+L = api.L
 
-    for w in F.otype.s('word'):
-        occ = F.g_cons.v(w)
-        lex = F.lex.v(w)
-        lan = F.language.v(w)
-        wstats['freqs']['lex'][lan][lex] += 1
-        wstats['freqs']['occ'][lan][occ] += 1
-        langs.add(lan)
-    for lan in langs:
-        for tp in ['lex', 'occ']:
-            rank = -1
-            prev_n = -1
-            amount = 1
-            for (x, n) in sorted(wstats['freqs'][tp][lan].items(), key=lambda y: (-y[1], y[0])):
-                if n == prev_n:
-                    amount += 1
-                else:
-                    rank += amount
-                    amount = 1
-                prev_n = n
-                wstats['ranks'][tp][lan][x] = rank
+hasLex = 'lex' in set(F.otype.all)
 
-    tprint('Making features')
-    metaData={}
-    nodeFeatures = {}
-    edgeFeatures = {}
-    
-    for ft in (newFeatures):
-        nodeFeatures[ft] = {}
-        metaData.setdefault(ft, {})['valueType'] = 'int'
 
-    for w in F.otype.s('word'):
-        lan = F.language.v(w)
-        occ = F.g_cons.v(w)
-        lex = F.lex.v(w)
-        nodeFeatures['freq_occ'][w] = str(wstats['freqs']['occ'][lan][occ])
-        nodeFeatures['rank_occ'][w] = str(wstats['ranks']['occ'][lan][occ])
-        nodeFeatures['freq_lex'][w] = str(wstats['freqs']['lex'][lan][lex])
-        nodeFeatures['rank_lex'][w] = str(wstats['ranks']['lex'][lan][lex])
+# In[7]:
 
-    tprint('Write out')
-    TF = Fabric(locations=thisSave)
-    TF.save(nodeFeatures=nodeFeatures, edgeFeatures=edgeFeatures, metaData=metaData)
+
+utils.caption(0, 'Counting occurrences')
+wstats = {
+    'freqs': {
+        'lex': collections.defaultdict(lambda: collections.Counter()),
+        'occ': collections.defaultdict(lambda: collections.Counter()),
+    },
+    'ranks': {
+        'lex': collections.defaultdict(lambda: {}),
+        'occ': collections.defaultdict(lambda: {}),
+    },
+}
+langs = set()
+
+for w in F.otype.s('word'):
+    occ = F.g_cons.v(w)
+    lex = F.lex.v(w)
+    lan = F.language.v(w)
+    wstats['freqs']['lex'][lan][lex] += 1
+    wstats['freqs']['occ'][lan][occ] += 1
+    langs.add(lan)
+for lan in langs:
+    for tp in ['lex', 'occ']:
+        rank = -1
+        prev_n = -1
+        amount = 1
+        for (x, n) in sorted(wstats['freqs'][tp][lan].items(), key=lambda y: (-y[1], y[0])):
+            if n == prev_n:
+                amount += 1
+            else:
+                rank += amount
+                amount = 1
+            prev_n = n
+            wstats['ranks'][tp][lan][x] = rank
+
+
+# In[8]:
+
+
+utils.caption(0, 'Making statistical features')
+metaData={}
+nodeFeatures = {}
+edgeFeatures = {}
+
+for ft in (newFeatures):
+    nodeFeatures[ft] = {}
+    metaData.setdefault(ft, {})['valueType'] = 'int'
+
+for w in F.otype.s('word'):
+    lan = F.language.v(w)
+    occ = F.g_cons.v(w)
+    lex = F.lex.v(w)
+    nodeFeatures['freq_occ'][w] = str(wstats['freqs']['occ'][lan][occ])
+    nodeFeatures['rank_occ'][w] = str(wstats['ranks']['occ'][lan][occ])
+    nodeFeatures['freq_lex'][w] = str(wstats['freqs']['lex'][lan][lex])
+    nodeFeatures['rank_lex'][w] = str(wstats['ranks']['lex'][lan][lex])
+
+if hasLex:
+    for lx in F.otype.s('lex'):
+        firstOcc = L.d(lx, otype='word')[0]
+        nodeFeatures['freq_lex'][lx] = nodeFeatures['freq_lex'][firstOcc]
+        nodeFeatures['rank_lex'][lx] = nodeFeatures['rank_lex'][firstOcc]
+
+
+# In[9]:
+
+
+utils.caption(4, 'Write statistical features as TF')
+TF = Fabric(locations=thisSave, silent=True)
+TF.save(nodeFeatures=nodeFeatures, edgeFeatures=edgeFeatures, metaData=metaData)
 
 
 # # Stage: Diffs
 # 
 # Check differences with previous versions.
 
+# In[10]:
+
+
+utils.checkDiffs(thisSave, thisDeliver, only=set(newFeatures))
+
+
 # # Stage: Deliver 
 # 
 # Copy the new TF features from the temporary location where they have been created to their final destination.
 
+# In[11]:
+
+
+utils.deliverFeatures(thisSave, thisDeliver, newFeatures)
+
+
 # # Stage: Compile TF
 
-# In[18]:
+# In[12]:
 
 
-def compileTfData():    
-    tprint('Compile and test')
-    TF = Fabric(locations=thisTf, modules=module)
-    api = TF.load('lex '+newFeaturesStr)
-    F = api.F
-    mostFrequent = set()
+utils.caption(4, 'Load and compile the new TF features')
+
+TF = Fabric(locations=thisTf, modules=module)
+api = TF.load('lex '+newFeaturesStr)
+F = api.F
+L = api.L
+
+
+# # Stage: Test
+
+# In[20]:
+
+
+utils.caption(4, 'Basic test')
+
+mostFrequent = set()
+
+topX = 10
+
+lexIndex = {}
+
+utils.caption(0, 'Top {} freqent lexemes (computed on otype=word)'.format(topX))
+for w in sorted(F.otype.s('word'), key=lambda w: -F.freq_lex.v(w)):
+    lex = F.lex.v(w)
+    mostFrequent.add(lex)
+    lexIndex[lex] = w
+    if len(mostFrequent) == topX: break
+
+mostFrequentWord = sorted((-F.freq_lex.v(lexIndex[lex]), lex) for lex in mostFrequent)
+for (freq, lex) in mostFrequentWord:
+    utils.caption(0, '{:<10} {:>6}x'.format(lex, -freq))
+
+if hasLex:
+    utils.caption(4, 'Top {} freqent lexemes (computed on otype=lex)'.format(topX))
+    mostFrequentLex = sorted((-F.freq_lex.v(lx), F.lex.v(lx)) for lx in F.otype.s('lex'))[0:10]
+    for (freq, lex) in mostFrequentLex:
+        utils.caption(0, '{:<10} {:>6}x'.format(lex, -freq))
     
-    topX = 10
-    for w in sorted(F.otype.s('word'), key=lambda w: -F.freq_lex.v(w)):
-        mostFrequent.add(F.lex.v(w))
-        if len(mostFrequent) == topX: break
-            
-    print('Top {} freqent lexemes = {}'.format(
-        topX,
-        '\n\t'.join(mostFrequent),
-    ))
-    tprint('Done')
-
-
-# # Run it!
-
-# In[9]:
-
-
-collect()
-
-
-# In[10]:
-
-
-checkDiffs(thisSave, thisDeliver, only=set(newFeatures))
-
-
-# In[15]:
-
-
-deliverFeatures(thisSave, thisDeliver, newFeatures)
-
-
-# In[19]:
-
-
-compileTfData()
+    if mostFrequentWord != mostFrequentLex:
+        utils.caption(0, '\tWARNING: Mismatch in lexeme frequencies computed by lex vs by word')
+    else:
+        utils.caption(0, '\tINFO: Same lexeme frequencies computed by lex vs by word')
+utils.caption(0, 'Done')
 
 
 # In[ ]:
