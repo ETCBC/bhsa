@@ -7,7 +7,7 @@
 @valueType=str
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-09-28T15:12:17Z
+@dateWritten=2017-09-28T18:46:11Z
 
 1436895	B.:
 R;>CIJT

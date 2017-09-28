@@ -229,6 +229,13 @@ for vnode in verseInfo:
 utils.caption(0, '\tParsed {} ketiv-qere annotations'.format(len(data)))
 
 
+# In[ ]:
+
+
+if not SCRIPT:
+    print('\n'.join(repr(d) for d in data[0:10]))
+
+
 # In[11]:
 
 

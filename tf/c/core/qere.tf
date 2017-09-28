@@ -7,7 +7,7 @@
 @valueType=str
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-09-28T15:14:04Z
+@dateWritten=2017-09-28T18:48:11Z
 
 3897	HAJ:Y;74>
 4420	>@H:@LO75W

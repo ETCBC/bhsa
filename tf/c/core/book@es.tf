@@ -10,7 +10,7 @@
 @valueType=str
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-09-28T15:07:45Z
+@dateWritten=2017-09-28T18:41:54Z
 
 426582	Génesis
 Éxodo

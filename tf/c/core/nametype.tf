@@ -7,7 +7,7 @@
 @valueType=str
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-09-28T15:12:16Z
+@dateWritten=2017-09-28T18:46:10Z
 
 1437007	pers
 1437027	topo
