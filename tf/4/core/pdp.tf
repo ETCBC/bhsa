@@ -7,7 +7,7 @@
 @valueType=str
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-09-27T11:26:10Z
+@dateWritten=2017-09-29T20:07:47Z
 
 prep
 subs

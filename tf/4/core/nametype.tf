@@ -3,11 +3,11 @@
 @dataset=BHSA
 @datasetName=Biblia Hebraica Stuttgartensia Amstelodamensis
 @email=shebanq@ancient-data.org
-@encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)
+@encoders=Constantijn Sikkel (QDF), and Dirk Roorda (TF)
 @valueType=str
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-09-27T11:26:05Z
+@dateWritten=2017-09-29T20:16:21Z
 
 
 
@@ -426564,3 +426564,2624 @@ pers
 
 
 
+1441257	pers
+1441277	topo
+1441291	topo
+ppde
+1441294	topo
+1441296	ppde
+1441300	topo
+topo
+topo
+1441305	topo
+topo
+1441350	ppde
+1441388	pers
+1441406	pers
+1441411	pers
+1441444	topo
+pers
+1441447	topo
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+1441458	pers
+1441462	pers
+1441468	pers
+1441474	pers
+1441476	pers
+1441478	pers
+1441491	pers
+pers
+1441495	pers
+pers
+pers
+1441500	pers
+pers,gens
+pers
+1441504	ppde
+1441510	ppde
+1441572	topo
+1441613	pers,gens,topo
+1441628	pers
+topo
+pers,gens
+pers,gens
+gens
+gens
+pers,gens
+gens
+gens
+topo
+topo
+topo
+gens
+gens
+1441645	topo
+gens
+pers
+pers,gens,topo
+pers,gens,topo
+pers,gens
+pers,gens,topo
+topo
+topo
+pers
+1441657	topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+gens
+gens
+gens
+gens
+gens
+gens
+1441674	topo
+pers
+1441688	topo
+topo
+topo
+topo
+topo
+topo
+topo
+pers
+pers,gens,topo
+pers
+pers
+topo
+pers
+topo
+pers
+pers,gens
+pers
+pers
+1441707	pers
+pers
+topo
+topo
+pers
+pers
+pers
+pers
+pers
+pers
+topo
+gens
+1441720	topo
+topo
+1441741	pers
+pers
+pers
+pers
+pers
+pers
+pers
+1441749	topo
+gens,topo
+pers
+pers
+pers
+1441757	topo
+1441762	topo
+1441764	topo
+1441766	topo
+1441768	topo
+1441804	topo
+1441806	topo
+1441811	topo
+topo
+pers
+1441815	pers
+topo
+pers
+pers
+topo
+1441821	pers
+pers
+pers
+pers
+topo
+1441828	topo
+1441831	gens
+topo
+gens
+topo
+gens
+1441837	topo
+1441839	topo
+topo
+1441842	topo
+topo
+1441845	topo
+1441852	pers
+pers
+pers
+1441861	pers,gens,topo
+1441863	topo
+topo
+1441866	topo
+pers
+topo
+1441885	pers
+1441888	pers
+1441929	pers
+1441937	topo
+1441941	pers
+1441946	topo
+topo
+pers
+1441950	pers
+1441960	pers
+1441964	pers
+1442054	pers,gens,topo
+pers
+gens
+pers
+1442086	topo
+1442094	topo
+pers
+1442108	topo
+1442125	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+1442134	pers
+pers
+pers
+pers
+pers
+topo
+1442145	pers
+pers
+topo
+1442158	topo
+1442180	pers
+1442199	pers
+pers
+pers
+pers
+pers,gens,topo
+pers
+pers
+gens
+gens
+gens
+pers
+pers
+pers
+pers
+1442216	gens
+pers,gens
+pers
+pers
+pers
+topo
+pers
+pers
+topo
+pers
+pers
+pers
+1442243	pers
+pers
+1442251	topo
+1442272	topo
+1442274	topo
+topo
+1442278	pers
+1442281	topo
+pers
+pers
+pers
+pers
+1442328	pers
+1442339	topo
+1442346	pers
+1442351	pers
+1442354	gens
+1442358	pers
+pers,gens,topo
+pers,gens,topo
+1442362	pers,gens
+1442364	pers,gens,topo
+1442369	pers,gens,topo
+1442371	pers,gens,topo
+1442374	pers,gens,topo
+1442378	pers,gens,topo
+1442382	pers,gens,topo
+pers
+1442385	pers
+1442433	topo
+1442462	topo
+topo
+1442469	topo
+1442481	topo
+1442484	pers,gens,topo
+1442486	topo
+1442488	topo
+1442499	topo
+1442502	pers
+1442504	pers
+1442532	pers
+1442541	pers
+pers,gens,topo
+topo
+1442545	topo
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+topo
+pers
+pers
+pers
+pers,gens
+pers,gens
+pers,gens
+pers
+pers
+pers
+pers
+1442566	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+1442580	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+1442589	pers
+pers
+topo
+pers
+topo
+pers
+1442596	pers
+pers
+topo
+pers
+topo
+pers
+pers
+pers
+pers
+topo
+pers
+pers
+pers
+topo
+pers
+pers
+pers
+pers
+pers
+pers
+1442623	topo
+1442647	pers
+1442651	pers
+pers
+pers
+pers
+pers
+topo
+pers
+1442660	topo
+1442664	topo
+1442676	pers
+1442701	topo
+1442736	pers
+pers
+pers
+topo
+1442741	pers,gens
+1442744	pers,gens,topo
+1442792	topo
+1442803	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+1442852	topo
+1442896	topo
+1442948	topo
+1442951	topo
+1442954	pers,gens
+1442962	topo
+1442964	pers
+pers
+1442978	pers
+1442983	pers
+pers
+1442989	pers
+topo
+1443012	pers
+1443015	pers
+1443033	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+1443043	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+1443059	pers
+pers
+1443156	topo
+1443160	topo
+topo
+topo
+1443176	pers
+1443199	topo
+1443207	pers
+1443211	topo
+1443216	topo
+1443218	topo
+topo
+1443246	topo
+1443250	topo
+topo
+pers
+pers
+1443534	pers
+pers
+1443538	pers
+pers
+1443556	pers
+1443748	pers
+1443756	pers
+1443824	pers
+pers
+1443878	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+1443907	pers
+1443913	pers
+1443917	pers
+pers
+1443944	pers
+1443948	topo
+1443965	pers
+pers
+1443970	topo
+topo
+1443978	pers
+gens
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+1444002	topo
+topo
+topo
+pers
+pers
+pers
+1444009	topo
+topo
+1444021	topo
+1444028	pers
+pers
+pers
+pers
+1444049	topo
+topo
+topo
+1444054	topo
+topo
+topo
+topo
+topo
+topo
+1444061	topo
+topo
+topo
+topo
+topo
+1444067	topo
+topo
+pers
+topo
+topo
+1444076	pers
+1444079	topo
+topo
+topo
+topo
+1444084	topo
+pers
+topo
+1444089	topo
+pers
+pers
+1444094	pers
+topo
+1444105	topo
+topo
+1444119	topo
+1444125	pers
+1444134	gens
+1444136	topo
+1444138	pers
+1444143	pers
+pers
+1444146	pers
+pers
+1444154	pers
+1444160	pers
+1444164	pers
+1444167	pers
+1444175	pers
+1444184	pers
+1444186	pers
+1444188	pers
+1444190	pers
+1444192	pers
+1444194	pers
+1444196	pers
+pers
+pers
+pers
+pers
+pers
+1444204	pers
+1444206	pers
+1444210	pers
+1444212	pers
+1444214	pers
+1444218	pers
+1444229	topo
+1444237	pers
+pers
+pers
+1444246	topo
+topo
+topo
+topo
+topo
+topo
+topo
+1444258	topo
+topo
+topo
+topo
+topo
+topo
+topo
+pers
+1444267	pers
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+1444301	topo
+1444303	topo
+topo
+1444306	topo
+topo
+topo
+topo
+topo
+topo
+1444313	topo
+1444315	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+1444334	topo
+topo
+topo
+topo
+topo
+1444341	topo
+1444355	topo
+1444359	gens
+gens
+topo
+1444363	topo
+1444366	topo
+1444368	topo
+1444370	topo
+topo
+1444373	topo
+1444378	topo
+1444387	topo
+topo
+topo
+1444391	topo
+1444415	topo
+topo
+topo
+1444423	topo
+topo
+1444426	topo
+1444592	pers
+1444657	pers
+1444661	topo
+topo
+1444666	pers
+pers
+topo
+1444670	topo
+1444673	topo
+1444677	topo
+1444685	topo
+topo
+topo
+pers
+topo
+pers
+pers
+topo
+pers
+topo
+pers
+topo
+1444698	topo
+topo
+topo
+topo
+1444704	pers
+topo
+topo
+pers
+topo
+topo
+topo
+topo
+1444713	topo
+topo
+topo
+topo
+topo
+1444719	topo
+topo
+topo
+1444724	topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+1444738	topo
+topo
+1444746	topo
+1444749	topo
+gens
+topo
+topo
+topo
+1444755	topo
+1444758	topo
+topo
+topo
+topo
+1444763	topo
+topo
+topo
+topo
+topo
+pers
+topo
+topo
+topo
+topo
+pers
+topo
+1444776	topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+pers
+pers
+1444790	topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+1444885	topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+1444894	pers
+topo
+topo
+topo
+topo
+topo
+1444902	topo
+topo
+topo
+topo
+topo
+topo
+1444909	topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+1444936	topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+1445003	pers
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+1445021	topo
+topo
+pers
+1445025	topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+1445034	topo
+topo
+topo
+topo
+1445039	topo
+1445044	topo
+pers
+1445047	pers
+pers
+1445060	topo
+pers
+pers
+1445064	pers
+topo
+1445067	pers
+1445069	pers
+pers
+topo
+pers
+1445103	topo
+1445120	pers
+1445122	pers
+1445126	pers
+1445129	topo
+1445134	pers
+1445137	topo
+topo
+topo
+topo
+topo
+pers
+pers
+1445145	pers
+pers
+1445148	topo
+topo
+1445155	pers
+1445157	pers
+1445163	pers
+pers
+pers
+topo
+1445168	topo
+1445170	pers
+topo
+1445175	topo
+1445177	pers
+pers
+topo
+pers
+topo
+topo
+topo
+topo
+1445188	pers
+pers
+pers
+1445192	topo
+1445194	pers
+1445197	pers
+topo
+1445213	topo
+topo
+1445219	topo
+pers
+1445228	pers
+1445231	pers
+1445233	pers
+1445236	topo
+1445241	topo
+pers
+1445246	topo
+1445254	topo
+1445258	topo
+1445260	topo
+topo
+1445264	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+1445304	topo
+1445309	pers
+1445318	pers
+1445321	topo
+topo
+1445324	pers
+pers
+1445328	pers
+pers
+pers
+pers
+pers
+topo
+topo
+1445342	topo
+1445348	pers
+1445351	pers
+1445353	topo
+pers
+1445356	topo
+topo
+1445366	topo
+pers
+pers
+topo
+topo
+1445380	topo
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+1445389	topo
+1445396	pers
+1445398	pers
+1445401	topo
+1445403	pers
+1445426	pers
+1445432	topo
+1445434	topo
+1445436	topo
+1445442	topo
+pers
+1445446	pers
+1445450	pers
+1445456	topo
+1445458	pers
+topo
+1445461	topo
+1445470	pers
+pers
+1445479	pers
+topo
+pers
+pers
+pers
+1445489	pers
+1445495	topo
+1445499	topo
+1445504	topo
+topo
+topo
+topo
+1445516	pers
+1445519	topo
+pers
+1445523	topo
+topo
+1445527	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+topo
+1445539	topo
+1445544	pers
+pers
+pers
+1445548	topo
+1445550	pers
+1445552	topo
+1445554	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+topo
+1445566	topo
+pers
+pers
+1445572	pers
+1445574	topo
+pers
+1445586	pers
+pers
+1445589	topo
+topo
+pers
+pers
+topo
+pers
+pers
+pers
+pers
+pers
+pers
+1445601	pers
+topo
+pers
+pers
+1445607	topo
+topo
+pers
+pers
+pers
+pers
+pers
+1445617	pers
+1445623	pers
+pers
+pers
+1445630	topo
+1445632	topo
+1445640	pers
+1445645	pers
+topo
+1445649	pers
+1445661	pers
+pers
+pers
+pers
+topo
+1445675	pers
+pers
+pers
+pers
+1445681	topo
+1445686	pers
+pers
+pers
+pers
+1445693	pers
+pers
+pers
+1445697	topo
+pers
+1445700	pers
+pers
+pers
+1445737	pers
+1445740	pers
+pers
+1445743	pers
+1445745	pers
+pers
+1445748	pers
+1445750	pers
+pers
+pers
+1445754	pers
+pers
+pers
+pers
+1445759	pers
+1445761	pers
+1445763	pers
+pers
+pers
+1445767	pers
+pers
+pers
+1445771	pers
+pers
+pers
+1445775	pers
+topo
+1445780	pers
+1445782	pers
+1445784	pers
+pers
+topo
+1445793	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+topo
+topo
+pers
+topo
+pers
+pers
+topo
+pers
+pers
+pers
+pers
+pers
+pers
+1445818	topo
+1445821	pers
+1445823	pers
+pers
+pers
+pers
+1445831	mens
+1445859	mens
+1445893	topo
+1445902	topo
+1445912	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+topo
+pers
+1445926	pers
+pers
+1445931	pers
+1445933	pers
+1445936	topo
+1445939	pers
+1445944	pers
+pers
+pers
+1445948	pers
+pers
+pers
+pers
+topo
+topo
+pers
+pers
+pers
+pers
+1445959	pers
+pers
+pers
+pers
+pers
+pers
+pers
+1445967	pers
+pers
+1445970	topo
+topo
+1445973	pers
+1445988	pers
+pers
+pers
+1446000	pers
+1446002	pers
+pers
+pers
+pers
+1446007	pers
+1446011	pers
+pers
+pers
+pers
+pers
+1446017	pers
+1446023	pers
+1446027	topo
+1446031	pers
+1446038	topo
+1446041	topo
+topo
+pers
+1446045	topo
+1446060	topo
+pers
+1446065	pers
+1446067	topo
+topo
+1446073	topo
+topo
+1446078	pers
+pers
+pers
+gens
+topo
+1446084	pers
+pers
+pers
+1446091	topo
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+1446102	pers
+pers
+pers
+topo
+pers
+pers
+1446109	pers
+pers
+pers
+1446113	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+topo
+pers
+pers
+pers
+pers
+1446128	topo
+topo
+1446132	pers
+pers
+pers
+topo
+topo
+topo
+1446140	topo
+topo
+topo
+1446144	pers
+pers
+pers
+pers
+pers
+1446150	pers
+pers
+pers
+pers
+1446155	pers
+1446160	pers
+pers
+pers
+pers
+pers
+1446168	topo
+topo
+topo
+pers
+pers
+pers
+pers
+1446179	pers
+topo
+topo
+topo
+1446188	topo
+1446195	pers
+pers
+pers
+pers
+1446200	pers
+pers
+pers
+1446206	pers
+1446210	pers
+pers
+pers
+topo
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+1446227	topo
+pers
+1446231	pers
+pers
+pers
+1446235	pers
+pers
+pers
+pers
+pers
+pers
+pers
+1446245	pers
+1446247	pers
+1446250	pers
+pers
+pers
+pers
+pers
+pers
+pers
+1446258	pers
+1446365	pers
+1446368	pers
+1446371	pers
+1446377	pers
+pers
+topo
+1446409	topo
+topo
+1446424	topo
+1446426	topo
+topo
+topo
+1446443	topo
+1446490	topo
+topo
+1446493	topo
+topo
+topo
+topo
+1446499	topo
+1446501	topo
+topo
+1446514	topo
+1446560	topo
+1446565	pers
+1446575	gens
+1446581	gens
+1446669	topo
+1446680	topo
+1446699	topo
+1446703	topo
+1446798	pers
+1446857	pers
+1446862	gens
+1446865	pers
+1446867	pers
+1446887	topo
+1446962	topo
+1446981	pers
+pers
+1446991	gens
+1446997	topo
+1447033	topo
+1447070	topo
+1447128	pers
+pers
+1447135	pers
+pers
+pers
+pers
+1447143	pers
+1447154	pers
+1447156	topo
+topo
+1447159	topo
+1447164	pers
+pers
+pers
+1447168	pers
+pers
+pers
+pers
+pers
+pers
+1447176	pers
+1447191	topo
+topo
+pers
+pers
+pers
+pers
+1447201	pers
+1447203	pers
+pers
+pers
+pers
+pers
+1447209	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+1447219	pers
+pers
+pers
+pers
+pers
+pers
+1447227	pers
+1447229	pers
+pers
+pers
+1447237	pers
+pers
+pers
+1447242	pers
+1447244	pers
+pers
+pers
+pers
+1447249	pers
+pers
+1447255	pers
+pers
+1447261	pers
+topo
+1447265	topo
+1447269	topo
+topo
+topo
+1447273	pers
+1447279	pers
+1447284	topo
+topo
+1447292	topo
+1447301	topo
+pers
+pers
+pers
+1447314	topo
+1447328	topo
+1447340	pers
+1447347	pers
+1447363	pers
+pers
+1447425	pers
+pers
+1447434	gens
+1447462	topo
+1447464	topo
+1447467	gens,topo
+topo
+gens
+1447478	topo
+topo
+1447484	topo
+topo
+1447504	topo
+1447507	topo
+topo
+topo
+topo
+1447536	pers
+1447540	topo
+1447573	topo
+1447577	topo
+topo
+topo
+topo
+topo
+topo
+1447584	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+1447605	pers
+1447617	topo
+1447626	pers
+topo
+1447635	pers
+1447656	gens
+1447659	pers
+topo
+topo
+1447670	topo
+1447678	pers
+pers
+topo
+1447685	topo
+1447695	pers
+1447702	topo
+1447713	topo
+topo
+topo
+topo
+1447718	topo
+1447720	topo
+1447739	pers
+1447756	topo
+1447763	pers
+1447780	gens
+1447789	pers
+1447807	pers
+pers
+pers
+pers
+pers
+1447814	pers
+pers
+mens
+pers
+1447825	pers
+pers
+pers
+pers
+pers
+pers
+mens
+pers
+topo
+1447849	pers
+topo
+1447854	pers
+1448058	pers
+1448060	topo
+1448136	topo
+1448169	pers
+1448171	pers
+1448316	pers
+1448318	pers
+1448389	pers
+pers
+pers
+1448495	pers
+pers
+pers
+1448504	pers
+1448508	pers
+pers
+pers
+pers
+pers
+pers
+1448516	pers
+1448522	pers
+pers
+pers
+1448584	topo
+1448590	topo
+1448673	pers
+topo
+topo
+1448686	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+1448695	pers
+pers
+pers
+pers
+pers
+pers
+pers
+1448704	pers
+pers
+pers
+pers
+1448709	pers
+mens
+1448713	pers
+pers
+pers
+pers
+1448718	mens
+1448720	mens
+1448725	pers
+1448731	pers
+1448733	pers
+1448735	mens
+1448741	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+1448754	pers
+1448756	pers
+pers
+pers
+pers
+1448825	topo
+1448829	pers
+1448836	pers
+1448845	pers
+pers
+pers
+1448859	ppde
+1448882	topo
+pers
+1448888	pers
+1448959	ppde
+1448977	pers
+pers
+pers
+1448987	topo
+1449154	pers
+1449160	topo
+1449200	topo
+topo
+1449203	pers
+1449258	pers
+1449312	pers
+1449314	topo
+1449317	pers
+1449332	pers
+1449334	pers
+1449338	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+gens
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+topo
+topo
+topo
+pers
+pers
+topo
+topo
+topo
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+1449374	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+gens
+gens
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+1449406	pers
+pers
+pers
+pers
+pers
+pers
+topo
+topo
+topo
+topo
+pers
+pers
+pers
+1449422	pers
+1449424	pers
+1449428	pers
+pers
+1449433	pers
+1449435	pers
+1449438	pers
+1449450	pers
+1449453	topo
+1449486	pers
+1449488	pers
+pers
+gens
+pers
+pers
+pers
+pers
+1449496	pers
+pers
+1449507	pers
+1449513	topo
+1449537	mens
+1449547	pers
+pers
+pers
+pers
+pers
+pers
+pers
+1449555	pers
+1449581	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+topo
+pers
+pers
+pers
+topo
+pers
+pers
+1449601	pers
+pers
+pers
+1449607	pers
+pers
+1449610	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+1449651	pers
+1449653	topo
+pers
+1449656	topo
+pers
+pers
+pers
+pers
+pers
+pers
+1449664	pers
+1449666	pers
+1449668	pers
+gens
+pers
+pers
+pers
+pers
+pers
+1449677	pers
+pers
+pers
+pers
+pers
+pers
+pers
+1449691	topo
+pers
+1449694	mens
+1449697	pers
+pers
+pers
+pers
+pers
+topo
+pers
+gens
+pers
+topo
+pers
+pers
+pers
+1449711	pers
+pers
+1449715	pers
+pers
+pers
+1449721	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+1449738	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+topo
+topo
+topo
+topo
+topo
+topo
+1449764	pers
+pers
+pers
+1449768	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+1449779	topo
+1449781	pers
+pers
+pers
+pers
+1449787	pers
+gens
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+topo
+gens
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+topo
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+topo
+pers
+gens
+1449859	topo
+1449862	topo
+gens
+1449866	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+1449897	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+topo
+topo
+pers
+pers
+pers
+pers
+pers
+pers
+gens
+gens
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+1449931	pers
+pers
+pers
+pers
+pers
+pers
+topo
+pers
+pers
+pers
+topo
+pers
+pers
+topo
+pers
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+gens
+pers
+pers
+topo
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+topo
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+gens
+pers
+pers
+pers
+gens
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+topo
+pers
+pers
+pers
+pers
+topo
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+topo
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+gens
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+1450139	pers
+pers
+pers
+1450143	pers
+pers
+pers
+1450147	pers
+pers
+pers
+1450151	pers
+1450153	pers
+pers
+pers
+pers
+1450158	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+1450167	pers
+1450169	pers
+1450173	pers
+pers
+pers
+pers
+pers
+pers
+pers
+1450181	pers
+pers
+pers
+1450185	pers
+pers
+pers
+pers
+1450190	pers
+pers
+pers
+1450194	pers
+pers
+pers
+pers
+1450199	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+1450214	pers
+1450216	pers
+pers
+topo
+topo
+topo
+pers
+1450223	topo
+pers
+pers
+pers
+pers
+pers
+1450232	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+1450270	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+topo
+1450283	pers
+pers
+pers
+pers
+1450288	pers
+pers
+pers
+pers
+1450295	pers
+1450297	pers
+pers
+pers
+1450302	topo
+1450305	pers
+1450309	topo
+1450314	topo
+1450317	pers
+1450319	topo
+pers
+1450322	pers
+topo
+topo
+pers
+1450327	topo
+pers
+topo
+1450331	pers
+pers
+pers
+1450335	pers
+pers
+1450339	topo
+topo
+pers
+1450343	pers
+pers
+pers
+1450348	pers
+topo
+topo
+pers
+1450353	topo
+pers
+1450357	pers
+pers
+1450363	pers
+pers

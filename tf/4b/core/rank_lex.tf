@@ -7,7 +7,7 @@
 @valueType=int
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-09-27T11:39:59Z
+@dateWritten=2017-09-29T18:34:32Z
 
 3
 707

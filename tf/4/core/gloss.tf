@@ -3,11 +3,11 @@
 @dataset=BHSA
 @datasetName=Biblia Hebraica Stuttgartensia Amstelodamensis
 @email=shebanq@ancient-data.org
-@encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)
+@encoders=Constantijn Sikkel (QDF), and Dirk Roorda (TF)
 @valueType=str
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-09-27T11:25:59Z
+@dateWritten=2017-09-29T20:16:16Z
 
 in
 beginning
@@ -426564,3 +426564,6765 @@ god(s)
 with
 and
 ascend
+1441145	in
+beginning
+create
+god(s)
+<object marker>
+the
+heavens
+and
+earth
+be
+emptiness
+emptiness
+darkness
+upon
+face
+primeval ocean
+wind
+shake
+water
+say
+light
+see
+that
+be good
+separate
+interval
+call
+to
+day
+night
+evening
+morning
+one
+firmament
+midst
+make
+<relative>
+from
+under part
+thus
+second
+collect
+to
+place
+dry land
+collection
+sea
+grow green
+young grass
+herb
+sow
+seed
+tree
+fruit
+kind
+go out
+third
+lamp
+sign
+appointment
+year
+be light
+two
+great
+dominion
+small
+star
+give
+rule
+fourth
+swarm
+swarming creatures
+soul
+alive
+birds
+fly
+sea-monster
+whole
+creep
+wing
+bless
+be fertile
+be many
+be full
+fifth
+cattle
+creeping animals
+wild animal
+soil
+human, mankind
+image
+as
+likeness
+tread, to rule
+fish
+male
+female
+subdue
+behold
+food
+greens
+good
+might
+sixth
+finish
+service
+seventh
+work
+cease
+be holy
+these
+generations
+YHWH
+shrub
+open field
+beginning
+sprout
+not
+rain
+<NEG>
+work, to serve
+<uncertain>
+ascend
+give drink
+shape
+dust
+blow
+nose
+breath
+life
+plant
+garden
+Eden
+front
+put
+there
+desire
+sight
+food
+knowledge
+evil
+stream
+divide
+four
+head
+name
+1441292	he
+turn
+1441295	gold
+she
+bdellium-gum
+stone
+carnelian
+1441301	<near red sea>
+1441303	walk
+front
+1441307	take
+settle
+keep
+command
+eat
+die
+linen, part, stave
+help, helper
+counterpart
+come
+what
+find
+fall
+sleep
+sleep
+side
+close
+flesh
+build
+woman
+this
+foot
+bone
+man
+leave
+father
+mother
+cling, cleave to
+naked
+be ashamed
+serpent
+shrewd
+even
+touch
+lest
+know
+open
+eye
+desire
+prosper
+even
+with
+naked
+they
+sew
+leafage
+fig
+girdle
+hear
+sound
+hide
+where
+fear
+i
+who
+report
+you
+<interrogative>
+failure
+company
+beguile
+curse
+belly
+enmity
+put
+bruise
+snatch
+heel
+pain
+pregnancy
+pain
+bear
+son
+impulse
+way
+thorn-bush
+thistles
+sweat
+bread
+unto
+return
+1441389	tunic
+skin
+cloth
+behold
+now
+send
+hand
+be alive
+eternity
+drive out
+dwell
+cherub
+flame
+dagger
+turn
+way
+be pregnant
+Kain
+create
+together with
+add
+brother
+1441412	pasture
+cattle
+end
+present
+first-born
+fat
+look
+be hot
+why
+if
+be good
+uprising
+opening
+sin
+lie down
+arise
+kill
+blood
+cry
+open
+mouth
+strength
+quiver
+waver
+sin
+lift
+hide
+therefore
+seven
+avenge
+strike
+sit
+1441445	Henoch
+town
+1441456	tent
+purchase
+1441459	seize
+cither
+flute
+1441463	sharpen
+plough
+bronze
+iron
+sister
+1441469	listen
+word
+bruise
+boy
+bruise
+Adam
+duration
+1441477	other
+1441479	then
+defile
+this
+letter
+three
+hundred
+after
+eight
+daughter
+nine
+five
+ten
+1441493	group of ten
+six
+1441497	Noah
+repent, to console
+deed
+1441503	be much
+they
+examine
+<uncertain>
+<relative>
+twenty
+giants
+they
+vigorous
+much
+evil
+form
+thought
+heart
+only
+hurt
+wipe
+grace
+just
+complete
+generation
+destroy
+violence
+ark
+gopher
+nest
+cover
+house
+outside
+cover
+cubit
+length
+breadth
+height
+roof
+top
+side
+lower
+i
+deluge
+expire
+covenant
+gather
+pure
+substance
+month
+ten
+split
+well
+hole
+open
+rain
+bird
+distance
+be high
+be superior
+cover
+mountain
+high
+dry ground
+remain
+only
+remember
+pass
+go down
+stop
+restrain
+diminish
+end
+1441573	tenth
+window
+raven
+be dry
+dove
+be slight
+resting place
+palm
+foot
+wait, to hope
+time
+olive
+fresh plucked
+first
+be dry
+turn aside
+covering
+speak
+clan
+altar
+burnt-offering
+be spacious
+scent
+smell of appeasement
+youth
+harvest
+cold
+heat
+summer
+autumn
+fear
+terror
+fish
+inquire
+pour
+you
+cut
+bow
+cloud
+appear
+Canaan
+shatter
+vineyard
+drink
+wine
+be drunk
+uncover
+nakedness
+mantle
+shoulder
+backwards
+awake
+small
+servant
+be spacious
+<son of japhet>
+1441630	Media
+<jawan, Greece>
+1441642	coast, island
+people
+tongue
+Egypt
+1441655	hunting
+kingdom
+1441660	Calneh
+1441681	Sinite
+1441685	disperse
+Canaanite
+boundary
+1441692	<near dead sea>
+1441697	Arpachshad
+1441706	divide
+1441710	Hazarmaveth
+1441714	Diklah
+1441717	<land of gold>
+1441719	seat
+1441721	Sephar
+lip
+word
+pull out
+valley
+fellow
+go
+make brick
+brick
+burn
+burning
+bitumen
+clay
+tower
+descend
+people
+be impossible
+ponder
+moisten, to confound
+cease
+1441748	offspring
+<ur of chaldeans>
+1441751	Sarai
+1441754	barren
+child
+bride
+<town>
+be strong
+blessing
+property
+gather
+Shechem
+big tree
+1441765	advance
+1441767	extend
+1441769	south
+hunger
+dwell
+heavy
+approach
+yeah
+beautiful
+you
+1441778	because of
+matter
+chief
+pharaoh
+praise
+cattle
+he-ass
+maidservant
+she-ass
+camel
+stroke
+silver
+breaking
+beginning
+together
+be able
+law-case
+1441796	not
+quarrel
+we
+lefthand side
+go to right
+right-hand side
+go to left
+disk
+Jordan
+butler, irrigated, drink
+1441807	pitch a tent
+sinful
+north
+count
+<near Hebron>
+1441814	king
+1441820	war
+1441822	Birsha
+1441826	be united
+valley
+1441829	salt
+rebel
+Rephaim
+1441833	Zuzim
+1441835	Emim
+plain
+1441839	Seir
+1441841	desert
+1441843	Kadesh
+1441846	arrange
+well
+flee
+food
+escaped one
+1441855	lord, baal
+take captive
+be empty
+follower
+son
+pursue
+Dan
+divide
+1441865	encounter
+1441869	priest
+god
+upper
+deliver
+adversary
+tenth
+thread
+sandal-thong
+sandal
+become rich
+without
+boy
+share
+vision
+shield
+hire
+Lord
+childless
+<uncertain>
+1441889	trample down
+bowels
+look at
+count
+thus
+be firm
+account
+justice
+cow
+be three
+goat
+ram, despot
+dove
+young of birds
+cut
+piece
+bird of prey
+corpse
+blow
+sun
+fright
+darkness
+sojourner
+be lowly
+plead
+peace
+bury
+age
+here
+complete
+darkness
+furnace
+smoke
+torch
+fire
+piece
+1441927	easterner
+1441930	restrain
+perhaps
+mistress
+lap
+judge
+run away
+messenger
+1441938	whither
+multitude
+pregnant
+Ishmael
+poverty
+zebra
+looking
+hither
+1441949	commotion
+1441951	neighbourhood
+land property
+circumcise
+circumcise
+foreskin
+purchase
+foreigner
+uncircumcised
+break
+Sarah
+laugh
+if only
+verily
+1441965	chief
+be hot
+stand
+run
+make known
+little
+wash
+lean
+bit
+support
+hasten
+seah
+flour
+wheat groat
+knead
+cake
+tender
+butter
+milk
+stand
+where
+old
+path
+interior
+be worn out
+delight
+lord
+be old
+really
+be miraculous
+grow lean
+look
+mighty
+justice
+cry
+be heavy
+cry
+destruction
+turn
+approach
+sweep away
+guilty
+existence
+be it far
+answer
+begin
+dust
+group of ten
+gate
+spend night
+rise early
+open place
+entreat
+drinking
+matzah
+bake
+lie down
+door
+be evil
+these
+shadow
+beam
+further
+break
+blindness
+be weary
+here
+son-in-law
+like
+dawn
+urge
+tarry
+be strong
+compassion
+escape
+loyalty
+near
+little
+sulphur
+sprout
+pillar
+smoke
+kiln
+overthrow
+cave
+first-born woman
+little
+next day
+yesterday evening
+1442058	dream
+own
+completeness
+heart
+innocence
+withhold
+miss
+prophet
+pray
+ear
+sin
+fear
+indeed
+err
+thousand
+covering
+reprove
+heal
+handmaid
+womb
+miss
+old age
+laughter
+make signs
+suck
+deal fully
+inducement
+water-skin
+1442087	throw
+be far
+shoot
+death
+weep
+shoot
+bowman
+1442096	swear
+do falsely
+offspring
+progeny
+tear away
+young ewe-lamb
+witness
+dig
+tamarisk
+try
+only one
+love
+1442109	saddle
+remote
+knife
+lamb
+bind
+slaughter
+something
+afraid
+seize
+thicket
+horn
+speech
+motive
+sand
+be hostile
+end
+1442131	<father of Laban>
+1442133	concubine
+1442140	lament
+sojourner
+grave
+choice
+meet
+1442148	full
+shekel
+weigh
+go about
+surrounding
+upper thigh
+want
+be clean
+oath
+best
+1442159	kneel
+draw water
+meet
+girl
+pitcher
+virgin
+swallow
+pour out
+watering trough
+gaze
+be deaf
+be strong
+nose-ring
+half-shekel
+weight
+bracelet
+straw
+fodder
+kneel down
+trustworthiness
+lead
+Laban
+old age
+curse
+innocent
+young woman
+ask
+or
+tool
+garment
+presents
+a ten
+be behind
+nursing woman
+multitude
+hate
+ride
+<uncertain>
+this there
+shawl
+1442202	Medan
+1442213	present
+sated
+buy
+1442228	court
+encampment
+clan
+1442232	<paddan>, field?
+entreat
+straightness
+crush
+belly
+people
+be strong
+twins
+red
+splendour
+hair
+1442244	Jacob
+complete
+be presumptuous
+boiled food
+faint
+swallow
+red
+1442252	sell
+right of first-born
+lentils
+despise
+guard-post
+commandment
+regulation
+instruction
+be long
+how
+guilt
+measure
+growing
+slaves
+be jealous
+stop up
+be mighty
+encamp
+wadi
+contend
+1442273	contend
+1442276	be wide
+dig
+1442279	friend
+why
+1442285	<judge>
+bitterness
+grow dim
+quiverbelt
+hunt
+savoury food
+goat
+hairy
+smooth
+grope
+mock
+curse
+desirables
+smoothness
+neck
+touch
+recognise
+kiss
+dew
+fat
+corn
+wine
+become
+lord
+tremble
+trembling
+then
+bitter
+deceit
+seize at heel
+set aside
+support
+height
+subdue
+tear away
+yoke
+bear grudge
+mourning rites
+heat
+forget
+be bereaved of children
+loath
+assembly
+1442329	head-place
+dream
+stair
+break
+sleep
+surely
+massebe
+pour
+oil
+but
+1442340	vow
+vow
+take tenth
+flock
+roll
+whence
+1442347	hearsay
+embrace
+in vain
+wage
+1442352	form
+love
+1442355	deceive
+week
+work
+<mother of Dan Naphtali>
+Reuben
+1442361	accompany
+1442363	praise
+Judah
+withhold
+knee
+wrestling
+twist
+1442370	fortune
+Gad
+happiness
+be happy
+1442375	wheat
+mandrake
+hire
+1442379	bestow
+endowment
+tolerate
+1442384	reproach
+1442386	divine
+bore
+when
+speckled
+patch
+ruttish
+young ram
+next day
+steal
+he-goat
+twisted
+white
+remain
+rod
+storax tree
+fresh
+almond tree
+plane-tree
+peel
+peeled stripes
+stripping
+set
+trough
+be hot
+tie
+faint
+feeble
+weight
+yesterday
+day before yesterday
+you
+mock
+come after
+group of ten
+portion
+deliver
+ram
+speckled
+smear
+heritage
+foreign
+riches
+drive
+property
+shear
+teraphim
+destruction
+Gilead
+overtake
+blow
+joy
+song
+tambourine
+abandon
+be foolish
+power
+long
+basket-saddle
+search
+rebellion
+set ablaze
+ewe
+prey
+seek
+dryness
+frost
+flee
+unless
+trembling
+with empty hands
+toil
+witness
+gather
+heap
+heap of stones
+testimony
+Galeed
+Mizpah
+look out
+cast
+slaughter
+sacrifice
+camp
+1442470	bullock
+wrap, to be narrow
+divide
+escape
+be small
+cow
+young bull
+steed
+space
+meet
+sweep
+1442482	wrestle
+turn
+Israel
+contend
+1442487	flash up
+<locality>
+limp
+sinew
+ischias nerve
+at the back
+favour
+like
+nurse
+drive
+lead
+gentle
+1442500	cover of foliage
+plot of land
+1442503	qesitha
+Shechem
+girl
+be unclean
+stupidity
+love
+be father-in-law
+marriage-money
+present
+<uncertain>
+desire
+wide
+be in pain
+trust
+pierced
+spoil
+power
+<unable to march>
+taboo
+stink
+man
+number
+destroy
+fornicate
+be clean
+distress
+hide
+big tree
+terror
+Deborah
+big tree
+weeping
+loins
+pour
+libation
+stretch
+Ephrath
+be hard
+1442542	Benjamin
+1442544	grave
+1442546	<wife of Esau>
+1442553	Korah
+1442559	Timna
+1442565	chief
+1442579	adders
+1442588	be king
+<king of edom>
+1442592	<king>
+1442594	Husham
+1442601	Saul
+1442616	evil report
+tunic
+bind
+sheaf
+moon
+rebuke
+where
+1442624	act cunningly
+cistern
+strip off
+empty
+caravan
+1442630	ladanum
+mastic
+mastix
+profit
+Midianite
+draw
+tear
+he-goat
+dip
+tear
+sack
+hips
+mourn
+refuse
+mourning
+nether world
+Medanite
+1442648	official
+butcher
+1442653	Er
+1442658	marry
+widow
+1442661	father-in-law
+widowhood
+faint
+1442665	pledge
+seal
+cord
+staff
+temple prostitute
+contempt
+fornication
+sealing ring
+be just
+scarlet
+breach
+1442677	serve
+side
+prison
+prisoner
+bind
+baker
+be angry
+guard
+interpretation
+be embittered
+interpret
+vine
+tendril
+sprout
+blossom
+boil
+grape
+grape
+cup
+squeeze out
+base
+basket
+cake
+hang
+1442702	fat
+reed
+thin
+grain
+reed
+scorch
+east
+swallow
+move
+magician
+wise
+offence
+shave
+poor
+thin
+wickedness
+barren
+satiety
+change
+be firm
+understand
+officer
+array
+collect
+heap
+grain
+deposit
+seat
+sealing ring
+linen
+necklace
+chariot
+second
+<uncertain>
+1442739	<Heliopolis>
+handful
+1442742	forget
+labour
+1442745	be hungry
+buy grain
+corn
+accident
+tyrant
+hard
+slander
+we
+correct
+examine
+hunger
+guilty
+boast
+provision
+sleeping place
+sack
+bag
+grief
+warn, to witness
+stand bail
+strength
+honey
+pistachio
+almond tree
+mistake
+compassion
+slaughter
+slaughtering
+noon
+upon me
+treasure
+grow hot
+room
+be strong
+abomination
+youth
+be astounded
+lifting up
+cup
+be complete
+what is good
+load
+weeping
+disturb
+life preservation
+ploughing
+rest
+1442793	comprehend
+load
+cattle
+chariot
+sorrow
+substitute
+food
+quake
+grow numb
+vision
+1442804	Hezron
+1442807	Jamin
+1442817	Shimron
+1442819	Elon
+1442823	Shuni
+1442839	Ehi
+1442844	Hushim
+1442848	Shillem
+teach
+pasture
+best
+1442853	be confused
+be complete
+end
+horse
+hide
+body
+be desolate
+portion
+behold
+yield
+fifth part
+<uncertain>
+couch
+become weak
+old age
+arbitrate
+exchange
+redeem
+multiply
+grasp
+fullness
+end
+generative power
+remainder
+strength
+<uncertain>
+couch
+couch
+<uncertain>
+confidential talk
+become united
+pleasure
+root up
+strong
+anger
+neck
+lion
+lion
+prey
+kneel
+lion
+rod
+engrave
+1442897	obedience
+ass
+vine
+full
+clothing
+garment
+dull
+tooth
+shore
+ship
+backside
+bone
+saddle-bags
+resting place
+be pleasant
+bear
+forced labour
+snake
+bite
+back(wards)
+salvation
+wait for
+band
+attack
+fat
+dainties
+doe
+antler
+antlers
+march
+wall
+be bitter
+shoot
+arrow
+ever-flowing
+be agile
+arm
+strong
+help
+breast
+hill
+scalp
+singled out
+wolf
+prey
+plunder
+embalm
+embalming
+weeping
+chariot
+horseman
+1442949	opposite
+wailing
+1442952	pray
+grandsons
+1442955	<uncertain>
+ark
+new
+be wise
+fight
+loads
+storages
+1442963	act of violence
+1442966	potter's wheel
+bearing easily
+new-born
+hide
+month
+chest
+papyrus
+cover
+pitch
+rush
+stand
+have compassion
+Moses
+draw out
+decay
+draw water
+help
+1442985	gasp
+cry
+cry
+groaning
+1442991	<uncertain>
+blackberry bush
+burn
+draw off
+holiness
+drive
+pain
+flow
+oppression
+press
+mention
+strong
+inhabitant
+tail
+have skin-disease
+snow
+dry land
+speechless
+deaf
+clear-sighted
+blind
+1443014	rejoice
+1443016	sign
+pebble
+be slack
+circumcision
+jump
+pest
+let loose
+register
+collect
+proportion
+clip
+lie
+stubble
+quantity
+judgment
+possession
+shortness
+1443035	Amram
+1443037	<levite>
+Uzziel
+1443042	father's sister
+1443050	Nahshon
+1443054	Ithamar
+1443061	practice sorcery
+enchantments
+stream
+reedy pool
+secrecy
+hurt
+frog
+kneading-trough
+glorify
+homer
+relief
+gnat
+gnat
+finger
+mixed insects
+be special
+redemption
+stone
+hollow
+soot
+toss
+dust
+boil
+blisters
+blow
+build
+hail
+found
+take refuge
+spread out
+flax
+barley
+ears
+flower-bud
+spelt
+late
+rain
+pour
+deal with
+locust
+bait
+perish
+festival
+vigorous man
+be dark
+darkness
+hoof
+female companion
+middle
+hand-mill
+cut off
+dog
+heat
+gathering
+be little
+amount
+compute
+young ram
+door-post
+lintel
+roast
+bitter
+raw
+cooked
+shank
+thus
+gird
+haste
+Passover
+be lame
+plague
+destruction
+remembrance
+leaven
+leavened
+convocation
+be leavened
+native
+bundle
+hyssop
+basin
+half
+captive
+dough
+on foot
+mixture
+night
+vigil
+hired
+first-born
+strength
+litter
+buy off
+break
+appendage
+1443157	by day
+pillar
+depart
+1443163	confuse
+adjutant
+wall
+night watch
+confuse
+wheel
+heaviness
+shake off
+sing
+song
+be high
+shoot
+protection
+1443177	praise
+sink
+depth
+be powerful
+break
+height
+tear down
+anger
+heap
+barrier
+flow
+condense
+blow
+sink
+lead
+mighty
+praise
+miracle
+<relative>
+power
+pasture
+labour pains
+1443200	trembling
+faint
+rest
+site
+make
+sanctuary
+future
+1443208	prophetess
+round dance
+sing
+1443212	murmur
+be sweet
+right
+disease
+1443217	date-palm
+Sin
+Sinai
+pot
+satiety
+murmuring
+be sated
+quail
+lying down
+crackle
+hoar frost
+what
+omer
+skull
+measure
+remain
+be wormy
+scarlet worm
+melt
+sabbatical feast
+sabbath
+maggot
+manna
+coriander
+taste
+flat cake
+receptacle
+reminder
+ephah
+1443247	be thirsty
+thirst
+rock
+1443254	steadiness
+defeat
+write
+signal
+act of sending
+weariness
+rejoice
+wither
+advise
+front
+warn
+see
+eagle
+property
+holy
+cloud
+set border
+ram
+lightning
+horn
+smoke
+strong
+idol
+form
+jealous
+of fourth generation
+vanity
+kill
+commit adultery
+smoking
+darkness
+final offer
+hewn stone
+swing
+ascent
+released
+body
+pierce
+awl
+appoint
+deal treacherously
+body
+intercourse
+be after
+occur
+prudence
+broom
+support
+inaction
+fine
+judge
+branding
+gore
+goring
+ransom
+ransom
+breaking in
+thief
+what is stolen
+heap
+standing grain
+burning
+wrapper
+what is lost
+be guilty
+seduce
+betroth
+obtain
+consecrate
+oppress
+orphan
+borrow
+humble
+give loan
+interest
+take a pledge
+gracious
+full produce
+abundance
+eighth
+honour
+burden
+poor
+present
+be blind
+distort
+let loose
+take breath
+first fruits
+harvesting
+male
+rebel
+be hostile
+depression
+desolation
+take possession
+bowl
+lapis lazuli
+purity
+noble
+tablet
+contribution
+incite
+purple wool
+purple-wool
+worm
+be ruddy
+tachash-skin
+acacia
+balsam-tree
+anointment
+smoke of sacrifice
+perfume
+installation
+ephod
+breast-piece
+model
+dwelling-place
+arrange
+border
+cover
+hammered work
+end
+block
+table
+bulwark
+span
+corner
+side
+platter
+jar
+bowl
+continuity
+lamp stand
+bulb
+bud
+almond-like
+lamp
+snuffers
+fire holder
+curtain
+twist
+measured stretch
+loops
+drapery
+outermost
+junction
+take
+hook
+eleven
+fold double
+overhanging
+overhang
+overhanging
+board
+bind
+south
+pedestal
+cut
+low place
+corner post
+bar
+middle
+curtain
+hook
+covering
+weave
+be square
+corner
+grow fat
+shovels
+bowl
+fork
+lattice
+net
+rim
+be hollow
+curtain
+joint
+sunrise
+shoulder
+peg
+pure
+beaten, pure
+act as priest
+splendour
+wisdom
+coat
+chequered work
+turban
+scarf
+girdle
+covering
+engrave
+artisan
+engraving
+settings
+chain
+cords
+rope
+span
+setting
+row
+ruby
+chrysolyte
+beryl
+turquoise
+precious stone
+<gem>
+<precious stone>
+jaspis
+precious stone
+jade
+weave
+<uncertain>
+bind
+displace
+<oracle device>
+tummim
+entire
+weave
+cuirass
+skirt
+pomegranate
+bell
+blossom
+forehead
+head-gear
+drawer
+bread
+wafer
+dress
+consecration
+priesthood
+foundation
+appendage of liver
+liver
+kidney
+smoke
+contents of stomach
+cut
+piece
+fire offering
+earlobe
+right-hand
+thumb
+spatter
+fat tail
+splintbone
+offering
+breast
+portion
+anointment
+strange
+atonement
+tenth part
+fourth part
+hin
+burning place
+roof
+wall
+half
+gera
+rich
+basin
+myrrh
+drop
+cinnamon
+cassia-bud
+spice
+ointment mixture
+mix
+<uncertain>
+drops
+incense
+galbanum
+incense
+salt
+pulverise
+crush
+1443536	understanding
+work
+1443540	cord
+assemble
+shape
+stylus
+bull
+molten image
+writing
+engrave
+shouting
+strength
+defeat
+grind
+scatter
+<uncertain>
+ornament
+moment
+1443557	have compassion
+hole
+weave
+cut
+compassionate
+long
+watch
+sin
+forgive
+break
+asherah
+turning point
+shine
+mask
+willing
+string
+thorn
+breastplate
+spin
+yarn
+free will
+sufficiency
+end
+serve
+plating
+stamp
+plate
+cut
+headdress
+row
+arrangement
+offering
+kidney-fat
+nip off
+drain
+crop
+filth
+fatness
+cleave
+take handful
+memorial offering
+cake
+griddle
+crumble
+cooking pot
+roast
+groats
+new corn
+loin
+spine
+error
+anointed
+do wrong
+rubbish-heap
+err
+hide
+goat
+unclean
+corpse
+uncleanness
+speak thoughtlessly
+ewe-lamb
+be unfaithful
+unfaithfulness
+commit error
+fellow
+deposit
+robbery
+oppress
+what is robbed
+oppression
+guiltiness
+<uncertain>
+burn
+cloth
+go out
+mix
+<uncertain>
+clay
+polish
+wash off
+dry
+thanksgiving
+unclean meat
+something detestable
+portion
+covering
+cry of joy
+beloved one
+rent
+strong drink
+profane
+within
+break
+cleft
+cud
+rockbadger
+hare
+swine
+drag away
+fin
+scale
+detest
+vulture
+vulture
+red bird
+black bird
+<uncertain>
+owl
+<animal>
+falcon
+owlet
+cormorant
+owl
+owl
+<owl>
+vulture
+heron
+<bird's name>
+hoopoe
+bat
+run
+locust
+locust
+<uncertain>
+mole-rat
+jerboa
+lizard
+gecko
+lizard
+gecko
+reptile
+chameleon
+hearth
+plant
+menstruation
+menstruate
+purification
+well
+swelling
+scab
+<spot on skin>
+skin-disease
+deep
+spread
+scab
+be old
+reddish
+low
+dim
+scar
+scar
+beard
+gleaming
+scab
+black
+attend to
+skin-disease
+pull off
+bald
+bald
+bald spot
+bareness
+moustache
+cover
+alone
+wool
+flax
+texture
+<weaver's technical term>
+pale-green
+hurt
+boring
+cedar
+eyebrow
+log
+lefthand
+hollow spot
+draw off
+scrape off
+cut off
+plaster
+flux
+spittle
+seal
+spit
+chariot
+dedicate
+unwell
+wrap
+lot
+1443749	charcoals
+ready
+dry land
+demon
+<uncertain>
+loose conduct
+copulation
+Moloch
+lie down
+abomination
+vomit
+god
+harvest
+gleaning
+berries
+work
+stumbling block
+injustice
+justice
+slanderer
+be angry
+doubleness
+cloth
+spend autumn
+freedom
+punishment
+be free
+leave unharvested
+exultation
+go around
+tattoo
+tattooing
+tattoo
+spirit of dead
+soothsayer
+mesura
+balances
+stone
+shame
+make bald
+baldness
+tattoo
+tattoo
+virginity
+blemish
+lame
+mutilate
+deform
+breaking
+hunched
+spot
+mange
+ringworm
+crushed
+testicle
+blindness
+fracture
+cut
+wart
+stunt
+squeeze
+crush
+pull off
+corruption
+cut grain
+parched grain
+shouting
+assembly
+ornament
+shoot
+branches
+branchy
+poplar
+row
+1443826	explain
+prune
+growth
+gather grapes
+release
+what is sold
+old
+ninth
+forfeiture
+right of buying back
+grow poor
+pasture
+totter
+interest
+great number
+sale
+offspring
+figure
+produce
+threshing
+vintage
+abhor
+yoke-bar
+uprightness
+retract
+terror
+consumption
+inflammation
+pine away
+emptiness
+admonish
+bronze
+meeting
+blow
+be desolate
+vengeance
+high place
+incense-stand
+idols
+ruin
+pay off
+timidity
+scatter
+flight
+stumble
+power to stand
+putrefy
+be humble
+exchange
+exchange
+ban
+be first-born
+1443894	Pagiel
+1443900	group of thousand
+approaching
+banner
+anger
+1443914	commission
+1443919	ransom
+ransom
+covering
+bar
+cultic service
+turn aside
+jealousy
+floor
+swollen
+swell
+surely
+vinegar
+liquid
+dry
+grape
+skin
+knife
+loose hair
+instant
+suddenly
+wagon
+dedication
+first-born
+clarion
+shout
+1443945	spy
+complain
+collapse
+1443949	cluster
+wish
+cucumber
+water-melons
+leek
+onion
+garlic
+rove about
+pound
+mortar
+cooking pot
+dainty
+suckling
+nausea
+be short
+speak as prophet
+1443967	youth
+pass along
+spread
+1443972	Ethiopian
+humble
+riddle
+be foolish
+spit
+humiliate
+1443985	Palti
+1443989	Gaddi
+Susi
+1443999	slack
+fortification
+lean
+1444003	<near bethshean>
+Hamath
+1444006	Sheshai
+1444008	neck
+1444010	<valley of grapes>
+shoot
+end
+fortified
+be still
+spoiling
+contemn
+greatness
+fornication
+opposition
+be heedless
+1444022	third part
+dough
+threshing-floor
+error
+blaspheme
+tuft
+1444032	summoned
+rule
+bore out
+what is created
+beaten
+rise
+haste
+blossom
+rebellion
+portion
+oil
+return
+pit
+cover
+rock
+highway
+price
+1444050	Arad
+1444052	starvation-bread
+serpent
+Oboth
+1444057	Arnon
+1444060	slope
+1444066	valley
+1444072	say proverb
+flame
+town
+woe
+1444077	escaped one
+captivity
+1444083	seize
+1444087	survivor
+desert
+1444092	be afraid
+eat
+<prophet>
+1444096	divination
+curse
+adversary
+draw
+hollow way
+wall
+narrow
+serve
+throw
+1444107	track
+proverb
+curse
+regard
+dust
+lie
+wickedness
+horns
+wild oxen
+spell
+lion
+be right
+1444120	<uncertain>
+word
+garden
+<name of plant>
+bucket
+1444126	kingship
+gnaw
+break
+clap hands
+tread
+<uncertain>
+defiance
+possession
+1444135	ship
+1444137	attach
+1444139	lance
+women's room
+pierce
+rennet-bag
+1444144	Salu
+1444148	cunning
+1444156	Jaminite
+1444163	Shunite
+Ozni
+1444185	Iezerite
+1444190	Shechem
+1444194	<son of Gilead>
+1444201	Shuthelah
+Shuthelahite
+1444227	Shillemite
+1444230	splendour
+obligation
+forbid
+promise
+issue
+vengeance
+assign
+1444240	what is taken
+tin
+tax
+half
+bracelet
+adornment
+1444250	<mountain>
+1444253	increase
+heap of stones
+make haste
+<uncertain>
+boundary
+1444266	tent camp
+1444269	<in Gilead>
+1444298	thorn
+pricks
+be like
+1444302	outlets
+1444305	draw
+1444309	Shepham
+1444312	strike
+1444327	Shelomi
+1444329	refuge
+hatred
+push
+malicious intent
+alienate
+1444339	explain
+low land
+1444342	how
+burden
+be terrified
+grumble
+tremble
+except
+be angry
+be easy
+bee
+stir
+footstep
+possession
+purchase
+1444356	damage
+Moabite
+1444362	have labour pain, to cry
+1444364	be high
+cord
+1444367	open country
+1444372	fairness
+1444374	couch
+1444377	be angry
+1444379	learn
+clinging, cleaving to
+understanding
+image
+wield
+furnace
+be discontent
+proving
+<place of refuge>
+1444392	repeat
+hew
+cut off
+idol
+cattle
+ewes
+sickness
+sickness
+stir
+discomfiture
+lay snares
+be abhorrent
+swell
+poverty
+scorpion
+thirsty ground
+flint
+might
+guilt
+uprightness
+be afraid
+stubbornness
+guilt
+1444418	chastening
+flow
+greens
+early rain
+spring-rain
+1444424	Ebal
+entrance
+1444427	luxuriant
+undertaking
+desire
+gazelle
+fallow-buck
+ensnare
+rebellion
+incite
+hiding place
+wickedness
+explore
+mound
+gather
+reebok
+wildgoat
+<uncertain>
+wild sheep
+gazelle
+red bird
+<uncertain>
+vulture
+bind
+remitting
+loan
+borrow
+draw together
+need
+put on
+sickle
+measure
+joyful
+claim
+case
+insolence
+jaw
+grass
+practice divination
+company
+wood
+gather
+axe
+lie in ambush
+turn
+be tender
+hurry
+dedicate
+siege
+captives
+nail
+deal violently
+disdained
+rebel
+be lavish
+drink
+young one
+egg
+parapet
+tassel
+deed
+squeeze
+crushing
+penis
+bastard
+be in front
+1444492	pollution
+tool
+excrement
+gift
+price
+claim interest
+pluck off
+rubbed wheat
+divorce
+loan
+pledge
+beat off
+knock down
+contempt
+muzzle
+tread on
+husband's brother
+brother's widow
+private parts
+bag
+cut off
+wear out
+weary
+basket
+time of mourning
+dwelling
+whitewash
+lime
+be silent
+store
+supply
+curse
+rebuke
+deed
+inflammation
+heat
+scorching
+paleness
+terror
+tumours
+scabies
+madness
+blindness
+bewilderment
+failing
+be mad
+destruction
+taunt
+consume
+gather
+anoint
+cricket
+want
+pounce
+trust
+stress
+stress
+oppress
+dainty
+be dainty
+tenderness
+afterbirth
+rejoice
+tear
+stir
+excited
+annihilation
+despair
+hang
+tremble
+idol
+root
+poison
+wormwood
+stubbornness
+watered
+thirsty
+diseases
+overthrow
+root out
+gather
+captivity
+drip
+teaching
+shower of rain
+rain
+doing
+crooked
+queer
+stupid
+howling
+wilderness
+pupil of eye
+be awake
+wing
+produce
+open field
+ram
+wine
+be fat
+1444593	kick
+be thick
+grow fat
+god
+demon
+know
+<uncertain>
+grief
+perversity
+faith
+breath
+be kindled
+devour
+foundation
+hungry
+feed
+flame
+sting
+bitter
+glide away
+young man
+split
+man
+counsel
+terrace
+cobra
+cruel
+store
+<uncertain>
+calamity
+ready
+go away
+seek refuge
+libation
+hiding place
+sharpen
+shine
+come
+orders
+love
+<uncertain>
+word
+assembly
+gathering
+loyal
+smoke sacrifice
+beloved
+shelter
+present
+produce
+abundance
+cover
+cover
+leap
+south
+lock
+walk
+uproar
+dust
+hiding place
+happiness
+sap
+mutter
+silence
+1444658	ford
+cord
+bank
+Adam
+1444663	standing place
+produce
+rumour
+1444669	be weary
+1444671	descent
+alas
+1444674	kindle
+ambush
+dart
+1444678	<uncertain>
+worn out
+skin-bottle
+provision
+crumbs
+hot
+feed
+1444689	Jerusalem
+1444697	ascent
+1444701	<near Jerusalem>
+run away
+chief
+Horam
+1444706	Debir
+1444710	Shimron
+1444712	yoke
+1444716	Mizpeh
+1444718	supplication
+1444722	division
+be at peace
+1444733	Kedesh
+1444735	Carmel
+1444737	region
+1444740	lords
+1444743	Ashkelonite
+Gittite
+1444748	kingdom
+1444754	leader
+1444756	high place
+watch-tower
+1444762	melt
+1444764	<town>
+1444774	<valley>
+turn
+1444777	Ephron
+1444782	Shikkeron
+1444787	clap one's hand
+basin
+upper
+1444791	Eder
+Jagur
+1444794	Dimonah
+1444797	<near Hebron>
+<near ziph>
+1444803	Shema
+1444814	<in Judah>
+1444841	<near lakish>
+1444851	Dannah
+1444865	<near Hebron>
+1444867	<town>
+1444869	<near Hebron>
+Gibeah
+1444879	Secacah
+1444891	<locality>
+1444893	enclaves
+1444900	hill
+cut down
+1444905	<mountain>
+1444907	Ophrah
+village
+1444918	<in Benjamin>
+Gibeath
+1444927	Rimmon
+1444934	<in Galilee>
+wine-press
+1444940	Nahalal
+1444943	Shunem
+1444967	Tyrus
+<near tyre>
+1444972	Adami-nekeb
+1444978	Hammath
+1444980	<in Naftali>
+1444989	<in Dan>
+1445002	appointing
+1445004	<town>
+1445008	Abdon
+1445013	riches
+rebellion
+care
+bird-trap
+<uncertain>
+darkness
+jealous
+big tree
+1445024	thumb
+1445026	Ashkelon
+1445028	Nahalol
+1445038	snare
+1445040	idol
+spoil
+plunder
+urge
+1445046	be strong
+Eglon
+1445049	Benjaminite
+left-handed
+cubit
+upper room
+coolness
+handle
+flame
+hole
+<uncertain>
+lock
+key
+1445063	ox-goad
+Sisera
+1445066	strength
+1445068	date-palm
+1445073	curtain
+hammer
+temple
+sleep
+be faint
+be weighty
+sing
+quake
+drop
+path
+crooked
+countrymen
+<uncertain>
+yellowish red
+be concerned with
+divide
+watering-channel
+recount
+scribe
+division
+whistling
+exploration
+landing place
+reproach
+high place
+wash away
+<uncertain>
+strike
+dashing
+strong
+1445104	help
+bowl
+hammer
+labouring
+skin
+cut
+despoil
+lament
+window
+mistress
+womb
+stuff
+woven stuff
+store
+unapproachable
+belittle
+1445121	-ezrite
+1445123	juice
+this there
+fort
+1445127	fleece
+press
+1445130	trembling
+<uncertain>
+melt
+lick
+1445135	<uncertain>
+interpretation
+1445144	gleaning
+1445147	<uncertain>
+1445150	weary
+<ornament>
+request
+eardrops
+necklace
+1445156	be insolent
+1445158	mound
+post
+sweetness
+thorny bush
+deed
+1445167	navel
+Arumah
+cellar
+1445171	<mountain>
+axe
+brushwood
+<uncertain>
+1445176	slice
+1445180	<judge>
+1445185	female companion
+1445187	ear of grain
+1445189	Abdon
+1445195	razor
+miraculous
+1445199	occasion
+young lion
+roar
+carcass
+scrape out
+propound a riddle
+wrapper
+sweet
+sun
+stripped
+deal with
+fox
+1445212	cleft
+1445215	fetter
+fresh
+salvation
+grinder
+1445221	sinew
+tow
+lie
+plaits
+warp-threads
+weaver's bobbin
+press hard
+1445229	laugh
+grasp
+<prophet>
+swear
+1445234	end
+this
+<locality>
+oppression
+be silent
+be sluggish
+what is valuable
+1445243	feel repugnance
+span
+become evening
+1445247	wander
+threshold
+plan
+companion
+sling forth
+single hair
+fast
+1445255	burst forth
+vicinity
+surround
+1445259	sound spot
+<in Gilead>
+1445262	dance
+seize
+1445272	rival wife
+be disconcerted
+palace
+drunk
+concern
+jar
+rejoice
+unrestrained
+knowledge
+estimate
+terror-filled
+put on
+hungry
+wither
+be low
+ash pit
+support
+world
+thunder
+fork
+cooking pot
+cauldron
+roast
+report
+fatten
+invite
+payment
+attach
+rare
+vision
+tingle
+rebuke
+1445305	yesterday
+announce
+neck
+convulsion
+1445310	podium
+break out
+saddle-bag
+accident
+low
+-shemeshite
+village
+water-course
+1445319	hold
+lamb
+1445323	return
+Joel
+1445326	ointment mixer
+female cook
+1445331	Becorath
+1445335	be afraid
+gift
+seer
+chief
+what is desirable
+hall
+flask
+1445343	harp
+flute
+kingship
+1445347	be high
+1445349	be new
+be old
+1445352	profit
+1445355	hollows
+1445358	spear
+ploughshare
+ploughshare
+sharpening
+pim
+trident
+point
+war
+1445371	hindrance
+hole
+guard
+ploughing line
+taste
+honeycomb
+going
+honeycomb
+rebuke
+1445388	child
+1445390	rest
+pleasure
+give attention
+glory
+reluctance
+cut
+1445397	-lehemite
+David
+terrify
+play harp
+1445402	<space between>
+1445404	height
+helmet
+scaly mail
+front side
+weaver's beam
+shield
+<uncertain>
+slice
+pledge
+camp circle
+bear
+helmet
+be unable
+smooth
+bag
+sling
+young man
+girdle
+triangle
+look at
+cast
+family
+1445428	be poor
+be precious
+escape
+quilt
+1445433	seniors
+1445435	step
+1445437	target
+do wrong
+rebellion
+shame
+arrow
+1445444	a certain
+stranger
+1445447	<uncertain>
+urge
+enwrap
+1445451	be infatuated
+mark
+spittle
+lacking
+fortification
+1445457	subject
+1445462	be cunning
+hiding-places
+surround
+goat
+o that
+eastern
+flea
+judge
+1445472	insight
+1445474	slaughtered meat
+cakes
+fig cake
+piss
+staggering
+1445484	sleeping
+jar
+pass summer
+partridge
+despair
+1445493	where
+1445496	mistress
+<uncertain>
+fatted calf
+1445500	be faint
+Cherethite
+breeze
+be missing
+1445508	image
+cramp
+chant elegy
+elegy
+beauty
+rejoice
+pleasant
+delight
+1445518	pool
+1445521	light
+belly
+Ammah
+1445525	gully
+long
+1445538	coming
+1445540	quiet
+whirl of spindle
+wickedness
+eat
+1445546	Rimmon
+1445549	smitten
+1445551	report
+1445553	water-tunnel
+1445563	baka-shrub
+marching
+be eager
+1445569	juniper
+sistrum
+cymbals
+1445573	<uncertain>
+1445575	Obed-edom
+marching
+fatling
+dance
+<type of cake>
+raisin cake
+vision
+greatness
+prayer
+bridle
+<uncertain>
+1445588	shield
+1445600	Pelethite
+1445605	garment
+posterior
+<near hermon>
+1445614	be sickly
+fasting
+whisper
+1445618	wreath
+stone-saw
+axe
+axe
+brick
+1445624	Shimeah
+1445626	bread of consolation
+bake
+cooky
+pan
+1445631	mule
+1445634	glow
+<uncertain>
+run
+thrust
+existence
+straight
+1445642	conspiracy
+strong
+distance
+1445647	cover
+barefoot
+Hushai
+fellow
+throw
+bereaved of children
+pit
+fight
+drag
+pebble
+communicate
+<uncertain>
+<uncertain>
+strangle
+1445663	Shobi
+1445666	potter
+beans
+yoghurt
+network of boughs
+porter
+running
+crossing
+<uncertain>
+recompense
+1445679	lifetime
+thrust away
+1445682	<uncertain>
+rampart
+rampart
+faithful
+1445692	chosen
+1445695	Rapha
+spear
+Gob
+1445703	contention
+escape
+help
+secure height
+refuge
+encompass
+breaker
+shake
+foundation
+charcoals
+<uncertain>
+brightness
+stream
+rebuke
+support
+wide place
+cleanness
+act piously
+purge
+<uncertain>
+be silly
+shine
+ascend
+be like
+descend
+shake
+ankle
+be silent
+clay
+<uncertain>
+song
+word
+snuff
+1445738	<uncertain>
+1445757	Abi-albon
+1445759	Azmaveth
+Barhumite
+1445766	<uncertain>
+1445771	Bani
+1445777	order
+seer
+lay upon
+1445781	threshing-sledge
+1445783	Shunammite
+1445787	she-mule
+play flute
+make noise
+hurt
+uprightness
+cut
+1445807	Jokmeam
+1445814	kor
+pasture
+cuckoo
+fatten
+1445819	stall
+span
+1445827	occurrence
+raft
+food
+bearer
+Siw
+porch
+windows
+plug
+outhouse
+backroom
+lower
+recesses
+cover
+quarry-stone
+<uncertain>
+pit
+<uncertain>
+ceiling
+carving
+gourd-ornament
+hammered gold
+<uncertain>
+cut
+inner
+surrounding
+carve
+palm-ornament
+external
+pillar
+pivot
+carve
+cut beams
+1445860	opening
+<uncertain>
+<uncertain>
+foundation
+span
+1445866	capital
+net
+lily
+Boaz
+round
+line
+casting of metal
+thickness
+span
+<measure>
+place
+cross-bar
+wreath
+axletree
+spoke
+nave
+nakedness
+casting
+foundry
+snuffer
+forehead
+dominion
+cry of joy
+cockroach
+rebel
+desire
+whistle
+1445894	ship
+queen
+standing
+garment
+almug wood
+<uncertain>
+<uncertain>
+trade
+1445903	governor
+alloy
+mineh
+set with topaz
+ivory
+ape
+poultry
+equipment
+sycomore
+Astarte
+Milcom
+1445915	Tahpenes
+1445922	load
+1445924	rags
+lamp
+1445928	the little one
+whip
+turn
+1445932	devise
+1445934	gift
+alas
+Samaria
+delighting
+bottle
+1445940	age
+back
+dung
+chamber
+1445947	idol
+1445953	Abel-beth-maacah
+1445958	dwelling tower
+1445966	-elite
+1445968	Elijah
+1445972	venue
+1445974	grass
+crutches
+mock
+excrement
+attentiveness
+channel
+crouch
+be dark
+gird
+broom
+coal
+food
+quaking
+calm
+1445991	desire
+suffice
+handful
+district
+handful
+decide
+band
+sullen
+raging
+1446001	noble one
+1446006	hide
+<king of Judah>
+prison
+glue
+charioteer
+1446016	fly
+Elijah
+loin-cloth
+storm
+wrap
+pan
+disdain
+<king of moab>
+sheep-raiser
+choice
+slaughter
+1446028	slinger
+jar
+debt
+1446032	be easy
+squeeze
+set
+mallow <flower>
+gourd
+cleave
+1446039	<uncertain>
+alas
+1446043	Rimmon
+purse
+1446046	cut off
+<uncertain>
+<uncertain>
+be stormy
+how
+feast
+feast
+fourth part
+kab
+excretion
+wait
+trample
+dash
+cover
+1446062	mass
+driving
+sorcery
+1446066	utterance
+1446069	apply paste
+mascara
+dung
+heap
+1446075	insidiousness
+ward-robe
+origin
+1446083	alternatively
+1446087	client
+breach
+heap stones
+hewn stone
+1446100	thorn
+hostages
+1446108	exempt
+1446112	<uncertain>
+1446115	Gadi
+Pul
+1446129	Damascus
+pavement
+<uncertain>
+1446134	So
+1446138	<uncertain>
+be vain
+1446142	Sepharvaim
+1446149	Sepharvite
+<Assyrian god>
+1446153	Abi
+Nehushtan
+1446156	door-post
+commander
+chief
+rabshake
+Eliakim
+1446165	confidence
+Aramaic
+vomit
+1446175	rebuke
+contumely
+mouth of womb
+birth
+1446182	Telassar
+really
+despise
+mock
+orchard
+dig
+1446189	be waste
+short
+scorching
+at ease
+shoot
+enclose
+1446196	Adrammelech
+1446199	tear
+1446203	treasure
+perfume
+store
+1446207	leveller
+pan
+plunder
+1446214	Jedidah
+1446225	idol priest
+constellation
+1446229	court
+signpost
+1446232	Hamutal
+1446234	fine
+1446242	bulwark-maker
+poor
+exile
+1446246	bulwark
+Nebuzaradan
+vinedresser
+labour
+1446254	Kareah
+1446257	exile
+1446259	sustenance
+manger
+turn aside
+ill
+watching-place
+cucumber field
+be clean
+walk straight
+oppressor
+be white
+lead oxide
+drink
+vitiate
+gifts
+potash
+dross of melting
+mighty tree
+be ashamed
+strong
+spark
+stream
+pruning-knife
+clap hands
+end
+bow down
+haughtiness
+height
+haughty
+low
+ship
+hole
+<uncertain>
+support
+support
+<uncertain>
+whispering
+ill-treatment
+storm against
+decay
+expression
+confuse
+oppress
+throat
+seduce
+trip
+fetter
+be scabby
+anklet
+headband
+bracelet
+veil
+bands
+robes
+overtunic
+cloak
+tablet
+turban
+wrapper
+musty smell
+rope
+hair setting
+garment
+girding
+branding
+beauty
+mourn
+rinse
+balcony
+refuge
+shelter
+rain
+dig
+grape
+rotten berry
+hedge
+trampled land
+<uncertain>
+weed
+thornbush
+weed
+plantation
+delight
+deviation
+parched
+open
+roar
+rejoicing
+pasture
+fatling
+mix
+dried grass
+offal
+slumber
+<uncertain>
+wheel
+storm
+roaring
+groan
+growling
+drops
+be silent
+coal
+paste
+cutting down
+stump
+lean
+1446366	log
+be asunder
+1446369	be deep
+<uncertain>
+1446372	gully
+cleft
+thorn-bush
+watering place
+hoe
+1446380	joy
+spreading
+strength
+attestation
+disciple
+whisper
+darkness
+distress
+darkness
+constraint
+darkness
+rejoice
+load
+boot
+tramp
+food
+dominion
+abundance
+incite
+rush
+alienated
+bear along
+rise
+<uncertain>
+eat
+trouble
+prisoner
+curse
+plunder
+1446411	cut off
+ready
+<uncertain>
+great
+saw
+fatness
+emaciation
+burning
+falter
+rest
+trifle
+destruction
+be corrupt
+1446425	cry
+1446429	cut off
+bough
+terror
+strike
+shoot
+stump
+shoot
+rumour
+leopard
+take delight
+hiding-place
+young one
+viper
+put
+1446444	sending
+<uncertain>
+rejoicing
+sweep bare
+rejoicing
+howl
+violence
+labour pains
+cruel
+orion
+light
+insolent
+ruthless
+topaz
+gold
+1446460	demon
+eagle owl
+skip
+islander
+<uncertain>
+jackal
+delight
+pain
+excitement
+<uncertain>
+ceasing
+<uncertain>
+be serene
+ghosts
+sound
+spread out
+maggot
+morning-star
+gaze
+pierce
+tread down
+slaughtering place
+not
+possession
+hedgehog
+sweep
+broom
+serpent
+be alone
+place of assemblage
+1446492	quiver
+1446497	devastation
+remainder
+1446500	howling
+1446503	decision
+<uncertain>
+quick
+haughty
+idle talk
+smitten
+bright red
+shoots
+drink
+hi
+rejoicing
+1446515	<uncertain>
+decay
+diminish
+strike
+olive
+branch
+bough
+wood
+pleasant places
+<uncertain>
+pain
+incurable
+roar
+chaff
+wheel
+terror
+messenger
+elasticity
+subjugation
+wash away
+clear
+grape
+blossom
+sprigs
+shoots
+strike
+bring
+gift
+lay waste
+charmers
+dry
+stink
+be lousy
+rush
+seed-land
+fisher
+fish-hook
+net
+carded
+<uncertain>
+<uncertain>
+hire
+grieved
+foolish
+be stupid
+1446561	wavering
+vomit
+shame
+destruction
+1446566	<uncertain>
+hope
+vision
+sigh
+anguish
+shuddering
+seat order
+trample
+inquire
+Arabs
+1446577	heaviness
+shouting
+confusion
+be cool
+1446582	quiver
+breach
+reservoir
+hurling
+grasp
+winding
+circle
+dishonour
+offspring
+leaf
+gain
+beginning
+tradesman
+shipyard
+<uncertain>
+<uncertain>
+strip
+store
+satiety
+choice
+waste
+diminish
+cry
+desolation
+light
+<uncertain>
+treachery
+break
+stir
+<uncertain>
+dungeon
+full moon
+heat
+faithfulness
+waterless country
+dregs
+fill with marrow
+filter
+covering
+interweave
+straw-heap
+in
+dung-place
+swim
+<uncertain>
+confident
+uprightness
+course
+level
+look for
+do wrong
+end
+leviathan
+fleeing
+crooked
+splendour
+step
+kindle
+root
+slaughter
+cry
+expel
+chalk
+bough
+stream
+storm
+flower
+early fig
+<uncertain>
+vision
+totter
+decision
+removed
+<untranslatable>
+<untranslatable>
+little
+stammering
+resting place
+boasting
+spate
+<type of stone>
+meeting
+foundation
+sweep
+trembling
+couch
+gather
+1446670	band
+draw
+black cumin
+cumin
+<animal>
+<uncertain>
+threshing instrument
+thresh?
+wheel
+effect
+<part of Jerusalem>
+mourning
+mourning
+fortification
+thunder
+<uncertain>
+net
+narrow
+close
+dark place
+opposite
+darkness
+scorner
+be wakeful
+lay bait
+grow pale
+alliance
+refuge
+insult
+1446700	lion
+snake
+hump
+<Egypt>
+mendacious
+deceit
+turn aside
+crushing
+rake together
+fire-place
+strip
+ditch
+coming back
+rest
+confidence
+mast
+hide
+teacher
+dirt
+fat
+pasture
+mash
+sorrelfodder
+winnowing shovel
+pitch-fork
+division
+water-ditch
+breaking
+lifting up
+swing
+bridle
+descent
+rage
+pattering
+foundation
+<uncertain>
+pile
+horror
+hiding-place
+stammerer
+<uncertain>
+noble
+alienation
+confusion
+willingness
+gathering
+watch-tower
+barren field
+trust
+hail
+low state
+<uncertain>
+arising
+rushing
+swarm
+rush
+store
+<uncertain>
+burning
+cut
+trembling
+hearth
+extortions
+be insolent
+unintelligible
+pack up
+oar
+stench
+reward
+hook
+weed
+night-demon
+make nest
+<animal>
+<uncertain>
+dry country
+asphodel
+rejoicing
+heat
+spring
+resting place
+reed
+highway
+burglar
+<uncertain>
+likeness
+<uncertain>
+tent camp
+roll
+thread
+bulbul-bird
+oppression
+<uncertain>
+pit
+back
+examine
+music
+rub
+1446799	double
+something knobby
+rugged ground
+lamb
+third part
+indicator
+drop
+chains
+<uncertain>
+rot
+circle
+something thin
+spread out
+be weary
+might
+<uncertain>
+wing
+be smooth
+hammer
+nail
+remote part
+strife
+double-edged
+myrtle
+box tree
+cypress
+arguments
+<uncertain>
+prefect
+molten image
+cry
+cry
+groan
+pant
+gasp
+rugged country
+be trapped
+power
+burn
+sunset
+powerful
+be extinguished
+reviling word
+honour
+be stupefied
+billhook
+charcoal
+red chalk
+wood-scraper
+<uncertain>
+tree
+laurel
+kindle
+prostrate
+aha
+be besmeared
+dry wood
+deep
+1446858	<uncertain>
+hiding-place
+<uncertain>
+trickle
+1446863	fetters
+<uncertain>
+1446866	bend down
+Nabu
+load
+lavish
+<uncertain>
+veil
+train
+silently
+lady
+voluptuous
+loss of children
+widowhood
+disaster
+divide
+idol
+restrain
+spread
+wave
+grain
+sharp
+pasturage
+1446888	suckling
+ruin
+childlessness
+bereaved of children
+barren
+backsliding
+bosom
+opponent
+juice
+darkness
+<uncertain>
+spittle
+moth
+fire-arrows
+pain
+hole
+melody
+disperse
+reviling word
+moth
+pierce
+depths
+put in chains
+cup
+reeling
+net
+drunk
+grieve
+bow down
+captive
+be lovely
+destruction
+ceasing
+making hide face
+restraint
+youth
+flowing
+ruby
+beryl
+terror
+attack
+clap
+nettle
+bark
+pant
+descend
+ointment
+life
+<uncertain>
+crushed
+apostate
+comfort
+fruit
+sea-weed
+approach
+<uncertain>
+contention
+bend
+fedders
+homelessness
+healing
+cry
+scorched land
+pollute
+thread
+spider
+crook
+brightness
+grope
+<uncertain>
+clothing
+flashing up
+beam
+young male camel
+<in delta>
+breast
+planting
+opening
+wrap
+farmer
+<uncertain>
+<uncertain>
+adorn
+turban
+rest
+coloured
+trough
+blood-spout
+avenge
+be hard
+brush-wood
+menstruation
+watch-huts
+<god of fortune>
+1446983	mixed wine
+foot-stool
+horror
+exclude
+consolation
+sip
+udder
+end
+1446992	camels
+abhorrence
+bridehood
+pit
+bristle
+1446998	apostasy
+<uncertain>
+band
+natron
+alkaline salt
+defile
+young female camel
+run aimlessly
+rutting
+thirst
+<uncertain>
+roam
+familiar
+treacherous
+lightness
+scatter
+supplication
+till
+tilled ground
+thicket
+rain cloud
+foolish
+thicket
+rock
+be beautiful
+desire
+gasp
+be ruttish
+be potent
+<uncertain>
+shatter
+fowler
+basket
+<uncertain>
+horrible
+1447034	<uncertain>
+wood
+<uncertain>
+shoot
+child
+rest
+be pleasing
+roll
+bitterness
+examiner
+be hot
+bellow
+robber
+cake
+queen of heaven
+counsel
+slaughter
+apostate
+prevail
+deceitfulness
+swift-bird
+stylus
+healing
+terror
+snorting
+neighing
+<uncertain>
+ambush
+lamentation
+pasture
+beaming eyes
+grass
+nail
+scare-crow
+be fitting
+be insolent
+1447071	like
+this
+say
+to
+god
+<relative>
+heaven
+and
+earth
+not
+do
+perish
+from
+earth
+underneath
+these
+fog
+mockery
+load
+purpose
+sound
+foliage
+dry up
+beloved one
+hyena
+desolate
+drunkenness
+pride
+shed tears
+treat violently
+skin-specks
+portion
+adultery
+drought
+hope
+surprise
+rain
+excitement
+let loose
+deceitful
+death
+banquet
+kindness
+fish
+hunter
+diamond
+juniper
+lava desert
+salt country
+transplant
+canal
+breakdown
+horrible
+cool
+path
+sherd
+whistling
+1447130	stock
+preciousness
+laughter
+derision
+stumbling
+1447139	oppressor
+minium
+extortion
+ease
+1447144	fearing
+form
+smoothness
+unseemliness
+alienation
+storm
+shatter
+speak
+boasting
+insult
+1447155	first
+<land of hiob>
+<in arabia>
+Zimri
+1447160	vomit
+cover
+1447163	heap
+1447167	sorcerer
+1447170	Azzur
+1447174	hope
+burst
+1447178	collar
+be at ease
+ulcer
+healing
+healing
+<uncertain>
+be small
+round dance
+languish
+precious
+sign-post
+turn away
+be dull
+1447197	deed
+arm
+youth
+<uncertain>
+1447208	roll
+1447217	ink
+brazier
+1447225	prison
+oversight
+1447228	room
+1447232	waste
+rags
+rag
+armpit
+silt
+1447240	official
+compulsory labour
+Nebushazban
+handcuffs
+1447248	lodging-place
+1447251	mortar
+state tent
+shape
+<uncertain>
+1447257	scaly coat
+wash away
+pretty
+mosquito
+<god of thebes>
+Thebes
+stamping
+despair
+1447266	<uncertain>
+<uncertain>
+looseness
+1447272	incision
+Malcam
+be corrupt
+horror
+abode
+panic
+quiet
+1447280	paw
+shoot
+pillar
+sickle
+Merathaim
+1447286	granary
+heap
+dart
+widower
+locust
+club
+1447293	official
+bristly
+belly
+growl
+lion's whelp
+what is swallowed
+sigh
+fondling
+1447303	Ezekiel
+1447305	<kind of metal>
+sparkle
+burnished
+<uncertain>
+<uncertain>
+obstinate
+prickle
+whisper
+wailing
+1447315	palate
+millet
+spelt
+weight
+dung-cake
+bake
+dung
+horror
+barber
+<uncertain>
+rebuke
+loath
+alas
+1447329	<uncertain>
+<uncertain>
+<uncertain>
+<uncertain>
+shame
+anguish
+shining
+entrance
+dig
+censer
+perfume
+1447341	destruction
+shattering
+clad
+writing-case
+mark
+crookedness
+1447348	net
+troop
+agitation
+divination
+writing
+wander
+wall
+whitewash
+ice-crystal
+coating
+band
+veils
+fragment
+<uncertain>
+dishearten
+Daniel
+1447365	origin
+navel
+<uncertain>
+swaddle
+compassion
+loathing
+nakedness
+textile
+fornication
+open
+<uncertain>
+rage
+domineering
+gift
+gift
+give present
+menstruation
+slaughter
+<uncertain>
+satiety
+despise
+inducement
+plumage
+tree-top
+shoot
+willow
+willow
+shoot
+desire
+garden bed
+be scaly
+destroy
+<uncertain>
+lofty
+pledge
+guilt
+pledge
+robbing
+lion
+cage
+branchy
+branch
+obligation
+flame
+burn
+bitterness
+be sharp
+hurl
+surround
+<uncertain>
+<uncertain>
+<uncertain>
+killing
+ruin
+wheeze
+derision
+gathering
+melting
+<uncertain>
+breast
+1447427	judgment
+desire
+perfection
+girded
+turban
+be separate
+penis
+1447435	<uncertain>
+derision
+<uncertain>
+paint
+weed
+circulate
+boil
+<uncertain>
+rust
+surface
+ointment pot
+<uncertain>
+<uncertain>
+information
+resting place
+scorn
+scrap
+spreading-place
+net
+stroke
+battering-ram
+traffic
+terror
+perfect
+oar
+step
+sail
+1447463	sailor
+<mountain>
+mariner
+exchange
+1447470	abundance
+stores
+<uncertain>
+ebony
+tribute
+byssus
+<uncertain>
+<uncertain>
+1447480	Wedan
+wrought
+cloth
+driving
+1447486	garments
+garment
+carpets
+two-coloured stuff
+solid
+<uncertain>
+<uncertain>
+wailing
+<uncertain>
+bristling
+ally
+splendour
+example
+covering
+beryl
+passage
+<uncertain>
+seeing
+1447505	alas
+foundation
+1447508	Sin
+<town>
+1447511	bandage
+groan
+grow dark
+tall
+bough
+bough
+<uncertain>
+make turbid
+<uncertain>
+height
+<uncertain>
+double
+lament
+<uncertain>
+<uncertain>
+care
+clear water
+foul
+troubled water
+you
+<uncertain>
+contumely
+early state
+this there
+spread
+1447537	open country
+steep way
+walk
+Hamonah
+structure
+building
+<uncertain>
+pavement
+packsaddles
+<uncertain>
+room
+building
+gallery
+<uncertain>
+passage
+shorter
+wall
+<uncertain>
+fashion
+fixed place
+barrier
+<uncertain>
+fire-place
+sweat
+clip
+expropriation
+<uncertain>
+young man
+sprinkle
+<uncertain>
+cooking places
+trickle
+ankles
+swimming
+eastern
+fisher
+1447574	scattering
+marshland
+healing
+1447583	contribution
+1447585	<wife of Hosea>
+1447590	Ammi
+Ruhamah
+adultery
+drink
+fence
+vagina
+reward
+ornament
+letek
+trample
+insolent
+oppression
+<uncertain>
+putrefaction
+rottenness
+1447606	heal
+young lion
+<uncertain>
+leanness
+be white
+this
+reject
+<uncertain>
+splinters
+gifts of love
+<uncertain>
+1447618	animosity
+conception
+shrivel
+place
+furrow
+shame
+bough
+disobedience
+1447628	trembling
+fevers
+enclosure
+where
+sting
+compassion
+be fertile
+1447636	locust
+jaw-bones
+stump
+wail
+apple-tree
+shrivel
+dried figs
+shovel
+pond
+long for
+glow
+change
+missile
+northern
+end
+smell of putrefaction
+be narrow
+column
+cast lot
+1447657	weak man
+<uncertain>
+1447662	fines
+totter
+oppression
+piece
+splendour
+<uncertain>
+<uncertain>
+fishery
+1447671	thought
+darkness
+pleiads
+gleam
+draw farm-rent
+ah
+darkness
+1447680	Calneh
+improvise
+<uncertain>
+burn
+fragment
+1447686	swarm
+late sowing
+plummet
+herdsman
+nip
+be crooked
+refuse
+sieve
+ruin
+1447696	hidden treasures
+<uncertain>
+slaughter
+misfortune
+plunder
+sip
+1447703	vessel
+care
+be silent
+proclamation
+qiqayon
+<uncertain>
+labour
+ten thousand
+wax
+barefoot
+Aphrah
+1447717	standing place
+1447719	bind
+1447721	comfort
+haughtiness
+might
+destruction
+<uncertain>
+scatter
+answer
+<uncertain>
+Ephrathah
+be cautious
+deceit
+<uncertain>
+alas
+desire
+pervert
+nightshade
+hedge
+mother-in-law
+<prophet>
+1447741	storm
+flood
+be interwoven
+wrap in scarlet
+<uncertain>
+quiver
+walk
+barricade
+moan
+beat
+emptiness
+emptiness
+tottering
+lionness
+dash
+1447757	Libyan
+bind
+guardsmen
+<uncertain>
+cold
+effacement
+1447764	crook
+frightful
+<uncertain>
+laughter
+haughty
+reach
+saying
+debt
+tremble
+stucco-work
+nakedness
+disgrace
+dirge
+sela
+veil
+shake
+1447781	be naked
+saying
+<uncertain>
+<uncertain>
+presumption
+lament
+pen
+enclosure
+1447790	weighing
+stress
+desolation
+<uncertain>
+humility
+<uncertain>
+<uncertain>
+chickling
+pit
+wainscot
+resting place
+be rebellious
+treachery
+evildoer
+waste
+pure
+<uncertain>
+1447808	<prophet>
+1447812	commission
+corn-pit
+1447815	Iddo
+Shebat
+1447818	eyeball
+bear grudge
+filthy
+casting
+upper
+pipes
+piebald
+1447834	gold
+dominion
+<uncertain>
+corner
+thrive
+storm-cloud
+forest
+kindness
+union
+<uncertain>
+brotherhood
+awkward
+reeling
+heavy stone
+strength
+1447851	frost
+rise
+bell
+1447855	sigh
+companion
+deceive
+food
+mourning
+tread down
+be in turmoil
+close
+son
+psalm
+<uncertain>
+groaning
+cry
+foe
+destruction
+fading away
+become weak
+end
+be pregnant
+<uncertain>
+small cattle
+<uncertain>
+oppressed
+groaning
+<uncertain>
+endure
+oppression
+<uncertain>
+crush
+<uncertain>
+irritation
+<uncertain>
+entrance
+vileness
+rebellion
+be corrupt
+<uncertain>
+pain
+be pleasing
+likeness
+duration of life
+strength
+come out
+push back
+bubble
+orders
+pure
+honey
+honey-comb
+sin
+lift banner
+request
+desire
+silence
+<uncertain>
+jaw
+evil deed, pain
+power
+affliction
+saturation
+assembly
+<uncertain>
+adornment
+accelerate
+kid
+quiet
+<uncertain>
+exterminate
+<uncertain>
+heat
+<uncertain>
+<uncertain>
+lovely
+push
+<uncertain>
+grind
+<uncertain>
+twinkle
+quiet
+wither
+step
+foolishness
+<uncertain>
+muzzle
+hope
+irritation
+waste
+sediment
+stormer
+fall away
+illness
+<uncertain>
+melt away
+sacred places
+head-shaking
+secret
+love-song
+be astir
+<uncertain>
+aloewood
+cassia
+queen
+work
+height
+<uncertain>
+wisdom
+meditation
+insolent
+stupid
+imperturbability
+perfection
+whirl
+swarm
+blemish
+<uncertain>
+confusion
+knock down
+<uncertain>
+pressure
+escape
+calumniate
+turmoil
+<uncertain>
+<uncertain>
+dagger
+<uncertain>
+<uncertain>
+<uncertain>
+scroll
+stumbling
+confuse
+lion
+pit
+dissolve
+miscarriage
+melting
+miscarriage
+rage
+split
+bow
+washing
+<uncertain>
+reprove
+faint
+praise
+cry of joy
+turmoil
+<uncertain>
+be calm
+clod
+turn aside
+<uncertain>
+praise
+prosperity
+naked land
+besprinkle
+snow
+knoll
+watch
+highness
+saving acts
+portion
+shouting crowd
+<uncertain>
+scatter
+bronze ware
+might
+position
+be hoarse
+close
+<uncertain>
+bread of consolation
+oppress
+<uncertain>
+<uncertain>
+<uncertain>
+<uncertain>
+be abundant
+sprout forth
+<uncertain>
+garment
+<uncertain>
+be great
+deceptions
+far
+axe
+beams
+mixture
+humble
+eyelid
+be gracious
+<uncertain>
+be equipped
+hurt
+flood
+discharge
+path
+be sober
+death
+pluck
+eat
+<uncertain>
+full moon
+1448061	swallow
+stand at threshold
+confidence
+forgiving
+foundation
+strength
+destruction
+oblivion
+youth
+<uncertain>
+terror
+<uncertain>
+abandon
+insistence
+haste
+bulwark
+retribution
+dashing
+boast
+silence
+disquieting thoughts
+<uncertain>
+<uncertain>
+<uncertain>
+slander
+<uncertain>
+be emaciated
+remembering
+chariot
+foliage
+shine
+tremble
+fetter
+mix
+sink
+pit
+shipyard
+girdle
+<uncertain>
+youth
+cause
+speak unintelligibly
+distress
+whole
+benefit
+be off
+be crushed
+longing
+be sleepless
+grief
+long
+comfort
+soil
+be unfeeling
+perfection
+concern
+be smooth
+despicable
+hope
+reject
+bristle
+disclosure
+long
+dominate
+woe
+then
+running
+bag
+sleep
+layer
+<uncertain>
+gather
+attentive
+forgiveness
+slumber
+1448137	low state
+<uncertain>
+will
+measure off
+ascend
+light
+weave
+bones
+embryo
+kill
+completeness
+cerastes
+desire
+<uncertain>
+rain-pits
+thrust
+guard
+door
+dainties
+lighten
+plantlet
+<uncertain>
+kind
+produce in abundance
+abortion
+raise up
+thought
+blast
+string
+sound
+integrity
+scrap
+1448173	light
+gloom
+weary
+break
+<uncertain>
+disquieting thoughts
+error
+<uncertain>
+hunger
+vigour
+talk inconsiderately
+cry
+something tasteless
+marshmallow
+jump
+labour pains
+bronze
+<uncertain>
+press
+terror
+restlessness
+crust
+suffocation
+target
+bud
+<uncertain>
+sapful
+fill
+shudder
+constellation of lion
+snatch away
+bitterness
+despair
+reed
+flutter
+soap
+be clean
+cheese
+order
+stir
+darkness
+expiring
+decay
+thought
+push
+safety
+aged
+girdle
+strong
+be great
+<uncertain>
+stock
+outpouring
+overpower
+be familiar
+consolation
+wink
+onset
+fat
+prepare
+<uncertain>
+be luxuriant
+be brilliant
+condolence
+seize
+boy
+gall-bladder
+skin
+insert
+be red
+witness
+extinguish
+mockery
+spitting
+members
+strength
+desire
+spread out
+<uncertain>
+be unclean
+spark
+snare
+do wrong
+error
+net
+be loathsome
+be loathsome
+be bald
+<uncertain>
+excellency
+catch sight
+gall
+product
+enjoy
+plenty
+<uncertain>
+decay
+<uncertain>
+<uncertain>
+marrow
+clod
+adversary
+ore
+pebble
+downcast
+how, (not)
+despoil
+be moist
+wall
+press out
+nothingness
+be bright
+<uncertain>
+<uncertain>
+shake
+<uncertain>
+to
+greatness
+stride
+<uncertain>
+pay
+transparent
+rock-crystal
+corals
+youth
+step
+town
+phoenix
+lack
+gnaw
+salt-herb
+community
+slope
+scourge
+<uncertain>
+tear
+<uncertain>
+be grieved
+be black
+calling for judgment
+pocket
+bind
+<malodorous plant>
+1448319	knowledge
+bag
+pressure
+clean
+loath
+<uncertain>
+<uncertain>
+company
+work
+<uncertain>
+multiply
+<uncertain>
+effort
+exalted
+drop
+fall
+ambush
+north-winds
+moisture
+burden
+roundabout
+steering
+layer
+wonders
+mirror
+brilliant
+measurement
+swaddling band
+sandy ground
+drop
+cords
+constellations
+lioness
+writing
+cock
+foetus
+open field
+wild ass
+green plants
+she-ostriches
+toss
+horse mane
+snorting
+rattle
+soar up
+<uncertain>
+reprover
+tread down
+hippopotamus
+sinew
+bend down
+thigh
+intertwine
+rod
+lotus
+partner
+harpoon
+harpoon
+<uncertain>
+sneezing
+spark
+nostrils
+leap
+despair
+arrow-head
+rottenness
+club
+points
+likeness
+twice seven
+1448392	wreath
+throat
+simplicity
+run down
+healing
+<uncertain>
+capture
+crookedness
+crookedness
+watch
+goat
+ant
+sluggish
+folding
+poverty
+contention
+kinsman
+street
+coverlets
+prepare
+be coloured
+linen
+aloewood
+joys of love
+smoothness
+opening
+arrogance
+hereditary
+back<?>
+insolence
+<uncertain>
+depth
+assiduous
+humble
+crookedness
+handshakes
+stab
+<uncertain>
+advantage
+<official>
+calmness
+smitten
+hedge
+arrangement
+purpose
+stumbling
+sweet
+press hard
+burning
+blink
+melting pot
+burst out
+healing
+bitterness
+strokes
+swallow
+disease
+groaning
+roof
+drive away
+sluggishness
+pleasant
+pebble
+approach
+massage
+crooked
+guilty
+subdue
+truth
+dark
+knife
+throat
+estimate
+somnolence
+robber
+desire
+dullness
+<uncertain>
+coming
+weed
+insult
+right time
+ornament
+cold
+<uncertain>
+heap of stones
+vomit
+pivot
+be crazy
+fire-arrows
+deceiving
+overthrow
+load
+cruelty
+kiss
+heavy rain
+destruction
+fame
+pound
+pestle
+pit
+pamper
+<uncertain>
+1448498	<uncertain>
+leech
+gecko
+<uncertain>
+<uncertain>
+squeezing
+1448505	<uncertain>
+whorl
+sluggishness
+1448514	therefore
+withdraw
+Boaz
+hold out
+draw out
+bundle
+kinsman
+feet-place
+1448525	blackish
+snort
+keep
+young goat
+mare
+girl friend
+turn
+string of shells
+glass-bead
+nard
+hennah
+rafter
+juniper
+she-gazelle
+gazelle
+wall
+glance
+lattice
+winter
+blossom
+pruning
+unripe fig
+perule
+breath
+<uncertain>
+scent-powder
+holding
+litter
+saddle-cloth
+fit
+marriage
+go down
+washing
+bear twins
+speaking
+stone courses
+she-gazelle
+necklace
+channel
+park
+curcuma
+hairlocks
+drop
+how
+soil
+lock
+date-panicle
+<uncertain>
+herb
+plate
+alabaster
+sweetness
+nut
+1448579	turning
+artisan
+enclosure
+mixed wine
+fence
+1448585	date-fruit
+flow
+spice
+lean
+big flame
+1448591	speaker
+profit
+long time
+occupation
+be worried
+longing
+be straight
+want
+madness
+folly
+striving
+folly
+lady
+advantage
+feel
+season
+hitherto
+hitherto
+poor
+look
+if
+mighty
+account
+invention
+interpretation
+mastery
+decision
+work
+running
+folly
+pit
+succeed
+madness
+drinking
+great sluggishness
+beam-work
+inactivity
+drip
+knowledge
+youth
+black hair
+cease working
+molar teeth
+grinding mill
+terror
+caper-fruit
+ponder
+<uncertain>
+collection
+devotion
+wearying
+something precious
+ruin
+<uncertain>
+becloud
+<uncertain>
+enticement
+benumbing
+healthy ones
+bring forth
+stop
+be untilled
+cower
+<uncertain>
+refuse
+desolation
+stop
+oppression
+rising up
+mocking song
+insolence
+curse
+be dark
+shine
+<uncertain>
+be white
+blackness
+shrivel
+compassionate
+depart
+outlook
+hand-mill
+Ahasuerus
+1448676	citadel
+nobles
+palace
+linen
+linen
+<uncertain>
+pavement
+pavement
+drinking
+compel
+1448687	Mehuman
+1448691	Abagtha
+1448694	headdress
+1448702	word
+contempt
+1448707	Esther
+massage
+1448711	release
+care
+1448718	Nissan
+lot
+Adar
+treasury
+satraps
+copy
+hurry
+1448726	statement
+hold
+staff
+deliverance
+request
+1448732	damage
+1448734	destruction
+Siwan
+royal
+mare
+robe
+be jew
+destruction
+1448751	spoil
+letter
+power
+1448755	table
+1448760	age
+be guilty
+guardian
+herbs
+herbs
+conjurer
+king
+eternity
+live
+dream
+servant
+interpretation
+know
+answer
+Chaldaean
+word
+publicly known
+if
+know
+limb
+house
+dunghill
+place
+gift
+present
+dignity
+much
+receive
+before
+therefore
+again
+reliable
+I
+time
+you
+buy
+opposite
+see
+one
+she
+law
+lie
+spoil
+arrange
+until
+be different
+existence
+mankind
+upon
+land
+be able
+great
+mighty
+ask
+magician
+enchanter
+difficult
+another
+but
+dwelling
+with
+flesh
+become angry
+get angry
+wise
+Babylon
+go out
+kill
+seek
+Daniel
+colleague
+in
+then
+return
+advice
+sense
+Arioch
+chief
+executioner
+what
+be bare
+enter
+time
+give
+go
+Hananiah
+Mishael
+Azariah
+mercy
+secret
+rest
+vision
+night
+reveal
+bless
+be
+name
+wisdom
+power
+he
+go
+stand
+give
+knowledge
+discernment
+deep
+hide
+darkness
+light
+loosen
+father
+praise
+praise
+now
+count
+thus
+not
+disturb
+find
+man
+son
+exile
+Judaea
+Belteshazzar
+<interrogative>
+be able
+cut
+but
+Nebuchadnezzar
+end
+day
+head
+bed
+you
+thought
+go up
+after
+living
+matter
+heart
+behold
+statue
+that
+brightness
+excessive
+appearance
+fear
+gold
+good
+breast
+arm
+silver
+belly
+thigh
+copper
+leg
+iron
+foot
+clay
+stone
+hand
+hit
+crush
+they
+chaff
+threshing-floor
+summer
+take
+wind
+place
+mountain
+fill
+kingdom
+power
+strength
+dwell
+animal
+field
+bird
+rule
+after
+another
+third
+fourth
+strong
+hammer
+break
+these
+finger
+potter
+divide
+planting
+mix
+clay
+end
+break
+seed
+adhere
+<idiomatic prefix>
+they
+be harmful
+people
+leave
+end
+be steady
+fall
+face
+bow
+offering
+incense
+poor out
+truth
+lord
+grow
+province
+prefect
+work
+Shadrach
+Meshach
+Abed-Nego
+door
+height
+cubit
+sixty
+breadth
+six
+plain
+Dura
+send
+assemble
+satrap
+governor
+counselor
+treasurer
+law official
+police officer
+dominion
+come
+inauguration
+herald
+call
+strength
+nation
+tongue
+hear
+voice
+horn
+pipe
+zither
+sambuca
+psaltery
+symphony
+sort
+music for strings
+who
+hour
+throw
+interior
+furnace
+fire
+burn
+approach
+eat
+piece
+Jew
+<nota accusativi>
+these
+serve
+anger
+wrath
+really
+ready
+save
+need
+we
+word
+heat
+seven
+strong man
+bind
+trousers
+legging
+hat
+garment
+flame
+three
+be amazed
+companion
+behold
+four
+go
+damage
+resemble
+highest
+body
+hair
+burn
+smell
+angel
+trust
+negligence
+be equal
+save
+prosper
+well-being
+be much
+sign
+wonder
+please
+official
+generation
+carefree
+flourishing
+palace
+imagining
+at last
+holy
+subdue
+tree
+be strong
+come
+appearance
+end
+foliage
+beautiful
+fruit
+food
+shelter
+branch
+bird
+feed
+angel
+come down
+cut down
+cut off
+drop
+scatter
+flee
+offshoot
+root
+bond
+vegetation
+dew
+wet
+share
+grass
+pass by
+decision
+word
+question
+desire
+low
+be astonished
+hate
+adversary
+dwell
+greatness
+drive out
+ox
+eat
+during
+advise
+sin
+charity
+atone
+iniquity
+show mercy
+humble
+length
+happiness
+month
+two
+ten
+this
+build
+strength
+glory
+still
+mouth
+eagle
+nail
+eye
+lift up
+honour
+consider
+lords
+be stable
+add
+be high
+work
+way
+judgement
+arrogance
+be low
+Belshazzar
+meal
+thousand
+wine
+drink
+vessel
+Jerusalem
+concubine
+maid
+wood
+write
+lamp
+plaster
+wall
+palm
+knot
+hip
+knee
+knock
+writing
+purple
+wear
+necklace
+neck
+triumvir
+branch off
+queen
+banquet
+brilliance
+insight
+interpret
+riddle
+tremble
+flow over
+throne
+wild ass
+breath
+write
+mina
+shekel
+half-shekel
+be finished
+weigh
+balance
+wanting
+divide
+Media
+Persia
+proclaim
+Darius
+Median
+year
+hundred
+twenty
+above
+high official
+suffer
+shine
+intend
+pretext
+side
+tremble
+advise
+statute
+inhibition
+request
+thirty
+pit
+lion
+window
+open
+upper room
+toward
+kneel
+knee
+pray
+former time
+be evil
+mind
+entrance
+sun
+throw
+constantly
+seal
+seal ring
+thing
+spend the night
+fastingly
+<uncertain>
+sleep
+flee
+dawn
+dawn
+sad
+cry
+speak
+lock
+innocence
+also
+harm
+be good
+women
+bottom
+bone
+Cyrus
+Persian
+behold
+stir up
+sea
+first
+wing
+pluck out
+second
+bear
+side
+rib
+between
+tooth
+panther
+side
+terrible
+trample upon
+consider
+small
+pluck out
+old
+sit
+snow
+white
+wool
+pure
+wheel
+burn
+river
+flow
+serve
+myriad
+book
+firebrand
+fire
+life
+cloud
+be sick
+sheath
+they
+most high
+possess
+stand
+colleague
+war
+trample upon
+wear out
+intend
+half
+exterminate
+here
+heart
+guard
+1449313	canal
+1449315	he-goat
+a certain
+1449318	place
+<uncertain>
+be determined
+moat
+oppression
+how
+inscribe
+Mede
+dominion
+dignity
+evil deed
+hidden treasures
+royal tent
+shine
+1449333	treasurer
+1449335	basket
+disease
+bowl
+1449339	Nehemiah
+1449357	Hashum
+1449372	Shobai
+temple slave
+1449383	Shalmai
+1449405	function of scribe
+1449419	register
+governor
+drachmas
+1449423	permission
+1449425	cymbals
+hire
+accusation
+1449430	companion
+letter
+interpret
+Rehum
+master
+Shimshai
+scribe
+letter
+Artaxerxes
+thus
+colleague
+<uncertain>
+<uncertain>
+<unknown>
+<uncertain>
+Erechite
+Babylonian
+man from Susa
+Dehite
+Elamite
+Assurbanipal
+they
+city
+Samaria
+opposite bank
+now
+copy
+with
+rebellious
+bad
+wall
+finish
+foundation
+dig
+that
+tax
+tribute
+tax
+<uncertain>
+salt
+eat salt
+nakedness
+fitting
+search
+memorandum
+revolt
+destroy
+now
+decree
+interpret
+rebellion
+be idle
+cautious
+haste
+arm
+prophesy
+Haggai
+prophet
+Zechariah
+Iddo
+Israel
+Zerubbabel
+Shealtiel
+Jeshua
+Jozadak
+support
+Tattenai
+Shethar-Bozenai
+<uncertain>
+building
+elder
+<uncertain>
+<uncertain>
+exactly
+be angry
+demolish
+bring
+Sheshbazzar
+these
+that
+treasure
+there
+will
+Ecbatana
+fortified place
+scroll
+memorandum
+sacrifice
+sacrifice
+carry
+layer
+new
+expenses
+far
+possession
+need
+ram
+lamb
+sacrifice
+wheat
+oil
+priest
+pull out
+erect
+fall
+prophecy
+go out
+Adar
+Levite
+joy
+he-goat
+goat
+sin-offering
+number
+tribe
+division
+division
+Moses
+1449554	copy
+Ezra
+bring to an end
+be willing
+abode
+buy
+libation
+altar
+brother
+be good
+service
+need
+treasurer
+talent
+kor
+bath
+with zeal
+wrath
+musician
+door-keeper
+temple servant
+judge
+judge
+judge
+death
+banishment
+fine
+1449599	<currency unit>
+gleam
+1449604	humiliation
+servitude
+weeping
+1449609	appoint
+1449619	Mijamin
+Abdi
+1449643	Shashai
+1449650	attentive
+1449665	flag
+1449667	district
+1449675	cover
+water-conduit
+1449679	Ezer
+1449684	hall
+guild of goldsmiths
+decaying
+contempt
+tribute
+counsel
+claim
+1449693	prophecy
+1449695	shut
+book
+1449707	Shema
+1449710	lifting
+1449713	dishes
+joy
+1449716	Bunni
+1449718	piece
+be luxurious
+trustworthy arrangement
+1449736	wares
+supply
+1449740	Sallu
+1449758	<in Judah>
+1449761	<in Benjamin>
+1449763	craftsman
+1449767	<uncertain>
+1449773	Miniamin
+1449775	Piltai
+1449778	store
+1449780	procession
+1449785	spending night
+defilement
+1449790	Zephi
+1449793	Shephi
+1449796	Pai
+<tribe>
+1449818	Ahban
+1449849	Gibea
+1449866	Hammath
+1449878	Arnan
+1449896	Ahashtarite
+1449902	Harum
+1449939	Ashbea
+1449947	Tolad
+1449970	Shapham
+1449972	Jorai
+1449975	Huri
+1449978	Jahdo
+Ahi
+Abdi-el
+1450000	Alemeth
+1450018	Shuppim
+1450020	Hushim
+1450037	<god>
+1450041	Birzaith
+1450062	Hod
+1450080	Hushim
+1450094	Eder
+1450121	Raphah
+1450127	Ibneiah
+1450129	Ibnijah
+1450138	pans
+1450142	corpse
+1450149	Hurai
+1450169	Shama
+1450172	<uncertain>
+1450179	Shemaah
+Gibeathite
+1450190	Isshiah
+1450193	gazelle
+1450198	flock together
+1450208	Mikneiah
+Aziel
+1450211	Chenaniah
+1450213	sound clarion
+1450215	wrap
+1450222	posterior
+1450227	Lahmi
+Ornan
+sheath
+clamps
+quiet
+1450239	Jekameam
+Eder
+1450269	scholar
+1450274	Jathniel
+1450287	<uncertain>
+1450291	Ezri
+1450300	treasury
+alabaster
+1450303	<uncertain>
+carmesine
+1450306	need
+rafts
+census
+1450310	cast images
+capital of pillar
+perfection
+rest
+1450315	footstool
+vision
+1450318	dispensation
+Adoraim
+1450321	Sukkite
+1450326	exposition
+1450330	fall ill
+1450334	fortified place
+1450337	partiality
+taking
+Ziz
+1450342	downtreading
+1450346	wickedness
+diseases
+1450352	naked persons
+1450355	incense altars
+slaying
+Conaniah
+1450359	<uncertain>
+<uncertain>
+<uncertain>
+repair
+1450365	division
+portion
+division
+delight
+aged

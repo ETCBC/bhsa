@@ -155,7 +155,7 @@ def checkDiffs(thisSave, thisDeliver, only=None):
         for (e, n) in zip_longest(eLines, nLines, fillvalue='<empty>'):
             i += 1
             if e != n:
-                if nUnequal == 0: caption(0, 'differences{}'.format('' if f == 'otext' else 'after the metadata'), continuation=True)
+                if nUnequal == 0: caption(0, 'differences{}'.format('' if f == 'otext' else ' after the metadata'), continuation=True)
                 shortE = e[0:cutOff] + (' ...' if len(e) > cutOff else '')
                 shortN = n[0:cutOff] + (' ...' if len(n) > cutOff else '')
                 caption(0, '\tline {:>6} OLD -->{}<--'.format(i, shortE.rstrip('\n')))
@@ -203,6 +203,8 @@ def deliverDataset(thisSave, thisDeliver):
 
 def deliverFeatures(thisSave, thisDeliver, newFeatures, deleteFeatures=None):
     caption(4, 'Deliver features to {}'.format(thisDeliver))
+    if not os.path.exists(thisDeliver):
+        os.makedirs(thisDeliver)
     for feature in newFeatures:
         tempLoc = '{}/{}.tf'.format(thisSave, feature)
         deliverLoc = '{}/{}.tf'.format(thisDeliver, feature)

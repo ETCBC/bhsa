@@ -65,13 +65,42 @@
 # 1. `language` has values `Hebrew` and `Aramaic`. We prefer ISO language codes: `hbo` and `arc` instead.
 #    By adding `language` for lexeme nodes we already have switched to ISO codes. Here we do the rest.
 
+# It seems that some `lex_utf8` values end in an spurious GERESH accents.
+# We are going to remove them.
+
+# In[1]:
+
+
+import os,sys,re,collections
+from tf.fabric import Fabric
+import utils
+
+
+# # Pipeline
+# See [operation](https://github.com/ETCBC/pipeline/blob/master/README.md#operation) 
+# for how to run this script in the pipeline.
+
+# In[2]:
+
+
+if 'SCRIPT' not in locals():
+    SCRIPT = False
+    FORCE = True
+    CORE_NAME = 'bhsa'
+    VERSION= '4'
+    CORE_MODULE ='core' 
+
+def stop(good=False):
+    if SCRIPT: sys.exit(0 if good else 1)
+
+
 # # Analysis of lex_utf8
 # 
 # Let us focus on a few cases.
 # 
 # We translate the utf sequences found in the MQL source into real unicode characters:
 
-# In[46]:
+# In[3]:
 
 
 if not SCRIPT:
@@ -113,41 +142,12 @@ if not SCRIPT:
         ))
 
 
-# It seems that some `lex_utf8` values end in an spurious GERESH accents.
-# We are going to remove them.
-
-# In[1]:
-
-
-import os,sys,re,collections
-from tf.fabric import Fabric
-import utils
-
-
-# # Pipeline
-# See [operation](https://github.com/ETCBC/pipeline/blob/master/README.md#operation) 
-# for how to run this script in the pipeline.
-
-# In[2]:
-
-
-if 'SCRIPT' not in locals():
-    SCRIPT = False
-    FORCE = True
-    CORE_NAME = 'bhsa'
-    VERSION= 'c'
-    CORE_MODULE ='core' 
-
-def stop(good=False):
-    if SCRIPT: sys.exit(0 if good else 1)
-
-
 # # Setting up the context: source file and target directories
 # 
 # The conversion is executed in an environment of directories, so that sources, temp files and
 # results are in convenient places and do not have to be shifted around.
 
-# In[3]:
+# In[4]:
 
 
 module = CORE_MODULE
@@ -163,7 +163,7 @@ thisTf = '{}/tf/{}'.format(thisRepo, VERSION)
 thisDeliver = '{}/{}'.format(thisTf, module)
 
 
-# In[4]:
+# In[5]:
 
 
 testFeature = 'lex0'
@@ -174,7 +174,7 @@ testFeature = 'lex0'
 # Check whether this conversion is needed in the first place.
 # Only when run as a script.
 
-# In[5]:
+# In[6]:
 
 
 if SCRIPT:
@@ -192,7 +192,7 @@ if SCRIPT:
 # 
 # We do not do this for the older versions 4 and 4b.
 
-# In[6]:
+# In[7]:
 
 
 provenanceMetadata = dict(
@@ -206,6 +206,21 @@ provenanceMetadata = dict(
 
 lexType = 'lex'
 
+doVocalizedLexeme = {
+    '4': False,
+    '4b': False,
+    'c': True,
+}
+
+thisVocalizedLexeme = doVocalizedLexeme.get(VERSION, False)
+
+extraOverlap = {
+    '4': 'gloss nametype',
+    '4b': 'gloss nametype',
+}
+
+thisExtraOverlap = extraOverlap.get(VERSION, '')
+
 oText = {
     'c': '''
 @fmt:lex-trans-plain={lex0} 
@@ -213,14 +228,15 @@ oText = {
 }
 
 thisOtext = oText.get(VERSION, '')
-otextInfo = dict(line[1:].split('=', 1) for line in thisOtext.strip('\n').split('\n'))
 
 if thisOtext is '':
-    utils.caption(0, 'No additional text formats provided') 
+    utils.caption(0, 'No additional text formats provided')
+    otextInfo = {}
 else:
     utils.caption(0, 'New text formats')
-for x in sorted(otextInfo.items()):
-    utils.caption(0, '{:<30} = "{}"'.format(*x))
+    otextInfo = dict(line[1:].split('=', 1) for line in thisOtext.strip('\n').split('\n'))
+    for x in sorted(otextInfo.items()):
+        utils.caption(0, '{:<30} = "{}"'.format(*x))
 
 
 # # Stage: Lexicon preparation
@@ -228,12 +244,13 @@ for x in sorted(otextInfo.items()):
 # The lexical data will not be added as features of words, but as features of lexemes.
 # The lexemes will be added as fresh nodes, of a new type `lex`.
 
-# In[9]:
+# In[8]:
 
 
 utils.caption(4, 'Load the existing TF dataset')
 TF = Fabric(locations=thisTf, modules=module)
-api = TF.load('lex lex_utf8 language sp ls gn ps nu st g_voc_lex g_voc_lex_utf8 oslots')
+vocLex = ' g_voc_lex g_voc_lex_utf8 ' if thisVocalizedLexeme else ''
+api = TF.load('lex lex_utf8 language sp ls gn ps nu st oslots {} {}'.format(vocLex, thisExtraOverlap))
 api.makeAvailableIn(globals())
 
 
@@ -434,65 +451,68 @@ for (myset, mymsg) in (
 # 
 # Supposing it is all consistent, we will call the new lexeme features `voc_lex` and `voc_lex_utf8`.
 
-# In[12]:
+# In[13]:
 
 
 utils.caption(4, 'Test - Consistency of vocalized lexeme')
 
-vocFeatures = dict(voc_lex={}, voc_lex_utf8={})
+if not thisVocalizedLexeme:
+    utils.caption(0, '\tSKIPPED in version {}'.format(VERSION))
+else:
+    vocFeatures = dict(voc_lex={}, voc_lex_utf8={})
 
-exceptions = dict(incons=dict((f, {}) for f in vocFeatures), deviating=dict())
+    exceptions = dict(incons=dict((f, {}) for f in vocFeatures), deviating=dict())
 
-missing = {}
+    missing = {}
 
-def showExceptions(cases):
-    nCases = len(cases)
-    if nCases == 0:
-        utils.caption(0, '\tFully consistent')
-    else:
-        utils.caption(0, '\t{} inconsistent cases'.format(nCases))
-        limit = 10
-        for (i, (lan, lex)) in enumerate(cases):
-            if i == limit:
-                utils.caption(0, '\t\t...and {} more.'.format(nCases - limit))
-                break
-            utils.caption(0, '\t\t{}-{}: {}'.format(lan, lex, ', '.join(sorted(cases[(lan, lex)]))))
-
-for w in F.otype.s('word'):
-    lan = langMap[F.language.v(w)]
-    lex = F.lex.v(w)
-    for (f, values) in vocFeatures.items():
-        current = values.get((lan, lex), None)
-        new = Fs('g_{}'.format(f)).v(w)
-        if current == None:
-            values[(lan, lex)] = new
-            if f == 'voc_lex':
-                lexical = lexEntries[lan][lex].get('vc', None)
-                if lexical == None:
-                    missing[(lan, lex)] = new
-                else:
-                    if lexical != new: exceptions['deviating'].setdefault((lan, lex), {lexical}).add(new)
+    def showExceptions(cases):
+        nCases = len(cases)
+        if nCases == 0:
+            utils.caption(0, '\tFully consistent')
         else:
-            if current != new:
-                exceptions['incons'][f].setdefault((lan, lex), {current}).add(new)
+            utils.caption(0, '\t{} inconsistent cases'.format(nCases))
+            limit = 10
+            for (i, (lan, lex)) in enumerate(cases):
+                if i == limit:
+                    utils.caption(0, '\t\t...and {} more.'.format(nCases - limit))
+                    break
+                utils.caption(0, '\t\t{}-{}: {}'.format(lan, lex, ', '.join(sorted(cases[(lan, lex)]))))
 
-nMissing = len(missing)
+    for w in F.otype.s('word'):
+        lan = langMap[F.language.v(w)]
+        lex = F.lex.v(w)
+        for (f, values) in vocFeatures.items():
+            current = values.get((lan, lex), None)
+            new = Fs('g_{}'.format(f)).v(w)
+            if current == None:
+                values[(lan, lex)] = new
+                if f == 'voc_lex':
+                    lexical = lexEntries[lan][lex].get('vc', None)
+                    if lexical == None:
+                        missing[(lan, lex)] = new
+                    else:
+                        if lexical != new: exceptions['deviating'].setdefault((lan, lex), {lexical}).add(new)
+            else:
+                if current != new:
+                    exceptions['incons'][f].setdefault((lan, lex), {current}).add(new)
 
-utils.caption(0, 'lexemes with missing vc property: {}x'.format(nMissing))
-for (lan, lex) in sorted(missing)[0:20]:
-    utils.caption(0, '\t{}-{} supplied from occurrence: {}'.format(lan, lex, vocFeatures['voc_lex'][(lan, lex)]))
-for f in vocFeatures:
-    utils.caption(0, 'Have all occurrences of a lexeme the same {} value?'.format(f))
-    showExceptions(exceptions['incons'][f])
-utils.caption(0, 'Are the voc_lex values of the lexeme consistent with the vc value of the lexeme?')
-showExceptions(exceptions['deviating'])                          
+    nMissing = len(missing)
+
+    utils.caption(0, 'lexemes with missing vc property: {}x'.format(nMissing))
+    for (lan, lex) in sorted(missing)[0:20]:
+        utils.caption(0, '\t{}-{} supplied from occurrence: {}'.format(lan, lex, vocFeatures['voc_lex'][(lan, lex)]))
+    for f in vocFeatures:
+        utils.caption(0, 'Have all occurrences of a lexeme the same {} value?'.format(f))
+        showExceptions(exceptions['incons'][f])
+    utils.caption(0, 'Are the voc_lex values of the lexeme consistent with the vc value of the lexeme?')
+    showExceptions(exceptions['deviating'])                          
 
 
 # # Prepare TF features
 # 
 # We now collect the lexical information into the features for nodes of type `lex`.
 
-# In[13]:
+# In[15]:
 
 
 utils.caption(4, 'Prepare TF lexical features')
@@ -507,7 +527,8 @@ lexFields = (
     ('gl', 'gloss'),
 )
 
-overlapFeatures = {'lex', 'language', 'sp', 'ls'} # both on word- and lex- otypes
+overlapFeatures = {'lex', 'language', 'sp', 'ls'} | set(thisExtraOverlap.strip().split()) 
+# these are features that occur both on word- and lex- otypes
 
 for f in overlapFeatures:
     nodeFeatures[f] = dict((n, Fs(f).v(n)) for n in N() if Fs(f).v(n) != None)
@@ -516,22 +537,24 @@ newFeatures = [f[1] for f in lexFields]
 
 for (lan, lexemes) in lexEntries.items():
     for (lex, lexValues) in lexemes.items():
-        node = nodeFromLex[(lan, lex)]
+        node = nodeFromLex.get((lan, lex), None)
+        if node == None: continue
         nodeFeatures.setdefault('lex', {})[node] = lex
         nodeFeatures.setdefault('language', {})[node] = lan
         for (f, newF) in lexFields:
             value = lexValues.get(f, None)
             if value != None:
                 nodeFeatures.setdefault(newF, {})[node] = value
-        for (f, vocValues) in vocFeatures.items():
-            value = vocValues.get((lan, lex), None)
-            if value != None:
-                nodeFeatures.setdefault(f, {})[node] = value
+        if thisVocalizedLexeme:
+            for (f, vocValues) in vocFeatures.items():
+                value = vocValues.get((lan, lex), None)
+                if value != None:
+                    nodeFeatures.setdefault(f, {})[node] = value
 
 
 # We address the issues listed under varia above.
 
-# In[14]:
+# In[16]:
 
 
 utils.caption(4, 'Various tweaks in features')
@@ -552,7 +575,7 @@ for n in F.otype.s('word'):
 
 # We update the `otype`, `otext` and `oslots` features.
 
-# In[15]:
+# In[17]:
 
 
 utils.caption(4, 'Update the otype, oslots and otext features')
@@ -576,35 +599,39 @@ edgeFeatures['oslots'] = dict((n, E.oslots.s(n)) for n in range(maxSlot + 1, max
 edgeFeatures['oslots'].update(oslotsData)
 
 
-# In[16]:
+# In[18]:
 
 
 utils.caption(0, 'Features that have new or modified data')
 for f in sorted(nodeFeatures) + sorted(edgeFeatures):
     utils.caption(0, '\t{}'.format(f))
 
-testNodes = range(maxNode+1, maxNode + 10)
-utils.caption(0, 'Check voc_lex_utf8: {}'.format(
-    ' '.join(nodeFeatures['voc_lex_utf8'][n] for n in testNodes)
-))
+if thisVocalizedLexeme:
+    testNodes = range(maxNode+1, maxNode + 10)
+    utils.caption(0, 'Check voc_lex_utf8: {}'.format(
+        ' '.join(nodeFeatures['voc_lex_utf8'][n] for n in testNodes)
+    ))
 
 
 # We specify the features to delete and list the new/changed features.
 
-# In[17]:
+# In[20]:
 
 
 deleteFeatures = set('''
     g_voc_lex
     g_voc_lex_utf8
-'''.strip().split())
+'''.strip().split()) if thisVocalizedLexeme else set()
 
-utils.caption(0, 'Features to remove')
-for f in sorted(deleteFeatures):
-    utils.caption(0, '\t{}'.format(f))
+if deleteFeatures:
+    utils.caption(0, '\tFeatures to remove')
+    for f in sorted(deleteFeatures):
+        utils.caption(0, '\t{}'.format(f))
+else:
+    utils.caption(0, '\tNo features to remove')
 
 
-# In[18]:
+# In[21]:
 
 
 changedDataFeatures = set(nodeFeatures) | set(edgeFeatures)
@@ -615,7 +642,7 @@ changedFeatures = changedDataFeatures | {'otext'}
 # Transform the collected information in feature-like datastructures, and write it all
 # out to `.tf` files.
 
-# In[19]:
+# In[22]:
 
 
 utils.caption(4, 'write new/changed features to TF ...')
@@ -638,7 +665,7 @@ TF.save(nodeFeatures=nodeFeatures, edgeFeatures=edgeFeatures, metaData=metaData)
 # For each changed feature we show the first line where the new feature differs from the old one.
 # We ignore changes in the metadata, because the timestamp in the metadata will always change.
 
-# In[20]:
+# In[23]:
 
 
 utils.checkDiffs(thisSave, thisDeliver, only=changedFeatures)
@@ -671,7 +698,7 @@ api.makeAvailableIn(globals())
 # In[26]:
 
 
-features = [f[1] for f in lexFields] + ['voc_lex', 'voc_lex_utf8']
+features = [f[1] for f in lexFields] + (['voc_lex', 'voc_lex_utf8'] if thisVocalizedLexeme else [])
 
 def showLex(w):
     info = dict((f, Fs(f).v(w)) for f in features)

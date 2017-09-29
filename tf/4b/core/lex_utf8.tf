@@ -3,11 +3,11 @@
 @dataset=BHSA
 @datasetName=Biblia Hebraica Stuttgartensia Amstelodamensis
 @email=shebanq@ancient-data.org
-@encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)
+@encoders=Constantijn Sikkel (QDF), and Dirk Roorda (TF)
 @valueType=str
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-09-27T11:39:44Z
+@dateWritten=2017-09-29T19:21:27Z
 
 ב
 ראשׁית/

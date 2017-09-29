@@ -3,11 +3,11 @@
 @dataset=BHSA
 @datasetName=Biblia Hebraica Stuttgartensia Amstelodamensis
 @email=shebanq@ancient-data.org
-@encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)
+@encoders=Constantijn Sikkel (QDF), and Dirk Roorda (TF)
 @valueType=str
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-09-27T11:26:03Z
+@dateWritten=2017-09-29T20:16:20Z
 
 none
 none
@@ -426564,3 +426564,371 @@ none
 none
 none
 none
+1441154	vbcp
+1441164	quot
+1441170	ppre
+1441173	padv
+padv
+padv
+padv
+card
+1441183	ppre
+afad
+ordn
+1441201	ordn
+1441207	card
+1441214	ordn
+1441222	nmdi
+1441229	ordn
+1441247	padv
+ordn
+1441251	ordn
+1441260	ppre
+1441264	nmcp
+1441278	ppre
+1441288	card
+1441304	ppre
+1441315	ppre
+1441326	nmdi
+1441330	nmdi
+1441339	focp
+1441347	focp
+1441364	focp
+ppre
+ppre
+1441410	nmdi
+1441439	cjad
+card
+1441467	nmdi
+1441475	padv
+1441483	card
+card
+ppre
+card
+1441488	card
+card
+card
+1441494	card
+1441508	card
+1441517	focp
+1441549	card
+1441556	ppre
+1441564	focp
+1441573	ordn
+1441586	ordn
+1441590	quot
+1441672	gntl
+gntl
+1441676	gntl
+gntl
+gntl
+gntl
+gntl
+gntl
+gntl
+gntl
+gntl
+1441686	gntl
+1441726	nmdi
+1441777	gntl
+1441795	gntl
+1441809	padv
+1441838	gntl
+1441844	gntl
+1441851	gntl
+1441925	gntl
+gntl
+gntl
+gntl
+1441970	padv
+1442007	nmcp
+1442052	padv
+padv
+1442072	card
+1442121	ppre
+1442124	padv
+1442152	ppre
+1442193	mult
+1442231	gntl
+1442234	ppre
+1442393	padv
+1442414	padv
+padv
+1442432	nmcp
+1442498	padv
+1442516	padv
+1442595	gntl
+1442629	gntl
+1442634	gntl
+1442646	gntl
+1442650	gntl
+1442678	ppre
+1442916	padv
+1442949	ppre
+1443013	gntl
+1443058	gntl
+1443263	ppre
+1443280	padv
+1443333	ordn
+1443386	padv
+1443403	card
+1443410	padv
+1443413	padv
+1443555	padv
+1443722	padv
+1443823	gntl
+1443833	ordn
+1443849	padv
+1443855	padv
+1443900	mult
+1443904	gntl
+gntl
+gntl
+1443908	gntl
+gntl
+gntl
+gntl
+gntl
+1443915	gntl
+gntl
+1443972	gntl
+1444012	nmcp
+1444038	padv
+1444043	ppre
+1444145	gntl
+1444149	gntl
+gntl
+gntl
+gntl
+gntl
+1444155	gntl
+gntl
+gntl
+gntl
+gntl
+1444161	gntl
+gntl
+gntl
+1444165	gntl
+gntl
+1444168	gntl
+gntl
+gntl
+gntl
+gntl
+gntl
+gntl
+1444176	gntl
+gntl
+gntl
+gntl
+gntl
+gntl
+gntl
+gntl
+1444185	gntl
+1444187	gntl
+1444189	gntl
+1444191	gntl
+1444193	gntl
+1444195	gntl
+1444202	gntl
+gntl
+1444205	gntl
+1444207	gntl
+gntl
+gntl
+1444211	gntl
+1444213	gntl
+1444215	gntl
+gntl
+gntl
+1444219	gntl
+gntl
+gntl
+gntl
+gntl
+gntl
+gntl
+gntl
+gntl
+gntl
+1444314	gntl
+1444347	ppre
+1444357	gntl
+gntl
+1444369	gntl
+1444375	gntl
+gntl
+1444390	gntl
+1444456	ppre
+1444491	gntl
+1444603	padv
+1444636	padv
+1444656	padv
+1444741	gntl
+gntl
+gntl
+gntl
+gntl
+1444747	gntl
+1444883	gntl
+gntl
+1445033	gntl
+1445049	gntl
+1445121	gntl
+1445186	gntl
+1445191	gntl
+1445193	gntl
+1445211	gntl
+1445305	padv
+1445315	gntl
+1445346	gntl
+1445393	padv
+padv
+1445397	gntl
+1445427	gntl
+1445460	gntl
+1445473	gntl
+1445490	gntl
+gntl
+gntl
+1445494	gntl
+1445501	gntl
+1445517	gntl
+1445547	gntl
+1445600	gntl
+1445633	gntl
+1445638	nmcp
+1445641	gntl
+1445690	gntl
+gntl
+1445699	gntl
+1445736	gntl
+1445739	gntl
+1445742	gntl
+1445744	gntl
+1445747	gntl
+1445749	gntl
+1445753	gntl
+1445758	gntl
+1445760	gntl
+1445762	gntl
+1445766	gntl
+1445770	gntl
+1445774	gntl
+1445783	gntl
+1445822	gntl
+1445851	padv
+1445865	gntl
+1445923	gntl
+1445966	gntl
+1445969	gntl
+1446112	ppre
+1446127	gntl
+1446143	gntl
+1446149	gntl
+1446459	gntl
+1446576	gntl
+1446628	padv
+1447073	quot
+1447085	ppre
+1447162	gntl
+1447177	gntl
+1447202	gntl
+1447655	gntl
+1447710	card
+1447722	padv
+1447740	gntl
+1447757	gntl
+1447859	padv
+1448059	gntl
+1448075	padv
+1448104	nmdi
+1448170	gntl
+1448172	gntl
+1448317	gntl
+1448339	padv
+1448514	cjad
+1448578	gntl
+1448593	padv
+1448717	gntl
+1448774	gntl
+1448788	ppre
+cjad
+1448796	ppre
+1448798	card
+1448806	nmcp
+nmdi
+1448855	vbcp
+1448884	focp
+1448896	ppre
+1448940	ppre
+1448942	ordn
+ordn
+1448983	card
+1448985	card
+1449024	gntl
+1449037	card
+1449045	card
+1449049	card
+1449131	card
+card
+1449137	padv
+1449156	card
+1449204	gntl
+1449206	card
+card
+1449220	card
+1449226	ppre
+1449230	ppre
+1449236	padv
+1449249	quot
+1449252	focp
+1449259	gntl
+1449263	ordn
+1449266	ordn
+1449270	ppre
+1449290	mult
+1449325	gntl
+1449445	gntl
+gntl
+gntl
+gntl
+gntl
+1449454	ppre
+1449538	gntl
+1449562	nmdi
+1449652	gntl
+1449655	gntl
+1449663	gntl
+1449777	gntl
+1449854	gntl
+gntl
+gntl
+gntl
+gntl
+1449860	gntl
+gntl
+1449864	gntl
+gntl
+1449895	gntl
+gntl
+1449930	gntl
+1450146	gntl
+1450150	gntl
+1450152	gntl
+1450157	gntl
+1450166	gntl
+1450168	gntl
+1450170	gntl
+gntl
+1450180	gntl
+1450184	gntl
+1450189	gntl
+1450282	gntl
+1450292	gntl
+gntl
+gntl
+1450296	gntl
+1450321	gntl
