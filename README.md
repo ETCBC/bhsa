@@ -22,50 +22,41 @@ Martijn Naaijer,
 [Cody Kingham](http://www.codykingham.com)
 and Constantijn Sikkel.
 
-This dataset contains version **4b** which shows up in
-[SHEBANQ](https://shebanq.ancient-data.org/sources).
-
-We allso intend to add version **4** of shebanq, a new moving version **c**, and new fixed
-versions **2017**, **2019** etc.
+This dataset contains versions of the BHSA:
+* **4** fixed, in [SHEBANQ](https://shebanq.ancient-data.org/sources),
+  archived at DANS: [DOI: doi.org/10.17026/dans-2z3-arxf](https://doi.org/10.17026/dans-2z3-arxf);
+* **4b** fixed, in [SHEBANQ](https://shebanq.ancient-data.org/sources),
+  archived at DANS: [DOI: doi.org/10.17026/dans-z6y-skyh](https://doi.org/10.17026/dans-z6y-skyh)
+* **c** continuous, not yet in [SHEBANQ](https://shebanq.ancient-data.org/sources);
+  snapshotted to Zenodo: [DOI: doi.org/10.5281/zenodo.591507](https://doi.org/10.5281/zenodo.591507)
+* **2017** fixed, not present yet, to be snapshotted from `c` in November 2017.
 
 ## Provenance
-* The source data resides on a server of the ETCBC, managed by Constantijn Sikkel.
-  He has made that data available as an [MQL](https://emdros.org/mql.html) database dump, `bhs4.mql`.
-* `bhs4.mql` has been enriched with statistical features and a phonetic transcriptions
-  by Dirk Roorda, using
-  [LAF-Fabric](https://github.com/ETCBC/laf-fabric) (precursor of text-fabric).
-  The enriched version has been exported to MQL again, as `x_etcbc4b.mql`, for use in SHEBANQ.
-  `x_etcbc4b.mql` has been archived in the DANS repository [Easy](https://doi.org/10.17026/dans-z6y-skyh).
-* `x_etcbc4b.mql` has been downloaded from Easy, and transformed into a text-fabric data set, in this repository.
-  The mql source, the program, and the result are all in this repo.
+The source data resides on a server of the ETCBC, managed by Constantijn Sikkel.
+He has made that data available as an [MQL](https://emdros.org/mql.html) database dump, `bhs4.mql`.
+* version **4** is based on this dump as of 2014-07-14 
+* version **4b** is based on this dump as of 2015-11-03 
+* version **c** is based on the latest weekly dump (as of 2017-09-29: not yet in place, working with
+
+For versions **4** and **4b** the
+`bhs4.mql` has been enriched with extra ETCBC data, statistical features and a phonetic transcription
+by Dirk Roorda.
+This was done using
+[LAF-Fabric](https://github.com/ETCBC/laf-fabric) (precursor of text-fabric).
+The enriched data has been exported to MQL again, as `x_etcbc4.mql` and `x_etcbc4b.mql`, for use in SHEBANQ.
+`x_etcbc4b.mql` has been archived in the DANS repository [Easy](https://doi.org/10.17026/dans-z6y-skyh).
+These extended mql files are now present as `source/`*version*`/bhsa.mql.bz2` in this repo.
+
+For versions **c** and **2017** the
+[pipeline](https://github.com/ETCBC/pipeline)
+has been / will be followed.
+These versions will also be enriched with data coming from research repos.
 
 ## Workflow
 The pipeline above is complicated and not free of
 [cruft](https://en.wikipedia.org/wiki/Cruft).
-That's why a simplification of it is in the works.
-The new pipeline will work like this:
-
-The ETCBC:
-
-* exports a full MQL version of the Hebrew Text database: `bhsa.mql`;
-* converts it to a text-fabric resource: `bhsa/core`;
-* enriches it with additional text-fabric data modules
-  * `bhsa/stats`: statistical features,
-  * `bhsa/phono`: phonetic transcription,
-  * `bhsa/parallel`: parallel passages,
-  * `bhsa/valence`: verbal valence
-* commits the text-fabric data changes to this github repository;
-* updates the website [shebanq](https://shebanq.ancient-data.org):
-  * exports all text-fabric data (core plus modules) to mql: `x_bhsa.mql`;
-  * compiles the text-fabric data into website friendly mysql databases;
-  * compiles annotation sets from the text-fabric data modules `parallels` and `valence`;
-  * transfers the new mql, mysql and annotations to SHEBANQ, with the result that
-    * shebanq queries are executed against the data in `x_bhsa.mql`;
-    * shebanq text and data display is based on the mysql databases based on the same `x_bhsa.mql`;
-    * annotations show up correctly alongside the text.
-  
-Once this pipeline is fully operational, it will be executed weekly.
-In SHEBANQ the weekly results will land in a continuous version called `c` (not yet in shebanq).
+It would be better if the ETCBC could deliver its core data directly in text-fabric format,
+with inclusion of the lexical features, the ketiv-qere data and the paragraph numbers.
 
 ## Reproducible science
 We intend to follow a practice that allows for data updates on the one hand, and reproduction of old
@@ -82,15 +73,7 @@ Fixed versions in SHEBANQ will remain there forever, and publishing queries and 
 versions will remain supported.
 
 In particular, versions `4` and `4b` are here to stay, since they have published queries based on them.
-These versions are also firmly entrenched in the academic record, by virtue of being archived:
-
-* [4, archived, DOI: /doi.org/10.17026/dans-2z3-arxf](https://doi.org/10.17026/dans-2z3-arxf)
-* [4b, archived, DOI: doi.org/10.17026/dans-z6y-skyh](https://doi.org/10.17026/dans-z6y-skyh)
-
-We intend to archive future fixed versions by snapshotting this repo into Zenodo, like has been done
-with a provisional version `4c`:
-
-* [4c, snapshotted to Zenodo, DOI: doi.org/10.5281/zenodo.591507](https://doi.org/10.5281/zenodo.591507)
+These versions are also firmly entrenched in the academic record, by virtue of being archived.
 
 ## License
 

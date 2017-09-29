@@ -36,11 +36,8 @@
 # #### Lexemes
 # Lexemes are identified by the `lex` feature within a biblical language.
 # We will not identify lexemes across language.
-# 
-# # Execution mode
-# See the notebook tfFromMQL in this directory for an explantion of the `SCRIPT` variable below.
 
-# In[1]:
+# In[3]:
 
 
 import os,sys,re,collections
@@ -49,7 +46,11 @@ from tf.fabric import Fabric
 from blang import bookLangs, bookNames
 
 
-# In[2]:
+# # Pipeline
+# See [operation](https://github.com/ETCBC/pipeline/blob/master/README.md#operation) 
+# for how to run this script in the pipeline.
+
+# In[4]:
 
 
 if 'SCRIPT' not in locals():
@@ -68,7 +69,7 @@ def stop(good=False):
 # The conversion is executed in an environment of directories, so that sources, temp files and
 # results are in convenient places and do not have to be shifted around.
 
-# In[3]:
+# In[5]:
 
 
 module = CORE_MODULE
@@ -82,7 +83,7 @@ thisTf = '{}/tf/{}'.format(thisRepo, VERSION)
 thisDeliver = '{}/{}'.format(thisTf, module)
 
 
-# In[4]:
+# In[6]:
 
 
 newFeaturesStr = '''
@@ -99,7 +100,7 @@ newFeatures = newFeaturesStr.strip().split()
 # Check whether this conversion is needed in the first place.
 # Only when run as a script.
 
-# In[5]:
+# In[7]:
 
 
 if SCRIPT:
@@ -125,15 +126,14 @@ if SCRIPT:
 # 
 # We collect the statistics.
 
-# In[6]:
+# In[8]:
 
 
 utils.caption(4, 'Loading felevant features')
 
 TF = Fabric(locations=thisTf, modules=module)
 api = TF.load('language lex g_cons')
-F = api.F
-L = api.L
+api.makeAvailableIn(globals())
 
 hasLex = 'lex' in set(F.otype.all)
 
@@ -241,8 +241,7 @@ utils.caption(4, 'Load and compile the new TF features')
 
 TF = Fabric(locations=thisTf, modules=module)
 api = TF.load('lex '+newFeaturesStr)
-F = api.F
-L = api.L
+api.makeAvailableIn(globals())
 
 
 # # Stage: Test

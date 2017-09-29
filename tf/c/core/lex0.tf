@@ -7,7 +7,7 @@
 @valueType=str
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-09-28T18:46:08Z
+@dateWritten=2017-09-29T13:48:00Z
 
 TC</
 TC</

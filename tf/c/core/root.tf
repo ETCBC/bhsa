@@ -7,7 +7,7 @@
 @valueType=str
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-09-28T18:46:11Z
+@dateWritten=2017-09-29T13:48:04Z
 
 1436896	R>C
 1436901	CMH

@@ -7,7 +7,7 @@
 @valueType=str
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-09-28T18:46:07Z
+@dateWritten=2017-09-29T13:47:59Z
 
 1436895	in
 beginning

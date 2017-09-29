@@ -25,6 +25,10 @@ from tf.transcription import Transcription
 import utils
 
 
+# # Pipeline
+# See [operation](https://github.com/ETCBC/pipeline/blob/master/README.md#operation) 
+# for how to run this script in the pipeline.
+
 # In[2]:
 
 
@@ -108,11 +112,7 @@ provenanceMetadata = dict(
 utils.caption(4, 'Load the existing TF dataset')
 TF = Fabric(locations=thisTf, modules=module)
 api = TF.load('label number')
-F = api.F
-Fs = api.Fs
-T = api.T
-L = api.L
-N = api.N
+api.makeAvailableIn(globals())
 
 
 # # Clause atom identifiers in .px
@@ -301,10 +301,7 @@ utils.caption(4, 'Load and compile the new TF features')
 
 TF = Fabric(locations=thisTf, modules=module)
 api = TF.load(' '.join(changedFeatures))
-F = api.F
-Fs = api.Fs
-T = api.T
-L = api.L
+api.makeAvailableIn(globals())
 
 
 # In[40]:

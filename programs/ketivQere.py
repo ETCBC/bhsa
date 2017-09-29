@@ -31,6 +31,10 @@ from tf.transcription import Transcription
 import utils
 
 
+# # Pipeline
+# See [operation](https://github.com/ETCBC/pipeline/blob/master/README.md#operation) 
+# for how to run this script in the pipeline.
+
 # In[2]:
 
 
@@ -132,10 +136,7 @@ for x in sorted(otextInfo.items()):
 utils.caption(4, 'Load the existing TF dataset')
 TF = Fabric(locations=thisTf, modules=module)
 api = TF.load('label g_word g_cons trailer_utf8')
-F = api.F
-Fs = api.Fs
-T = api.T
-L = api.L
+api.makeAvailableIn(globals())
 
 
 # # Verse labels
@@ -375,10 +376,7 @@ utils.caption(4, 'Load and compile the new TF features')
 
 TF = Fabric(locations=thisTf, modules=module)
 api = TF.load('g_word_utf8 g_word trailer_utf8 trailer {}'.format(' '.join(changedDataFeatures)))
-F = api.F
-Fs = api.Fs
-T = api.T
-L = api.L
+api.makeAvailableIn(globals())
 
 
 # In[32]:

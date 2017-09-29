@@ -124,6 +124,10 @@ from tf.fabric import Fabric
 import utils
 
 
+# # Pipeline
+# See [operation](https://github.com/ETCBC/pipeline/blob/master/README.md#operation) 
+# for how to run this script in the pipeline.
+
 # In[2]:
 
 
@@ -230,12 +234,7 @@ for x in sorted(otextInfo.items()):
 utils.caption(4, 'Load the existing TF dataset')
 TF = Fabric(locations=thisTf, modules=module)
 api = TF.load('lex lex_utf8 language sp ls gn ps nu st g_voc_lex g_voc_lex_utf8 oslots')
-
-F = api.F
-Fs = api.Fs
-E = api.E
-T = api.T
-N = api.N
+api.makeAvailableIn(globals())
 
 
 # # Text pass
@@ -666,10 +665,7 @@ utils.caption(4, 'Load and compile the new TF features')
 
 TF = Fabric(locations=thisTf, modules=module)
 api = TF.load(' '.join(changedDataFeatures))
-F = api.F
-Fs = api.Fs
-T = api.T
-L = api.L
+api.makeAvailableIn(globals())
 
 
 # In[26]:

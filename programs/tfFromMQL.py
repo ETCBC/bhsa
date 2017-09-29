@@ -30,14 +30,20 @@
 # This notebook makes use of a new feature of text-fabric, first present in 2.3.12.
 # Make sure to upgrade first.
 # 
-# ```sudo -H pip3 install text-fabric```
+# ```sudo -H pip3 install text-fabric
+# ```
 # 
-# # Temporary hack
+# # Buffer function
 # The ETCBC does not yet produce an MQL file that satisfies all the requirements.
-# Some features are still missing.
-# In the etcbc4c version I have worked around those details, which resulted in a complete dataset 4c.
+# Some features are still missing, some values seem to have been mangled somewhere in the creation workflow.
 # 
-# I will implement those hacks in the pipeline, until they are not necessary anymore.
+# This pipeline implements workarounds for those issues.
+# The source data, as delivered by the ETCBC on a weekly basis, may change suddenly in minor details,
+# which could break applications further down the line.
+# 
+# This pipeline, with and in particular this repository is a useful tool to work around those issues
+# temporarily and to provide feedback to the ETCBC, which will hopefully lead to a more 
+# consistent data interface over time.
 
 # In[1]:
 
@@ -50,35 +56,9 @@ import utils
 from blang import bookLangs, bookNames
 
 
-# # Modes of execution
-# 
-# This notebook is meant to operate in two modes, *notebook* and *script*.
-# 
-# ## Notebook mode
-# Meant for interactively running this script. 
-# The MQL parsing might incur errors, due to varying patterns in the
-# MQL dump. 
-# If that happens, you need some interactive tweaking of the `parseMQL()` function.
-# Or, if there are issues with the `tfFromData()` function, it is handy that
-# the results of `parseMQL()` stay in memory, while debugging `tfFromData()`.
-# 
-# In notebook mode, the parameters are just the capitalized variables.
-# 
-# ## Script mode
-# The task of converting MQL to TF is part of the data pipeline from the ETCBC institute to the SHEBANQ website.
-# Therefore this script must be able to run unsupervised, from another python program.
-# 
-# Here is how that othe program should call this notebook:
-# 
-# * convert the script to python with nbconvert
-# * read the script as file and execute it as a python string, supplying
-#   values for the capitalized variables as local variables
-# * one of those variables is: `SCRIPT=True`
-# 
-# The notebook should be written in such a way, that when `SCRIPT=True`,
-# the required conversion will be done and nothing more.
-# 
-# We pass the name of the data source, the version, and the name of a target TF module.
+# # Pipeline
+# See [operation](https://github.com/ETCBC/pipeline/blob/master/README.md#operation) 
+# for how to run this script in the pipeline.
 
 # In[2]:
 
@@ -87,7 +67,7 @@ if 'SCRIPT' not in locals():
     SCRIPT = False
     FORCE = True
     CORE_NAME = 'bhsa'
-    VERSION= 'c'
+    VERSION = 'c'
     CORE_MODULE ='core' 
 
 def stop(good=False):
@@ -611,7 +591,6 @@ def tfFromData():
 
 
 def compileTfData():
-    ()
     utils.caption(4, 'Load and compile standard TF features')
     TF = Fabric(locations=thisTf, modules=module)
     api = TF.load('')

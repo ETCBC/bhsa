@@ -7,7 +7,7 @@
 @valueType=str
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-09-28T18:41:58Z
+@dateWritten=2017-09-29T13:43:31Z
 
 651292	Time
 Pred
