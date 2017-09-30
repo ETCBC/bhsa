@@ -1,0 +1,9 @@
+- title: About
+  docs:
+  - index
+  - news
+  
+- title: BHSA
+  lang: hebrew
+  versions:
+  - 2016

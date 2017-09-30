@@ -1,0 +1,90 @@
+incremental: bool
+
+# theme: minima
+
+baseurl: /bhsa
+
+collections:
+    features:
+        output: true
+
+defaults:
+    - scope:
+        path: ""
+        type: features
+      values:
+        layout: page
+    - scope:
+        path: ""
+        type: pages
+      values:
+        layout: page
+    - scope:
+        path: "_features/hebrew"
+      values:
+        lang: hebrew
+        feat: true
+
+email: 
+
+etcbc:
+    - name: Wido van Peursen
+      email: w.t.van.peursen@vu.nl
+      hide: false
+      url: https://vu-nl.academia.edu/widovanpeursen
+    - name: Martijn Naaijer
+      email: m.naaijer@vu.nl
+      hide: false
+      institute: ETCBC
+      url: http://www.godgeleerdheid.vu.nl/en/research/institutes-and-centres/eep-talstra-centre-for-bible-and-computer/index.aspx
+    - name: Christiaan Erwich
+      email: c.m.erwich@vu.nl
+      hide: false
+      institute: ETCBC
+      url: http://www.godgeleerdheid.vu.nl/en/research/institutes-and-centres/eep-talstra-centre-for-bible-and-computer/index.aspx
+    - name: Cody Kingham
+      email: c.a.kingham@student.vu.nl
+      hide: false
+      institute: ETCBC
+      url: http://www.godgeleerdheid.vu.nl/en/research/institutes-and-centres/eep-talstra-centre-for-bible-and-computer/index.aspx
+    - name: Marianne Kaajan
+      email: m.e.kaajan@vu.nl
+      hide: false
+      institute: ETCBC
+      url: http://www.godgeleerdheid.vu.nl/en/research/institutes-and-centres/eep-talstra-centre-for-bible-and-computer/index.aspx
+    - name: Dirk Roorda
+      email: shebanq@ancient-data.org
+      hide: false
+      institute: DANS
+      url: https://dans.knaw.nl/nl
+
+text-fabric:
+    - name: text-fabric wiki
+      url: https://github.com/ETCBC/text-fabric/wiki
+      desc: Design, data model and API of Text-Fabric
+    - name: text-fabric
+      url: https://github.com/ETCBC/text-fabric
+      desc: Python module for processing text fabrics
+    - name: pipeline
+      url: https://github.com/ETCBC/pipeline
+      desc: how this data ends up here
+    - name: tutorial
+      url: https://github.com/etcbc/text-fabric/blob/master/docs/tutorial.ipynb
+      desc: IPython notebook with Hebrew examples
+    - name: tutorial (search)
+      url: https://github.com/etcbc/text-fabric/blob/master/docs/searchTutorial.ipynb
+      desc: IPython notebook with Greek examples
+
+shebanq:
+    - name: SHEBANQ website
+      url: https://shebanq.ancient-data.org
+      desc: View and query Hebrew dataset online
+    - name: SHEBANQ on Slack
+      url: https://shebanq.slack.com/signup
+      desc: Signup with our Slack team
+    - name: SHEBANQ admin
+      url: mailto:shebanq@ancient-data.org
+      desc: Mail us
+    - name: SHEBANQ twitter
+      url: https://twitter.com/shebanq_
+      desc: follow events

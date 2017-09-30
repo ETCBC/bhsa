@@ -1,0 +1,46 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+            {% for item in site.staff %}
+            <li>
+                {% if item.hide %}
+                {{item.name}}
+                {% else %}
+                <a href="mailto:{{item.email}}">{{item.name}}</a>
+                {% endif %}
+                (<a href="{{item.url}}">{{item.institute}}</a>)
+            </li>
+            {% endfor %}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="contact-list">
+            {% for item in site.repos %}
+            <li>
+                <a href="{{item.url}}" title="{{item.desc}}">{{item.name}}</a>
+            </li>
+            {% endfor %}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <ul class="contact-list">
+            {% for item in site.web %}
+            <li>
+                <a href="{{item.url}}" title="{{item.desc}}">{{item.name}}</a>
+            </li>
+            {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
