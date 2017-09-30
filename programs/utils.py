@@ -10,6 +10,22 @@ from shutil import rmtree, copytree, copy
 from itertools import zip_longest
 from glob import glob
 
+def bzip(uzFile, bzFile):
+    xB = os.path.exists(bzFile)
+    xU = os.path.exists(uzFile)
+    if not xU:
+        if xB:
+            caption(0, '\tWARNING: unzipped file is missing. Using existing bzipped file')
+        else:
+            caption(0, '\tERROR: Cannot bzip because unzipped file is missing')
+        return
+    if not xB or os.path.getmtime(uzFile) > os.path.getmtime(bzFile):
+        with bz2.open(bzFile, mode='wt') as bdata:
+            with open(uzFile, 'r') as udata:
+                bdata.write(udata.read())
+    else:
+        caption(0, '\tNOTE: Using existing bzipped file which is newer than unzipped one')
+
 def bunzip(bzFile, uzFile):
     xB = os.path.exists(bzFile)
     xU = os.path.exists(uzFile)
@@ -21,9 +37,8 @@ def bunzip(bzFile, uzFile):
         return
     if not xU or os.path.getmtime(bzFile) > os.path.getmtime(uzFile):
         with bz2.open(bzFile, mode='rt') as bdata:
-            fh = open(uzFile, 'w')
-            fh.write(bdata.read())
-            fh.close
+            with open(uzFile, 'w') as udata:
+                udata.write(bdata.read())
     else:
         caption(0, '\tNOTE: Using existing unzipped file which is newer than bzipped one')
 

@@ -42,7 +42,7 @@ if 'SCRIPT' not in locals():
     SCRIPT = False
     FORCE = True
     CORE_NAME = 'bhsa'
-    VERSION= 'c'
+    VERSION= '2016'
     CORE_MODULE ='core' 
 
 def stop(good=False):
@@ -99,7 +99,7 @@ if SCRIPT:
 #  
 # We do not do this for the older versions 4 and 4b.
 
-# In[6]:
+# In[7]:
 
 
 provenanceMetadata = dict(
@@ -117,17 +117,23 @@ oText = {
 @fmt:text-orig-full-ketiv={g_word_utf8}{trailer_utf8}
 @fmt:text-trans-full={qere/g_word}{qere_trailer/trailer}
 @fmt:text-trans-full-ketiv={g_word}{trailer}''',
+    '2016': '''
+@fmt:text-orig-full={qere_utf8/g_word_utf8}{qere_trailer_utf8/trailer_utf8}
+@fmt:text-orig-full-ketiv={g_word_utf8}{trailer_utf8}
+@fmt:text-trans-full={qere/g_word}{qere_trailer/trailer}
+@fmt:text-trans-full-ketiv={g_word}{trailer}''',
 }
-
+    
 thisOtext = oText.get(VERSION, '')
-otextInfo = dict(line[1:].split('=', 1) for line in thisOtext.strip('\n').split('\n'))
 
 if thisOtext is '':
-    utils.caption(0, 'No additional text formats provided') 
+    utils.caption(0, 'No additional text formats provided')
+    otextInfo = {}
 else:
     utils.caption(0, 'New text formats')
-for x in sorted(otextInfo.items()):
-    utils.caption(0, '{:<30} = "{}"'.format(*x))
+    otextInfo = dict(line[1:].split('=', 1) for line in thisOtext.strip('\n').split('\n'))
+    for x in sorted(otextInfo.items()):
+        utils.caption(0, '{:<30} = "{}"'.format(*x))
 
 
 # In[7]:

@@ -209,10 +209,9 @@ lexType = 'lex'
 doVocalizedLexeme = {
     '4': False,
     '4b': False,
-    'c': True,
 }
 
-thisVocalizedLexeme = doVocalizedLexeme.get(VERSION, False)
+thisVocalizedLexeme = doVocalizedLexeme.get(VERSION, True)
 
 extraOverlap = {
     '4': 'gloss nametype',
@@ -223,6 +222,9 @@ thisExtraOverlap = extraOverlap.get(VERSION, '')
 
 oText = {
     'c': '''
+@fmt:lex-trans-plain={lex0} 
+''',
+    '2016': '''
 @fmt:lex-trans-plain={lex0} 
 ''',
 }

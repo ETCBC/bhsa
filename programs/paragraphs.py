@@ -160,7 +160,7 @@ else:
 
 utils.caption(4, 'Parsing paragraph data in PX')
 
-pxFile = '{}/paragraphs.txt'.format(thisSource)
+pxFile = '{}/paragraphs.txt'.format(thisTemp)
 pxzFile = '{}/paragraphs.txt.bz2'.format(thisSource)
 utils.caption(0, 'bunzipping {} ...'.format(pxzFile))
 utils.bunzip(pxzFile, pxFile)
