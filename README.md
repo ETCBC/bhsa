@@ -1,13 +1,15 @@
 # BHSA
 
 ## Biblia Hebraica Stuttgartensia (Amstelodamensis)
-![etcbc](programs/images/etcbc.png)
+![etcbc](programs/etcbc.png)
 
 This is the
 [text-fabric](https://github.com/ETCBC/text-fabric/wiki)
 version of the Hebrew Bible Database,
 containing the text of the Hebrew Bible augmented with linguistic annotations compiled by the
 [Eep Talstra Centre for Bible and Computer](http://www.godgeleerdheid.vu.nl/en/research/institutes-and-centres/eep-talstra-centre-for-bible-and-computer/index.aspx), VU University Amsterdam.
+
+![tf](programs/tf-small.png)
 
 ## License
 
