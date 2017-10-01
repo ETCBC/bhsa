@@ -9,8 +9,6 @@ version of the Hebrew Bible Database,
 containing the text of the Hebrew Bible augmented with linguistic annotations compiled by the
 [Eep Talstra Centre for Bible and Computer](http://www.godgeleerdheid.vu.nl/en/research/institutes-and-centres/eep-talstra-centre-for-bible-and-computer/index.aspx), VU University Amsterdam.
 
-![tf](programs/tf-small.png)
-
 ## License
 
 This work is licensed under a
@@ -29,6 +27,8 @@ That means:
     [German Bible Society](zentrale@dbg.de).
 
 # How to use
+
+![tf](programs/tf-small.png)
 
 This data can be processed by 
 [Text-Fabric](https://github.com/ETCBC/text-fabric/wiki).
