@@ -1,6 +1,6 @@
 incremental: bool
 
-# theme: minima
+theme: minima
 
 baseurl: /bhsa
 
