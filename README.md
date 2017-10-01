@@ -1,7 +1,7 @@
 # BHSA
 
 ## Biblia Hebraica Stuttgartensia (Amstelodamensis)
-![text-fabric](https://raw.github.com/ETCBC/text-fabric/master/docs/tf.png)
+![etcbc](programs/images/etcbc.png)
 
 This is the
 [text-fabric](https://github.com/ETCBC/text-fabric/wiki)
