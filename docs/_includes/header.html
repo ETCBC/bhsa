@@ -70,6 +70,7 @@
                         {% endunless %}
                     {% endfor %}
                     </ul>
+                    {% comment %}
                     {% if section.lang == cur_lang %}
                         {% for fp in site.features %}
                             {% if fp.feat %}
@@ -86,6 +87,7 @@
                             {% endif %}
                         {% endfor %}
                     {% endif %}
+                    {% endcomment %}
                 {% endif %}
             {% endfor %}
             </ul>
