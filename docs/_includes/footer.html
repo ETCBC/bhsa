@@ -6,8 +6,9 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
+        <img src="{{'/images/etcbc-small.png' | prepend:site.baseurl}}"/>
         <ul class="contact-list">
-            {% for item in site.staff %}
+            {% for item in site.fleft %}
             <li>
                 {% if item.hide %}
                 {{item.name}}
@@ -21,8 +22,9 @@
       </div>
 
       <div class="footer-col footer-col-2">
+        <img src="{{'/images/tf-small.png' | prepend:site.baseurl}}"/>
         <ul class="contact-list">
-            {% for item in site.repos %}
+            {% for item in site.fmiddle %}
             <li>
                 <a href="{{item.url}}" title="{{item.desc}}">{{item.name}}</a>
             </li>
@@ -31,8 +33,9 @@
       </div>
 
       <div class="footer-col footer-col-3">
+        <img src="{{'/images/shebanq-small.png' | prepend:site.baseurl}}"/>
         <ul class="contact-list">
-            {% for item in site.web %}
+            {% for item in site.fright %}
             <li>
                 <a href="{{item.url}}" title="{{item.desc}}">{{item.name}}</a>
             </li>

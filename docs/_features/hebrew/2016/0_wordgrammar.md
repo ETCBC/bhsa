@@ -9,13 +9,13 @@ Words may consist of parts that carry parts of the meaning. These parts are call
 They can be verbal and nominal endings, which signal grammatical functions such as person, number, gender, state, tense, mood.
 They can also be pronominal suffixes, which are almost separate lexemes.
 
-The ETCBC dataset distinguishes the following morphological elements in a word:
+The BHSA dataset distinguishes the following morphological elements in a word:
 
 * prefix - lexeme - suffix - enclitic
 
 * vowel-pattern
 
-The information in each of these elements is carried by one or more features in the ETCBC dataset.
+The information in each of these elements is carried by one or more features in the BHSA dataset.
 These features are also represented by a single shortcut character, which shows up in some feature values, which is why we mention them here.
 
 # prefix

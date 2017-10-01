@@ -5,7 +5,7 @@ title: functional_parent
 **Edge feature**.
 
 Linguistic types correspond to syntactical entities such as sentences, clauses and phrases.
-The ETCBC4 distinguishes between *functional* and *distributional* variants of them.
+The BHSA distinguishes between *functional* and *distributional* variants of them.
 The functional object types are `sentence`, `clause`, and `phrase`.
 They correspond to possibly discontinuous stretches of text that function as a unit.
 The distributional object types are `sentence_atom`, `clause_atom`, and `phrase_atom`.

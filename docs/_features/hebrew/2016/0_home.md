@@ -1,11 +1,11 @@
 ---
-title: ETCBC4c features
+title: Features
 feat: false
 ---
 
 # Introduction
 This is the key to the meaning of the features of the
-[etcbc4c dataset](/text-fabric-data/features/hebrew/etcbc4c/0_home).
+[BHSA dataset](https://github.com/ETCBC/bhsa/tree/master/tf).
 
 We organize the features in several groups, roughly analagous to the
 [types of objects](otype)

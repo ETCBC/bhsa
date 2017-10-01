@@ -14,7 +14,7 @@ If two or more items have identical frequency, they have the same rank, but the 
 where *n* is the amount of items with that same frequency.
 
 ##### Note
-> The ETCBC lexicon makes distinctions between homonyms, i.e. distinct lexemes that are spelled identically.
+> The BHSA lexicon makes distinctions between homonyms, i.e. distinct lexemes that are spelled identically.
 This feature respects that distinction.
 
 ##### Hint

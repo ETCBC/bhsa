@@ -27,7 +27,7 @@ defaults:
 
 email: 
 
-etcbc:
+fleft:
     - name: Wido van Peursen
       email: w.t.van.peursen@vu.nl
       hide: false
@@ -58,7 +58,7 @@ etcbc:
       institute: DANS
       url: https://dans.knaw.nl/nl
 
-text-fabric:
+fmiddle:
     - name: text-fabric wiki
       url: https://github.com/ETCBC/text-fabric/wiki
       desc: Design, data model and API of Text-Fabric
@@ -75,7 +75,7 @@ text-fabric:
       url: https://github.com/etcbc/text-fabric/blob/master/docs/searchTutorial.ipynb
       desc: IPython notebook with Greek examples
 
-shebanq:
+fright:
     - name: SHEBANQ website
       url: https://shebanq.ancient-data.org
       desc: View and query Hebrew dataset online

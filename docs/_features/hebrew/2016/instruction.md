@@ -12,7 +12,7 @@ The value is something like ``.q``, ``..``, ``.d``, ``ve``.
 
 ##### See also
 
-* [txt](https://etcbc.github.io/text-fabric-data/features/hebrew/etcbc4c/txt)
+* [txt](txt)
 
 ##### Caution
 > I prefer a more informative definition.

@@ -8,7 +8,7 @@ The Latin name of the present bible book.
 
 This feature is present on objects of type [*book*, *chapter*, and *verse*](otype).
 
-Below is a list of all books with their number of chapters in the order as encoded in the ETCBC4c dataset.
+Below is a list of all books with their number of chapters in the order as encoded in the BHSA dataset.
 
 For book names in other languages: see [book@ll](book@ll)
 
@@ -67,4 +67,4 @@ select all objects where
 ```
 
 See this query (with results) on [SHEBANQ](https://shebanq.ancient-data.org/hebrew/query?version=4b&id=1502).
-Note that the data version used on SHEBANQ is **4b**, while this documentation is for version **4c**.
+Note that the data version used on SHEBANQ is **4b**, while this documentation is for version **2016**.

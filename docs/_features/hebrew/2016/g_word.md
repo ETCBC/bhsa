@@ -6,7 +6,7 @@ title: g_word
 
 
 The pointed representation of a word occurrence in
-[ETCBC transliteration](https://shebanq.ancient-data.org/shebanq/static/docs/ETCBC4-transcription.pdf).
+[BHSA transliteration](https://shebanq.ancient-data.org/shebanq/static/docs/BHSA-transcription.pdf).
 
 This feature is present on objects of type [*word*](otype).
 
@@ -15,8 +15,8 @@ All characters of the word occurrence are present: consonants, vowel pointing an
 ##### Hint
 > It is hazardous to use this feature for queries. From how a Hebrew word looks in printing, it cannot be determined what the
 order of the various diacritics of one and the same consonant is.
-The order, chosen in the ETCBC4 dataset is such that the rendering gives optimal results for most applications.
-The ETCBC4 is not committed to maintain a definite ordering here.
+The order, chosen in the BHSA dataset is such that the rendering gives optimal results for most applications.
+The BHSA is not committed to maintain a definite ordering here.
 
 In order not to miss search results, it might be helpful to compare the results with those obtained by using
 [g_cons](g_cons) instead.

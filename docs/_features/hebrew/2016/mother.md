@@ -8,7 +8,7 @@ necessarily have an embbedding relationship.**
 The mother relation exists between objects of many different kinds.
 The feature [code](code) refers to it a lot.
 
-See the [AtomsAndMothers notebook](https://github.com/ETCBC/text-fabric-data/blob/master/docs/notebooks/AtomsAndMothers.ipynb)
+See the [AtomsAndMothers notebook](https://github.com/ETCBC/bhsa/blob/master/docs/notebooks/AtomsAndMothers.ipynb)
 which makes some basic explorations into these matters.
 
 ##### Caution
@@ -42,7 +42,7 @@ select all objects where
 ```
 
 ## Text-Fabric implementation
-In the Text-Fabric representation of the ETCBC4 dataset, *mother* is an *edge* feature.
+In the Text-Fabric representation of the BHSA dataset, *mother* is an *edge* feature.
 The nodes correspond to the objects, and the edges to relationships between nodes.
 The edges that belong to the *mother* feature, correpond to the *mother* relationship.
 

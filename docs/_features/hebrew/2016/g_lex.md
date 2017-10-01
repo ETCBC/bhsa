@@ -6,7 +6,7 @@ title: g_lex
 
 
 The pointed representation of the lexeme of a word occurrence in 
-[ETCBC transliteration](https://shebanq.ancient-data.org/shebanq/static/docs/ETCBC4-transcription.pdf).
+[BHSA transliteration](https://shebanq.ancient-data.org/shebanq/static/docs/BHSA-transcription.pdf).
 
 This feature is present on objects of type [*word*](otype).
 

@@ -9,7 +9,7 @@ The frequency of a lexeme, measured as the number of occurrences in the whole He
 This feature is present on objects of type [*lex*](otype).
 
 ##### Note
-> The ETCBC lexicon makes distinctions between homonyms, i.e. distinct lexemes that are spelled identically.
+> The BHSA lexicon makes distinctions between homonyms, i.e. distinct lexemes that are spelled identically.
 This feature respects that distinction.
 
 ##### Hint

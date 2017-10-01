@@ -20,10 +20,10 @@ These researchers need to preprocess the data in ways that an application author
 The good news is the existence of the other tool,
 [Text-Fabric](https://github.com/ETCBC/text-fabric/wiki).
 This is an **offline** tool based on exactly the same data that powers SHEBANQ.
-The programming researcher can use Text-Fabric as a preprocessing tool for transforming the complex ETCBC data into the formats that are suitable to
+The programming researcher can use Text-Fabric as a preprocessing tool for transforming the complex BHSA data into the formats that are suitable to
 R, spreadsheets, or any format of choice.
 Text-Fabric is open source, downloadable from [github](https://github.com/ETCBC/text-fabric),
-and the data is downloadable from [text-fabric-data](https://github.com/ETCBC/text-fabric-data).
+and the data is downloadable from [bhsa](https://github.com/ETCBC/bhsa).
 
 It can be installed on Mac OSX, Windows and Linux.
 The recommended mode of working with the data is: programming in Python within a Jupyter Notebook.
@@ -160,7 +160,7 @@ We have to say this instead:
 ```
 
 And still we will miss results, because the target phrase may occur in a phrase that itself fills the gap inside another phrase.
-These thing are not academic, they occur in the ETCBC data! In order to get them the size of this query will explode,
+These thing are not academic, they occur in the BHSA data! In order to get them the size of this query will explode,
 completely obscuring the intention of it.
 
 Using TF-search, you can avoid all this trouble by just issuing the search template

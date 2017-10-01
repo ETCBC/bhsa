@@ -18,7 +18,7 @@ This feature is the only one that gives the information whether there is a
 space between words.
 
 ##### Note
-> After the last word of a verse, a newline has been inserted in the ETCBC4 working text.
+> After the last word of a verse, a newline has been inserted in the BHSA working text.
 This newline has become part of the
 [trailer_utf8](trailer_utf8) value of the last word of the verse.
 

@@ -52,7 +52,7 @@ However, the `half_verse` object only carries the [half_verse](half_verse) featu
 # Word type
 
 There is only one type for words, the `word` type.
-Word objects correspond to the smallest divisional units in the ETCBC4 dataset.
+Word objects correspond to the smallest divisional units in the BHSA dataset.
 They are also identified with *slots*, because each slot is filled by a word and each word fills a slot.
 Words are not identified with strings, because there are various
 string representations of the words, none of which is canonical. All word occurrences are numbered
@@ -65,7 +65,7 @@ For the purpose if this documentation, we shall use the contrast *consonantal* (
 and *pointed* (with diacritics).
 The `_utf8` versions contain UNICODE representations of the values, using the Hebrew code block.
 The non `_utf8` versions contain ASCII representations of the values, according to the
-[ETCBC transliteration table](https://shebanq.ancient-data.org/shebanq/static/docs/ETCBC4-transcription.pdf). 
+[BHSA transliteration table](https://shebanq.ancient-data.org/shebanq/static/docs/BHSA-transcription.pdf). 
 
 The text of a word occurrence is in
 [g_word](g_word) (pointed, transliterated) and [g_word_utf8](g_word_utf8) (pointed, Hebrew),
@@ -107,7 +107,7 @@ See the note in [gloss](gloss).
 # Linguistic types
 
 Linguistic types correspond to syntactical entities such as sentences, clauses and phrases.
-The ETCBC4 distinguishes between *functional* and *distributional* variants of them.
+The BHSA distinguishes between *functional* and *distributional* variants of them.
 The functional object types are `sentence`, `clause`, and `phrase`.
 They correspond to possibly discontinuous stretches of text that function as a unit.
 The distributional object types are `sentence_atom`, `clause_atom`, and `phrase_atom`.
@@ -120,7 +120,7 @@ the functional object fall neatly between their distributional atoms.
 Is `subphrase` functional or distributional?
 Are atoms always *maximal* continous stretches, or can you have two adjacent atoms of the same type?
 
-See the [AtomsAndMothers notebook](https://github.com/ETCBC/text-fabric-data/blob/master/docs/notebooks/AtomsAndMothers.ipynb)
+See the [AtomsAndMothers notebook](https://github.com/ETCBC/bhsa/blob/master/docs/notebooks/AtomsAndMothers.ipynb)
 which makes some basic explorations into these matters.
 
 ##### Note
