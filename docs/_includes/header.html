@@ -48,9 +48,9 @@
                 {% assign p = site.features | where:"relative_path", home_path | first %}
                 {% if p.title %}
                     {% if p.url == page.url %}
-                    <h5><span class="nav-active">{{ item | escape }}</span></h5>
+                    <h5><span class="nav-active">{{ item | append:"" | escape }}</span></h5>
                     {% else %}
-                        <h5><a class="page-link" href="{{ p.url | relative_url }}">{{ item | escape }}</a></h5>
+                        <h5><a class="page-link" href="{{ p.url | relative_url }}">{{ item | append:"" | escape }}</a></h5>
                     {% endif %}
                     <ul class="nav">
                     {% for fp in site.features %}
