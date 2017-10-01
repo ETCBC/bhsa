@@ -1,7 +1,7 @@
 # BHSA
 
 ## Biblia Hebraica Stuttgartensia (Amstelodamensis)
-![etcbc](programs/images/etcbc.png)
+![etcbc](programs/etcbc.png)
 
 This is the
 [text-fabric](https://github.com/ETCBC/text-fabric/wiki)
@@ -27,6 +27,8 @@ That means:
     [German Bible Society](zentrale@dbg.de).
 
 # How to use
+
+![tf](programs/tf-small.png)
 
 This data can be processed by 
 [Text-Fabric](https://github.com/ETCBC/text-fabric/wiki).

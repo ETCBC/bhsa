@@ -39,9 +39,9 @@ When you navigate to a version, you'll see more information about that version a
 For versions **c** and **2016** the
 [pipeline](https://github.com/ETCBC/pipeline)
 has been followed.
-These versions have will not be enriched with data coming from research repos.
+These versions have not be enriched with data coming from research repos.
 Instead, additional data from research repos can easily downloaded
-from github and be processed alongside this core data.
+from github and be processed alongside the core data.
 
 ## Workflow
 The pipeline above is complicated and not free of
