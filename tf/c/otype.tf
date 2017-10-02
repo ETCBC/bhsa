@@ -1,7 +1,13 @@
 @node
+@author=Eep Talstra Centre for Bible and Computer
+@dataset=BHSA
+@datasetName=Biblia Hebraica Stuttgartensia Amstelodamensis
+@email=shebanq@ancient-data.org
+@encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)
 @valueType=str
+@website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-02T06:16:47Z
+@dateWritten=2017-10-02T09:56:13Z
 
 1-426581	word
 426582-426620	book
@@ -15,4 +21,3 @@
 1235551-1299889	sentence_atom
 1299890-1413681	subphrase
 1413682-1436894	verse
-1436895-1446130	lex

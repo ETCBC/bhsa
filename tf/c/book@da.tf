@@ -1,16 +1,10 @@
 @node
-@author=Eep Talstra Centre for Bible and Computer
-@dataset=BHSA
-@datasetName=Biblia Hebraica Stuttgartensia Amstelodamensis
-@email=shebanq@ancient-data.org
-@encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)
 @language=Dansk
 @languageCode=da
 @languageEnglish=danish
 @valueType=str
-@website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-02T06:06:29Z
+@dateWritten=2017-10-02T10:13:14Z
 
 426582	1.Mosebog
 2.Mosebog
