@@ -37,7 +37,6 @@ if 'SCRIPT' not in locals():
     FORCE = True
     CORE_NAME = 'bhsa'
     VERSION= 'c'
-    CORE_MODULE ='core' 
 
 def stop(good=False):
     if SCRIPT: sys.exit(0 if good else 1)
@@ -51,17 +50,15 @@ def stop(good=False):
 # In[3]:
 
 
-module = CORE_MODULE
 repoBase = os.path.expanduser('~/github/etcbc')
 thisRepo = '{}/{}'.format(repoBase, CORE_NAME)
 
 thisSource = '{}/source/{}'.format(thisRepo, VERSION)
 
 thisTemp = '{}/_temp/{}'.format(thisRepo, VERSION)
-thisSave = '{}/{}'.format(thisTemp, module)
+thisTempTf = '{}/tf'.format(thisTemp)
 
 thisTf = '{}/tf/{}'.format(thisRepo, VERSION)
-thisDeliver = '{}/{}'.format(thisTf, module)
 
 
 # In[4]:
@@ -79,7 +76,7 @@ testFeature = 'pargr'
 
 
 if SCRIPT:
-    (good, work) = utils.mustRun(None, '{}/.tf/{}.tfx'.format(thisDeliver, testFeature), force=FORCE)
+    (good, work) = utils.mustRun(None, '{}/.tf/{}.tfx'.format(thisTf, testFeature), force=FORCE)
     if not good: stop(good=False)
     if not work: stop(good=True)
 
@@ -106,11 +103,11 @@ provenanceMetadata = dict(
 )
 
 
-# In[8]:
+# In[7]:
 
 
 utils.caption(4, 'Load the existing TF dataset')
-TF = Fabric(locations=thisTf, modules=module)
+TF = Fabric(locations=thisTf, modules=[''])
 api = TF.load('label number')
 api.makeAvailableIn(globals())
 
@@ -119,7 +116,7 @@ api.makeAvailableIn(globals())
 # We must map the way the clause_atoms are identified in the `.px` files
 # to nodes in TF.
 
-# In[11]:
+# In[8]:
 
 
 utils.caption(0, '\tLabeling clause_atoms')
@@ -155,7 +152,7 @@ else:
 
 # # Read the PX files
 
-# In[15]:
+# In[9]:
 
 
 utils.caption(4, 'Parsing paragraph data in PX')
@@ -206,7 +203,7 @@ else:
     utils.caption(0, '\tOK: All label/line entries found in index')
 
 
-# In[32]:
+# In[10]:
 
 
 if not SCRIPT:
@@ -217,7 +214,7 @@ if not SCRIPT:
 # 
 # We now collect the lexical information into the features for nodes of type `lex`.
 
-# In[33]:
+# In[11]:
 
 
 utils.caption(0, 'Prepare TF paragraph features')
@@ -241,7 +238,7 @@ for f in nodeFeatures:
     metaData[f]['valueType'] = 'str'
 
 
-# In[34]:
+# In[14]:
 
 
 changedFeatures = set(nodeFeatures)
@@ -251,11 +248,11 @@ changedFeatures = set(nodeFeatures)
 # Transform the collected information in feature-like datastructures, and write it all
 # out to `.tf` files.
 
-# In[35]:
+# In[12]:
 
 
 utils.caption(4, 'write new/changed features to TF ...')
-TF = Fabric(locations=thisSave, silent=True)
+TF = Fabric(locations=thisTempTf, silent=True)
 TF.save(nodeFeatures=nodeFeatures, edgeFeatures={}, metaData=metaData)
 
 
@@ -274,37 +271,37 @@ TF.save(nodeFeatures=nodeFeatures, edgeFeatures={}, metaData=metaData)
 # For each changed feature we show the first line where the new feature differs from the old one.
 # We ignore changes in the metadata, because the timestamp in the metadata will always change.
 
-# In[36]:
+# In[15]:
 
 
-utils.checkDiffs(thisSave, thisDeliver, only=changedFeatures)
+utils.checkDiffs(thisTempTf, thisTf, only=changedFeatures)
 
 
 # # Stage: Deliver 
 # 
 # Copy the new TF dataset from the temporary location where it has been created to its final destination.
 
-# In[37]:
+# In[16]:
 
 
-utils.deliverFeatures(thisSave, thisDeliver, changedFeatures)
+utils.deliverFeatures(thisTempTf, thisTf, changedFeatures)
 
 
 # # Stage: Compile TF
 # 
 # We load the new features, use the new format, check some values
 
-# In[38]:
+# In[17]:
 
 
 utils.caption(4, 'Load and compile the new TF features')
 
-TF = Fabric(locations=thisTf, modules=module)
+TF = Fabric(locations=thisTf, modules=[''])
 api = TF.load(' '.join(changedFeatures))
 api.makeAvailableIn(globals())
 
 
-# In[40]:
+# In[18]:
 
 
 utils.caption(4, 'Test: paragraphs of the first verses')

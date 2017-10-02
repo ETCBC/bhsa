@@ -3,6 +3,8 @@
 
 # <img align="right" src="tf-small.png"/>
 # 
+# ![mql](emdros.png)
+# 
 # # TF from MQL
 # 
 # This notebook can read an
@@ -21,7 +23,7 @@
 # MQL to something else.
 # 
 # Yet this is what we do, the error-prone thing. We then avoid installing and configuring and managing Emdros, MySQL/sqLite3.
-# Aside the upfront work to get this going, the going after that is also much slower.
+# Aside the upfront work to get this going, the going after that would also be much slower.
 # 
 # So here you are, a smallish script to do an awful lot of work, mostly correct, if careful used.
 # 
@@ -30,20 +32,8 @@
 # This notebook makes use of a new feature of text-fabric, first present in 2.3.12.
 # Make sure to upgrade first.
 # 
-# ```sudo -H pip3 install text-fabric
+# ```sudo -H pip3 install --upgrade text-fabric
 # ```
-# 
-# # Buffer function
-# The ETCBC does not yet produce an MQL file that satisfies all the requirements.
-# Some features are still missing, some values seem to have been mangled somewhere in the creation workflow.
-# 
-# This pipeline implements workarounds for those issues.
-# The source data, as delivered by the ETCBC on a weekly basis, may change suddenly in minor details,
-# which could break applications further down the line.
-# 
-# This pipeline, with and in particular this repository is a useful tool to work around those issues
-# temporarily and to provide feedback to the ETCBC, which will hopefully lead to a more 
-# consistent data interface over time.
 
 # In[1]:
 
@@ -68,7 +58,6 @@ if 'SCRIPT' not in locals():
     FORCE = True
     CORE_NAME = 'bhsa'
     VERSION = 'c'
-    CORE_MODULE ='core' 
 
 def stop(good=False):
     if SCRIPT: sys.exit(0 if good else 1)
@@ -79,10 +68,9 @@ def stop(good=False):
 # The conversion is executed in an environment of directories, so that sources, temp files and
 # results are in convenient places and do not have to be shifted around.
 
-# In[3]:
+# In[5]:
 
 
-module = CORE_MODULE
 repoBase = os.path.expanduser('~/github/etcbc')
 thisRepo = '{}/{}'.format(repoBase, CORE_NAME)
 
@@ -90,11 +78,11 @@ thisSource = '{}/source/{}'.format(thisRepo, VERSION)
 mqlzFile = '{}/{}.mql.bz2'.format(thisSource, CORE_NAME)
 
 thisTemp = '{}/_temp/{}'.format(thisRepo, VERSION)
-mqlFile = '{}/{}.mql'.format(thisTemp, CORE_NAME)
-thisSave = '{}/{}'.format(thisTemp, module)
+thisTempSource = '{}/source'.format(thisTemp)
+mqlFile = '{}/{}.mql'.format(thisTempSource, CORE_NAME)
+thisTempTf = '{}/tf'.format(thisTemp)
 
 thisTf = '{}/tf/{}'.format(thisRepo, VERSION)
-thisDeliver = '{}/{}'.format(thisTf, module)
 
 
 # # Test
@@ -102,12 +90,12 @@ thisDeliver = '{}/{}'.format(thisTf, module)
 # Check whether this conversion is needed in the first place.
 # Only when run as a script.
 
-# In[4]:
+# In[7]:
 
 
 if SCRIPT:
-    testFile = '{}/.tf/otype.tfx'.format(thisDeliver)
-    (good, work) = utils.mustRun(mqlzFile, '{}/.tf/otype.tfx'.format(thisDeliver), force=FORCE)
+    testFile = '{}/.tf/otype.tfx'.format(thisTf)
+    (good, work) = utils.mustRun(mqlzFile, '{}/.tf/otype.tfx'.format(thisTf), force=FORCE)
     if not good: stop(good=False)
     if not work: stop(good=True)
 
@@ -125,7 +113,7 @@ if SCRIPT:
 # We save the configs we need per source and version.
 # And we define a stripped down default version to start with.
 
-# In[5]:
+# In[8]:
 
 
 slotType = 'word'
@@ -217,7 +205,7 @@ oText = {
 # The next function selects the proper otext material, falling back on a default if nothing 
 # appropriate has been specified in `oText`.
 
-# In[6]:
+# In[9]:
 
 
 def getOtext():
@@ -255,7 +243,7 @@ def getOtext():
 #   * node features
 #   * edge features.
 
-# In[7]:
+# In[10]:
 
 
 objectTypes = dict()
@@ -269,21 +257,21 @@ nodeF = dict()
 # 
 # Check the source, utils.bunzip it if needed, empty the result directory.
 
-# In[8]:
+# In[16]:
 
 
 def prepare():
     global thisoText
 
-    if not os.path.exists(thisTemp):
-        os.makedirs(thisTemp)
+    if not os.path.exists(thisTempSource):
+        os.makedirs(thisTempSource)
 
     utils.caption(0, 'bunzipping {} ...'.format(mqlzFile))
     utils.bunzip(mqlzFile, mqlFile)
     utils.caption(0, 'Done')
 
-    if os.path.exists(thisSave): rmtree(thisSave)
-    os.makedirs(thisSave)
+    if os.path.exists(thisTempTf): rmtree(thisTempTf)
+    os.makedirs(thisTempTf)
 
     thisoText = getOtext()
 
@@ -295,7 +283,7 @@ def prepare():
 # Plough through the MQL file and grab all relevant information
 # and put it into the dedicated data structure.
 
-# In[13]:
+# In[12]:
 
 
 uniscan = re.compile(r'(?:\\x..)+')
@@ -457,7 +445,7 @@ def parseMql():
 # Transform the collected information in feature-like datastructures, and write it all
 # out to `.tf` files.
 
-# In[14]:
+# In[13]:
 
 
 def tfFromData():
@@ -564,7 +552,7 @@ def tfFromData():
 
     utils.caption(4, 'write data set to TF ...')
 
-    TF = Fabric(locations=thisSave, silent=True)
+    TF = Fabric(locations=thisTempTf, silent=True)
     TF.save(nodeFeatures=nodeFeatures, edgeFeatures=edgeFeatures, metaData=metaData)
 
 
@@ -599,12 +587,12 @@ def tfFromData():
 # At that point we have access to the full list of features.
 # We grab them and are going to load them all! 
 
-# In[15]:
+# In[22]:
 
 
 def compileTfData():
     utils.caption(4, 'Load and compile standard TF features')
-    TF = Fabric(locations=thisTf, modules=module)
+    TF = Fabric(locations=thisTf, modules=[''])
     api = TF.load('')
 
     utils.caption(4, 'Load and compile all other TF features')
@@ -622,37 +610,37 @@ def compileTfData():
 
 # # Run it!
 
-# In[16]:
+# In[17]:
 
 
 prepare()
 
 
-# In[17]:
+# In[18]:
 
 
 parseMql()
 
 
-# In[18]:
+# In[19]:
 
 
 tfFromData()
 
 
-# In[19]:
-
-
-utils.checkDiffs(thisSave, thisDeliver)
-
-
 # In[20]:
 
 
-utils.deliverDataset(thisSave, thisDeliver)
+utils.checkDiffs(thisTempTf, thisTf)
 
 
 # In[21]:
+
+
+utils.deliverDataset(thisTempTf, thisTf)
+
+
+# In[23]:
 
 
 compileTfData()

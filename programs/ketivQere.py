@@ -42,8 +42,7 @@ if 'SCRIPT' not in locals():
     SCRIPT = False
     FORCE = True
     CORE_NAME = 'bhsa'
-    VERSION= '2016'
-    CORE_MODULE ='core' 
+    VERSION= 'c'
 
 def stop(good=False):
     if SCRIPT: sys.exit(0 if good else 1)
@@ -57,17 +56,15 @@ def stop(good=False):
 # In[3]:
 
 
-module = CORE_MODULE
 repoBase = os.path.expanduser('~/github/etcbc')
 thisRepo = '{}/{}'.format(repoBase, CORE_NAME)
 
 thisSource = '{}/source/{}'.format(thisRepo, VERSION)
 
 thisTemp = '{}/_temp/{}'.format(thisRepo, VERSION)
-thisSave = '{}/{}'.format(thisTemp, module)
+thisTempTf = '{}/tf'.format(thisTemp)
 
 thisTf = '{}/tf/{}'.format(thisRepo, VERSION)
-thisDeliver = '{}/{}'.format(thisTf, module)
 
 
 # In[4]:
@@ -85,7 +82,7 @@ testFeature = 'qere_trailer'
 
 
 if SCRIPT:
-    (good, work) = utils.mustRun(None, '{}/.tf/{}.tfx'.format(thisDeliver, testFeature), force=FORCE)
+    (good, work) = utils.mustRun(None, '{}/.tf/{}.tfx'.format(thisTf, testFeature), force=FORCE)
     if not good: stop(good=False)
     if not work: stop(good=True)
 
@@ -99,7 +96,7 @@ if SCRIPT:
 #  
 # We do not do this for the older versions 4 and 4b.
 
-# In[7]:
+# In[6]:
 
 
 provenanceMetadata = dict(
@@ -140,7 +137,7 @@ else:
 
 
 utils.caption(4, 'Load the existing TF dataset')
-TF = Fabric(locations=thisTf, modules=module)
+TF = Fabric(locations=thisTf, modules=[''])
 api = TF.load('label g_word g_cons trailer_utf8')
 api.makeAvailableIn(globals())
 
@@ -236,14 +233,14 @@ for vnode in verseInfo:
 utils.caption(0, '\tParsed {} ketiv-qere annotations'.format(len(data)))
 
 
-# In[ ]:
+# In[11]:
 
 
 if not SCRIPT:
     print('\n'.join(repr(d) for d in data[0:10]))
 
 
-# In[11]:
+# In[12]:
 
 
 if notFound:
@@ -280,7 +277,7 @@ else:
 # 
 # We now collect the lexical information into the features for nodes of type `lex`.
 
-# In[12]:
+# In[13]:
 
 
 utils.caption(0, 'Prepare TF ketiv qere features')
@@ -304,7 +301,7 @@ nodeFeatures = dict(
 
 # We update the `otext` feature with new/changed formats
 
-# In[13]:
+# In[14]:
 
 
 utils.caption(0, 'Update the otext feature')
@@ -321,7 +318,7 @@ for f in nodeFeatures:
     metaData[f]['valueType'] = 'str'
 
 
-# In[14]:
+# In[15]:
 
 
 changedDataFeatures = set(nodeFeatures)
@@ -332,11 +329,11 @@ changedFeatures = changedDataFeatures | {'otext'}
 # Transform the collected information in feature-like datastructures, and write it all
 # out to `.tf` files.
 
-# In[15]:
+# In[16]:
 
 
 utils.caption(4, 'write new/changed features to TF ...')
-TF = Fabric(locations=thisSave, silent=True)
+TF = Fabric(locations=thisTempTf, silent=True)
 TF.save(nodeFeatures=nodeFeatures, edgeFeatures={}, metaData=metaData)
 
 
@@ -355,37 +352,37 @@ TF.save(nodeFeatures=nodeFeatures, edgeFeatures={}, metaData=metaData)
 # For each changed feature we show the first line where the new feature differs from the old one.
 # We ignore changes in the metadata, because the timestamp in the metadata will always change.
 
-# In[36]:
+# In[17]:
 
 
-utils.checkDiffs(thisSave, thisDeliver, only=changedFeatures)
+utils.checkDiffs(thisTempTf, thisTf, only=changedFeatures)
 
 
 # # Stage: Deliver 
 # 
 # Copy the new TF dataset from the temporary location where it has been created to its final destination.
 
-# In[17]:
+# In[18]:
 
 
-utils.deliverFeatures(thisSave, thisDeliver, changedFeatures)
+utils.deliverFeatures(thisTempTf, thisTf, changedFeatures)
 
 
 # # Stage: Compile TF
 # 
 # We load the new features, use the new format, check some values
 
-# In[18]:
+# In[19]:
 
 
 utils.caption(4, 'Load and compile the new TF features')
 
-TF = Fabric(locations=thisTf, modules=module)
+TF = Fabric(locations=thisTf, modules=[''])
 api = TF.load('g_word_utf8 g_word trailer_utf8 trailer {}'.format(' '.join(changedDataFeatures)))
 api.makeAvailableIn(globals())
 
 
-# In[32]:
+# In[20]:
 
 
 utils.caption(4, 'Basic tests')

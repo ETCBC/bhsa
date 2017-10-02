@@ -37,7 +37,7 @@
 # Lexemes are identified by the `lex` feature within a biblical language.
 # We will not identify lexemes across language.
 
-# In[3]:
+# In[1]:
 
 
 import os,sys,re,collections
@@ -50,7 +50,7 @@ from blang import bookLangs, bookNames
 # See [operation](https://github.com/ETCBC/pipeline/blob/master/README.md#operation) 
 # for how to run this script in the pipeline.
 
-# In[4]:
+# In[2]:
 
 
 if 'SCRIPT' not in locals():
@@ -58,7 +58,6 @@ if 'SCRIPT' not in locals():
     FORCE = True
     CORE_NAME = 'bhsa'
     VERSION= 'c'
-    CORE_MODULE ='core' 
 
 def stop(good=False):
     if SCRIPT: sys.exit(0 if good else 1)
@@ -69,21 +68,19 @@ def stop(good=False):
 # The conversion is executed in an environment of directories, so that sources, temp files and
 # results are in convenient places and do not have to be shifted around.
 
-# In[5]:
+# In[3]:
 
 
-module = CORE_MODULE
 repoBase = os.path.expanduser('~/github/etcbc')
 thisRepo = '{}/{}'.format(repoBase, CORE_NAME)
 
 thisTemp = '{}/_temp/{}'.format(thisRepo, VERSION)
-thisSave = '{}/{}'.format(thisTemp, module)
+thisTempTf = '{}/tf'.format(thisTemp)
 
 thisTf = '{}/tf/{}'.format(thisRepo, VERSION)
-thisDeliver = '{}/{}'.format(thisTf, module)
 
 
-# In[6]:
+# In[4]:
 
 
 newFeaturesStr = '''
@@ -100,11 +97,11 @@ newFeatures = newFeaturesStr.strip().split()
 # Check whether this conversion is needed in the first place.
 # Only when run as a script.
 
-# In[7]:
+# In[5]:
 
 
 if SCRIPT:
-    (good, work) = utils.mustRun(None, '{}/.tf/{}.tfx'.format(thisDeliver, newFeatures[0]), force=FORCE)
+    (good, work) = utils.mustRun(None, '{}/.tf/{}.tfx'.format(thisTf, newFeatures[0]), force=FORCE)
     if not good: stop(good=False)
     if not work: stop(good=True)
 
@@ -126,12 +123,12 @@ if SCRIPT:
 # 
 # We collect the statistics.
 
-# In[8]:
+# In[6]:
 
 
 utils.caption(4, 'Loading felevant features')
 
-TF = Fabric(locations=thisTf, modules=module)
+TF = Fabric(locations=thisTf, modules=[''])
 api = TF.load('language lex g_cons')
 api.makeAvailableIn(globals())
 
@@ -208,7 +205,7 @@ if hasLex:
 
 
 utils.caption(4, 'Write statistical features as TF')
-TF = Fabric(locations=thisSave, silent=True)
+TF = Fabric(locations=thisTempTf, silent=True)
 TF.save(nodeFeatures=nodeFeatures, edgeFeatures=edgeFeatures, metaData=metaData)
 
 
@@ -219,7 +216,7 @@ TF.save(nodeFeatures=nodeFeatures, edgeFeatures=edgeFeatures, metaData=metaData)
 # In[10]:
 
 
-utils.checkDiffs(thisSave, thisDeliver, only=set(newFeatures))
+utils.checkDiffs(thisTempTf, thisTf, only=set(newFeatures))
 
 
 # # Stage: Deliver 
@@ -229,7 +226,7 @@ utils.checkDiffs(thisSave, thisDeliver, only=set(newFeatures))
 # In[11]:
 
 
-utils.deliverFeatures(thisSave, thisDeliver, newFeatures)
+utils.deliverFeatures(thisTempTf, thisTf, newFeatures)
 
 
 # # Stage: Compile TF
@@ -239,14 +236,14 @@ utils.deliverFeatures(thisSave, thisDeliver, newFeatures)
 
 utils.caption(4, 'Load and compile the new TF features')
 
-TF = Fabric(locations=thisTf, modules=module)
+TF = Fabric(locations=thisTf, modules=[''])
 api = TF.load('lex '+newFeaturesStr)
 api.makeAvailableIn(globals())
 
 
 # # Stage: Test
 
-# In[20]:
+# In[13]:
 
 
 utils.caption(4, 'Basic test')

@@ -87,8 +87,7 @@ if 'SCRIPT' not in locals():
     SCRIPT = False
     FORCE = True
     CORE_NAME = 'bhsa'
-    VERSION= '4'
-    CORE_MODULE ='core' 
+    VERSION= 'c'
 
 def stop(good=False):
     if SCRIPT: sys.exit(0 if good else 1)
@@ -150,17 +149,16 @@ if not SCRIPT:
 # In[4]:
 
 
-module = CORE_MODULE
 repoBase = os.path.expanduser('~/github/etcbc')
 thisRepo = '{}/{}'.format(repoBase, CORE_NAME)
 
 thisSource = '{}/source/{}'.format(thisRepo, VERSION)
 
 thisTemp = '{}/_temp/{}'.format(thisRepo, VERSION)
-thisSave = '{}/{}'.format(thisTemp, module)
+thisTempSource = '{}/source'.format(thisTemp)
+thisTempTf = '{}/tf'.format(thisTemp)
 
 thisTf = '{}/tf/{}'.format(thisRepo, VERSION)
-thisDeliver = '{}/{}'.format(thisTf, module)
 
 
 # In[5]:
@@ -178,7 +176,7 @@ testFeature = 'lex0'
 
 
 if SCRIPT:
-    (good, work) = utils.mustRun(None, '{}/.tf/{}.tfx'.format(thisDeliver, testFeature), force=FORCE)
+    (good, work) = utils.mustRun(None, '{}/.tf/{}.tfx'.format(thisTf, testFeature), force=FORCE)
     if not good: stop(good=False)
     if not work: stop(good=True)
 
@@ -250,7 +248,7 @@ else:
 
 
 utils.caption(4, 'Load the existing TF dataset')
-TF = Fabric(locations=thisTf, modules=module)
+TF = Fabric(locations=thisTf, modules=[''])
 vocLex = ' g_voc_lex g_voc_lex_utf8 ' if thisVocalizedLexeme else ''
 api = TF.load('lex lex_utf8 language sp ls gn ps nu st oslots {} {}'.format(vocLex, thisExtraOverlap))
 api.makeAvailableIn(globals())
@@ -453,7 +451,7 @@ for (myset, mymsg) in (
 # 
 # Supposing it is all consistent, we will call the new lexeme features `voc_lex` and `voc_lex_utf8`.
 
-# In[13]:
+# In[12]:
 
 
 utils.caption(4, 'Test - Consistency of vocalized lexeme')
@@ -514,7 +512,7 @@ else:
 # 
 # We now collect the lexical information into the features for nodes of type `lex`.
 
-# In[15]:
+# In[13]:
 
 
 utils.caption(4, 'Prepare TF lexical features')
@@ -556,7 +554,7 @@ for (lan, lexemes) in lexEntries.items():
 
 # We address the issues listed under varia above.
 
-# In[16]:
+# In[14]:
 
 
 utils.caption(4, 'Various tweaks in features')
@@ -577,7 +575,7 @@ for n in F.otype.s('word'):
 
 # We update the `otype`, `otext` and `oslots` features.
 
-# In[17]:
+# In[15]:
 
 
 utils.caption(4, 'Update the otype, oslots and otext features')
@@ -601,7 +599,7 @@ edgeFeatures['oslots'] = dict((n, E.oslots.s(n)) for n in range(maxSlot + 1, max
 edgeFeatures['oslots'].update(oslotsData)
 
 
-# In[18]:
+# In[16]:
 
 
 utils.caption(0, 'Features that have new or modified data')
@@ -617,7 +615,7 @@ if thisVocalizedLexeme:
 
 # We specify the features to delete and list the new/changed features.
 
-# In[20]:
+# In[17]:
 
 
 deleteFeatures = set('''
@@ -633,7 +631,7 @@ else:
     utils.caption(0, '\tNo features to remove')
 
 
-# In[21]:
+# In[18]:
 
 
 changedDataFeatures = set(nodeFeatures) | set(edgeFeatures)
@@ -644,11 +642,11 @@ changedFeatures = changedDataFeatures | {'otext'}
 # Transform the collected information in feature-like datastructures, and write it all
 # out to `.tf` files.
 
-# In[22]:
+# In[19]:
 
 
 utils.caption(4, 'write new/changed features to TF ...')
-TF = Fabric(locations=thisSave, silent=True)
+TF = Fabric(locations=thisTempTf, silent=True)
 TF.save(nodeFeatures=nodeFeatures, edgeFeatures=edgeFeatures, metaData=metaData)
 
 
@@ -667,37 +665,37 @@ TF.save(nodeFeatures=nodeFeatures, edgeFeatures=edgeFeatures, metaData=metaData)
 # For each changed feature we show the first line where the new feature differs from the old one.
 # We ignore changes in the metadata, because the timestamp in the metadata will always change.
 
-# In[23]:
+# In[20]:
 
 
-utils.checkDiffs(thisSave, thisDeliver, only=changedFeatures)
+utils.checkDiffs(thisTempTf, thisTf, only=changedFeatures)
 
 
 # # Stage: Deliver 
 # 
 # Copy the new TF dataset from the temporary location where it has been created to its final destination.
 
-# In[24]:
+# In[21]:
 
 
-utils.deliverFeatures(thisSave, thisDeliver, changedFeatures, deleteFeatures=deleteFeatures)
+utils.deliverFeatures(thisTempTf, thisTf, changedFeatures, deleteFeatures=deleteFeatures)
 
 
 # # Stage: Compile TF
 # 
 # We load the new features, use the new format, check some values
 
-# In[25]:
+# In[22]:
 
 
 utils.caption(4, 'Load and compile the new TF features')
 
-TF = Fabric(locations=thisTf, modules=module)
+TF = Fabric(locations=thisTf, modules=[''])
 api = TF.load(' '.join(changedDataFeatures))
 api.makeAvailableIn(globals())
 
 
-# In[26]:
+# In[23]:
 
 
 features = [f[1] for f in lexFields] + (['voc_lex', 'voc_lex_utf8'] if thisVocalizedLexeme else [])
