@@ -70,10 +70,10 @@ fmiddle:
       url: https://github.com/ETCBC/pipeline
       desc: how this data ends up here
     - name: tutorial
-      url: https://github.com/etcbc/text-fabric/blob/master/docs/tutorial.ipynb
+      url: https://github.com/Dans-labs/text-fabric/blob/master/docs/tutorial.ipynb
       desc: IPython notebook with Hebrew examples
     - name: tutorial (search)
-      url: https://github.com/etcbc/text-fabric/blob/master/docs/searchTutorial.ipynb
+      url: https://github.com/Dans-labs/text-fabric/blob/master/docs/searchTutorial.ipynb
       desc: IPython notebook with Greek examples
 
 fright:

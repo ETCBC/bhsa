@@ -133,4 +133,4 @@ The *otype* feature has the same values as the possible names of the MQL blocks.
 ##### Hint
 > In Text-Fabric we have developed a new way of querying.
 Read more in
-[searchTutorial](/etcbc/text-fabric/blob/master/docs/searchTutorial.ipynb).
+[searchTutorial](/Dans-labs/text-fabric/blob/master/docs/searchTutorial.ipynb).

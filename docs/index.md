@@ -8,7 +8,7 @@ type: pages
 ## Biblia Hebraica Stuttgartensia (Amstelodamensis)
 
 This is the
-[text-fabric](https://github.com/ETCBC/text-fabric/wiki)
+[text-fabric](https://github.com/Dans-labs/text-fabric/wiki)
 version of the Hebrew Bible Database,
 containing the text of the Hebrew Bible augmented with linguistic annotations compiled by the
 [Eep Talstra Centre for Bible and Computer](http://www.godgeleerdheid.vu.nl/en/research/institutes-and-centres/eep-talstra-centre-for-bible-and-computer/index.aspx), VU University Amsterdam.
@@ -91,7 +91,7 @@ This data can be processed by
 [Text-Fabric](https://github.com/ETCBC/text-fabric/wiki).
 
 See also 
-[tutorial (Hebrew)](https://github.com/etcbc/text-fabric/blob/master/docs/tutorial.ipynb)
+[tutorial (Hebrew)](https://github.com/Dans-labs/text-fabric/blob/master/docs/tutorial.ipynb)
 and
-[tutorial (search)](https://github.com/etcbc/text-fabric/blob/master/docs/searchTutorial.ipynb).
+[tutorial (search)](https://github.com/Dans-labs/text-fabric/blob/master/docs/searchTutorial.ipynb).
 
