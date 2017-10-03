@@ -7,7 +7,7 @@
 @valueType=str
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-02T09:56:30Z
+@dateWritten=2017-10-03T05:38:56Z
 
 NA
 NA

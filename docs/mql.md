@@ -5,7 +5,7 @@ feat: false
 
 # Text-Fabric versus SHEBANQ
 
-The [ETCBC](http://www.godgeleerdheid.vu.nl/en/index.asp) provides two tools to work with its dataset of linguistic annotations
+The [ETCBC](http://etcbc.nl) provides two tools to work with its dataset of linguistic annotations
 to the Hebrew Bible.
 
 One is [SHEBANQ](https://shebanq.ancient-data.org) which provides a human readable view on the data on the basis of which researchers
@@ -18,11 +18,11 @@ Nevertheless, SHEBANQ falls short for those researchers that want to perform sta
 These researchers need to preprocess the data in ways that an application author cannot anticipate.
 
 The good news is the existence of the other tool,
-[Text-Fabric](https://github.com/ETCBC/text-fabric/wiki).
+[Text-Fabric](https://github.com/Dans-labs/text-fabric/wiki).
 This is an **offline** tool based on exactly the same data that powers SHEBANQ.
 The programming researcher can use Text-Fabric as a preprocessing tool for transforming the complex BHSA data into the formats that are suitable to
 R, spreadsheets, or any format of choice.
-Text-Fabric is open source, downloadable from [github](https://github.com/ETCBC/text-fabric),
+Text-Fabric is open source, downloadable from [github](https://github.com/Dans-labs/text-fabric),
 and the data is downloadable from [bhsa](https://github.com/ETCBC/bhsa).
 
 It can be installed on Mac OSX, Windows and Linux.
@@ -33,8 +33,8 @@ The recommended mode of working with the data is: programming in Python within a
 Text-Fabric is ideal if you interested in a certain phenomenon and you want to gather data about that phenomenon.
 Take for example the following notebook:
 
-* [tutorial](https://github.com/ETCBC/text-fabric/blob/master/docs/tutorial.ipynb)
-* [search tutorial](https://github.com/ETCBC/text-fabric/blob/master/docs/searchTutorial.ipynb)
+* [tutorial](https://github.com/Dans-labs/text-fabric/blob/master/docs/tutorial.ipynb)
+* [search tutorial](https://github.com/Dans-labs/text-fabric/blob/master/docs/searchTutorial.ipynb)
 
 This points to an explorative way of researching syntactical patterns, without knowing in advance how exactly
 the data is organized.
@@ -48,7 +48,7 @@ In Text-Fabric we have *search templates*, that can do similar things as MQL que
 TF-search and MQL-queries have different strengths and weaknesses.
 See the examples in 
 
-* [search vs MQL](https://github.com/ETCBC/text-fabric/blob/master/docs/searchFromMQL.ipynb)
+* [search vs MQL](https://github.com/Dans-labs/text-fabric/blob/master/docs/searchFromMQL.ipynb)
 
 where we translate a number of MQL queries that are shared by SHEBANQ into Text-Fabric search templates.
 

@@ -11,7 +11,7 @@ This is the
 [text-fabric](https://github.com/Dans-labs/text-fabric/wiki)
 version of the Hebrew Bible Database,
 containing the text of the Hebrew Bible augmented with linguistic annotations compiled by the
-[Eep Talstra Centre for Bible and Computer](http://www.godgeleerdheid.vu.nl/en/research/institutes-and-centres/eep-talstra-centre-for-bible-and-computer/index.aspx), VU University Amsterdam.
+[Eep Talstra Centre for Bible and Computer](http://etcbc.nl), VU University Amsterdam.
 
 The text is based on the
 [Bibila Hebraica Stuttgartensia](https://www.academic-bible.com/en/online-bibles/biblia-hebraica-stuttgartensia-bhs/read-the-bible-text/)
@@ -19,7 +19,7 @@ edited by Karl Elliger and Wilhelm Rudolph,
 Fifth Revised Edition, edited by Adrian Schenker,
 © 1977 and 1997 Deutsche Bibelgesellschaft, Stuttgart.
 
-The [text-fabric](https://github.com/ETCBC/text-fabric/wiki) version has been prepared
+The [text-fabric](https://github.com/Dans-labs/text-fabric/wiki) version has been prepared
 by Dirk Roorda [Data Archiving and Networked Services](https://dans.knaw.nl/en/front-page?set_language=en),
 with thanks to
 Martijn Naaijer,
@@ -88,7 +88,7 @@ That means:
 # How to use
 
 This data can be processed by 
-[Text-Fabric](https://github.com/ETCBC/text-fabric/wiki).
+[Text-Fabric](https://github.com/Dans-labs/text-fabric/wiki).
 
 See also 
 [tutorial (Hebrew)](https://github.com/Dans-labs/text-fabric/blob/master/docs/tutorial.ipynb)

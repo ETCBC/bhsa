@@ -7,7 +7,7 @@
 @valueType=str
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-02T09:55:45Z
+@dateWritten=2017-10-03T05:38:09Z
 
 426582	Genesis
 Exodus

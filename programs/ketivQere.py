@@ -325,7 +325,7 @@ changedDataFeatures = set(nodeFeatures)
 changedFeatures = changedDataFeatures | {'otext'}
 
 
-# # Stage: TF generation
+# # Write new features
 # Transform the collected information in feature-like datastructures, and write it all
 # out to `.tf` files.
 
@@ -337,7 +337,7 @@ TF = Fabric(locations=thisTempTf, silent=True)
 TF.save(nodeFeatures=nodeFeatures, edgeFeatures={}, metaData=metaData)
 
 
-# # Stage: Diffs
+# # Diffs
 # 
 # Check differences with previous versions.
 # 
@@ -358,7 +358,7 @@ TF.save(nodeFeatures=nodeFeatures, edgeFeatures={}, metaData=metaData)
 utils.checkDiffs(thisTempTf, thisTf, only=changedFeatures)
 
 
-# # Stage: Deliver 
+# # Deliver 
 # 
 # Copy the new TF dataset from the temporary location where it has been created to its final destination.
 
@@ -368,7 +368,7 @@ utils.checkDiffs(thisTempTf, thisTf, only=changedFeatures)
 utils.deliverFeatures(thisTempTf, thisTf, changedFeatures)
 
 
-# # Stage: Compile TF
+# # Compile TF
 # 
 # We load the new features, use the new format, check some values
 
@@ -381,6 +381,8 @@ TF = Fabric(locations=thisTf, modules=[''])
 api = TF.load('g_word_utf8 g_word trailer_utf8 trailer {}'.format(' '.join(changedDataFeatures)))
 api.makeAvailableIn(globals())
 
+
+# # Examples
 
 # In[20]:
 

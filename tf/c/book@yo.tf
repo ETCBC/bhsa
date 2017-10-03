@@ -4,7 +4,7 @@
 @languageEnglish=yoruba
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-02T10:13:14Z
+@dateWritten=2017-10-03T05:42:37Z
 
 426582	Genesisi
 Eksodu

@@ -238,17 +238,17 @@ for f in nodeFeatures:
     metaData[f]['valueType'] = 'str'
 
 
-# In[14]:
+# In[12]:
 
 
 changedFeatures = set(nodeFeatures)
 
 
-# # Stage: TF generation
+# # Write new features
 # Transform the collected information in feature-like datastructures, and write it all
 # out to `.tf` files.
 
-# In[12]:
+# In[13]:
 
 
 utils.caption(4, 'write new/changed features to TF ...')
@@ -256,7 +256,7 @@ TF = Fabric(locations=thisTempTf, silent=True)
 TF.save(nodeFeatures=nodeFeatures, edgeFeatures={}, metaData=metaData)
 
 
-# # Stage: Diffs
+# # Diffs
 # 
 # Check differences with previous versions.
 # 
@@ -271,27 +271,27 @@ TF.save(nodeFeatures=nodeFeatures, edgeFeatures={}, metaData=metaData)
 # For each changed feature we show the first line where the new feature differs from the old one.
 # We ignore changes in the metadata, because the timestamp in the metadata will always change.
 
-# In[15]:
+# In[14]:
 
 
 utils.checkDiffs(thisTempTf, thisTf, only=changedFeatures)
 
 
-# # Stage: Deliver 
+# # Deliver 
 # 
 # Copy the new TF dataset from the temporary location where it has been created to its final destination.
 
-# In[16]:
+# In[15]:
 
 
 utils.deliverFeatures(thisTempTf, thisTf, changedFeatures)
 
 
-# # Stage: Compile TF
+# # Compile TF
 # 
 # We load the new features, use the new format, check some values
 
-# In[17]:
+# In[16]:
 
 
 utils.caption(4, 'Load and compile the new TF features')
@@ -301,7 +301,9 @@ api = TF.load(' '.join(changedFeatures))
 api.makeAvailableIn(globals())
 
 
-# In[18]:
+# # Examples
+
+# In[17]:
 
 
 utils.caption(4, 'Test: paragraphs of the first verses')

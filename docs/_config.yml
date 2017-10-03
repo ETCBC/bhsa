@@ -37,22 +37,22 @@ fleft:
       email: m.naaijer@vu.nl
       hide: false
       institute: ETCBC
-      url: http://www.godgeleerdheid.vu.nl/en/research/institutes-and-centres/eep-talstra-centre-for-bible-and-computer/index.aspx
+      url: http://etcbc.nl
     - name: Christiaan Erwich
       email: c.m.erwich@vu.nl
       hide: false
       institute: ETCBC
-      url: http://www.godgeleerdheid.vu.nl/en/research/institutes-and-centres/eep-talstra-centre-for-bible-and-computer/index.aspx
+      url: http://etcbc.nl
     - name: Cody Kingham
       email: c.a.kingham@student.vu.nl
       hide: false
       institute: ETCBC
-      url: http://www.godgeleerdheid.vu.nl/en/research/institutes-and-centres/eep-talstra-centre-for-bible-and-computer/index.aspx
+      url: http://etcbc.nl
     - name: Marianne Kaajan
       email: m.e.kaajan@vu.nl
       hide: false
       institute: ETCBC
-      url: http://www.godgeleerdheid.vu.nl/en/research/institutes-and-centres/eep-talstra-centre-for-bible-and-computer/index.aspx
+      url: http://etcbc.nl
     - name: Dirk Roorda
       email: shebanq@ancient-data.org
       hide: false
@@ -61,10 +61,10 @@ fleft:
 
 fmiddle:
     - name: text-fabric wiki
-      url: https://github.com/ETCBC/text-fabric/wiki
+      url: https://github.com/Dans-labs/text-fabric/wiki
       desc: Design, data model and API of Text-Fabric
     - name: text-fabric
-      url: https://github.com/ETCBC/text-fabric
+      url: https://github.com/Dans-labs/text-fabric
       desc: Python module for processing text fabrics
     - name: pipeline
       url: https://github.com/ETCBC/pipeline

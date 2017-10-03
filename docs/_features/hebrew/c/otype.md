@@ -6,7 +6,7 @@ title: otype
 
 Types for text objects.
 As text objects are represented by nodes in
-[Text-Fabric](https://github.com/ETCBC/text-fabric/wiki),
+[Text-Fabric](https://github.com/Dans-labs/text-fabric/wiki),
 we shall use both *object* and *node* without much consistency.  
 
 ---|---|---
@@ -95,7 +95,7 @@ It does not fit into the hierarchy, because these objects will very rarely lie e
 Except if a lexeme is rare.
 
 ##### Hint
-> Have a look at the [tutorial](https://github.com/ETCBC/text-fabric/blob/master/docs/tutorial.ipynb)
+> Have a look at the [tutorial](https://github.com/Dans-labs/text-fabric/blob/master/docs/tutorial.ipynb)
 so see how you could exploit this object type to find
 lexemes that are unique to books or chapters very easily.
 

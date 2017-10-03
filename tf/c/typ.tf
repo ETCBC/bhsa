@@ -7,7 +7,7 @@
 @valueType=str
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-02T09:56:25Z
+@dateWritten=2017-10-03T05:38:52Z
 
 427550	xQtX
 WXQt
