@@ -77,6 +77,7 @@ In order to get inter-word material, use
 Word occurrences corresponds to lexemes, i.e. dictionary entries, for which we have a separate object type.
 For the textual representation of lexemes we have a variety of features, in order to get their 
 consonantal values:
+
 ---|---
 [lex](lex) | transcription
 [lex0](lex0) | transcription without disambiguation characters at the end
