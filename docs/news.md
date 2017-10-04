@@ -37,7 +37,7 @@ Added Strong numbers to Hebrew Data
 
 ### 2016-12-17
 
-Added the *paragraph* features `pargr` and `instruction` to the etcbc4c dataset.
+Added the *paragraph* features `pargr` and `instruction` to the etcbc 4c dataset.
 They were present in the etcbc4b version and on SHEBANQ, but I had left them out
 for reasons of time pressure.
 Now they are back in.
@@ -51,7 +51,7 @@ In order to use them, you have to update your data, which is as simple as
 
 ### 2016-12-13
 
-* Adapted the contents of the feature documentation to the new etcbc4c data.
+* Adapted the contents of the feature documentation to the new etcbc 4c data.
 * Added sidebar
 * Better layout
 
