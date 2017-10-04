@@ -27,6 +27,20 @@ defaults:
 
 email: 
 
+org_url: https://github.com/ETCBC
+
+data_repos:
+  - name: bhsa
+    line: Biblia Hebraica Stuttgartensia Amstelodamensis core data
+  - name: parallels
+    line: Parallel passages - cross references between verses
+  - name: valence
+    line: Verbal valence - sense descriptions for verbs depending on their context
+  - name: phono
+    line: Phonetic transcription of the Hebrew text
+  - name: pipeline
+    line: Data pipeline to make manage versions of all related data and transfer them to SHEBANQ
+
 fleft:
     - name: Wido van Peursen
       email: w.t.van.peursen@vu.nl
@@ -53,28 +67,23 @@ fleft:
       hide: false
       institute: ETCBC
       url: http://etcbc.nl
-    - name: Dirk Roorda
-      email: shebanq@ancient-data.org
-      hide: false
-      institute: DANS
-      url: https://dans.knaw.nl/nl
 
 fmiddle:
-    - name: text-fabric wiki
-      url: https://github.com/Dans-labs/text-fabric/wiki
-      desc: Design, data model and API of Text-Fabric
     - name: text-fabric
       url: https://github.com/Dans-labs/text-fabric
       desc: Python module for processing text fabrics
-    - name: pipeline
-      url: https://github.com/ETCBC/pipeline
-      desc: how this data ends up here
+    - name: wiki
+      url: https://github.com/Dans-labs/text-fabric/wiki
+      desc: Design, data model and API of Text-Fabric
     - name: tutorial
       url: https://github.com/Dans-labs/text-fabric/blob/master/docs/tutorial.ipynb
       desc: IPython notebook with Hebrew examples
     - name: tutorial (search)
       url: https://github.com/Dans-labs/text-fabric/blob/master/docs/searchTutorial.ipynb
       desc: IPython notebook with Greek examples
+    - name: Dirk Roorda (DANS)
+      desc: creator of text-fabric and the pipeline
+      url: https://dans.knaw.nl/en/about/organisation-and-policy/staff/roorda
 
 fright:
     - name: SHEBANQ website

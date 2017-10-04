@@ -2,7 +2,15 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    <h2 class="footer-heading">Data repositories:
+        {% for item in site.data_repos %}
+            <a
+                target="_blank"
+                title="{{ item.title }}"
+                href='{{ site.org_url | append:"/"" | append:item.name }}'
+            >{{ item.name }}</a>
+        {% endfor %}
+    </h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
