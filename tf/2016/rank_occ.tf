@@ -1,7 +1,15 @@
 @node
+@author=Eep Talstra Centre for Bible and Computer
+@dataset=BHSA
+@datasetName=Biblia Hebraica Stuttgartensia Amstelodamensis
+@email=shebanq@ancient-data.org
+@encoders=Dirk Roorda (TF)
+@provenance=computed addition to core set of features
 @valueType=int
+@version=2016
+@website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-09-30T15:13:15Z
+@dateWritten=2017-10-05T11:46:47Z
 
 3
 868

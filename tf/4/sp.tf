@@ -5,9 +5,10 @@
 @email=shebanq@ancient-data.org
 @encoders=Constantijn Sikkel (QDF), and Dirk Roorda (TF)
 @valueType=str
+@version=4
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-09-29T20:16:22Z
+@dateWritten=2017-10-05T11:21:42Z
 
 prep
 subs

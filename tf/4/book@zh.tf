@@ -3,14 +3,16 @@
 @dataset=BHSA
 @datasetName=Biblia Hebraica Stuttgartensia Amstelodamensis
 @email=shebanq@ancient-data.org
-@encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)
+@encoders=Dirk Roorda (TF)
 @language=中文
 @languageCode=zh
 @languageEnglish=chinese
+@provenance=book names from wikipedia and other sources
 @valueType=str
+@version=4
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-09-29T20:07:12Z
+@dateWritten=2017-10-05T11:20:58Z
 
 426556	创世记
 出埃及记

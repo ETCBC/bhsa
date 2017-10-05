@@ -3,14 +3,16 @@
 @dataset=BHSA
 @datasetName=Biblia Hebraica Stuttgartensia Amstelodamensis
 @email=shebanq@ancient-data.org
-@encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)
+@encoders=Dirk Roorda (TF)
 @language=Deutsch
 @languageCode=de
 @languageEnglish=german
+@provenance=book names from wikipedia and other sources
 @valueType=str
+@version=2016
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-09-30T15:06:30Z
+@dateWritten=2017-10-05T11:43:56Z
 
 426582	Genesis
 Exodus

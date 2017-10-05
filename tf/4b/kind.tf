@@ -5,9 +5,10 @@
 @email=shebanq@ancient-data.org
 @encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)
 @valueType=str
+@version=4b
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-09-29T18:34:17Z
+@dateWritten=2017-10-05T11:28:52Z
 
 427537	VC
 VC

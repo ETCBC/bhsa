@@ -5,9 +5,10 @@
 @email=shebanq@ancient-data.org
 @encoders=Constantijn Sikkel (QDF), and Dirk Roorda (TF)
 @valueType=str
+@version=2016
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-09-30T15:11:00Z
+@dateWritten=2017-10-05T11:44:31Z
 
 1436896	R>C
 1436901	CMH

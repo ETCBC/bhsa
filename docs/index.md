@@ -28,26 +28,31 @@ and Constantijn Sikkel.
 
 ## Provenance
 The source data resides on a server of the ETCBC, managed by Constantijn Sikkel.
-He makes that data available as an [MQL](https://emdros.org/mql.html) database dump, `bhs4.mql`,
+He makes that data available as an [MQL](https://emdros.org/mql.html) database dump,
 together with supplementary data files.
 From there it is transported to this Github repo by means of a [pipeline](https://github.com/ETCBC/pipeline).
 
-This dataset contains versions of the BHSA.
+This dataset contains several versions of the BHSA, from 2011 till now.
 When you navigate to a version, you'll see more information about that version and its provenance.
 
-
-For versions **c** and **2016** the
+For all versions the
 [pipeline](https://github.com/ETCBC/pipeline)
 has been followed.
-These versions have not be enriched with data coming from research repos.
-Instead, additional data from research repos can easily downloaded
-from github and be processed alongside the core data.
+For the newer versions, starting with `2016`, additional data is available in other repositories.
+**See the footer of this page**.
+
+In text-fabric it is easy to load the features of several datasets in one session.
+See the
+[Fabric(locations=locations, modules=modules)](https://github.com/Dans-labs/text-fabric/wiki/Api#importing-and-calling-text-fabric)
+command.
 
 ## Workflow
 The pipeline above is complicated and not free of
 [cruft](https://en.wikipedia.org/wiki/Cruft).
 It would be better if the ETCBC could deliver its core data directly in text-fabric format,
 with inclusion of the lexical features, the ketiv-qere data and the paragraph numbers.
+But at least all the fine distinctions that need to be made between versions have been diagnosed and dealt with
+in this pipeline.
 
 ## Reproducible science
 We intend to follow a practice that allows for data updates on the one hand, and reproduction of old
@@ -65,7 +70,11 @@ to SHEBANQ.
 Fixed versions in SHEBANQ will remain there forever, and publishing queries and annotations against fixed
 versions will remain supported.
 
-In particular, versions `4` and `4b` are here to stay, since they have published queries based on them.
+In particular, versions `3`, `4` and `4b` are here to stay.
+Version `3` because it is relatively old, and represents an earlier stage in the
+feature organization of this database.
+Versions `4` and `4b` because queries have been published that are based on them.
+
 These versions are also firmly entrenched in the academic record, by virtue of being archived.
 
 ## License

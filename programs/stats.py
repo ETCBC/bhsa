@@ -17,12 +17,13 @@
 # 
 # We assume that the dataset has these features present:
 # 
-# * `language` for determining if the word is Hebrew or Aramaic 
-# * `g_cons` to get the word string in consonantal transcription
-# * `lex` to get the lexical identifier in consonantal transcription
+# * LANG_FEATURE (typically `language`) for determining if the word is Hebrew or Aramaic 
+# * OCC_FEATURE (typically `g_cons`) to get the word string in consonantal transcription
+# * LEX_FEATURE (typically `lex`) to get the lexical identifier in consonantal transcription
 # 
 # This program works for all datasets and versions that have these features with the
-# intended meanings.
+# intended meanings. The exact names of these features can be passed as parameters.
+# Note that the old version `3` uses very different names for many features.
 # 
 # #### Languages
 # We will not identify lexemes and word occurrences across language.
@@ -57,6 +58,9 @@ if 'SCRIPT' not in locals():
     FORCE = True
     CORE_NAME = 'bhsa'
     VERSION= 'c'
+    LANG_FEATURE = 'language'
+    OCC_FEATURE = 'g_cons'
+    LEX_FEATURE = 'lex'
 
 def stop(good=False):
     if SCRIPT: sys.exit(0 if good else 1)
@@ -115,7 +119,7 @@ if SCRIPT:
 utils.caption(4, 'Loading relevant features')
 
 TF = Fabric(locations=thisTf, modules=[''])
-api = TF.load('language lex g_cons')
+api = TF.load('{} {} {}'.format(LANG_FEATURE, LEX_FEATURE, OCC_FEATURE))
 api.makeAvailableIn(globals())
 
 hasLex = 'lex' in set(F.otype.all)
@@ -138,9 +142,9 @@ wstats = {
 langs = set()
 
 for w in F.otype.s('word'):
-    occ = F.g_cons.v(w)
-    lex = F.lex.v(w)
-    lan = F.language.v(w)
+    occ = Fs(OCC_FEATURE).v(w)
+    lex = Fs(LEX_FEATURE).v(w)
+    lan = Fs(LANG_FEATURE).v(w)
     wstats['freqs']['lex'][lan][lex] += 1
     wstats['freqs']['occ'][lan][occ] += 1
     langs.add(lan)
@@ -163,7 +167,19 @@ for lan in langs:
 
 
 utils.caption(0, 'Making statistical features')
-metaData={}
+metaData={
+    '': dict(
+            dataset='BHSA',
+            version=VERSION,
+            datasetName='Biblia Hebraica Stuttgartensia Amstelodamensis',
+            author='Eep Talstra Centre for Bible and Computer',
+            provenance='computed addition to core set of features',
+            encoders='Dirk Roorda (TF)',
+            website='https://shebanq.ancient-data.org',
+            email='shebanq@ancient-data.org',
+        ),
+}
+
 nodeFeatures = {}
 edgeFeatures = {}
 
@@ -172,9 +188,9 @@ for ft in (newFeatures):
     metaData.setdefault(ft, {})['valueType'] = 'int'
 
 for w in F.otype.s('word'):
-    lan = F.language.v(w)
-    occ = F.g_cons.v(w)
-    lex = F.lex.v(w)
+    lan = Fs(LANG_FEATURE).v(w)
+    occ = Fs(OCC_FEATURE).v(w)
+    lex = Fs(LEX_FEATURE).v(w)
     nodeFeatures['freq_occ'][w] = str(wstats['freqs']['occ'][lan][occ])
     nodeFeatures['rank_occ'][w] = str(wstats['ranks']['occ'][lan][occ])
     nodeFeatures['freq_lex'][w] = str(wstats['freqs']['lex'][lan][lex])
@@ -223,7 +239,7 @@ utils.deliverFeatures(thisTempTf, thisTf, newFeatures)
 utils.caption(4, 'Load and compile the new TF features')
 
 TF = Fabric(locations=thisTf, modules=[''])
-api = TF.load('lex '+newFeaturesStr)
+api = TF.load('{} {}'.format(LEX_FEATURE, newFeaturesStr))
 api.makeAvailableIn(globals())
 
 
@@ -242,7 +258,7 @@ lexIndex = {}
 
 utils.caption(0, 'Top {} freqent lexemes (computed on otype=word)'.format(topX))
 for w in sorted(F.otype.s('word'), key=lambda w: -F.freq_lex.v(w)):
-    lex = F.lex.v(w)
+    lex = Fs(LEX_FEATURE).v(w)
     mostFrequent.add(lex)
     lexIndex[lex] = w
     if len(mostFrequent) == topX: break

@@ -5,9 +5,10 @@
 @email=shebanq@ancient-data.org
 @encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)
 @valueType=str
+@version=4
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-09-29T20:07:37Z
+@dateWritten=2017-10-05T11:17:24Z
 
 1417932	 GEN 01,01
  GEN 01,02

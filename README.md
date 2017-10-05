@@ -5,9 +5,18 @@
 
 This is the
 [text-fabric](https://github.com/Dans-labs/text-fabric/wiki)
-version of the Hebrew Bible Database,
+representation of the Hebrew Bible Database,
 containing the text of the Hebrew Bible augmented with linguistic annotations compiled by the
 [Eep Talstra Centre for Bible and Computer](http://etcbc.nl), VU University Amsterdam.
+
+This repository contains several versions of the dataset, going back to 2011.
+It is meant to accumulate new versions over the years, and have one continuous version,
+a version that we deliberately update with a high frequency.
+
+So this repository addresses the need for permanency as well as the urge for change.
+
+More information, especially about the data versions and annotation features, can be found on the
+[data documentation pages](https://etcbc.github.io/bhsa/).
 
 ## License
 
@@ -37,7 +46,4 @@ See also
 [tutorial (Hebrew)](https://github.com/Dans-labs/text-fabric/blob/master/docs/tutorial.ipynb)
 and
 [tutorial (search)](https://github.com/Dans-labs/text-fabric/blob/master/docs/searchTutorial.ipynb).
-
-More information, especially about the data features, can be found on the
-[data documentation pages](https://etcbc.github.io/bhsa/).
 

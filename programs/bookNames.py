@@ -78,7 +78,18 @@ thisTf = '{}/tf/{}'.format(thisRepo, VERSION)
 
 utils.caption(4, 'Book names')
 
-metaData = {}
+metaData={
+    '': dict(
+            dataset='BHSA',
+            version=VERSION,
+            datasetName='Biblia Hebraica Stuttgartensia Amstelodamensis',
+            author='Eep Talstra Centre for Bible and Computer',
+            provenance='book names from wikipedia and other sources',
+            encoders='Dirk Roorda (TF)',
+            website='https://shebanq.ancient-data.org',
+            email='shebanq@ancient-data.org',
+        ),
+}
 
 for (langCode, (langEnglish, langName)) in bookLangs.items():
     metaData['book@{}'.format(langCode)] = {
@@ -88,7 +99,7 @@ for (langCode, (langEnglish, langName)) in bookLangs.items():
         'languageEnglish': langEnglish,
     }
 
-newFeatures = sorted(metaData)
+newFeatures = sorted(m for m in metaData if m != '')
 newFeaturesStr = ' '.join(newFeatures)
 
 utils.caption(0, '{} languages ...'.format(len(newFeatures)))

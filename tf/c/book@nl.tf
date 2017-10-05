@@ -1,10 +1,18 @@
 @node
+@author=Eep Talstra Centre for Bible and Computer
+@dataset=BHSA
+@datasetName=Biblia Hebraica Stuttgartensia Amstelodamensis
+@email=shebanq@ancient-data.org
+@encoders=Dirk Roorda (TF)
 @language=Nederlands
 @languageCode=nl
 @languageEnglish=dutch
+@provenance=book names from wikipedia and other sources
 @valueType=str
+@version=c
+@website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-03T05:42:37Z
+@dateWritten=2017-10-05T11:57:40Z
 
 426582	Genesis
 Exodus

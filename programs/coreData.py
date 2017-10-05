@@ -35,7 +35,7 @@
 # ```sudo -H pip3 install --upgrade text-fabric
 # ```
 
-# In[8]:
+# In[1]:
 
 
 import os,sys,re,collections
@@ -48,14 +48,14 @@ import utils
 # See [operation](https://github.com/ETCBC/pipeline/blob/master/README.md#operation) 
 # for how to run this script in the pipeline.
 
-# In[9]:
+# In[2]:
 
 
 if 'SCRIPT' not in locals():
     SCRIPT = False
     FORCE = True
     CORE_NAME = 'bhsa'
-    VERSION = 'c'
+    VERSION = '3'
 
 def stop(good=False):
     if SCRIPT: sys.exit(0 if good else 1)
@@ -66,7 +66,7 @@ def stop(good=False):
 # The conversion is executed in an environment of directories, so that sources, temp files and
 # results are in convenient places and do not have to be shifted around.
 
-# In[10]:
+# In[3]:
 
 
 repoBase = os.path.expanduser('~/github/etcbc')
@@ -88,7 +88,7 @@ thisTf = '{}/tf/{}'.format(thisRepo, VERSION)
 # Check whether this conversion is needed in the first place.
 # Only when run as a script.
 
-# In[11]:
+# In[4]:
 
 
 if SCRIPT:
@@ -111,13 +111,14 @@ if SCRIPT:
 # We save the configs we need per source and version.
 # And we define a stripped down default version to start with.
 
-# In[12]:
+# In[5]:
 
 
 slotType = 'word'
 
 featureMetaData = dict(
     dataset='BHSA',
+    version=VERSION,
     datasetName='Biblia Hebraica Stuttgartensia Amstelodamensis',
     author='Eep Talstra Centre for Bible and Computer',
     encoders='Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)',
@@ -133,6 +134,18 @@ oText = {
 @fmt:text-orig-full={g_word_utf8}{g_suffix_utf8}
 ''',
     },
+    '3': '''
+@fmt:lex-orig-full={graphical_lexeme_utf8} 
+@fmt:lex-orig-plain={lexeme_utf8} 
+@fmt:lex-trans-full={graphical_lexeme} 
+@fmt:lex-trans-plain={lexeme} 
+@fmt:text-orig-full={text}{suffix}
+@fmt:text-orig-plain={surface_consonants_utf8}{suffix}
+@fmt:text-trans-full={graphical_word} 
+@fmt:text-trans-plain={surface_consonants} 
+@sectionFeatures=book,chapter,verse
+@sectionTypes=book,chapter,verse
+''',
     '4': '''
 @fmt:lex-orig-full={g_lex_utf8} 
 @fmt:lex-orig-plain={lex_utf8} 
@@ -203,7 +216,7 @@ oText = {
 # The next function selects the proper otext material, falling back on a default if nothing 
 # appropriate has been specified in `oText`.
 
-# In[13]:
+# In[6]:
 
 
 thisOtext = oText.get(VERSION, oText[''])
@@ -223,8 +236,7 @@ else:
 # The program has several stages:
 #    
 # 1. **prepare** the source (utils.bunzip if needed)
-# 1. **parse MQL** and collect information in datastructures
-# 1. **transform to TF** write the datastructures as TF features
+# 1. **convert** convert the MQL file into a text-fabric dataset
 # 1. **differences** (informational)
 # 1. **deliver** the tf data at its destination directory
 # 1. **compile** all tf features to binary format
@@ -233,7 +245,7 @@ else:
 # 
 # Check the source, utils.bunzip it if needed, empty the result directory.
 
-# In[14]:
+# In[7]:
 
 
 if not os.path.exists(thisTempSource):
@@ -247,14 +259,11 @@ if os.path.exists(thisTempTf): rmtree(thisTempTf)
 os.makedirs(thisTempTf)
 
 
-# Convert a monads specification (a comma separated sequence of numbers and number ranges)
-# into a set of integers.
-
 # # MQL to Text-Fabric
 # Transform the collected information in feature-like datastructures, and write it all
 # out to `.tf` files.
 
-# In[15]:
+# In[8]:
 
 
 TF = Fabric(locations=thisTempTf, silent=True)
@@ -276,7 +285,7 @@ TF.importMQL(mqlFile, slotType=slotType, otext=otextInfo, meta=featureMetaData)
 # For each changed feature we show the first line where the new feature differs from the old one.
 # We ignore changes in the metadata, because the timestamp in the metadata will always change.
 
-# In[16]:
+# In[9]:
 
 
 utils.checkDiffs(thisTempTf, thisTf)
@@ -286,7 +295,7 @@ utils.checkDiffs(thisTempTf, thisTf)
 # 
 # Copy the new TF dataset from the temporary location where it has been created to its final destination.
 
-# In[17]:
+# In[10]:
 
 
 utils.deliverDataset(thisTempTf, thisTf)
@@ -304,7 +313,7 @@ utils.deliverDataset(thisTempTf, thisTf)
 # At that point we have access to the full list of features.
 # We grab them and are going to load them all! 
 
-# In[18]:
+# In[5]:
 
 
 utils.caption(4, 'Load and compile standard TF features')
@@ -315,12 +324,12 @@ utils.caption(4, 'Load and compile all other TF features')
 allFeatures = TF.explore(silent=False, show=True)
 loadableFeatures = allFeatures['nodes'] + allFeatures['edges']
 api = TF.load(loadableFeatures)
-T = api.T
+api.makeAvailableIn(globals())
 
 
 # # Examples
 
-# In[19]:
+# In[12]:
 
 
 utils.caption(4, 'Basic test')
@@ -328,6 +337,20 @@ utils.caption(4, 'First verse in all formats')
 for fmt in T.formats:
     utils.caption(0, '{}'.format(fmt), continuation=True)
     utils.caption(0, '\t{}'.format(T.text(range(1,12), fmt=fmt)), continuation=True)
+
+
+# In[ ]:
+
+
+if SCRIPT:
+    stop(good=True)
+
+
+# In[21]:
+
+
+f = 'subphrase_type'
+print('`' + '` `'.join(sorted(str(x[0]) for x in Fs(f).freqList())) + '`')
 
 
 # In[ ]:

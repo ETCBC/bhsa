@@ -5,9 +5,10 @@
 @email=shebanq@ancient-data.org
 @encoders=Constantijn Sikkel (QDF), and Dirk Roorda (TF)
 @valueType=str
+@version=c
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-03T05:43:43Z
+@dateWritten=2017-10-05T11:58:16Z
 
 1437007	pers
 1437027	topo

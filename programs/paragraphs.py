@@ -96,6 +96,7 @@ if SCRIPT:
 provenanceMetadata = dict(
     dataset='BHSA',
     datasetName='Biblia Hebraica Stuttgartensia Amstelodamensis',
+    version=VERSION,
     author='Eep Talstra Centre for Bible and Computer',
     encoders='Constantijn Sikkel (QDF), and Dirk Roorda (TF)',
     website='https://shebanq.ancient-data.org',

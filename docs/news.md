@@ -3,7 +3,42 @@ title: News
 type: pages
 ---
 
-### 2017-01-10
+### 2017-10-05
+
+* An old version, `3` from 2011 has been added.
+  This is an interesting version, because it shows the evolution of the database and the
+  encoding of linguistics in features.
+  It was also a nice test for the pipeline from ETCBC data to the TF repos.
+  A bit more sophistication was needed in the MQL conversion, and some feature names needed to
+  be passed as a parameter, instead of being hard-coded, but that was basically it.
+* All generated TF files now mention in their metadata the name and version of the core BHSA set
+  they depend upon. All TF data in the core database and related repositories has been regenerated
+  in one single run of the pipeline, which took 59 minutes to complete. Here are the last lines
+  of the scroll of progress messages:
+
+```
+----------------------------------------------------------------------------------------------
+-     58m 41s SUCCES [parallels/parallels]                                                   -
+----------------------------------------------------------------------------------------------
+
+
+**********************************************************************************************
+*                                                                                            *
+*     58m 41s SUCCES [parallels]                                                             *
+*                                                                                            *
+**********************************************************************************************
+
+
+##############################################################################################
+#                                                                                            #
+#     58m 41s SUCCES [c]                                                                     #
+#                                                                                            #
+##############################################################################################
+```
+
+Or see the complete [run](https://github.com/ETCBC/pipeline/blob/master/runs/2017-10-05.text?raw=true).
+
+### 2017-10-01
 
 The ETCBC data source has moved.
 It is now called 
