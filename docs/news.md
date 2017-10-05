@@ -36,7 +36,7 @@ type: pages
 ##############################################################################################
 ```
 
-Or see the complete [run](https://github.com/ETCBC/pipeline/blob/master/runs/2017-10-05.text?raw=true).
+Or see the complete [run](https://github.com/ETCBC/pipeline/blob/master/runs/2017-10-05.txt?raw=true).
 
 ### 2017-10-01
 
