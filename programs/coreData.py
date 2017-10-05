@@ -1,9 +1,9 @@
 
 # coding: utf-8
 
-# <img align="right" src="tf-small.png"/>
+# <img align="right" src="images/tf-small.png"/>
 # 
-# ![mql](emdros.png)
+# ![mql](images/emdros.png)
 # 
 # # TF from MQL
 # 

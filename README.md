@@ -1,7 +1,7 @@
 # BHSA
 
 ## Biblia Hebraica Stuttgartensia (Amstelodamensis)
-![etcbc](programs/etcbc.png)
+![etcbc](programs/images/etcbc.png)
 
 This is the
 [text-fabric](https://github.com/Dans-labs/text-fabric/wiki)
@@ -37,7 +37,7 @@ That means:
 
 # How to use
 
-![tf](programs/tf-small.png)
+![tf](programs/images/tf-small.png)
 
 This data can be processed by 
 [Text-Fabric](https://github.com/Dans-labs/text-fabric/wiki).

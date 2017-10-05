@@ -121,7 +121,7 @@ the functional object fall neatly between their distributional atoms.
 Is `subphrase` functional or distributional?
 Are atoms always *maximal* continous stretches, or can you have two adjacent atoms of the same type?
 
-See the [AtomsAndMothers notebook](https://github.com/ETCBC/bhsa/blob/master/docs/notebooks/AtomsAndMothers.ipynb)
+See the [AtomsAndMothers notebook](https://github.com/ETCBC/bhsa/blob/master/programs/AtomsAndMothers.ipynb)
 which makes some basic explorations into these matters.
 
 ##### Note
