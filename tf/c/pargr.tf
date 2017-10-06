@@ -5,10 +5,10 @@
 @email=shebanq@ancient-data.org
 @encoders=Constantijn Sikkel (QDF), and Dirk Roorda (TF)
 @valueType=str
-@version=c
+@version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-05T12:00:01Z
+@dateWritten=2017-10-06T06:41:04Z
 
 515550	1
 1

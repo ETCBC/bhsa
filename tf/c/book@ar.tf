@@ -9,10 +9,10 @@
 @languageEnglish=arabic
 @provenance=book names from wikipedia and other sources
 @valueType=str
-@version=c
+@version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-05T11:57:40Z
+@dateWritten=2017-10-06T06:38:46Z
 
 426582	تكوين
 خروج

@@ -5,10 +5,10 @@
 @email=shebanq@ancient-data.org
 @encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)
 @valueType=str
-@version=c
+@version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-05T11:53:53Z
+@dateWritten=2017-10-06T06:35:14Z
 
 651292	und
 NA
