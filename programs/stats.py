@@ -40,6 +40,7 @@
 
 # In[1]:
 
+
 import os,sys,re,collections
 import utils
 from tf.fabric import Fabric
@@ -50,6 +51,7 @@ from tf.fabric import Fabric
 # for how to run this script in the pipeline.
 
 # In[2]:
+
 
 if 'SCRIPT' not in locals():
     SCRIPT = False
@@ -71,6 +73,7 @@ def stop(good=False):
 
 # In[3]:
 
+
 repoBase = os.path.expanduser('~/github/etcbc')
 thisRepo = '{}/{}'.format(repoBase, CORE_NAME)
 
@@ -81,6 +84,7 @@ thisTf = '{}/tf/{}'.format(thisRepo, VERSION)
 
 
 # In[4]:
+
 
 newFeaturesStr = '''
     freq_occ
@@ -98,6 +102,7 @@ newFeatures = newFeaturesStr.strip().split()
 
 # In[5]:
 
+
 if SCRIPT:
     (good, work) = utils.mustRun(None, '{}/.tf/{}.tfx'.format(thisTf, newFeatures[0]), force=FORCE)
     if not good: stop(good=False)
@@ -110,6 +115,7 @@ if SCRIPT:
 
 # In[6]:
 
+
 utils.caption(4, 'Loading relevant features')
 
 TF = Fabric(locations=thisTf, modules=[''])
@@ -120,6 +126,7 @@ hasLex = 'lex' in set(F.otype.all)
 
 
 # In[7]:
+
 
 utils.caption(0, 'Counting occurrences')
 wstats = {
@@ -157,6 +164,7 @@ for lan in langs:
 
 
 # In[8]:
+
 
 utils.caption(0, 'Making statistical features')
 metaData={
@@ -197,6 +205,7 @@ if hasLex:
 
 # In[9]:
 
+
 utils.caption(4, 'Write statistical features as TF')
 TF = Fabric(locations=thisTempTf, silent=True)
 TF.save(nodeFeatures=nodeFeatures, edgeFeatures=edgeFeatures, metaData=metaData)
@@ -208,6 +217,7 @@ TF.save(nodeFeatures=nodeFeatures, edgeFeatures=edgeFeatures, metaData=metaData)
 
 # In[10]:
 
+
 utils.checkDiffs(thisTempTf, thisTf, only=set(newFeatures))
 
 
@@ -217,12 +227,14 @@ utils.checkDiffs(thisTempTf, thisTf, only=set(newFeatures))
 
 # In[11]:
 
+
 utils.deliverFeatures(thisTempTf, thisTf, newFeatures)
 
 
 # # Compile TF
 
 # In[12]:
+
 
 utils.caption(4, 'Load and compile the new TF features')
 
@@ -234,6 +246,7 @@ api.makeAvailableIn(globals())
 # # Examples
 
 # In[13]:
+
 
 utils.caption(4, 'Basic test')
 
@@ -268,6 +281,7 @@ utils.caption(0, 'Done')
 
 
 # In[ ]:
+
 
 
 

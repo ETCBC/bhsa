@@ -28,6 +28,7 @@
 
 # In[12]:
 
+
 import os,sys,re,collections
 import utils
 from tf.fabric import Fabric
@@ -39,6 +40,7 @@ from blang import bookLangs, bookNames
 # for how to run this script in the pipeline.
 
 # In[13]:
+
 
 if 'SCRIPT' not in locals():
     SCRIPT = False
@@ -57,6 +59,7 @@ def stop(good=False):
 
 # In[14]:
 
+
 repoBase = os.path.expanduser('~/github/etcbc')
 thisRepo = '{}/{}'.format(repoBase, CORE_NAME)
 
@@ -71,6 +74,7 @@ thisTf = '{}/tf/{}'.format(thisRepo, VERSION)
 # We collect the book names.
 
 # In[15]:
+
 
 utils.caption(4, 'Book names')
 
@@ -108,6 +112,7 @@ utils.caption(0, '{} languages ...'.format(len(newFeatures)))
 
 # In[16]:
 
+
 if SCRIPT:
     (good, work) = utils.mustRun(None, '{}/.tf/{}.tfx'.format(thisTf, newFeatures[0]), force=FORCE)
     if not good: stop(good=False)
@@ -117,6 +122,7 @@ if SCRIPT:
 # # Load existing data
 
 # In[17]:
+
 
 utils.caption(4, 'Loading relevant features')
 
@@ -141,6 +147,7 @@ utils.caption(0, '{} book name features created'.format(len(nodeFeatures)))
 
 # In[18]:
 
+
 utils.caption(4, 'Write book name features as TF')
 TF = Fabric(locations=thisTempTf, silent=True)
 TF.save(nodeFeatures=nodeFeatures, edgeFeatures={}, metaData=metaData)
@@ -152,6 +159,7 @@ TF.save(nodeFeatures=nodeFeatures, edgeFeatures={}, metaData=metaData)
 
 # In[19]:
 
+
 utils.checkDiffs(thisTempTf, thisTf, only=set(newFeatures))
 
 
@@ -161,12 +169,14 @@ utils.checkDiffs(thisTempTf, thisTf, only=set(newFeatures))
 
 # In[20]:
 
+
 utils.deliverFeatures(thisTempTf, thisTf, newFeatures)
 
 
 # # Compile TF
 
 # In[21]:
+
 
 utils.caption(4, 'Load and compile the new TF features')
 
@@ -178,6 +188,7 @@ api.makeAvailableIn(globals())
 # # Examples
 
 # In[22]:
+
 
 utils.caption(4, 'Genesis in all languages')
 genesisNode = F.otype.s('book')[0]
@@ -192,6 +203,7 @@ utils.caption(0, 'Done')
 
 
 # In[ ]:
+
 
 
 

@@ -18,6 +18,7 @@
 
 # In[1]:
 
+
 import os,sys,re,collections
 from tf.fabric import Fabric
 from tf.transcription import Transcription
@@ -29,6 +30,7 @@ import utils
 # for how to run this script in the pipeline.
 
 # In[2]:
+
 
 if 'SCRIPT' not in locals():
     SCRIPT = False
@@ -47,6 +49,7 @@ def stop(good=False):
 
 # In[3]:
 
+
 repoBase = os.path.expanduser('~/github/etcbc')
 thisRepo = '{}/{}'.format(repoBase, CORE_NAME)
 
@@ -60,6 +63,7 @@ thisTf = '{}/tf/{}'.format(thisRepo, VERSION)
 
 # In[4]:
 
+
 testFeature = 'pargr'
 
 
@@ -69,6 +73,7 @@ testFeature = 'pargr'
 # Only when run as a script.
 
 # In[5]:
+
 
 if SCRIPT:
     (good, work) = utils.mustRun(None, '{}/.tf/{}.tfx'.format(thisTf, testFeature), force=FORCE)
@@ -87,6 +92,7 @@ if SCRIPT:
 
 # In[6]:
 
+
 provenanceMetadata = dict(
     dataset='BHSA',
     datasetName='Biblia Hebraica Stuttgartensia Amstelodamensis',
@@ -100,6 +106,7 @@ provenanceMetadata = dict(
 
 # In[7]:
 
+
 utils.caption(4, 'Load the existing TF dataset')
 TF = Fabric(locations=thisTf, modules=[''])
 api = TF.load('label number')
@@ -111,6 +118,7 @@ api.makeAvailableIn(globals())
 # to nodes in TF.
 
 # In[8]:
+
 
 utils.caption(0, '\tLabeling clause_atoms')
 
@@ -146,6 +154,7 @@ else:
 # # Read the PX files
 
 # In[9]:
+
 
 utils.caption(4, 'Parsing paragraph data in PX')
 
@@ -197,6 +206,7 @@ else:
 
 # In[10]:
 
+
 if not SCRIPT:
     print('\n'.join(repr(d) for d in data[0:10]))
 
@@ -206,6 +216,7 @@ if not SCRIPT:
 # We now collect the lexical information into the features for nodes of type `lex`.
 
 # In[11]:
+
 
 utils.caption(0, 'Prepare TF paragraph features')
 
@@ -230,6 +241,7 @@ for f in nodeFeatures:
 
 # In[12]:
 
+
 changedFeatures = set(nodeFeatures)
 
 
@@ -238,6 +250,7 @@ changedFeatures = set(nodeFeatures)
 # out to `.tf` files.
 
 # In[13]:
+
 
 utils.caption(4, 'write new/changed features to TF ...')
 TF = Fabric(locations=thisTempTf, silent=True)
@@ -261,6 +274,7 @@ TF.save(nodeFeatures=nodeFeatures, edgeFeatures={}, metaData=metaData)
 
 # In[14]:
 
+
 utils.checkDiffs(thisTempTf, thisTf, only=changedFeatures)
 
 
@@ -270,6 +284,7 @@ utils.checkDiffs(thisTempTf, thisTf, only=changedFeatures)
 
 # In[15]:
 
+
 utils.deliverFeatures(thisTempTf, thisTf, changedFeatures)
 
 
@@ -278,6 +293,7 @@ utils.deliverFeatures(thisTempTf, thisTf, changedFeatures)
 # We load the new features, use the new format, check some values
 
 # In[16]:
+
 
 utils.caption(4, 'Load and compile the new TF features')
 
@@ -289,6 +305,7 @@ api.makeAvailableIn(globals())
 # # Examples
 
 # In[17]:
+
 
 utils.caption(4, 'Test: paragraphs of the first verses')
 
@@ -309,6 +326,7 @@ for (i, verseNode) in enumerate(F.otype.s('verse')[0:10]):
 
 
 # In[ ]:
+
 
 
 

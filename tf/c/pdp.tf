@@ -8,7 +8,7 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-06T14:24:50Z
+@dateWritten=2017-10-06T15:37:19Z
 
 prep
 subs
