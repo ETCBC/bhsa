@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# <img align="right" src="tf-small.png"/>
+# <img align="right" src="images/tf-small.png"/>
 # 
 # # Lexicon
 # 
@@ -87,6 +87,13 @@ if 'SCRIPT' not in locals():
     SCRIPT = False
     FORCE = True
     CORE_NAME = 'bhsa'
+    EXTRA_OVERLAP=''
+#    EXTRA_OVERLAP='gloss nametype'
+    DO_VOCALIZED_LEXEME=True
+#    DO_VOCALIZED_LEXEME=False
+    LEX_FORMATS='@fmt:lex-trans-plain={lex0} ',
+#    LEX_FORMATS='@fmt:lex-trans-plain={lex} ',
+
     VERSION= 'c'
 
 def stop(good=False):
@@ -205,37 +212,12 @@ provenanceMetadata = dict(
 
 lexType = 'lex'
 
-doVocalizedLexeme = {
-    '4': False,
-    '4b': False,
-}
-
-thisVocalizedLexeme = doVocalizedLexeme.get(VERSION, True)
-
-extraOverlap = {
-    '4': 'gloss nametype',
-    '4b': 'gloss nametype',
-}
-
-thisExtraOverlap = extraOverlap.get(VERSION, '')
-
-oText = {
-    'c': '''
-@fmt:lex-trans-plain={lex0} 
-''',
-    '2016': '''
-@fmt:lex-trans-plain={lex0} 
-''',
-}
-
-thisOtext = oText.get(VERSION, '')
-
-if thisOtext is '':
+if LEX_FORMATS is '':
     utils.caption(0, 'No additional text formats provided')
     otextInfo = {}
 else:
     utils.caption(0, 'New text formats')
-    otextInfo = dict(line[1:].split('=', 1) for line in thisOtext.strip('\n').split('\n'))
+    otextInfo = dict(line[1:].split('=', 1) for line in LEX_FORMATS.strip('\n').split('\n'))
     for x in sorted(otextInfo.items()):
         utils.caption(0, '{:<30} = "{}"'.format(*x))
 
@@ -250,8 +232,8 @@ else:
 
 utils.caption(4, 'Load the existing TF dataset')
 TF = Fabric(locations=thisTf, modules=[''])
-vocLex = ' g_voc_lex g_voc_lex_utf8 ' if thisVocalizedLexeme else ''
-api = TF.load('lex lex_utf8 language sp ls gn ps nu st oslots {} {}'.format(vocLex, thisExtraOverlap))
+vocLex = ' g_voc_lex g_voc_lex_utf8 ' if DO_VOCALIZED_LEXEME else ''
+api = TF.load('lex lex_utf8 language sp ls gn ps nu st oslots {} {}'.format(vocLex, EXTRA_OVERLAP))
 api.makeAvailableIn(globals())
 
 
@@ -457,7 +439,7 @@ for (myset, mymsg) in (
 
 utils.caption(4, 'Test - Consistency of vocalized lexeme')
 
-if not thisVocalizedLexeme:
+if not DO_VOCALIZED_LEXEME:
     utils.caption(0, '\tSKIPPED in version {}'.format(VERSION))
 else:
     vocFeatures = dict(voc_lex={}, voc_lex_utf8={})
@@ -528,7 +510,7 @@ lexFields = (
     ('gl', 'gloss'),
 )
 
-overlapFeatures = {'lex', 'language', 'sp', 'ls'} | set(thisExtraOverlap.strip().split()) 
+overlapFeatures = {'lex', 'language', 'sp', 'ls'} | set(EXTRA_OVERLAP.strip().split()) 
 # these are features that occur both on word- and lex- otypes
 
 for f in overlapFeatures:
@@ -546,7 +528,7 @@ for (lan, lexemes) in lexEntries.items():
             value = lexValues.get(f, None)
             if value != None:
                 nodeFeatures.setdefault(newF, {})[node] = value
-        if thisVocalizedLexeme:
+        if DO_VOCALIZED_LEXEME:
             for (f, vocValues) in vocFeatures.items():
                 value = vocValues.get((lan, lex), None)
                 if value != None:
@@ -607,7 +589,7 @@ utils.caption(0, 'Features that have new or modified data')
 for f in sorted(nodeFeatures) + sorted(edgeFeatures):
     utils.caption(0, '\t{}'.format(f))
 
-if thisVocalizedLexeme:
+if DO_VOCALIZED_LEXEME:
     testNodes = range(maxNode+1, maxNode + 10)
     utils.caption(0, 'Check voc_lex_utf8: {}'.format(
         ' '.join(nodeFeatures['voc_lex_utf8'][n] for n in testNodes)
@@ -622,7 +604,7 @@ if thisVocalizedLexeme:
 deleteFeatures = set('''
     g_voc_lex
     g_voc_lex_utf8
-'''.strip().split()) if thisVocalizedLexeme else set()
+'''.strip().split()) if DO_VOCALIZED_LEXEME else set()
 
 if deleteFeatures:
     utils.caption(0, '\tFeatures to remove')
@@ -701,7 +683,7 @@ api.makeAvailableIn(globals())
 # In[23]:
 
 
-features = [f[1] for f in lexFields] + (['voc_lex', 'voc_lex_utf8'] if thisVocalizedLexeme else [])
+features = [f[1] for f in lexFields] + (['voc_lex', 'voc_lex_utf8'] if DO_VOCALIZED_LEXEME else [])
 
 def showLex(w):
     info = dict((f, Fs(f).v(w)) for f in features)

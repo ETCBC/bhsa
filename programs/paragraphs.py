@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# <img align="right" src="tf-small.png"/>
+# <img align="right" src="images/tf-small.png"/>
 # 
 # # Paragraphs
 # 
