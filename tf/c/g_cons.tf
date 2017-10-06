@@ -8,7 +8,7 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-06T06:35:17Z
+@dateWritten=2017-10-06T14:24:25Z
 
 B
 R>CJT
@@ -16572,6 +16572,7 @@ ML>K
 H
 >LHJM
 B
+
 XLWM
 J<QB
 W
@@ -392494,7 +392495,9 @@ CWBL
 >BJ
 QRJT_J<RJM
 HR>H
-XYJ_HMNXWT
+XYJ
+H
+MNXWT
 W
 MCPXWT
 QRJT_J<RJM

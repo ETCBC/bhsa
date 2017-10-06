@@ -8,7 +8,7 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-06T06:35:19Z
+@dateWritten=2017-10-06T14:24:27Z
 
 B.:-
 R;>CIJT
@@ -16572,6 +16572,7 @@ MAL:>AK:
 H@-
 >:ELOH
 B.A-
+-
 X:ALOWM
 JA<:AQOB
 W@-
@@ -38209,7 +38210,7 @@ W:-
 B.@N
 W:-
 >ET
-MIQ:N
+MIQ:NAJ
 B.A-
 -
 Y.@M@>
@@ -82944,7 +82945,7 @@ M;JM
 C:T.EH
 >:ANIJ
 W.-
-MIQ:N
+MIQ:NAJ
 W:-
 N@TA
 MIK:R
@@ -392494,7 +392495,9 @@ COWB@L
 >:AB
 QIR:JAT_J:<@RIJM
 H@RO>EH
-X:AYIJ_HAM.:NUXOWT
+X:AYIJ
+HA-
+M.:NUX
 W.-
 MIC:P.:X
 QIR:JAT_J:<@RIJM

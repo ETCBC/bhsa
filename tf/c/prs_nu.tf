@@ -8,7 +8,7 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-06T06:35:43Z
+@dateWritten=2017-10-06T14:24:53Z
 
 unknown
 unknown
@@ -16572,6 +16572,7 @@ unknown
 NA
 unknown
 unknown
+NA
 unknown
 NA
 NA
@@ -392494,7 +392495,9 @@ NA
 unknown
 NA
 NA
+unknown
 NA
+unknown
 NA
 unknown
 NA

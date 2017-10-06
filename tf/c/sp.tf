@@ -8,7 +8,7 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-06T06:39:22Z
+@dateWritten=2017-10-06T14:28:27Z
 
 prep
 subs
@@ -16572,6 +16572,7 @@ subs
 art
 subs
 prep
+art
 subs
 nmpr
 conj
@@ -392492,9 +392493,11 @@ subs
 prep
 nmpr
 subs
-nmpr
 nmpr
 nmpr
+subs
+art
+subs
 conj
 subs
 nmpr
@@ -426591,7 +426594,7 @@ subs
 prep
 conj
 verb
-1436895	prep
+1437403	prep
 subs
 verb
 subs
@@ -430876,7 +430879,6 @@ subs
 subs
 verb
 verb
-subs
 nmpr
 adjv
 verb
@@ -432335,7 +432337,6 @@ subs
 verb
 verb
 subs
-subs
 adjv
 subs
 nmpr
@@ -435244,7 +435245,6 @@ nmpr
 nmpr
 adjv
 subs
-nmpr
 nmpr
 nmpr
 nmpr

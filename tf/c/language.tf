@@ -8,7 +8,7 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-06T06:39:17Z
+@dateWritten=2017-10-06T14:28:23Z
 
 hbo
 hbo
@@ -17285,6 +17285,7 @@ hbo
 hbo
 hbo
 hbo
+hbo
 arc
 arc
 hbo
@@ -426591,9 +426592,9 @@ hbo
 hbo
 hbo
 hbo
-1436895	hbo
 hbo
 hbo
+1437403	hbo
 hbo
 hbo
 hbo
@@ -427907,10 +427908,10 @@ hbo
 hbo
 hbo
 hbo
-arc
-arc
 hbo
 hbo
+arc
+arc
 hbo
 hbo
 hbo
@@ -435037,7 +435038,6 @@ arc
 arc
 arc
 arc
-hbo
 hbo
 hbo
 hbo

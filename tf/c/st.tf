@@ -8,7 +8,7 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-06T06:35:49Z
+@dateWritten=2017-10-06T14:24:59Z
 
 NA
 a
@@ -1049,7 +1049,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -1922,7 +1922,7 @@ NA
 a
 NA
 c
-c
+a
 a
 a
 NA
@@ -6823,10 +6823,10 @@ NA
 NA
 NA
 a
-c
+a
 NA
 a
-c
+a
 NA
 a
 a
@@ -11436,7 +11436,7 @@ a
 NA
 NA
 a
-c
+a
 NA
 NA
 NA
@@ -11997,7 +11997,7 @@ a
 NA
 NA
 a
-c
+a
 NA
 a
 NA
@@ -16572,6 +16572,7 @@ c
 NA
 a
 NA
+NA
 a
 a
 NA
@@ -39474,7 +39475,7 @@ NA
 c
 NA
 a
-c
+a
 NA
 a
 a
@@ -44894,8 +44895,8 @@ a
 a
 NA
 NA
-a
 a
+c
 a
 a
 NA
@@ -53500,7 +53501,7 @@ a
 c
 a
 NA
-a
+c
 a
 c
 a
@@ -55184,7 +55185,7 @@ c
 c
 a
 NA
-a
+c
 a
 NA
 a
@@ -59377,7 +59378,7 @@ NA
 a
 a
 a
-c
+a
 NA
 a
 NA
@@ -61674,7 +61675,7 @@ c
 NA
 a
 NA
-a
+c
 NA
 NA
 a
@@ -65109,9 +65110,9 @@ NA
 a
 a
 NA
-c
 c
 a
+a
 NA
 NA
 NA
@@ -69502,7 +69503,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -79589,7 +79590,7 @@ NA
 c
 a
 a
-c
+a
 NA
 a
 a
@@ -102611,8 +102612,8 @@ a
 NA
 c
 NA
-a
 a
+c
 a
 NA
 a
@@ -163848,7 +163849,7 @@ NA
 a
 c
 a
-c
+a
 NA
 a
 a
@@ -180595,7 +180596,7 @@ a
 NA
 a
 a
-c
+a
 NA
 a
 a
@@ -196425,8 +196426,8 @@ NA
 c
 a
 a
-c
 a
+a
 NA
 a
 NA
@@ -203526,7 +203527,7 @@ NA
 NA
 NA
 a
-c
+a
 NA
 NA
 NA
@@ -240054,7 +240055,7 @@ a
 NA
 c
 a
-c
+a
 NA
 a
 a
@@ -240219,7 +240220,7 @@ NA
 NA
 NA
 NA
-c
+a
 NA
 NA
 a
@@ -270440,7 +270441,7 @@ NA
 a
 NA
 NA
-c
+a
 NA
 c
 a
@@ -285887,13 +285888,13 @@ c
 a
 a
 a
-c
+a
 NA
 a
 NA
 a
 a
-c
+a
 NA
 a
 NA
@@ -313697,7 +313698,7 @@ NA
 NA
 a
 a
-c
+a
 NA
 a
 NA
@@ -316961,7 +316962,7 @@ a
 NA
 a
 NA
-c
+a
 NA
 NA
 NA
@@ -334402,13 +334403,13 @@ a
 a
 a
 NA
-a
 NA
 NA
 NA
 NA
 NA
 NA
+NA
 a
 NA
 NA
@@ -347104,7 +347105,7 @@ NA
 a
 NA
 c
-a
+c
 a
 a
 NA
@@ -392494,6 +392495,8 @@ a
 c
 a
 a
+c
+NA
 a
 NA
 c
@@ -393385,7 +393388,7 @@ a
 c
 a
 NA
-c
+a
 NA
 a
 NA
@@ -424602,7 +424605,7 @@ NA
 a
 NA
 NA
-a
+NA
 NA
 c
 NA

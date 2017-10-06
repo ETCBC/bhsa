@@ -8,9 +8,9 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-06T06:39:22Z
+@dateWritten=2017-10-06T14:28:28Z
 
-1436895	B.:
+1437403	B.:
 R;>CIJT
 BR>
 >:ELOHIJM
@@ -447,7 +447,7 @@ QLL
 M@NOWXA
 K.AP
 REGEL
-XJL==
+XJL
 <;T
 ZAJIT
 V@R@P
@@ -4295,7 +4295,6 @@ X:AGOWR
 C@LIJC
 <JN
 VWL
-XAJ
 <AD:RIJ>;L
 M:XOL@TIJ
 RWC
@@ -5753,7 +5752,6 @@ HBR
 <OYEB
 XVM
 VPX
-G.AL
 M@<@H
 XAD
 MAR:<IJT
@@ -8729,7 +8727,6 @@ G.IB:<@>
 X@R;P
 B.;JT_G.@D;R
 H@RO>EH
-X:AYIJ_HAM.:NUXOWT
 P.W.TIJ
 CUM@TIJ
 MIC:R@<IJ
@@ -8869,7 +8866,7 @@ T.AXAT
 <:AM@FAJ
 >:AXIJMOWT
 YOWPAJ
-WCNJ/
+WAC:NIJ
 XAG.IJ.@H
 T.OWXA
 MAXAT

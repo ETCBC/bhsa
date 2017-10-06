@@ -8,9 +8,9 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-06T06:35:36Z
+@dateWritten=2017-10-06T14:24:46Z
 
-427550	clause
+427553	clause
 clause
 clause
 clause
@@ -81,9 +81,6 @@ clause
 clause
 clause
 clause
-clause
-clause
-clause
 word
 phrase
 phrase
@@ -209,7 +206,7 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -395,7 +392,7 @@ clause
 phrase
 clause
 clause
-clause
+word
 clause
 clause
 clause
@@ -993,6 +990,7 @@ clause
 clause
 clause
 phrase
+clause
 clause
 clause
 clause
@@ -2878,7 +2876,6 @@ clause
 clause
 clause
 clause
-clause
 phrase
 clause
 clause
@@ -3520,6 +3517,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -4513,7 +4511,7 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -4530,7 +4528,7 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -4894,6 +4892,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -5128,6 +5127,8 @@ clause
 clause
 clause
 phrase
+clause
+clause
 clause
 clause
 clause
@@ -5219,6 +5220,8 @@ clause
 clause
 clause
 clause
+clause
+clause
 phrase
 clause
 clause
@@ -5494,7 +5497,6 @@ clause
 clause
 phrase
 phrase
-clause
 clause
 clause
 phrase
@@ -8538,7 +8540,6 @@ clause
 clause
 clause
 clause
-clause
 phrase
 clause
 clause
@@ -9141,7 +9142,7 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -9206,11 +9207,11 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -9248,7 +9249,7 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -9323,7 +9324,7 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -9778,7 +9779,6 @@ clause
 clause
 clause
 clause
-clause
 phrase
 clause
 clause
@@ -9839,7 +9839,7 @@ clause
 clause
 clause
 clause
-clause
+phrase
 clause
 clause
 phrase
@@ -10451,6 +10451,7 @@ word
 phrase
 clause
 clause
+clause
 phrase
 phrase
 clause
@@ -10478,6 +10479,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 word
 word
@@ -10518,6 +10520,7 @@ word
 clause
 word
 phrase
+clause
 clause
 clause
 clause
@@ -10564,7 +10567,7 @@ phrase
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -10594,7 +10597,7 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -10797,7 +10800,7 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 phrase
@@ -10821,12 +10824,13 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 word
 word
 phrase
+clause
 clause
 clause
 clause
@@ -11705,7 +11709,7 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -11876,8 +11880,8 @@ clause
 clause
 word
 clause
-phrase
-phrase
+word
+word
 clause
 clause
 clause
@@ -11920,7 +11924,7 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
 phrase
 clause
@@ -11930,7 +11934,7 @@ phrase
 clause
 clause
 clause
-phrase
+word
 phrase
 clause
 clause
@@ -11954,7 +11958,7 @@ word
 clause
 word
 clause
-phrase
+word
 clause
 clause
 clause
@@ -12622,7 +12626,6 @@ clause
 clause
 clause
 clause
-clause
 phrase
 clause
 phrase
@@ -13374,9 +13377,8 @@ clause
 clause
 clause
 clause
-phrase
 phrase
-clause
+word
 clause
 clause
 clause
@@ -13674,7 +13676,7 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -13782,15 +13784,15 @@ clause
 phrase
 phrase
 clause
-clause
+phrase
 phrase
 clause
 clause
 phrase
 phrase
 clause
-clause
 phrase
+phrase
 clause
 clause
 phrase
@@ -13867,7 +13869,7 @@ clause
 clause
 clause
 clause
-phrase
+clause
 phrase
 clause
 clause
@@ -14350,7 +14352,7 @@ clause
 word
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -15879,6 +15881,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -16170,6 +16173,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -16650,7 +16654,7 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -16749,6 +16753,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 phrase
@@ -16827,7 +16832,6 @@ clause
 clause
 clause
 phrase
-clause
 clause
 clause
 clause
@@ -16841,6 +16845,7 @@ clause
 clause
 clause
 phrase
+phrase
 clause
 clause
 clause
@@ -16964,6 +16969,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -17180,7 +17186,6 @@ clause
 clause
 clause
 phrase
-clause
 clause
 phrase
 clause
@@ -17756,6 +17761,7 @@ phrase
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -19134,7 +19140,7 @@ clause
 phrase
 clause
 clause
-clause
+word
 clause
 clause
 phrase
@@ -19750,9 +19756,9 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
-phrase
+word
 clause
 clause
 clause
@@ -19769,6 +19775,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -22050,6 +22057,7 @@ word
 clause
 clause
 phrase
+clause
 clause
 clause
 clause
@@ -22092,6 +22100,7 @@ clause
 clause
 clause
 clause
+clause
 word
 clause
 clause
@@ -22151,6 +22160,8 @@ clause
 clause
 clause
 clause
+clause
+phrase
 clause
 clause
 clause
@@ -22507,6 +22518,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -23571,6 +23583,7 @@ clause
 clause
 clause
 phrase
+clause
 clause
 clause
 clause
@@ -23991,7 +24004,6 @@ clause
 clause
 clause
 clause
-clause
 phrase
 clause
 clause
@@ -24324,7 +24336,7 @@ clause
 phrase
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -24977,6 +24989,7 @@ clause
 clause
 clause
 clause
+clause
 word
 clause
 clause
@@ -25153,6 +25166,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -25264,7 +25278,6 @@ clause
 clause
 clause
 clause
-phrase
 clause
 clause
 clause
@@ -25333,6 +25346,8 @@ clause
 clause
 clause
 clause
+clause
+clause
 phrase
 clause
 clause
@@ -25654,6 +25669,7 @@ clause
 clause
 clause
 phrase
+clause
 clause
 clause
 clause
@@ -25788,6 +25804,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 phrase
 clause
@@ -26038,7 +26055,7 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -26050,7 +26067,7 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -26104,13 +26121,13 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -26226,7 +26243,7 @@ clause
 clause
 clause
 word
-phrase
+word
 clause
 clause
 clause
@@ -26698,11 +26715,11 @@ clause
 clause
 clause
 clause
-phrase
 phrase
+word
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -27530,7 +27547,7 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -28670,6 +28687,7 @@ clause
 clause
 clause
 word
+clause
 clause
 clause
 clause
@@ -29069,7 +29087,6 @@ clause
 clause
 clause
 clause
-phrase
 clause
 clause
 clause
@@ -29085,6 +29102,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -29638,6 +29656,7 @@ clause
 clause
 clause
 phrase
+clause
 clause
 clause
 clause
@@ -29849,6 +29868,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -30666,6 +30686,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -31029,7 +31050,7 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -31173,6 +31194,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 phrase
@@ -31251,7 +31273,7 @@ phrase
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -31783,7 +31805,7 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 phrase
@@ -32166,7 +32188,7 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -32509,6 +32531,7 @@ clause
 clause
 clause
 phrase
+clause
 clause
 clause
 clause
@@ -32727,6 +32750,7 @@ clause
 clause
 clause
 clause
+clause
 word
 clause
 clause
@@ -33220,7 +33244,7 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -33649,6 +33673,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -34059,6 +34084,7 @@ clause
 clause
 clause
 clause
+phrase
 clause
 clause
 clause
@@ -34201,7 +34227,7 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 phrase
@@ -35652,6 +35678,7 @@ clause
 clause
 clause
 phrase
+clause
 clause
 clause
 clause
@@ -36094,7 +36121,6 @@ clause
 clause
 clause
 clause
-phrase
 clause
 clause
 clause
@@ -36106,6 +36132,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -36849,7 +36876,7 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -36976,6 +37003,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 phrase
 clause
@@ -37495,6 +37523,7 @@ clause
 clause
 clause
 phrase
+clause
 clause
 clause
 clause
@@ -37519,6 +37548,7 @@ clause
 clause
 clause
 clause
+word
 clause
 clause
 clause
@@ -37879,8 +37909,8 @@ clause
 clause
 clause
 clause
-phrase
 clause
+phrase
 clause
 clause
 clause
@@ -38241,6 +38271,8 @@ clause
 clause
 clause
 clause
+clause
+clause
 phrase
 clause
 phrase
@@ -38702,7 +38734,7 @@ phrase
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -38738,7 +38770,7 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
 phrase
 clause
@@ -38847,11 +38879,12 @@ clause
 clause
 clause
 clause
-phrase
 clause
 phrase
 clause
+phrase
 clause
+phrase
 clause
 clause
 clause
@@ -38955,6 +38988,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -40003,7 +40037,7 @@ clause
 clause
 clause
 clause
-clause
+phrase
 clause
 clause
 clause
@@ -40063,6 +40097,7 @@ clause
 clause
 clause
 phrase
+word
 clause
 clause
 clause
@@ -40104,7 +40139,7 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 phrase
@@ -40414,7 +40449,8 @@ clause
 clause
 clause
 clause
-clause
+phrase
+phrase
 clause
 clause
 clause
@@ -40908,6 +40944,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 phrase
@@ -41155,6 +41192,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -41360,6 +41398,7 @@ clause
 clause
 clause
 phrase
+clause
 clause
 clause
 clause
@@ -42612,6 +42651,8 @@ clause
 clause
 clause
 clause
+clause
+clause
 word
 clause
 clause
@@ -42632,6 +42673,7 @@ clause
 clause
 clause
 phrase
+clause
 clause
 clause
 clause
@@ -42702,10 +42744,12 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -42759,6 +42803,7 @@ clause
 phrase
 clause
 phrase
+clause
 clause
 clause
 clause
@@ -43218,7 +43263,7 @@ phrase
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -43421,6 +43466,7 @@ clause
 clause
 clause
 phrase
+clause
 clause
 clause
 clause
@@ -43571,7 +43617,7 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -43979,6 +44025,7 @@ clause
 clause
 clause
 phrase
+clause
 clause
 clause
 clause
@@ -44115,6 +44162,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 phrase
@@ -44701,6 +44749,7 @@ clause
 clause
 clause
 phrase
+clause
 clause
 clause
 clause
@@ -45311,7 +45360,6 @@ phrase
 clause
 clause
 clause
-clause
 phrase
 clause
 clause
@@ -45951,6 +45999,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -46009,6 +46058,7 @@ phrase
 clause
 clause
 phrase
+clause
 clause
 clause
 clause
@@ -46359,7 +46409,7 @@ clause
 clause
 clause
 clause
-clause
+phrase
 word
 clause
 clause
@@ -46556,7 +46606,6 @@ clause
 clause
 clause
 phrase
-clause
 clause
 clause
 clause
@@ -46770,7 +46819,7 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -46962,6 +47011,7 @@ clause
 clause
 clause
 word
+clause
 clause
 clause
 clause
@@ -47120,6 +47170,7 @@ clause
 clause
 clause
 clause
+clause
 word
 clause
 clause
@@ -47181,6 +47232,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -47325,6 +47377,7 @@ clause
 clause
 clause
 phrase
+clause
 clause
 clause
 clause
@@ -47351,6 +47404,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -47529,7 +47583,7 @@ clause
 clause
 clause
 phrase
-clause
+phrase
 clause
 clause
 clause
@@ -47564,6 +47618,7 @@ clause
 phrase
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -47610,7 +47665,9 @@ phrase
 clause
 clause
 clause
+clause
 phrase
+clause
 clause
 clause
 clause
@@ -47899,6 +47956,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -48057,6 +48115,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 phrase
 phrase
@@ -48111,6 +48170,7 @@ clause
 phrase
 clause
 phrase
+clause
 clause
 clause
 clause
@@ -48153,6 +48213,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 phrase
@@ -48327,10 +48388,11 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -48382,7 +48444,7 @@ clause
 clause
 clause
 clause
-clause
+phrase
 word
 clause
 clause
@@ -48404,7 +48466,8 @@ clause
 clause
 clause
 clause
-phrase
+clause
+word
 clause
 clause
 clause
@@ -48466,7 +48529,6 @@ clause
 clause
 clause
 clause
-clause
 phrase
 clause
 clause
@@ -48640,7 +48702,7 @@ phrase
 phrase
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -48714,7 +48776,7 @@ clause
 clause
 clause
 clause
-clause
+phrase
 clause
 clause
 phrase
@@ -48729,6 +48791,7 @@ phrase
 clause
 clause
 phrase
+clause
 clause
 clause
 clause
@@ -48764,6 +48827,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -48807,6 +48871,7 @@ clause
 clause
 clause
 clause
+clause
 word
 clause
 clause
@@ -48869,6 +48934,7 @@ clause
 clause
 clause
 phrase
+clause
 clause
 clause
 phrase
@@ -48918,6 +48984,8 @@ clause
 clause
 clause
 clause
+clause
+clause
 word
 clause
 phrase
@@ -48986,6 +49054,7 @@ clause
 clause
 clause
 phrase
+clause
 clause
 clause
 clause
@@ -49368,6 +49437,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 phrase
 clause
@@ -49498,6 +49568,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 phrase
@@ -49909,6 +49980,7 @@ clause
 clause
 clause
 phrase
+clause
 clause
 clause
 clause
@@ -49961,6 +50033,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -50176,6 +50249,7 @@ clause
 clause
 clause
 phrase
+clause
 clause
 clause
 clause
@@ -50278,6 +50352,7 @@ phrase
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -50291,6 +50366,7 @@ clause
 phrase
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -50400,6 +50476,7 @@ clause
 clause
 phrase
 phrase
+clause
 clause
 clause
 clause
@@ -50745,7 +50822,7 @@ clause
 phrase
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -50843,9 +50920,9 @@ clause
 phrase
 word
 clause
-phrase
 clause
 clause
+clause
 phrase
 phrase
 phrase
@@ -50993,6 +51070,7 @@ clause
 phrase
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -51096,6 +51174,7 @@ clause
 clause
 clause
 phrase
+clause
 clause
 clause
 clause
@@ -51524,6 +51603,7 @@ clause
 clause
 clause
 clause
+word
 clause
 clause
 clause
@@ -51593,6 +51673,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -51818,6 +51899,7 @@ clause
 clause
 clause
 phrase
+clause
 clause
 clause
 clause
@@ -52162,6 +52244,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -52172,7 +52255,9 @@ clause
 clause
 clause
 clause
+clause
 word
+clause
 clause
 clause
 clause
@@ -52761,6 +52846,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -52797,6 +52883,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 phrase
@@ -52870,7 +52957,7 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -53279,6 +53366,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -53418,7 +53506,7 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -53520,6 +53608,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -53899,6 +53988,7 @@ clause
 clause
 clause
 word
+clause
 clause
 phrase
 clause
@@ -54097,6 +54187,7 @@ clause
 clause
 clause
 clause
+clause
 word
 phrase
 clause
@@ -54390,6 +54481,7 @@ clause
 clause
 clause
 clause
+clause
 word
 word
 clause
@@ -54655,6 +54747,7 @@ clause
 clause
 clause
 phrase
+clause
 clause
 clause
 clause
@@ -54836,6 +54929,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -55174,6 +55268,8 @@ clause
 clause
 clause
 word
+clause
+clause
 clause
 clause
 clause
@@ -55334,8 +55430,6 @@ phrase
 clause
 clause
 clause
-clause
-clause
 phrase
 clause
 clause
@@ -55875,7 +55969,7 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -56022,6 +56116,7 @@ clause
 clause
 clause
 clause
+clause
 word
 clause
 clause
@@ -56046,6 +56141,7 @@ clause
 clause
 clause
 phrase
+clause
 clause
 clause
 clause
@@ -56622,7 +56718,6 @@ clause
 clause
 clause
 clause
-clause
 phrase
 clause
 clause
@@ -56693,8 +56788,6 @@ clause
 phrase
 clause
 phrase
-clause
-clause
 clause
 clause
 clause
@@ -58399,7 +58492,6 @@ clause
 clause
 clause
 clause
-clause
 phrase
 clause
 clause
@@ -58605,7 +58697,6 @@ clause
 clause
 clause
 clause
-clause
 phrase
 clause
 clause
@@ -59121,6 +59212,7 @@ phrase
 clause
 clause
 phrase
+clause
 clause
 clause
 clause
@@ -59532,6 +59624,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -59954,6 +60047,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 phrase
@@ -61186,6 +61280,7 @@ clause
 clause
 clause
 phrase
+clause
 clause
 clause
 clause
@@ -61255,6 +61350,7 @@ clause
 clause
 clause
 clause
+clause
 word
 clause
 clause
@@ -62205,7 +62301,6 @@ clause
 clause
 clause
 phrase
-clause
 clause
 clause
 clause
@@ -62220,7 +62315,6 @@ clause
 clause
 clause
 clause
-phrase
 clause
 clause
 clause
@@ -62401,6 +62495,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -62794,7 +62889,6 @@ clause
 clause
 clause
 word
-clause
 clause
 clause
 clause
@@ -62804,6 +62898,7 @@ clause
 clause
 clause
 clause
+phrase
 clause
 clause
 clause
@@ -66457,7 +66552,7 @@ clause
 clause
 clause
 clause
-phrase
+clause
 clause
 clause
 clause
@@ -70495,7 +70590,7 @@ clause
 clause
 clause
 clause
-clause
+phrase
 clause
 clause
 phrase
@@ -72545,6 +72640,7 @@ clause
 clause
 clause
 phrase
+clause
 clause
 clause
 clause
@@ -74257,6 +74353,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -74664,11 +74761,11 @@ clause
 clause
 clause
 phrase
-clause
-clause
 clause
 clause
 clause
+phrase
+phrase
 clause
 clause
 clause
@@ -75024,7 +75121,6 @@ phrase
 clause
 clause
 phrase
-clause
 clause
 clause
 clause
@@ -75041,7 +75137,6 @@ clause
 clause
 clause
 clause
-phrase
 clause
 clause
 clause
@@ -76675,7 +76770,7 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 phrase
@@ -76730,7 +76825,6 @@ clause
 clause
 clause
 clause
-clause
 phrase
 clause
 clause
@@ -77838,6 +77932,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -78555,7 +78650,7 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
 clause
 clause
@@ -79531,7 +79626,6 @@ clause
 clause
 clause
 clause
-clause
 phrase
 clause
 clause
@@ -79760,6 +79854,7 @@ clause
 clause
 clause
 phrase
+clause
 clause
 clause
 clause
@@ -80516,7 +80611,7 @@ clause
 clause
 clause
 phrase
-phrase
+word
 clause
 clause
 clause
@@ -82539,6 +82634,7 @@ phrase
 clause
 clause
 phrase
+clause
 clause
 clause
 clause
@@ -82770,6 +82866,12 @@ clause
 clause
 clause
 phrase
+clause
+clause
+clause
+clause
+clause
+clause
 clause
 clause
 clause
@@ -83383,6 +83485,7 @@ clause
 clause
 clause
 clause
+clause
 phrase
 clause
 clause
@@ -83898,9 +84001,9 @@ clause
 clause
 clause
 clause
-phrase
+word
 clause
-phrase
+word
 clause
 clause
 clause
@@ -85206,7 +85309,6 @@ clause
 clause
 clause
 phrase
-clause
 clause
 clause
 clause
@@ -85260,7 +85362,6 @@ clause
 clause
 clause
 clause
-clause
 phrase
 clause
 clause
@@ -87922,7 +88023,7 @@ clause
 clause
 clause
 clause
-clause
+phrase
 clause
 clause
 clause
@@ -88010,7 +88111,7 @@ phrase
 clause
 clause
 clause
-1299890	NA
+1300406	NA
 subphrase
 NA
 subphrase
@@ -88450,10 +88551,6 @@ NA
 word
 NA
 subphrase
-NA
-NA
-word
-word
 NA
 word
 NA
@@ -90628,7 +90725,9 @@ NA
 NA
 word
 word
+NA
 subphrase
+subphrase
 NA
 subphrase
 NA
@@ -99371,7 +99470,7 @@ subphrase
 NA
 word
 NA
-subphrase
+word
 NA
 subphrase
 NA
@@ -102291,7 +102390,7 @@ subphrase
 NA
 word
 NA
-subphrase
+word
 NA
 word
 NA
@@ -102693,7 +102792,7 @@ NA
 word
 word
 NA
-subphrase
+word
 NA
 word
 NA
@@ -105206,7 +105305,7 @@ NA
 word
 NA
 NA
-word
+subphrase
 word
 NA
 word
@@ -106002,10 +106101,10 @@ NA
 word
 NA
 NA
-word
-word
 NA
 subphrase
+word
+word
 NA
 word
 NA
@@ -121262,10 +121361,8 @@ NA
 word
 NA
 NA
-NA
 word
 word
-subphrase
 NA
 NA
 word
@@ -130581,8 +130678,6 @@ word
 NA
 subphrase
 NA
-subphrase
-NA
 word
 NA
 subphrase
@@ -138966,6 +139061,8 @@ NA
 word
 NA
 word
+NA
+subphrase
 NA
 word
 NA
@@ -140240,8 +140337,6 @@ NA
 word
 NA
 subphrase
-NA
-word
 NA
 word
 NA
@@ -140495,6 +140590,8 @@ word
 NA
 subphrase
 NA
+subphrase
+NA
 word
 NA
 word
@@ -143476,8 +143573,6 @@ NA
 word
 NA
 subphrase
-NA
-word
 NA
 word
 NA
@@ -144224,8 +144319,6 @@ NA
 subphrase
 NA
 subphrase
-NA
-word
 NA
 word
 NA
@@ -161133,6 +161226,8 @@ subphrase
 NA
 subphrase
 NA
+subphrase
+NA
 word
 NA
 word
@@ -162860,10 +162955,8 @@ NA
 subphrase
 word
 word
-NA
 NA
 word
-subphrase
 NA
 subphrase
 NA
@@ -162913,6 +163006,8 @@ NA
 word
 subphrase
 NA
+NA
+subphrase
 subphrase
 NA
 subphrase
@@ -163589,13 +163684,13 @@ subphrase
 NA
 word
 NA
-subphrase
 NA
 subphrase
-NA
 subphrase
+NA
 NA
 subphrase
+subphrase
 NA
 subphrase
 NA
@@ -189589,8 +189684,6 @@ word
 NA
 subphrase
 NA
-NA
-subphrase
 NA
 subphrase
 NA
@@ -190417,6 +190510,8 @@ word
 NA
 word
 NA
+word
+NA
 subphrase
 NA
 subphrase
@@ -190849,9 +190944,9 @@ subphrase
 NA
 word
 NA
-subphrase
 NA
 subphrase
+subphrase
 NA
 word
 NA
@@ -191786,8 +191881,6 @@ NA
 subphrase
 NA
 word
-NA
-subphrase
 NA
 subphrase
 NA

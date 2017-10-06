@@ -24,7 +24,6 @@
 
 # In[1]:
 
-
 import os,sys,re,collections
 from tf.fabric import Fabric
 from tf.transcription import Transcription
@@ -36,7 +35,6 @@ import utils
 # for how to run this script in the pipeline.
 
 # In[2]:
-
 
 if 'SCRIPT' not in locals():
     SCRIPT = False
@@ -55,7 +53,6 @@ def stop(good=False):
 
 # In[3]:
 
-
 repoBase = os.path.expanduser('~/github/etcbc')
 thisRepo = '{}/{}'.format(repoBase, CORE_NAME)
 
@@ -69,7 +66,6 @@ thisTf = '{}/tf/{}'.format(thisRepo, VERSION)
 
 # In[4]:
 
-
 testFeature = 'qere_trailer'
 
 
@@ -79,7 +75,6 @@ testFeature = 'qere_trailer'
 # Only when run as a script.
 
 # In[5]:
-
 
 if SCRIPT:
     (good, work) = utils.mustRun(None, '{}/.tf/{}.tfx'.format(thisTf, testFeature), force=FORCE)
@@ -97,7 +92,6 @@ if SCRIPT:
 # We do not do this for the older versions 4 and 4b.
 
 # In[6]:
-
 
 provenanceMetadata = dict(
     dataset='BHSA',
@@ -136,7 +130,6 @@ else:
 
 # In[7]:
 
-
 utils.caption(4, 'Load the existing TF dataset')
 TF = Fabric(locations=thisTf, modules=[''])
 api = TF.load('label g_word g_cons trailer_utf8')
@@ -149,7 +142,6 @@ api.makeAvailableIn(globals())
 
 # In[8]:
 
-
 utils.caption(0, 'Mapping between verse labels and verse nodes')
 nodeFromLabel = {}
 for vs in F.otype.s('verse'):
@@ -161,7 +153,6 @@ utils.caption(0, '{} verses'.format(len(nodeFromLabel)))
 # # Read the Ketiv-Qere file
 
 # In[9]:
-
 
 utils.caption(4, 'Parsing Ketiv-Qere data')
 
@@ -195,7 +186,6 @@ utils.caption(0, '\tRead {} ketiv-qere annotations'.format(ln))
 
 
 # In[10]:
-
 
 data = []
 
@@ -236,13 +226,11 @@ utils.caption(0, '\tParsed {} ketiv-qere annotations'.format(len(data)))
 
 # In[11]:
 
-
 if not SCRIPT:
     print('\n'.join(repr(d) for d in data[0:10]))
 
 
 # In[12]:
-
 
 if notFound:
     utils.caption(0, '\tWARNING: Could not find {} verses: {}'.format(len(notFound), sorted(notFound)))
@@ -280,7 +268,6 @@ else:
 
 # In[13]:
 
-
 utils.caption(0, 'Prepare TF ketiv qere features')
 
 nodeFeatures = {}
@@ -304,7 +291,6 @@ nodeFeatures = dict(
 
 # In[14]:
 
-
 utils.caption(0, 'Update the otext feature')
 
 metaData = {}
@@ -321,7 +307,6 @@ for f in nodeFeatures:
 
 # In[15]:
 
-
 changedDataFeatures = set(nodeFeatures)
 changedFeatures = changedDataFeatures | {'otext'}
 
@@ -331,7 +316,6 @@ changedFeatures = changedDataFeatures | {'otext'}
 # out to `.tf` files.
 
 # In[16]:
-
 
 utils.caption(4, 'write new/changed features to TF ...')
 TF = Fabric(locations=thisTempTf, silent=True)
@@ -355,7 +339,6 @@ TF.save(nodeFeatures=nodeFeatures, edgeFeatures={}, metaData=metaData)
 
 # In[17]:
 
-
 utils.checkDiffs(thisTempTf, thisTf, only=changedFeatures)
 
 
@@ -365,7 +348,6 @@ utils.checkDiffs(thisTempTf, thisTf, only=changedFeatures)
 
 # In[18]:
 
-
 utils.deliverFeatures(thisTempTf, thisTf, changedFeatures)
 
 
@@ -374,7 +356,6 @@ utils.deliverFeatures(thisTempTf, thisTf, changedFeatures)
 # We load the new features, use the new format, check some values
 
 # In[19]:
-
 
 utils.caption(4, 'Load and compile the new TF features')
 
@@ -386,7 +367,6 @@ api.makeAvailableIn(globals())
 # # Examples
 
 # In[20]:
-
 
 utils.caption(4, 'Basic tests')
 
@@ -424,7 +404,6 @@ for fmt in T.formats:
 
 
 # In[ ]:
-
 
 
 

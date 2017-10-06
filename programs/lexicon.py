@@ -70,7 +70,6 @@
 
 # In[1]:
 
-
 import os,sys,re,collections
 from tf.fabric import Fabric
 import utils
@@ -81,7 +80,6 @@ import utils
 # for how to run this script in the pipeline.
 
 # In[2]:
-
 
 if 'SCRIPT' not in locals():
     SCRIPT = False
@@ -107,7 +105,6 @@ def stop(good=False):
 # We translate the utf sequences found in the MQL source into real unicode characters:
 
 # In[3]:
-
 
 if not SCRIPT:
     import unicodedata
@@ -155,7 +152,6 @@ if not SCRIPT:
 
 # In[4]:
 
-
 repoBase = os.path.expanduser('~/github/etcbc')
 thisRepo = '{}/{}'.format(repoBase, CORE_NAME)
 
@@ -170,7 +166,6 @@ thisTf = '{}/tf/{}'.format(thisRepo, VERSION)
 
 # In[5]:
 
-
 testFeature = 'lex0'
 
 
@@ -180,7 +175,6 @@ testFeature = 'lex0'
 # Only when run as a script.
 
 # In[6]:
-
 
 if SCRIPT:
     (good, work) = utils.mustRun(None, '{}/.tf/{}.tfx'.format(thisTf, testFeature), force=FORCE)
@@ -198,7 +192,6 @@ if SCRIPT:
 # We do not do this for the older versions 4 and 4b.
 
 # In[7]:
-
 
 provenanceMetadata = dict(
     dataset='BHSA',
@@ -229,7 +222,6 @@ else:
 
 # In[8]:
 
-
 utils.caption(4, 'Load the existing TF dataset')
 TF = Fabric(locations=thisTf, modules=[''])
 vocLex = ' g_voc_lex g_voc_lex_utf8 ' if DO_VOCALIZED_LEXEME else ''
@@ -247,7 +239,6 @@ api.makeAvailableIn(globals())
 # This stage does not yet involve the lexical files.
 
 # In[9]:
-
 
 utils.caption(4, 'Collect lexemes from the text')
 
@@ -304,7 +295,6 @@ for lan in sorted(lexText):
 # Here we are going to read the lexicons, one for Aramaic, and one for Hebrew.
 
 # In[10]:
-
 
 utils.caption(4, 'Collect lexeme info from the lexicon')
 
@@ -377,7 +367,6 @@ utils.caption(0, 'Done')
 
 # In[11]:
 
-
 utils.caption(4, 'Test - Match between text and lexicon')
 
 arcLex = set(lexEntries['arc'])
@@ -435,7 +424,6 @@ for (myset, mymsg) in (
 # Supposing it is all consistent, we will call the new lexeme features `voc_lex` and `voc_lex_utf8`.
 
 # In[12]:
-
 
 utils.caption(4, 'Test - Consistency of vocalized lexeme')
 
@@ -497,7 +485,6 @@ else:
 
 # In[13]:
 
-
 utils.caption(4, 'Prepare TF lexical features')
 
 nodeFeatures = {}
@@ -539,7 +526,6 @@ for (lan, lexemes) in lexEntries.items():
 
 # In[14]:
 
-
 utils.caption(4, 'Various tweaks in features')
 
 nodeFeatures['lex0'] = {}
@@ -559,7 +545,6 @@ for n in F.otype.s('word'):
 # We update the `otype`, `otext` and `oslots` features.
 
 # In[15]:
-
 
 utils.caption(4, 'Update the otype, oslots and otext features')
 metaData = {}
@@ -584,7 +569,6 @@ edgeFeatures['oslots'].update(oslotsData)
 
 # In[16]:
 
-
 utils.caption(0, 'Features that have new or modified data')
 for f in sorted(nodeFeatures) + sorted(edgeFeatures):
     utils.caption(0, '\t{}'.format(f))
@@ -599,7 +583,6 @@ if DO_VOCALIZED_LEXEME:
 # We specify the features to delete and list the new/changed features.
 
 # In[17]:
-
 
 deleteFeatures = set('''
     g_voc_lex
@@ -616,7 +599,6 @@ else:
 
 # In[18]:
 
-
 changedDataFeatures = set(nodeFeatures) | set(edgeFeatures)
 changedFeatures = changedDataFeatures | {'otext'}
 
@@ -626,7 +608,6 @@ changedFeatures = changedDataFeatures | {'otext'}
 # out to `.tf` files.
 
 # In[19]:
-
 
 utils.caption(4, 'write new/changed features to TF ...')
 TF = Fabric(locations=thisTempTf, silent=True)
@@ -650,7 +631,6 @@ TF.save(nodeFeatures=nodeFeatures, edgeFeatures=edgeFeatures, metaData=metaData)
 
 # In[20]:
 
-
 utils.checkDiffs(thisTempTf, thisTf, only=changedFeatures)
 
 
@@ -660,7 +640,6 @@ utils.checkDiffs(thisTempTf, thisTf, only=changedFeatures)
 
 # In[21]:
 
-
 utils.deliverFeatures(thisTempTf, thisTf, changedFeatures, deleteFeatures=deleteFeatures)
 
 
@@ -669,7 +648,6 @@ utils.deliverFeatures(thisTempTf, thisTf, changedFeatures, deleteFeatures=delete
 # We load the new features, use the new format, check some values
 
 # In[22]:
-
 
 utils.caption(4, 'Load and compile the new TF features')
 
@@ -681,7 +659,6 @@ api.makeAvailableIn(globals())
 # # Examples
 
 # In[23]:
-
 
 features = [f[1] for f in lexFields] + (['voc_lex', 'voc_lex_utf8'] if DO_VOCALIZED_LEXEME else [])
 
@@ -714,7 +691,6 @@ for w in range(1, 12): showLex(L.u(w, otype='lex')[0])
 
 
 # In[ ]:
-
 
 
 

@@ -8,7 +8,7 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-06T06:35:32Z
+@dateWritten=2017-10-06T14:24:40Z
 
 NA
 f
@@ -16572,6 +16572,7 @@ m
 NA
 m
 NA
+NA
 m
 m
 NA
@@ -113772,7 +113773,7 @@ f
 NA
 m
 NA
-m
+f
 NA
 unknown
 m
@@ -113854,7 +113855,7 @@ m
 NA
 f
 NA
-m
+f
 NA
 f
 NA
@@ -235843,7 +235844,7 @@ NA
 NA
 f
 f
-m
+f
 NA
 unknown
 NA
@@ -358610,7 +358611,7 @@ NA
 m
 NA
 NA
-m
+f
 m
 m
 NA
@@ -392494,9 +392495,11 @@ m
 m
 unknown
 m
-unknown
+m
 NA
 f
+NA
+f
 unknown
 NA
 m
@@ -424602,7 +424605,7 @@ NA
 m
 m
 NA
-unknown
+m
 NA
 m
 NA
