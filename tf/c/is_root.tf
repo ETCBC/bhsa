@@ -8,9 +8,9 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-06T06:35:32Z
+@dateWritten=2017-10-06T14:24:41Z
 
-515550	true
+515654	true
 false
 false
 false
@@ -144,9 +144,6 @@ false
 false
 false
 false
-false
-false
-false
 true
 false
 false
@@ -350,6 +347,7 @@ false
 false
 false
 true
+false
 false
 false
 false
@@ -1104,6 +1102,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -1160,7 +1159,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -1171,6 +1169,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -2768,7 +2767,6 @@ false
 false
 false
 true
-false
 false
 false
 false
@@ -3651,6 +3649,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -4217,6 +4216,7 @@ false
 false
 false
 true
+false
 false
 false
 false
@@ -5116,7 +5116,9 @@ false
 false
 false
 false
+false
 true
+false
 false
 false
 false
@@ -5287,7 +5289,9 @@ false
 false
 false
 false
+false
 true
+false
 false
 false
 false
@@ -5443,6 +5447,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -5994,7 +5999,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -6016,7 +6020,7 @@ false
 false
 false
 false
-true
+false
 false
 false
 false
@@ -6039,6 +6043,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -6552,7 +6557,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -6602,6 +6606,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -7126,7 +7131,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -7190,6 +7194,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -7208,7 +7213,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -7329,6 +7333,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -7970,7 +7975,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -8058,6 +8062,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -8678,7 +8683,6 @@ false
 false
 false
 true
-false
 false
 false
 false
@@ -10010,7 +10014,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -10022,8 +10025,8 @@ false
 false
 false
 false
-true
 false
+true
 false
 false
 false
@@ -10577,7 +10580,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -10598,6 +10600,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -10713,6 +10716,7 @@ false
 false
 false
 true
+false
 false
 false
 false
@@ -10771,7 +10775,9 @@ false
 false
 false
 false
+false
 true
+false
 false
 false
 false
@@ -11266,6 +11272,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -12075,7 +12082,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -12112,7 +12118,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -12176,7 +12181,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -12207,6 +12211,9 @@ false
 false
 false
 false
+false
+false
+false
 true
 false
 false
@@ -12230,7 +12237,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -12291,7 +12297,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -12326,7 +12331,8 @@ false
 false
 false
 false
-true
+false
+false
 false
 false
 false
@@ -12361,6 +12367,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -13542,7 +13549,6 @@ false
 false
 false
 true
-false
 false
 false
 false
@@ -13712,9 +13718,9 @@ false
 false
 false
 false
-false
 true
 false
+true
 false
 false
 false
@@ -14407,7 +14413,7 @@ false
 false
 false
 false
-true
+false
 false
 false
 false
@@ -14866,7 +14872,7 @@ false
 false
 false
 false
-true
+false
 false
 false
 false
@@ -16536,6 +16542,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -16670,6 +16677,7 @@ false
 false
 false
 true
+false
 false
 false
 false
@@ -17415,6 +17423,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -17676,9 +17685,9 @@ false
 false
 false
 false
-true
 false
 false
+false
 true
 false
 false
@@ -17747,7 +17756,6 @@ false
 false
 false
 true
-false
 false
 false
 false
@@ -18588,6 +18596,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -18843,7 +18852,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -18923,6 +18931,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -19151,7 +19160,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -19159,6 +19167,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -20466,7 +20475,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -20484,6 +20492,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -20742,11 +20751,11 @@ false
 false
 false
 false
-true
 false
 false
 false
 false
+false
 true
 false
 false
@@ -20834,15 +20843,6 @@ false
 false
 false
 true
-false
-false
-false
-false
-false
-false
-false
-false
-false
 false
 false
 false
@@ -20899,46 +20899,54 @@ false
 false
 false
 false
-false
-false
+true
 false
 false
 false
+true
 false
 false
 false
+true
 false
 false
 false
+true
 false
 false
 false
+true
 false
 false
 false
 false
+true
 false
 false
 false
+true
 false
 false
 false
+true
 false
 false
 false
+true
 false
 false
 false
+true
 false
 false
 false
 false
+true
 false
 false
 false
 false
 true
-false
 false
 false
 false
@@ -21204,6 +21212,7 @@ false
 false
 false
 false
+true
 false
 false
 false
@@ -21602,7 +21611,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -21745,6 +21753,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -22252,7 +22261,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -22315,6 +22323,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -22409,7 +22418,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -22528,6 +22536,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -22831,6 +22840,9 @@ false
 false
 false
 true
+false
+false
+false
 false
 false
 false
@@ -22943,6 +22955,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -23283,6 +23296,7 @@ false
 false
 false
 true
+false
 false
 false
 false
@@ -24147,7 +24161,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -24166,7 +24179,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -24179,6 +24191,8 @@ false
 false
 false
 false
+false
+false
 true
 false
 false
@@ -24457,6 +24471,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -24539,7 +24554,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -24554,6 +24568,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -24792,7 +24807,6 @@ false
 false
 true
 false
-true
 false
 false
 false
@@ -24803,7 +24817,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -24828,7 +24841,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -24919,6 +24931,8 @@ false
 false
 false
 false
+false
+false
 true
 false
 false
@@ -25921,6 +25935,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -25986,6 +26001,7 @@ false
 false
 false
 true
+false
 false
 false
 false
@@ -26219,6 +26235,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -26518,6 +26535,7 @@ false
 false
 false
 true
+false
 false
 false
 false
@@ -26740,6 +26758,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -29495,7 +29514,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -29518,7 +29536,9 @@ false
 false
 false
 false
+false
 true
+false
 false
 false
 false
@@ -30705,6 +30725,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -30849,6 +30870,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -31572,6 +31594,7 @@ false
 false
 false
 true
+false
 false
 false
 false
@@ -32128,6 +32151,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -32263,7 +32287,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -32343,6 +32366,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -33512,6 +33536,7 @@ false
 false
 false
 true
+false
 false
 false
 false
@@ -33916,6 +33941,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -34559,6 +34585,7 @@ false
 false
 false
 true
+false
 false
 false
 false
@@ -35034,6 +35061,8 @@ false
 false
 false
 true
+false
+false
 false
 false
 false
@@ -36184,7 +36213,7 @@ false
 false
 false
 false
-true
+false
 false
 false
 false
@@ -36837,6 +36866,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -36952,7 +36982,6 @@ false
 false
 true
 false
-true
 false
 false
 false
@@ -37088,6 +37117,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -37915,7 +37945,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -37973,7 +38002,7 @@ false
 false
 false
 false
-true
+false
 false
 false
 false
@@ -38017,6 +38046,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -38533,6 +38563,7 @@ false
 false
 false
 true
+false
 false
 false
 false
@@ -38659,6 +38690,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -39022,7 +39054,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -39081,6 +39112,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -39282,6 +39314,7 @@ false
 false
 false
 true
+false
 false
 false
 false
@@ -39423,6 +39456,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -39951,7 +39985,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -39979,6 +40012,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -40076,6 +40110,7 @@ false
 false
 false
 true
+false
 false
 false
 false
@@ -41054,7 +41089,7 @@ false
 false
 false
 false
-true
+false
 false
 false
 false
@@ -41320,6 +41355,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -41590,6 +41626,7 @@ false
 false
 false
 true
+false
 false
 false
 false
@@ -42151,7 +42188,7 @@ false
 false
 false
 false
-true
+false
 false
 false
 false
@@ -42187,6 +42224,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -42314,7 +42352,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -42349,6 +42386,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -42360,7 +42398,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -42445,6 +42482,8 @@ false
 false
 false
 false
+false
+false
 true
 false
 false
@@ -42648,6 +42687,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -43728,7 +43768,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -43759,7 +43798,9 @@ false
 false
 false
 false
+false
 true
+false
 false
 false
 false
@@ -43885,7 +43926,9 @@ false
 false
 false
 false
+false
 true
+false
 false
 false
 false
@@ -43990,6 +44033,8 @@ false
 false
 false
 false
+false
+false
 true
 false
 false
@@ -44141,6 +44186,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -44268,7 +44314,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -44370,6 +44415,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -44704,7 +44750,8 @@ false
 false
 false
 false
-true
+false
+false
 false
 false
 false
@@ -45291,8 +45338,8 @@ false
 false
 false
 false
-false
 true
+false
 false
 false
 false
@@ -45490,7 +45537,7 @@ false
 false
 false
 false
-true
+false
 false
 false
 false
@@ -45590,7 +45637,9 @@ false
 false
 false
 false
+false
 true
+false
 false
 false
 false
@@ -45754,7 +45803,7 @@ false
 false
 false
 false
-true
+false
 false
 false
 false
@@ -46131,6 +46180,8 @@ false
 false
 false
 false
+false
+false
 true
 false
 false
@@ -46584,7 +46635,7 @@ false
 false
 false
 false
-true
+false
 false
 false
 false
@@ -47257,11 +47308,11 @@ false
 false
 false
 false
-true
 false
 false
 false
 true
+false
 false
 false
 false
@@ -47435,6 +47486,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -47526,7 +47578,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -47563,6 +47614,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -47828,7 +47880,6 @@ false
 false
 false
 true
-false
 false
 false
 false
@@ -48405,7 +48456,9 @@ false
 false
 false
 false
+false
 true
+false
 false
 false
 false
@@ -48557,6 +48610,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -48669,6 +48723,7 @@ false
 false
 false
 true
+false
 false
 false
 false
@@ -48786,6 +48841,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -48898,6 +48954,7 @@ false
 false
 false
 true
+false
 false
 false
 false
@@ -49009,6 +49066,8 @@ false
 false
 false
 false
+false
+false
 true
 false
 false
@@ -49333,7 +49392,9 @@ false
 false
 false
 false
+false
 true
+false
 false
 false
 false
@@ -49545,6 +49606,8 @@ false
 false
 false
 false
+false
+false
 true
 false
 false
@@ -49777,6 +49840,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -49848,8 +49912,8 @@ false
 false
 false
 false
-true
 false
+true
 false
 false
 false
@@ -50150,6 +50214,9 @@ false
 false
 false
 true
+false
+false
+false
 false
 false
 false
@@ -50347,6 +50414,9 @@ false
 false
 false
 false
+false
+false
+false
 true
 false
 false
@@ -50394,6 +50464,7 @@ false
 false
 false
 true
+false
 false
 false
 false
@@ -50803,7 +50874,9 @@ false
 false
 false
 false
+false
 true
+false
 false
 false
 false
@@ -51268,6 +51341,8 @@ false
 false
 false
 true
+false
+false
 false
 false
 false
@@ -51542,7 +51617,7 @@ false
 false
 false
 false
-true
+false
 false
 false
 false
@@ -51676,7 +51751,9 @@ false
 false
 false
 false
+false
 true
+false
 false
 false
 false
@@ -51765,7 +51842,9 @@ false
 false
 false
 false
+false
 true
+false
 false
 false
 false
@@ -51933,7 +52012,7 @@ false
 false
 false
 false
-true
+false
 false
 false
 false
@@ -52505,6 +52584,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -52565,6 +52645,7 @@ false
 false
 false
 true
+false
 false
 false
 false
@@ -52910,6 +52991,8 @@ false
 false
 false
 true
+false
+false
 false
 false
 false
@@ -53156,7 +53239,7 @@ false
 false
 false
 false
-true
+false
 false
 false
 false
@@ -53285,7 +53368,9 @@ false
 false
 false
 false
+false
 true
+false
 false
 false
 false
@@ -53785,6 +53870,9 @@ false
 false
 false
 false
+false
+false
+false
 true
 false
 false
@@ -53942,7 +54030,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -53976,7 +54063,9 @@ false
 false
 false
 false
-true
+false
+false
+false
 false
 false
 false
@@ -54024,6 +54113,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -54153,7 +54243,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -54167,7 +54256,7 @@ false
 false
 false
 false
-true
+false
 false
 false
 false
@@ -54218,6 +54307,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -54294,6 +54384,7 @@ false
 false
 false
 true
+false
 false
 false
 false
@@ -54380,6 +54471,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -54731,6 +54823,8 @@ false
 false
 false
 true
+false
+false
 false
 false
 false
@@ -54796,7 +54890,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -54824,8 +54917,8 @@ false
 false
 false
 false
-false
 true
+false
 false
 false
 false
@@ -55188,7 +55281,8 @@ false
 false
 false
 false
-true
+false
+false
 false
 false
 false
@@ -55331,7 +55425,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -55343,7 +55436,9 @@ false
 false
 false
 false
+false
 true
+false
 false
 false
 false
@@ -55725,6 +55820,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -55840,7 +55936,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -55859,14 +55954,14 @@ false
 false
 false
 false
-true
 false
 false
 false
 false
 false
 false
-true
+false
+false
 false
 false
 false
@@ -55897,6 +55992,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -55951,6 +56047,8 @@ false
 false
 false
 true
+false
+false
 false
 false
 false
@@ -56309,7 +56407,8 @@ false
 false
 false
 false
-true
+false
+false
 false
 false
 false
@@ -56378,7 +56477,7 @@ false
 false
 false
 false
-true
+false
 false
 false
 false
@@ -56486,6 +56585,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -56881,7 +56981,6 @@ false
 false
 false
 true
-false
 false
 false
 false
@@ -56974,7 +57073,6 @@ false
 false
 false
 false
-false
 true
 false
 false
@@ -57084,7 +57182,7 @@ false
 false
 false
 false
-true
+false
 false
 false
 false
@@ -57634,7 +57732,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -57667,7 +57764,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -57676,7 +57772,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -57699,7 +57794,11 @@ false
 false
 false
 false
-true
+false
+false
+false
+false
+false
 false
 false
 false
@@ -57937,7 +58036,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -57955,7 +58053,7 @@ false
 false
 false
 false
-true
+false
 false
 false
 false
@@ -57987,6 +58085,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -58169,7 +58268,6 @@ false
 false
 false
 false
-false
 true
 false
 false
@@ -58324,7 +58422,6 @@ false
 false
 false
 true
-false
 false
 false
 false
@@ -58431,7 +58528,6 @@ false
 false
 false
 false
-false
 true
 false
 false
@@ -59025,7 +59121,7 @@ false
 false
 false
 false
-true
+false
 false
 false
 false
@@ -59272,7 +59368,7 @@ false
 false
 false
 false
-true
+false
 false
 false
 false
@@ -59718,7 +59814,6 @@ false
 false
 false
 false
-false
 true
 false
 false
@@ -60301,7 +60396,6 @@ false
 false
 false
 true
-false
 false
 false
 false
@@ -60894,6 +60988,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -61225,6 +61320,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -61637,6 +61733,7 @@ false
 false
 false
 true
+false
 false
 false
 false
@@ -62119,7 +62216,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -62166,6 +62262,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -62203,7 +62300,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -62224,6 +62320,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -62935,6 +63032,8 @@ false
 false
 false
 true
+false
+false
 false
 false
 false
@@ -63173,7 +63272,7 @@ false
 false
 false
 false
-false
+true
 false
 false
 false
@@ -63621,7 +63720,6 @@ false
 false
 false
 true
-false
 false
 false
 false
@@ -63654,7 +63752,7 @@ false
 false
 false
 false
-false
+true
 false
 false
 false
@@ -63682,6 +63780,7 @@ false
 false
 false
 false
+true
 false
 false
 false
@@ -63771,7 +63870,7 @@ false
 false
 false
 false
-false
+true
 false
 false
 false
@@ -63955,7 +64054,6 @@ false
 false
 false
 true
-false
 false
 false
 false
@@ -64046,7 +64144,6 @@ false
 false
 false
 false
-false
 true
 false
 false
@@ -64218,6 +64315,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -64387,8 +64485,8 @@ false
 false
 false
 true
-false
 false
+true
 false
 false
 false
@@ -64418,10 +64516,10 @@ false
 false
 false
 true
-false
 false
 false
 false
+true
 false
 false
 false
@@ -64454,9 +64552,9 @@ false
 false
 false
 true
-false
 false
 false
+true
 false
 false
 false
@@ -64500,7 +64598,7 @@ true
 false
 false
 false
-false
+true
 false
 false
 false
@@ -64536,7 +64634,7 @@ false
 false
 true
 false
-false
+true
 false
 false
 false
@@ -64592,9 +64690,9 @@ false
 false
 false
 true
-false
 false
 false
+true
 false
 false
 false
@@ -64620,7 +64718,7 @@ false
 true
 false
 false
-false
+true
 false
 false
 false
@@ -64750,7 +64848,7 @@ false
 false
 true
 false
-false
+true
 false
 false
 false
@@ -64775,7 +64873,7 @@ false
 true
 false
 false
-false
+true
 false
 false
 false
@@ -64806,7 +64904,7 @@ false
 false
 true
 false
-false
+true
 false
 false
 false
@@ -64827,8 +64925,8 @@ false
 false
 false
 true
-false
 false
+true
 false
 false
 false
@@ -64854,7 +64952,7 @@ false
 false
 false
 true
-false
+true
 false
 false
 false
@@ -64873,7 +64971,7 @@ false
 false
 false
 true
-false
+true
 false
 false
 false
@@ -64907,7 +65005,7 @@ false
 false
 false
 true
-false
+true
 false
 false
 false
@@ -65107,8 +65205,8 @@ false
 false
 false
 true
-false
 false
+true
 false
 false
 false
@@ -65151,8 +65249,8 @@ false
 false
 false
 true
-false
 false
+true
 false
 false
 false
@@ -65180,7 +65278,7 @@ false
 false
 true
 false
-false
+true
 false
 false
 false
@@ -65217,7 +65315,7 @@ false
 true
 false
 false
-false
+true
 false
 false
 false
@@ -65321,7 +65419,7 @@ false
 false
 false
 true
-false
+true
 false
 false
 false
@@ -65339,6 +65437,7 @@ false
 false
 true
 false
+true
 false
 false
 false
@@ -65346,7 +65445,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -65375,7 +65473,7 @@ false
 false
 false
 true
-false
+true
 false
 false
 false
@@ -65441,7 +65539,7 @@ false
 false
 false
 true
-false
+true
 false
 false
 false
@@ -65473,11 +65571,11 @@ false
 false
 false
 true
+true
 false
 false
 false
 false
-true
 false
 false
 false
@@ -65529,9 +65627,7 @@ false
 false
 false
 true
-false
-false
-false
+true
 false
 false
 false
@@ -65551,6 +65647,7 @@ false
 false
 false
 false
+true
 false
 false
 false
@@ -65559,11 +65656,12 @@ false
 false
 false
 false
+true
 false
 false
 false
 true
-false
+true
 false
 false
 false
@@ -65589,7 +65687,7 @@ false
 false
 true
 false
-false
+true
 false
 false
 false
@@ -65635,7 +65733,7 @@ false
 false
 true
 false
-false
+true
 false
 false
 false
@@ -65720,8 +65818,8 @@ false
 false
 false
 true
-false
 false
+true
 false
 false
 false
@@ -65819,7 +65917,7 @@ true
 false
 false
 false
-false
+true
 false
 false
 false
@@ -65882,7 +65980,7 @@ false
 false
 false
 true
-false
+true
 false
 false
 false
@@ -65980,8 +66078,8 @@ false
 false
 false
 true
-false
 false
+true
 false
 false
 false
@@ -66018,7 +66116,7 @@ false
 false
 false
 true
-false
+true
 false
 false
 false
@@ -66138,8 +66236,8 @@ false
 false
 false
 true
-false
 false
+true
 false
 false
 false
@@ -66208,7 +66306,7 @@ false
 false
 true
 false
-false
+true
 false
 false
 false
@@ -66264,6 +66362,7 @@ false
 true
 false
 false
+true
 false
 false
 false
@@ -66292,7 +66391,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -66339,8 +66437,8 @@ false
 false
 false
 true
-false
 false
+true
 false
 false
 false
@@ -66389,7 +66487,7 @@ false
 false
 true
 false
-false
+true
 false
 false
 false
@@ -66450,7 +66548,7 @@ false
 true
 false
 false
-false
+true
 false
 false
 false
@@ -66522,7 +66620,7 @@ false
 false
 false
 false
-false
+true
 false
 false
 false
@@ -66573,7 +66671,7 @@ true
 false
 false
 false
-false
+true
 false
 false
 false
@@ -66611,9 +66709,9 @@ false
 false
 false
 true
-false
 false
 false
+true
 false
 false
 false
@@ -66639,7 +66737,7 @@ false
 true
 false
 false
-false
+true
 false
 false
 false
@@ -66678,7 +66776,7 @@ false
 true
 false
 false
-false
+true
 false
 false
 false
@@ -66737,7 +66835,7 @@ false
 false
 false
 true
-false
+true
 false
 false
 false
@@ -66808,7 +66906,7 @@ true
 false
 false
 false
-false
+true
 false
 false
 false
@@ -66870,7 +66968,7 @@ false
 false
 false
 false
-false
+true
 false
 false
 false
@@ -66901,9 +66999,9 @@ false
 false
 false
 true
-false
 false
 false
+true
 false
 false
 false
@@ -66935,7 +67033,7 @@ false
 false
 false
 false
-false
+true
 false
 false
 false
@@ -66958,7 +67056,7 @@ false
 true
 false
 false
-false
+true
 false
 false
 false
@@ -67031,11 +67129,11 @@ false
 false
 false
 true
-false
 false
 false
 false
 false
+true
 false
 false
 false
@@ -67077,11 +67175,11 @@ false
 false
 false
 true
-false
 false
 false
 false
 false
+true
 false
 false
 false
@@ -67128,10 +67226,10 @@ false
 false
 false
 true
-false
 false
 false
 false
+true
 false
 false
 false
@@ -67169,7 +67267,7 @@ false
 false
 false
 false
-false
+true
 false
 false
 false
@@ -67238,7 +67336,7 @@ false
 false
 false
 false
-false
+true
 false
 false
 false
@@ -67281,9 +67379,9 @@ false
 false
 false
 true
-false
 false
 false
+true
 false
 false
 false
@@ -67311,7 +67409,7 @@ false
 true
 false
 false
-false
+true
 false
 false
 false
@@ -67359,7 +67457,7 @@ false
 false
 true
 false
-false
+true
 false
 false
 false
@@ -67387,10 +67485,8 @@ false
 false
 false
 true
-false
-false
 false
-false
+true
 false
 false
 false
@@ -67409,6 +67505,7 @@ false
 false
 false
 false
+true
 false
 false
 false
@@ -67417,12 +67514,13 @@ false
 false
 false
 false
+true
 false
 false
 true
 false
 false
-false
+true
 false
 false
 false
@@ -67464,7 +67562,7 @@ false
 false
 true
 false
-false
+true
 false
 false
 false
@@ -67522,9 +67620,9 @@ false
 false
 false
 true
-false
 false
 false
+true
 false
 false
 false
@@ -67549,6 +67647,7 @@ false
 true
 false
 false
+true
 false
 false
 false
@@ -67570,7 +67669,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -67664,9 +67762,9 @@ false
 false
 false
 true
-false
 false
 false
+true
 false
 false
 false
@@ -67783,7 +67881,6 @@ false
 true
 false
 false
-false
 true
 false
 false
@@ -67807,8 +67904,8 @@ false
 false
 false
 false
-true
 false
+true
 false
 false
 false
@@ -67895,9 +67992,10 @@ false
 false
 false
 false
-true
 false
 false
+true
+true
 false
 false
 false
@@ -67944,7 +68042,8 @@ false
 false
 false
 true
-false
+true
+true
 false
 false
 false
@@ -68014,7 +68113,7 @@ false
 false
 false
 true
-false
+true
 false
 false
 false
@@ -68080,7 +68179,7 @@ true
 false
 false
 false
-false
+true
 false
 false
 false
@@ -68112,10 +68211,10 @@ false
 false
 false
 true
-false
 false
 false
 false
+true
 false
 false
 false
@@ -68150,7 +68249,7 @@ true
 false
 false
 false
-false
+true
 false
 false
 false
@@ -68214,16 +68313,16 @@ false
 false
 false
 true
-false
+true
 false
 false
 false
 false
 false
-true
 false
 false
 false
+true
 false
 false
 false
@@ -68402,7 +68501,7 @@ false
 false
 false
 true
-false
+true
 false
 false
 false
@@ -68443,10 +68542,10 @@ false
 false
 false
 true
-false
 false
 false
 false
+true
 false
 false
 false
@@ -68506,7 +68605,7 @@ false
 true
 false
 false
-false
+true
 false
 false
 false
@@ -68551,7 +68650,7 @@ false
 false
 false
 true
-false
+true
 false
 false
 false
@@ -68574,8 +68673,8 @@ false
 false
 false
 true
-false
 false
+true
 false
 false
 false
@@ -68625,7 +68724,7 @@ true
 false
 false
 false
-false
+true
 false
 false
 false
@@ -68669,7 +68768,7 @@ false
 true
 false
 false
-false
+true
 false
 false
 false
@@ -68705,7 +68804,7 @@ false
 false
 false
 true
-false
+true
 false
 false
 false
@@ -68777,7 +68876,7 @@ false
 true
 false
 false
-false
+true
 false
 false
 false
@@ -68796,12 +68895,12 @@ false
 false
 false
 true
-false
 false
 false
 false
 false
 false
+true
 false
 false
 false
@@ -68854,9 +68953,7 @@ false
 false
 false
 true
-false
-false
-false
+true
 false
 false
 false
@@ -68990,6 +69087,8 @@ false
 false
 true
 false
+true
+true
 false
 false
 false
@@ -69092,6 +69191,7 @@ false
 false
 true
 false
+true
 false
 false
 false
@@ -69120,7 +69220,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -69289,7 +69388,6 @@ false
 false
 false
 true
-false
 false
 false
 false
@@ -69306,7 +69404,7 @@ false
 false
 false
 false
-false
+true
 false
 false
 false
@@ -69314,6 +69412,7 @@ false
 false
 false
 false
+true
 false
 false
 false
@@ -69324,7 +69423,7 @@ false
 false
 false
 true
-false
+true
 false
 false
 false
@@ -69378,7 +69477,7 @@ false
 false
 false
 true
-false
+true
 false
 false
 false
@@ -69396,7 +69495,7 @@ false
 false
 true
 false
-false
+true
 false
 false
 false
@@ -69426,7 +69525,7 @@ false
 true
 false
 false
-false
+true
 false
 false
 false
@@ -69504,7 +69603,7 @@ false
 false
 false
 true
-false
+true
 false
 false
 false
@@ -69697,7 +69796,7 @@ false
 false
 false
 false
-true
+false
 false
 false
 false
@@ -69986,7 +70085,7 @@ false
 false
 true
 false
-false
+true
 false
 false
 false
@@ -70030,9 +70129,9 @@ false
 false
 false
 true
-false
 false
 false
+true
 false
 false
 false
@@ -70122,7 +70221,7 @@ false
 false
 true
 false
-false
+true
 false
 false
 false
@@ -70208,9 +70307,9 @@ false
 false
 false
 false
-true
 false
 false
+true
 false
 false
 false
@@ -70833,7 +70932,7 @@ false
 false
 false
 true
-false
+true
 false
 false
 false
@@ -70853,7 +70952,7 @@ false
 false
 false
 true
-false
+true
 false
 false
 false
@@ -70871,8 +70970,8 @@ false
 false
 false
 true
-false
 false
+true
 false
 false
 false
@@ -70893,7 +70992,7 @@ false
 false
 false
 true
-false
+true
 false
 false
 false
@@ -70927,7 +71026,7 @@ false
 false
 true
 false
-false
+true
 false
 false
 false
@@ -70942,8 +71041,8 @@ false
 false
 false
 true
-false
 false
+true
 false
 false
 false
@@ -70963,8 +71062,8 @@ false
 false
 false
 true
-false
 false
+true
 false
 false
 false
@@ -70984,7 +71083,7 @@ false
 false
 false
 true
-false
+true
 false
 false
 false
@@ -71000,7 +71099,7 @@ false
 false
 false
 true
-false
+true
 false
 false
 false
@@ -71019,7 +71118,7 @@ false
 false
 false
 true
-false
+true
 false
 false
 false
@@ -71043,8 +71142,8 @@ false
 false
 false
 true
-false
 false
+true
 false
 false
 false
@@ -71055,7 +71154,7 @@ false
 false
 false
 true
-false
+true
 false
 false
 false
@@ -71097,7 +71196,7 @@ false
 false
 true
 false
-false
+true
 false
 false
 false
@@ -71109,7 +71208,7 @@ false
 false
 false
 true
-false
+true
 false
 false
 false
@@ -71257,7 +71356,7 @@ false
 false
 false
 true
-false
+true
 false
 false
 false
@@ -71285,6 +71384,7 @@ false
 true
 false
 false
+true
 false
 false
 false
@@ -71292,7 +71392,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -71367,7 +71466,7 @@ false
 false
 true
 false
-false
+true
 false
 false
 false
@@ -71414,6 +71513,7 @@ false
 false
 false
 true
+true
 false
 false
 false
@@ -71439,7 +71539,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -71454,9 +71553,9 @@ false
 false
 false
 true
-false
 false
 false
+true
 false
 false
 false
@@ -71484,7 +71583,7 @@ false
 false
 false
 true
-false
+true
 false
 false
 false
@@ -71528,7 +71627,7 @@ false
 false
 false
 true
-false
+true
 false
 false
 false
@@ -71583,7 +71682,7 @@ false
 false
 false
 true
-false
+true
 false
 false
 false
@@ -71721,11 +71820,7 @@ false
 false
 false
 true
-false
-false
-false
-false
-false
+true
 false
 false
 false
@@ -71738,11 +71833,13 @@ false
 false
 false
 false
+true
 false
 false
 false
 false
 false
+true
 false
 false
 false
@@ -71754,11 +71851,13 @@ false
 false
 false
 false
+true
 false
 false
 false
 false
 true
+true
 false
 false
 false
@@ -72426,7 +72525,7 @@ false
 false
 false
 false
-true
+false
 false
 false
 false
@@ -73014,7 +73113,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -73022,6 +73120,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -73832,7 +73931,6 @@ false
 false
 false
 true
-false
 false
 false
 false
@@ -73930,6 +74028,7 @@ false
 false
 false
 true
+true
 false
 false
 false
@@ -74368,7 +74467,7 @@ false
 false
 false
 false
-true
+false
 false
 false
 false
@@ -74573,6 +74672,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -75506,11 +75606,10 @@ false
 false
 false
 false
-true
 false
 false
 false
-true
+false
 false
 false
 false
@@ -75527,6 +75626,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -76231,6 +76331,8 @@ false
 false
 false
 true
+false
+false
 false
 false
 false
@@ -76918,9 +77020,6 @@ false
 false
 false
 false
-false
-false
-true
 false
 false
 false
@@ -76943,7 +77042,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -76973,11 +77071,11 @@ false
 false
 false
 false
-true
 false
 false
 false
 false
+true
 false
 false
 false
@@ -77051,11 +77149,11 @@ false
 false
 false
 false
-true
 false
 false
 false
 false
+true
 false
 false
 false
@@ -77921,13 +78019,11 @@ false
 false
 false
 false
-true
 false
 false
 false
 false
 false
-true
 false
 false
 false
@@ -77963,6 +78059,8 @@ false
 false
 false
 false
+false
+false
 true
 false
 false
@@ -78914,7 +79012,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -78953,6 +79050,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -79207,7 +79305,7 @@ false
 false
 false
 false
-true
+false
 false
 false
 false
@@ -79405,7 +79503,7 @@ false
 false
 false
 false
-false
+true
 false
 false
 false
@@ -79451,6 +79549,7 @@ false
 false
 false
 false
+true
 false
 false
 false
@@ -79464,7 +79563,6 @@ false
 false
 false
 false
-true
 false
 false
 true
@@ -79536,7 +79634,7 @@ false
 false
 false
 false
-true
+false
 false
 false
 false
@@ -79894,7 +79992,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -79929,7 +80026,9 @@ false
 false
 false
 false
+false
 true
+false
 false
 false
 false
@@ -80015,6 +80114,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -80140,7 +80240,7 @@ false
 false
 false
 false
-true
+false
 false
 false
 false
@@ -80507,7 +80607,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -80527,6 +80626,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -81693,7 +81793,6 @@ false
 false
 false
 true
-false
 false
 false
 false
@@ -82089,6 +82188,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -82324,7 +82424,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -82353,6 +82452,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -83015,12 +83115,12 @@ false
 false
 false
 false
-true
 false
 false
 false
 false
 false
+false
 true
 false
 false
@@ -83104,7 +83204,7 @@ false
 false
 false
 true
-true
+false
 false
 false
 false
@@ -83300,7 +83400,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -83390,6 +83489,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -84929,6 +85029,7 @@ false
 false
 false
 true
+false
 false
 false
 false
@@ -85194,6 +85295,12 @@ false
 false
 false
 false
+false
+false
+false
+false
+false
+false
 true
 false
 false
@@ -85771,6 +85878,7 @@ false
 false
 false
 true
+false
 false
 false
 false
@@ -87168,7 +87276,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -87202,6 +87309,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -87464,7 +87572,6 @@ false
 false
 false
 true
-false
 false
 false
 false
@@ -88087,7 +88194,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -88108,6 +88214,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -88133,7 +88240,6 @@ false
 false
 false
 false
-true
 false
 false
 false
@@ -88181,6 +88287,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -89247,7 +89354,7 @@ false
 false
 false
 false
-true
+false
 false
 false
 false
@@ -89755,7 +89862,7 @@ false
 false
 false
 false
-true
+false
 false
 false
 false
@@ -90281,7 +90388,7 @@ false
 false
 false
 false
-true
+false
 false
 false
 false

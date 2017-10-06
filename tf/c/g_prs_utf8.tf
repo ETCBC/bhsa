@@ -8,7 +8,7 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-06T06:35:24Z
+@dateWritten=2017-10-06T14:24:31Z
 
 
 
@@ -16538,6 +16538,7 @@
 
 
 ִי
+
 
 
 
@@ -38209,7 +38210,7 @@
 
 
 
-ַי
+
 
 
 
@@ -82944,7 +82945,7 @@
 
 
 
-ַי
+
 
 
 ָמ
@@ -392375,6 +392376,8 @@
 
 
 ֹו
+
+
 
 
 

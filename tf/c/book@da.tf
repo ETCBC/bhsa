@@ -12,9 +12,9 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-06T06:38:46Z
+@dateWritten=2017-10-06T14:27:52Z
 
-426582	1.Mosebog
+426585	1.Mosebog
 2.Mosebog
 3.Mosebog
 4.Mosebog

@@ -37,7 +37,6 @@
 
 # In[1]:
 
-
 import os,sys,re,collections
 from shutil import rmtree
 from tf.fabric import Fabric
@@ -48,14 +47,17 @@ import utils
 # See [operation](https://github.com/ETCBC/pipeline/blob/master/README.md#operation) 
 # for how to run this script in the pipeline.
 
-# In[2]:
-
+# In[16]:
 
 if 'SCRIPT' not in locals():
     SCRIPT = False
     FORCE = True
     CORE_NAME = 'bhsa'
-    VERSION = '3'
+    VERSION = '_temp'
+    RENAME=(
+        ('g_suffix', 'trailer'),
+        ('g_suffix_utf8', 'trailer_utf8'),
+    )
 
 def stop(good=False):
     if SCRIPT: sys.exit(0 if good else 1)
@@ -67,7 +69,6 @@ def stop(good=False):
 # results are in convenient places and do not have to be shifted around.
 
 # In[3]:
-
 
 repoBase = os.path.expanduser('~/github/etcbc')
 thisRepo = '{}/{}'.format(repoBase, CORE_NAME)
@@ -90,7 +91,6 @@ thisTf = '{}/tf/{}'.format(thisRepo, VERSION)
 
 # In[4]:
 
-
 if SCRIPT:
     testFile = '{}/.tf/otype.tfx'.format(thisTf)
     (good, work) = utils.mustRun(mqlzFile, '{}/.tf/otype.tfx'.format(thisTf), force=FORCE)
@@ -112,7 +112,6 @@ if SCRIPT:
 # And we define a stripped down default version to start with.
 
 # In[5]:
-
 
 slotType = 'word'
 
@@ -230,7 +229,6 @@ oText = {
 
 # In[6]:
 
-
 thisOtext = oText.get(VERSION, oText[''])
 
 if thisOtext is oText['']:
@@ -259,7 +257,6 @@ else:
 
 # In[7]:
 
-
 if not os.path.exists(thisTempSource):
     os.makedirs(thisTempSource)
 
@@ -277,9 +274,28 @@ os.makedirs(thisTempTf)
 
 # In[8]:
 
-
 TF = Fabric(locations=thisTempTf, silent=True)
 TF.importMQL(mqlFile, slotType=slotType, otext=otextInfo, meta=featureMetaData)
+
+
+# # Rename features
+# We rename the features mentioned in the RENAME dictionary.
+
+# In[17]:
+
+if RENAME == None:
+    utils.caption(4, 'Rename features: nothing to do')
+else:
+    utils.caption(4, 'Renaming {} features in {}'.format(len(RENAME), thisTempTf))
+    for (srcFeature, dstFeature) in RENAME:
+        srcPath = '{}/{}.tf'.format(thisTempTf, srcFeature)
+        dstPath = '{}/{}.tf'.format(thisTempTf, dstFeature)
+        if os.path.exists(srcPath):
+            os.rename(srcPath, dstPath)
+            utils.caption(0, '\trenamed {} to {}'.format(srcFeature, dstFeature))
+        else:
+            utils.caption(0, '\tsource feature {} does not exist.'.format(srcFeature))
+            utils.caption(0, '\tdestination feature {} will not be created.'.format(dstFeature))        
 
 
 # # Diffs
@@ -299,7 +315,6 @@ TF.importMQL(mqlFile, slotType=slotType, otext=otextInfo, meta=featureMetaData)
 
 # In[9]:
 
-
 utils.checkDiffs(thisTempTf, thisTf)
 
 
@@ -308,7 +323,6 @@ utils.checkDiffs(thisTempTf, thisTf)
 # Copy the new TF dataset from the temporary location where it has been created to its final destination.
 
 # In[10]:
-
 
 utils.deliverDataset(thisTempTf, thisTf)
 
@@ -327,7 +341,6 @@ utils.deliverDataset(thisTempTf, thisTf)
 
 # In[5]:
 
-
 utils.caption(4, 'Load and compile standard TF features')
 TF = Fabric(locations=thisTf, modules=[''])
 api = TF.load('')
@@ -343,7 +356,6 @@ api.makeAvailableIn(globals())
 
 # In[12]:
 
-
 utils.caption(4, 'Basic test')
 utils.caption(4, 'First verse in all formats')
 for fmt in T.formats:
@@ -353,20 +365,17 @@ for fmt in T.formats:
 
 # In[ ]:
 
-
 if SCRIPT:
     stop(good=True)
 
 
 # In[21]:
 
-
 f = 'subphrase_type'
 print('`' + '` `'.join(sorted(str(x[0]) for x in Fs(f).freqList())) + '`')
 
 
 # In[ ]:
-
 
 
 

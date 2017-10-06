@@ -8,9 +8,9 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-06T06:35:33Z
+@dateWritten=2017-10-06T14:24:42Z
 
-606112	A
+606323	A
 B
 A
 B
@@ -45190,7 +45190,7 @@ A
 B
 A
 B
-1413682	 GEN 01,01
+1414190	 GEN 01,01
  GEN 01,02
  GEN 01,03
  GEN 01,04

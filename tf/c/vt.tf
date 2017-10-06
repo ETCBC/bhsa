@@ -8,7 +8,7 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-06T06:35:56Z
+@dateWritten=2017-10-06T14:25:06Z
 
 NA
 NA
@@ -16575,6 +16575,7 @@ NA
 NA
 NA
 NA
+NA
 wayq
 NA
 NA
@@ -238359,7 +238360,7 @@ infa
 NA
 infa
 NA
-infc
+infa
 NA
 NA
 NA
@@ -334402,7 +334403,7 @@ NA
 NA
 NA
 NA
-ptca
+perf
 NA
 impf
 NA
@@ -392488,6 +392489,7 @@ NA
 NA
 NA
 wayq
+NA
 NA
 NA
 NA
@@ -392511,6 +392513,7 @@ NA
 NA
 NA
 NA
+NA
 perf
 NA
 NA
@@ -424602,7 +424605,7 @@ NA
 NA
 perf
 NA
-infc
+perf
 NA
 NA
 NA

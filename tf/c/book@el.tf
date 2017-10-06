@@ -12,9 +12,9 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-06T06:38:46Z
+@dateWritten=2017-10-06T14:27:52Z
 
-426582	Γένεση
+426585	Γένεση
 Έξοδος
 Λευιτικό
 Αριθμοί

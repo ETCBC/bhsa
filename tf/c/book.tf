@@ -8,9 +8,9 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-06T06:35:13Z
+@dateWritten=2017-10-06T14:24:21Z
 
-426582	Genesis
+426585	Genesis
 Exodus
 Leviticus
 Numeri
@@ -978,7 +978,7 @@ Chronica_II
 Chronica_II
 Chronica_II
 Chronica_II
-1413682	Genesis
+1414190	Genesis
 Genesis
 Genesis
 Genesis

@@ -8,9 +8,9 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-06T06:39:17Z
+@dateWritten=2017-10-06T14:28:23Z
 
-1436895	in
+1437403	in
 beginning
 create
 god(s)
@@ -497,7 +497,7 @@ be spacious
 Gomer
 Magog
 Media
-<jawan, Greece>
+Greece
 Tubal
 Meshech
 Tiras
@@ -615,7 +615,7 @@ Abram
 Haran
 Lot
 offspring
-<ur of chaldeans>
+Ur
 Chaldeans
 Sarai
 Milcah
@@ -665,7 +665,7 @@ Perizzite
 not
 quarrel
 we
-lefthand side
+left-hand side
 go to right
 right-hand side
 turn left
@@ -885,7 +885,7 @@ rise early
 open place
 entreat
 drinking
-matzah
+matzo
 bake
 lie down
 door
@@ -1099,7 +1099,7 @@ court
 encampment
 clan
 Aramean
-<paddan>, field?
+field?
 entreat
 straightness
 crush
@@ -1155,7 +1155,7 @@ Basemath
 <judge>
 bitterness
 grow dim
-quiverbelt
+quiver belt
 hunt
 savoury food
 goat
@@ -1325,7 +1325,7 @@ with empty hands
 toil
 witness
 gather
-heap
+wave
 heap of stones
 testimony
 Galeed
@@ -1357,7 +1357,7 @@ flash up
 <locality>
 limp
 sinew
-ischias nerve
+sciatic nerve
 at the back
 favour
 like
@@ -1457,7 +1457,7 @@ Zaavan
 Akan
 Aran
 be king
-<king of edom>
+Bela
 Beor
 Dinhabah
 <king>
@@ -1500,7 +1500,7 @@ caravan
 Ishmaelite
 ladanum
 mastic
-mastix
+mastic tree
 profit
 Midianite
 draw
@@ -1757,7 +1757,7 @@ root up
 strong
 anger
 neck
-lion
+whelp
 lion
 prey
 kneel
@@ -1907,7 +1907,7 @@ Libni
 Shimei
 Amram
 Izhar
-<levite>
+Hebron
 Uzziel
 Mahli
 Mushi
@@ -2160,7 +2160,7 @@ final offer
 hewn stone
 swing
 ascent
-released
+free
 body
 pierce
 awl
@@ -2329,13 +2329,13 @@ span
 setting
 row
 ruby
-chrysolyte
+chrysolite
 beryl
 turquoise
 precious stone
 <gem>
 <precious stone>
-jaspis
+jasper
 precious stone
 jade
 weave
@@ -2373,7 +2373,7 @@ right-hand
 thumb
 spatter
 fat tail
-splintbone
+splint-bone
 offering
 breast
 portion
@@ -2525,7 +2525,7 @@ within
 break
 cleft
 cud
-rockbadger
+rock badger
 hare
 swine
 drag away
@@ -2605,7 +2605,7 @@ boring
 cedar
 curve
 log
-lefthand
+left-hand
 hollow spot
 draw off
 scrape off
@@ -3312,7 +3312,7 @@ explore
 mound
 gather
 reebok
-wildgoat
+wild goat
 <uncertain>
 wild sheep
 gazelle
@@ -4295,7 +4295,6 @@ girdle
 triangle
 look at
 cast
-family
 Adriel
 Meholathite
 be poor
@@ -4498,7 +4497,7 @@ Shimeah
 Jehonadab
 bread of consolation
 bake
-cooky
+cookie?
 pan
 Baal Hazor
 mule
@@ -4538,7 +4537,7 @@ Barzillai
 Rogelim
 potter
 beans
-yoghurt
+yogurt
 network of boughs
 porter
 running
@@ -4744,7 +4743,7 @@ line
 casting of metal
 thickness
 span
-<measure>
+bath
 place
 cross-bar
 wreath
@@ -4774,13 +4773,13 @@ trade
 Arabia
 governor
 alloy
-mineh
+mina
 set with topaz
 ivory
 ape
 poultry
 equipment
-sycomore
+sycamore
 Astarte
 Milcom
 Hadad
@@ -4893,7 +4892,7 @@ storm
 wrap
 pan
 disdain
-<king of moab>
+Mesha
 sheep-raiser
 choice
 slaughter
@@ -5184,7 +5183,7 @@ bracelet
 veil
 bands
 robes
-overtunic
+over-garment?
 cloak
 tablet
 turban
@@ -5209,7 +5208,7 @@ hedge
 trampled land
 <uncertain>
 weed
-thornbush
+thorn-bush
 weed
 plantation
 delight
@@ -5324,7 +5323,7 @@ howl
 violence
 labour pains
 cruel
-orion
+Orion
 light
 insolent
 ruthless
@@ -5633,7 +5632,7 @@ burning
 cut off
 trembling
 hearth
-extortions
+extortion
 be insolent
 unintelligible
 pack up
@@ -5661,7 +5660,7 @@ likeness
 tent camp
 roll up
 thread
-bulbul-bird
+bulbul
 oppression
 <uncertain>
 pit
@@ -5753,7 +5752,6 @@ divide
 idol
 restrain
 spread
-wave
 grain
 sharp
 pasturage
@@ -5817,7 +5815,7 @@ approach
 <uncertain>
 contention
 bend
-fedders
+fetter
 homelessness
 healing
 cry
@@ -6028,7 +6026,7 @@ boasting
 insult
 Jehoiachin
 first
-<land of hiob>
+Uz
 Buz
 Zimri
 Sheshach
@@ -6169,7 +6167,7 @@ official
 bristly
 belly
 growl
-lion's whelp
+whelp
 what is swallowed
 sigh
 fondling
@@ -6349,7 +6347,7 @@ stores
 <uncertain>
 ebony
 tribute
-byssus
+byssus cloth
 <uncertain>
 <uncertain>
 Helbon
@@ -6549,7 +6547,7 @@ fishery
 Harmon
 thought
 darkness
-pleiads
+Pleiades
 gleam
 draw farm-rent
 ah
@@ -6630,7 +6628,7 @@ beat
 emptiness
 emptiness
 tottering
-lionness
+lioness
 dash
 Thebes
 Libyan
@@ -6921,7 +6919,7 @@ mixture
 humble
 eyelid
 be gracious
-flood thunderingly?
+flood thunderously?
 be equipped
 hurt
 flood
@@ -7023,7 +7021,7 @@ bones
 embryo
 kill
 completeness
-cerastes
+horned viper
 desire
 plan
 rain-pits
@@ -7408,7 +7406,7 @@ turn
 string of shells
 glass-bead
 nard
-hennah
+henna
 rafter
 juniper
 she-gazelle
@@ -7526,7 +7524,7 @@ benumbing
 healthy ones
 bring forth
 stop
-be untilled
+lie fallow
 cower
 <uncertain>
 refuse
@@ -7612,7 +7610,7 @@ Siwan
 royal
 mare
 robe
-be jew
+be a Jew
 destruction
 Parshandatha
 Dalphon
@@ -8729,7 +8727,6 @@ Gibea
 Hareph
 Beth Gader
 Haroeh
-half the Manahathites
 Puthite
 Shumathite
 Mishraite
@@ -9181,7 +9178,7 @@ treasury
 alabaster
 Kue
 <uncertain>
-carmesine
+carmine
 need
 rafts
 census
@@ -9218,7 +9215,7 @@ taking
 Ziz
 Jeruel
 Dodavahu
-downtreading
+trampling
 Jehosheba
 Adaiah
 Elishaphat

@@ -8,7 +8,7 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-06T06:35:55Z
+@dateWritten=2017-10-06T14:25:05Z
 
 NA
 NA
@@ -16575,6 +16575,7 @@ NA
 NA
 NA
 NA
+NA
 qal
 NA
 NA
@@ -377234,7 +377235,7 @@ NA
 NA
 NA
 NA
-nif
+hit
 NA
 hif
 NA
@@ -392488,6 +392489,8 @@ NA
 NA
 NA
 qal
+NA
+NA
 NA
 NA
 NA

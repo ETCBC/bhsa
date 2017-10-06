@@ -151,6 +151,7 @@ def mustRun(fileIn, fileOut, force=False):
             work = False
     if force and not work:
         caption(0, 'NOTE: repo seems up to date. Will be run because of "force=True"')
+        work = True
     return (good, work or force)
 
 def checkDiffs(thisSave, thisDeliver, only=None):

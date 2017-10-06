@@ -8,7 +8,7 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-06T06:35:36Z
+@dateWritten=2017-10-06T14:24:46Z
 
 n/a
 
@@ -16571,6 +16571,7 @@ n/a
 
 n/a
 JM
+n/a
 n/a
 
 
@@ -334402,7 +334403,7 @@ n/a
 H
 T
 n/a
-H
+absent
 n/a
 absent
 n/a
@@ -392497,6 +392498,8 @@ n/a
 
 n/a
 WT
+n/a
+WT
 
 n/a
 
@@ -424602,7 +424605,7 @@ n/a
 JM
 absent
 n/a
-
+absent
 n/a
 
 n/a

@@ -8,7 +8,7 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-06T06:39:20Z
+@dateWritten=2017-10-06T14:28:26Z
 
 none
 none
@@ -16575,6 +16575,7 @@ none
 none
 none
 none
+none
 quot
 none
 none
@@ -392499,6 +392500,8 @@ none
 none
 none
 none
+none
+none
 gntl
 none
 none
@@ -426591,194 +426594,169 @@ none
 none
 none
 none
-1436904	vbcp
-1436914	quot
-1436920	ppre
-1436923	padv
+1437412	vbcp
+1437422	quot
+1437428	ppre
+1437431	padv
 padv
 padv
 padv
 card
-1436933	ppre
+1437441	ppre
 afad
 ordn
-1436951	ordn
-1436957	card
-1436964	ordn
-1436972	nmdi
-1436979	ordn
-1436997	padv
+1437459	ordn
+1437465	card
+1437472	ordn
+1437480	nmdi
+1437487	ordn
+1437505	padv
 ordn
-1437001	ordn
-1437010	ppre
-1437014	nmcp
-1437028	padv
-1437038	card
-1437054	ppre
-1437065	ppre
-1437076	nmdi
-1437080	nmdi
-1437089	focp
-1437097	focp
-1437114	focp
+1437509	ordn
+1437518	ppre
+1437522	nmcp
+1437536	padv
+1437546	card
+1437562	ppre
+1437573	ppre
+1437584	nmdi
+1437588	nmdi
+1437597	focp
+1437605	focp
+1437622	focp
 ppre
 ppre
-1437154	ppre
-1437160	nmdi
-1437189	cjad
+1437662	ppre
+1437668	nmdi
+1437697	cjad
 card
-1437217	nmdi
-1437225	padv
-1437233	card
+1437725	nmdi
+1437733	padv
+1437741	card
 card
 ppre
 card
-1437238	card
+1437746	card
 card
 card
-1437243	card
+1437751	card
 card
-1437258	card
-1437267	focp
-1437299	card
-1437306	ppre
-1437314	focp
-1437323	ordn
-1437337	ordn
-1437341	quot
-1437423	gntl
+1437766	card
+1437775	focp
+1437807	card
+1437814	ppre
+1437822	focp
+1437831	ordn
+1437845	ordn
+1437849	quot
+1437931	gntl
 gntl
-1437427	gntl
-gntl
-gntl
+1437935	gntl
 gntl
 gntl
 gntl
 gntl
 gntl
 gntl
-1437437	gntl
-1437477	nmdi
-1437528	gntl
-1437546	gntl
-1437560	padv
-1437589	gntl
-1437595	gntl
-1437602	gntl
-1437676	gntl
+gntl
+gntl
+1437945	gntl
+1437985	nmdi
+1438036	gntl
+1438054	gntl
+1438068	padv
+1438097	gntl
+1438103	gntl
+1438110	gntl
+1438184	gntl
 gntl
 gntl
 gntl
-1437721	padv
-1437758	nmcp
-1437763	card
-1437803	padv
+1438229	padv
+1438266	nmcp
+1438271	card
+1438311	padv
 padv
-1437823	card
-1437872	ppre
-1437875	ppre
-1437903	padv
-1437945	mult
-1437983	gntl
-1437986	ppre
-1438059	vbcp
-1438081	padv
-1438145	padv
-1438166	padv
+1438331	card
+1438380	ppre
+1438383	ppre
+1438411	padv
+1438453	mult
+1438491	gntl
+1438494	ppre
+1438567	vbcp
+1438589	padv
+1438653	padv
+1438674	padv
 padv
-1438183	ppre
-1438249	padv
-1438268	padv
-1438348	gntl
-1438382	gntl
-1438387	gntl
-1438399	gntl
-1438403	gntl
-1438431	ppre
-1438669	padv
-1438704	ppre
-1438768	gntl
-1438782	padv
-1438813	gntl
-1439019	ppre
-1439036	padv
-1439089	ordn
-1439142	padv
-1439159	card
-1439166	padv
-1439169	padv
-1439311	padv
-1439479	padv
-1439580	gntl
-1439590	ordn
-1439606	padv
-1439612	padv
-1439615	padv
-1439657	mult
-1439661	gntl
+1438691	ppre
+1438757	padv
+1438776	padv
+1438856	gntl
+1438890	gntl
+1438895	gntl
+1438907	gntl
+1438911	gntl
+1438939	ppre
+1439177	padv
+1439212	ppre
+1439276	gntl
+1439290	padv
+1439321	gntl
+1439527	ppre
+1439544	padv
+1439597	ordn
+1439650	padv
+1439667	card
+1439674	padv
+1439677	padv
+1439819	padv
+1439987	padv
+1440088	gntl
+1440098	ordn
+1440114	padv
+1440120	padv
+1440123	padv
+1440165	mult
+1440169	gntl
 gntl
 gntl
-1439665	gntl
-gntl
-gntl
-gntl
-gntl
-1439672	gntl
-gntl
-1439694	padv
-1439728	gntl
-1439768	nmcp
-1439793	padv
-1439798	ppre
-1439900	gntl
-1439904	gntl
+1440173	gntl
 gntl
 gntl
 gntl
 gntl
-1439910	gntl
+1440180	gntl
+gntl
+1440202	padv
+1440236	gntl
+1440276	nmcp
+1440301	padv
+1440306	ppre
+1440408	gntl
+1440412	gntl
 gntl
 gntl
 gntl
 gntl
-1439916	gntl
-gntl
-gntl
-1439920	gntl
-gntl
-1439923	gntl
+1440418	gntl
 gntl
 gntl
 gntl
 gntl
+1440424	gntl
 gntl
 gntl
-1439931	gntl
+1440428	gntl
+gntl
+1440431	gntl
 gntl
 gntl
 gntl
 gntl
 gntl
 gntl
-gntl
-1439940	gntl
-1439942	gntl
-1439944	gntl
-1439946	gntl
-1439948	gntl
-1439950	gntl
-1439957	gntl
-gntl
-1439960	gntl
-1439962	gntl
-gntl
-gntl
-1439966	gntl
-1439968	gntl
-1439970	gntl
-gntl
-gntl
-1439974	gntl
+1440439	gntl
 gntl
 gntl
 gntl
@@ -426786,185 +426764,210 @@ gntl
 gntl
 gntl
 gntl
+1440448	gntl
+1440450	gntl
+1440452	gntl
+1440454	gntl
+1440456	gntl
+1440458	gntl
+1440465	gntl
+gntl
+1440468	gntl
+1440470	gntl
 gntl
 gntl
-1440068	gntl
-1440101	ppre
-1440112	gntl
+1440474	gntl
+1440476	gntl
+1440478	gntl
 gntl
-1440124	gntl
-1440130	gntl
 gntl
-1440146	gntl
-1440212	ppre
-1440247	gntl
-1440359	padv
-1440392	padv
-1440412	padv
-1440497	gntl
+1440482	gntl
 gntl
 gntl
 gntl
 gntl
-1440503	gntl
-1440639	gntl
-gntl
-1440788	gntl
-1440804	gntl
-1440876	gntl
-1440940	gntl
-1440945	gntl
-1440947	gntl
-1440965	gntl
-1441059	padv
-1441069	gntl
-1441100	gntl
-1441144	padv
-1441147	padv
-padv
-1441151	gntl
-1441182	gntl
-1441215	gntl
-1441227	gntl
-1441244	gntl
 gntl
 gntl
-1441248	gntl
-1441255	gntl
-1441271	gntl
-1441301	gntl
-1441354	gntl
-1441388	gntl
-1441393	nmcp
-1441396	gntl
-1441445	gntl
 gntl
-1441454	gntl
-1441491	gntl
-1441494	gntl
-1441497	gntl
-1441499	gntl
-1441502	gntl
-1441504	gntl
-1441508	gntl
-1441513	gntl
-1441515	gntl
-1441517	gntl
-1441521	gntl
-1441525	gntl
-1441529	gntl
-1441538	gntl
+gntl
+gntl
+1440576	gntl
+1440609	ppre
+1440620	gntl
+gntl
+1440632	gntl
+1440638	gntl
+gntl
+1440654	gntl
+1440720	ppre
+1440755	gntl
+1440867	padv
+1440900	padv
+1440920	padv
+1441005	gntl
+gntl
+gntl
+gntl
+gntl
+1441011	gntl
+1441147	gntl
+gntl
+1441296	gntl
+1441312	gntl
+1441384	gntl
+1441448	gntl
+1441453	gntl
+1441455	gntl
+1441473	gntl
+1441567	padv
 1441577	gntl
-1441605	padv
-1441619	gntl
-1441678	gntl
-1441721	gntl
-1441724	gntl
-1441868	ppre
-1441883	gntl
-1441899	gntl
-1441905	gntl
-1442215	gntl
-1442331	gntl
-1442383	padv
-1442829	quot
-1442841	ppre
-1442919	gntl
-1442934	gntl
-1442959	gntl
-1443416	gntl
-1443470	card
-1443482	padv
-1443501	gntl
-1443518	gntl
-1443819	gntl
-1443835	padv
-1443864	nmdi
-1443930	gntl
-1443932	gntl
-1444076	gntl
-1444099	padv
-1444272	cjad
-1444336	gntl
-1444351	padv
-1444476	gntl
-1444532	gntl
-1444546	ppre
+1441608	gntl
+1441652	padv
+1441655	padv
+padv
+1441659	gntl
+1441689	gntl
+1441722	gntl
+1441734	gntl
+1441751	gntl
+gntl
+gntl
+1441755	gntl
+1441762	gntl
+1441778	gntl
+1441808	gntl
+1441861	gntl
+1441895	gntl
+1441900	nmcp
+1441903	gntl
+1441952	gntl
+gntl
+1441961	gntl
+1441998	gntl
+1442001	gntl
+1442004	gntl
+1442006	gntl
+1442009	gntl
+1442011	gntl
+1442015	gntl
+1442020	gntl
+1442022	gntl
+1442024	gntl
+1442028	gntl
+1442032	gntl
+1442036	gntl
+1442045	gntl
+1442084	gntl
+1442112	padv
+1442126	gntl
+1442185	gntl
+1442228	gntl
+1442231	gntl
+1442375	ppre
+1442390	gntl
+1442406	gntl
+1442412	gntl
+1442722	gntl
+1442838	gntl
+1442890	padv
+1443335	quot
+1443347	ppre
+1443425	gntl
+1443440	gntl
+1443465	gntl
+1443922	gntl
+1443976	card
+1443988	padv
+1444007	gntl
+1444024	gntl
+1444325	gntl
+1444341	padv
+1444370	nmdi
+1444436	gntl
+1444438	gntl
+1444582	gntl
+1444605	padv
+1444778	cjad
+1444842	gntl
+1444857	padv
+1444982	gntl
+1445038	gntl
+1445052	ppre
 cjad
-1444554	ppre
-1444556	card
-1444564	nmcp
+1445060	ppre
+1445062	card
+1445070	nmcp
 nmdi
-1444613	vbcp
-1444642	focp
-1444654	ppre
-1444699	ppre
-1444701	ordn
+1445119	vbcp
+1445148	focp
+1445160	ppre
+1445205	ppre
+1445207	ordn
 ordn
-1444742	card
-1444744	card
-1444783	gntl
-1444796	card
-1444804	card
-1444808	card
-1444890	card
+1445248	card
+1445250	card
+1445289	gntl
+1445302	card
+1445310	card
+1445314	card
+1445396	card
 card
-1444896	padv
-1444915	card
-1444963	gntl
-1444965	card
+1445402	padv
+1445421	card
+1445469	gntl
+1445471	card
 card
-1444979	card
-1444985	ppre
-1444989	ppre
-1444995	padv
-1445008	quot
-1445011	focp
-1445018	gntl
-1445022	ordn
-1445025	ordn
-1445029	ppre
-1445049	mult
-1445084	gntl
-1445204	gntl
+1445485	card
+1445491	ppre
+1445495	ppre
+1445501	padv
+1445514	quot
+1445517	focp
+1445524	gntl
+1445528	ordn
+1445531	ordn
+1445535	ppre
+1445555	mult
+1445590	gntl
+1445710	gntl
 gntl
 gntl
 gntl
 gntl
-1445213	ppre
-1445297	gntl
-1445322	nmdi
-1445412	gntl
-1445415	gntl
-1445423	gntl
-1445538	gntl
-1445615	gntl
-gntl
-gntl
-gntl
-gntl
-1445621	gntl
-gntl
-1445624	gntl
-gntl
-gntl
-1445656	gntl
-gntl
-1445691	gntl
-1445908	gntl
-1445912	gntl
-1445914	gntl
-1445919	gntl
-1445928	gntl
-1445930	gntl
-1445932	gntl
-gntl
-1445942	gntl
-1445946	gntl
-1445951	gntl
+1445719	ppre
+1445803	gntl
+1445828	nmdi
+1445918	gntl
+1445921	gntl
+1445929	gntl
 1446044	gntl
-1446054	gntl
+1446120	gntl
 gntl
 gntl
-1446058	gntl
-1446082	gntl
+gntl
+gntl
+1446126	gntl
+gntl
+1446129	gntl
+gntl
+gntl
+1446161	gntl
+gntl
+1446196	gntl
+1446413	gntl
+1446417	gntl
+1446419	gntl
+1446424	gntl
+1446433	gntl
+1446435	gntl
+1446437	gntl
+gntl
+1446447	gntl
+1446451	gntl
+1446456	gntl
+1446549	gntl
+1446559	gntl
+gntl
+gntl
+1446563	gntl
+1446587	gntl

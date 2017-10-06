@@ -8,7 +8,7 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-06T06:39:18Z
+@dateWritten=2017-10-06T14:28:24Z
 
 B
 R>CJT/
@@ -16572,6 +16572,7 @@ ML>K/
 H
 >LHJM/
 B
+H
 XLWM/
 J<QB/
 W
@@ -16842,7 +16843,7 @@ HR/
 W
 LBN=/
 TQ<[
->T
+>T==
 >X/
 B
 HR/
@@ -17274,13 +17275,13 @@ LQX[
 >BN/
 W
 <FH[
-GL=/
+GL/
 W
 >KL[
 CM
 <L
 H
-GL=/
+GL/
 W
 QR>[
 L
@@ -17296,7 +17297,7 @@ W
 >MR[
 LBN=/
 H
-GL=/
+GL/
 H
 ZH
 <D=/
@@ -17351,7 +17352,7 @@ L
 J<QB/
 HNH
 H
-GL=/
+GL/
 H
 ZH
 W
@@ -17365,7 +17366,7 @@ W
 BJN/
 <D=/
 H
-GL=/
+GL/
 H
 ZH
 W
@@ -17379,7 +17380,7 @@ L>
 >L
 >T
 H
-GL=/
+GL/
 H
 ZH
 W
@@ -17390,7 +17391,7 @@ L>
 >L
 >T
 H
-GL=/
+GL/
 H
 ZH
 W
@@ -85870,7 +85871,7 @@ H
 NKH[
 >CR
 NKH[
->T
+>T==
 H
 MDJNJ/
 ZMRJ/
@@ -116770,7 +116771,7 @@ H
 W
 QWM[
 <L
-GL=/
+GL/
 >BN/
 GDWL/
 <D
@@ -117570,7 +117571,7 @@ H
 W
 QWM[
 <L
-GL=/
+GL/
 >BN/
 GDWL/
 <D
@@ -152530,7 +152531,7 @@ MJ
 >NKJ
 W
 MJ
-XJ=/
+XJJM/
 MCPXT/
 >B/
 B
@@ -171512,7 +171513,7 @@ GDWL/
 W
 NYB[
 <L
-GL=/
+GL/
 >BN/
 GDWL/
 M>D/
@@ -207942,7 +207943,7 @@ W
 HJH[
 L
 C>H[
-GL=/
+GL/
 NYH[
 <JR/
 BYWR/
@@ -220084,7 +220085,7 @@ MN
 <JR/
 L
 H
-GL=/
+GL/
 QRJH/
 BYWR/
 L
@@ -224775,7 +224776,7 @@ W
 HJH[
 L
 C>H[
-GL=/
+GL/
 NYH[
 <JR/
 BYWR/
@@ -230773,7 +230774,7 @@ H
 MWT/
 NPC/
 W
->T
+>T==
 PC<[
 MNH[
 W
@@ -239594,7 +239595,7 @@ NTN[
 >T
 JRWCLM/
 L
-GL=/
+GL/
 M<WN/
 TN/
 W
@@ -263399,7 +263400,7 @@ W
 HJH[
 BBL/
 L
-GL=/
+GL/
 M<WN/
 TN/
 CMH/
@@ -277047,7 +277048,7 @@ H
 HW>
 PTX[
 PH/
->T
+>T==
 H
 PLJV/
 W
@@ -293662,7 +293663,7 @@ ZBX[
 GM
 MZBX/
 K
-GL=/
+GL/
 <L
 TLM/
 FDJ/
@@ -308215,7 +308216,7 @@ PRR[
 BRJT/
 >CR
 KRT[
->T
+>T==
 KL/
 H
 <M/
@@ -338232,7 +338233,7 @@ GNH/
 JWNQT/
 JY>[
 <L
-GL=/
+GL/
 CRC/
 SBK[
 BJT/
@@ -340020,7 +340021,7 @@ L
 >CR
 <TD[
 L
-GL=/
+GL/
 L>
 <CR[
 W
@@ -392494,7 +392495,9 @@ CWBL/
 >B/
 QRJT_J<RJM/
 HR>H/
-XYJ_HMNXWT/
+XYJ/
+H
+MNWXH/
 W
 MCPXH/
 QRJT_J<RJM/
@@ -426591,7 +426594,7 @@ JHWH/
 <M
 W
 <LH[
-1436895	B
+1437403	B
 R>CJT/
 BR>[
 >LHJM/
@@ -427906,7 +427909,7 @@ RJQM
 JGJ</
 <D=/
 LQV[
-GL=/
+GL/
 JGR/
 FHDW/
 GL<D=/
@@ -430876,7 +430879,6 @@ XGWR=/
 CLJC==/
 <JN[
 VWL[
-XJ=/
 <DRJ>L/
 MXLTJ/
 RWC[
@@ -432334,7 +432336,6 @@ HBR[
 <YB===/
 XVM[
 VPX[
-GL/
 M<H/
 XD/
 MR<JT/
@@ -435310,7 +435311,6 @@ GB<>/
 XRP==/
 BJT_GDR/
 HR>H/
-XYJ_HMNXWT/
 PWTJ/
 CMTJ/
 MCR<J/
