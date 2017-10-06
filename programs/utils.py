@@ -149,8 +149,10 @@ def mustRun(fileIn, fileOut, force=False):
             caption(0, '\tDestination {} cannot be made: source is missing'.format(fileOut))
             good = False
             work = False
-    if force and not work:
+    
+    if good and force and not work:
         caption(0, 'NOTE: repo seems up to date. Will be run because of "force=True"')
+        work = True
     return (good, work or force)
 
 def checkDiffs(thisSave, thisDeliver, only=None):

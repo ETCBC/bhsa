@@ -48,14 +48,18 @@ import utils
 # See [operation](https://github.com/ETCBC/pipeline/blob/master/README.md#operation) 
 # for how to run this script in the pipeline.
 
-# In[2]:
+# In[16]:
 
 
 if 'SCRIPT' not in locals():
     SCRIPT = False
     FORCE = True
     CORE_NAME = 'bhsa'
-    VERSION = '3'
+    VERSION = '_temp'
+    RENAME=(
+        ('g_suffix', 'trailer'),
+        ('g_suffix_utf8', 'trailer_utf8'),
+    )
 
 def stop(good=False):
     if SCRIPT: sys.exit(0 if good else 1)
@@ -279,7 +283,28 @@ os.makedirs(thisTempTf)
 
 
 TF = Fabric(locations=thisTempTf, silent=True)
-TF.importMQL(mqlFile, slotType=slotType, otext=otextInfo, meta=featureMetaData)
+#TF.importMQL(mqlFile, slotType=slotType, otext=otextInfo, meta=featureMetaData)
+
+
+# # Rename features
+# We rename the features mentioned in the RENAME dictionary.
+
+# In[17]:
+
+
+if RENAME == None:
+    utils.caption(4, 'Rename features: nothing to do')
+else:
+    utils.caption(4, 'Renaming {} features in {}'.format(len(RENAME), thisTempTf))
+    for (srcFeature, dstFeature) in RENAME:
+        srcPath = '{}/{}.tf'.format(thisTempTf, srcFeature)
+        dstPath = '{}/{}.tf'.format(thisTempTf, dstFeature)
+        if os.path.exists(srcPath):
+            os.rename(srcPath, dstPath)
+            utils.caption(0, '\trenamed {} to {}'.format(srcFeature, dstFeature))
+        else:
+            utils.caption(0, '\tsource feature {} does not exist.'.format(srcFeature))
+            utils.caption(0, '\tdestination feature {} will not be created.'.format(dstFeature))        
 
 
 # # Diffs
