@@ -56,6 +56,7 @@ thisRepo = '{}/{}'.format(repoBase, CORE_NAME)
 thisSource = '{}/source/{}'.format(thisRepo, VERSION)
 
 thisTemp = '{}/_temp/{}'.format(thisRepo, VERSION)
+thisTempSource = '{}/source'.format(thisTemp)
 thisTempTf = '{}/tf'.format(thisTemp)
 
 thisTf = '{}/tf/{}'.format(thisRepo, VERSION)
@@ -158,7 +159,7 @@ else:
 
 utils.caption(4, 'Parsing paragraph data in PX')
 
-pxFile = '{}/paragraphs.txt'.format(thisTemp)
+pxFile = '{}/paragraphs.txt'.format(thisTempSource)
 pxzFile = '{}/paragraphs.txt.bz2'.format(thisSource)
 utils.caption(0, 'bunzipping {} ...'.format(pxzFile))
 utils.bunzip(pxzFile, pxFile)

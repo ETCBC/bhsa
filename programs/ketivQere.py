@@ -110,7 +110,17 @@ provenanceMetadata = dict(
 )
 
 oText = {
+    '_temp': '''
+@fmt:text-orig-full={qere_utf8/g_word_utf8}{qere_trailer_utf8/trailer_utf8}
+@fmt:text-orig-full-ketiv={g_word_utf8}{trailer_utf8}
+@fmt:text-trans-full={qere/g_word}{qere_trailer/trailer}
+@fmt:text-trans-full-ketiv={g_word}{trailer}''',
     'c': '''
+@fmt:text-orig-full={qere_utf8/g_word_utf8}{qere_trailer_utf8/trailer_utf8}
+@fmt:text-orig-full-ketiv={g_word_utf8}{trailer_utf8}
+@fmt:text-trans-full={qere/g_word}{qere_trailer/trailer}
+@fmt:text-trans-full-ketiv={g_word}{trailer}''',
+    '2017': '''
 @fmt:text-orig-full={qere_utf8/g_word_utf8}{qere_trailer_utf8/trailer_utf8}
 @fmt:text-orig-full-ketiv={g_word_utf8}{trailer_utf8}
 @fmt:text-trans-full={qere/g_word}{qere_trailer/trailer}

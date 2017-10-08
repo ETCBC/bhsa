@@ -161,6 +161,7 @@ oText = {
 @fmt:text-trans-plain={g_cons}{trailer}
 @sectionFeatures=book,chapter,verse
 @sectionTypes=book,chapter,verse
+
 ''',
     '2017': '''
 @fmt:lex-orig-full={g_lex_utf8} 
@@ -173,6 +174,7 @@ oText = {
 @fmt:text-trans-plain={g_cons}{trailer}
 @sectionFeatures=book,chapter,verse
 @sectionTypes=book,chapter,verse
+
 ''',    
     '2016': '''
 @fmt:lex-orig-full={g_lex_utf8} 
@@ -185,13 +187,14 @@ oText = {
 @fmt:text-trans-plain={g_cons}{trailer}
 @sectionFeatures=book,chapter,verse
 @sectionTypes=book,chapter,verse
+
 ''',
     '4b': '''
 @fmt:lex-orig-full={g_lex_utf8} 
 @fmt:lex-orig-plain={lex_utf8} 
 @fmt:lex-trans-full={g_lex} 
 @fmt:lex-trans-plain={lex} 
-@fmt:text-orig-full={g_qere_utf8/g_word_utf8}{qtrailer_utf8/trailer_utf8}
+@fmt:text-orig-full={g_word_utf8}{trailer_utf8}
 @fmt:text-orig-full-ketiv={g_word_utf8}{trailer_utf8}
 @fmt:text-orig-plain={g_cons_utf8}{trailer_utf8}
 @fmt:text-trans-full={g_word} 
@@ -205,7 +208,7 @@ oText = {
 @fmt:lex-orig-plain={lex_utf8} 
 @fmt:lex-trans-full={g_lex} 
 @fmt:lex-trans-plain={lex} 
-@fmt:text-orig-full={g_qere_utf8/g_word_utf8}{qtrailer_utf8/trailer_utf8}
+@fmt:text-orig-full={g_word_utf8}{trailer_utf8}
 @fmt:text-orig-full-ketiv={g_word_utf8}{trailer_utf8}
 @fmt:text-orig-plain={g_cons_utf8}{trailer_utf8}
 @fmt:text-trans-full={g_word} 
