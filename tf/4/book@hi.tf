@@ -12,7 +12,7 @@
 @version=4
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-05T11:20:58Z
+@dateWritten=2017-10-10T09:35:12Z
 
 426556	उत्पाति
 निर्गमन

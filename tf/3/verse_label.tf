@@ -8,7 +8,7 @@
 @version=3
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-05T11:10:05Z
+@dateWritten=2017-10-10T09:24:01Z
 
 1429963	 GEN 01,01
  GEN 01,02

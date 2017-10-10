@@ -8,7 +8,7 @@
 @version=4b
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-05T11:29:31Z
+@dateWritten=2017-10-10T09:43:16Z
 
 427545	427544
 427557	105

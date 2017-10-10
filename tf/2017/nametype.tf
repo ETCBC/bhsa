@@ -8,7 +8,7 @@
 @version=2017
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-08T07:39:56Z
+@dateWritten=2017-10-10T10:55:31Z
 
 1437515	pers
 1437535	topo

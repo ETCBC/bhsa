@@ -8,7 +8,7 @@
 @version=3
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-05T11:09:44Z
+@dateWritten=2017-10-10T09:23:40Z
 
 1-426499	word
 426500-426538	book

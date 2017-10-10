@@ -8,7 +8,7 @@
 @version=2016
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-05T11:40:22Z
+@dateWritten=2017-10-10T09:53:59Z
 
 651292	und
 NA

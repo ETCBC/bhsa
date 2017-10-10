@@ -12,7 +12,7 @@
 @version=2017
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-08T07:39:18Z
+@dateWritten=2017-10-10T10:23:24Z
 
 426585	Génesis
 Éxodo

@@ -548,10 +548,11 @@ nodeFeatures['lex_utf8'] = {}
 geresh = chr(0x59c)
 
 for n in F.otype.s('word'):
+    lex = F.lex.v(n)
     lex_utf8 = F.lex_utf8.v(n)
     if lex_utf8.endswith(geresh): lex_utf8 = lex_utf8.rstrip(geresh)
     lan = F.language.v(n)
-    nodeFeatures['lex0'][n] = lex
+    nodeFeatures['lex0'][n] = lex.rstrip('/[=')
     nodeFeatures['lex_utf8'][n] = lex_utf8
     nodeFeatures['language'][n] = langMap[lan]
 

@@ -9,10 +9,10 @@
 @languageEnglish=urdu
 @provenance=book names from wikipedia and other sources
 @valueType=str
-@version=_temp
+@version=c
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-06T15:40:41Z
+@dateWritten=2017-10-10T11:19:27Z
 
 426585	پیدائش
 خروج

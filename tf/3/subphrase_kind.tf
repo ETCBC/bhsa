@@ -8,7 +8,7 @@
 @version=3
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-05T11:09:58Z
+@dateWritten=2017-10-10T09:23:53Z
 
 1320427	mother
 daughter

@@ -8,7 +8,7 @@
 @version=3
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-05T11:09:52Z
+@dateWritten=2017-10-10T09:23:48Z
 
 907708	1
 2

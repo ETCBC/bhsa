@@ -8,7 +8,7 @@
 @version=3
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-05T11:09:34Z
+@dateWritten=2017-10-10T09:23:31Z
 
 605916	A
 B

@@ -8,7 +8,7 @@
 @version=2016
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-05T11:44:32Z
+@dateWritten=2017-10-10T09:58:36Z
 
 1436895	בְּ
 רֵאשִׁית

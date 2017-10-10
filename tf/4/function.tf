@@ -8,7 +8,7 @@
 @version=4
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-05T11:17:05Z
+@dateWritten=2017-10-10T09:31:16Z
 
 650328	Time
 Pred
