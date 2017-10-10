@@ -1,6 +1,7 @@
 # BHSA
 
 ## Biblia Hebraica Stuttgartensia (Amstelodamensis)
+[![DOI](https://zenodo.org/badge/104559294.svg)](https://zenodo.org/badge/latestdoi/104559294)
 ![etcbc](programs/images/etcbc.png)
 
 This is the
