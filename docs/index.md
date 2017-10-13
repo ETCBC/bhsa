@@ -26,6 +26,19 @@ Martijn Naaijer,
 [Cody Kingham](http://www.codykingham.com)
 and Constantijn Sikkel.
 
+There are more formats in which the data is available.
+In the `shebanq` subdirectory you find data in MQL format and in MYSQL format that directly goes into
+the SHEBANQ website.
+
+In the the
+[bigTables](https://github.com/ETCBC/bhsa/blob/master/programs/bigTables.ipynb)
+you find ways to export the complete data as one big table, and store it in R format or in Pandas format.
+The notebooks 
+[bigTablesP](https://github.com/ETCBC/bhsa/blob/master/programs/bigTablesP.ipynb)
+and
+[bigTablesR](https://github.com/ETCBC/bhsa/blob/master/programs/bigTablesR.ipynb)
+show you a few things that you can do in R and Pandas.
+
 ## Provenance
 The source data resides on a server of the ETCBC, managed by Constantijn Sikkel.
 He makes that data available as an [MQL](https://emdros.org/mql.html) database dump,

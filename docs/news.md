@@ -3,6 +3,12 @@ title: News
 type: pages
 ---
 
+### 2017-10-13
+
+There is a fixed version, 2017 (imported on 2017-10-06), and a nearly identical version `c`,
+imported at the same time. 
+Version `c` is continuous and will be frequently updated.
+
 ### 2017-10-05
 
 * An old version, `3` from 2011 has been added.

@@ -3,7 +3,7 @@ title: Features
 feat: false
 ---
 
-This is *frozen* version **2017**, taken from ETCBC: 2017-10-31.
+This is *frozen* version **2017**, taken from ETCBC: 2017-10-06.
 
 Archived in Zenodo: [DOI: doi.org/10.5281/zenodo.591507](https://doi.org/10.5281/zenodo.591507).
 
