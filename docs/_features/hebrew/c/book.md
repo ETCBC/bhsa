@@ -66,5 +66,5 @@ select all objects where
 ]
 ```
 
-See this query (with results) on [SHEBANQ](https://shebanq.ancient-data.org/hebrew/query?version=4b&id=1502).
+See this query (with results) on [SHEBANQ]({{site.shebanq}}/hebrew/query?version=4b&id=1502).
 Note that the data version used on SHEBANQ is **4b**, while this documentation is for version **2016**.

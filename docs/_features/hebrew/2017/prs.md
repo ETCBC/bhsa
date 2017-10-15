@@ -5,7 +5,7 @@ title: prs
 **pronominal suffix -consonantal-transliterated**
 
 The consonantal representation of the pronominal suffix of a word
-[BHSA transliteration](https://shebanq.ancient-data.org/shebanq/static/docs/BHSA-transcription.pdf).
+[BHSA transliteration]({{site.shebanq}}/static/docs/BHSA-transcription.pdf).
 
 ##### Note
 > The grammatical function of the suffix is not indicated at the word level, but at the level of
@@ -29,5 +29,5 @@ The value `n/a` indicates: *non-applicable*.
 
 ##### Hint
 > On SHEBANQ is a query to find 2nd person pronominal suffixes in the function of Complement:
-[Oliver Glanz: tutorial: pronominal suffixes (prs)](https://shebanq.ancient-data.org/hebrew/query?version=4&id=84)
+[Oliver Glanz: tutorial: pronominal suffixes (prs)]({{site.shebanq}}/hebrew/query?version=4&id=84)
 

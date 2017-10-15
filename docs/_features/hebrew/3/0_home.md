@@ -4,12 +4,15 @@ feat: false
 ---
 
 This is *frozen* version **3**, taken from ETCBC on 2011-12-31.
-Not in [SHEBANQ](https://shebanq.ancient-data.org).
 
 This version has been deposited in the DANS-EASY archive by Eep Talstra in person,
 during the Lorentz conference
-[Biblical Scholarship and Humanities Computing: Data Types, Text, Language and Interpretation](http://www.lorentzcenter.nl/lc/web/2012/480/info.php3?wsid=480), 2012-02-10 and can be retrieved as an MQL dump from
-[DOI: doi.org/10.17026/dans-x8h-y2bv](https://doi.org/10.17026%2Fdans-x8h-y2bv).
+[Biblical Scholarship and Humanities Computing: Data Types, Text, Language and Interpretation]({{site.lorentz}}), 2012-02-10 and can be retrieved as an MQL dump from
+[DOI: {{site.doi3}}]({{site.doi3_url}}).
+
+The data has been rearchived in Zenodo: [DOI: {{site.doiBhsa}}]({{site.doiBhsa_url}}).
+
+Not viewable in [SHEBANQ]({{site.shebanq}}).
 
 This data has not been enriched with extra ETCBC data, nor with a phonetic transcription.
 But statistical features have been added.

@@ -5,7 +5,7 @@ title: vbs
 **root formation -consonantal-transliterated**
 
 The consonantal representation of the root formation of a verb.
-[BHSA transliteration](https://shebanq.ancient-data.org/shebanq/static/docs/BHSA-transcription.pdf).
+[BHSA transliteration]({{site.shebanq}}/static/docs/BHSA-transcription.pdf).
 
 This feature is present on objects of type [*word*](otype).
 

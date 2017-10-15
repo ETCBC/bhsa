@@ -5,7 +5,7 @@ title: vbe
 **verbal ending -consonantal-transliterated**
 
 The consonantal representation of the verbal ending of a word
-[BHSA transliteration](https://shebanq.ancient-data.org/shebanq/static/docs/BHSA-transcription.pdf).
+[BHSA transliteration]({{site.shebanq}}/static/docs/BHSA-transcription.pdf).
 
 This feature is present on objects of type [*word*](otype).
 
@@ -25,6 +25,6 @@ To mark *not applicable*, the value `n/a` is used, instead of the usual `NA`.
 
 ##### Hint
 > Here are some example queries using the `vbe` feature: 
-[adhortative forms](https://shebanq.ancient-data.org/hebrew/text?mr=r&qw=q&iid=500)
+[adhortative forms]({{site.shebanq}}/hebrew/text?mr=r&qw=q&iid=500)
 and
-[cohortative forms](https://shebanq.ancient-data.org/hebrew/text?mr=r&qw=q&iid=499) .
+[cohortative forms]({{site.shebanq}}/hebrew/text?mr=r&qw=q&iid=499) .

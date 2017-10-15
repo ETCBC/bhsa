@@ -5,7 +5,7 @@ title: voc
 **vocalized lexeme -pointed-transliterated**
 
 The pointed representation of the lexeme of a word occurrence in 
-[BHSA transliteration](https://shebanq.ancient-data.org/shebanq/static/docs/BHSA-transcription.pdf).
+[BHSA transliteration]({{site.shebanq}}/static/docs/BHSA-transcription.pdf).
 
 This feature is present on objects of type [*lex*](otype).
 

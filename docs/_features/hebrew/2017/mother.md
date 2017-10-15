@@ -8,7 +8,7 @@ necessarily have an embbedding relationship.**
 The mother relation exists between objects of many different kinds.
 The feature [code](code) refers to it a lot.
 
-See the [AtomsAndMothers notebook]({{repoBase}}/programs/AtomsAndMothers.ipynb)
+See the [AtomsAndMothers notebook]({{site.repoBase}}/programs/AtomsAndMothers.ipynb)
 which makes some basic explorations into these matters.
 
 ##### Caution

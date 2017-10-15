@@ -38,5 +38,5 @@ so lexemes tend to be not contained in any other object type.
 
 ##### Hint
 > In Text-Fabric we are developing a new way of querying which will not have this problem.
-Read more in [search]({{repoBase}}/tutorial/search.ipynb).
+Read more in [search]({{site.repoBase}}/tutorial/search.ipynb).
 

@@ -8,22 +8,22 @@ type: pages
 ## Biblia Hebraica Stuttgartensia (Amstelodamensis)
 
 This is the
-[text-fabric]({{tfw}})
+[text-fabric]({{site.tfw}})
 version of the Hebrew Bible Database,
 containing the text of the Hebrew Bible augmented with linguistic annotations compiled by the
-[Eep Talstra Centre for Bible and Computer](http://etcbc.nl), VU University Amsterdam.
+[Eep Talstra Centre for Bible and Computer]({{site.institute}}), VU University Amsterdam.
 
 The text is based on the
-[Bibila Hebraica Stuttgartensia](https://www.academic-bible.com/en/online-bibles/biblia-hebraica-stuttgartensia-bhs/read-the-bible-text/)
+[Bibila Hebraica Stuttgartensia]({{site.dbgAcademic}})
 edited by Karl Elliger and Wilhelm Rudolph,
 Fifth Revised Edition, edited by Adrian Schenker,
 © 1977 and 1997 Deutsche Bibelgesellschaft, Stuttgart.
 
-The [text-fabric]({{tfw}}) version has been prepared
-by Dirk Roorda [Data Archiving and Networked Services](https://dans.knaw.nl/en/front-page?set_language=en),
+The [text-fabric]({{site.tfw}}) version has been prepared
+by Dirk Roorda [Data Archiving and Networked Services]({{site.dans}}),
 with thanks to
 Martijn Naaijer,
-[Cody Kingham](http://www.codykingham.com)
+Cody Kingham,
 and Constantijn Sikkel.
 
 There are more formats in which the data is available.
@@ -31,32 +31,32 @@ In the `shebanq` subdirectory you find data in MQL format and in MYSQL format th
 the SHEBANQ website.
 
 In the the
-[bigTables]({{repoBase}}/programs/bigTables.ipynb)
+[bigTables]({{site.repoBase}}/programs/bigTables.ipynb)
 you find ways to export the complete data as one big table, and store it in R format or in Pandas format.
 The notebooks 
-[bigTablesP]({{repoBase}}/programs/bigTablesP.ipynb)
+[bigTablesP]({{site.repoBase}}/programs/bigTablesP.ipynb)
 and
-[bigTablesR]({{repoBase}}/programs/bigTablesR.ipynb)
+[bigTablesR]({{site.repoBase}}/programs/bigTablesR.ipynb)
 show you a few things that you can do in R and Pandas.
 
 ## Provenance
 The source data resides on a server of the ETCBC, managed by Constantijn Sikkel.
-He makes that data available as an [MQL](https://emdros.org/mql.html) database dump,
+He makes that data available as an [MQL]({{site.mql}}) database dump,
 together with supplementary data files.
-From there it is transported to this Github repo by means of a [pipeline]({{org}}/pipeline).
+From there it is transported to this Github repo by means of a [pipeline]({{site.org}}/pipeline).
 
 This dataset contains several versions of the BHSA, from 2011 till now.
 When you navigate to a version, you'll see more information about that version and its provenance.
 
 For all versions the
-[pipeline]({{org}}/pipeline)
+[pipeline]({{site.org}}/pipeline)
 has been followed.
 For the newer versions, starting with `2016`, additional data is available in other repositories.
 **See the footer of this page**.
 
 In text-fabric it is easy to load the features of several datasets in one session.
 See the
-[Fabric(locations=locations, modules=modules)]({{tfw}}/Api#importing-and-calling-text-fabric)
+[Fabric(locations=locations, modules=modules)]({{site.tfw}}/Api#importing-and-calling-text-fabric)
 command.
 
 ## Workflow
@@ -93,7 +93,7 @@ These versions are also firmly entrenched in the academic record, by virtue of b
 ## License
 
 This work is licensed under a
-[Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
+[Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)]({{site.cc}}).
 That means:
 
 * You may download the data and use it: process, copy, modify;
@@ -102,18 +102,18 @@ That means:
 * When you publish this data or results you obtained from them, you have to comply with the following:
   * give proper attribution to the data when you use it in new applications,
     by citing this persistent identifier:
-    [10.17026/dans-z6y-skyh](http://dx.doi.org/10.17026%2Fdans-z6y-skyh).
+    [{{site.doi4b}}]({{site.doi4b_url}}).
   * do not use the data for commercial applications without consent;
     for any commercial use, please contact the
-    [German Bible Society](zentrale@dbg.de).
+    [German Bible Society]({{site.dbgMail}}).
 
 # How to use
 
 This data can be processed by 
-[Text-Fabric]({{tfw}}).
+[Text-Fabric]({{site.tfw}}).
 
 See also 
-[tutorial (Hebrew)]({{repoBase}}/tutorial/start.ipynb)
+[tutorial (Hebrew)]({{site.repoBase}}/tutorial/start.ipynb)
 and
-[tutorial (search)]({{repoBase}}/tutorial/search.ipynb).
+[tutorial (search)]({{site.repoBase}}/tutorial/search.ipynb).
 

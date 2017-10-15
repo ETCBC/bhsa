@@ -42,7 +42,7 @@ Version `c` is continuous and will be frequently updated.
 ##############################################################################################
 ```
 
-Or see the complete [run]({{org}}/pipeline/blob/master/runs/2017-10-05.txt?raw=true).
+Or see the complete [run]({{site.org}}/pipeline/blob/master/runs/2017-10-05.txt?raw=true).
 
 ### 2017-10-01
 
@@ -53,7 +53,7 @@ It is now called
 
 It resides in this repo, in several versions and formats.
 This repo is involved in a
-[pipeline]({{org}}/pipeline)
+[pipeline]({{site.org}}/pipeline)
 from the systems at the
 ETCBC to github repositories that host data in text-fabric format,
 to the website SHEBANQ.
@@ -63,9 +63,9 @@ This repository only contains the core data of the ETCBC.
 Additional data is still very much available, but has moved to
 other repositories:
 
-* [phono]({{org}}/phono)
-* [parallels]({{org}}/parallels)
-* [valence]({{org}}/valence)
+* [phono]({{site.org}}/phono)
+* [parallels]({{site.org}}/parallels)
+* [valence]({{site.org}}/valence)
 
 This is by no means a closed set.
 New research leads to new data, new repositories.

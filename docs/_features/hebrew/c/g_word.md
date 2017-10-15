@@ -6,7 +6,7 @@ title: g_word
 
 
 The pointed representation of a word occurrence in
-[BHSA transliteration](https://shebanq.ancient-data.org/shebanq/static/docs/BHSA-transcription.pdf).
+[BHSA transliteration]({{site.shebanq}}/static/docs/BHSA-transcription.pdf).
 
 This feature is present on objects of type [*word*](otype).
 
@@ -23,4 +23,4 @@ In order not to miss search results, it might be helpful to compare the results 
 
 ##### Hint
 > Here is an example query:
-[setuma and petucha](https://shebanq.ancient-data.org/hebrew/text?mr=r&qw=q&iid=499) .
+[setuma and petucha]({{site.shebanq}}/hebrew/text?mr=r&qw=q&iid=499) .

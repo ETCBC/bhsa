@@ -27,9 +27,9 @@ In order not to miss search results, it might be helpful to compare the results 
 
 ##### Hint
 > It is difficult to enter Hebrew text. One of the handiest ways to get Hebrew text into a query is to copy and paste it
-from some other Hebrew text, e.g. from the [SHEBANQ](https://shebanq.ancient-data.org).
+from some other Hebrew text, e.g. from [SHEBANQ]({{site.shebanq}}).
 However, the shebanq application has inserted blank spaces inside some words in order to work around some font rendering
-problems. See [this notebook](https://shebanq.ancient-data.org/shebanq/static/docs/tools/shebanq/font-rendering.html)
+problems. See [this notebook]({{site.shebanq}}/static/docs/tools/shebanq/font-rendering.html)
 for more information.
 
 You could try to copy and paste Hebrew text into a word processor, then remove all diacritics, and paste the result into

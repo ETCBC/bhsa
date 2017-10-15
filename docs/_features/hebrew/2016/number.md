@@ -39,10 +39,10 @@ But if you are in the business of MQL query writing, there is a better way.
 ##### Hint
 > The MQL language contains the keyword `FIRST` by which you can indicate that you mean the first object
 in its context. The use of it is nicely demonstrated in this query on 
-[SHEBANQ](https://shebanq.ancient-data.org/hebrew/query?id=519) by Reinoud Oosting. The query is also a beautiful
+[SHEBANQ]({{site.shebanq}}/hebrew/query?id=519) by Reinoud Oosting. The query is also a beautiful
 example of establishing whether an anomalous pattern is really exceptional or occurs more often.
 For more info about what you can say in MQL, consult the well-written
-[reference manual](https://shebanq.ancient-data.org/shebanq/static/docs/MQL-Query-Guide.pdf)
+[reference manual]({{site.shebanq}}/static/docs/MQL-Query-Guide.pdf)
 by the implementor of MQL, Ulrik Petersen.
 
 ##### Hint

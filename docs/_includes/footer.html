@@ -7,7 +7,7 @@
             <a
                 target="_blank"
                 title="{{ item.title }}"
-                href='{{ site.org_url | append:"/"" | append:item.name }}'
+                href='{{ site.org | append:"/"" | append:item.name }}'
             >{{ item.name }}</a>
         {% endfor %}
     </h2>
@@ -16,23 +16,18 @@
       <div class="footer-col footer-col-1">
         <img src="{{'/images/etcbc-small.png' | prepend:site.baseurl}}"/>
         <ul class="contact-list">
-            {% for item in site.fleft %}
+            {% for item in site.fEtcbc %}
             <li>
-                {% if item.hide %}
-                {{item.name}}
-                {% else %}
-                <a href="mailto:{{item.email}}">{{item.name}}</a>
-                {% endif %}
-                (<a href="{{item.url}}">{{item.institute}}</a>)
+                <a href="{{item.url}}" title="{{item.desc}}">{{item.name}}</a>
             </li>
             {% endfor %}
         </ul>
       </div>
 
       <div class="footer-col footer-col-2">
-        <img src="{{'/images/tf-small.png' | prepend:site.baseurl}}"/>
+        <img src="{{'/images/shebanq-small.png' | prepend:site.baseurl}}"/>
         <ul class="contact-list">
-            {% for item in site.fmiddle %}
+            {% for item in site.fShebanq %}
             <li>
                 <a href="{{item.url}}" title="{{item.desc}}">{{item.name}}</a>
             </li>
@@ -41,15 +36,28 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <img src="{{'/images/shebanq-small.png' | prepend:site.baseurl}}"/>
+        <img src="{{'/images/tf-small.png' | prepend:site.baseurl}}"/>
         <ul class="contact-list">
-            {% for item in site.fright %}
+            {% for item in site.fTf %}
             <li>
                 <a href="{{item.url}}" title="{{item.desc}}">{{item.name}}</a>
             </li>
             {% endfor %}
         </ul>
       </div>
+
+      <div class="footer-col footer-col-4">
+        <img src="{{'/images/dans.png' | prepend:site.baseurl}}"/>
+        <ul class="contact-list">
+            {% for item in site.fDans %}
+            <li>
+                <a href="{{item.url}}" title="{{item.desc}}">{{item.name}}</a>
+            </li>
+            {% endfor %}
+        </ul>
+      </div>
+
+
     </div>
 
   </div>

@@ -4,12 +4,32 @@ theme: minima
 
 baseurl: /bhsa
 
+institute: http://www.etcbc.nl
 org: https://github.com/ETCBC
 repoBase: https://github.com/ETCBC/bhsa/blob/master
 repo: https://github.com/ETCBC/bhsa
 tfBase: https://github.com/Dans-labs/text-fabric/blob/master
 tf: https://github.com/Dans-labs/text-fabric
 tfw: https://github.com/Dans-labs/text-fabric/wiki
+lf: https://github.com/Dans-labs/laf-fabric
+shebanq: https://shebanq.ancient-data.org
+dans: https://dans.knaw.nl/nl
+dbgAcademic: https://www.academic-bible.com/en/online-bibles/biblia-hebraica-stuttgartensia-bhs/read-the-bible-text/
+dbgMail: mailto:zentrale@dbg.de
+emdros: https://emdros.org
+mql: https://emdros.org/mql.html
+cc: https://creativecommons.org/licenses/by-nc/4.0/
+doi3: doi.org/10.17026/dans-x8h-y2bv
+doi3_url: https://doi.org/10.17026%2Fdans-x8h-y2bv 
+doi4: doi.org/10.17026/dans-2z3-arxf
+doi4_url: https://doi.org/10.17026/dans-2z3-arxf
+doi4b: 10.17026/dans-z6y-skyh
+doi4b_url: https://dx.doi.org/10.17026/dans-z6y-skyh
+doi2016: doi.org/10.5281/zenodo.591507
+doi2016_url: https://doi.org/10.5281/zenodo.591507
+doiBhsa: doi.org/10.5281/zenodo.1007624
+doiBhsa_url: https://doi.org/10.5281/zenodo.1007624
+lorentz: http://www.lorentzcenter.nl/lc/web/2012/480/info.php3?wsid=480
 
 collections:
     features:
@@ -34,8 +54,6 @@ defaults:
 
 email: 
 
-org_url: https://github.com/ETCBC
-
 data_repos:
   - name: bhsa
     line: Biblia Hebraica Stuttgartensia Amstelodamensis core data
@@ -48,34 +66,33 @@ data_repos:
   - name: pipeline
     line: Data pipeline to make manage versions of all related data and transfer them to SHEBANQ
 
-fleft:
+fEtcbc:
     - name: Wido van Peursen
-      email: w.t.van.peursen@vu.nl
-      hide: false
-      url: https://vu-nl.academia.edu/widovanpeursen
-      institute: ETCBC
+      url: mailto:w.t.van.peursen@vu.nl
     - name: Martijn Naaijer
-      email: m.naaijer@vu.nl
-      hide: false
-      institute: ETCBC
-      url: http://etcbc.nl
+      url: mailto:m.naaijer@vu.nl
     - name: Christiaan Erwich
-      email: c.m.erwich@vu.nl
-      hide: false
-      institute: ETCBC
-      url: http://etcbc.nl
+      url: mailto:c.m.erwich@vu.nl
     - name: Cody Kingham
-      email: c.a.kingham@student.vu.nl
-      hide: false
-      institute: ETCBC
-      url: http://etcbc.nl
+      url: mailto:c.a.kingham@student.vu.nl
     - name: Marianne Kaajan
-      email: m.e.kaajan@vu.nl
-      hide: false
-      institute: ETCBC
-      url: http://etcbc.nl
+      url: mailto:m.e.kaajan@vu.nl
 
-fmiddle:
+fShebanq:
+    - name: SHEBANQ website
+      url: https://shebanq.ancient-data.org
+      desc: View and query Hebrew dataset online
+    - name: SHEBANQ admin
+      url: mailto:shebanq@ancient-data.org
+      desc: Mail us
+    - name: ETCBC on Slack
+      url: https://etcbc-vu.slack.com/signup
+      desc: Signup with our Slack team
+    - name: ETCBC twitter
+      url: https://twitter.com/etcbc_vu
+      desc: follow events
+
+fTf:
     - name: text-fabric
       url: https://github.com/Dans-labs/text-fabric
       desc: Python module for processing text fabrics
@@ -88,20 +105,8 @@ fmiddle:
     - name: tutorial (search)
       url: https://github.com/Dans-labs/text-fabric/blob/master/docs/searchTutorial.ipynb
       desc: IPython notebook with Greek examples
-    - name: Dirk Roorda (DANS)
-      desc: creator of text-fabric and the pipeline
-      url: https://dans.knaw.nl/en/about/organisation-and-policy/staff/roorda
 
-fright:
-    - name: SHEBANQ website
-      url: https://shebanq.ancient-data.org
-      desc: View and query Hebrew dataset online
-    - name: SHEBANQ on Slack
-      url: https://shebanq.slack.com/signup
-      desc: Signup with our Slack team
-    - name: SHEBANQ admin
-      url: mailto:shebanq@ancient-data.org
-      desc: Mail us
-    - name: SHEBANQ twitter
-      url: https://twitter.com/shebanq_
-      desc: follow events
+fDans:
+    - name: Dirk Roorda (DANS)
+      desc: developer of shebanq, text-fabric and the pipeline
+      url: https://dans.knaw.nl/en/about/organisation-and-policy/staff/roorda

@@ -6,7 +6,7 @@ title: otype
 
 Types for text objects.
 As text objects are represented by nodes in
-[Text-Fabric]({{tfw}}),
+[Text-Fabric]({{site.tfw}}),
 we shall use both *object* and *node* without much consistency.  
 
 ---|---|---
@@ -65,7 +65,7 @@ For the purpose if this documentation, we shall use the contrast *consonantal* (
 and *pointed* (with diacritics).
 The `_utf8` versions contain UNICODE representations of the values, using the Hebrew code block.
 The non `_utf8` versions contain ASCII representations of the values, according to the
-[BHSA transliteration table](https://shebanq.ancient-data.org/shebanq/static/docs/BHSA-transcription.pdf). 
+[BHSA transliteration table]({{site.shebanq}}/static/docs/BHSA-transcription.pdf). 
 
 The text of a word occurrence is in
 [g_word](g_word) (pointed, transliterated) and [g_word_utf8](g_word_utf8) (pointed, Hebrew),
@@ -96,7 +96,7 @@ It does not fit into the hierarchy, because these objects will very rarely lie e
 Except if a lexeme is rare.
 
 ##### Hint
-> Have a look at the [tutorial]({{repoBase}}/tutorial/start.ipynb)
+> Have a look at the [tutorial]({{site.repoBase}}/tutorial/start.ipynb)
 so see how you could exploit this object type to find
 lexemes that are unique to books or chapters very easily.
 
@@ -121,7 +121,7 @@ the functional object fall neatly between their distributional atoms.
 Is `subphrase` functional or distributional?
 Are atoms always *maximal* continous stretches, or can you have two adjacent atoms of the same type?
 
-See the [AtomsAndMothers notebook]({{repoBase}}/programs/AtomsAndMothers.ipynb)
+See the [AtomsAndMothers notebook]({{site.repoBase}}/programs/AtomsAndMothers.ipynb)
 which makes some basic explorations into these matters.
 
 ##### Note
@@ -134,4 +134,4 @@ The *otype* feature has the same values as the possible names of the MQL blocks.
 ##### Hint
 > In Text-Fabric we have developed a new way of querying.
 Read more in
-[search]({{repoBase}}/tutorial/search.ipynb).
+[search]({{site.repoBase}}/tutorial/search.ipynb).

@@ -5,13 +5,13 @@ feat: false
 
 This is *frozen* version **2016**, taken from ETCBC: 2016-11-04.
 
-Archived in Zenodo: [DOI: doi.org/10.5281/zenodo.591507](https://doi.org/10.5281/zenodo.591507).
+Archived in Zenodo: [DOI: {{site.doiBhsa}}]({{site.doiBhsa_url}}).
 
-Not viewable in [SHEBANQ](https://shebanq.ancient-data.org).
+Not viewable in [SHEBANQ]({{site.shebanq}}).
 
 # Introduction
 This is the key to the meaning of the features of the
-[BHSA dataset]({{repo}}).
+[BHSA dataset]({{site.repo}}).
 
 We organize the features in several groups, roughly analagous to the
 [types of objects](otype)

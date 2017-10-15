@@ -29,5 +29,5 @@ Example: The sequence of characters corresponds with embedding, so a clause havi
 ##### Hint
 > Here is a sophisticated query by Oliver Glanz that makes use of this
 feature. It detects deviations in a discourse pattern. See the query
-on [SHEBANQ](https://shebanq.ancient-data.org/hebrew/query?id=491).
+on [SHEBANQ]({{site.shebanq}}/hebrew/query?id=491).
 

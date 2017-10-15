@@ -144,23 +144,30 @@
 }
 
 .footer-col-1 {
-  width: -webkit-calc(30% - (#{$spacing-unit} / 2));
-  width:         calc(30% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(24% - (#{$spacing-unit} / 2));
+  width:         calc(24% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-  width: -webkit-calc(30% - (#{$spacing-unit} / 2));
-  width:         calc(30% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(24% - (#{$spacing-unit} / 2));
+  width:         calc(24% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-  width: -webkit-calc(30% - (#{$spacing-unit} / 2));
-  width:         calc(30% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(24% - (#{$spacing-unit} / 2));
+  width:         calc(24% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-4 {
+  width: -webkit-calc(24% - (#{$spacing-unit} / 2));
+  width:         calc(24% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
   .footer-col-1,
-  .footer-col-2 {
+  .footer-col-2,
+  .footer-col-3,
+  .footer-col-4 {
     width: -webkit-calc(50% - (#{$spacing-unit} / 2));
     width:         calc(50% - (#{$spacing-unit} / 2));
   }

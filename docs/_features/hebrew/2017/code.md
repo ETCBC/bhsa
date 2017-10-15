@@ -39,7 +39,7 @@ so that the resulting clause atom relations codes constitute a useful collection
 
 See for example
 Gino Kalkman's
-[analysis of syntax in the poetry of the Psalms](https://shebanq.ancient-data.org/tools?goto=verbsystem)
+[analysis of syntax in the poetry of the Psalms]({{site.shebanq}}/tools?goto=verbsystem)
 
 ##### Note
 > The notions distributional and functional should be explained somewhere, 
@@ -341,4 +341,4 @@ What if a direct speech clause also fits the pattern of one of the other cases?
 > Here is a public MQL query by Martijn Naaijer that detects chunks of direct speech.
 It uses the combined information carried by the `code` feature and the 
 [txt](txt) feature. View the query on
-[SHEBANQ](https://shebanq.ancient-data.org/hebrew/query?id=518).
+[SHEBANQ]({{site.shebanq}}/hebrew/query?id=518).
