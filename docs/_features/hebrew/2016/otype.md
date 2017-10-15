@@ -6,7 +6,7 @@ title: otype
 
 Types for text objects.
 As text objects are represented by nodes in
-[Text-Fabric](https://github.com/Dans-labs/text-fabric/wiki),
+[Text-Fabric]({{tfw}}),
 we shall use both *object* and *node* without much consistency.  
 
 ---|---|---
@@ -96,7 +96,7 @@ It does not fit into the hierarchy, because these objects will very rarely lie e
 Except if a lexeme is rare.
 
 ##### Hint
-> Have a look at the [tutorial](https://github.com/ETCBC/bhsa/blob/master/tutorial/start.ipynb)
+> Have a look at the [tutorial]({{repoBase}}/tutorial/start.ipynb)
 so see how you could exploit this object type to find
 lexemes that are unique to books or chapters very easily.
 
@@ -121,7 +121,7 @@ the functional object fall neatly between their distributional atoms.
 Is `subphrase` functional or distributional?
 Are atoms always *maximal* continous stretches, or can you have two adjacent atoms of the same type?
 
-See the [AtomsAndMothers notebook](https://github.com/ETCBC/bhsa/blob/master/programs/AtomsAndMothers.ipynb)
+See the [AtomsAndMothers notebook]({{repoBase}}/programs/AtomsAndMothers.ipynb)
 which makes some basic explorations into these matters.
 
 ##### Note
@@ -134,7 +134,4 @@ The *otype* feature has the same values as the possible names of the MQL blocks.
 ##### Hint
 > In Text-Fabric we have developed a new way of querying.
 Read more in
-1. [search](/ETCBC/bhsa/blob/master/tutorial/search.ipynb).
-2. [search](bhsa/blob/master/tutorial/search.ipynb).
-3. [search](blob/master/tutorial/search.ipynb).
-4. [search](tutorial/search.ipynb).
+[search]({{repoBase}}/tutorial/search.ipynb).

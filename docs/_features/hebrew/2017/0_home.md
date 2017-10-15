@@ -11,7 +11,7 @@ Not viewable in [SHEBANQ](https://shebanq.ancient-data.org).
 
 # Introduction
 This is the key to the meaning of the features of the
-[BHSA dataset](https://github.com/ETCBC/bhsa/tree/master/tf).
+[BHSA dataset]({{repo}}).
 
 We organize the features in several groups, roughly analagous to the
 [types of objects](otype)

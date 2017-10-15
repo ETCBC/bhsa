@@ -12,7 +12,7 @@ Viewable in [SHEBANQ](https://shebanq.ancient-data.org).
 This data has been enriched with extra ETCBC data, statistical features and a phonetic transcription
 by Dirk Roorda.
 This was done using
-[LAF-Fabric](https://github.com/ETCBC/laf-fabric) (precursor of text-fabric).
+[LAF-Fabric](https://github.com/Dans-labs/laf-fabric) (precursor of text-fabric).
 The enriched data has been exported to MQL again, as `x_etcbc4b.mql`, for use in SHEBANQ.
 `x_etcbc4b.mql` has been archived in the DANS repository [Easy](https://doi.org/10.17026/dans-z6y-skyh).
 These extended mql files are now present as `source/`*version*`/bhsa.mql.bz2` in this repo.

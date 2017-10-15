@@ -8,7 +8,7 @@ type: pages
 ## Biblia Hebraica Stuttgartensia (Amstelodamensis)
 
 This is the
-[text-fabric](https://github.com/Dans-labs/text-fabric/wiki)
+[text-fabric]({{tfw}})
 version of the Hebrew Bible Database,
 containing the text of the Hebrew Bible augmented with linguistic annotations compiled by the
 [Eep Talstra Centre for Bible and Computer](http://etcbc.nl), VU University Amsterdam.
@@ -19,7 +19,7 @@ edited by Karl Elliger and Wilhelm Rudolph,
 Fifth Revised Edition, edited by Adrian Schenker,
 © 1977 and 1997 Deutsche Bibelgesellschaft, Stuttgart.
 
-The [text-fabric](https://github.com/Dans-labs/text-fabric/wiki) version has been prepared
+The [text-fabric]({{tfw}}) version has been prepared
 by Dirk Roorda [Data Archiving and Networked Services](https://dans.knaw.nl/en/front-page?set_language=en),
 with thanks to
 Martijn Naaijer,
@@ -31,32 +31,32 @@ In the `shebanq` subdirectory you find data in MQL format and in MYSQL format th
 the SHEBANQ website.
 
 In the the
-[bigTables](https://github.com/ETCBC/bhsa/blob/master/programs/bigTables.ipynb)
+[bigTables]({{repoBase}}/programs/bigTables.ipynb)
 you find ways to export the complete data as one big table, and store it in R format or in Pandas format.
 The notebooks 
-[bigTablesP](https://github.com/ETCBC/bhsa/blob/master/programs/bigTablesP.ipynb)
+[bigTablesP]({{repoBase}}/programs/bigTablesP.ipynb)
 and
-[bigTablesR](https://github.com/ETCBC/bhsa/blob/master/programs/bigTablesR.ipynb)
+[bigTablesR]({{repoBase}}/programs/bigTablesR.ipynb)
 show you a few things that you can do in R and Pandas.
 
 ## Provenance
 The source data resides on a server of the ETCBC, managed by Constantijn Sikkel.
 He makes that data available as an [MQL](https://emdros.org/mql.html) database dump,
 together with supplementary data files.
-From there it is transported to this Github repo by means of a [pipeline](https://github.com/ETCBC/pipeline).
+From there it is transported to this Github repo by means of a [pipeline]({{org}}/pipeline).
 
 This dataset contains several versions of the BHSA, from 2011 till now.
 When you navigate to a version, you'll see more information about that version and its provenance.
 
 For all versions the
-[pipeline](https://github.com/ETCBC/pipeline)
+[pipeline]({{org}}/pipeline)
 has been followed.
 For the newer versions, starting with `2016`, additional data is available in other repositories.
 **See the footer of this page**.
 
 In text-fabric it is easy to load the features of several datasets in one session.
 See the
-[Fabric(locations=locations, modules=modules)](https://github.com/Dans-labs/text-fabric/wiki/Api#importing-and-calling-text-fabric)
+[Fabric(locations=locations, modules=modules)]({{tfw}}/Api#importing-and-calling-text-fabric)
 command.
 
 ## Workflow
@@ -110,10 +110,10 @@ That means:
 # How to use
 
 This data can be processed by 
-[Text-Fabric](https://github.com/Dans-labs/text-fabric/wiki).
+[Text-Fabric]({{tfw}}).
 
 See also 
-[tutorial (Hebrew)](https://github.com/ETCBC/bhsa/blob/master/tutorial/start.ipynb)
+[tutorial (Hebrew)]({{repoBase}}/tutorial/start.ipynb)
 and
-[tutorial (search)](https://github.com/ETCBC/bhsa/blob/master/tutorial/search.ipynb).
+[tutorial (search)]({{repoBase}}/tutorial/search.ipynb).
 

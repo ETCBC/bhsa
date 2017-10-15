@@ -18,12 +18,12 @@ Nevertheless, SHEBANQ falls short for those researchers that want to perform sta
 These researchers need to preprocess the data in ways that an application author cannot anticipate.
 
 The good news is the existence of the other tool,
-[Text-Fabric](https://github.com/Dans-labs/text-fabric/wiki).
+[Text-Fabric]({{tfw}}).
 This is an **offline** tool based on exactly the same data that powers SHEBANQ.
 The programming researcher can use Text-Fabric as a preprocessing tool for transforming the complex BHSA data into the formats that are suitable to
 R, spreadsheets, or any format of choice.
-Text-Fabric is open source, downloadable from [github](https://github.com/Dans-labs/text-fabric),
-and the data is downloadable from [bhsa](https://github.com/ETCBC/bhsa).
+Text-Fabric is open source, downloadable from [github]({{tf}}),
+and the data is downloadable from [bhsa]({{repo}}).
 
 It can be installed on Mac OSX, Windows and Linux.
 The recommended mode of working with the data is: programming in Python within a Jupyter Notebook.
@@ -33,8 +33,8 @@ The recommended mode of working with the data is: programming in Python within a
 Text-Fabric is ideal if you interested in a certain phenomenon and you want to gather data about that phenomenon.
 Take for example the following notebook:
 
-* [start](https://github.com/ETCBC/bhsa/blob/master/tutorial/start.ipynb)
-* [search](https://github.com/ETCBC/bhsa/blob/master/tutorial/search.ipynb)
+* [start]({{repoBase}}/tutorial/start.ipynb)
+* [search]({{repoBase}}/tutorial/search.ipynb)
 
 This points to an explorative way of researching syntactical patterns, without knowing in advance how exactly
 the data is organized.
@@ -48,7 +48,7 @@ In Text-Fabric we have *search templates*, that can do similar things as MQL que
 TF-search and MQL-queries have different strengths and weaknesses.
 See the examples in 
 
-* [search vs MQL](https://github.com/ETCBC/bhsa/blob/master/tutorial/searchFromMQL.ipynb)
+* [search vs MQL]({{repoBase}}/tutorial/searchFromMQL.ipynb)
 
 where we translate a number of MQL queries that are shared by SHEBANQ into Text-Fabric search templates.
 

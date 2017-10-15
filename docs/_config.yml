@@ -4,6 +4,13 @@ theme: minima
 
 baseurl: /bhsa
 
+org: https://github.com/ETCBC
+repoBase: https://github.com/ETCBC/bhsa/blob/master
+repo: https://github.com/ETCBC/bhsa
+tfBase: https://github.com/Dans-labs/text-fabric/blob/master
+tf: https://github.com/Dans-labs/text-fabric
+tfw: https://github.com/Dans-labs/text-fabric/wiki
+
 collections:
     features:
         output: true
