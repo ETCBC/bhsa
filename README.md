@@ -39,6 +39,7 @@ That means:
 # How to use
 
 ![tf](programs/images/tf-small.png)
+![dans](programs/images/dans.png)
 
 This data can be processed by 
 [Text-Fabric](https://github.com/Dans-labs/text-fabric/wiki).
