@@ -96,7 +96,7 @@ It does not fit into the hierarchy, because these objects will very rarely lie e
 Except if a lexeme is rare.
 
 ##### Hint
-> Have a look at the [tutorial](https://github.com/Dans-labs/text-fabric/blob/master/docs/tutorial.ipynb)
+> Have a look at the [tutorial](https://github.com/ETCBC/bhsa/blob/master/tutorial/start.ipynb)
 so see how you could exploit this object type to find
 lexemes that are unique to books or chapters very easily.
 
@@ -134,4 +134,7 @@ The *otype* feature has the same values as the possible names of the MQL blocks.
 ##### Hint
 > In Text-Fabric we have developed a new way of querying.
 Read more in
-[searchTutorial](/Dans-labs/text-fabric/blob/master/docs/searchTutorial.ipynb).
+1. [search](/ETCBC/bhsa/blob/master/tutorial/search.ipynb).
+2. [search](bhsa/blob/master/tutorial/search.ipynb).
+3. [search](blob/master/tutorial/search.ipynb).
+4. [search](tutorial/search.ipynb).

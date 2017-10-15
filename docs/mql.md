@@ -33,8 +33,8 @@ The recommended mode of working with the data is: programming in Python within a
 Text-Fabric is ideal if you interested in a certain phenomenon and you want to gather data about that phenomenon.
 Take for example the following notebook:
 
-* [tutorial](https://github.com/Dans-labs/text-fabric/blob/master/docs/tutorial.ipynb)
-* [search tutorial](https://github.com/Dans-labs/text-fabric/blob/master/docs/searchTutorial.ipynb)
+* [start](https://github.com/ETCBC/bhsa/blob/master/tutorial/start.ipynb)
+* [search](https://github.com/ETCBC/bhsa/blob/master/tutorial/search.ipynb)
 
 This points to an explorative way of researching syntactical patterns, without knowing in advance how exactly
 the data is organized.
@@ -48,7 +48,7 @@ In Text-Fabric we have *search templates*, that can do similar things as MQL que
 TF-search and MQL-queries have different strengths and weaknesses.
 See the examples in 
 
-* [search vs MQL](https://github.com/Dans-labs/text-fabric/blob/master/docs/searchFromMQL.ipynb)
+* [search vs MQL](https://github.com/ETCBC/bhsa/blob/master/tutorial/searchFromMQL.ipynb)
 
 where we translate a number of MQL queries that are shared by SHEBANQ into Text-Fabric search templates.
 

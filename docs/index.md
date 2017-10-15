@@ -113,7 +113,7 @@ This data can be processed by
 [Text-Fabric](https://github.com/Dans-labs/text-fabric/wiki).
 
 See also 
-[tutorial (Hebrew)](https://github.com/Dans-labs/text-fabric/blob/master/docs/tutorial.ipynb)
+[tutorial (Hebrew)](https://github.com/ETCBC/bhsa/blob/master/tutorial/start.ipynb)
 and
-[tutorial (search)](https://github.com/Dans-labs/text-fabric/blob/master/docs/searchTutorial.ipynb).
+[tutorial (search)](https://github.com/ETCBC/bhsa/blob/master/tutorial/search.ipynb).
 
