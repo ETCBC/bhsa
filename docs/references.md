@@ -345,9 +345,6 @@ Amsterdam: VU University Press, 1992.
 # Talstra, Eep, and Christof F. Hardmeier (1989)
 **Sprachgestalt Und Sinngehalt: Wege Zu Neuen Instrumenten Der Computergestützten Textwahrnehmung**
 
-[here](http://www.swetswise.com/link/access_db?issn=0044-2526),
-[here](http://www.extenza-eps.com/extenza/contentviewing/viewJournal.do?journalId=443).
-
 Zeitschrift Für Die Alttestamentliche Wissenschaft 101 (1989).
 
 # Talstra, Eep (1987)
