@@ -1,3 +1,0 @@
-clause_kind
-===========
-.. literalinclude:: ../values/clause_kind values.txt

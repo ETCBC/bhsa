@@ -1,3 +1,0 @@
-det
-===
-.. literalinclude:: ../values/det values.txt

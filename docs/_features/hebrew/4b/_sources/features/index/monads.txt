@@ -1,3 +1,0 @@
-monads
-======
-.. literalinclude:: ../values/monads values.txt

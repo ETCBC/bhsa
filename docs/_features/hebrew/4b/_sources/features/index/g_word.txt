@@ -1,3 +1,0 @@
-g_word
-======
-.. literalinclude:: ../values/g_word values.txt

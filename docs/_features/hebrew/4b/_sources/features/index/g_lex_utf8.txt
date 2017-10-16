@@ -1,3 +1,0 @@
-g_lex_utf8
-==========
-.. literalinclude:: ../values/g_lex_utf8 values.txt

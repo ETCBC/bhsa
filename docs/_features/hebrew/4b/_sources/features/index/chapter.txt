@@ -1,3 +1,0 @@
-chapter
-=======
-.. literalinclude:: ../values/chapter values.txt

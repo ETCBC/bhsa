@@ -1,8 +1,0 @@
-g_nme
-=====
-.. literalinclude:: ../values/g_nme values.txt
-
-paradigmatic related to graphical
----------------------------------
-
-.. literalinclude:: ../compilations/nme values.txt

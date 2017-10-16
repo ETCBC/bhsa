@@ -1,3 +1,0 @@
-vs
-==
-.. literalinclude:: ../values/vs values.txt

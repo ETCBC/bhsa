@@ -1,3 +1,0 @@
-typ
-===
-.. literalinclude:: ../values/typ values.txt

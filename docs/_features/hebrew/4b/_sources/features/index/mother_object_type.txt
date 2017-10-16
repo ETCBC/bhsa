@@ -1,3 +1,0 @@
-mother_object_type
-==================
-.. literalinclude:: ../values/mother_object_type values.txt

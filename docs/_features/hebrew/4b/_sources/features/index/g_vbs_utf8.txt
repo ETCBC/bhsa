@@ -1,3 +1,0 @@
-g_vbs_utf8
-==========
-.. literalinclude:: ../values/g_vbs_utf8 values.txt

@@ -1,3 +1,0 @@
-g_word_utf8
-===========
-.. literalinclude:: ../values/g_word_utf8 values.txt

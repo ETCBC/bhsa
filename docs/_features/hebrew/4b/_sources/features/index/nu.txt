@@ -1,3 +1,0 @@
-nu
-==
-.. literalinclude:: ../values/nu values.txt

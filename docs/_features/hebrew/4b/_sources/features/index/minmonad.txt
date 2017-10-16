@@ -1,3 +1,0 @@
-minmonad
-========
-.. literalinclude:: ../values/minmonad values.txt

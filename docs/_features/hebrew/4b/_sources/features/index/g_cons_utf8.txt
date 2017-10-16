@@ -1,3 +1,0 @@
-g_cons_utf8
-===========
-.. literalinclude:: ../values/g_cons_utf8 values.txt

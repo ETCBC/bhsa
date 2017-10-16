@@ -1,3 +1,0 @@
-book
-====
-.. literalinclude:: ../values/book values.txt

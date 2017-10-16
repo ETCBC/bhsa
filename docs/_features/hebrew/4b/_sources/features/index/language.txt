@@ -1,3 +1,0 @@
-language
-========
-.. literalinclude:: ../values/language values.txt

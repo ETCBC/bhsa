@@ -1,3 +1,0 @@
-g_prs_utf8
-==========
-.. literalinclude:: ../values/g_prs_utf8 values.txt

@@ -1,8 +1,0 @@
-pfm
-===
-.. literalinclude:: ../values/pfm values.txt
-
-paradigmatic related to graphical
----------------------------------
-
-.. literalinclude:: ../compilations/pfm values.txt

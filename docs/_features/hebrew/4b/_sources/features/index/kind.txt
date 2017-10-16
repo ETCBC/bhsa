@@ -1,3 +1,0 @@
-kind
-===========
-.. literalinclude:: ../values/kind values.txt

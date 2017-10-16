@@ -1,3 +1,0 @@
-g_uvf_utf8
-==========
-.. literalinclude:: ../values/g_uvf_utf8 values.txt

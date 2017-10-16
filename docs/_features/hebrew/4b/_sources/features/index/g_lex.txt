@@ -1,3 +1,0 @@
-g_lex
-=====
-.. literalinclude:: ../values/g_lex values.txt

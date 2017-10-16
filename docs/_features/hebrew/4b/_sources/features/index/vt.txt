@@ -1,3 +1,0 @@
-vt
-==
-.. literalinclude:: ../values/vt values.txt

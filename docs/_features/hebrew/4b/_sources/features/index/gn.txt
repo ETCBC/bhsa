@@ -1,3 +1,0 @@
-gn
-==
-.. literalinclude:: ../values/gn values.txt

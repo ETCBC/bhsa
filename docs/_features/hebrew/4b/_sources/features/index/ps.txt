@@ -1,3 +1,0 @@
-ps
-==
-.. literalinclude:: ../values/ps values.txt

@@ -1,3 +1,0 @@
-rela
-====
-.. literalinclude:: ../values/rela values.txt

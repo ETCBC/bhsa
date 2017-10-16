@@ -1,3 +1,0 @@
-half_verse
-==========
-.. literalinclude:: ../values/half_verse values.txt
