@@ -1,5 +1,5 @@
 ---
-title: Home
+title: References
 type: pages
 ---
 
@@ -58,6 +58,10 @@ In text-fabric it is easy to load the features of several datasets in one sessio
 See the
 [Fabric(locations=locations, modules=modules)]({{site.tfw}}/Api#importing-and-calling-text-fabric)
 command.
+
+### References
+We have compiled a list of [references](references) to give an impression by what principles
+and methods the ETCBC has carried out its text analyses.
 
 ## Workflow
 The pipeline above is complicated and not free of
