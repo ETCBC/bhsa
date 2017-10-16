@@ -1,5 +1,5 @@
 ---
-title: ETCBC references
+title: References
 feat: false
 ---
 

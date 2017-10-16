@@ -1,5 +1,5 @@
 ---
-title: References
+title: Home
 type: pages
 ---
 
