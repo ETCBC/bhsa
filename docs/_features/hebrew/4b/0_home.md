@@ -22,5 +22,4 @@ These extended mql files are now present as `source/`*version*`/bhsa.mql.bz2` in
 This extended mql file is now present as `source/`*version*`/bhsa.mql.bz2` in this repo.
 
 # Feature documentation
-The features of this version are documented on
-[SHEBANQ]({{site.shebanq}}/static/docs/featuredoc/features/comments/0_overview.html)
+The [feature documentation](index.html) of this version is in a different format.

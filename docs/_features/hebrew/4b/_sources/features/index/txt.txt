@@ -1,0 +1,3 @@
+txt
+===
+.. literalinclude:: ../values/txt values.txt

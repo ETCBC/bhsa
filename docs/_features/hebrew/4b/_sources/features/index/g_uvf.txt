@@ -1,0 +1,8 @@
+g_uvf
+=====
+.. literalinclude:: ../values/g_uvf values.txt
+
+paradigmatic related to graphical
+---------------------------------
+
+.. literalinclude:: ../compilations/uvf values.txt

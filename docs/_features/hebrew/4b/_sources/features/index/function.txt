@@ -1,0 +1,3 @@
+function
+========
+.. literalinclude:: ../values/function values.txt

@@ -1,0 +1,8 @@
+prs
+===
+.. literalinclude:: ../values/prs values.txt
+
+paradigmatic related to graphical
+---------------------------------
+
+.. literalinclude:: ../compilations/prs values.txt

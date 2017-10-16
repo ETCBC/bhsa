@@ -1,0 +1,25 @@
+Feature Values
+=============================
+
+.. caution::
+    Version **etcbc4c** is available from
+    `text-fabric-data <https://github.com/Dans-labs/text-fabric-data>`_.
+    The set of features has changed slightly.
+    A corresponding **new version** of this feature documentation is available at
+    `text-fabric-data: docs <https://etcbc.github.io/text-fabric-data/features/hebrew/etcbc4c/0_overview.html>`_.
+    
+    Data version **etcbc4c** is not (yet) available in SHEBANQ, 
+    only in 
+    `Text-Fabric <https://github.com/Dans-labs/text-fabric/wiki>`_,
+    the successor of LAF-Fabric.
+    LAF-Fabric stays around in order to run legacy notebooks.
+    It is recommended to use **Text-Fabric** for new work.
+
+Contents:
+
+.. toctree::
+    :maxdepth: 2
+    :glob:
+
+    [a-zA-Z]*
+

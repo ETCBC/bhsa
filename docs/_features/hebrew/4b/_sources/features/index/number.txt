@@ -1,0 +1,3 @@
+number
+======
+.. literalinclude:: ../values/number values.txt

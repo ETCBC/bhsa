@@ -1,0 +1,3 @@
+label
+=====
+.. literalinclude:: ../values/label values.txt

@@ -1,0 +1,8 @@
+vbe
+===
+.. literalinclude:: ../values/vbe values.txt
+
+paradigmatic related to graphical
+---------------------------------
+
+.. literalinclude:: ../compilations/vbe values.txt

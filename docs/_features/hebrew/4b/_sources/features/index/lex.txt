@@ -1,0 +1,3 @@
+lex
+===
+.. literalinclude:: ../values/lex values.txt

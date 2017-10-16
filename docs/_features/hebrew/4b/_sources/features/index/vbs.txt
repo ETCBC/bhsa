@@ -1,0 +1,8 @@
+vbs
+===
+.. literalinclude:: ../values/vbs values.txt
+
+paradigmatic related to graphical
+---------------------------------
+
+.. literalinclude:: ../compilations/vbs values.txt

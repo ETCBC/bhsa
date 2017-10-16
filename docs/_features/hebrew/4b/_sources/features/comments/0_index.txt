@@ -1,0 +1,97 @@
+Features (by name)
+###################
+
+.. caution::
+    Version **etcbc4c** is available from
+    `text-fabric-data <https://github.com/Dans-labs/text-fabric-data>`_.
+    The set of features has changed slightly.
+    A corresponding **new version** of this feature documentation is available at
+    `text-fabric-data: docs <https://etcbc.github.io/text-fabric-data/features/hebrew/etcbc4c/0_overview.html>`_.
+    
+    Data version **etcbc4c** is not (yet) available in SHEBANQ, 
+    only in 
+    `Text-Fabric <https://github.com/Dans-labs/text-fabric/wiki>`_,
+    the successor of LAF-Fabric.
+    LAF-Fabric stays around in order to run legacy notebooks.
+    It is recommended to use **Text-Fabric** for new work.
+
+Contents:
+
+.. toctree::
+    :maxdepth: 1
+
+    book
+    chapter
+    clause_kind
+    typ
+    code
+    det
+    dist
+    dist_unit
+    domain
+    freq_lex
+    freq_occ
+    gn
+    half_verse
+    trailer_utf8
+    qtrailer_utf8
+    instruction
+    is_root
+    language
+    lex_utf8
+    lex
+    g_lex_utf8
+    g_lex
+    ketiv
+    kind
+    ls
+    maxmonad
+    minmonad
+    monads
+    mother_object_type
+    nametype
+    nme
+    g_nme_utf8
+    g_nme
+    nu
+    oid
+    otype
+    sp
+    ps
+    pargr
+    pdp
+    function
+    gloss
+    pfm
+    g_pfm_utf8
+    g_pfm
+    prs
+    g_prs_utf8
+    g_prs
+    rank_lex
+    rank_occ
+    rela
+    vbs
+    g_vbs_utf8
+    g_vbs
+    number
+    st
+    tab
+    txt
+    uvf
+    g_uvf_utf8
+    g_uvf
+    vbe
+    g_vbe_utf8
+    g_vbe
+    vs
+    vt
+    label
+    verse
+    vocalized_lexeme
+    g_cons_utf8
+    g_cons
+    phono
+    g_word_utf8
+    g_qere_utf8
+    g_word

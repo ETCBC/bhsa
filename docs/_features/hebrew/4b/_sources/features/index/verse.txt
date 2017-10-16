@@ -1,0 +1,3 @@
+verse
+=====
+.. literalinclude:: ../values/verse values.txt

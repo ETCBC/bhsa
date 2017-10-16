@@ -1,0 +1,3 @@
+trailer_utf8
+============
+.. literalinclude:: ../values/trailer_utf8 values.txt
