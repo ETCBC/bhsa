@@ -82,6 +82,9 @@ fShebanq:
     - name: SHEBANQ website
       url: https://shebanq.ancient-data.org
       desc: View and query Hebrew dataset online
+    - name: SHEBANQ wiki
+      url: https://github.com/ETCBC/shebanq/wiki
+      desc: Read about the whole shebanq
     - name: SHEBANQ admin
       url: mailto:shebanq@ancient-data.org
       desc: Mail us
