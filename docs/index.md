@@ -14,7 +14,7 @@ containing the text of the Hebrew Bible augmented with linguistic annotations co
 [Eep Talstra Centre for Bible and Computer]({{site.institute}}), VU University Amsterdam.
 
 The text is based on the
-[Bibila Hebraica Stuttgartensia]({{site.dbgAcademic}})
+[Biblia Hebraica Stuttgartensia]({{site.dbgAcademic}})
 edited by Karl Elliger and Wilhelm Rudolph,
 Fifth Revised Edition, edited by Adrian Schenker,
 © 1977 and 1997 Deutsche Bibelgesellschaft, Stuttgart.
@@ -30,7 +30,7 @@ There are more formats in which the data is available.
 In the `shebanq` subdirectory you find data in MQL format and in MYSQL format that directly goes into
 the SHEBANQ website.
 
-In the the
+In the
 [bigTables]({{site.repoBase}}/programs/bigTables.ipynb)
 you find ways to export the complete data as one big table, and store it in R format or in Pandas format.
 The notebooks 
@@ -43,7 +43,7 @@ show you a few things that you can do in R and Pandas.
 The source data resides on a server of the ETCBC, managed by Constantijn Sikkel.
 He makes that data available as an [MQL]({{site.mql}}) database dump,
 together with supplementary data files.
-From there it is transported to this Github repo by means of a [pipeline]({{site.org}}/pipeline).
+From there it is transported to this GitHub repo by means of a [pipeline]({{site.org}}/pipeline).
 
 This dataset contains several versions of the BHSA, from 2011 till now.
 When you navigate to a version, you'll see more information about that version and its provenance.
@@ -75,14 +75,14 @@ in this pipeline.
 We intend to follow a practice that allows for data updates on the one hand, and reproduction of old
 results on the other.
 
-Besides the continously changing version `c`, we have the fixed, year-bound versions.
+Besides the continuously changing version `c`, we have the fixed, year-bound versions.
 In SHEBANQ, 
 it will not be possible to publish queries and annotations executed against the `c` version.
 It is likely that they will break, when version `c` is modified, week after week.
 So, saved queries against this version are not guaranteed to show their original results.
 
-For reliable query saving, every one or two years a new fixed version, called `2017`, `2019`, ... will be added
-to SHEBANQ.
+For reliable query saving, every one or two years a new fixed version,
+called `2017`, `2019`, ... will be added to SHEBANQ.
 
 Fixed versions in SHEBANQ will remain there forever, and publishing queries and annotations against fixed
 versions will remain supported.

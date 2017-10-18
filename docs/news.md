@@ -55,7 +55,7 @@ It resides in this repo, in several versions and formats.
 This repo is involved in a
 [pipeline]({{site.org}}/pipeline)
 from the systems at the
-ETCBC to github repositories that host data in text-fabric format,
+ETCBC to GitHub repositories that host data in text-fabric format,
 to the website SHEBANQ.
 
 This repository only contains the core data of the ETCBC.
@@ -78,7 +78,7 @@ Added Strong numbers to Hebrew Data
 
 ### 2016-12-17
 
-Added the *paragraph* features `pargr` and `instruction` to the etcbc 4c dataset.
+Added the *paragraph* features `pargr` and `instruction` to the etcbc4c dataset.
 They were present in the etcbc4b version and on SHEBANQ, but I had left them out
 for reasons of time pressure.
 Now they are back in.
@@ -86,13 +86,13 @@ Now they are back in.
 In order to use them, you have to update your data, which is as simple as
 
 ```sh
-    cd ~/github/text-fabric-data
+    cd ~/GitHub/text-fabric-data
     git pull origin master
 ```
 
 ### 2016-12-13
 
-* Adapted the contents of the feature documentation to the new etcbc 4c data.
+* Adapted the contents of the feature documentation to the new etcbc4c data.
 * Added sidebar
 * Better layout
 

@@ -10,7 +10,7 @@ during the Lorentz conference
 [Biblical Scholarship and Humanities Computing: Data Types, Text, Language and Interpretation]({{site.lorentz}}), 2012-02-10 and can be retrieved as an MQL dump from
 [DOI: {{site.doi3}}]({{site.doi3_url}}).
 
-The data has been rearchived in Zenodo: [DOI: {{site.doiBhsa}}]({{site.doiBhsa_url}}).
+The data has been re-archived in Zenodo: [DOI: {{site.doiBhsa}}]({{site.doiBhsa_url}}).
 
 Not viewable in [SHEBANQ]({{site.shebanq}}).
 

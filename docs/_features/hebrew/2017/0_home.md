@@ -13,7 +13,7 @@ Viewable in [SHEBANQ]({{site.shebanq}}).
 This is the key to the meaning of the features of the
 [BHSA dataset]({{site.repo}}).
 
-We organize the features in several groups, roughly analagous to the
+We organize the features in several groups, roughly analogous to the
 [types of objects](otype)
 we have:
 

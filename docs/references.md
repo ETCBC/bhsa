@@ -106,33 +106,40 @@ Studia Semitica Neerlandica 60. Leiden: Brill, 2013.
 **Who Is Speaking-Who Is Listening?
 How Information Technology Can Confirm the Integrity of the Text**
 
-In Tradition and Innovation in Biblical Interpretation: Studies Presented to Professor Eep Talstra on the Occasion of His Sixty-Fifth Birthday, edited by Wido T. Peursen van and Janet W. Dyk, 337–59. Studia Semitica Neerlandica. Leiden: Brill, 2011.
+In Tradition and Innovation in Biblical Interpretation:
+Studies Presented to Professor Eep Talstra on the Occasion of His Sixty-Fifth Birthday,
+edited by Wido T. Peursen van and Janet W. Dyk, 337–59. Studia Semitica Neerlandica. Leiden: Brill, 2011.
 
 # Talstra, Eep (2011)
 **Sinners and Syntax:
 Poetry and Discourse in Jeremiah 5**
 
-In Ἐν πάσῃ γραμματικῇ  καὶ σοφίᾳ: En Pāsē Grammatikē Kai Sophiā, edited by Gregor Geiger, 78:337–56. Analecta. Milano, Jerusalem: Franciscan Printing Press, 2011.
+In Ἐν πάσῃ γραμματικῇ  καὶ σοφίᾳ: En Pāsē Grammatikē Kai Sophiā, edited by Gregor Geiger, 78:337–56. Analecta.
+Milano, Jerusalem: Franciscan Printing Press, 2011.
 
 # Glanz, Oliver (2009)
 **Durchsuchen von Textausgaben**
 
-In Stuttgarter Elektronische Studienbibel : Handbuch, 39–47. Stuttgart, Haarlem: Deutsche Bibelgesellschaft, Nederlands Bijbelgenootschap, 2009.
+In Stuttgarter Elektronische Studienbibel : Handbuch, 39–47.
+Stuttgart, Haarlem: Deutsche Bibelgesellschaft, Nederlands Bijbelgenootschap, 2009.
 
 # Glanz, Oliver (2009)
 **Spezielle Hilfsmittel zu den Originalsprachigen Bibeltexten**
 
-In Stuttgarter Elektronische Studienbibel : Handbuch, edited by Bertram Salzmann, 62–86. Stuttgart, Haarlem: Deutsche Bibelgesellschaft, Nederlands Bijbelgenootschap, 2009.
+In Stuttgarter Elektronische Studienbibel : Handbuch, edited by Bertram Salzmann, 62–86.
+Stuttgart, Haarlem: Deutsche Bibelgesellschaft, Nederlands Bijbelgenootschap, 2009.
 
 # Glanz, Oliver, and Christof Hardmeier (2009)
 **Bible Study with SESB - Basics and Outstanding Features**
 
-In Stuttgarter Elektronische Studienbibel: Handbuch, edited by Bertram Salzmann, 175–81. Stuttgart: Deutsche Bibelgesellschaft, Nederlands Bijbelgenootschap, 2009.
+In Stuttgarter Elektronische Studienbibel: Handbuch, edited by Bertram Salzmann, 175–81.
+Stuttgart: Deutsche Bibelgesellschaft, Nederlands Bijbelgenootschap, 2009.
 
 # Glanz, Oliver, and Christof Hardmeier (2009)
 **Nachwort: Bibelstudium Mit SESB - Grundlagen Und Besonderheiten**
 
-In Stuttgarter Elektronische Studienbibel: Handbuch, edited by Bertram Salzmann, 91–97. Stuttgart: Deutsche Bibelgesellschaft, Nederlands Bijbelgenootschap, 2009.
+In Stuttgarter Elektronische Studienbibel: Handbuch, edited by Bertram Salzmann, 91–97.
+Stuttgart: Deutsche Bibelgesellschaft, Nederlands Bijbelgenootschap, 2009.
 
 # Talstra, Eep (2007)
 **I and Your People: Syntax and Dialogue in Exod 33**
@@ -142,7 +149,9 @@ Journal of Northwest Semitic Languages, no. 33/2 (2007): 89–97.
 # Talstra, Eep (2007)
 **The Discourse of Praying: Reading Nehemiah 1**
 
-In Psalms and Prayers : Papers Read at the Joint Meeting of the Society of Old Testament Study and the Oudtestamentische Werkgezelschap in Nederland En België, Apeldoorn August 2006, 219–36. Oudtestamentische Studiën. Leiden, Boston: Brill, 2007.
+In Psalms and Prayers : Papers Read at the Joint Meeting of the Society of Old Testament Study and the
+Oudtestamentische Werkgezelschap in Nederland En België, Apeldoorn August 2006, 219–36.
+Oudtestamentische Studiën. Leiden, Boston: Brill, 2007.
 
 # Peursen, Wido Th. van and Eep Talstra (2007)
 **Computer-Assisted Analysis of Parallel Texts in the Bible - The Case

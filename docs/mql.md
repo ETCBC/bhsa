@@ -22,10 +22,10 @@ The good news is the existence of the other tool,
 This is an **offline** tool based on exactly the same data that powers SHEBANQ.
 The programming researcher can use Text-Fabric as a preprocessing tool for transforming the complex BHSA data into the formats that are suitable to
 R, spreadsheets, or any format of choice.
-Text-Fabric is open source, downloadable from [github]({{site.tf}}),
+Text-Fabric is open source, downloadable from [GitHub]({{site.tf}}),
 and the data is downloadable from [bhsa]({{site.repo}}).
 
-It can be installed on Mac OSX, Windows and Linux.
+It can be installed on MacOS, Windows and Linux.
 The recommended mode of working with the data is: programming in Python within a Jupyter Notebook.
 
 # Tutorial
@@ -61,7 +61,7 @@ where we translate a number of MQL queries that are shared by SHEBANQ into Text-
   * you can leave the order between objects free, or constrain it as you wish
   * you can use a variety of relations like *adjacent before*, *same slots*, *overlapping*, *embedded* and more to express
     spatial relationships;
-* **MQL-queries** requires separate software, Emdros, plus a database (MySQL or Sqlite), plus a dataset converted to MQL, in
+* **MQL-queries** requires separate software, Emdros, plus a database (MYSQL or SQLite), plus a dataset converted to MQL, in
   order to work with it. It is not easy command Emdros from a Python3 program and process its results by the same program
 * **TF-search** works wherever Text-Fabric works, is totally integrated with it, and results are being delivered
   as tuples that are extremely easy to process further;
