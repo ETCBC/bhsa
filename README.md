@@ -2,7 +2,7 @@
 
 ## Biblia Hebraica Stuttgartensia (Amstelodamensis)
 [![DOI](https://zenodo.org/badge/104559294.svg)](https://zenodo.org/badge/latestdoi/104559294)
-![etcbc](programs/images/etcbc.png)
+[![etcbc](programs/images/etcbc.png)](http://www.etcbc.nl)
 
 This is the
 [text-fabric](https://github.com/Dans-labs/text-fabric/wiki)
@@ -39,7 +39,6 @@ That means:
 # How to use
 
 ![tf](programs/images/tf-small.png)
-![dans](programs/images/dans.png)
 
 This data can be processed by 
 [Text-Fabric](https://github.com/Dans-labs/text-fabric/wiki).
@@ -49,3 +48,4 @@ See also
 and
 [search](https://github.com/ETCBC/bhsa/blob/master/tutorial/search.ipynb).
 
+[![dans](programs/images/dans.png)](https://www.dans.knaw.nl)
