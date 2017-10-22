@@ -6,7 +6,7 @@ title: g_cons
 
 
 The consonantal representation of a word occurrence in
-[BHSA transliteration]({{site.shebanq}}/shebanq/static/docs/BHSA-transcription.pdf).
+[BHSA transliteration]({{site.shebanqw}}/BHSA-Transcription).
 
 This feature is present on objects of type [*word*](otype).
 

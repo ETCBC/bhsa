@@ -5,7 +5,7 @@ title: uvf
 **univalent final consonant -consonantal-transliterated**
 
 The consonantal representation of the univalent final consonant of a word
-[BHSA transliteration]({{site.shebanq}}/static/docs/BHSA-transcription.pdf).
+[BHSA transliteration]({{site.shebanqw}}/BHSA-Transcription).
 
 This feature is present on objects of type [*word*](otype).
 

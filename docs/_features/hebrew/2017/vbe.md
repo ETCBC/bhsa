@@ -5,7 +5,7 @@ title: vbe
 **verbal ending -consonantal-transliterated**
 
 The consonantal representation of the verbal ending of a word
-[BHSA transliteration]({{site.shebanq}}/static/docs/BHSA-transcription.pdf).
+[BHSA transliteration]({{site.shebanqw}}/BHSA-Transcription).
 
 This feature is present on objects of type [*word*](otype).
 

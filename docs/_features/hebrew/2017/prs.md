@@ -5,7 +5,7 @@ title: prs
 **pronominal suffix -consonantal-transliterated**
 
 The consonantal representation of the pronominal suffix of a word
-[BHSA transliteration]({{site.shebanq}}/static/docs/BHSA-transcription.pdf).
+[BHSA transliteration]({{site.shebanqw}}/BHSA-Transcription).
 
 ##### Note
 > The grammatical function of the suffix is not indicated at the word level, but at the level of

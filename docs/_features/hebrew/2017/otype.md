@@ -65,7 +65,7 @@ For the purpose if this documentation, we shall use the contrast *consonantal* (
 and *pointed* (with diacritics).
 The `_utf8` versions contain UNICODE representations of the values, using the Hebrew code block.
 The non `_utf8` versions contain ASCII representations of the values, according to the
-[BHSA transliteration table]({{site.shebanq}}/static/docs/BHSA-transcription.pdf). 
+[BHSA transliteration]({{site.shebanqw}}/BHSA-Transcription).
 
 The text of a word occurrence is in
 [g_word](g_word) (pointed, transliterated) and [g_word_utf8](g_word_utf8) (pointed, Hebrew),
