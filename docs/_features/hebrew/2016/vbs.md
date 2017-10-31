@@ -9,7 +9,7 @@ The consonantal representation of the root formation of a verb.
 
 This feature is present on objects of type [*word*](otype).
 
-For more about features on morphemes, see [word grammar](0_wordgrammar)
+For more about features on morphemes, see [word grammar](../../../wordgrammar)
 
 The root formation indicates verbal stem.
 

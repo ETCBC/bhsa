@@ -9,7 +9,7 @@ The consonantal representation of the preformative of a word
 
 This feature is present on objects of type [*word*](otype).
 
-For more about features on morphemes, see [word grammar](0_wordgrammar).
+For more about features on morphemes, see [word grammar](../../../wordgrammar).
 
 The preformative is a prefix morpheme. It plays a role in verbal conjugation, and helps
 to mark person, number and gender for certain verbal tenses.

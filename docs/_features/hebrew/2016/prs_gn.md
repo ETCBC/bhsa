@@ -16,7 +16,7 @@ The pronominal suffix attaches to verbs as a verb-complement.
 It may carry gender information, and that information is stored in this feature.
 
 The pronominal suffix itself is stored in [prs](prs).
-For more about features on morphemes, see [word grammar](0_wordgrammar).
+For more about features on morphemes, see [word grammar](../../../wordgrammar).
 
 ##### Note
 > The value `unknown` indicates that there is not enough information to derive a value.
