@@ -7,7 +7,7 @@
 @language=한국어
 @languageCode=ko
 @languageEnglish=korean
-@provenance=book names from wikipedia and other sources
+@provenance=book names according http://www.holybible.or.kr/B_SAENEW/
 @valueType=str
 @version=2017
 @website=https://shebanq.ancient-data.org
@@ -15,16 +15,16 @@
 @dateWritten=2017-10-10T10:23:24Z
 
 426585	창세기
-탈출기
+출애굽기
 레위기
 민수기
 신명기
 여호수아
-재판관기
-사무엘_첫째
-사무엘_둘째
-열왕기_첫째
-열왕기_둘째
+사사기
+사무엘상
+사무엘하
+열왕기상
+열왕기하
 이사야
 예레미야
 에스겔
@@ -41,15 +41,15 @@
 스가랴
 말라기
 시편
-욥
+욥기
 잠언
-룻
-솔로몬의_노래
+룻기
+아가
 전도서
-애가
+예레미야애가
 에스더
 다니엘
 에스라
 느헤미야
-역대기_첫째
-역대기_둘째
+역대상
+역대하
