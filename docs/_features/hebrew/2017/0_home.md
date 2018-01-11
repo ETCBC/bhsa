@@ -46,8 +46,8 @@ we have:
 
 ---|---|---
 [lex](lex) | lexeme consonantal transliterated | `>MR[`
-[voc](voc) | lexeme pointed transliterated | `R;>CIJT`
-[voc_utf8](voc_utf8) | lexeme pointed hebrew | `רֵאשִׁית`
+[voc_lex](voc_lex) | lexeme pointed transliterated | `R;>CIJT`
+[voc_lex_utf8](voc_lex_utf8) | lexeme pointed hebrew | `רֵאשִׁית`
 [sp](sp) | part of speech | `verb` `subs`
 [ls](ls) | lexical set | `quot` `ques`
 [nametype](nametype) | type of named entity | `topo`

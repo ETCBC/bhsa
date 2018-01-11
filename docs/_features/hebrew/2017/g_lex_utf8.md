@@ -22,5 +22,5 @@ your query as a value for [g_lex_utf8](g_lex_utf8).
 
 ##### See also
 
-* [voc_utf8](voc_utf8), a related feature defined on object type *lex*.
+* [voc_lex_utf8](voc_lex_utf8), a related feature defined on object type *lex*.
 

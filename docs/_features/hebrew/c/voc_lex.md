@@ -1,5 +1,5 @@
 ---
-title: voc
+title: voc_lex
 ---
 
 **vocalized lexeme -pointed-transliterated**
@@ -19,4 +19,4 @@ The [g_lex](g_lex) is the realized lexeme in a concrete occurrence, of which it 
 
 ##### See also
 
-* [voc_utf8](voc_utf8)
+* [voc_lex_utf8](voc_lex_utf8)

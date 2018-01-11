@@ -1,5 +1,5 @@
 ---
-title: voc_utf8
+title: voc_lex_utf8
 ---
 
 **vocalized lexeme -pointed-hebrew**
@@ -18,4 +18,4 @@ The [g_lex_utf8](g_lex_utf8) is the realized lexeme in a concrete occurrence, of
 
 ##### See also
 
-# [voc](voc)
+# [voc_lex](voc_lex)

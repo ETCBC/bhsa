@@ -26,4 +26,4 @@ first.
 
 ##### See also
 
-* [voc](voc), a related feature defined on object type *lex*.
+* [voc_lex](voc_lex), a related feature defined on object type *lex*.
