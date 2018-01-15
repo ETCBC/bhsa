@@ -1,11 +1,14 @@
 
 # coding: utf-8
 
+# <img align="right" src="images/dans-small.png"/>
 # <img align="right" src="images/tf-small.png"/>
+# <img align="right" src="images/etcbc.png"/>
+# 
 # 
 # # Lexicon
 # 
-# This notebook can read lexicon info in files issued by the etcbc and transform them 
+# This notebook can read lexicon info in files issued by the ETCBC and transform them 
 # into new features.
 # There will be new features at the word level and a new level will be made: lexeme.
 # 
@@ -46,7 +49,7 @@
 # A trivial case are adjectives, whose lexical gender is `NA`, but whose occurrences usually have a distinct gender.
 # 
 # Other features really should be fully consistent, for example the *vocalized lexeme*.
-# We encounter this feature in the text (`g_voc_lex` and also its hebrew version `g_voc_lex_utf8`), 
+# We encounter this feature in the text (`g_voc_lex` and also its Hebrew version `g_voc_lex_utf8`), 
 # and in the lexicon it is present as feature `vc`.
 # In this case we observe a deficiency in the lexicon: `vc` is often absent.
 # Apart from that, the textual features `g_voc_lex` and `g_voc_lex_utf8` are fully consistent, so I take their values
@@ -57,16 +60,15 @@
 # The match should be perfect.
 # If not, then quite possible the MQL core data has been exported at an other time the the lexical data.
 # 
-# ## Varia
+# ## Various issues
 # 1. `lex` contains the lexeme (in transcription) with disambiguation marks (`[/=`) appended.
 #    For text transformations we prefer the bare lexeme
 # 1. `lex_utf` has frills at the end of many values. 
 #    They occur where the final consonant as an alternative form. See analysis below.
 # 1. `language` has values `Hebrew` and `Aramaic`. We prefer ISO language codes: `hbo` and `arc` instead.
 #    By adding `language` for lexeme nodes we already have switched to ISO codes. Here we do the rest.
-
-# It seems that some `lex_utf8` values end in an spurious GERESH accents.
-# We are going to remove them.
+# 
+# We are going to deal with these issues [later](#Deal-with-various-issues).
 
 # In[1]:
 
@@ -104,7 +106,7 @@ def stop(good=False):
 # 
 # Let us focus on a few cases.
 # 
-# We translate the utf sequences found in the MQL source into real unicode characters:
+# We translate the UTF sequences found in the MQL source into real Unicode characters:
 
 # In[3]:
 
@@ -195,7 +197,7 @@ if SCRIPT:
 #   We select the version specific otext material, 
 #   falling back on a default if nothing appropriate has been specified in oText.
 # 
-# We do not do this for the older versions 4 and 4b.
+# We do not do this for the older versions `4` and `4b`.
 
 # In[7]:
 
@@ -238,7 +240,7 @@ api.makeAvailableIn(globals())
 
 
 # # Text pass
-# We map the values in the language feature to standardized iso values: `arc` and `hbo`.
+# We map the values in the language feature to standardized ISO values: `arc` and `hbo`.
 # We run over all word occurrences, grab the language and lexeme identifier, and create for each
 # unique pair a new lexeme node.
 # 
@@ -297,7 +299,6 @@ utils.caption(0, 'maxNode is now {}'.format(lexNode))
 
 for lan in sorted(lexText):
     utils.caption(0, 'language {} has {:>5} lexemes in the text'.format(lan, len(lexText[lan])))
-    lexOccs.setdefault(lexId, []).append(n)
 
 
 # # Lexicon pass
@@ -424,7 +425,7 @@ for (myset, mymsg) in (
 # ## Consistency of vocalized lexeme
 # 
 # The lexicon file provides an attribute `vc` for each lexeme, which is the vocalized lexeme.
-# The ETCBC core data also has features `g_voc_lex` and `g_voc_lex_utf8` for each occurrence.
+# The BHSA core data also has features `g_voc_lex` and `g_voc_lex_utf8` for each occurrence.
 # 
 # We investigate whether the latter features are *consistent*, i.e. a property of the lexeme and lexeme only.
 # If they are somehow dependent on the word occurrence, they are not consistent.
@@ -535,7 +536,8 @@ for (lan, lexemes) in lexEntries.items():
                     nodeFeatures.setdefault(f, {})[node] = value
 
 
-# We address the issues listed under varia above.
+# ## Deal with various issues
+# We address the issues listed under [various issues](#Various-issues) above.
 
 # In[14]:
 
@@ -623,7 +625,7 @@ changedFeatures = changedDataFeatures | {'otext'}
 
 
 # # Write new features
-# Transform the collected information in feature-like datastructures, and write it all
+# Transform the collected information in feature-like data-structures, and write it all
 # out to `.tf` files.
 
 # In[19]:
@@ -712,10 +714,4 @@ utils.caption(0, '{:<30}: {}'.format(
 utils.caption(4, 'Lexeme info for the first verse')
 
 for w in range(1, 12): showLex(L.u(w, otype='lex')[0])
-
-
-# In[ ]:
-
-
-
 

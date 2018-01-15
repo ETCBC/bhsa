@@ -1,7 +1,10 @@
 
 # coding: utf-8
 
+# <img align="right" src="images/dans-small.png"/>
 # <img align="right" src="images/tf-small.png"/>
+# <img align="right" src="images/etcbc.png"/>
+# 
 # 
 # #  Statistics
 # 
@@ -27,7 +30,7 @@
 # 
 # #### Languages
 # We will not identify lexemes and word occurrences across language.
-# So if two occurrences or lexemes exhibit the same string, but htey are categorized as belonging
+# So if two occurrences or lexemes exhibit the same string, but they are categorized as belonging
 # to different languages, they will not be identified.
 # 
 # #### Occurrences
@@ -278,10 +281,4 @@ if hasLex:
     else:
         utils.caption(0, '\tINFO: Same lexeme frequencies computed by lex vs by word')
 utils.caption(0, 'Done')
-
-
-# In[ ]:
-
-
-
 

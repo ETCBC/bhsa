@@ -12,7 +12,7 @@
 @version=c
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-10T11:19:27Z
+@dateWritten=2018-01-15T09:49:58Z
 
 426585	ኦሪት_ዘፍጥረት
 ኦሪት_ዘጸአት

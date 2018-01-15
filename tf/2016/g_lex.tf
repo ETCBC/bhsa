@@ -8,7 +8,7 @@
 @version=2016
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-10T09:54:04Z
+@dateWritten=2018-01-15T11:11:26Z
 
 B.:-
 R;>CIJT

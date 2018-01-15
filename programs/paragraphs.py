@@ -1,13 +1,16 @@
 
 # coding: utf-8
 
+# <img align="right" src="images/dans-small.png"/>
 # <img align="right" src="images/tf-small.png"/>
+# <img align="right" src="images/etcbc.png"/>
+# 
 # 
 # # Paragraphs
 # 
 # This notebook can read ETCBC `.px` files with information
 # about *paragraphs* in it.
-# We distil a bunch of extra features at the `clause_atom` level, namely:
+# We distill a bunch of extra features at the `clause_atom` level, namely:
 # * `pargr`
 # * `instruction`
 # 
@@ -89,7 +92,7 @@ if SCRIPT:
 #   We select the version specific otext material, 
 #   falling back on a default if nothing appropriate has been specified in oText.
 #  
-# We do not do this for the older versions 4 and 4b.
+# We do not do this for the older versions `4` and `4b`.
 
 # In[6]:
 
@@ -213,8 +216,6 @@ if not SCRIPT:
 
 
 # # Prepare TF features
-# 
-# We now collect the lexical information into the features for nodes of type `lex`.
 
 # In[11]:
 
@@ -247,7 +248,7 @@ changedFeatures = set(nodeFeatures)
 
 
 # # Write new features
-# Transform the collected information in feature-like datastructures, and write it all
+# Transform the collected information in feature-like data-structures, and write it all
 # out to `.tf` files.
 
 # In[13]:
@@ -324,10 +325,4 @@ for (i, verseNode) in enumerate(F.otype.s('verse')[0:10]):
     verseHeading = '{} {}:{}'.format(*verseLabel) if i == 0 else verseLabel[2]
     utils.caption(0, '\t{}'.format(verseHeading), continuation=True)
     showParagraphs(verseNode)
-
-
-# In[ ]:
-
-
-
 

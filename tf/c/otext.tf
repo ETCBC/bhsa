@@ -2,7 +2,7 @@
 @author=Eep Talstra Centre for Bible and Computer
 @dataset=BHSA
 @datasetName=Biblia Hebraica Stuttgartensia Amstelodamensis
-@dateWritten=2017-10-10T11:20:11Z
+@dateWritten=2018-01-15T09:50:43Z
 @email=shebanq@ancient-data.org
 @encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)
 @fmt:lex-orig-full={g_lex_utf8} 
@@ -21,5 +21,5 @@
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-10T11:22:03Z
+@dateWritten=2018-01-15T09:52:53Z
 

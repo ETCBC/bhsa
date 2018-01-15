@@ -1,11 +1,14 @@
 
 # coding: utf-8
 
+# <img align="right" src="images/dans-small.png"/>
 # <img align="right" src="images/tf-small.png"/>
+# <img align="right" src="images/etcbc.png"/>
+# 
 # 
 # # Ketiv Qere
 # 
-# This notebook can read ketiv-qere info in files issued by the etcbc and transform them 
+# This notebook can read ketiv-qere info in files issued by the ETCBC and transform them 
 # into new features.
 # There will be new features at the word level.
 # 
@@ -17,8 +20,8 @@
 # 
 # * features that contain the after-word material, `qere_trailer` and `qere_trailer_utf8`
 #   are missing;
-# * if there is no qere, both features are filled with the mepty string.
-#   In this way we can make no distinction between a truly empty qere and the absence of a qere.
+# * if there is no qere, both features are filled with the empty string.
+#   In this way we can make no distinction between a truly empty `qere` and the absence of a `qere`.
 # 
 # That is why we reconstruct ketiv and qere from special files that are used by the ETCBC.
 
@@ -94,7 +97,7 @@ if SCRIPT:
 #   We select the version specific otext material, 
 #   falling back on a default if nothing appropriate has been specified in oText.
 #  
-# We do not do this for the older versions 4 and 4b.
+# We do not do this for the older versions `4` and `4b`.
 
 # In[6]:
 
@@ -285,8 +288,6 @@ else:
 
 
 # # Prepare TF features
-# 
-# We now collect the lexical information into the features for nodes of type `lex`.
 
 # In[13]:
 
@@ -431,10 +432,4 @@ showVerse = T.sectionFromNode(showNode)
 utils.caption(4, '{} {}:{} in all formats'.format(*showVerse))
 for fmt in T.formats:
     utils.caption(0, '{:<30} {}'.format(fmt, T.text(L.d(showNode, otype='word'), fmt=fmt)))
-
-
-# In[ ]:
-
-
-
 

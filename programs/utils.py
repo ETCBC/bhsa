@@ -5,7 +5,7 @@
 # When the pipeline runs, the master copy is copied into
 # all involved repos, overwriting the copy existing there.
 
-import sys,os,collections,time,bz2
+import sys,os,collections,time,bz2,gzip as gz
 from shutil import rmtree, copytree, copy
 from itertools import zip_longest
 from glob import glob
@@ -41,6 +41,38 @@ def bunzip(bzFile, uzFile):
                 udata.write(bdata.read())
     else:
         caption(0, '\tNOTE: Using existing unzipped file which is newer than bzipped one')
+
+def gzip(uzFile, gzFile):
+    xB = os.path.exists(gzFile)
+    xU = os.path.exists(uzFile)
+    if not xU:
+        if xB:
+            caption(0, '\tWARNING: unzipped file is missing. Using existing gzipped file')
+        else:
+            caption(0, '\tERROR: Cannot gzip because unzipped file is missing')
+        return
+    if not xB or os.path.getmtime(uzFile) > os.path.getmtime(gzFile):
+        with gz.open(gzFile, mode='wt') as gdata:
+            with open(uzFile, 'rt') as udata:
+                gdata.write(udata.read())
+    else:
+        caption(0, '\tNOTE: Using existing gzipped file which is newer than unzipped one')
+
+def gunzip(gzFile, uzFile):
+    xB = os.path.exists(gzFile)
+    xU = os.path.exists(uzFile)
+    if not xB:
+        if xU:
+            caption(0, '\tWARNING: gzipped file is missing. Using existing unzipped file')
+        else:
+            caption(0, '\tERROR: Cannot unzip because gzipped file is missing')
+        return
+    if not xU or os.path.getmtime(gzFile) > os.path.getmtime(uzFile):
+        with gz.open(gzFile, mode='rt') as gdata:
+            with open(uzFile, 'w') as udata:
+                udata.write(gdata.read())
+    else:
+        caption(0, '\tNOTE: Using existing unzipped file which is newer than gzipped one')
 
 timestamp = None
 

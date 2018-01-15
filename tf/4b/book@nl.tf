@@ -12,7 +12,7 @@
 @version=4b
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-10T09:46:32Z
+@dateWritten=2018-01-15T11:02:35Z
 
 426569	Genesis
 Exodus

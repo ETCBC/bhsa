@@ -12,7 +12,7 @@
 @version=2017
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-10T10:23:24Z
+@dateWritten=2018-01-15T10:34:36Z
 
 426585	創世記
 出エジプト記

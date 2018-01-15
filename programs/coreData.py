@@ -1,7 +1,10 @@
 
 # coding: utf-8
 
+# <img align="right" src="images/dans-small.png"/>
 # <img align="right" src="images/tf-small.png"/>
+# <img align="right" src="images/etcbc.png"/>
+# 
 # 
 # ![mql](images/emdros.png)
 # 
@@ -22,7 +25,7 @@
 # Because the syntax of an MQL file leaves some freedom, it is error prone to do a text-to-text conversion from
 # MQL to something else.
 # 
-# Yet this is what we do, the error-prone thing. We then avoid installing and configuring and managing Emdros, MySQL/sqLite3.
+# Yet this is what we do, the error-prone thing. We then avoid installing and configuring and managing Emdros, MYSQL/SQLite3.
 # Aside the upfront work to get this going, the going after that would also be much slower.
 # 
 # So here you are, a smallish script to do an awful lot of work, mostly correct, if careful used.
@@ -106,7 +109,7 @@ if SCRIPT:
 # 
 # We add some custom information here.
 # 
-# * the MQL object type that corresponds to the TF slot type, typically `word`;
+# * the MQL object type that corresponds to the Text-Fabric slot type, typically `word`;
 # * a piece of metadata that will go into every feature; the time will be added automatically
 # * suitable text formats for the `otext` feature of TF.
 # 
@@ -257,8 +260,8 @@ else:
 # 1. **prepare** the source (utils.bunzip if needed)
 # 1. **convert** convert the MQL file into a text-fabric dataset
 # 1. **differences** (informational)
-# 1. **deliver** the tf data at its destination directory
-# 1. **compile** all tf features to binary format
+# 1. **deliver** the TF data at its destination directory
+# 1. **compile** all TF features to binary format
 
 # # Prepare
 # 
@@ -279,7 +282,7 @@ os.makedirs(thisTempTf)
 
 
 # # MQL to Text-Fabric
-# Transform the collected information in feature-like datastructures, and write it all
+# Transform the collected information in feature-like data-structures, and write it all
 # out to `.tf` files.
 
 # In[8]:
@@ -343,10 +346,10 @@ utils.deliverDataset(thisTempTf, thisTf)
 
 # # Compile TF
 # 
-# Just to see whether everything loads and the precomputing of extra information works out.
-# Moreover, if you want to work with these features, then the precomputing has already been done, and everything is quicker in subsequent runs.
+# Just to see whether everything loads and the pre-computing of extra information works out.
+# Moreover, if you want to work with these features, then the pre-computing has already been done, and everything is quicker in subsequent runs.
 # 
-# We issue load statement to trigger the precomputing of extra data.
+# We issue load statement to trigger the pre-computing of extra data.
 # Note that all features specified text formats in the `otext` config feature,
 # will be loaded, as well as the features for sections.
 # 
@@ -391,10 +394,4 @@ if SCRIPT:
 
 f = 'subphrase_type'
 print('`' + '` `'.join(sorted(str(x[0]) for x in Fs(f).freqList())) + '`')
-
-
-# In[ ]:
-
-
-
 

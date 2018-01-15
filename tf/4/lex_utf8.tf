@@ -8,7 +8,7 @@
 @version=4
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-10T09:35:48Z
+@dateWritten=2018-01-15T10:50:25Z
 
 ב
 ראשׁית/

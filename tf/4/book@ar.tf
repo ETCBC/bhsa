@@ -12,7 +12,7 @@
 @version=4
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2017-10-10T09:35:12Z
+@dateWritten=2018-01-15T10:49:41Z
 
 426556	تكوين
 خروج

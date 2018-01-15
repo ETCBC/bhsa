@@ -1,7 +1,10 @@
 
 # coding: utf-8
 
+# <img align="right" src="images/dans-small.png"/>
 # <img align="right" src="images/tf-small.png"/>
+# <img align="right" src="images/etcbc.png"/>
+# 
 # 
 # # Booknames (multilingual)
 # 
@@ -21,7 +24,7 @@
 # in modern languages (around 20, most big languages are covered).
 # This data has been gleaned mostly from Wikipedia.
 # 
-# We assume that the dataset has the `book` feature present, holding *latin* book names.
+# We assume that the dataset has the `book` feature present, holding *Latin* book names.
 # 
 # This program works for all datasets and versions that have this feature with the
 # intended meaning.
@@ -165,7 +168,7 @@ utils.checkDiffs(thisTempTf, thisTf, only=set(newFeatures))
 
 # # Deliver 
 # 
-# Copy the new TF features from the temporary location where they have been created to their final destination.
+# Copy the new Text-Fabric features from the temporary location where they have been created to their final destination.
 
 # In[20]:
 
@@ -200,10 +203,4 @@ for (lang, langInfo) in sorted(T.languages.items()):
     utils.caption(0, '{:<2} = {:<20} Genesis is {:<20} in {:<20}'.format(lang, langEng, book, language))
 
 utils.caption(0, 'Done')
-
-
-# In[ ]:
-
-
-
 
