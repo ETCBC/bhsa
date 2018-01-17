@@ -12,7 +12,7 @@
 @version=2017
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-01-15T10:34:36Z
+@dateWritten=2018-01-17T08:07:55Z
 
 426585	Бытия
 Исход

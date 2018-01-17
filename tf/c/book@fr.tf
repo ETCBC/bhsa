@@ -12,7 +12,7 @@
 @version=c
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-01-15T09:49:58Z
+@dateWritten=2018-01-17T08:23:25Z
 
 426585	Genèse
 Exode

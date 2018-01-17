@@ -8,7 +8,7 @@
 @version=2016
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-01-15T11:15:59Z
+@dateWritten=2018-01-17T07:52:54Z
 
 1436896	R>C
 1436901	CMH

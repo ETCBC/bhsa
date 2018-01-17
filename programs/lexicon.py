@@ -93,8 +93,8 @@ if 'SCRIPT' not in locals():
 #    EXTRA_OVERLAP='gloss nametype'
     DO_VOCALIZED_LEXEME=True
 #    DO_VOCALIZED_LEXEME=False
-    LEX_FORMATS='@fmt:lex-trans-plain={lex0} ',
-#    LEX_FORMATS='@fmt:lex-trans-plain={lex} ',
+    LEX_FORMATS='@fmt:lex-trans-plain={lex0} '
+#    LEX_FORMATS='@fmt:lex-trans-plain={lex} '
 
     VERSION= 'c'
 
@@ -258,6 +258,12 @@ langMap = {
     'Hebrew': 'hbo',
     'Aramaic': 'arc',
     'arc': 'arc',
+}
+langIMap = {
+    'hbo': 'Hebrew',
+    'Hebrew': 'Hebrew',
+    'Aramaic': 'Aramaic',
+    'arc': 'Aramaic',
 }
 
 doValueCompare = {'sp', 'ls', 'gn', 'ps', 'nu', 'st'}
@@ -546,6 +552,7 @@ utils.caption(4, 'Various tweaks in features')
 
 nodeFeatures['lex0'] = {}
 nodeFeatures['lex_utf8'] = {}
+nodeFeatures['languageEN'] = {}
 
 geresh = chr(0x59c)
 
@@ -557,6 +564,7 @@ for n in F.otype.s('word'):
     nodeFeatures['lex0'][n] = lex.rstrip('/[=')
     nodeFeatures['lex_utf8'][n] = lex_utf8
     nodeFeatures['language'][n] = langMap[lan]
+    nodeFeatures['languageEN'][n] = langIMap[lan]
 
 
 # We update the `otype`, `otext` and `oslots` features.

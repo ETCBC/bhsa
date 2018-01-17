@@ -8,7 +8,7 @@
 @version=2016
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-01-15T11:12:03Z
+@dateWritten=2018-01-17T07:48:47Z
 
 n/a
 n/a

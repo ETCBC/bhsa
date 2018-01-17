@@ -13,8 +13,12 @@ There are only two languages in the Hebrew Bible.
 Aramaic is, like Hebrew, a semitic language.
 The ISO-639 codes and descriptions of these languages are:
 
-MQL | ISO-639-code ISO-639 description | name
----|---|---
-`Hebrew` |`hbo` |    Ancient Hebrew
-`Aramaic`|`arc` |    Official Aramaic; Imperial Aramaic
+ISO-639-code ISO-639 description | name
+---|---
+`hbo` |    Ancient Hebrew
+`arc` |    Official Aramaic; Imperial Aramaic
 
+##### See also
+
+* [languageEN](languageEN)
+  which holds the English names of these languages as values.

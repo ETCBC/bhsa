@@ -3,6 +3,21 @@ title: News
 type: pages
 ---
 
+### 2018-01-17
+
+* There has been a conversion error: a single lexeme node became tied to a single stray node,
+  due to a programming error.
+  I have removed the error, and regenerated all versions of the BHSA, except 3, which was not affected.
+* The `feature `language` used to contain the values `Hebrew` and `Aramaic`, at least in SHEBANQ.
+  But since we use the pipeline to generate data for SHEBANQ, the `language` feature contains the 
+  ISO codes instead: `hbo` and `arc`.
+  Because these values are now pervasive in the TF sources and in SHEBANQ, I have decided to leave
+  the feature `language` as it is now: with the ISO codes.
+  Applications that use SHEBANQ have two options:
+  * deal with the ISO values instead of the English names for the biblical languages
+  * use a new feature `languageEN`, which contains the values `Hebrew` and `Aramaic`.
+  Probably `languageEN` will be deprecated in the future. 
+
 ### 2017-10-13
 
 There is a fixed version, 2017 (imported on 2017-10-06), and a nearly identical version `c`,
