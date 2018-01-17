@@ -52,7 +52,9 @@ we have:
 [ls](ls) | lexical set | `quot` `ques`
 [nametype](nametype) | type of named entity | `topo`
 [gloss](gloss) | gloss | `beginning`
-[language](language) | language | `hbo` `arc`
+[language](language) | language (English name) | `Hebrew` `Aramaic`
+[languageISO](languageISO) | language (ISO code) | `hbo` `arc`
+
 
 # Word features
 
@@ -78,8 +80,8 @@ we have:
 [g_lex_utf8](g_lex_utf8) | word | pointed | hebrew | `אמֶר`
 
 ---|---|---|---
-[language](language) | language | `hbo` `arc`
-[languageEN](languageEN) | language | `Hebrew` `Aramaic`
+[language](language) | language (English name) | `Hebrew` `Aramaic`
+[languageISO](languageISO) | language (ISO code) | `hbo` `arc`
 [sp](sp) | part of speech | `verb` `subs`
 [pdp](pdp) | phrase dependent part of speech | `verb` `subs`
 [ls](ls) | lexical set | `quot` `ques`
