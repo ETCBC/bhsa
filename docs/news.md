@@ -11,12 +11,9 @@ type: pages
 * The `feature `language` used to contain the values `Hebrew` and `Aramaic`, at least in SHEBANQ.
   But since we use the pipeline to generate data for SHEBANQ, the `language` feature contains the 
   ISO codes instead: `hbo` and `arc`.
-  Because these values are now pervasive in the TF sources and in SHEBANQ, I have decided to leave
-  the feature `language` as it is now: with the ISO codes.
-  Applications that use SHEBANQ have two options:
-  * deal with the ISO values instead of the English names for the biblical languages
-  * use a new feature `languageEN`, which contains the values `Hebrew` and `Aramaic`.
-  Probably `languageEN` will be deprecated in the future. 
+  Because this breaks interoperability with Bible Online learner and Paratext
+  I have decided to restore the feature `language` as it was before,
+  and make a new feature `languageISO` with the ISO codes in it.
 
 ### 2017-10-13
 

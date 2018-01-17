@@ -8,7 +8,7 @@
 @version=2017
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-01-17T08:03:58Z
+@dateWritten=2018-01-17T17:21:02Z
 
 427553	clause
 clause

@@ -9,7 +9,7 @@
 @version=2016
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-01-17T07:55:12Z
+@dateWritten=2018-01-17T17:13:00Z
 
 3
 706

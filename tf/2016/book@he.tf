@@ -12,7 +12,7 @@
 @version=2016
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-01-17T07:52:14Z
+@dateWritten=2018-01-17T17:09:58Z
 
 426582	בראשית
 שמות

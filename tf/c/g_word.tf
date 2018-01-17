@@ -8,7 +8,7 @@
 @version=c
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-01-17T08:19:26Z
+@dateWritten=2018-01-17T17:35:48Z
 
 B.:-
 R;>CI73JT

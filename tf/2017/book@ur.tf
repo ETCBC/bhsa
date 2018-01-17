@@ -12,7 +12,7 @@
 @version=2017
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-01-17T08:07:55Z
+@dateWritten=2018-01-17T17:24:58Z
 
 426585	پیدائش
 خروج

@@ -8,7 +8,7 @@
 @version=2017
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-01-17T08:08:31Z
+@dateWritten=2018-01-17T17:25:35Z
 
 1437403	in
 beginning

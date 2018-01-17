@@ -20,7 +20,7 @@
 # 
 # We assume that the dataset has these features present:
 # 
-# * LANG_FEATURE (typically `language`) for determining if the word is Hebrew or Aramaic 
+# * LANG_FEATURE (typically `languageISO`) for determining if the word is Hebrew or Aramaic 
 # * OCC_FEATURE (typically `g_cons`) to get the word string in consonantal transcription
 # * LEX_FEATURE (typically `lex`) to get the lexical identifier in consonantal transcription
 # 
@@ -61,7 +61,7 @@ if 'SCRIPT' not in locals():
     FORCE = True
     CORE_NAME = 'bhsa'
     VERSION= 'c'
-    LANG_FEATURE = 'language'
+    LANG_FEATURE = 'languageISO'
     OCC_FEATURE = 'g_cons'
     LEX_FEATURE = 'lex'
 

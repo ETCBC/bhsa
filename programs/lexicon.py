@@ -530,7 +530,8 @@ for (lan, lexemes) in lexEntries.items():
         node = nodeFromLex.get((lan, lex), None)
         if node == None: continue
         nodeFeatures.setdefault('lex', {})[node] = lex
-        nodeFeatures.setdefault('language', {})[node] = lan
+        nodeFeatures.setdefault('languageISO', {})[node] = langMap[lan]
+        nodeFeatures.setdefault('language', {})[node] = langIMap[lan]
         for (f, newF) in lexFields:
             value = lexValues.get(f, None)
             if value != None:
@@ -552,7 +553,7 @@ utils.caption(4, 'Various tweaks in features')
 
 nodeFeatures['lex0'] = {}
 nodeFeatures['lex_utf8'] = {}
-nodeFeatures['languageEN'] = {}
+nodeFeatures['languageISO'] = {}
 
 geresh = chr(0x59c)
 
@@ -563,8 +564,8 @@ for n in F.otype.s('word'):
     lan = F.language.v(n)
     nodeFeatures['lex0'][n] = lex.rstrip('/[=')
     nodeFeatures['lex_utf8'][n] = lex_utf8
-    nodeFeatures['language'][n] = langMap[lan]
-    nodeFeatures['languageEN'][n] = langIMap[lan]
+    nodeFeatures['languageISO'][n] = langMap[lan]
+    nodeFeatures['language'][n] = langIMap[lan]
 
 
 # We update the `otype`, `otext` and `oslots` features.
