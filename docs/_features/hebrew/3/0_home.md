@@ -55,6 +55,7 @@ version `3` | version `2016` | example values | comments
 `graphical_root_formation_plain`               | [g_vbs](../2016/g_vbs)   |                        | considerable differences in values
 `graphical_verbal_ending`                      | [g_vbe_utf8](../2016/g_vbe_utf8) |                |
 `graphical_verbal_ending_plain`                | [g_vbe](../2016/g_vbe)   |                        |
+`graphical_word`                               | [g_word](../2016/g_word) |                        |
 `half_verse`                                   | [label](../2016/label)   |                        |
 `indentation`                                  | [tab](../2016/tab)       |                        |
 `is_apposition`                                | X                        | `false`                | garbage feature
@@ -94,6 +95,7 @@ version `3` | version `2016` | example values | comments
 `suffix_number`                                | [prs_nu](../2016/prs_nu) |                        |
 `suffix_person`                                | [prs_ps](../2016/prs_ps) |                        |
 `tense`                                        | [vt](../2016/vt)         |                        |
+`text`                                         | [g_word_utf8](../2016/g_word_utf8) |              |
 `text_plain`                                   | [g_cons_utf8](../2016/g_cons_utf8) |              |
 `text_type`                                    | [txt](../2016/txt)       |                        |
 `verse_label`                                  | [label](../2016/label)   |                        |
