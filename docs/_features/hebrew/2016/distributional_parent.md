@@ -21,3 +21,4 @@ The distributional parent of a node is the embedding node in the distributional 
 ##### See also
 
 * [functional_parent](functional_parent)
+* [mother](mother)

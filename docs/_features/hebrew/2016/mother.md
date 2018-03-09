@@ -35,11 +35,20 @@ select all objects where
     ]
     ..
     [clause txt = 'Q'
-        [clause_atom mother = c1.self
+        [clause_atom mother has c1.self
         ]
     ]
 ]
 ```
+
+**N.B.:** Note the usage of `has` here.
+In previous versions (up to 4b) the MQL data has been modeled in such a way that
+every object can have it most one mother.
+Users of that version of the data base have learned to write
+
+`clause_atom mother = c1.self`
+
+which will lead to an error in the current version.
 
 ## Text-Fabric implementation
 In the Text-Fabric representation of the BHSA dataset, *mother* is an *edge* feature.

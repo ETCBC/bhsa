@@ -1,4 +1,5 @@
 ---
+* [mother](mother)
 title: functional_parent
 ---
 

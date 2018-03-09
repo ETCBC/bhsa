@@ -21,4 +21,5 @@ The functional parent of a node is the embedding node in the functional hierarch
 ##### See also:
 
 * [distributional_parent](distributional_parent)
+* [mother](mother)
 
