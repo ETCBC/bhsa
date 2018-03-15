@@ -75,7 +75,7 @@ we have:
 
 ---|---|---|---|---
 [lex](lex) | word | consonantal | transliterated | `>MR[`
-[lex_utf8](lex_utf8) | word | consonantal | hebrew | `אמר[`
+[lex_utf8](lex_utf8) | word | consonantal | hebrew | `אמר`
 [g_lex](g_lex) | word | pointed | transliterated | `>MER`
 [g_lex_utf8](g_lex_utf8) | word | pointed | hebrew | `אמֶר`
 
