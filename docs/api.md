@@ -64,6 +64,24 @@ Existing features remain in place, the existing TF-api remains undisturbed.
 
 **N.B.:** use this instead of `TF.load()`.
 
+### shbLink ###
+
+Produces a link to SHEBANQ
+
+**Takes**
+
+*   an arbitrary node;
+*   `text=None` optional link text;
+
+**Returns**
+
+*   a hyperlink to SHEBANQ, precisely to the verse in which the node occurs; if
+    the node is a book or a chapter, it will go to the first chapter and the first
+    verse of those.
+    The text of the link is a passage indicator (from book, chapter and verse),
+    unless `text` has been passed. In that case, the passage indicator goes to the 
+    popup hint of the link, and `text` is displayed as link text.
+
 ### pretty ###
 
 Displays the material that corresponds to a node in a rich way.
@@ -72,6 +90,7 @@ Displays the material that corresponds to a node in a rich way.
 
 *   `n` a node of arbitrary type;
 *   `withNodes=True` whether node numbers should be displayed;
+*   `suppress=set()` a set of feature names that should NOT be displayed;
 
 **Returns**
 
@@ -99,6 +118,7 @@ Displays the material that corresponds to a node in a rich way.
     display; this prepares the way for displaying query results, which are a
     sequence of tuples of nodes;
 *   `withNodes=True` whether node numbers should be displayed;
+*   `suppress=set()` a set of feature names that should NOT be displayed;
 
 **Returns**
 
@@ -134,10 +154,12 @@ Displays a list of query results.
 *   `start=0` a starting point in the result list;
 *   `end=len(results)` an end point in the result list;
 *   `withNodes=True` whether node numbers should be displayed;
+*   `suppress=set()` a set of feature names that should NOT be displayed;
 
 **Returns**
 
-* a rich display of all results from `start` to `end` but never more than 100 at a time.
+*   a rich display of all results from `start` to `end` but never more than 100 at
+    a time.
 
 **Details**
 

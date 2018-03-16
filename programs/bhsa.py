@@ -110,6 +110,11 @@ CSS = '''
     font-size: large;
     direction: rtl;
 }
+.rela,.function,.typ {
+    font-family: monospace;
+    font-size: small;
+    color: #0000bb;
+}
 .sp {
     font-family: monospace;
     font-size: medium;
@@ -167,20 +172,6 @@ def _outLink(text, href, title=None):
     titleAtt = '' if title is None else f' title="{title}"'
     return f'<a target="_blank" href="{href}"{titleAtt}>{text}</a>'
 
-def _shbLink(version, book, chapter, verse):
-    text = (
-        book if chapter is None and verse is None else
-        '{} {}'.format(book, chapter) if verse is None else
-        '{} {}:{}'.format(book, chapter, verse)
-    )
-    href = SHEBANQ.format(
-        version=version,
-        book=book,
-        chapter=chapter or 1,
-        verse=verse or 1,
-    )
-    return _outLink(text, href, title='show this passage in SHEBANQ')
-
 
 class Bhsa(object):
     def __init__(self, repoBase, repoRel, name, version='c', modules=['']):
@@ -195,7 +186,7 @@ class Bhsa(object):
             '''
             sp gloss
             function typ rela
-            number label
+            number label book
         ''',
             add=True,
             silent=True
@@ -247,10 +238,37 @@ This notebook online:
             )
         self._loadCSS()
 
+    def shbLink(self, n, text=None):
+        api = self.api
+        L = api.L
+        T = api.T
+        F = api.F
+        version = self.version
+        nType = F.otype.v(n)
+        (bookE, chapter, verse) = T.sectionFromNode(n)
+        bookNode = n if nType == 'book' else L.u(n, otype='book')[0]
+        book = F.book.v(bookNode)
+        passageText = (
+            bookE if nType == 'book' else '{} {}'.format(bookE, chapter) if
+            nType == 'chapter' else '{} {}:{}'.format(bookE, chapter, verse)
+        )
+        href = SHEBANQ.format(
+            version=version,
+            book=book,
+            chapter=chapter,
+            verse=verse,
+        )
+        if text is None:
+            text = passageText
+            title = 'show this passage in SHEBANQ'
+        else:
+            title = passageText
+        return _outLink(text, href, title=title)
+
     def load(self, features):
         self.TF.load(features, add=True, silent=True)
 
-    def pretty(self, n, withNodes=True, highlights=set()):
+    def pretty(self, n, withNodes=True, suppress=set(), highlights=set()):
         html = []
         self._pretty(
             n,
@@ -258,13 +276,14 @@ This notebook online:
             firstWord=None,
             lastWord=None,
             withNodes=withNodes,
+            suppress=suppress,
             highlights=highlights,
         )
         htmlStr = '\n'.join(html)
         # print(htmlStr)
         display(HTML(htmlStr))
 
-    def prettyTuple(self, ns, seqNumber, withNodes=True):
+    def prettyTuple(self, ns, seqNumber, withNodes=True, suppress=set()):
         api = self.api
         L = api.L
         T = api.T
@@ -284,7 +303,8 @@ This notebook online:
                 nodeRep = '**{} {}:{}**'.format(*T.sectionFromNode(n))
             elif nType == 'half_verse':
                 nodeRep = '**{} {}:{}{}**'.format(
-                    *T.sectionFromNode(n), F.label.v(n),
+                    *T.sectionFromNode(n),
+                    F.label.v(n),
                 )
             else:
                 nodePart = f' `{n}`' if withNodes else ''
@@ -302,14 +322,21 @@ This notebook online:
 ({", ".join(heading)})
 ''')
         for v in sortNodes(verses):
-            self.pretty(v, withNodes=withNodes, highlights=highlights)
+            self.pretty(
+                v,
+                withNodes=withNodes,
+                suppress=suppress,
+                highlights=highlights
+            )
 
     def search(self, query):
         api = self.api
         S = api.S
         return list(S.search(query))
 
-    def show(self, results, start=None, end=None, withNodes=True):
+    def show(
+        self, results, start=None, end=None, withNodes=True, suppress=set()
+    ):
         if start is None:
             start = 0
         if end is None:
@@ -319,7 +346,9 @@ This notebook online:
             rest = end - start - LIMIT
             end = start + LIMIT
         for i in range(start, end):
-            self.prettyTuple(results[i], i, withNodes=withNodes)
+            self.prettyTuple(
+                results[i], i, withNodes=withNodes, suppress=suppress
+            )
         if rest:
             _dm(
                 f'**{rest} more results skipped**'
@@ -327,8 +356,14 @@ This notebook online:
             )
 
     def _pretty(
-        self, n, html,
-        firstWord=None, lastWord=None, withNodes=True, highlights=set()
+        self,
+        n,
+        html,
+        firstWord=None,
+        lastWord=None,
+        withNodes=True,
+        suppress=set(),
+        highlights=set()
     ):
         api = self.api
         L = api.L
@@ -347,22 +382,19 @@ This notebook online:
                 boundaryClass += ' r'
             if superEnd > myEnd:
                 boundaryClass += ' l'
-        if (
-            (firstWord and myEnd < firstWord)
-            or
-            (lastWord and myStart > lastWord)
-        ):
+        if ((firstWord and myEnd < firstWord)
+            or (lastWord and myStart > lastWord)):  # noqa 129
             return
         if firstWord and (myStart < firstWord):
             boundaryClass += ' R'
         if lastWord and (myEnd > lastWord):
             boundaryClass += ' L'
         if nType == 'book':
-            return _shbLink(self.version, T.sectionFromNode(n)[0], 1, 1)
+            return self.shbLink(n)
         elif nType == 'chapter':
-            return _shbLink(self.version, *T.sectionFromNode(n)[0:2], 1)
+            return self.shbLink(n)
         elif nType == 'verse':
-            label = _shbLink(self.version, *T.sectionFromNode(n))
+            label = self.shbLink(n)
             (firstWord, lastWord) = self._getBoundary(n)
             children = sortNodes(
                 set(L.d(n, otype='sentence_atom')) | {
@@ -384,27 +416,56 @@ This notebook online:
         html.append(f'''<div class="{className} {boundaryClass} {hl}">''')
         if nType == 'verse':
             nodePart = f'<div class="nd">{n}</div>' if withNodes else ''
-            html.append(f'''
+            html.append(
+                f'''
     <div class="vl">
         <div class="vs">{label}</div>{nodePart}
     </div>
-''')
+'''
+            )
         elif nType == 'word':
-            html.append(f'''
-    <div class="h">{T.text([n])}</div>
-    <div class="sp">{F.sp.v(n)}</div>
-    <div class="gl">{F.gloss.v(lx).replace("<", "&lt;")}</div>
-''')
+            html.append(f'<div class="h">{T.text([n])}</div>')
+            if 'sp' not in suppress:
+                html.append(
+                    f'<div class="sp">{self.shbLink(n, text=F.sp.v(n))}</div>'
+                )
+            if 'gloss' not in suppress:
+                html.append(
+                    f'<div class="gl">'
+                    f'{F.gloss.v(lx).replace("<", "&lt;")}</div>'
+                )
         elif superType:
             nodePart = (
-                f'<span class="nd">{superNode}</span>'
-                if withNodes else ''
+                f'<span class="nd">{superNode}</span>' if withNodes else ''
             )
-            html.append(f'''
-    <div class="{superType}">{superType} {nodePart}
+            typePart = self.shbLink(superNode, text=superType)
+            featurePart = ''
+            if superType == 'clause':
+                if 'rela' not in suppress:
+                    featurePart += (
+                        f' <span class="rela">{F.rela.v(superNode)}</span>'
+                    )
+                if 'typ' not in suppress:
+                    featurePart += (
+                        f' <span class="typ">{F.typ.v(superNode)}</span>'
+                    )
+            elif superType == 'phrase':
+                if 'function' not in suppress:
+                    featurePart += (
+                        f' <span class="function">'
+                        f'{F.function.v(superNode)}</span>'
+                    )
+                if 'typ' not in suppress:
+                    featurePart += (
+                        f' <span class="typ">{F.typ.v(superNode)}</span>'
+                    )
+            html.append(
+                f'''
+    <div class="{superType}">{typePart} {nodePart} {featurePart}
     </div>
     <div class="atoms">
-''')
+'''
+            )
         for ch in children:
             self._pretty(
                 ch,
@@ -412,6 +473,7 @@ This notebook online:
                 firstWord=firstWord,
                 lastWord=lastWord,
                 withNodes=withNodes,
+                suppress=suppress,
                 highlights=highlights,
             )
         if superType:
