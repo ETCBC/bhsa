@@ -21,4 +21,4 @@ This extended MQL file is now present as `source/`*version*`/bhsa.mql.bz2` in th
 These extended MQL files are now present as `source/`*version*`/bhsa.mql.bz2` in this repo.
 
 # Feature documentation
-The [feature documentation](../4b/index.html) of this version is in a different format.
+The [feature documentation](../4b/index.html) of this version is identical to that of version **4b**.
