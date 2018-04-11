@@ -64,6 +64,26 @@ Existing features remain in place, the existing TF-api remains undisturbed.
 
 **N.B.:** use this instead of `TF.load()`.
 
+### TF ###
+
+If you need, you can get the `Fabric` object that you normally get when you call
+TF yourself, as in
+
+```python
+TF = Fabric(locations=..., modules=...)
+```
+
+**Returns**
+
+*   the Fabric object that has silently been created while initializing the `Bhsa`
+    object `B`.
+
+**Details**
+
+You need this typically when you want to pass the TF API to some other workhorse
+that needs to load additional features. For example if you use the
+[Tree API in lingo](https://github.com/ETCBC/lingo/blob/master/trees/treeExample.py).
+
 ### shbLink ###
 
 Produces a link to SHEBANQ
@@ -77,10 +97,10 @@ Produces a link to SHEBANQ
 
 *   a hyperlink to SHEBANQ, precisely to the verse in which the node occurs; if
     the node is a book or a chapter, it will go to the first chapter and the first
-    verse of those.
-    The text of the link is a passage indicator (from book, chapter and verse),
-    unless `text` has been passed. In that case, the passage indicator goes to the 
-    popup hint of the link, and `text` is displayed as link text.
+    verse of those. The text of the link is a passage indicator (from book,
+    chapter and verse), unless `text` has been passed. In that case, the passage
+    indicator goes to the popup hint of the link, and `text` is displayed as link
+    text.
 
 ### pretty ###
 
