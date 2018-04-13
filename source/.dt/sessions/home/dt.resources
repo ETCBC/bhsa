@@ -1,0 +1,26 @@
+Window.Color.Background:	#FFFFF7F7E9E9
+Window.Color.Foreground:	#000000000000
+OpenWindows.WindowForeground:	#000000000000
+OpenWindows.TimeFormat:	C
+OpenWindows.BasicLocale:	C
+OpenWindows.DataBackground:	#FFFFF7F7E9E9
+OpenWindows.DisplayLang:	C
+OpenWindows.WorkspaceColor:	#AEAEB2B2C3C3
+OpenWindows.DataForeground:	#000000000000
+OpenWindows.InputLang:	C
+OpenWindows.WindowColor:	#AEAEB2B2C3C3
+OpenWindows.NumericFormat:	C
+*0*ColorPalette:	Default.dp
+Dtwm*0*FrontPanel*geometry:	-102-0
+Dtwm*0*helpResources:	\n\
+  
+Dtwm*0*initialWorkspace:	ws0
+Dtwm*0*workspaceCount:	4
+Dtwm*gwmOnFrontPanel:	False
+Dtwm*showSwitchArea:	True
+Dtwm*syncDesktopSwitch:	False
+Dtwm*useSameBackdrop:	False
+dtsession*displayResolution:	3543
+dtsession*sessionLanguage:	C
+*background:	#AEAEB2B2C3C3
+*foreground:	#000000000000

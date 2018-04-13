@@ -6,10 +6,10 @@
 @encoders=Dirk Roorda (TF)
 @provenance=computed addition to core set of features
 @valueType=int
-@version=c
+@version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-01-17T17:42:43Z
+@dateWritten=2018-04-13T12:24:02Z
 
 3
 868

@@ -1,0 +1,10 @@
+alias cd	'chdir \!*; set part=`expr "//$cwd" : "//.*/\(.*/.*\)" \| "$cwd"`; set prompt="`uname -n`-$part-\! "'
+alias cp	cp -i
+alias h		history
+alias l		'ls -F \!* | more'
+alias la	'ls -lacg \!* | more'
+alias ll	'ls -l \!* | more'
+alias more      /usr/bin/more
+alias mv	mv -i
+alias quota     /usr/sbin/quota
+alias rm	rm -i

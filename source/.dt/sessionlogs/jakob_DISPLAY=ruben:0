@@ -1,0 +1,3 @@
+This session log file is currently disabled.
+To enable logging, edit /home/cody/.dtprofile and
+remove dtstart_sessionlogfile=/dev/null line.

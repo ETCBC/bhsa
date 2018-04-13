@@ -5,12 +5,12 @@
 @email=shebanq@ancient-data.org
 @encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)
 @valueType=str
-@version=c
+@version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-01-17T17:35:29Z
+@dateWritten=2018-04-13T12:18:44Z
 
-651503	und
+651546	und
 NA
 und
 det
@@ -314,7 +314,7 @@ det
 und
 NA
 det
-NA
+und
 NA
 det
 NA
@@ -1295,7 +1295,7 @@ und
 und
 NA
 det
-NA
+und
 NA
 NA
 NA
@@ -1755,7 +1755,7 @@ NA
 det
 NA
 det
-NA
+und
 NA
 det
 und
@@ -3227,7 +3227,7 @@ und
 und
 NA
 NA
-det
+und
 NA
 det
 NA
@@ -8068,7 +8068,7 @@ NA
 und
 det
 NA
-NA
+det
 NA
 NA
 det
@@ -11769,8 +11769,8 @@ NA
 det
 NA
 NA
-det
 det
+und
 NA
 det
 NA
@@ -16587,7 +16587,7 @@ NA
 und
 NA
 NA
-det
+und
 NA
 det
 NA
@@ -16623,7 +16623,7 @@ NA
 und
 NA
 NA
-det
+und
 NA
 det
 NA
@@ -20840,7 +20840,7 @@ NA
 NA
 NA
 NA
-det
+und
 NA
 det
 det
@@ -24654,7 +24654,7 @@ NA
 det
 NA
 NA
-det
+und
 NA
 det
 NA
@@ -30133,6 +30133,7 @@ NA
 NA
 und
 und
+und
 NA
 det
 det
@@ -30940,7 +30941,7 @@ NA
 det
 NA
 NA
-det
+und
 NA
 det
 NA
@@ -31588,9 +31589,9 @@ det
 det
 NA
 NA
-NA
-NA
+und
 NA
+und
 NA
 NA
 det
@@ -32104,7 +32105,7 @@ NA
 und
 NA
 det
-NA
+und
 NA
 NA
 NA
@@ -33234,7 +33235,7 @@ det
 det
 NA
 NA
-det
+und
 NA
 det
 NA
@@ -37749,7 +37750,7 @@ det
 det
 NA
 NA
-det
+und
 NA
 NA
 det
@@ -40484,7 +40485,7 @@ det
 und
 NA
 NA
-NA
+und
 det
 NA
 NA
@@ -40515,7 +40516,7 @@ NA
 NA
 und
 NA
-NA
+und
 NA
 NA
 det
@@ -41016,8 +41017,8 @@ det
 NA
 det
 NA
-det
 det
+und
 NA
 det
 det
@@ -43654,6 +43655,7 @@ NA
 det
 und
 und
+und
 NA
 det
 NA
@@ -46194,7 +46196,7 @@ det
 det
 NA
 NA
-det
+und
 NA
 det
 NA
@@ -53631,7 +53633,7 @@ det
 det
 NA
 NA
-det
+und
 NA
 NA
 det
@@ -56342,7 +56344,7 @@ NA
 det
 NA
 det
-det
+und
 NA
 det
 det
@@ -57414,7 +57416,7 @@ NA
 det
 und
 NA
-det
+und
 NA
 det
 und
@@ -65868,7 +65870,7 @@ det
 NA
 NA
 NA
-det
+und
 NA
 det
 NA
@@ -65879,7 +65881,7 @@ NA
 det
 NA
 NA
-det
+und
 NA
 det
 NA
@@ -68850,6 +68852,7 @@ det
 det
 NA
 det
+und
 det
 NA
 det
@@ -68864,6 +68867,7 @@ NA
 det
 NA
 det
+und
 det
 det
 und
@@ -68891,20 +68895,25 @@ NA
 det
 det
 det
+und
 det
 NA
 det
 det
+und
 det
 NA
 det
+und
 det
 det
 det
+und
 det
 det
 NA
 det
+und
 NA
 det
 NA
@@ -70004,16 +70013,21 @@ NA
 det
 det
 det
+det
+NA
 det
 NA
 det
+det
 NA
 det
+NA
 det
 NA
 det
 NA
 det
+NA
 det
 NA
 det
@@ -70023,10 +70037,14 @@ NA
 det
 NA
 det
+det
 und
 NA
+det
+det
 det
 det
+NA
 det
 und
 det
@@ -70043,6 +70061,7 @@ NA
 NA
 det
 det
+NA
 det
 NA
 det
@@ -70050,12 +70069,16 @@ NA
 det
 und
 NA
+det
 det
 det
 det
+det
 und
 NA
 det
+det
+NA
 det
 und
 und
@@ -70064,11 +70087,12 @@ NA
 det
 det
 det
-det
 NA
 det
 und
 NA
+det
+det
 det
 det
 det
@@ -70077,10 +70101,14 @@ NA
 det
 det
 det
+det
+NA
+det
 und
 NA
 det
 det
+NA
 det
 NA
 det
@@ -70088,6 +70116,8 @@ und
 det
 und
 NA
+det
+det
 det
 det
 det
@@ -70096,13 +70126,17 @@ und
 NA
 det
 det
+NA
 det
-und
+det
 NA
 det
+und
+NA
 det
 det
 NA
+det
 det
 det
 und
@@ -78234,10 +78268,10 @@ det
 NA
 und
 und
-und
 NA
 NA
 NA
+NA
 und
 det
 NA
@@ -81621,7 +81655,7 @@ det
 NA
 NA
 NA
-det
+und
 NA
 NA
 det
@@ -94142,7 +94176,7 @@ det
 NA
 NA
 det
-det
+und
 NA
 det
 det
@@ -94922,6 +94956,7 @@ NA
 NA
 NA
 und
+det
 NA
 NA
 det
@@ -105267,7 +105302,6 @@ det
 NA
 NA
 det
-NA
 NA
 NA
 NA
@@ -106325,11 +106359,13 @@ NA
 det
 und
 und
+und
 NA
 det
 NA
 und
 und
+und
 NA
 det
 NA
@@ -106979,7 +107015,7 @@ NA
 det
 det
 NA
-det
+und
 NA
 NA
 NA
@@ -108486,7 +108522,7 @@ NA
 NA
 det
 NA
-det
+und
 NA
 NA
 NA
@@ -108568,7 +108604,7 @@ NA
 det
 det
 NA
-det
+und
 NA
 NA
 NA
@@ -108738,7 +108774,7 @@ det
 det
 det
 NA
-det
+und
 NA
 NA
 NA
@@ -108831,7 +108867,7 @@ NA
 NA
 det
 NA
-det
+und
 NA
 NA
 NA
@@ -109005,7 +109041,7 @@ NA
 det
 det
 NA
-det
+und
 NA
 NA
 NA
@@ -112345,7 +112381,7 @@ det
 NA
 NA
 NA
-det
+und
 NA
 NA
 NA
@@ -116076,7 +116112,7 @@ NA
 det
 det
 NA
-det
+und
 NA
 NA
 NA
@@ -117209,7 +117245,7 @@ det
 NA
 det
 NA
-det
+und
 NA
 NA
 NA
@@ -117753,7 +117789,7 @@ NA
 NA
 det
 NA
-det
+und
 NA
 NA
 NA
@@ -117872,7 +117908,7 @@ NA
 det
 NA
 NA
-det
+und
 NA
 NA
 NA
@@ -117911,7 +117947,7 @@ det
 det
 NA
 NA
-det
+und
 NA
 NA
 NA
@@ -118409,11 +118445,13 @@ NA
 NA
 det
 det
+NA
 NA
 NA
 NA
 und
 NA
+NA
 und
 NA
 NA
@@ -118430,7 +118468,7 @@ NA
 NA
 det
 NA
-det
+und
 NA
 NA
 NA
@@ -118502,7 +118540,7 @@ det
 NA
 det
 NA
-det
+und
 NA
 NA
 NA
@@ -118604,8 +118642,8 @@ NA
 det
 NA
 NA
-det
 det
+und
 NA
 det
 det
@@ -118666,7 +118704,7 @@ NA
 NA
 det
 NA
-det
+und
 NA
 NA
 NA
@@ -118716,7 +118754,7 @@ NA
 NA
 det
 NA
-det
+und
 NA
 NA
 NA
@@ -118762,7 +118800,7 @@ NA
 det
 und
 NA
-det
+und
 NA
 NA
 NA
@@ -121108,7 +121146,7 @@ NA
 NA
 det
 NA
-det
+und
 NA
 NA
 NA
@@ -121873,7 +121911,7 @@ NA
 det
 NA
 NA
-det
+und
 NA
 NA
 NA
@@ -122049,7 +122087,7 @@ NA
 det
 NA
 NA
-det
+und
 NA
 NA
 NA
@@ -129030,10 +129068,6 @@ und
 NA
 NA
 det
-und
-NA
-und
-NA
 und
 NA
 und
@@ -144322,7 +144356,6 @@ NA
 det
 NA
 det
-NA
 det
 det
 det
@@ -162042,6 +162075,7 @@ det
 NA
 NA
 und
+det
 NA
 und
 NA
@@ -165309,9 +165343,7 @@ und
 und
 NA
 und
-NA
 NA
-det
 NA
 det
 NA
@@ -167084,9 +167116,7 @@ NA
 NA
 NA
 NA
-NA
 det
-NA
 NA
 NA
 NA
@@ -169614,7 +169644,7 @@ NA
 NA
 det
 det
-det
+und
 NA
 NA
 det
@@ -170452,7 +170482,6 @@ NA
 NA
 NA
 det
-NA
 NA
 NA
 NA
@@ -173501,7 +173530,6 @@ det
 det
 NA
 NA
-NA
 det
 NA
 NA
@@ -179313,7 +179341,7 @@ NA
 det
 NA
 NA
-det
+und
 NA
 NA
 und
@@ -186180,6 +186208,9 @@ NA
 und
 det
 det
+und
+NA
+NA
 det
 det
 NA
@@ -191050,8 +191081,6 @@ und
 und
 NA
 det
-und
-und
 NA
 und
 det
@@ -201087,6 +201116,7 @@ NA
 NA
 det
 NA
+det
 det
 det
 NA
@@ -201164,7 +201194,7 @@ det
 det
 NA
 und
-det
+und
 NA
 det
 NA
@@ -211750,7 +211780,6 @@ det
 und
 NA
 und
-NA
 NA
 und
 NA
@@ -213505,8 +213534,6 @@ det
 und
 NA
 NA
-und
-NA
 det
 NA
 det
@@ -234327,11 +234354,11 @@ det
 det
 det
 NA
-det
 det
+und
 NA
 det
-det
+und
 NA
 det
 NA
@@ -234884,7 +234911,7 @@ NA
 det
 det
 NA
-det
+und
 NA
 NA
 det
@@ -239908,7 +239935,6 @@ und
 NA
 NA
 det
-NA
 und
 NA
 det
@@ -240287,7 +240313,6 @@ det
 NA
 det
 und
-NA
 det
 NA
 det
@@ -244269,7 +244294,6 @@ det
 NA
 NA
 NA
-NA
 und
 det
 det
@@ -244789,6 +244813,7 @@ und
 NA
 det
 det
+NA
 NA
 NA
 det
@@ -249479,6 +249504,7 @@ det
 NA
 NA
 det
+det
 NA
 NA
 det
@@ -251292,7 +251318,6 @@ NA
 NA
 NA
 und
-und
 det
 NA
 det
@@ -251810,7 +251835,6 @@ NA
 det
 und
 und
-NA
 NA
 det
 NA
@@ -253003,7 +253027,6 @@ det
 NA
 NA
 det
-det
 NA
 det
 NA
@@ -253522,7 +253545,7 @@ det
 und
 NA
 det
-NA
+und
 NA
 det
 NA
@@ -254528,7 +254551,7 @@ und
 und
 NA
 det
-NA
+und
 NA
 NA
 NA
@@ -254993,7 +255016,7 @@ NA
 det
 NA
 det
-NA
+und
 NA
 det
 det
@@ -255103,7 +255126,7 @@ NA
 NA
 NA
 NA
-det
+und
 NA
 NA
 det
@@ -256563,7 +256586,7 @@ und
 und
 NA
 NA
-det
+und
 NA
 det
 NA
@@ -257616,7 +257639,6 @@ det
 und
 NA
 und
-und
 NA
 NA
 NA
@@ -258827,6 +258849,7 @@ det
 det
 NA
 det
+det
 NA
 det
 det
@@ -261632,8 +261655,8 @@ NA
 NA
 und
 det
-NA
 NA
+det
 NA
 NA
 det
@@ -265506,7 +265529,7 @@ det
 NA
 NA
 det
-det
+und
 NA
 det
 NA
@@ -270509,7 +270532,7 @@ NA
 und
 NA
 NA
-det
+und
 NA
 det
 NA
@@ -270546,7 +270569,7 @@ NA
 und
 NA
 NA
-det
+und
 NA
 det
 NA
@@ -274891,7 +274914,7 @@ NA
 NA
 NA
 NA
-det
+und
 NA
 det
 det
@@ -278815,7 +278838,7 @@ NA
 det
 NA
 NA
-det
+und
 NA
 det
 NA
@@ -284562,6 +284585,7 @@ und
 det
 NA
 NA
+und
 und
 und
 NA
@@ -285445,7 +285469,7 @@ NA
 det
 NA
 NA
-det
+und
 NA
 det
 NA
@@ -286119,11 +286143,11 @@ det
 NA
 det
 det
-NA
 NA
 NA
-NA
+und
 NA
+und
 NA
 NA
 det
@@ -286183,7 +286207,7 @@ det
 det
 und
 det
-NA
+und
 NA
 NA
 NA
@@ -286626,6 +286650,7 @@ NA
 NA
 NA
 det
+und
 und
 det
 NA
@@ -286676,7 +286701,7 @@ und
 NA
 det
 und
-NA
+und
 NA
 NA
 NA
@@ -287874,7 +287899,7 @@ det
 det
 NA
 NA
-det
+und
 NA
 det
 NA
@@ -292594,7 +292619,7 @@ det
 det
 NA
 NA
-det
+und
 NA
 NA
 det
@@ -295460,7 +295485,7 @@ und
 det
 NA
 NA
-NA
+und
 det
 NA
 NA
@@ -295492,10 +295517,10 @@ und
 NA
 NA
 und
-NA
 NA
 NA
 NA
+und
 NA
 NA
 det
@@ -296152,7 +296177,7 @@ NA
 det
 NA
 det
-det
+und
 NA
 det
 det
@@ -296992,7 +297017,7 @@ det
 det
 det
 det
-det
+und
 NA
 det
 und
@@ -297075,7 +297100,7 @@ NA
 det
 NA
 NA
-det
+und
 NA
 NA
 det
@@ -299147,6 +299172,7 @@ NA
 det
 und
 und
+und
 NA
 det
 NA
@@ -301833,7 +301859,7 @@ det
 det
 NA
 NA
-det
+und
 NA
 det
 NA
@@ -309854,7 +309880,7 @@ det
 det
 NA
 NA
-det
+und
 NA
 NA
 det
@@ -311091,7 +311117,7 @@ NA
 NA
 NA
 det
-det
+und
 NA
 det
 det
@@ -312799,7 +312825,7 @@ det
 NA
 det
 det
-det
+und
 NA
 det
 det
@@ -313960,7 +313986,7 @@ NA
 det
 und
 NA
-det
+und
 NA
 det
 NA
@@ -322870,7 +322896,7 @@ det
 NA
 NA
 NA
-det
+und
 NA
 det
 NA
@@ -322882,7 +322908,7 @@ det
 det
 NA
 NA
-det
+und
 NA
 det
 NA
@@ -322907,7 +322933,7 @@ NA
 det
 det
 NA
-det
+und
 NA
 det
 NA
@@ -323337,7 +323363,7 @@ det
 det
 det
 NA
-det
+und
 NA
 det
 NA
@@ -326416,8 +326442,6 @@ det
 det
 det
 det
-det
-det
 NA
 det
 det
@@ -327554,19 +327578,27 @@ det
 det
 det
 NA
+det
 det
+NA
 det
 NA
+det
+det
 det
 NA
 det
 det
+NA
 det
+det
 NA
 det
+NA
 det
 NA
 det
+NA
 det
 NA
 det
@@ -327576,12 +327608,16 @@ NA
 det
 NA
 det
+det
 und
 det
 NA
+det
 det
 det
 det
+NA
+det
 und
 det
 det
@@ -327596,9 +327632,13 @@ det
 det
 NA
 NA
+det
 det
 det
+NA
 det
+det
+NA
 det
 NA
 det
@@ -327609,9 +327649,13 @@ NA
 det
 det
 det
+det
+det
 und
 NA
+det
 det
+NA
 det
 und
 und
@@ -327629,6 +327673,8 @@ NA
 det
 und
 NA
+det
+det
 det
 det
 det
@@ -327637,6 +327683,9 @@ NA
 det
 det
 det
+det
+NA
+det
 und
 NA
 det
@@ -327647,20 +327696,28 @@ NA
 det
 NA
 det
+NA
+det
 und
 det
 det
 und
 NA
+det
 det
 det
 det
 det
 det
+det
 und
+NA
+det
+det
 NA
 det
 det
+NA
 det
 und
 NA
@@ -327673,6 +327730,7 @@ det
 NA
 det
 det
+det
 und
 det
 det
@@ -336193,7 +336251,7 @@ det
 NA
 und
 und
-und
+NA
 NA
 NA
 NA
@@ -339711,7 +339769,7 @@ det
 NA
 NA
 NA
-det
+und
 NA
 NA
 det
@@ -352739,8 +352797,8 @@ det
 det
 NA
 NA
-det
 det
+und
 NA
 det
 det
@@ -364750,7 +364808,6 @@ det
 NA
 NA
 NA
-NA
 und
 det
 NA
@@ -365891,6 +365948,7 @@ NA
 NA
 det
 det
+und
 und
 und
 NA
@@ -365898,6 +365956,7 @@ det
 NA
 und
 und
+und
 NA
 det
 NA
@@ -366630,7 +366689,7 @@ NA
 det
 det
 NA
-det
+und
 NA
 NA
 NA
@@ -368202,7 +368261,7 @@ NA
 NA
 det
 NA
-det
+und
 NA
 NA
 NA
@@ -368297,7 +368356,7 @@ NA
 det
 det
 NA
-det
+und
 NA
 NA
 NA
@@ -368490,7 +368549,7 @@ det
 det
 det
 NA
-det
+und
 NA
 NA
 NA
@@ -368598,7 +368657,7 @@ NA
 det
 det
 NA
-det
+und
 NA
 NA
 NA
@@ -368797,7 +368856,7 @@ det
 det
 det
 NA
-det
+und
 NA
 NA
 NA
@@ -372276,7 +372335,7 @@ det
 NA
 NA
 NA
-det
+und
 NA
 NA
 NA
@@ -376122,7 +376181,7 @@ NA
 det
 det
 NA
-det
+und
 NA
 NA
 NA
@@ -377341,7 +377400,7 @@ det
 NA
 det
 NA
-det
+und
 NA
 NA
 NA
@@ -377933,7 +377992,7 @@ NA
 NA
 det
 NA
-det
+und
 NA
 NA
 NA
@@ -378068,7 +378127,7 @@ NA
 det
 NA
 NA
-det
+und
 NA
 NA
 NA
@@ -378115,7 +378174,7 @@ det
 det
 NA
 NA
-det
+und
 NA
 NA
 NA
@@ -378680,7 +378739,9 @@ det
 NA
 NA
 NA
+NA
 und
+NA
 NA
 und
 NA
@@ -378699,7 +378760,7 @@ NA
 det
 det
 NA
-det
+und
 NA
 NA
 NA
@@ -378783,7 +378844,7 @@ det
 NA
 det
 NA
-det
+und
 NA
 NA
 NA
@@ -378901,7 +378962,7 @@ det
 NA
 NA
 det
-det
+und
 NA
 det
 NA
@@ -378970,7 +379031,7 @@ NA
 NA
 det
 NA
-det
+und
 NA
 NA
 NA
@@ -379030,7 +379091,7 @@ NA
 NA
 det
 NA
-det
+und
 NA
 NA
 NA
@@ -379088,7 +379149,7 @@ und
 det
 det
 NA
-det
+und
 NA
 NA
 NA
@@ -381303,7 +381364,7 @@ NA
 det
 det
 NA
-det
+und
 NA
 NA
 det
@@ -381662,7 +381723,7 @@ NA
 NA
 det
 NA
-det
+und
 NA
 NA
 NA
@@ -382516,7 +382577,7 @@ NA
 det
 NA
 NA
-det
+und
 NA
 NA
 NA
@@ -382711,7 +382772,7 @@ NA
 det
 NA
 NA
-det
+und
 NA
 NA
 NA
@@ -390048,10 +390109,6 @@ und
 NA
 NA
 det
-und
-NA
-und
-NA
 und
 NA
 und
@@ -405840,7 +405897,6 @@ NA
 det
 NA
 det
-NA
 det
 det
 det
@@ -428001,8 +428057,6 @@ und
 NA
 und
 NA
-NA
-det
 NA
 det
 NA
@@ -429810,14 +429864,12 @@ NA
 NA
 NA
 NA
-NA
 det
 NA
 NA
 NA
 NA
 NA
-NA
 det
 und
 NA
@@ -432495,9 +432547,9 @@ NA
 NA
 NA
 NA
-det
 det
 det
+und
 NA
 NA
 det
@@ -433420,7 +433472,6 @@ NA
 NA
 NA
 NA
-NA
 det
 NA
 NA
@@ -436552,7 +436603,6 @@ det
 NA
 det
 det
-NA
 NA
 NA
 det
@@ -442524,7 +442574,7 @@ NA
 det
 NA
 NA
-det
+und
 NA
 NA
 und
@@ -449622,9 +449672,11 @@ und
 det
 NA
 und
-det
 det
 det
+und
+NA
+NA
 det
 det
 NA
@@ -454599,7 +454651,6 @@ und
 NA
 det
 und
-und
 NA
 und
 det
@@ -464979,7 +465030,7 @@ det
 det
 NA
 und
-det
+und
 NA
 det
 NA
@@ -475702,7 +475753,6 @@ und
 NA
 und
 NA
-NA
 und
 NA
 und
@@ -499517,10 +499567,10 @@ det
 det
 NA
 det
-det
+und
 NA
 det
-det
+und
 NA
 det
 NA
@@ -500092,7 +500142,7 @@ NA
 det
 det
 NA
-det
+und
 NA
 NA
 det
@@ -505996,7 +506046,6 @@ und
 NA
 NA
 det
-NA
 und
 NA
 det
@@ -506395,7 +506444,6 @@ det
 NA
 det
 und
-NA
 det
 NA
 det
@@ -510929,7 +510977,6 @@ det
 NA
 NA
 NA
-NA
 und
 det
 det
@@ -518593,7 +518640,6 @@ NA
 NA
 NA
 und
-und
 det
 NA
 det
@@ -519177,7 +519223,6 @@ NA
 det
 und
 und
-NA
 NA
 det
 det

@@ -5,10 +5,10 @@
 @email=shebanq@ancient-data.org
 @encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)
 @valueType=str
-@version=c
+@version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-01-17T17:36:02Z
+@dateWritten=2018-04-13T12:19:05Z
 
 prep
 subs
@@ -556,9 +556,9 @@ subs
 subs
 verb
 prep
-adjv
+subs
 conj
-adjv
+subs
 verb
 prep
 conj
@@ -1583,7 +1583,7 @@ prps
 verb
 subs
 subs
-adjv
+subs
 conj
 verb
 nmpr
@@ -2143,9 +2143,9 @@ subs
 subs
 verb
 prep
-adjv
+subs
 conj
-adjv
+subs
 verb
 conj
 verb
@@ -2988,9 +2988,9 @@ subs
 prep
 verb
 prep
-adjv
+subs
 conj
-adjv
+subs
 verb
 prep
 art
@@ -4019,7 +4019,7 @@ prep
 verb
 prep
 subs
-adjv
+subs
 prep
 conj
 verb
@@ -7499,7 +7499,7 @@ prep
 verb
 prep
 subs
-adjv
+subs
 conj
 verb
 prep
@@ -7520,7 +7520,7 @@ subs
 verb
 prep
 subs
-adjv
+subs
 prep
 subs
 subs
@@ -7554,7 +7554,7 @@ subs
 subs
 conj
 subs
-subs
+adjv
 conj
 nega
 verb
@@ -7740,7 +7740,7 @@ subs
 subs
 subs
 subs
-adjv
+subs
 prep
 subs
 subs
@@ -13543,7 +13543,7 @@ prep
 subs
 prps
 advb
-adjv
+subs
 nmpr
 conj
 verb
@@ -16201,7 +16201,7 @@ subs
 prep
 conj
 subs
-adjv
+subs
 prep
 art
 subs
@@ -18727,7 +18727,7 @@ prep
 verb
 prep
 subs
-adjv
+subs
 conj
 verb
 prep
@@ -18861,7 +18861,7 @@ prep
 verb
 prep
 subs
-adjv
+subs
 prep
 conj
 prps
@@ -18933,7 +18933,7 @@ advb
 conj
 verb
 subs
-adjv
+subs
 conj
 prep
 nmpr
@@ -27623,7 +27623,7 @@ verb
 prep
 prep
 subs
-adjv
+subs
 verb
 prep
 art
@@ -28081,7 +28081,7 @@ subs
 subs
 prep
 subs
-adjv
+subs
 nmpr
 prep
 advb
@@ -35705,7 +35705,7 @@ nmpr
 verb
 prep
 subs
-adjv
+subs
 conj
 advb
 verb
@@ -35719,7 +35719,7 @@ art
 subs
 conj
 subs
-adjv
+subs
 nega
 verb
 prep
@@ -53179,9 +53179,9 @@ subs
 prps
 verb
 conj
-adjv
+subs
 conj
-adjv
+subs
 adjv
 verb
 prep
@@ -53297,9 +53297,9 @@ subs
 subs
 prep
 nmpr
-adjv
+subs
 conj
-adjv
+subs
 adjv
 verb
 conj
@@ -54127,8 +54127,8 @@ verb
 subs
 subs
 subs
-adjv
 adjv
+subs
 prep
 subs
 conj
@@ -54214,7 +54214,7 @@ verb
 subs
 prep
 subs
-adjv
+subs
 adjv
 verb
 conj
@@ -55417,7 +55417,7 @@ nmpr
 subs
 prps
 subs
-adjv
+subs
 prep
 art
 subs
@@ -55666,7 +55666,7 @@ conj
 verb
 prep
 subs
-adjv
+subs
 nega
 verb
 prep
@@ -55677,7 +55677,7 @@ conj
 art
 subs
 subs
-adjv
+subs
 verb
 subs
 conj
@@ -55710,7 +55710,7 @@ conj
 verb
 prep
 subs
-adjv
+subs
 prep
 subs
 subs
@@ -65547,7 +65547,7 @@ nmpr
 verb
 conj
 subs
-adjv
+subs
 nega
 verb
 subs
@@ -65615,7 +65615,7 @@ subs
 verb
 conj
 subs
-adjv
+subs
 nega
 verb
 prep
@@ -69024,7 +69024,7 @@ art
 subs
 conj
 conj
-adjv
+subs
 prps
 conj
 verb
@@ -69090,7 +69090,7 @@ subs
 conj
 subs
 conj
-adjv
+subs
 conj
 verb
 subs
@@ -69666,7 +69666,7 @@ prep
 subs
 subs
 subs
-adjv
+subs
 prep
 subs
 prep
@@ -69857,7 +69857,7 @@ subs
 prep
 subs
 subs
-adjv
+subs
 prep
 subs
 subs
@@ -69894,7 +69894,7 @@ subs
 prep
 subs
 subs
-adjv
+subs
 prep
 subs
 subs
@@ -71166,7 +71166,7 @@ subs
 prep
 subs
 subs
-adjv
+subs
 prep
 subs
 subs
@@ -71349,7 +71349,7 @@ subs
 prep
 subs
 subs
-adjv
+subs
 prep
 subs
 subs
@@ -71443,7 +71443,7 @@ subs
 prep
 subs
 subs
-adjv
+subs
 prep
 subs
 subs
@@ -71547,7 +71547,7 @@ nmpr
 prep
 subs
 subs
-adjv
+subs
 prep
 subs
 subs
@@ -81548,7 +81548,7 @@ art
 subs
 verb
 subs
-adjv
+subs
 verb
 prep
 subs
@@ -81577,7 +81577,7 @@ prep
 subs
 subs
 subs
-adjv
+subs
 prep
 subs
 verb
@@ -81610,7 +81610,7 @@ nmpr
 prep
 verb
 subs
-adjv
+subs
 prep
 subs
 verb
@@ -86827,7 +86827,7 @@ conj
 subs
 subs
 subs
-adjv
+subs
 prep
 subs
 subs
@@ -89002,7 +89002,7 @@ nmpr
 conj
 verb
 subs
-adjv
+subs
 conj
 prep
 subs
@@ -89202,7 +89202,7 @@ conj
 advb
 verb
 subs
-adjv
+subs
 prep
 art
 subs
@@ -112416,7 +112416,7 @@ verb
 prep
 nmpr
 verb
-adjv
+subs
 nmpr
 verb
 prep
@@ -122437,7 +122437,7 @@ nmpr
 subs
 nmpr
 art
-subs
+adjv
 prep
 subs
 conj
@@ -135774,7 +135774,7 @@ conj
 nega
 verb
 subs
-adjv
+subs
 conj
 intj
 adjv
@@ -138484,9 +138484,9 @@ subs
 prep
 subs
 subs
-subs
+adjv
 conj
-subs
+adjv
 conj
 nega
 verb
@@ -185311,7 +185311,7 @@ subs
 conj
 verb
 subs
-adjv
+subs
 prep
 nmpr
 conj
@@ -185326,7 +185326,7 @@ nmpr
 conj
 verb
 subs
-adjv
+subs
 prep
 nmpr
 conj
@@ -204199,10 +204199,10 @@ nmpr
 verb
 advb
 conj
-subs
+nega
 subs
 conj
-subs
+nega
 subs
 conj
 nega
@@ -245270,7 +245270,7 @@ subs
 subs
 intj
 prep
-verb
+subs
 art
 subs
 subs
@@ -246295,7 +246295,7 @@ verb
 prep
 conj
 subs
-adjv
+subs
 prep
 subs
 subs
@@ -271310,7 +271310,7 @@ prep
 subs
 prep
 subs
-adjv
+subs
 prep
 verb
 conj
@@ -271474,7 +271474,7 @@ prep
 subs
 prep
 subs
-adjv
+subs
 conj
 verb
 prep
@@ -278424,7 +278424,7 @@ prps
 prep
 nmpr
 subs
-adjv
+subs
 nega
 verb
 prep
@@ -307885,7 +307885,7 @@ subs
 prep
 verb
 subs
-adjv
+subs
 advb
 conj
 verb
@@ -314033,9 +314033,9 @@ prep
 subs
 subs
 prde
-subs
-subs
 subs
+verb
+verb
 subs
 nmpr
 intj
@@ -335397,8 +335397,8 @@ conj
 verb
 prep
 subs
-adjv
 subs
+subs
 adjv
 nmpr
 prep
@@ -343328,7 +343328,7 @@ subs
 subs
 prep
 subs
-adjv
+subs
 advb
 nega
 prep
@@ -346224,12 +346224,12 @@ subs
 conj
 verb
 subs
-adjv
+subs
 conj
 verb
 verb
 subs
-adjv
+subs
 verb
 conj
 verb
@@ -346618,7 +346618,7 @@ subs
 subs
 prep
 subs
-adjv
+subs
 verb
 prps
 subs
@@ -348161,7 +348161,7 @@ subs
 verb
 prep
 subs
-adjv
+subs
 prep
 subs
 subs
@@ -349748,8 +349748,8 @@ subs
 conj
 subs
 subs
-verb
 verb
+adjv
 subs
 verb
 subs
@@ -350310,7 +350310,7 @@ subs
 subs
 adjv
 subs
-adjv
+subs
 verb
 prep
 subs
@@ -352162,7 +352162,7 @@ prep
 subs
 conj
 subs
-adjv
+subs
 verb
 prep
 subs
@@ -352212,7 +352212,7 @@ verb
 prep
 subs
 subs
-adjv
+subs
 prin
 verb
 verb
@@ -352310,7 +352310,7 @@ verb
 subs
 verb
 subs
-subs
+adjv
 subs
 conj
 prep
@@ -352463,7 +352463,7 @@ prep
 subs
 conj
 subs
-adjv
+subs
 advb
 prep
 subs
@@ -354367,7 +354367,7 @@ conj
 subs
 adjv
 subs
-adjv
+subs
 adjv
 prep
 subs
@@ -359417,7 +359417,7 @@ verb
 conj
 nega
 subs
-adjv
+subs
 prep
 art
 subs
@@ -363512,7 +363512,7 @@ prep
 subs
 prep
 subs
-adjv
+subs
 conj
 adjv
 conj
@@ -406070,7 +406070,7 @@ subs
 subs
 prep
 subs
-adjv
+subs
 prep
 art
 subs
@@ -423027,7 +423027,7 @@ verb
 subs
 prep
 subs
-adjv
+subs
 prep
 art
 subs

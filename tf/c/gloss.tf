@@ -5,12 +5,12 @@
 @email=shebanq@ancient-data.org
 @encoders=Constantijn Sikkel (QDF), and Dirk Roorda (TF)
 @valueType=str
-@version=c
+@version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-01-17T17:40:21Z
+@dateWritten=2018-04-13T12:21:41Z
 
-1437403	in
+1437588	in
 beginning
 create
 god(s)
@@ -256,7 +256,7 @@ return
 Eve
 tunic
 skin
-cloth
+clothe
 behold
 now
 send
@@ -1325,7 +1325,7 @@ with empty hands
 toil
 witness
 gather
-wave
+wave, heap
 heap of stones
 testimony
 Galeed
@@ -1377,7 +1377,7 @@ be unclean
 stupidity
 love
 be father-in-law
-marriage-money
+bride price
 present
 <uncertain>
 desire
@@ -2722,7 +2722,7 @@ vintage
 abhor
 yoke-bar
 uprightness
-retract
+reject
 terror
 consumption
 inflammation
@@ -6862,7 +6862,7 @@ stumbling
 confuse
 lion
 pit
-dissolve
+waste away
 miscarriage
 melting
 miscarriage

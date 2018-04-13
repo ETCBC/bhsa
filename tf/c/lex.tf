@@ -5,10 +5,10 @@
 @email=shebanq@ancient-data.org
 @encoders=Constantijn Sikkel (QDF), and Dirk Roorda (TF)
 @valueType=str
-@version=c
+@version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-01-17T17:40:23Z
+@dateWritten=2018-04-13T12:21:42Z
 
 B
 R>CJT/
@@ -63669,7 +63669,7 @@ CM/
 >NJ
 JHWH/
 W
->T
+>T==
 ZKR=/
 L>
 CKB[
@@ -64116,7 +64116,7 @@ W
 >JC/
 KJ
 CKB[
->T
+>T==
 >CH/
 CKBH/
 ZR</
@@ -64622,7 +64622,7 @@ W
 >JC/
 >CR
 CKB[
->T
+>T==
 >CH/
 >B/
 <RWH/
@@ -64637,7 +64637,7 @@ W
 >JC/
 >CR
 CKB[
->T
+>T==
 KLH/
 MWT[
 MWT[
@@ -64650,7 +64650,7 @@ W
 >JC/
 >CR
 CKB[
->T
+>T==
 ZKR=/
 MCKB/
 >CH/
@@ -64759,7 +64759,7 @@ W
 >JC/
 >CR
 CKB[
->T
+>T==
 >CH/
 DWH/
 W
@@ -64800,7 +64800,7 @@ W
 >JC/
 >CR
 CKB[
->T
+>T==
 DWDH/
 <RWH/
 DWD/
@@ -142547,7 +142547,7 @@ W
 >T
 >CR
 CKB[
->T
+>T==
 H
 >CH/
 H
@@ -426594,7 +426594,7 @@ JHWH/
 <M
 W
 <LH[
-1437403	B
+1437588	B
 R>CJT/
 BR>[
 >LHJM/

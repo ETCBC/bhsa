@@ -1,0 +1,6 @@
+dtsmcmd -hints "-geometry 1x1+0+0 -state NormalState -cmd \"/usr/dt/bin/dtterm -session dt5xaq0t \"" -screen 0 -cmd "/usr/dt/bin/dtterm -session dt5xaq0t"
+
+dtsmcmd -hints "-geometry 128x128+1146+30 -state NormalState -workspaces \"ws0 \" -cmd \"xclock -geometry 128x128-0+0 -update 31 \"" -screen 0 -cmd "xclock -geometry 128x128-0+0 -update 31"
+
+dtsmcmd -screen 0 -cmd "/usr/dt/bin/sdtperfmeter -f -H -t cpu -t disk -s 1 -name fpperfmeter"
+

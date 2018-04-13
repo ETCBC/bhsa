@@ -5,10 +5,10 @@
 @email=shebanq@ancient-data.org
 @encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)
 @valueType=str
-@version=c
+@version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-01-17T17:35:35Z
+@dateWritten=2018-04-13T12:18:48Z
 
 B.:-
 R;>CIJT
@@ -1490,7 +1490,7 @@ CW.P
 H@-
 >IC.
 >@MAR
-R:B.@H
+R:B.
 R:B.EH
 <IY.:BOWN
 W:-
@@ -7224,7 +7224,7 @@ WA-
 L
 MAL:>AK:
 J:HW@H
-R:B.@H
+R:B.
 R:B.EH
 >ET
 ZAR:<
@@ -10607,7 +10607,7 @@ K.IJ
 B@R;K:
 B@REK
 W:-
-R:B.@H
+R:B.
 R:B.EH
 >ET
 ZAR:<:A

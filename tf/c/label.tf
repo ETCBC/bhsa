@@ -5,12 +5,12 @@
 @email=shebanq@ancient-data.org
 @encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)
 @valueType=str
-@version=c
+@version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-01-17T17:35:53Z
+@dateWritten=2018-04-13T12:18:59Z
 
-606323	A
+606366	A
 B
 A
 B
@@ -45190,7 +45190,7 @@ A
 B
 A
 B
-1414190	 GEN 01,01
+1414375	 GEN 01,01
  GEN 01,02
  GEN 01,03
  GEN 01,04

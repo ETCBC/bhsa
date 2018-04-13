@@ -1,0 +1,5 @@
+set folder='/home/cody/mail'
+set record='/home/cody/mail/mbox'
+set prompt='Mail> '
+set smtpmailserver='localhost'
+set postmark="Cody Kingham"

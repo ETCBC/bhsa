@@ -51,7 +51,7 @@ import utils
 # See [operation](https://github.com/ETCBC/pipeline/blob/master/README.md#operation) 
 # for how to run this script in the pipeline.
 
-# In[2]:
+# In[11]:
 
 
 if 'SCRIPT' not in locals():
@@ -73,7 +73,7 @@ def stop(good=False):
 # The conversion is executed in an environment of directories, so that sources, temp files and
 # results are in convenient places and do not have to be shifted around.
 
-# In[3]:
+# In[12]:
 
 
 repoBase = os.path.expanduser('~/github/etcbc')
@@ -95,7 +95,7 @@ thisTf = '{}/tf/{}'.format(thisRepo, VERSION)
 # Check whether this conversion is needed in the first place.
 # Only when run as a script.
 
-# In[4]:
+# In[13]:
 
 
 if SCRIPT:
@@ -118,7 +118,7 @@ if SCRIPT:
 # We save the configs we need per source and version.
 # And we define a stripped down default version to start with.
 
-# In[5]:
+# In[14]:
 
 
 slotType = 'word'
@@ -238,7 +238,7 @@ oText = {
 # The next function selects the proper otext material, falling back on a default if nothing 
 # appropriate has been specified in `oText`.
 
-# In[6]:
+# In[15]:
 
 
 thisOtext = oText.get(VERSION, oText[''])
@@ -267,7 +267,7 @@ else:
 # 
 # Check the source, utils.bunzip it if needed, empty the result directory.
 
-# In[7]:
+# In[16]:
 
 
 if not os.path.exists(thisTempSource):
@@ -285,7 +285,7 @@ os.makedirs(thisTempTf)
 # Transform the collected information in feature-like data-structures, and write it all
 # out to `.tf` files.
 
-# In[8]:
+# In[17]:
 
 
 TF = Fabric(locations=thisTempTf, silent=True)

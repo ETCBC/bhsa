@@ -5,12 +5,12 @@
 @email=shebanq@ancient-data.org
 @encoders=Constantijn Sikkel (QDF), and Dirk Roorda (TF)
 @valueType=str
-@version=c
+@version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-01-17T17:40:27Z
+@dateWritten=2018-04-13T12:21:45Z
 
-1437403	בְּ
+1437588	בְּ
 רֵאשִׁית
 ברא
 אֱלֹהִים
