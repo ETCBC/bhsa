@@ -174,13 +174,20 @@ def _outLink(text, href, title=None):
 
 
 class Bhsa(object):
-    def __init__(self, repoBase, repoRel, name, version='c', modules=['']):
+    def __init__(
+        self, repoBase, repoRel, name,
+        version='c', locations=[''], modules=[''],
+    ):
         repoBase = os.path.expanduser(repoBase)
         repo = f'{repoBase}/{repoRel}'
         self.repo = repo
         self.version = version
         self.corpus = f'{repo}/tf/{version}'
-        TF = Fabric(locations=[self.corpus], modules=modules, silent=True)
+        TF = Fabric(
+            locations=[self.corpus] + list(locations),
+            modules=[''] + list(modules),
+            silent=True,
+        )
         api = TF.load('', silent=True)
         TF.load(
             '''
