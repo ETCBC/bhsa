@@ -3,7 +3,7 @@
 #	lexicon: all lexemes in biblical Hebrew                    #
 #                                                                  #
 ####################################################################
-#ident "@(#)lexicon	1.116 17/07/17"
+#ident "@(#)lexicon	1.121 18/01/08"
 # The spelling of proper names is that of the RSV
 ">B/"		sp=subs:gn=m:rt=>BH:vc=>@B:gl=father
 ">B=/"		sp=subs:gn=m:rt=>BB?:vc=>;B:gl=bud
@@ -1462,8 +1462,7 @@
 "GJLNJ/"	sp=adjv:ls=gntl:vc=G.IJLONIJ:gl=Gilonite
 "GJNT/"		sp=nmpr:sm=pers:gn=m:vc=G.IJNAT:gl=Ginath
 "GJCN/"		sp=nmpr:sm=pers:gn=m:vc=G.;JC@N:gl=Geshan
-"GL/"		sp=subs:gn=m:rt=GLL:vc=G.AL:gl=wave
-"GL=/"		sp=subs:gn=m:rt=GLL:vc=G.AL:gl=heap
+"GL/"		sp=subs:gn=m:rt=GLL:vc=G.AL:gl=wave, heap
 "GL==/"		sp=subs:gn=m:rt=GLL:vc=G.;L:gl=dung-cake
 "GLB/"		sp=subs:vc=G.AL.@B:gl=barber
 "GLB</"		sp=nmpr:sm=topo:vc=G.IL\:B.O<A:gl=Gilboa
@@ -1798,7 +1797,7 @@
 "DTN/"		sp=nmpr:sm=topo:vc=D.OT@N:gl=Dothan
 "DTN=/"		sp=nmpr:sm=pers:gn=m:vc=D.@T@N:gl=Dathan
 "H"		sp=art:vc=HA:gl=the
-"H="		sp=inrg:ls=focp:vc=H\:A:gl=<interrogative>
+"H="		sp=inrg:ls=ques:vc=H\:A:gl=<interrogative>
 "H>"		sp=intj:vc=H;>:gl=behold
 "H>X"		sp=intj:vc=HE>@X:gl=aha
 "HBHBJ/"	sp=subs:vc=HAB\:H@BAJ:gl=<uncertain>
@@ -2314,7 +2313,6 @@
 "XVP["		sp=verb:fc=1g:gl=seize
 "XVR/"		sp=subs:fc=seg:gn=m:vc=XOVER:gl=shoot
 "XJ/"		sp=adjv:rt=XJH:vc=XAJ:gl=alive
-"XJ=/"		sp=subs:rt=XJH:vc=XAJ:gl=family
 "XJ>L/"		sp=nmpr:sm=pers:gn=m:vc=XIJ>;L:gl=Hiel
 "XJDH/"		sp=subs:vc=XIJD@H:gl=riddle
 "XJH["		sp=verb:vc=X@J@H:gl=be alive
@@ -3726,7 +3724,7 @@
 "LBNWN/"	sp=nmpr:sm=topo:vc=L\:B@NOWN:gl=Lebanon
 "LBNJ/"		sp=adjv:ls=gntl:vc=LIB\:NIJ:gl=Libnite
 "LBNJ=/"	sp=nmpr:sm=pers:gn=m:vc=LIB\:NIJ:gl=Libni
-"LBC["		sp=verb:vc=L@BAC:gl=cloth
+"LBC["		sp=verb:vc=L@BAC:gl=clothe
 "LG/"		sp=subs:gn=m:vc=LOG:gl=log
 "LD/"		sp=nmpr:sm=topo:vc=LOD:gl=Lod
 "LDBR/"		sp=nmpr:sm=topo:vc=LID\:BIR:gl=Debir
@@ -3868,8 +3866,8 @@
 "M>MY/"		sp=subs:vc=MA>\:AM@Y:gl=effort
 "M>MR/"		sp=subs:gn=m:vc=MA>\:AM@R:gl=word
 "M>N["		sp=verb:vc=M@>;N:gl=refuse
-"M>S["		sp=verb:fc=2>:vc=M@>AS:gl=retract
-"M>S=["		sp=verb:fc=2>:gl=dissolve
+"M>S["		sp=verb:vc=M@>AS:gl=reject
+"M>S=["		sp=verb:vc=M@>AS:gl=waste away
 "M>PH/"		sp=subs:gn=m:vc=MA>\:APEH:gl=cake
 "M>PL/"		sp=subs:gn=m:vc=MA>\:AP;L:gl=darkness
 "M>PLJH/"	sp=subs:vc=MA>\:P.;L\:J@H:gl=<uncertain>
@@ -3991,7 +3989,7 @@
 "MHPKH/"	sp=subs:vc=MAH\:P.;K@H:gl=overthrow
 "MHPKT/"	sp=subs:fc=seg:vc=MAH\:P.EKET:gl=stock
 "MHR["		sp=verb:vc=M@HAR:gl=hasten
-"MHR/"		sp=subs:gn=m:vc=MOHAR:gl=marriage-money
+"MHR/"		sp=subs:gn=m:vc=MOHAR:gl=bride price
 "MHR=["		sp=verb:gl=obtain
 "MHR_CLL_XC_BZ/"	sp=nmpr:sm=pers:gn=m:vc=MAH;R_C@L@L_X@C_B.AZ:gl=Maher-Shalal-Hash-Baz
 "MHRH/"		sp=subs:ls=padv:rt=MHR:vc=M\:H;R@H:gl=haste
@@ -5211,7 +5209,7 @@
 "NYR/"		sp=subs:fc=seg:gn=m:vc=N;YER:gl=shoot
 "NQB["		sp=verb:vc=N@QAB:gl=bore
 "NQB/"		sp=subs:rt=NQB:vc=NEQEB:gl=passage
-"NQBH/"		sp=adjv:rt=NQB:vc=N\:Q;B@H:gl=female
+"NQBH/"		sp=subs:rt=NQB:vc=N\:Q;B@H:gl=female
 "NQD/"		sp=subs:fc=ptca:gn=m:vc=NOQ;D:gl=sheep-raiser
 "NQD=/"		sp=adjv:rt=NQD:vc=N@QOD:gl=speckled
 "NQDH/"		sp=subs:vc=N\:QUD.@H:gl=glass-bead

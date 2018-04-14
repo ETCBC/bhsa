@@ -5,10 +5,10 @@
 @email=shebanq@ancient-data.org
 @encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)
 @valueType=str
-@version=c
+@version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-01-17T17:35:29Z
+@dateWritten=2018-04-13T12:18:44Z
 
 426585	Genesis
 Exodus
@@ -978,7 +978,7 @@ Chronica_II
 Chronica_II
 Chronica_II
 Chronica_II
-1414190	Genesis
+1414375	Genesis
 Genesis
 Genesis
 Genesis

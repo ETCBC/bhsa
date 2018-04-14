@@ -5,10 +5,10 @@
 @email=shebanq@ancient-data.org
 @encoders=Constantijn Sikkel (QDF), and Dirk Roorda (TF)
 @valueType=str
-@version=c
+@version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-01-17T17:40:26Z
+@dateWritten=2018-04-13T12:21:45Z
 
 prep
 subs
@@ -558,7 +558,7 @@ verb
 prep
 adjv
 conj
-adjv
+subs
 verb
 prep
 conj
@@ -2145,7 +2145,7 @@ verb
 prep
 adjv
 conj
-adjv
+subs
 verb
 conj
 verb
@@ -2990,7 +2990,7 @@ verb
 prep
 adjv
 conj
-adjv
+subs
 verb
 prep
 art
@@ -3105,7 +3105,7 @@ subs
 subs
 adjv
 conj
-adjv
+subs
 prep
 verb
 subs
@@ -3216,7 +3216,7 @@ art
 subs
 adjv
 conj
-adjv
+subs
 prep
 conj
 verb
@@ -3367,7 +3367,7 @@ art
 verb
 adjv
 conj
-adjv
+subs
 prep
 subs
 subs
@@ -53181,7 +53181,7 @@ verb
 conj
 adjv
 conj
-adjv
+subs
 adjv
 verb
 prep
@@ -53299,7 +53299,7 @@ prep
 nmpr
 adjv
 conj
-adjv
+subs
 adjv
 verb
 conj
@@ -54127,8 +54127,8 @@ verb
 subs
 subs
 subs
-adjv
 adjv
+subs
 prep
 subs
 conj
@@ -54214,7 +54214,7 @@ verb
 subs
 prep
 subs
-adjv
+subs
 adjv
 verb
 conj
@@ -54428,7 +54428,7 @@ prep
 subs
 conj
 verb
-adjv
+subs
 prep
 art
 subs
@@ -58779,7 +58779,7 @@ subs
 subs
 conj
 conj
-adjv
+subs
 verb
 conj
 verb
@@ -58849,7 +58849,7 @@ adjv
 conj
 prep
 art
-adjv
+subs
 conj
 conj
 nega
@@ -62178,7 +62178,7 @@ adjv
 conj
 prep
 art
-adjv
+subs
 conj
 prep
 subs
@@ -69024,7 +69024,7 @@ art
 subs
 conj
 conj
-adjv
+subs
 prps
 conj
 verb
@@ -69052,9 +69052,9 @@ subs
 conj
 prep
 art
-adjv
 subs
 subs
+subs
 conj
 conj
 prep
@@ -69076,7 +69076,7 @@ subs
 conj
 prep
 art
-adjv
+subs
 subs
 subs
 subs
@@ -69100,9 +69100,9 @@ subs
 conj
 prep
 art
-adjv
 subs
 subs
+subs
 conj
 conj
 verb
@@ -72762,7 +72762,7 @@ subs
 prep
 adjv
 prep
-adjv
+subs
 verb
 prep
 prep
@@ -89173,7 +89173,7 @@ nmpr
 inrg
 verb
 subs
-adjv
+subs
 intj
 prps
 verb
@@ -95541,10 +95541,10 @@ subs
 subs
 adjv
 conj
-adjv
 subs
 subs
 subs
+subs
 conj
 prep
 art
@@ -251068,7 +251068,7 @@ adjv
 prep
 art
 subs
-adjv
+subs
 verb
 subs
 advb
@@ -426594,7 +426594,7 @@ subs
 prep
 conj
 verb
-1437403	prep
+1437588	prep
 subs
 verb
 subs
@@ -426690,7 +426690,7 @@ subs
 verb
 subs
 adjv
-adjv
+subs
 verb
 intj
 subs

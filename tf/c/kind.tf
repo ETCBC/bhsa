@@ -5,10 +5,10 @@
 @email=shebanq@ancient-data.org
 @encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)
 @valueType=str
-@version=c
+@version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-01-17T17:35:51Z
+@dateWritten=2018-04-13T12:18:58Z
 
 427553	VC
 VC
@@ -4099,7 +4099,6 @@ NC
 VC
 NC
 VC
-VC
 NC
 VC
 VC
@@ -5973,7 +5972,6 @@ VC
 NC
 VC
 VC
-NC
 NC
 VC
 VC
@@ -8684,10 +8682,11 @@ NC
 VC
 VC
 VC
-NC
+WP
 VC
 VC
 VC
+NC
 NC
 VC
 VC
@@ -12587,9 +12586,9 @@ VC
 VC
 VC
 NC
-WP
+NC
 VC
-WP
+NC
 VC
 NC
 VC
@@ -14192,8 +14191,8 @@ NC
 VC
 NC
 NC
-WP
 NC
+NC
 WP
 VC
 NC
@@ -21084,7 +21083,6 @@ VC
 VC
 VC
 VC
-NC
 VC
 VC
 VC
@@ -22725,31 +22723,40 @@ NC
 NC
 NC
 NC
+WP
 NC
 NC
 NC
 NC
 NC
+WP
 NC
 NC
 NC
+WP
 NC
 NC
+WP
+WP
 NC
 NC
 NC
 NC
 NC
 NC
+WP
 NC
 NC
 NC
 NC
+WP
 NC
 NC
 NC
+WP
 NC
 NC
+WP
 NC
 NC
 NC
@@ -23098,28 +23105,60 @@ WP
 WP
 WP
 WP
+WP
+WP
+NC
+WP
+WP
+WP
+WP
 NC
+NC
 WP
 NC
 VC
 VC
+WP
+WP
 WP
+NC
+WP
+WP
+WP
+WP
+NC
 WP
 WP
+NC
+NC
 WP
 WP
 NC
+WP
+WP
+WP
+WP
 NC
 WP
 WP
 WP
 WP
+NC
 WP
 WP
 WP
 NC
+NC
+WP
+WP
+WP
+WP
 NC
+WP
+WP
+WP
 WP
+NC
 WP
 WP
 WP
@@ -24910,7 +24949,6 @@ VC
 VC
 VC
 NC
-VC
 VC
 VC
 VC
@@ -31231,7 +31269,6 @@ WP
 VC
 VC
 NC
-NC
 VC
 VC
 NC
@@ -32233,6 +32270,7 @@ VC
 VC
 VC
 NC
+WP
 VC
 VC
 VC
@@ -33386,7 +33424,6 @@ NC
 VC
 NC
 WP
-NC
 NC
 VC
 VC
@@ -34219,7 +34256,6 @@ VC
 VC
 VC
 VC
-VC
 NC
 VC
 VC
@@ -34715,7 +34751,6 @@ WP
 WP
 VC
 VC
-NC
 VC
 VC
 WP
@@ -35278,7 +35313,6 @@ VC
 VC
 VC
 WP
-VC
 VC
 VC
 VC
@@ -35580,7 +35614,6 @@ VC
 VC
 VC
 VC
-VC
 NC
 VC
 VC
@@ -38017,7 +38050,6 @@ VC
 VC
 VC
 VC
-VC
 NC
 VC
 VC
@@ -42946,9 +42978,7 @@ WP
 VC
 VC
 VC
-NC
 VC
-NC
 VC
 VC
 VC
@@ -48646,7 +48676,7 @@ NC
 WP
 WP
 WP
-VC
+WP
 VC
 VC
 VC
@@ -55989,7 +56019,6 @@ VC
 VC
 VC
 VC
-WP
 VC
 VC
 VC
@@ -59258,7 +59287,7 @@ VC
 VC
 VC
 WP
-NC
+WP
 VC
 VC
 VC
@@ -60629,7 +60658,6 @@ NC
 VC
 WP
 VC
-WP
 VC
 VC
 VC
@@ -63640,6 +63668,8 @@ VC
 VC
 WP
 NC
+VC
+VC
 NC
 WP
 VC
@@ -63656,7 +63686,6 @@ VC
 WP
 VC
 NC
-WP
 WP
 NC
 WP
@@ -65677,7 +65706,6 @@ VC
 VC
 VC
 WP
-NC
 VC
 VC
 VC
@@ -72278,7 +72306,6 @@ VC
 NC
 VC
 VC
-WP
 VC
 VC
 VC
@@ -73632,7 +73659,6 @@ VC
 VC
 VC
 VC
-VC
 NC
 VC
 VC
@@ -73901,7 +73927,6 @@ VC
 VC
 VC
 VC
-VC
 NC
 VC
 NC
@@ -74302,7 +74327,6 @@ NC
 NC
 WP
 VC
-WP
 VC
 VC
 VC
@@ -76523,7 +76547,6 @@ VC
 VC
 NC
 NC
-NC
 VC
 VC
 VC
@@ -77784,7 +77807,6 @@ VC
 VC
 VC
 VC
-VC
 NC
 NC
 VC
@@ -81316,6 +81338,7 @@ VC
 NC
 VC
 NC
+WP
 WP
 VC
 VC
@@ -82209,7 +82232,6 @@ WP
 VC
 VC
 VC
-WP
 VC
 VC
 VC
@@ -85512,7 +85534,7 @@ VC
 VC
 VC
 VC
-VC
+WP
 VC
 VC
 VC

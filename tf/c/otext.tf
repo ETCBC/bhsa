@@ -2,7 +2,7 @@
 @author=Eep Talstra Centre for Bible and Computer
 @dataset=BHSA
 @datasetName=Biblia Hebraica Stuttgartensia Amstelodamensis
-@dateWritten=2018-01-17T17:40:32Z
+@dateWritten=2018-04-13T12:21:48Z
 @email=shebanq@ancient-data.org
 @encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)
 @fmt:lex-orig-full={g_lex_utf8} 
@@ -17,9 +17,9 @@
 @fmt:text-trans-plain={g_cons}{trailer}
 @sectionFeatures=book,chapter,verse
 @sectionTypes=book,chapter,verse
-@version=c
+@version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2018-01-17T17:42:23Z
+@dateWritten=2018-04-13T12:23:09Z
 

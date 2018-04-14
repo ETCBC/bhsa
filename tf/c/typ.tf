@@ -5,10 +5,10 @@
 @email=shebanq@ancient-data.org
 @encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)
 @valueType=str
-@version=c
+@version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-01-17T17:36:14Z
+@dateWritten=2018-04-13T12:19:14Z
 
 427553	xQtX
 WXQt
@@ -2650,7 +2650,7 @@ xYq0
 xQt0
 WxQ0
 Way0
-AjCl
+NmCl
 Way0
 Way0
 Way0
@@ -4099,7 +4099,6 @@ NmCl
 WayX
 NmCl
 XQtl
-Ptcp
 NmCl
 WayX
 WXQt
@@ -5973,7 +5972,6 @@ Way0
 NmCl
 WayX
 xYq0
-NmCl
 NmCl
 WXQt
 XQtl
@@ -8684,10 +8682,11 @@ NmCl
 WQt0
 xYq0
 WIm0
-NmCl
+Ellp
 xYq0
 WQtX
 Ptcp
+NmCl
 NmCl
 xYqX
 WQt0
@@ -10437,8 +10436,8 @@ WQtX
 NmCl
 NmCl
 Ptcp
-AjCl
-AjCl
+NmCl
+NmCl
 xYq0
 WQt0
 WQt0
@@ -12535,7 +12534,7 @@ CPen
 AjCl
 xQt0
 xYq0
-xYqX
+xYq0
 InfC
 xYq0
 WxY0
@@ -12587,9 +12586,9 @@ xYqX
 InfC
 XYqt
 NmCl
-Ellp
+NmCl
 xYqX
-Ellp
+NmCl
 XYqt
 NmCl
 InfC
@@ -13294,7 +13293,7 @@ xYq0
 NmCl
 WQtX
 WQtX
-AjCl
+NmCl
 WQtX
 NmCl
 WQtX
@@ -13303,7 +13302,7 @@ NmCl
 WQtX
 Ellp
 NmCl
-AjCl
+NmCl
 WQtX
 NmCl
 WxQX
@@ -14192,7 +14191,7 @@ NmCl
 InfC
 NmCl
 NmCl
-Ellp
+NmCl
 NmCl
 Ellp
 Ptcp
@@ -21084,8 +21083,7 @@ WxY0
 ZIm0
 xYq0
 xQt0
-NmCl
-ZYq0
+XYqt
 Ptcp
 WxQ0
 WxQ0
@@ -22725,31 +22723,40 @@ NmCl
 NmCl
 NmCl
 NmCl
+Ellp
+NmCl
+NmCl
+NmCl
+NmCl
+NmCl
+Ellp
+NmCl
+NmCl
+NmCl
+Ellp
+NmCl
+NmCl
+Ellp
+Ellp
 NmCl
 NmCl
 NmCl
 NmCl
 NmCl
 NmCl
+Ellp
 NmCl
 NmCl
 NmCl
 NmCl
+Ellp
 NmCl
 NmCl
 NmCl
+Ellp
 NmCl
 NmCl
-NmCl
-NmCl
-NmCl
-NmCl
-NmCl
-NmCl
-NmCl
-NmCl
-NmCl
-NmCl
+Ellp
 NmCl
 NmCl
 NmCl
@@ -23098,6 +23105,14 @@ Ellp
 Ellp
 Ellp
 Ellp
+Ellp
+Ellp
+NmCl
+Ellp
+Ellp
+Ellp
+Ellp
+NmCl
 NmCl
 CPen
 NmCl
@@ -23106,6 +23121,30 @@ Way0
 Ellp
 Ellp
 Ellp
+NmCl
+Ellp
+Ellp
+Ellp
+Ellp
+NmCl
+Ellp
+Ellp
+NmCl
+NmCl
+Ellp
+Ellp
+NmCl
+Ellp
+Ellp
+Ellp
+Ellp
+NmCl
+Ellp
+Ellp
+Ellp
+Ellp
+NmCl
+Ellp
 Ellp
 Ellp
 NmCl
@@ -23114,12 +23153,12 @@ Ellp
 Ellp
 Ellp
 Ellp
+NmCl
+Ellp
 Ellp
 Ellp
 Ellp
 NmCl
-NmCl
-Ellp
 Ellp
 Ellp
 Ellp
@@ -24941,7 +24980,6 @@ WQtX
 XYqt
 WayX
 XYqt
-Ptcp
 NmCl
 xYq0
 WayX
@@ -31231,7 +31269,6 @@ Ellp
 WXQt
 WayX
 NmCl
-NmCl
 xQt0
 WYq0
 NmCl
@@ -32233,6 +32270,7 @@ Ptcp
 Ptcp
 WXQt
 NmCl
+Ellp
 WQt0
 WXQt
 InfC
@@ -33387,7 +33425,6 @@ WXQt
 NmCl
 CPen
 NmCl
-NmCl
 Way0
 WxQ0
 CPen
@@ -34216,7 +34253,6 @@ Ptcp
 Ptcp
 AjCl
 WXQt
-Ptcp
 Ptcp
 Ptcp
 WayX
@@ -34715,7 +34751,6 @@ MSyn
 Voct
 ZYqX
 xQt0
-NmCl
 xYqX
 XYqt
 Ellp
@@ -35287,7 +35322,6 @@ WIm0
 WayX
 WayX
 xQt0
-Ptcp
 InfC
 InfC
 Ptcp
@@ -35568,7 +35602,6 @@ Way0
 WayX
 Way0
 WayX
-Ptcp
 Ptcp
 Ptcp
 Ptcp
@@ -35989,8 +36022,8 @@ WayX
 WayX
 AjCl
 NmCl
-WayX
-xQt0
+Way0
+xQtX
 InfC
 Way0
 Way0
@@ -38015,7 +38048,6 @@ ZIm0
 Way0
 Way0
 WXQt
-Ptcp
 Way0
 InfC
 NmCl
@@ -42946,9 +42978,7 @@ Voct
 xYq0
 xQtX
 WQtX
-NmCl
 WXYq
-NmCl
 WQt0
 WXYq
 WXYq
@@ -46408,7 +46438,7 @@ ZQt0
 Way0
 XQtl
 XYqt
-xYq0
+xYqX
 InfC
 Ptcp
 MSyn
@@ -48646,7 +48676,7 @@ NmCl
 Voct
 Voct
 MSyn
-Ptcp
+Voct
 XYqt
 WXYq
 WQt0
@@ -55989,7 +56019,6 @@ WIm0
 xYq0
 XQtl
 ZIm0
-Ellp
 ZYqX
 ZQt0
 ZQtX
@@ -59258,7 +59287,7 @@ Ptcp
 ZIm0
 WIm0
 MSyn
-NmCl
+CPen
 InfC
 WQt0
 WQtX
@@ -60629,7 +60658,6 @@ NmCl
 xQtX
 Ellp
 Ptcp
-Ellp
 Ptcp
 Ptcp
 Way0
@@ -63640,6 +63668,8 @@ WxQ0
 XYqt
 Ellp
 NmCl
+Ptcp
+Ptcp
 NmCl
 MSyn
 ZIm0
@@ -63656,7 +63686,6 @@ WIm0
 Voct
 WYqX
 NmCl
-Ellp
 CPen
 NmCl
 MSyn
@@ -65677,7 +65706,6 @@ ZYq0
 ZYq0
 xYq0
 Voct
-NmCl
 Ptcp
 Ptcp
 Ptcp
@@ -72278,7 +72306,6 @@ WXYq
 NmCl
 InfC
 xQt0
-XPos
 ZQt0
 xYq0
 xYq0
@@ -73631,7 +73658,6 @@ Ptcp
 WXYq
 Ptcp
 Ptcp
-Ptcp
 xYqX
 NmCl
 XYqt
@@ -73897,7 +73923,6 @@ XYqt
 NmCl
 NmCl
 WXYq
-Ptcp
 XYqt
 WXYq
 XYqt
@@ -74302,7 +74327,6 @@ AjCl
 AjCl
 CPen
 Ptcp
-CPen
 Ptcp
 XQtl
 xYq0
@@ -76521,7 +76545,6 @@ NmCl
 NmCl
 InfA
 xQt0
-NmCl
 AjCl
 AjCl
 xQt0
@@ -77769,7 +77792,6 @@ Way0
 Ellp
 Ellp
 InfC
-Ptcp
 Ptcp
 xQt0
 InfC
@@ -81316,6 +81338,7 @@ InfA
 AjCl
 Ptcp
 AjCl
+Ellp
 CPen
 xYq0
 xYq0
@@ -82209,8 +82232,7 @@ Ellp
 Ptcp
 Way0
 InfC
-Ellp
-ZQt0
+WXQt
 Ptcp
 Ptcp
 Ellp
@@ -85512,7 +85534,7 @@ Ptcp
 ZYqX
 xQt0
 InfC
-InfC
+CPen
 InfC
 Way0
 InfC
@@ -85976,7 +85998,7 @@ Ellp
 Ellp
 XQtl
 WXIm
-WxY0
+WxYX
 NmCl
 WxQ0
 InfC
@@ -86727,7 +86749,7 @@ WayX
 Way0
 WxQ0
 WxQ0
-Way0
+WayX
 xQtX
 InfC
 NmCl
@@ -90847,7 +90869,7 @@ xYq0
 xQt0
 WxQ0
 Way0
-AjCl
+NmCl
 Way0
 Way0
 Way0
@@ -92319,7 +92341,6 @@ NmCl
 WayX
 NmCl
 XQtl
-Ptcp
 NmCl
 Defc
 WayX
@@ -94223,7 +94244,6 @@ Way0
 NmCl
 WayX
 xYq0
-NmCl
 NmCl
 WXQt
 XQtl
@@ -97000,10 +97020,11 @@ NmCl
 WQt0
 xYq0
 WIm0
-NmCl
+Ellp
 xYq0
 WQtX
 Ptcp
+NmCl
 NmCl
 xYqX
 WQt0
@@ -98818,8 +98839,8 @@ WQtX
 NmCl
 NmCl
 Ptcp
-AjCl
-AjCl
+NmCl
+NmCl
 xYq0
 WQt0
 WQt0
@@ -101043,7 +101064,7 @@ CPen
 AjCl
 xQt0
 xYq0
-xYqX
+xYq0
 InfC
 xYq0
 WxY0
@@ -101098,9 +101119,9 @@ InfC
 Defc
 NmCl
 xYq0
-Ellp
+NmCl
 xYqX
-Ellp
+NmCl
 Defc
 NmCl
 xYq0
@@ -101830,7 +101851,7 @@ xYq0
 NmCl
 WQtX
 WQtX
-AjCl
+NmCl
 WQtX
 NmCl
 WQtX
@@ -101839,7 +101860,7 @@ NmCl
 WQtX
 Ellp
 NmCl
-AjCl
+NmCl
 WQtX
 NmCl
 WxQX
@@ -102785,7 +102806,7 @@ NmCl
 InfC
 NmCl
 NmCl
-Ellp
+NmCl
 NmCl
 Ellp
 Ptcp
@@ -109935,8 +109956,7 @@ WxY0
 ZIm0
 xYq0
 xQt0
-NmCl
-ZYq0
+XYqt
 Ptcp
 WxQ0
 WxQ0
@@ -111638,32 +111658,41 @@ NmCl
 NmCl
 NmCl
 NmCl
+Ellp
+NmCl
+NmCl
+NmCl
+NmCl
+NmCl
+Ellp
+NmCl
+NmCl
+NmCl
+Ellp
+NmCl
+NmCl
+Ellp
+Ellp
 NmCl
 NmCl
 NmCl
 NmCl
 NmCl
 NmCl
-NmCl
-NmCl
-NmCl
-NmCl
-NmCl
-NmCl
-NmCl
-NmCl
-NmCl
-NmCl
-NmCl
-NmCl
+Ellp
 NmCl
 Defc
 NmCl
 NmCl
 NmCl
+Ellp
 NmCl
 NmCl
 NmCl
+Ellp
+NmCl
+NmCl
+Ellp
 NmCl
 Defc
 NmCl
@@ -112020,6 +112049,14 @@ Ellp
 Ellp
 Ellp
 Ellp
+Ellp
+Ellp
+NmCl
+Ellp
+Ellp
+Ellp
+Ellp
+NmCl
 NmCl
 CPen
 NmCl
@@ -112028,6 +112065,30 @@ Way0
 Ellp
 Ellp
 Ellp
+NmCl
+Ellp
+Ellp
+Ellp
+Ellp
+NmCl
+Ellp
+Ellp
+NmCl
+NmCl
+Ellp
+Ellp
+NmCl
+Ellp
+Ellp
+Ellp
+Ellp
+NmCl
+Ellp
+Ellp
+Ellp
+Ellp
+NmCl
+Ellp
 Ellp
 Ellp
 NmCl
@@ -112036,12 +112097,12 @@ Ellp
 Ellp
 Ellp
 Ellp
+NmCl
+Ellp
 Ellp
 Ellp
 Ellp
 NmCl
-NmCl
-Ellp
 Ellp
 Ellp
 Ellp
@@ -113901,7 +113962,6 @@ WQtX
 XYqt
 WayX
 XYqt
-Ptcp
 NmCl
 xYq0
 WayX
@@ -120314,7 +120374,6 @@ Ellp
 WXQt
 WayX
 NmCl
-NmCl
 xQt0
 WYq0
 NmCl
@@ -121333,6 +121392,7 @@ Ptcp
 Defc
 NmCl
 ZQt0
+Ellp
 WQt0
 WXQt
 InfC
@@ -122511,7 +122571,6 @@ WXQt
 NmCl
 CPen
 NmCl
-NmCl
 Way0
 WxQ0
 CPen
@@ -123359,7 +123418,6 @@ Ptcp
 Ptcp
 AjCl
 WXQt
-Ptcp
 Ptcp
 Ptcp
 WayX
@@ -123882,7 +123940,6 @@ MSyn
 Voct
 ZYqX
 xQt0
-NmCl
 xYqX
 XYqt
 Ellp
@@ -124476,7 +124533,6 @@ WIm0
 WayX
 WayX
 xQt0
-Ptcp
 InfC
 InfC
 Ptcp
@@ -124759,7 +124815,6 @@ Way0
 WayX
 Way0
 WayX
-Ptcp
 Ptcp
 Ptcp
 Ptcp
@@ -127251,7 +127306,6 @@ ZIm0
 Way0
 Way0
 WXQt
-Ptcp
 Way0
 InfC
 NmCl
@@ -132329,10 +132383,7 @@ Voct
 xYq0
 xQtX
 WQtX
-NmCl
-Defc
-NmCl
-ZYq0
+WXYq
 WQt0
 WXYq
 WXYq
@@ -138166,7 +138217,7 @@ NmCl
 Voct
 Voct
 MSyn
-Ptcp
+Voct
 XYqt
 WXYq
 WQt0
@@ -145734,7 +145785,6 @@ WIm0
 xYq0
 XQtl
 ZIm0
-Ellp
 ZYqX
 ZQt0
 ZQtX
@@ -149081,7 +149131,7 @@ Ptcp
 ZIm0
 WIm0
 MSyn
-NmCl
+CPen
 InfC
 WQt0
 WQtX
@@ -150480,7 +150530,6 @@ NmCl
 xQtX
 Ellp
 Ptcp
-Ellp
 Ptcp
 Ptcp
 Way0
@@ -153551,6 +153600,8 @@ WxQ0
 ZYq0
 Ellp
 NmCl
+Ptcp
+Ptcp
 NmCl
 MSyn
 ZIm0
@@ -153569,7 +153620,6 @@ WIm0
 Voct
 WYqX
 NmCl
-Ellp
 CPen
 NmCl
 MSyn
@@ -155637,7 +155687,6 @@ ZYq0
 ZYq0
 xYq0
 Voct
-NmCl
 Ptcp
 Ptcp
 Ptcp
@@ -162373,8 +162422,6 @@ WYq0
 WXYq
 NmCl
 InfC
-Defc
-XPos
 xQt0
 ZQt0
 xYq0
@@ -163757,7 +163804,6 @@ Ptcp
 WXYq
 Ptcp
 Ptcp
-Ptcp
 xYqX
 NmCl
 XYqt
@@ -164037,7 +164083,6 @@ XYqt
 NmCl
 NmCl
 WXYq
-Ptcp
 XYqt
 WXYq
 XYqt
@@ -164465,7 +164510,7 @@ AjCl
 AjCl
 CPen
 Ptcp
-CPen
+Defc
 Ptcp
 XQtl
 xYq0
@@ -166748,7 +166793,7 @@ NmCl
 NmCl
 InfA
 xQt0
-NmCl
+Defc
 AjCl
 AjCl
 xQt0
@@ -168030,7 +168075,6 @@ Ellp
 Ellp
 InfC
 Ptcp
-Ptcp
 Defc
 InfC
 ZQt0
@@ -168587,7 +168631,6 @@ InfC
 InfC
 XQtl
 AjCl
-Defc
 WXQt
 WXQt
 WXQt
@@ -171758,6 +171801,7 @@ InfA
 AjCl
 Ptcp
 AjCl
+Ellp
 CPen
 xYq0
 xYq0
@@ -172691,8 +172735,7 @@ Ellp
 Ptcp
 Way0
 InfC
-Ellp
-ZQt0
+WXQt
 Ptcp
 Ptcp
 Ellp
@@ -176087,7 +176130,7 @@ Ptcp
 ZYqX
 xQt0
 InfC
-InfC
+CPen
 InfC
 Way0
 InfC
@@ -176563,7 +176606,7 @@ Ellp
 Ellp
 XQtl
 WXIm
-WxY0
+WxYX
 NmCl
 Defc
 InfC
@@ -177339,7 +177382,7 @@ WayX
 Way0
 WxQ0
 WxQ0
-Way0
+WayX
 xQtX
 InfC
 NmCl
@@ -178780,7 +178823,7 @@ NmCl
 NmCl
 NmCl
 WYq0
-651503	PP
+651546	PP
 VP
 NP
 PP
@@ -179084,7 +179127,7 @@ PP
 PP
 VP
 PP
-AdjP
+NP
 VP
 PP
 CP
@@ -180065,7 +180108,7 @@ NP
 PP
 VP
 PP
-AdjP
+NP
 VP
 CP
 VP
@@ -180525,7 +180568,7 @@ VP
 PP
 VP
 PP
-AdjP
+NP
 VP
 PP
 NP
@@ -186838,7 +186881,7 @@ VP
 PP
 PPrP
 AdvP
-AdjP
+NP
 CP
 VP
 PP
@@ -208903,6 +208946,7 @@ CP
 VP
 NP
 NP
+NP
 VP
 PP
 PP
@@ -210358,9 +210402,9 @@ PP
 PPrP
 VP
 CP
-AdjP
+NP
 CP
-AdjP
+NP
 AdjP
 VP
 PP
@@ -210874,7 +210918,7 @@ CP
 NP
 VP
 NP
-AdjP
+NP
 VP
 CP
 VP
@@ -219254,7 +219298,7 @@ NP
 NP
 CP
 CP
-AdjP
+NP
 PPrP
 CP
 VP
@@ -219285,7 +219329,7 @@ CP
 CP
 PP
 CP
-AdjP
+NP
 CP
 VP
 NP
@@ -222424,6 +222468,7 @@ VP
 PP
 NP
 NP
+NP
 VP
 PP
 CP
@@ -247620,6 +247665,7 @@ PrNP
 PrNP
 CP
 PrNP
+NP
 PrNP
 CP
 PrNP
@@ -247634,6 +247680,7 @@ CP
 PrNP
 CP
 PrNP
+NP
 PrNP
 PP
 NP
@@ -247661,20 +247708,25 @@ CP
 PrNP
 PPrP
 PrNP
+NP
 PrNP
 CP
 PrNP
 PrNP
+NP
 PrNP
 CP
 PrNP
+NP
 PrNP
 PPrP
 PrNP
+NP
 PP
 PrNP
 CP
 PrNP
+NP
 CP
 PP
 NegP
@@ -248784,6 +248836,9 @@ CP
 PP
 VP
 PP
+CP
+PP
+CP
 PP
 CP
 PP
@@ -248792,12 +248847,18 @@ PP
 CP
 PP
 CP
+PP
+CP
+PP
 PP
 NP
 CP
 PP
 PP
 PP
+PP
+CP
+PP
 NP
 NP
 NP
@@ -248813,6 +248874,7 @@ CP
 VP
 PP
 PP
+CP
 PP
 CP
 PP
@@ -248820,6 +248882,8 @@ CP
 PP
 NP
 CP
+PP
+PP
 PP
 PP
 PP
@@ -248827,11 +248891,12 @@ NP
 CP
 PP
 PP
+CP
+PP
 NP
 NP
 PP
 CP
-PP
 PP
 PP
 PP
@@ -248842,15 +248907,21 @@ CP
 PP
 PP
 PP
+PP
+PP
 NP
 CP
+PP
 PP
 PP
 PP
+CP
+PP
 NP
 CP
 PP
 PP
+CP
 PP
 CP
 PP
@@ -248858,6 +248929,8 @@ NP
 NP
 NP
 CP
+PP
+PP
 PP
 PP
 PP
@@ -248866,13 +248939,17 @@ NP
 CP
 PP
 PP
+CP
 PP
-NP
+PP
 CP
 PP
+NP
+CP
 PP
 PP
 CP
+PP
 PP
 PP
 NP
@@ -257004,7 +257081,7 @@ PP
 VP
 PP
 PP
-NP
+AdjP
 CP
 NegP
 VP
@@ -273692,6 +273769,7 @@ InrP
 NegP
 AdvP
 NP
+PP
 CP
 VP
 PP
@@ -284038,7 +284116,6 @@ CP
 VP
 PP
 CP
-InrP
 AdvP
 VP
 NP
@@ -285092,6 +285169,7 @@ NP
 PP
 CP
 VP
+NP
 NP
 NP
 NP
@@ -285100,6 +285178,7 @@ PP
 CP
 NP
 NP
+NP
 VP
 PP
 CP
@@ -297182,8 +297261,10 @@ PP
 VP
 AdvP
 CP
+NegP
 NP
 CP
+NegP
 NP
 CP
 NegP
@@ -307801,11 +307882,7 @@ CP
 VP
 PrNP
 PP
-NegP
-NP
 CP
-NP
-NegP
 NP
 VP
 CP
@@ -323092,7 +323169,6 @@ VP
 PP
 InjP
 PP
-VP
 NP
 NP
 NP
@@ -340812,6 +340888,7 @@ PP
 PP
 VP
 NP
+PP
 CP
 NP
 CP
@@ -344082,8 +344159,6 @@ NP
 VP
 VP
 PP
-CP
-NP
 VP
 PP
 NP
@@ -345854,12 +345929,10 @@ AdvP
 CP
 InjP
 AdjP
-AdvP
 PP
 CP
 InjP
 AdjP
-AdvP
 CP
 VP
 PP
@@ -349223,7 +349296,6 @@ CP
 VP
 NP
 AdjP
-AdvP
 CP
 VP
 AdvP
@@ -352271,7 +352343,6 @@ NP
 PP
 CP
 AdjP
-AdvP
 NP
 CP
 AdjP
@@ -364950,6 +365021,9 @@ CP
 NP
 PP
 DPrP
+NP
+VP
+VP
 NP
 PrNP
 InjP
@@ -369819,8 +369893,6 @@ PP
 NP
 PP
 VP
-NP
-NP
 NP
 VP
 NP
@@ -379859,6 +379931,7 @@ PPrP
 VP
 PP
 PP
+PP
 VP
 PP
 CP
@@ -390521,7 +390594,6 @@ NP
 CP
 NP
 VP
-VP
 NP
 VP
 NP
@@ -392274,8 +392346,6 @@ AdjP
 NP
 NP
 VP
-CP
-NP
 VP
 PrNP
 VP
@@ -418678,7 +418748,6 @@ PP
 CP
 VP
 PP
-InrP
 NP
 VP
 PP
@@ -419057,7 +419126,6 @@ PP
 VP
 PrNP
 NP
-AdvP
 PP
 VP
 PrNP
@@ -423037,7 +423105,6 @@ CP
 VP
 PP
 CP
-InrP
 AdvP
 VP
 NP
@@ -423559,6 +423626,7 @@ PP
 VP
 PP
 PP
+AdjP
 CP
 VP
 PrNP
@@ -428249,6 +428317,7 @@ PP
 CP
 VP
 PrNP
+PP
 CP
 VP
 PP
@@ -430062,7 +430131,6 @@ VP
 CP
 VP
 NP
-NP
 PP
 VP
 NP
@@ -430580,7 +430648,6 @@ VP
 PP
 NP
 NP
-AdvP
 CP
 PPrP
 VP
@@ -431773,7 +431840,6 @@ PP
 CP
 VP
 PP
-PP
 CP
 NP
 CP
@@ -432292,7 +432358,7 @@ PP
 PP
 VP
 PP
-AdjP
+NP
 VP
 PP
 CP
@@ -433298,7 +433364,7 @@ NP
 PP
 VP
 PP
-AdjP
+NP
 VP
 CP
 VP
@@ -433763,7 +433829,7 @@ VP
 PP
 VP
 PP
-AdjP
+NP
 VP
 PP
 PP
@@ -436386,7 +436452,6 @@ PP
 PP
 CP
 NP
-NP
 CP
 NegP
 VP
@@ -437596,6 +437661,7 @@ PP
 NP
 PPrP
 CP
+PPrP
 PPrP
 VP
 NP
@@ -440403,7 +440469,7 @@ VP
 PP
 PPrP
 AdvP
-AdjP
+NP
 CP
 VP
 PP
@@ -463334,6 +463400,7 @@ CP
 VP
 NP
 NP
+NP
 VP
 PP
 PP
@@ -464891,9 +464958,9 @@ PP
 PPrP
 VP
 CP
-AdjP
+NP
 CP
-AdjP
+NP
 AdjP
 VP
 PP
@@ -464953,7 +465020,7 @@ PP
 NP
 PP
 PP
-AdjP
+NP
 AdjP
 VP
 CP
@@ -465397,6 +465464,7 @@ CP
 VP
 NP
 NP
+NP
 PP
 CP
 VP
@@ -465446,7 +465514,7 @@ NP
 VP
 NP
 PP
-AdjP
+NP
 VP
 CP
 VP
@@ -474230,7 +474298,7 @@ NP
 PP
 CP
 CP
-AdjP
+NP
 PPrP
 CP
 VP
@@ -474265,7 +474333,7 @@ PP
 CP
 AdvP
 CP
-AdjP
+NP
 CP
 VP
 NP
@@ -477917,6 +477985,7 @@ VP
 PP
 NP
 NP
+NP
 VP
 PP
 CP
@@ -505184,8 +505253,6 @@ PP
 PP
 PP
 DPrP
-NP
-NP
 NP
 PP
 CP
@@ -506336,7 +506403,13 @@ CP
 PP
 NP
 VP
+PP
+PP
+CP
 PP
+CP
+PP
+CP
 PP
 CP
 PP
@@ -506345,6 +506418,9 @@ PP
 CP
 PP
 CP
+PP
+CP
+PP
 PP
 NP
 PP
@@ -506352,6 +506428,9 @@ CP
 PP
 PP
 PP
+PP
+CP
+PP
 NP
 NP
 NP
@@ -506367,8 +506446,12 @@ PP
 CP
 VP
 PP
+PP
+PP
+CP
 PP
 PP
+CP
 PP
 CP
 PP
@@ -506376,12 +506459,16 @@ CP
 PP
 NP
 CP
+PP
 PP
 PP
 PP
+PP
 NP
 CP
 PP
+PP
+CP
 PP
 NP
 NP
@@ -506402,16 +506489,23 @@ CP
 PP
 PP
 PP
+PP
+PP
 NP
 CP
+PP
 PP
 PP
 PP
+CP
+PP
 NP
 CP
+PP
 PP
 PP
 PP
+CP
 PP
 CP
 PP
@@ -506424,13 +506518,19 @@ NP
 CP
 PP
 NP
+PP
+PP
 PP
 PP
 PP
 NP
+CP
+PP
+PP
 CP
 PP
 PP
+CP
 PP
 NP
 CP
@@ -506443,6 +506543,7 @@ PP
 CP
 PP
 PP
+PP
 NP
 NP
 PP
@@ -514963,7 +515064,7 @@ PP
 VP
 PP
 PP
-NP
+AdjP
 CP
 NegP
 VP
@@ -543518,7 +543619,6 @@ PP
 PrNP
 NP
 CP
-InrP
 AdvP
 VP
 NP
@@ -544661,6 +544761,7 @@ CP
 VP
 NP
 PrNP
+NP
 NP
 NP
 VP
@@ -544668,6 +544769,7 @@ PP
 CP
 NP
 NP
+NP
 VP
 PP
 CP
@@ -557450,8 +557552,10 @@ PP
 VP
 AdvP
 CP
+NegP
 NP
 CP
+NegP
 NP
 CP
 NegP
@@ -568819,12 +568923,8 @@ CP
 VP
 PrNP
 PP
-NegP
-NP
 CP
 NP
-NegP
-NP
 VP
 CP
 VP
@@ -584610,7 +584710,6 @@ VP
 PP
 InjP
 PP
-VP
 NP
 NP
 NP
@@ -606773,8 +606872,6 @@ NP
 VP
 VP
 PP
-CP
-NP
 VP
 PP
 NP
@@ -608580,12 +608677,10 @@ AdvP
 CP
 InjP
 AdjP
-AdvP
 PP
 CP
 InjP
 AdjP
-AdvP
 CP
 VP
 PP
@@ -612187,7 +612282,6 @@ CP
 VP
 NP
 AdjP
-AdvP
 CP
 VP
 AdvP
@@ -615324,7 +615418,6 @@ NP
 PP
 CP
 AdjP
-AdvP
 NP
 CP
 AdjP
@@ -628395,6 +628488,8 @@ NP
 PP
 DPrP
 NP
+VP
+VP
 NP
 PrNP
 InjP
@@ -633367,7 +633462,6 @@ NP
 NP
 PP
 VP
-NP
 NP
 NP
 VP
@@ -654472,7 +654566,6 @@ NP
 CP
 NP
 VP
-VP
 NP
 VP
 NP
@@ -684766,7 +684859,6 @@ PP
 CP
 VP
 PP
-InrP
 NP
 VP
 PP
@@ -685165,7 +685257,6 @@ NP
 VP
 PrNP
 NP
-AdvP
 PP
 VP
 PrNP
@@ -689697,7 +689788,6 @@ VP
 PP
 PP
 CP
-InrP
 AdvP
 VP
 NP
@@ -697363,7 +697453,6 @@ VP
 CP
 VP
 NP
-NP
 PP
 VP
 NP
@@ -697947,7 +698036,6 @@ VP
 PP
 NP
 NP
-AdvP
 CP
 PPrP
 PrNP

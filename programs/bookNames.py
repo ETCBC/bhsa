@@ -1,6 +1,9 @@
 
 # coding: utf-8
 
+# <h1>Table of Contents<span class="tocSkip"></span></h1>
+# <div class="toc" style="margin-top: 1em;"><ul class="toc-item"><li><span><a href="#Discussion" data-toc-modified-id="Discussion-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Discussion</a></span></li></ul></div>
+
 # <img align="right" src="images/dans-small.png"/>
 # <img align="right" src="images/tf-small.png"/>
 # <img align="right" src="images/etcbc.png"/>

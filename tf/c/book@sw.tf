@@ -9,10 +9,10 @@
 @languageEnglish=swahili
 @provenance=book names from wikipedia and other sources
 @valueType=str
-@version=c
+@version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-01-17T17:39:45Z
+@dateWritten=2018-04-13T12:21:18Z
 
 426585	Mwanzo
 Kutoka

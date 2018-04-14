@@ -5,10 +5,10 @@
 @email=shebanq@ancient-data.org
 @encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)
 @valueType=str
-@version=c
+@version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-01-17T17:36:11Z
+@dateWritten=2018-04-13T12:19:12Z
 
 NA
 a
@@ -667,7 +667,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -1582,7 +1582,7 @@ NA
 NA
 NA
 c
-a
+c
 a
 NA
 NA
@@ -1913,7 +1913,7 @@ NA
 a
 NA
 NA
-a
+c
 a
 NA
 NA
@@ -2643,7 +2643,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -2945,7 +2945,7 @@ NA
 c
 NA
 a
-a
+c
 NA
 NA
 NA
@@ -3040,7 +3040,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -3146,7 +3146,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 a
@@ -3200,7 +3200,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 a
 NA
@@ -3491,7 +3491,7 @@ NA
 c
 NA
 a
-a
+c
 NA
 c
 a
@@ -3499,7 +3499,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -3941,7 +3941,7 @@ NA
 c
 NA
 a
-a
+c
 a
 NA
 NA
@@ -4018,7 +4018,7 @@ a
 NA
 a
 NA
-a
+c
 a
 NA
 NA
@@ -4081,7 +4081,7 @@ c
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -4217,7 +4217,7 @@ NA
 a
 NA
 NA
-a
+c
 c
 NA
 a
@@ -5089,7 +5089,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -5872,7 +5872,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -5884,7 +5884,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -6649,7 +6649,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -7498,7 +7498,7 @@ a
 a
 a
 NA
-a
+c
 a
 NA
 NA
@@ -7519,7 +7519,7 @@ c
 a
 NA
 NA
-a
+c
 a
 NA
 a
@@ -7739,7 +7739,7 @@ NA
 c
 c
 a
-a
+c
 a
 NA
 c
@@ -8693,7 +8693,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -9405,7 +9405,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -9590,7 +9590,7 @@ NA
 c
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -9710,7 +9710,7 @@ a
 NA
 NA
 a
-a
+c
 NA
 a
 NA
@@ -10035,7 +10035,7 @@ a
 a
 NA
 NA
-a
+c
 NA
 NA
 a
@@ -11142,7 +11142,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -11832,7 +11832,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -12500,7 +12500,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -14794,7 +14794,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -14951,7 +14951,7 @@ NA
 c
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -16145,7 +16145,7 @@ NA
 a
 NA
 a
-a
+c
 NA
 a
 a
@@ -16195,12 +16195,12 @@ a
 NA
 NA
 a
-a
+c
 NA
 a
 NA
 NA
-a
+c
 a
 NA
 NA
@@ -16600,7 +16600,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 a
 a
@@ -16677,7 +16677,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 a
@@ -16756,7 +16756,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -17221,7 +17221,7 @@ NA
 a
 a
 NA
-a
+c
 NA
 NA
 a
@@ -17833,7 +17833,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 a
 c
@@ -18726,7 +18726,7 @@ NA
 NA
 a
 NA
-a
+c
 a
 NA
 NA
@@ -18860,7 +18860,7 @@ a
 NA
 a
 NA
-a
+c
 a
 NA
 NA
@@ -18932,7 +18932,7 @@ a
 a
 NA
 NA
-a
+c
 a
 NA
 NA
@@ -19004,7 +19004,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -19088,7 +19088,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -21469,7 +21469,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 a
@@ -21507,7 +21507,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 a
 NA
@@ -21526,7 +21526,7 @@ NA
 c
 a
 NA
-a
+c
 NA
 a
 NA
@@ -21539,7 +21539,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -21601,7 +21601,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 a
 NA
@@ -21895,7 +21895,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 a
 NA
@@ -23408,7 +23408,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -23954,7 +23954,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 a
 NA
@@ -25468,7 +25468,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 a
 NA
@@ -25671,7 +25671,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -25689,7 +25689,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -25716,7 +25716,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -26006,7 +26006,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -26524,7 +26524,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -26562,7 +26562,7 @@ a
 NA
 c
 a
-a
+c
 c
 a
 NA
@@ -26582,7 +26582,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -27622,7 +27622,7 @@ NA
 a
 NA
 NA
-a
+c
 a
 NA
 NA
@@ -28534,7 +28534,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 a
 NA
@@ -31773,7 +31773,7 @@ a
 c
 a
 NA
-a
+c
 NA
 NA
 a
@@ -31811,7 +31811,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -33421,7 +33421,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -33578,7 +33578,7 @@ c
 c
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -34095,7 +34095,7 @@ c
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -35010,7 +35010,7 @@ a
 NA
 a
 NA
-a
+c
 a
 a
 NA
@@ -35127,7 +35127,7 @@ NA
 NA
 a
 NA
-a
+c
 a
 a
 NA
@@ -35704,7 +35704,7 @@ NA
 a
 a
 NA
-a
+c
 a
 NA
 NA
@@ -35718,7 +35718,7 @@ c
 NA
 a
 NA
-a
+c
 a
 NA
 NA
@@ -38496,7 +38496,7 @@ a
 c
 a
 NA
-a
+c
 NA
 NA
 a
@@ -38619,7 +38619,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 a
@@ -38756,7 +38756,7 @@ NA
 c
 a
 NA
-a
+c
 NA
 NA
 a
@@ -39001,7 +39001,7 @@ c
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -39214,7 +39214,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 NA
 a
@@ -39323,8 +39323,8 @@ a
 NA
 a
 NA
-a
 a
+c
 NA
 a
 NA
@@ -39843,7 +39843,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 a
@@ -40482,7 +40482,7 @@ NA
 c
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -40903,7 +40903,7 @@ a
 a
 NA
 NA
-a
+c
 a
 NA
 a
@@ -41399,7 +41399,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -41757,7 +41757,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 a
@@ -42326,7 +42326,7 @@ c
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -45317,7 +45317,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -45565,7 +45565,7 @@ a
 NA
 NA
 NA
-a
+c
 a
 a
 NA
@@ -46259,7 +46259,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -46356,7 +46356,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -47440,7 +47440,7 @@ c
 a
 NA
 NA
-a
+c
 a
 a
 NA
@@ -48440,7 +48440,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 NA
 a
@@ -48546,8 +48546,8 @@ a
 c
 a
 NA
-a
 a
+c
 NA
 a
 NA
@@ -48658,7 +48658,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 a
@@ -48845,7 +48845,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 a
@@ -48873,9 +48873,9 @@ NA
 a
 NA
 NA
-a
 a
 c
+c
 a
 NA
 a
@@ -49199,7 +49199,7 @@ c
 NA
 a
 NA
-a
+c
 NA
 NA
 a
@@ -49222,8 +49222,8 @@ NA
 a
 a
 NA
-a
 a
+c
 NA
 NA
 a
@@ -49972,7 +49972,7 @@ a
 NA
 NA
 NA
-a
+c
 a
 a
 NA
@@ -50125,7 +50125,7 @@ a
 NA
 NA
 NA
-a
+c
 a
 a
 NA
@@ -50396,7 +50396,7 @@ a
 NA
 NA
 NA
-a
+c
 a
 a
 NA
@@ -50830,7 +50830,7 @@ c
 a
 NA
 NA
-a
+c
 NA
 NA
 a
@@ -52003,7 +52003,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -52572,7 +52572,7 @@ a
 NA
 NA
 c
-a
+c
 a
 NA
 NA
@@ -53583,7 +53583,7 @@ NA
 a
 NA
 c
-a
+c
 a
 NA
 c
@@ -54386,7 +54386,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -54799,7 +54799,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -54842,7 +54842,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -54898,7 +54898,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -55132,8 +55132,8 @@ NA
 a
 NA
 c
-a
 a
+c
 NA
 NA
 NA
@@ -55416,7 +55416,7 @@ NA
 a
 a
 NA
-a
+c
 a
 NA
 NA
@@ -55472,7 +55472,7 @@ NA
 NA
 a
 NA
-a
+c
 a
 NA
 NA
@@ -55665,7 +55665,7 @@ a
 NA
 NA
 NA
-a
+c
 a
 NA
 NA
@@ -55675,8 +55675,8 @@ a
 NA
 NA
 NA
-a
 a
+c
 a
 NA
 a
@@ -55709,7 +55709,7 @@ a
 NA
 NA
 NA
-a
+c
 a
 NA
 c
@@ -55778,7 +55778,7 @@ a
 NA
 NA
 NA
-a
+c
 a
 a
 NA
@@ -56093,7 +56093,7 @@ a
 NA
 NA
 c
-a
+c
 a
 NA
 NA
@@ -56109,7 +56109,7 @@ NA
 a
 NA
 c
-a
+c
 a
 NA
 NA
@@ -56234,7 +56234,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -56818,7 +56818,7 @@ NA
 NA
 NA
 c
-a
+c
 a
 NA
 NA
@@ -57549,7 +57549,7 @@ a
 NA
 NA
 c
-a
+c
 a
 NA
 NA
@@ -57882,8 +57882,8 @@ a
 NA
 NA
 NA
-a
 a
+c
 a
 a
 NA
@@ -57991,12 +57991,12 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
-a
 a
+c
 NA
 NA
 a
@@ -58015,7 +58015,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 c
 NA
@@ -58059,7 +58059,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 c
 NA
@@ -58248,7 +58248,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 a
 NA
@@ -58258,7 +58258,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 a
 NA
@@ -58289,13 +58289,13 @@ a
 a
 NA
 NA
-a
+c
 NA
 a
 NA
 NA
 NA
-a
+c
 a
 NA
 a
@@ -58310,7 +58310,7 @@ a
 a
 NA
 NA
-a
+c
 NA
 a
 NA
@@ -58380,7 +58380,7 @@ NA
 c
 NA
 a
-a
+c
 NA
 a
 NA
@@ -58435,7 +58435,7 @@ NA
 NA
 NA
 a
-a
+c
 NA
 NA
 a
@@ -58464,7 +58464,7 @@ c
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -58577,17 +58577,17 @@ a
 NA
 NA
 NA
-a
+c
 a
 NA
 a
 NA
-a
+c
 a
 NA
 a
 NA
-a
+c
 c
 a
 NA
@@ -58821,7 +58821,7 @@ NA
 a
 NA
 c
-a
+c
 a
 NA
 NA
@@ -59975,7 +59975,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -60777,7 +60777,7 @@ NA
 a
 NA
 c
-a
+c
 a
 NA
 c
@@ -61055,7 +61055,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -61700,7 +61700,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -61789,7 +61789,7 @@ c
 a
 NA
 c
-a
+c
 a
 NA
 NA
@@ -61901,7 +61901,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -61909,13 +61909,13 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
 NA
 NA
-a
+c
 NA
 a
 NA
@@ -62104,7 +62104,7 @@ NA
 a
 NA
 c
-a
+c
 a
 NA
 NA
@@ -63072,7 +63072,7 @@ a
 NA
 NA
 c
-a
+c
 a
 NA
 NA
@@ -63123,7 +63123,7 @@ NA
 a
 NA
 c
-a
+c
 a
 NA
 NA
@@ -63201,7 +63201,7 @@ a
 NA
 NA
 c
-a
+c
 a
 NA
 NA
@@ -63792,7 +63792,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -64520,7 +64520,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 a
 a
@@ -65546,7 +65546,7 @@ NA
 a
 a
 NA
-a
+c
 a
 NA
 NA
@@ -65614,7 +65614,7 @@ c
 a
 NA
 NA
-a
+c
 a
 NA
 NA
@@ -65725,7 +65725,7 @@ NA
 NA
 NA
 a
-a
+c
 NA
 NA
 a
@@ -69139,7 +69139,7 @@ NA
 a
 NA
 a
-a
+c
 NA
 NA
 NA
@@ -69572,7 +69572,7 @@ c
 a
 NA
 a
-a
+c
 NA
 NA
 c
@@ -69665,7 +69665,7 @@ a
 NA
 c
 a
-a
+c
 a
 NA
 a
@@ -69856,7 +69856,7 @@ c
 a
 NA
 a
-a
+c
 a
 NA
 c
@@ -69893,7 +69893,7 @@ c
 a
 NA
 a
-a
+c
 a
 NA
 c
@@ -70340,7 +70340,7 @@ c
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -70429,7 +70429,7 @@ NA
 c
 a
 NA
-a
+c
 NA
 NA
 a
@@ -70902,7 +70902,7 @@ NA
 c
 a
 NA
-a
+c
 NA
 NA
 a
@@ -71165,7 +71165,7 @@ c
 a
 NA
 a
-a
+c
 a
 NA
 c
@@ -71348,7 +71348,7 @@ NA
 a
 NA
 c
-a
+c
 a
 NA
 c
@@ -71442,7 +71442,7 @@ NA
 a
 NA
 c
-a
+c
 a
 NA
 c
@@ -71546,7 +71546,7 @@ c
 a
 NA
 a
-a
+c
 a
 NA
 c
@@ -71816,7 +71816,7 @@ NA
 c
 a
 a
-a
+c
 a
 NA
 NA
@@ -72136,7 +72136,7 @@ c
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -72237,7 +72237,7 @@ a
 a
 NA
 NA
-a
+c
 NA
 a
 NA
@@ -72316,7 +72316,7 @@ c
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -72387,7 +72387,7 @@ c
 a
 a
 NA
-a
+c
 NA
 a
 NA
@@ -72492,7 +72492,7 @@ NA
 c
 a
 a
-a
+c
 NA
 a
 NA
@@ -72518,7 +72518,7 @@ c
 c
 NA
 a
-a
+c
 NA
 a
 NA
@@ -72556,7 +72556,7 @@ NA
 c
 a
 a
-a
+c
 NA
 a
 NA
@@ -72586,7 +72586,7 @@ c
 c
 c
 a
-a
+c
 NA
 a
 NA
@@ -72621,7 +72621,7 @@ NA
 c
 a
 a
-a
+c
 NA
 a
 NA
@@ -72688,7 +72688,7 @@ NA
 c
 a
 a
-a
+c
 NA
 a
 NA
@@ -72755,7 +72755,7 @@ NA
 c
 a
 NA
-a
+c
 a
 NA
 a
@@ -73462,7 +73462,7 @@ c
 c
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -73578,7 +73578,7 @@ NA
 a
 NA
 c
-a
+c
 a
 NA
 NA
@@ -73646,7 +73646,7 @@ NA
 NA
 NA
 c
-a
+c
 a
 NA
 NA
@@ -75630,7 +75630,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 a
@@ -75851,7 +75851,7 @@ NA
 c
 a
 NA
-a
+c
 NA
 NA
 a
@@ -79677,7 +79677,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 a
@@ -80441,7 +80441,7 @@ NA
 a
 NA
 c
-a
+c
 a
 NA
 NA
@@ -80554,7 +80554,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -80642,7 +80642,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -80706,7 +80706,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 a
@@ -81061,7 +81061,7 @@ NA
 a
 NA
 c
-a
+c
 a
 NA
 NA
@@ -81296,7 +81296,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 a
 NA
@@ -81394,7 +81394,7 @@ NA
 NA
 NA
 c
-a
+c
 a
 NA
 c
@@ -81547,7 +81547,7 @@ c
 NA
 a
 NA
-a
+c
 a
 NA
 NA
@@ -81576,7 +81576,7 @@ NA
 NA
 c
 a
-a
+c
 a
 NA
 a
@@ -81599,7 +81599,7 @@ a
 NA
 NA
 c
-a
+c
 NA
 NA
 a
@@ -81609,7 +81609,7 @@ NA
 a
 NA
 NA
-a
+c
 a
 NA
 a
@@ -82280,7 +82280,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 a
 NA
@@ -82324,15 +82324,15 @@ a
 NA
 NA
 NA
-a
 a
+c
 NA
 a
 NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -82352,7 +82352,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -82530,7 +82530,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -82663,7 +82663,7 @@ NA
 a
 NA
 c
-a
+c
 a
 NA
 NA
@@ -83836,7 +83836,7 @@ a
 c
 a
 NA
-a
+c
 NA
 NA
 a
@@ -84143,7 +84143,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -85138,8 +85138,8 @@ NA
 NA
 NA
 NA
-a
 a
+c
 NA
 NA
 a
@@ -86824,9 +86824,9 @@ NA
 a
 a
 NA
-a
 a
 a
+c
 a
 NA
 c
@@ -88561,7 +88561,7 @@ NA
 c
 a
 NA
-a
+c
 NA
 NA
 a
@@ -88742,8 +88742,8 @@ NA
 c
 a
 NA
-a
 a
+c
 NA
 NA
 NA
@@ -89001,7 +89001,7 @@ NA
 a
 NA
 NA
-a
+c
 a
 NA
 NA
@@ -89201,7 +89201,7 @@ a
 NA
 NA
 NA
-a
+c
 a
 NA
 NA
@@ -89238,12 +89238,12 @@ NA
 NA
 a
 c
-a
 a
+c
 a
 a
 NA
-a
+c
 a
 NA
 NA
@@ -89342,7 +89342,7 @@ c
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -92870,7 +92870,7 @@ NA
 c
 a
 NA
-a
+c
 NA
 NA
 a
@@ -93429,7 +93429,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -93647,7 +93647,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 a
@@ -94489,7 +94489,7 @@ c
 NA
 a
 NA
-a
+c
 NA
 NA
 a
@@ -94985,7 +94985,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 a
@@ -95559,7 +95559,7 @@ NA
 NA
 a
 c
-a
+c
 a
 NA
 NA
@@ -95713,7 +95713,7 @@ NA
 NA
 a
 c
-a
+c
 NA
 NA
 a
@@ -95988,7 +95988,7 @@ NA
 a
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -96677,7 +96677,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 a
@@ -96821,7 +96821,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 a
@@ -96831,7 +96831,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 a
@@ -96866,7 +96866,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -98256,7 +98256,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -99460,7 +99460,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -100474,15 +100474,15 @@ a
 NA
 NA
 NA
-a
+c
 NA
 NA
 a
 NA
 NA
-a
 a
 a
+c
 NA
 a
 NA
@@ -100546,7 +100546,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 a
@@ -100621,7 +100621,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 NA
 a
@@ -101391,7 +101391,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -101634,12 +101634,12 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
-a
 a
+c
 NA
 NA
 a
@@ -101647,7 +101647,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 c
 NA
@@ -102385,7 +102385,7 @@ NA
 a
 a
 NA
-a
+c
 NA
 NA
 c
@@ -103202,7 +103202,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -103667,9 +103667,9 @@ NA
 a
 NA
 c
-a
 a
 c
+c
 NA
 NA
 NA
@@ -103725,7 +103725,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -103785,7 +103785,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -104632,7 +104632,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -105161,7 +105161,7 @@ NA
 c
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -106534,7 +106534,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -107121,7 +107121,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 a
 a
@@ -107524,7 +107524,7 @@ a
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -109554,7 +109554,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 a
@@ -109704,7 +109704,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -110226,7 +110226,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 a
@@ -113094,7 +113094,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -113117,7 +113117,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 a
 NA
@@ -113315,14 +113315,14 @@ NA
 NA
 a
 NA
-a
 a
+c
 NA
 NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -113357,7 +113357,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -113677,7 +113677,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -113923,7 +113923,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 a
 NA
@@ -115766,7 +115766,7 @@ a
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -115778,7 +115778,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -115878,7 +115878,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -115930,7 +115930,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -115958,7 +115958,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -115981,7 +115981,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -116012,7 +116012,7 @@ c
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -116726,7 +116726,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -117460,7 +117460,7 @@ c
 a
 NA
 NA
-a
+c
 NA
 a
 NA
@@ -117714,7 +117714,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 a
 NA
@@ -117725,7 +117725,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 a
@@ -117939,14 +117939,14 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -119170,7 +119170,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -119237,7 +119237,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -119280,7 +119280,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -119805,7 +119805,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 a
@@ -119996,7 +119996,7 @@ c
 NA
 a
 NA
-a
+c
 NA
 NA
 a
@@ -122021,7 +122021,7 @@ NA
 a
 NA
 a
-a
+c
 NA
 NA
 c
@@ -125204,7 +125204,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -125264,7 +125264,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -125276,7 +125276,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -126257,7 +126257,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 a
@@ -126340,7 +126340,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 a
 NA
@@ -128520,7 +128520,7 @@ NA
 c
 a
 NA
-a
+c
 NA
 NA
 c
@@ -131165,7 +131165,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -131525,7 +131525,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -131549,7 +131549,7 @@ NA
 a
 NA
 a
-a
+c
 NA
 NA
 NA
@@ -131567,7 +131567,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -131907,7 +131907,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -133821,7 +133821,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -134408,7 +134408,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 a
 NA
@@ -135004,7 +135004,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 a
@@ -135773,7 +135773,7 @@ a
 NA
 NA
 NA
-a
+c
 a
 NA
 NA
@@ -136000,7 +136000,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -136008,7 +136008,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -136028,7 +136028,7 @@ c
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -140990,7 +140990,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 a
 NA
@@ -142344,7 +142344,7 @@ NA
 NA
 NA
 a
-a
+c
 NA
 NA
 NA
@@ -142765,7 +142765,7 @@ NA
 c
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -142849,7 +142849,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 a
 NA
@@ -143926,7 +143926,7 @@ NA
 c
 a
 NA
-a
+c
 NA
 a
 c
@@ -145205,7 +145205,7 @@ c
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -145639,7 +145639,7 @@ NA
 NA
 a
 a
-a
+c
 NA
 NA
 a
@@ -145984,7 +145984,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 a
@@ -147232,7 +147232,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -148488,7 +148488,7 @@ NA
 c
 a
 NA
-a
+c
 NA
 NA
 a
@@ -149180,7 +149180,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 a
 NA
@@ -149451,7 +149451,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -149593,7 +149593,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -152241,7 +152241,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 a
@@ -153245,7 +153245,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -156620,7 +156620,7 @@ NA
 a
 a
 NA
-a
+c
 NA
 NA
 a
@@ -156968,7 +156968,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -156979,7 +156979,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 a
@@ -157001,7 +157001,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -157206,7 +157206,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -159864,7 +159864,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 a
@@ -159895,7 +159895,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -161474,7 +161474,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 a
 NA
@@ -162096,7 +162096,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -162153,7 +162153,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 NA
 a
@@ -162263,7 +162263,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 a
@@ -162527,7 +162527,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -163103,7 +163103,7 @@ NA
 a
 NA
 NA
-a
+c
 c
 a
 NA
@@ -163683,7 +163683,7 @@ c
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -164079,7 +164079,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -164141,7 +164141,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -164414,7 +164414,7 @@ c
 a
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -164739,7 +164739,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -164910,7 +164910,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -165212,7 +165212,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 a
@@ -166238,7 +166238,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 a
@@ -168503,7 +168503,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 a
@@ -168553,7 +168553,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -169225,7 +169225,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 a
@@ -169860,7 +169860,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 a
@@ -170249,7 +170249,7 @@ a
 NA
 NA
 c
-a
+c
 NA
 NA
 NA
@@ -171893,7 +171893,7 @@ NA
 a
 NA
 c
-a
+c
 NA
 a
 NA
@@ -171924,7 +171924,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -172929,7 +172929,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -173421,7 +173421,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 a
 NA
@@ -174094,7 +174094,7 @@ a
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -177338,12 +177338,12 @@ a
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -177896,7 +177896,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 a
@@ -179786,7 +179786,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -183076,7 +183076,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -183388,7 +183388,7 @@ NA
 a
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -183767,7 +183767,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 a
@@ -184395,7 +184395,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -185310,7 +185310,7 @@ NA
 a
 NA
 NA
-a
+c
 a
 NA
 a
@@ -185325,7 +185325,7 @@ c
 a
 NA
 NA
-a
+c
 a
 NA
 a
@@ -185813,7 +185813,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 a
@@ -185827,7 +185827,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -185909,7 +185909,7 @@ c
 c
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -187859,7 +187859,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -188186,7 +188186,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 a
@@ -188322,7 +188322,7 @@ c
 c
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -188452,7 +188452,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 c
@@ -188480,7 +188480,7 @@ c
 c
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -188829,7 +188829,7 @@ NA
 c
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -189002,7 +189002,7 @@ c
 c
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -189351,7 +189351,7 @@ c
 c
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -189620,7 +189620,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 NA
 a
@@ -189724,7 +189724,7 @@ NA
 c
 a
 NA
-a
+c
 NA
 NA
 a
@@ -191410,13 +191410,13 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -192006,7 +192006,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -192123,8 +192123,8 @@ NA
 NA
 a
 NA
-a
 a
+c
 NA
 NA
 NA
@@ -193584,7 +193584,7 @@ c
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -194499,7 +194499,7 @@ c
 c
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -194768,7 +194768,7 @@ a
 c
 a
 NA
-a
+c
 NA
 NA
 a
@@ -199704,7 +199704,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -200094,7 +200094,7 @@ c
 c
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -201239,7 +201239,7 @@ a
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -201610,8 +201610,8 @@ a
 NA
 NA
 NA
-a
 a
+c
 NA
 NA
 NA
@@ -201870,7 +201870,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 a
@@ -201963,7 +201963,7 @@ c
 c
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -202220,7 +202220,7 @@ c
 NA
 a
 NA
-a
+c
 NA
 NA
 a
@@ -202673,7 +202673,7 @@ c
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -202882,7 +202882,7 @@ c
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -203034,7 +203034,7 @@ c
 c
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -203249,7 +203249,7 @@ c
 c
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -203327,7 +203327,7 @@ c
 c
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -203688,7 +203688,7 @@ NA
 a
 a
 NA
-a
+c
 NA
 NA
 a
@@ -204234,7 +204234,7 @@ c
 c
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -204323,7 +204323,7 @@ NA
 c
 a
 NA
-a
+c
 NA
 NA
 a
@@ -204378,7 +204378,7 @@ c
 c
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -204569,7 +204569,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -204693,7 +204693,7 @@ c
 c
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -204792,7 +204792,7 @@ c
 c
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -204911,7 +204911,7 @@ c
 c
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -204968,7 +204968,7 @@ NA
 c
 a
 NA
-a
+c
 NA
 NA
 a
@@ -205311,7 +205311,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -205479,7 +205479,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -206578,7 +206578,7 @@ NA
 c
 a
 NA
-a
+c
 NA
 NA
 a
@@ -206661,7 +206661,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -206771,7 +206771,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 a
@@ -208497,7 +208497,7 @@ c
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -208557,7 +208557,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 a
@@ -208583,7 +208583,7 @@ a
 a
 NA
 NA
-a
+c
 NA
 NA
 a
@@ -208870,7 +208870,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -209069,7 +209069,7 @@ c
 c
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -209571,7 +209571,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 a
 NA
@@ -210665,7 +210665,7 @@ c
 c
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -210767,7 +210767,7 @@ NA
 c
 a
 NA
-a
+c
 NA
 NA
 a
@@ -210896,7 +210896,7 @@ NA
 c
 a
 NA
-a
+c
 NA
 NA
 a
@@ -210970,7 +210970,7 @@ NA
 c
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -210997,7 +210997,7 @@ c
 c
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -211041,8 +211041,8 @@ c
 a
 NA
 c
-a
 a
+c
 NA
 NA
 NA
@@ -211077,7 +211077,7 @@ NA
 c
 a
 NA
-a
+c
 NA
 NA
 a
@@ -211302,7 +211302,7 @@ NA
 c
 a
 NA
-a
+c
 NA
 NA
 a
@@ -214945,7 +214945,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -218413,7 +218413,7 @@ NA
 a
 NA
 a
-a
+c
 NA
 NA
 NA
@@ -226231,7 +226231,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 a
 NA
@@ -227052,7 +227052,7 @@ NA
 c
 NA
 a
-a
+c
 NA
 a
 NA
@@ -228320,7 +228320,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 a
 NA
@@ -231449,8 +231449,8 @@ NA
 a
 NA
 NA
-a
 a
+c
 a
 a
 NA
@@ -233580,7 +233580,7 @@ c
 a
 NA
 c
-a
+c
 NA
 NA
 a
@@ -235117,13 +235117,13 @@ a
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -235310,7 +235310,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -240400,7 +240400,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -246294,7 +246294,7 @@ a
 NA
 NA
 NA
-a
+c
 a
 NA
 c
@@ -248021,7 +248021,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 a
@@ -251401,7 +251401,7 @@ c
 c
 a
 NA
-a
+c
 NA
 NA
 c
@@ -252011,7 +252011,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -253915,7 +253915,7 @@ c
 a
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -253955,7 +253955,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 a
@@ -254196,7 +254196,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -254417,7 +254417,7 @@ a
 c
 a
 NA
-a
+c
 NA
 NA
 a
@@ -255835,7 +255835,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -258296,7 +258296,7 @@ a
 a
 NA
 NA
-a
+c
 NA
 NA
 a
@@ -258320,7 +258320,7 @@ a
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -262107,9 +262107,9 @@ NA
 NA
 NA
 NA
-a
 a
 a
+c
 a
 NA
 a
@@ -262291,7 +262291,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 NA
 c
@@ -262420,7 +262420,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -263590,7 +263590,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -263950,7 +263950,7 @@ NA
 c
 a
 NA
-a
+c
 NA
 NA
 a
@@ -268377,7 +268377,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -269716,7 +269716,7 @@ NA
 a
 NA
 c
-a
+c
 NA
 a
 NA
@@ -270863,7 +270863,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -270884,7 +270884,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -271309,7 +271309,7 @@ NA
 NA
 a
 NA
-a
+c
 a
 NA
 NA
@@ -271473,7 +271473,7 @@ NA
 NA
 a
 NA
-a
+c
 a
 NA
 NA
@@ -271678,11 +271678,11 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -272024,7 +272024,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -272179,7 +272179,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 c
@@ -275817,7 +275817,7 @@ a
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -276993,7 +276993,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -278423,7 +278423,7 @@ a
 NA
 NA
 a
-a
+c
 a
 NA
 NA
@@ -285053,7 +285053,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 a
@@ -285065,7 +285065,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 a
@@ -287348,7 +287348,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 c
@@ -287850,7 +287850,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 a
@@ -288079,7 +288079,7 @@ c
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -294983,7 +294983,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -302622,7 +302622,7 @@ c
 a
 a
 NA
-a
+c
 c
 NA
 NA
@@ -302752,7 +302752,7 @@ c
 a
 a
 NA
-a
+c
 c
 NA
 NA
@@ -303249,7 +303249,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 a
 a
@@ -303753,8 +303753,8 @@ a
 a
 NA
 NA
-a
 a
+c
 a
 NA
 NA
@@ -303856,8 +303856,8 @@ a
 NA
 NA
 NA
-a
 a
+c
 NA
 NA
 NA
@@ -306208,7 +306208,7 @@ c
 NA
 a
 NA
-a
+c
 NA
 a
 NA
@@ -306216,7 +306216,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 a
 NA
@@ -307884,7 +307884,7 @@ c
 a
 NA
 NA
-a
+c
 a
 NA
 NA
@@ -310711,7 +310711,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -312984,7 +312984,7 @@ a
 a
 NA
 NA
-a
+c
 NA
 a
 NA
@@ -315231,8 +315231,8 @@ a
 NA
 NA
 NA
-a
 a
+c
 NA
 a
 NA
@@ -327215,7 +327215,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -330071,7 +330071,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -331793,7 +331793,7 @@ a
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -333747,7 +333747,7 @@ a
 NA
 c
 a
-a
+c
 NA
 NA
 a
@@ -333884,7 +333884,7 @@ a
 NA
 NA
 a
-a
+c
 NA
 a
 NA
@@ -335369,13 +335369,13 @@ a
 a
 a
 NA
-a
+c
 NA
 a
 NA
 a
 NA
-a
+c
 NA
 a
 c
@@ -335396,7 +335396,7 @@ a
 NA
 a
 NA
-a
+c
 a
 a
 a
@@ -335415,7 +335415,7 @@ NA
 c
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -335511,7 +335511,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -336275,7 +336275,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -336290,7 +336290,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -336636,7 +336636,7 @@ a
 c
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -343327,7 +343327,7 @@ NA
 c
 a
 NA
-a
+c
 a
 NA
 NA
@@ -345325,7 +345325,7 @@ NA
 a
 NA
 a
-a
+c
 NA
 NA
 NA
@@ -346223,12 +346223,12 @@ c
 a
 NA
 NA
-a
+c
 a
 NA
 NA
 NA
-a
+c
 a
 NA
 NA
@@ -346617,7 +346617,7 @@ NA
 c
 a
 NA
-a
+c
 a
 NA
 NA
@@ -346796,7 +346796,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 a
@@ -348160,7 +348160,7 @@ NA
 a
 NA
 NA
-a
+c
 a
 NA
 c
@@ -348533,7 +348533,7 @@ c
 a
 NA
 NA
-a
+c
 NA
 a
 NA
@@ -349749,7 +349749,7 @@ NA
 c
 a
 NA
-a
+c
 a
 a
 a
@@ -350309,7 +350309,7 @@ NA
 c
 a
 a
-a
+c
 a
 NA
 NA
@@ -352161,7 +352161,7 @@ a
 NA
 a
 NA
-a
+c
 a
 NA
 NA
@@ -352210,8 +352210,8 @@ c
 a
 a
 NA
-a
 a
+c
 a
 NA
 NA
@@ -352425,7 +352425,7 @@ NA
 c
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -352462,7 +352462,7 @@ NA
 NA
 a
 NA
-a
+c
 a
 NA
 NA
@@ -354364,9 +354364,9 @@ a
 NA
 a
 NA
-a
 a
 a
+c
 a
 a
 NA
@@ -356474,7 +356474,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -356864,7 +356864,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -356876,7 +356876,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 NA
 a
@@ -356970,7 +356970,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -357085,7 +357085,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -359416,7 +359416,7 @@ NA
 NA
 NA
 c
-a
+c
 a
 c
 NA
@@ -359481,7 +359481,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 c
@@ -359541,7 +359541,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -359735,7 +359735,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -359747,7 +359747,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 NA
 a
@@ -360837,7 +360837,7 @@ c
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -361282,7 +361282,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -361961,7 +361961,7 @@ NA
 a
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -362399,7 +362399,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 c
@@ -362487,7 +362487,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 c
@@ -362556,8 +362556,8 @@ NA
 a
 c
 NA
-a
 a
+c
 NA
 NA
 a
@@ -363189,7 +363189,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 a
@@ -363511,7 +363511,7 @@ NA
 NA
 a
 NA
-a
+c
 a
 NA
 a
@@ -366371,7 +366371,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -366977,7 +366977,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 a
@@ -367128,7 +367128,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -367279,7 +367279,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -367544,7 +367544,7 @@ a
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -368225,7 +368225,7 @@ NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -368290,7 +368290,7 @@ NA
 c
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -371312,7 +371312,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 a
 c
@@ -374011,7 +374011,7 @@ NA
 a
 a
 NA
-a
+c
 NA
 NA
 a
@@ -381341,7 +381341,7 @@ NA
 c
 e
 NA
-a
+c
 NA
 NA
 a
@@ -381458,7 +381458,7 @@ NA
 a
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -382374,7 +382374,7 @@ a
 NA
 NA
 NA
-a
+c
 a
 NA
 c
@@ -382640,7 +382640,7 @@ NA
 a
 NA
 c
-a
+c
 NA
 a
 NA
@@ -385896,7 +385896,7 @@ NA
 a
 NA
 a
-a
+c
 NA
 NA
 NA
@@ -387875,13 +387875,13 @@ a
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
 a
 NA
-a
+c
 NA
 NA
 NA
@@ -388864,7 +388864,7 @@ a
 NA
 a
 NA
-a
+c
 NA
 a
 NA
@@ -388878,8 +388878,8 @@ a
 a
 a
 NA
-a
 a
+c
 a
 a
 a
@@ -396928,7 +396928,7 @@ c
 a
 a
 NA
-a
+c
 NA
 NA
 a
@@ -404048,7 +404048,7 @@ c
 a
 NA
 a
-a
+c
 NA
 a
 a
@@ -404719,7 +404719,7 @@ NA
 c
 a
 NA
-a
+c
 NA
 NA
 a
@@ -406069,7 +406069,7 @@ NA
 c
 a
 NA
-a
+c
 a
 NA
 NA
@@ -411084,7 +411084,7 @@ NA
 NA
 NA
 NA
-a
+c
 NA
 NA
 NA
@@ -423026,7 +423026,7 @@ NA
 c
 a
 NA
-a
+c
 a
 NA
 NA

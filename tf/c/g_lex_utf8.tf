@@ -5,10 +5,10 @@
 @email=shebanq@ancient-data.org
 @encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)
 @valueType=str
-@version=c
+@version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-01-17T17:35:36Z
+@dateWritten=2018-04-13T12:18:48Z
 
 בְּ
 רֵאשִׁית
@@ -1490,7 +1490,7 @@
 הָ
 אִשּׁ
 אָמַר
-רְבָּה
+רְבּ
 רְבֶּה
 עִצְּבֹון
 וְ
@@ -7224,7 +7224,7 @@
 ל
 מַלְאַךְ
 יְהוָה
-רְבָּה
+רְבּ
 רְבֶּה
 אֶת
 זַרְע
@@ -10607,7 +10607,7 @@
 בָרֵךְ
 בָרֶך
 וְ
-רְבָּה
+רְבּ
 רְבֶּה
 אֶת
 זַרְעֲ

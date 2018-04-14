@@ -5,12 +5,12 @@
 @email=shebanq@ancient-data.org
 @encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)
 @valueType=str
-@version=c
+@version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-01-17T17:35:51Z
+@dateWritten=2018-04-13T12:18:58Z
 
-515654	true
+515676	true
 false
 false
 false
@@ -4383,7 +4383,6 @@ false
 false
 false
 false
-false
 true
 false
 false
@@ -6045,7 +6044,6 @@ false
 false
 false
 true
-false
 false
 false
 false
@@ -8962,6 +8960,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -21787,7 +21786,6 @@ false
 false
 false
 true
-false
 false
 false
 false
@@ -23449,6 +23447,10 @@ false
 false
 false
 true
+false
+false
+false
+false
 false
 false
 false
@@ -23572,6 +23574,11 @@ false
 false
 false
 false
+false
+false
+false
+false
+false
 true
 false
 false
@@ -23889,6 +23896,27 @@ false
 false
 false
 true
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
 false
 false
 false
@@ -23965,6 +23993,17 @@ false
 false
 false
 false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
 true
 false
 false
@@ -25761,7 +25800,6 @@ false
 false
 false
 true
-false
 false
 false
 false
@@ -32273,7 +32311,6 @@ false
 false
 false
 false
-false
 true
 false
 false
@@ -33080,6 +33117,7 @@ false
 false
 false
 true
+false
 false
 false
 false
@@ -34458,7 +34496,6 @@ false
 false
 false
 false
-false
 true
 false
 false
@@ -35376,7 +35413,6 @@ false
 false
 false
 false
-false
 true
 false
 false
@@ -35678,7 +35714,6 @@ false
 false
 false
 true
-false
 false
 false
 false
@@ -36519,9 +36554,7 @@ false
 false
 false
 false
-false
 true
-false
 false
 false
 false
@@ -39312,7 +39345,6 @@ false
 false
 false
 false
-false
 true
 false
 false
@@ -44188,7 +44220,6 @@ false
 false
 false
 true
-false
 false
 false
 false
@@ -44237,8 +44268,6 @@ false
 false
 false
 false
-false
-false
 true
 false
 false
@@ -57686,7 +57715,6 @@ false
 false
 false
 false
-false
 true
 false
 false
@@ -62389,7 +62417,6 @@ false
 false
 false
 false
-false
 true
 false
 false
@@ -65438,6 +65465,7 @@ false
 true
 false
 true
+false
 false
 false
 false
@@ -67559,7 +67587,6 @@ false
 false
 false
 false
-false
 true
 false
 true
@@ -74193,7 +74220,6 @@ false
 false
 false
 true
-false
 false
 false
 false
@@ -74298,7 +74324,6 @@ false
 false
 false
 false
-false
 true
 false
 false
@@ -75628,7 +75653,6 @@ false
 false
 false
 true
-false
 false
 false
 false
@@ -75936,7 +75960,6 @@ false
 false
 false
 false
-false
 true
 false
 false
@@ -79850,7 +79873,6 @@ false
 false
 false
 true
-false
 false
 false
 false
@@ -80497,7 +80519,6 @@ false
 false
 false
 false
-false
 true
 false
 false
@@ -83673,6 +83694,7 @@ false
 false
 false
 false
+false
 true
 false
 false
@@ -84532,7 +84554,6 @@ false
 false
 false
 true
-false
 false
 false
 false

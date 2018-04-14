@@ -3,7 +3,7 @@
 #	lexicon: all lexemes in biblical Aramaic                       #
 #                                                                      #
 ########################################################################
-#ident "@(#)lexicon	1.22 15/06/27"
+#ident "@(#)lexicon	1.23 18/01/05"
 ">B/"		sp=subs:gn=m:vc=>AB:gl=father
 ">B=/"		sp=subs:gn=m:vc=>;B:gl=fruit
 ">BD["		sp=verb:vc=>\:ABAD:gl=perish
@@ -182,7 +182,7 @@
 "DT/"		sp=subs:gn=f:vc=D.@T:gl=law
 "DT>/"		sp=subs:gn=m:vc=D.ETE>:gl=vegetation
 "DTBR/"		sp=subs:vc=D.\:T@BAR:gl=law official
-"H"		sp=inrg:ls=focp:vc=H\:A:gl=<interrogative>
+"H"		sp=inrg:ls=ques:vc=H\:A:gl=<interrogative>
 "H>"		sp=intj:vc=H@>:gl=behold
 "H>="		sp=intj:vc=H;>:gl=<idiomatic prefix>
 "HDBR/"		sp=subs:vc=HAD.@BAR:gl=companion
