@@ -8,53 +8,53 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-04-13T12:21:44Z
+@dateWritten=2018-08-08T14:29:25Z
 
-1437700	pers
-1437720	topo
-1437734	topo
+1437679	pers
+1437699	topo
+1437713	topo
 ppde
-1437737	topo
-1437739	ppde
-1437743	topo
+1437716	topo
+1437718	ppde
+1437722	topo
 topo
 topo
-1437748	topo
+1437727	topo
 topo
-1437793	ppde
-1437831	pers
-1437849	pers
-1437854	pers
-1437887	topo
+1437772	ppde
+1437810	pers
+1437828	pers
+1437833	pers
+1437866	topo
 pers
-1437890	topo
-pers
-pers
+1437869	topo
 pers
 pers
 pers
 pers
 pers
 pers
-1437901	pers
-1437905	pers
-1437911	pers
+pers
+pers
+1437880	pers
+1437884	pers
+1437890	pers
+1437896	pers
+1437898	pers
+1437900	pers
+1437913	pers
+pers
 1437917	pers
-1437919	pers
-1437921	pers
-1437934	pers
-pers
-1437938	pers
 pers
 pers
-1437943	pers
+1437922	pers
 pers,gens
 pers
-1437947	ppde
-1437953	ppde
-1438015	topo
-1438057	pers,gens,topo
-1438072	pers
+1437926	ppde
+1437932	ppde
+1437994	topo
+1438036	pers,gens,topo
+1438051	pers
 topo
 pers,gens
 pers,gens
@@ -68,7 +68,7 @@ topo
 topo
 gens
 gens
-1438089	topo
+1438068	topo
 gens
 pers
 pers,gens,topo
@@ -78,7 +78,7 @@ pers,gens,topo
 topo
 topo
 pers
-1438101	topo
+1438080	topo
 topo
 topo
 topo
@@ -93,9 +93,9 @@ gens
 gens
 gens
 gens
-1438118	topo
+1438097	topo
 pers
-1438132	topo
+1438111	topo
 topo
 topo
 topo
@@ -113,7 +113,7 @@ pers
 pers,gens
 pers
 pers
-1438151	pers
+1438130	pers
 pers
 topo
 topo
@@ -125,100 +125,100 @@ pers
 pers
 topo
 gens
-1438164	topo
+1438143	topo
 topo
-1438185	pers
+1438164	pers
 pers
 pers
 pers
 pers
 pers
 pers
-1438193	topo
+1438172	topo
 gens,topo
 pers
 pers
 pers
-1438201	topo
-1438206	topo
-1438208	topo
-1438210	topo
-1438212	topo
-1438248	topo
-1438250	topo
-1438255	topo
+1438180	topo
+1438185	topo
+1438187	topo
+1438189	topo
+1438191	topo
+1438227	topo
+1438229	topo
+1438234	topo
 topo
 pers
-1438259	pers
+1438238	pers
 topo
-pers
-pers
-topo
-1438265	pers
-pers
 pers
 pers
 topo
-1438272	topo
-1438275	gens
+1438244	pers
+pers
+pers
+pers
+topo
+1438251	topo
+1438254	gens
 topo
 gens
 topo
 gens
-1438281	topo
-1438283	topo
+1438260	topo
+1438262	topo
 topo
+1438265	topo
+topo
+1438268	topo
+1438275	pers
+pers
+pers
+1438284	pers,gens,topo
 1438286	topo
 topo
 1438289	topo
-1438296	pers
-pers
-pers
-1438305	pers,gens,topo
-1438307	topo
-topo
-1438310	topo
 pers
 topo
-1438329	pers
-1438332	pers
+1438308	pers
+1438311	pers
+1438352	pers
+1438360	topo
+1438364	pers
+1438369	topo
+topo
+pers
 1438373	pers
-1438381	topo
-1438385	pers
-1438390	topo
-topo
-pers
-1438394	pers
-1438404	pers
-1438408	pers
-1438498	pers,gens,topo
+1438383	pers
+1438387	pers
+1438477	pers,gens,topo
 pers
 gens
 pers
-1438530	topo
-1438538	topo
+1438509	topo
+1438517	topo
 pers
-1438552	topo
-1438569	pers
-pers
-pers
+1438531	topo
+1438548	pers
 pers
 pers
 pers
 pers
 pers
-1438578	pers
+pers
+pers
+1438557	pers
 pers
 pers
 pers
-pers
-topo
-1438589	pers
 pers
 topo
-1438602	topo
-1438624	pers
-1438644	pers
+1438568	pers
+pers
+topo
+1438581	topo
+1438603	pers
+1438623	pers
 pers
 pers
 pers
@@ -232,7 +232,7 @@ pers
 pers
 pers
 pers
-1438661	gens
+1438640	gens
 pers,gens
 pers
 pers
@@ -244,51 +244,51 @@ topo
 pers
 pers
 pers
-1438688	pers
+1438667	pers
 pers
+1438675	topo
 1438696	topo
-1438717	topo
-1438719	topo
+1438698	topo
 topo
-1438723	pers
-1438726	topo
+1438702	pers
+1438705	topo
 pers
 pers
 pers
 pers
-1438773	pers
-1438784	topo
-1438791	pers
-1438796	pers
-1438799	gens
-1438803	pers
+1438752	pers
+1438763	topo
+1438770	pers
+1438775	pers
+1438778	gens
+1438782	pers
 pers,gens,topo
 pers,gens,topo
-1438807	pers,gens
-1438809	pers,gens,topo
-1438814	pers,gens,topo
-1438816	pers,gens,topo
-1438819	pers,gens,topo
-1438823	pers,gens,topo
-1438827	pers,gens,topo
+1438786	pers,gens
+1438788	pers,gens,topo
+1438793	pers,gens,topo
+1438795	pers,gens,topo
+1438798	pers,gens,topo
+1438802	pers,gens,topo
+1438806	pers,gens,topo
 pers
-1438830	pers
-1438877	topo
-1438906	topo
+1438809	pers
+1438856	topo
+1438885	topo
 topo
-1438913	topo
-1438925	topo
-1438928	pers,gens,topo
-1438930	topo
-1438932	topo
-1438944	topo
-1438947	pers
-1438949	pers
-1438977	pers
-1438987	pers
+1438892	topo
+1438904	topo
+1438907	pers,gens,topo
+1438909	topo
+1438911	topo
+1438923	topo
+1438926	pers
+1438928	pers
+1438956	pers
+1438966	pers
 pers,gens,topo
 topo
-1438991	topo
+1438970	topo
 pers
 pers
 pers
@@ -308,7 +308,7 @@ pers
 pers
 pers
 pers
-1439012	pers
+1438991	pers
 pers
 pers
 pers
@@ -321,7 +321,7 @@ pers
 pers
 pers
 pers
-1439026	pers
+1439005	pers
 pers
 pers
 pers
@@ -329,22 +329,18 @@ pers
 pers
 pers
 pers
-1439035	pers
-pers
-topo
-pers
-topo
-pers
-1439042	pers
+1439014	pers
 pers
 topo
 pers
 topo
 pers
-pers
-pers
+1439021	pers
 pers
 topo
+pers
+topo
+pers
 pers
 pers
 pers
@@ -352,30 +348,34 @@ topo
 pers
 pers
 pers
+topo
 pers
 pers
 pers
-1439069	topo
-1439093	pers
-1439097	pers
+pers
+pers
+pers
+1439048	topo
+1439072	pers
+1439076	pers
 pers
 pers
 pers
 pers
 topo
 pers
-1439106	topo
-1439110	topo
-1439122	pers
-1439147	topo
-1439182	pers
+1439085	topo
+1439089	topo
+1439101	pers
+1439126	topo
+1439161	pers
 pers
 pers
 topo
-1439187	pers,gens
-1439190	pers,gens,topo
-1439238	topo
-1439249	pers
+1439166	pers,gens
+1439169	pers,gens,topo
+1439217	topo
+1439228	pers
 pers
 pers
 pers
@@ -421,21 +421,21 @@ pers
 pers
 pers
 pers
-1439298	topo
-1439342	topo
-1439399	topo
-1439402	pers,gens
-1439410	topo
-1439412	pers
+1439277	topo
+1439321	topo
+1439378	topo
+1439381	pers,gens
+1439389	topo
+1439391	pers
 pers
-1439426	pers
-1439431	pers
+1439405	pers
+1439410	pers
 pers
-1439437	pers
+1439416	pers
 topo
+1439439	pers
+1439442	pers
 1439460	pers
-1439463	pers
-1439481	pers
 pers
 pers
 pers
@@ -444,12 +444,7 @@ pers
 pers
 pers
 pers
-1439491	pers
-pers
-pers
-pers
-pers
-pers
+1439470	pers
 pers
 pers
 pers
@@ -459,36 +454,39 @@ pers
 pers
 pers
 pers
-1439507	pers
 pers
-1439604	topo
-1439608	topo
+pers
+pers
+pers
+pers
+1439486	pers
+pers
+1439583	topo
+1439587	topo
 topo
 topo
-1439625	pers
-1439648	topo
-1439656	pers
-1439660	topo
-1439665	topo
-1439667	topo
+1439604	pers
+1439627	topo
+1439635	pers
+1439639	topo
+1439644	topo
+1439646	topo
 topo
-1439695	topo
-1439699	topo
+1439674	topo
+1439678	topo
 topo
 pers
 pers
-1439983	pers
+1439962	pers
 pers
-1439987	pers
+1439966	pers
 pers
-1440005	pers
-1440198	pers
-1440206	pers
-1440274	pers
+1439984	pers
+1440177	pers
+1440185	pers
+1440253	pers
 pers
-1440328	pers
-pers
-pers
+1440307	pers
 pers
 pers
 pers
@@ -508,17 +506,19 @@ pers
 pers
 pers
 pers
-1440357	pers
-1440363	pers
-1440367	pers
 pers
-1440394	pers
+pers
+1440336	pers
+1440342	pers
+1440346	pers
+pers
+1440373	pers
+1440377	topo
+1440393	pers
+pers
 1440398	topo
-1440414	pers
-pers
-1440419	topo
 topo
-1440427	pers
+1440406	pers
 gens
 pers
 pers
@@ -539,97 +539,97 @@ pers
 pers
 pers
 pers
-1440451	topo
+1440430	topo
 topo
 topo
 pers
 pers
 pers
-1440458	topo
+1440437	topo
 topo
-1440470	topo
-1440476	pers
+1440449	topo
+1440455	pers
 pers
 pers
 pers
-1440497	topo
+1440476	topo
 topo
 topo
-1440502	topo
-topo
-topo
-topo
-topo
-topo
-1440509	topo
+1440481	topo
 topo
 topo
 topo
 topo
-1440515	topo
+topo
+1440488	topo
+topo
+topo
+topo
+topo
+1440494	topo
 topo
 pers
 topo
 topo
-1440524	pers
-1440527	topo
+1440503	pers
+1440506	topo
 topo
 topo
+topo
+1440511	topo
+pers
+topo
+1440516	topo
+pers
+pers
+1440521	pers
 topo
 1440532	topo
-pers
 topo
-1440537	topo
+1440546	topo
+1440552	pers
+1440561	gens
+1440563	topo
+1440565	pers
+1440570	pers
 pers
-pers
-1440542	pers
-topo
-1440553	topo
-topo
-1440567	topo
 1440573	pers
-1440582	gens
-1440584	topo
-1440586	pers
+pers
+1440581	pers
+1440587	pers
 1440591	pers
-pers
 1440594	pers
-pers
 1440602	pers
-1440608	pers
-1440612	pers
+1440611	pers
+1440613	pers
 1440615	pers
+1440617	pers
+1440619	pers
+1440621	pers
 1440623	pers
-1440632	pers
-1440634	pers
-1440636	pers
-1440638	pers
-1440640	pers
-1440642	pers
-1440644	pers
 pers
 pers
 pers
 pers
 pers
-1440652	pers
-1440654	pers
-1440658	pers
-1440660	pers
-1440662	pers
-1440666	pers
-1440677	topo
-1440685	pers
+1440631	pers
+1440633	pers
+1440637	pers
+1440639	pers
+1440641	pers
+1440645	pers
+1440656	topo
+1440664	pers
 pers
 pers
-1440694	topo
+1440673	topo
 topo
 topo
 topo
 topo
 topo
 topo
-1440706	topo
+1440685	topo
 topo
 topo
 topo
@@ -637,7 +637,7 @@ topo
 topo
 topo
 pers
-1440715	pers
+1440694	pers
 topo
 topo
 topo
@@ -667,100 +667,100 @@ topo
 topo
 topo
 topo
-1440748	topo
-1440750	topo
+1440727	topo
+1440729	topo
 topo
-1440753	topo
-topo
-topo
+1440732	topo
 topo
 topo
 topo
+topo
+topo
+1440739	topo
+1440741	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
 1440760	topo
-1440762	pers
-pers
-pers
-pers
-pers
-pers
-pers
-pers
-pers
-pers
-pers
-pers
-pers
-pers
-1440781	topo
 topo
 topo
 topo
 topo
-1440788	topo
-1440803	topo
-1440807	gens
+1440767	topo
+1440782	topo
+1440786	gens
 gens
 topo
-1440811	topo
-1440814	topo
-1440816	topo
-1440818	topo
+1440790	topo
+1440793	topo
+1440795	topo
+1440797	topo
 topo
-1440821	topo
-1440827	topo
-1440836	topo
-topo
-topo
-1440840	topo
-1440864	topo
+1440800	topo
+1440806	topo
+1440815	topo
 topo
 topo
-1440872	topo
+1440819	topo
+1440843	topo
 topo
-1440875	topo
-1441041	pers
-1441106	pers
-1441110	topo
 topo
-1441115	pers
+1440851	topo
+topo
+1440854	topo
+1441020	pers
+1441085	pers
+1441089	topo
+topo
+1441094	pers
 pers
 topo
-1441119	topo
-1441122	topo
+1441098	topo
+1441101	topo
+1441105	topo
+1441113	topo
+topo
+topo
+pers
+topo
+pers
+pers
+topo
+pers
+topo
+pers
+topo
 1441126	topo
-1441134	topo
+topo
+topo
+topo
+1441132	pers
 topo
 topo
 pers
 topo
-pers
-pers
 topo
-pers
 topo
-pers
+topo
+1441141	topo
+topo
+topo
+topo
 topo
 1441147	topo
 topo
 topo
-topo
-1441153	pers
-topo
-topo
-pers
-topo
-topo
-topo
-topo
-1441162	topo
-topo
-topo
-topo
-topo
-1441168	topo
-topo
-topo
-1441173	topo
+1441152	topo
 topo
 topo
 topo
@@ -773,32 +773,32 @@ topo
 topo
 topo
 topo
-1441187	topo
+1441166	topo
 topo
-1441195	topo
-1441198	topo
+1441174	topo
+1441177	topo
 gens
 topo
 topo
 topo
+1441183	topo
+1441186	topo
+topo
+topo
+topo
+1441191	topo
+topo
+topo
+topo
+topo
+pers
+topo
+topo
+topo
+topo
+pers
+topo
 1441204	topo
-1441207	topo
-topo
-topo
-topo
-1441212	topo
-topo
-topo
-topo
-topo
-pers
-topo
-topo
-topo
-topo
-pers
-topo
-1441225	topo
 topo
 topo
 topo
@@ -809,7 +809,7 @@ topo
 topo
 pers
 pers
-1441239	topo
+1441218	topo
 topo
 topo
 topo
@@ -902,25 +902,25 @@ topo
 topo
 topo
 topo
-1441335	topo
+1441314	topo
 topo
 topo
 topo
 topo
 topo
-1441342	pers
+1441321	pers
 topo
 topo
 topo
 topo
 topo
-1441350	topo
+1441329	topo
 topo
 topo
 topo
 topo
 topo
-1441357	topo
+1441336	topo
 topo
 topo
 topo
@@ -946,7 +946,7 @@ topo
 topo
 topo
 topo
-1441384	topo
+1441363	topo
 topo
 topo
 topo
@@ -1012,7 +1012,7 @@ topo
 topo
 topo
 topo
-1441451	pers
+1441430	pers
 topo
 topo
 topo
@@ -1022,10 +1022,10 @@ topo
 topo
 topo
 topo
-1441469	topo
+1441448	topo
 topo
 pers
-1441473	topo
+1441452	topo
 topo
 topo
 topo
@@ -1033,53 +1033,53 @@ topo
 topo
 topo
 topo
-1441482	topo
+1441461	topo
 topo
 topo
 topo
+1441466	topo
+1441471	topo
+pers
+1441474	pers
+pers
 1441487	topo
-1441492	topo
-pers
-1441495	pers
-pers
-1441508	topo
 pers
 pers
-1441512	pers
+1441491	pers
 topo
-1441515	pers
-1441517	pers
+1441494	pers
+1441496	pers
 pers
 topo
 pers
-1441551	topo
-1441568	pers
-1441570	pers
-1441574	pers
-1441577	topo
+1441530	topo
+1441547	pers
+1441549	pers
+1441553	pers
+1441556	topo
+1441561	pers
+1441564	topo
+topo
+topo
+topo
+topo
+pers
+pers
+1441572	pers
+pers
+1441575	topo
+topo
 1441582	pers
-1441585	topo
-topo
-topo
-topo
-topo
+1441584	pers
+1441589	pers
 pers
 pers
-1441593	pers
-pers
-1441596	topo
 topo
+1441594	topo
+1441596	pers
+topo
+1441601	topo
 1441603	pers
-1441605	pers
-1441610	pers
-pers
-pers
-topo
-1441615	topo
-1441617	pers
-topo
-1441622	topo
-1441624	pers
 pers
 topo
 pers
@@ -1087,106 +1087,106 @@ topo
 topo
 topo
 topo
-1441635	pers
+1441614	pers
 pers
 pers
+1441618	topo
+1441620	pers
+1441623	pers
+topo
 1441639	topo
-1441641	pers
-1441644	pers
 topo
-1441660	topo
+1441645	topo
+pers
+1441654	pers
+1441657	pers
+1441659	pers
+1441662	topo
+1441667	topo
+pers
+1441672	topo
+1441680	topo
+1441684	topo
+1441686	topo
 topo
-1441666	topo
+1441690	pers
 pers
-1441675	pers
-1441678	pers
-1441680	pers
-1441683	topo
-1441688	topo
 pers
-1441693	topo
-1441701	topo
-1441705	topo
-1441707	topo
+pers
+pers
+pers
+pers
+pers
+1441730	topo
+1441735	pers
+1441744	pers
+1441747	topo
 topo
-1441711	pers
+1441750	pers
+pers
+1441754	pers
 pers
 pers
 pers
 pers
-pers
-pers
-pers
-1441751	topo
-1441756	pers
-1441765	pers
+topo
+topo
 1441768	topo
+1441774	pers
+1441777	pers
+1441779	topo
+pers
+1441782	topo
 topo
-1441771	pers
-pers
-1441775	pers
-pers
-pers
-pers
-pers
-topo
-topo
-1441789	topo
-1441795	pers
-1441798	pers
-1441800	topo
-pers
-1441803	topo
-topo
-1441813	topo
+1441792	topo
 pers
 pers
 topo
 topo
+1441806	topo
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+1441815	topo
+1441822	pers
+1441824	pers
 1441827	topo
+1441829	pers
+1441852	pers
+1441858	topo
+1441860	topo
+1441868	topo
 pers
-pers
-pers
-pers
-pers
-pers
-pers
-1441836	topo
-1441843	pers
-1441845	pers
-1441848	topo
-1441850	pers
-1441873	pers
-1441879	topo
-1441881	topo
-1441889	topo
-pers
-1441893	pers
-1441897	pers
-1441903	topo
-1441905	pers
+1441872	pers
+1441876	pers
+1441882	topo
+1441884	pers
 topo
-1441908	topo
-1441916	pers
+1441887	topo
+1441895	pers
 pers
-1441925	pers
+1441904	pers
 topo
 pers
 pers
 pers
-1441935	pers
-1441941	topo
-1441945	topo
-1441950	topo
+1441914	pers
+1441920	topo
+1441924	topo
+1441929	topo
 topo
 topo
 topo
-1441962	pers
-1441965	topo
+1441941	pers
+1441944	topo
 pers
-1441969	topo
+1441948	topo
 topo
-1441973	pers
+1441952	pers
 pers
 pers
 pers
@@ -1197,14 +1197,14 @@ pers
 pers
 pers
 topo
-1441985	topo
-1441990	pers
+1441964	topo
+1441969	pers
 pers
 pers
-1441994	topo
-1441996	pers
-1441998	topo
-1442000	pers
+1441973	topo
+1441975	pers
+1441977	topo
+1441979	pers
 pers
 pers
 pers
@@ -1213,30 +1213,17 @@ pers
 pers
 pers
 topo
-1442012	topo
+1441991	topo
 pers
 pers
-1442018	pers
-1442020	topo
+1441997	pers
+1441999	topo
 pers
-1442032	pers
+1442011	pers
 pers
-1442035	topo
-topo
-pers
-pers
+1442014	topo
 topo
 pers
-pers
-pers
-pers
-pers
-pers
-1442047	pers
-topo
-pers
-pers
-1442053	topo
 pers
 topo
 pers
@@ -1244,71 +1231,84 @@ pers
 pers
 pers
 pers
-1442064	pers
-1442070	pers
+pers
+1442026	pers
+topo
 pers
 pers
-1442077	topo
-1442079	topo
+1442032	topo
+pers
+topo
+pers
+pers
+pers
+pers
+pers
+1442043	pers
+1442049	pers
+pers
+pers
+1442056	topo
+1442058	topo
+1442066	pers
+1442071	pers
+topo
+1442075	pers
 1442087	pers
-1442092	pers
-topo
-1442096	pers
-1442108	pers
 pers
 pers
 pers
 topo
-1442122	pers
+1442101	pers
 pers
 pers
 pers
-1442128	topo
-1442133	pers
+1442107	topo
+1442112	pers
 pers
 pers
 pers
-1442140	pers
+1442119	pers
 pers
 pers
-1442144	topo
+1442123	topo
 pers
-1442147	pers
+1442126	pers
 pers
 pers
-1442184	pers
+1442163	pers
+1442166	pers
+pers
+1442169	pers
+1442171	pers
+pers
+1442174	pers
+1442176	pers
+pers
+pers
+1442180	pers
+pers
+pers
+pers
+1442185	pers
 1442187	pers
+1442189	pers
 pers
-1442190	pers
-1442192	pers
 pers
-1442195	pers
+1442193	pers
+pers
+pers
 1442197	pers
 pers
 pers
 1442201	pers
-pers
-pers
-pers
+topo
 1442206	pers
 1442208	pers
 1442210	pers
 pers
-pers
-1442214	pers
-pers
-pers
-1442218	pers
-pers
-pers
-1442222	pers
 topo
-1442227	pers
-1442229	pers
-1442231	pers
-pers
-topo
-1442240	pers
+1442219	pers
 pers
 pers
 pers
@@ -1329,408 +1329,408 @@ pers
 pers
 pers
 pers
-1442265	topo
-1442268	pers
-1442270	pers
+1442244	topo
+1442247	pers
+1442249	pers
 pers
 pers
 pers
-1442278	mens
-1442305	mens
-1442339	topo
-1442348	topo
-1442358	pers
+1442257	mens
+1442284	mens
+1442318	topo
+1442327	topo
+1442337	pers
 pers
 pers
 pers
-1442363	pers
-pers
-pers
-pers
-topo
-pers
-1442373	pers
-pers
-1442378	pers
-1442380	pers
-1442383	topo
-1442386	pers
-1442391	pers
-pers
-pers
-1442395	pers
+1442342	pers
 pers
 pers
 pers
 topo
+pers
+1442352	pers
+pers
+1442357	pers
+1442359	pers
+1442362	topo
+1442365	pers
+1442370	pers
+pers
+pers
+1442374	pers
+pers
+pers
+pers
+topo
 topo
 pers
 pers
 pers
 pers
-1442406	pers
+1442385	pers
 pers
 pers
 pers
 pers
 pers
 pers
+1442393	pers
+pers
+1442396	topo
+topo
+1442399	pers
 1442414	pers
 pers
-1442417	topo
-topo
-1442420	pers
-1442435	pers
+pers
+1442426	pers
+1442428	pers
 pers
 pers
-1442447	pers
+pers
+1442433	pers
+1442437	pers
+pers
+pers
+pers
+pers
+1442443	pers
 1442449	pers
-pers
-pers
-pers
-1442454	pers
-1442458	pers
-pers
-pers
-pers
-pers
-1442464	pers
-1442470	pers
-1442474	topo
-1442478	pers
-1442485	topo
-1442488	topo
+1442453	topo
+1442457	pers
+1442464	topo
+1442467	topo
 topo
 pers,god
-1442492	topo
-1442507	topo
+1442471	topo
+1442486	topo
 pers
-1442512	pers
-1442514	topo
+1442491	pers
+1442493	topo
 topo
-1442520	topo
+1442499	topo
 topo
-1442526	pers
+1442505	pers
 pers
 pers
 gens
 topo
-1442532	pers
+1442511	pers
 pers
 pers
-1442539	topo
-pers
-pers
-pers
-pers
-pers
-pers
-pers
-pers
-1442550	pers
-pers
-pers
-topo
-pers
-pers
-1442557	pers
-pers
-pers
-1442561	pers
+1442518	topo
 pers
 pers
 pers
 pers
 pers
 pers
+pers
+pers
+1442529	pers
 pers
 pers
 topo
 pers
 pers
+1442536	pers
 pers
 pers
-1442576	topo
-topo
-1442580	pers
-pers
-pers
-topo
-topo
-topo
-1442588	topo
-topo
-topo
-1442592	pers
+1442540	pers
 pers
 pers
 pers
 pers
-1442598	pers
-pers
-pers
-pers
-1442603	pers
-1442608	pers
 pers
 pers
 pers
 pers
-1442616	topo
-topo
 topo
 pers
 pers
 pers
 pers
-1442627	pers
+1442555	topo
+topo
+1442559	pers
+pers
+pers
 topo
 topo
 topo
-1442636	topo
-1442643	pers
+1442567	topo
+topo
+topo
+1442571	pers
 pers
 pers
 pers
-1442649	pers
+pers
+1442577	pers
 pers
 pers
-1442655	pers
+pers
+1442582	pers
+1442587	pers
+pers
+pers
+pers
+pers
+1442595	topo
+topo
+topo
+pers
+pers
+pers
+pers
+1442606	pers
+topo
+topo
+topo
+1442615	topo
+1442622	pers
+pers
+pers
+pers
+1442628	pers
+pers
+pers
+1442634	pers
+1442638	pers
+pers
+pers
+topo
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+1442655	topo
+pers
 1442659	pers
 pers
 pers
-topo
+1442663	pers
 pers
 pers
 pers
 pers
 pers
 pers
-pers
-pers
-pers
-pers
-pers
-1442676	topo
-pers
-1442680	pers
-pers
-pers
-1442684	pers
+1442673	pers
+1442675	pers
+1442678	pers
 pers
 pers
 pers
 pers
 pers
 pers
-1442694	pers
-1442696	pers
-1442699	pers
-pers
-pers
-pers
-pers
-pers
-pers
-1442707	pers
-1442813	pers
-1442816	pers
-1442819	pers
-1442825	pers
+1442686	pers
+1442792	pers
+1442795	pers
+1442798	pers
+1442804	pers
 pers
 topo
-1442857	topo
+1442836	topo
 topo
-1442872	topo
-1442874	topo
+1442851	topo
+1442853	topo
 topo
 topo
-1442891	topo
-1442937	topo
+1442870	topo
+1442916	topo
+topo
+1442919	topo
+topo
+topo
+topo
+1442925	topo
+1442927	topo
 topo
 1442940	topo
+1442986	topo
+1442991	pers
+1443001	gens
+1443007	gens
+1443096	topo
+1443107	topo
+1443126	topo
+1443130	topo
+1443225	pers
+1443284	pers
+1443289	gens
+1443292	pers
+1443294	pers
+1443312	topo
+1443388	topo
+1443407	pers
+pers
+1443417	gens
+1443423	topo
+1443459	topo
+1443496	topo
+1443555	pers
+pers
+1443562	pers
+pers
+pers
+pers
+1443570	pers
+1443581	pers
+1443583	topo
 topo
-topo
-topo
-1442946	topo
-1442948	topo
-topo
-1442961	topo
-1443007	topo
-1443012	pers
-1443022	gens
-1443028	gens
-1443117	topo
-1443128	topo
-1443147	topo
-1443151	topo
-1443246	pers
-1443305	pers
-1443310	gens
-1443313	pers
-1443315	pers
-1443333	topo
-1443409	topo
-1443428	pers
-pers
-1443438	gens
-1443444	topo
-1443480	topo
-1443517	topo
-1443576	pers
-pers
-1443583	pers
-pers
-pers
-pers
+1443586	topo
 1443591	pers
-1443602	pers
-1443604	topo
-topo
-1443607	topo
-1443612	pers
 pers
 pers
-1443616	pers
+1443595	pers
 pers
 pers
 pers
 pers
 pers
-1443624	pers
-1443639	topo
+1443603	pers
+1443618	topo
 topo
 pers
 pers
 pers
 pers
-1443649	pers
-1443651	pers
+1443628	pers
+1443630	pers
 pers
 pers
 pers
 pers
-1443657	pers
-pers
-pers
-pers
-pers
-pers
-pers
-pers
-1443667	pers
+1443636	pers
 pers
 pers
 pers
 pers
 pers
-1443675	pers
-1443677	pers
 pers
 pers
-1443685	pers
-pers
-pers
-1443690	pers
-1443692	pers
+1443646	pers
 pers
 pers
 pers
-1443697	pers
 pers
-1443703	pers
 pers
-1443709	pers
+1443654	pers
+1443656	pers
+pers
+pers
+1443664	pers
+pers
+pers
+1443669	pers
+1443671	pers
+pers
+pers
+pers
+1443676	pers
+pers
+1443682	pers
+pers
+1443688	pers
 topo
-1443713	topo
-1443717	topo
+1443692	topo
+1443696	topo
 topo
 topo
-1443721	pers
-1443727	pers
-1443732	topo
+1443700	pers
+1443706	pers
+1443711	topo
 topo
-1443740	topo
-1443749	topo
+1443719	topo
+1443728	topo
 pers
 pers
 pers
-1443762	topo
-1443776	topo
-1443788	pers
-1443795	pers
-1443811	pers
+1443741	topo
+1443755	topo
+1443767	pers
+1443774	pers
+1443790	pers
 pers
-1443875	pers
+1443854	pers
 pers
-1443884	gens
-1443912	topo
-1443914	topo
-1443917	gens,topo
+1443863	gens
+1443891	topo
+1443893	topo
+1443896	gens,topo
 topo
 gens
-1443928	topo
+1443907	topo
+topo
+1443913	topo
 topo
 1443934	topo
-topo
-1443955	topo
-1443958	topo
+1443937	topo
 topo
 topo
 topo
-1443987	pers
-1443991	topo
-1444024	topo
-1444028	topo
+1443966	pers
+1443970	topo
+1444003	topo
+1444007	topo
 topo
 topo
 topo
 topo
 topo
+1444014	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
 1444035	pers
-pers
-pers
-pers
-pers
-pers
-pers
-pers
-1444056	pers
-1444068	topo
-1444078	pers
+1444047	topo
+1444057	pers
 topo
-1444087	pers
-1444108	gens
-1444111	pers
+1444066	pers
+1444087	gens
+1444090	pers
 topo
 topo
-1444122	topo
-1444130	pers
+1444101	topo
+1444109	pers
 pers
-1444136	topo
-1444146	pers
-1444153	topo
-1444164	topo
+1444115	topo
+1444125	pers
+1444132	topo
+1444143	topo
 topo
 topo
 topo
-1444169	topo
-1444171	topo
-1444191	pers
-1444208	topo
-1444215	pers
-1444231	gens
-1444240	pers
-1444258	pers
+1444148	topo
+1444150	topo
+1444170	pers
+1444187	topo
+1444194	pers
+1444210	gens
+1444219	pers
+1444237	pers
 pers
 pers
 pers
 pers
-1444265	pers
+1444244	pers
 pers
 mens
 pers
-1444276	pers
+1444255	pers
 pers
 pers
 pers
@@ -1739,39 +1739,39 @@ pers
 mens
 pers
 topo
-1444300	pers
+1444279	pers
 topo
-1444305	pers
-1444509	pers
-1444511	topo
-1444587	topo
-1444620	pers
-1444622	pers
-1444766	pers
-1444768	pers
-1444840	pers
+1444284	pers
+1444488	pers
+1444490	topo
+1444566	topo
+1444599	pers
+1444601	pers
+1444745	pers
+1444747	pers
+1444819	pers
+pers
+pers
+1444923	pers
+pers
+pers
+1444932	pers
+1444936	pers
+pers
+pers
+pers
 pers
 pers
 1444944	pers
+1444950	pers
 pers
 pers
-1444953	pers
-1444957	pers
-pers
-pers
-pers
-pers
-pers
-1444965	pers
-1444971	pers
-pers
-pers
-1445033	topo
-1445039	topo
-1445123	pers
+1445012	topo
+1445018	topo
+1445102	pers
 topo
 topo
-1445136	pers
+1445115	pers
 pers
 pers
 pers
@@ -1779,71 +1779,71 @@ pers
 pers
 pers
 pers
-1445145	pers
+1445124	pers
 pers
 pers
 pers
 pers
 pers
 pers
-1445154	pers
+1445133	pers
 pers
 pers
 pers
-1445159	pers
+1445138	pers
 mens
-1445163	pers
+1445142	pers
 pers
 pers
 pers
-1445168	mens
-1445170	mens
-1445174	pers
-1445180	pers
+1445147	mens
+1445149	mens
+1445153	pers
+1445159	pers
+1445161	pers
+1445163	mens
+1445169	pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
+pers
 1445182	pers
-1445184	mens
-1445190	pers
+1445184	pers
 pers
 pers
 pers
+1445253	topo
+1445257	pers
+1445264	pers
+1445273	pers
 pers
 pers
+1445287	ppde
+1445310	topo
+pers
+1445316	pers
+1445388	ppde
+1445406	pers
 pers
 pers
-pers
-pers
-1445203	pers
-1445205	pers
-pers
-pers
-pers
-1445274	topo
-1445278	pers
-1445285	pers
-1445294	pers
-pers
-pers
-1445308	ppde
-1445331	topo
-pers
-1445337	pers
-1445409	ppde
-1445427	pers
-pers
-pers
-1445437	topo
-1445604	pers
-1445610	topo
-1445650	topo
+1445416	topo
+1445583	pers
+1445589	topo
+1445629	topo
 topo
-1445653	pers
-1445708	pers
-1445762	pers
-1445764	topo
+1445632	pers
+1445687	pers
+1445741	pers
+1445743	topo
+1445746	pers
+1445761	pers
+1445763	pers
 1445767	pers
-1445782	pers
-1445784	pers
-1445788	pers
 pers
 pers
 pers
@@ -1878,7 +1878,7 @@ pers
 pers
 pers
 pers
-1445824	pers
+1445803	pers
 pers
 pers
 pers
@@ -1909,7 +1909,7 @@ pers
 pers
 pers
 pers
-1445856	pers
+1445835	pers
 pers
 pers
 pers
@@ -1922,37 +1922,37 @@ topo
 pers
 pers
 pers
-1445872	pers
-1445874	pers
-1445878	pers
+1445851	pers
+1445853	pers
+1445857	pers
 pers
-1445883	pers
-1445885	pers
-1445888	pers
-1445900	pers
-1445903	topo
+1445862	pers
+1445864	pers
+1445867	pers
+1445879	pers
+1445882	topo
+1445915	pers
+1445917	pers
+pers
+gens
+pers
+pers
+pers
+pers
+1445925	pers
+pers
 1445936	pers
-1445938	pers
-pers
-gens
-pers
-pers
-pers
-pers
-1445946	pers
-pers
-1445957	pers
-1445963	topo
-1445987	mens
-1445997	pers
+1445942	topo
+1445966	mens
+1445976	pers
 pers
 pers
 pers
 pers
 pers
 pers
-1446006	pers
-1446032	pers
+1445985	pers
+1446011	pers
 pers
 pers
 pers
@@ -1970,15 +1970,12 @@ pers
 topo
 pers
 pers
-1446052	pers
+1446031	pers
 pers
 pers
-1446058	pers
+1446037	pers
 pers
-1446061	pers
-pers
-pers
-pers
+1446040	pers
 pers
 pers
 pers
@@ -2015,36 +2012,39 @@ pers
 pers
 pers
 pers
-1446102	pers
-1446104	topo
-pers
-1446107	topo
 pers
 pers
 pers
+1446081	pers
+1446083	topo
+pers
+1446086	topo
 pers
 pers
 pers
-1446115	pers
-1446117	pers
-1446119	pers
+pers
+pers
+pers
+1446094	pers
+1446096	pers
+1446098	pers
 gens
 pers
 pers
 pers
 pers
 pers
-1446128	pers
+1446107	pers
 pers
 pers
 pers
 pers
 pers
 pers
-1446142	topo
+1446121	topo
 pers
-1446145	mens
-1446148	pers
+1446124	mens
+1446127	pers
 pers
 pers
 pers
@@ -2057,14 +2057,12 @@ topo
 pers
 pers
 pers
-1446162	pers
+1446141	pers
 pers
-1446166	pers
-pers
-pers
-1446172	pers
+1446145	pers
 pers
 pers
+1446151	pers
 pers
 pers
 pers
@@ -2077,7 +2075,9 @@ pers
 pers
 pers
 pers
-1446189	pers
+pers
+pers
+1446168	pers
 pers
 pers
 pers
@@ -2102,25 +2102,25 @@ topo
 topo
 topo
 topo
-1446215	pers
+1446194	pers
 pers
 pers
 pers
-1446220	pers
-pers
-pers
-pers
-pers
+1446199	pers
 pers
 pers
 pers
 pers
-1446231	topo
-1446233	pers
 pers
 pers
 pers
-1446239	pers
+pers
+1446210	topo
+1446212	pers
+pers
+pers
+pers
+1446218	pers
 gens
 pers
 pers
@@ -2186,9 +2186,9 @@ pers
 pers
 topo
 pers
-1446310	topo
-1446313	topo
-1446317	pers
+1446289	topo
+1446292	topo
+1446296	pers
 pers
 pers
 pers
@@ -2217,7 +2217,7 @@ pers
 pers
 pers
 pers
-1446348	pers
+1446327	pers
 pers
 pers
 pers
@@ -2250,7 +2250,7 @@ pers
 pers
 pers
 pers
-1446382	pers
+1446361	pers
 pers
 pers
 pers
@@ -2458,52 +2458,52 @@ pers
 pers
 pers
 pers
-1446591	pers
+1446570	pers
 pers
 pers
-1446595	pers
+1446574	pers
 pers
 pers
-1446599	pers
+1446578	pers
 pers
 pers
-1446603	pers
-1446605	pers
-pers
-pers
-pers
-1446610	pers
+1446582	pers
+1446584	pers
 pers
 pers
 pers
+1446589	pers
 pers
 pers
 pers
 pers
-1446619	pers
+pers
+pers
+pers
+1446598	pers
+1446600	pers
+1446604	pers
+pers
+pers
+pers
+pers
+pers
+pers
+1446612	pers
+pers
+pers
+1446616	pers
+pers
+pers
+pers
 1446621	pers
+pers
+pers
 1446625	pers
 pers
 pers
 pers
-pers
-pers
-pers
-1446633	pers
-pers
-pers
-1446637	pers
-pers
-pers
-pers
-1446642	pers
-pers
-pers
-1446646	pers
-pers
-pers
-pers
-1446651	pers
+1446630	pers
 pers
 pers
 pers
@@ -2517,26 +2517,20 @@ pers
 pers
 pers
 pers
-1446666	pers
-1446668	pers
+1446645	pers
+1446647	pers
 pers
 topo
 topo
 topo
 pers
-1446675	topo
+1446654	topo
 pers
 pers
 pers
 pers
 pers
-1446684	pers
-pers
-pers
-pers
-pers
-pers
-pers
+1446663	pers
 pers
 pers
 pers
@@ -2567,7 +2561,13 @@ pers
 pers
 pers
 pers
-1446722	pers
+pers
+pers
+pers
+pers
+pers
+pers
+1446701	pers
 pers
 pers
 pers
@@ -2579,49 +2579,49 @@ pers
 pers
 pers
 topo
-1446735	pers
+1446714	pers
 pers
 pers
 pers
-1446740	pers
+1446719	pers
 pers
 pers
 pers
+1446726	pers
+1446728	pers
+pers
+pers
+1446733	topo
+1446739	topo
+1446744	topo
 1446747	pers
-1446749	pers
+1446749	topo
+pers
+1446752	pers
+topo
+topo
+pers
+1446757	topo
+pers
+topo
+1446761	pers
 pers
 pers
-1446754	topo
-1446760	topo
-1446765	topo
-1446768	pers
-1446770	topo
+1446765	pers
+pers
+1446769	topo
+topo
 pers
 1446773	pers
+pers
+pers
+1446778	pers
 topo
 topo
 pers
-1446778	topo
+1446783	topo
 pers
-topo
-1446782	pers
+1446787	pers
 pers
-pers
-1446786	pers
-pers
-1446790	topo
-topo
-pers
-1446794	pers
-pers
-pers
-1446799	pers
-topo
-topo
-pers
-1446804	topo
-pers
-1446808	pers
-pers
-1446814	pers
+1446793	pers
 pers

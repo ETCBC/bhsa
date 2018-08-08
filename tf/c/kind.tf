@@ -8,7 +8,7 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-04-13T12:18:58Z
+@dateWritten=2018-08-08T14:23:50Z
 
 427553	VC
 VC
@@ -1347,7 +1347,6 @@ VC
 VC
 VC
 VC
-WP
 VC
 NC
 VC
@@ -8813,6 +8812,7 @@ VC
 WP
 WP
 VC
+WP
 WP
 WP
 NC
@@ -73783,8 +73783,6 @@ NC
 VC
 VC
 WP
-NC
-VC
 NC
 NC
 VC

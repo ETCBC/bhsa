@@ -8,9 +8,9 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-04-13T12:18:44Z
+@dateWritten=2018-08-08T14:23:16Z
 
-651546	und
+651542	und
 NA
 und
 det
@@ -4170,7 +4170,6 @@ det
 NA
 det
 det
-det
 NA
 NA
 det
@@ -26614,6 +26613,7 @@ NA
 NA
 und
 und
+und
 det
 NA
 und
@@ -129446,10 +129446,10 @@ det
 und
 NA
 NA
-und
 NA
-und
+NA
 NA
+NA
 und
 NA
 det
@@ -212112,11 +212112,8 @@ NA
 det
 und
 det
-NA
 NA
-NA
 det
-und
 NA
 und
 NA
@@ -390497,10 +390494,10 @@ und
 NA
 NA
 und
-und
 NA
-und
 NA
+NA
+NA
 und
 NA
 det
@@ -476090,7 +476087,7 @@ und
 det
 NA
 NA
-NA
+und
 det
 und
 NA

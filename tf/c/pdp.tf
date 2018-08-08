@@ -8,7 +8,7 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-04-13T12:19:05Z
+@dateWritten=2018-08-08T14:24:04Z
 
 prep
 subs
@@ -300685,7 +300685,7 @@ conj
 verb
 prep
 subs
-adjv
+subs
 conj
 subs
 subs
@@ -350204,9 +350204,9 @@ verb
 subs
 subs
 prep
-verb
+adjv
 conj
-nega
+subs
 subs
 subs
 conj

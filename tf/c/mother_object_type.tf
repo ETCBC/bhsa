@@ -8,7 +8,7 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-04-13T12:19:02Z
+@dateWritten=2018-08-08T14:23:57Z
 
 427553	clause
 clause
@@ -1349,7 +1349,6 @@ clause
 clause
 clause
 clause
-clause
 phrase
 clause
 clause
@@ -8792,6 +8791,7 @@ clause
 clause
 clause
 phrase
+clause
 clause
 clause
 clause
@@ -73540,8 +73540,6 @@ clause
 clause
 clause
 phrase
-clause
-clause
 clause
 clause
 clause
@@ -88133,7 +88131,7 @@ phrase
 clause
 clause
 clause
-1300563	NA
+1300542	NA
 subphrase
 NA
 subphrase

@@ -8,9 +8,9 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-04-13T12:22:59Z
+@dateWritten=2018-08-08T14:31:54Z
 
-515676	.N
+515674	.N
 ..
 ..
 ..
@@ -1418,8 +1418,7 @@ cq
 ..
 ..
 .#
-cq
-..
+.q
 ..
 .e
 d.
@@ -9032,6 +9031,7 @@ l.
 l.
 l.
 .#
+l.
 l.
 l.
 ..
@@ -75820,8 +75820,6 @@ c.
 ..
 ..
 ..
-..
-..
 .#
 ..
 ..
@@ -78705,7 +78703,7 @@ d.
 ..
 ..
 ..
-l.
+c.
 ..
 ..
 ..

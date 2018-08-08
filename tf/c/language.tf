@@ -8,7 +8,7 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-04-13T12:21:41Z
+@dateWritten=2018-08-08T14:29:20Z
 
 Hebrew
 Hebrew
@@ -426594,7 +426594,7 @@ Hebrew
 Hebrew
 Hebrew
 Hebrew
-1437588	Hebrew
+1437567	Hebrew
 Hebrew
 Hebrew
 Hebrew

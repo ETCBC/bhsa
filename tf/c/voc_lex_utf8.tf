@@ -8,9 +8,9 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-04-13T12:21:45Z
+@dateWritten=2018-08-08T14:29:28Z
 
-1437588	בְּ
+1437567	בְּ
 רֵאשִׁית
 ברא
 אֱלֹהִים

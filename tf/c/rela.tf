@@ -8,7 +8,7 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-04-13T12:19:10Z
+@dateWritten=2018-08-08T14:24:13Z
 
 427553	NA
 NA
@@ -1185,7 +1185,7 @@ Adju
 NA
 NA
 NA
-NA
+Coor
 NA
 NA
 ReVo
@@ -1348,7 +1348,6 @@ NA
 NA
 NA
 NA
-Resu
 NA
 Attr
 NA
@@ -8816,6 +8815,7 @@ NA
 NA
 NA
 NA
+NA
 Attr
 NA
 NA
@@ -62724,7 +62724,6 @@ NA
 RgRc
 NA
 Adju
-NA
 NA
 NA
 NA
@@ -62733,7 +62732,8 @@ NA
 NA
 NA
 NA
-NA
+Coor
+Coor
 NA
 NA
 NA
@@ -65587,7 +65587,7 @@ NA
 NA
 NA
 NA
-NA
+Coor
 NA
 NA
 NA
@@ -65603,7 +65603,7 @@ NA
 NA
 NA
 NA
-NA
+Coor
 NA
 NA
 NA
@@ -73784,8 +73784,6 @@ Subj
 NA
 NA
 Resu
-NA
-NA
 NA
 NA
 NA
@@ -88133,7 +88131,7 @@ Attr
 NA
 NA
 NA
-651546	NA
+651542	NA
 NA
 NA
 NA
@@ -92307,7 +92305,6 @@ NA
 NA
 NA
 NA
-NA
 PrAd
 NA
 NA
@@ -114911,6 +114908,7 @@ NA
 NA
 NA
 NA
+NA
 PrAd
 NA
 NA
@@ -300192,7 +300190,6 @@ NA
 NA
 NA
 Resu
-NA
 NA
 NA
 NA
@@ -300302,8 +300299,6 @@ NA
 NA
 NA
 NA
-NA
-NA
 Resu
 NA
 NA
@@ -345721,7 +345716,7 @@ NA
 NA
 NA
 NA
-NA
+Spec
 Spec
 Spec
 NA
@@ -368972,7 +368967,7 @@ NA
 NA
 NA
 NA
-Spec
+NA
 NA
 NA
 NA
@@ -564167,8 +564162,6 @@ NA
 NA
 NA
 Spec
-NA
-NA
 NA
 NA
 NA
@@ -564214,8 +564207,10 @@ NA
 NA
 NA
 NA
-NA
+Link
+Para
 NA
+Sfxs
 NA
 NA
 NA
@@ -608884,7 +608879,7 @@ Appo
 NA
 NA
 NA
-1300563	NA
+1300542	NA
 par
 NA
 par
