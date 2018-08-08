@@ -8,9 +8,9 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-04-13T12:18:47Z
+@dateWritten=2018-08-08T14:23:20Z
 
-651546	Time
+651542	Time
 Pred
 Subj
 Objc
@@ -4165,10 +4165,9 @@ Pred
 Subj
 Cmpl
 Conj
-Frnt
+Subj
 Objc
 Pred
-Subj
 Subj
 PreC
 Rela
@@ -26614,6 +26613,7 @@ Conj
 Pred
 Objc
 Objc
+Objc
 Cmpl
 Conj
 Objc
@@ -72225,7 +72225,7 @@ Cmpl
 Conj
 Pred
 Subj
-Objc
+Time
 Conj
 Pred
 Subj
@@ -72494,7 +72494,7 @@ Adju
 Conj
 Pred
 Subj
-Objc
+Time
 Conj
 Cmpl
 Pred
@@ -129448,7 +129448,7 @@ Nega
 Pred
 PreC
 Pred
-Objc
+PreC
 NCop
 Subj
 Pred
@@ -212113,10 +212113,7 @@ Objc
 Subj
 PreC
 PreC
-Conj
-Nega
 Subj
-PreC
 Conj
 Subj
 Pred

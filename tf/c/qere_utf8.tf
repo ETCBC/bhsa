@@ -8,7 +8,7 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-04-13T12:23:09Z
+@dateWritten=2018-08-08T14:32:13Z
 
 3897	הַיְצֵ֣א
 4420	אָהֳלֹֽו

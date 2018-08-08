@@ -8,7 +8,7 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-04-13T12:18:46Z
+@dateWritten=2018-08-08T14:23:20Z
 
 427553	?
 ?
@@ -1361,7 +1361,6 @@ Q
 Q
 Q
 Q
-Q
 N
 Q
 Q
@@ -8641,6 +8640,7 @@ N
 N
 N
 N
+Q
 Q
 Q
 Q
@@ -73757,8 +73757,6 @@ N
 ?
 ?
 Q
-?
-?
 ?
 ?
 ?

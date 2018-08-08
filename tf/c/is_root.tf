@@ -8,9 +8,9 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-04-13T12:18:58Z
+@dateWritten=2018-08-08T14:23:50Z
 
-515676	true
+515674	true
 false
 false
 false
@@ -1474,7 +1474,6 @@ false
 false
 false
 false
-false
 true
 false
 false
@@ -8962,6 +8961,7 @@ false
 false
 false
 true
+false
 false
 false
 false
@@ -75808,8 +75808,6 @@ false
 false
 false
 true
-false
-false
 false
 false
 false

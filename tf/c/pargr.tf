@@ -8,9 +8,9 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-04-13T12:22:59Z
+@dateWritten=2018-08-08T14:31:54Z
 
-515676	1
+515674	1
 1
 1
 1
@@ -1418,7 +1418,6 @@
 2.3.1
 2.3.1
 3
-3.1
 3.1
 3.1
 3.1
@@ -9031,6 +9030,7 @@
 1.8
 1.8
 1.8
+1.9
 1.9
 1.9
 1.9
@@ -75807,8 +75807,6 @@
 1.5
 1.6
 1.6
-1
-1
 1
 1
 1

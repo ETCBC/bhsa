@@ -9,7 +9,7 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-04-13T12:24:02Z
+@dateWritten=2018-08-08T14:34:00Z
 
 3
 706
@@ -426595,7 +426595,7 @@
 45
 0
 50
-1437588	3
+1437567	3
 706
 745
 18

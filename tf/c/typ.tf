@@ -8,7 +8,7 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-04-13T12:19:14Z
+@dateWritten=2018-08-08T14:24:20Z
 
 427553	xQtX
 WXQt
@@ -1347,8 +1347,7 @@ InfC
 WQt0
 WQt0
 WayX
-CPen
-xYqX
+WXYq
 NmCl
 xYq0
 InfA
@@ -8813,6 +8812,7 @@ WQtX
 Ellp
 Ellp
 WQt0
+Ellp
 Ellp
 Ellp
 NmCl
@@ -43134,9 +43134,9 @@ NmCl
 NmCl
 Ptcp
 xYq0
-NmCl
+AjCl
 InfC
-NmCl
+AjCl
 NmCl
 ZIm0
 XYqt
@@ -73784,9 +73784,7 @@ Ptcp
 Ptcp
 CPen
 NmCl
-Ptcp
-NmCl
-NmCl
+AjCl
 WXYq
 xYqX
 WXYq
@@ -89541,8 +89539,7 @@ InfC
 WQt0
 WQt0
 WayX
-CPen
-xYqX
+WXYq
 NmCl
 xYq0
 Defc
@@ -97155,6 +97152,7 @@ WQtX
 Ellp
 Ellp
 WQt0
+Ellp
 Ellp
 Ellp
 NmCl
@@ -132540,9 +132538,9 @@ NmCl
 NmCl
 Ptcp
 xYq0
-NmCl
+AjCl
 InfC
-NmCl
+AjCl
 NmCl
 ZIm0
 XYqt
@@ -163938,9 +163936,7 @@ Ptcp
 Ptcp
 CPen
 NmCl
-Ptcp
-NmCl
-NmCl
+AjCl
 WXYq
 xYqX
 WXYq
@@ -178823,7 +178819,7 @@ NmCl
 NmCl
 NmCl
 WYq0
-651546	PP
+651542	PP
 VP
 NP
 PP
@@ -182981,7 +182977,6 @@ CP
 PPrP
 PP
 VP
-PPrP
 DPrP
 NP
 CP
@@ -205425,6 +205420,7 @@ NP
 PP
 CP
 VP
+NP
 NP
 NP
 PP
@@ -308259,9 +308255,9 @@ PP
 PP
 NegP
 VP
-NP
+AdjP
 VP
-NP
+AdjP
 NegP
 NP
 VP
@@ -390925,10 +390921,7 @@ VP
 NP
 NP
 PP
-VP
-CP
-NegP
-NP
+AdjP
 NP
 CP
 NP
@@ -569310,9 +569303,9 @@ PP
 NegP
 VP
 NP
-NP
+AdjP
 VP
-NP
+AdjP
 NegP
 NP
 VP
@@ -654901,9 +654894,9 @@ VP
 NP
 NP
 PP
-VP
+AdjP
 CP
-NegP
+NP
 NP
 NP
 CP

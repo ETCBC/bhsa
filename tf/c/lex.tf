@@ -8,7 +8,7 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-04-13T12:21:42Z
+@dateWritten=2018-08-08T14:29:22Z
 
 B
 R>CJT/
@@ -426594,7 +426594,7 @@ JHWH/
 <M
 W
 <LH[
-1437588	B
+1437567	B
 R>CJT/
 BR>[
 >LHJM/

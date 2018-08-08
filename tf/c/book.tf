@@ -8,7 +8,7 @@
 @version=_temp
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-04-13T12:18:44Z
+@dateWritten=2018-08-08T14:23:16Z
 
 426585	Genesis
 Exodus
@@ -978,7 +978,7 @@ Chronica_II
 Chronica_II
 Chronica_II
 Chronica_II
-1414375	Genesis
+1414354	Genesis
 Genesis
 Genesis
 Genesis
