@@ -1,0 +1,62 @@
+site_name: Text-Fabric
+site_description: >- 
+  Text-Fabric is a Python3 package for Text plus Annotations.
+  It provides a data model,
+  a text file format,
+  and a binary format
+  for (ancient) text plus
+  (linguistic) annotations.
+
+site_author: Dirk Roorda
+
+theme:
+  name: material
+  logo: 'images/tficon-small.png'
+  favicon: 'images/icon/favicon.ico'
+  feature:
+    tabs: false
+repo_url: 'https://github.com/dans-labs/text-fabric/'
+
+pages:
+  - Home: 'index.md'
+  - News: 'News.md'
+  - Install: 'Install.md'
+  - Use: 'Use.md'
+  - Corpora: 'Corpora.md'
+  - Faq: 'Faq.md'
+  - Code:
+    - 'Overview' : 'Code/Overview.md'
+    - 'Stats (overall)' : 'Code/Stats.md'
+    - 'Stats (TF-base)' : 'Code/StatsBase.md'
+    - 'Stats (TF-search)' : 'Code/StatsSearch.md'
+    - 'Stats (TF-apps)' : 'Code/StatsApps.md'
+    - 'Stats (TF-server)' : 'Code/StatsServer.md'
+  - Model:
+    - 'Data': 'Model/Data-Model.md'
+    - 'Format': 'Model/File-formats.md'
+    - 'Tweaks': 'Model/Optimizations.md'
+    - 'Search': 'Model/Search.md'
+  - Api:
+    - 'General': 'Api/General.md'
+    - 'Apps': 'Api/Apps.md'
+    - 'Hebrew Bible': 'Api/Bhsa.md'
+    - 'Cuneiform Tablets': 'Api/Cunei.md'
+    - 'Auxiliary': 'Api/Lib.md'
+  - Server:
+    - 'Kernel': 'Server/Kernel.md'
+    - 'Web': 'Server/Web.md'
+    - 'Common': 'Server/Common.md'
+  - Create:
+    - 'Make TF': 'Create/CreateTF.md'
+    - 'Example data': 'Create/ExampleText.md'
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark

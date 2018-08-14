@@ -20,6 +20,10 @@ So this repository addresses the need for permanency as well as the urge for cha
 More information, especially about the data versions and annotation features, can be found on the
 [data documentation pages](https://etcbc.github.io/bhsa/).
 
+See also
+
+* [Coding the Hebrew Bible](https://doi.org/10.1163/24523666-01000011)
+
 ## License
 
 This work is licensed under a
