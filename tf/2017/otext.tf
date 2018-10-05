@@ -5,6 +5,7 @@
 @dateWritten=2018-01-17T17:25:46Z
 @email=shebanq@ancient-data.org
 @encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)
+@fmt:lex-default={voc_lex_utf8} 
 @fmt:lex-orig-full={g_lex_utf8} 
 @fmt:lex-orig-plain={lex_utf8} 
 @fmt:lex-trans-full={g_lex} 
