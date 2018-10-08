@@ -318,7 +318,9 @@ nodeFeatures = dict(
 
 utils.caption(0, 'Update the otext feature')
 
-metaData = {}
+metaData = {
+  '': provenanceMetadata,
+}
 
 metaData['otext'] = dict()
 metaData['otext'].update(T.config)
@@ -326,7 +328,6 @@ metaData['otext'].update(otextInfo)
 
 for f in nodeFeatures:
     metaData[f] = {}
-    metaData[f].update(provenanceMetadata)
     metaData[f]['valueType'] = 'str'
 
 

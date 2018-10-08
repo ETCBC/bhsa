@@ -9,10 +9,10 @@
 @languageEnglish=farsi
 @provenance=book names from wikipedia and other sources
 @valueType=str
-@version=_temp
+@version=c
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-08-08T14:28:41Z
+@dateWritten=2018-10-08T15:11:15Z
 
 426585	پيدايش
 خروج

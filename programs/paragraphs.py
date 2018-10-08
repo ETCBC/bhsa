@@ -222,7 +222,9 @@ if not SCRIPT:
 
 utils.caption(0, 'Prepare TF paragraph features')
 
-metaData = {}
+metaData = {
+  '': provenanceMetadata,
+}
 nodeFeatures = {}
 
 newFeatures = '''
@@ -237,7 +239,6 @@ nodeFeatures = dict(
 
 for f in nodeFeatures:
     metaData[f] = {}
-    metaData[f].update(provenanceMetadata)
     metaData[f]['valueType'] = 'str'
 
 

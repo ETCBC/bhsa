@@ -574,7 +574,9 @@ for n in F.otype.s('word'):
 
 
 utils.caption(4, 'Update the otype, oslots and otext features')
-metaData = {}
+metaData = {
+  '': provenanceMetadata,
+}
 edgeFeatures = {}
 
 metaData['otext'] = dict()
@@ -585,7 +587,6 @@ metaData['oslots'] = dict(valueType='str')
 
 for f in nodeFeatures:
     metaData[f] = {}
-    metaData[f].update(provenanceMetadata)
     metaData[f]['valueType'] = 'str'
 
 nodeFeatures['otype'] = dict((n, F.otype.v(n)) for n in range(1, maxNode +1))
