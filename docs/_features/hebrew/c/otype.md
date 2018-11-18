@@ -117,10 +117,34 @@ They are continuous stretches of text within their functional counterparts.
 So the functional objects consist of sequences of the corresponding distributional objects, and any gaps in
 the functional object fall neatly between their distributional atoms.
 
+##### Note by Cody Kingham (on the etcbc-vu slack)
+> If you are looking for a sort of neat and tidy definition of
+what constitutes a “phrase” or “clause” in the ETCBC,
+you will probably come away disappointed.
+In its database methodology, the ETCBC purposely avoided strict linguistic definitions
+and sought to build up phrase and clause boundaries with a bottom-up method.
+There are a handful of helpful formal rules that were discovered and integrated into the programs.
+For instance, one rule used by the data creation programs for detecting clause endings is
+to examine parts of speech on either side of a waw conjunction.
+If the part of speech to the left of the conjunction was different than the one to the right,
+it likely indicates a clause boundary.
+For both clause and phrase segmentation, there is a kind of default list of part of speech patterns
+called a phrase set.
+As new patterns are found in the text during an encoding,
+they were added to the phrase set to be utilized in the next analysis.
+> But with all of that said, here is my best try at summarizing a kind of definition of
+clauses and phrases for the etcbc:
+> Clauses and phrases are functional linguistic units made up of their distributional parts,
+i.e. atoms, which are themselves recognizable through regular patterns in the language
+that can be detected through computer-assisted cataloguing and analysis.
+> The most comprehensive and informative summary on how clause/phrases are defined and identified in the ETCBC
+is Eep Talstra 2003 [Text segmentation and linguistic levels - Preparing data for SESB](https://etcbc.github.io/bhsa/references#talstra-eep-2003).
+> Cody Kingham (Slack message)
+
 ##### Note
 > More explanation needed about the distributional and functional objects hierarchies and how they hang together.
-Is `subphrase` functional or distributional?
-Are atoms always *maximal* continous stretches, or can you have two adjacent atoms of the same type?
+* Is `subphrase` functional or distributional?
+* Are atoms always *maximal* continous stretches, or can you have two adjacent atoms of the same type?
 
 See the [AtomsAndMothers notebook]({{site.repoBase}}/programs/AtomsAndMothers.ipynb)
 which makes some basic explorations into these matters.
