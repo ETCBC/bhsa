@@ -2,6 +2,10 @@ incremental: bool
 
 theme: minima
 
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
 baseurl: /bhsa
 
 institute: http://www.etcbc.nl
