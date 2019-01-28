@@ -49,9 +49,9 @@ This data can be processed by
 [Text-Fabric](https://github.com/Dans-labs/text-fabric/wiki).
 
 See also 
-[start](https://github.com/ETCBC/bhsa/blob/master/tutorial/start.ipynb)
+[start](https://nbviewer.jupyter.org/github/annotation/tutorials/blob/master/bhsa/start.ipynb)
 and
-[search](https://github.com/ETCBC/bhsa/blob/master/tutorial/search.ipynb).
+[search](https://nbviewer.jupyter.org/github/annotation/tutorials/blob/master/bhsa/search.ipynb).
 
 [![dans](programs/images/dans.png)](https://www.dans.knaw.nl)
 
