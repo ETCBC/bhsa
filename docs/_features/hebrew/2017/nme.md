@@ -6,7 +6,7 @@ title: nme
 
 
 The consonantal representation of the nominal ending of a word
-[BHSA transliteration]({{site.shebanqw}}/BHSA-Transcription).
+[BHSA transliteration]({{site.tfd}}/Writing/Hebrew.html).
 
 This morpheme feature is present on objects of type [*word*](otype).
 

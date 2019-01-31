@@ -5,7 +5,7 @@ title: pfm
 **preformative -consonantal-transliterated**
 
 The consonantal representation of the preformative of a word
-[BHSA transliteration]({{site.shebanqw}}/BHSA-Transcription).
+[BHSA transliteration]({{site.tfd}}/Writing/Hebrew.html).
 
 This feature is present on objects of type [*word*](otype).
 

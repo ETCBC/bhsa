@@ -6,7 +6,7 @@ title: lex
 
 
 The consonantal representation of the lexeme of a word occurrence in
-[BHSA transliteration]({{site.shebanqw}}/BHSA-Transcription).
+[BHSA transliteration]({{site.tfd}}/Writing/Hebrew.html).
 
 This feature is present on objects of type [*word* and *lex*](otype).
 

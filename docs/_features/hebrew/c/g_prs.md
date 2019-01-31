@@ -6,7 +6,7 @@ title: g_prs
 
 
 The pointed representation of the pronominal suffix of a word in
-[BHSA transliteration]({{site.shebanqw}}/BHSA-Transcription).
+[BHSA transliteration]({{site.tfd}}/Writing/Hebrew.html).
 
 This feature is present on objects of type [*word*](otype).
 
