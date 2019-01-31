@@ -3,6 +3,15 @@ title: News
 type: pages
 ---
 
+### 2019-01-31
+
+Some features only had values for lexeme nodes: `gloss nametype voc_lex voc_lex_utf8`.
+If you want to know the values for individual words, you can easily go from a lexeme node
+down to its occurrences with the `L.d()` function. That is, if you are programming.
+
+But if you are querying, templates tend to become cumbersome because of this.
+So I added the values of these features for lexemes to all of their occurrences.
+
 ### 2018-01-17
 
 * There has been a conversion error: a single lexeme node became tied to a single stray node,
