@@ -1,4 +1,4 @@
-
+#!/usr/bin/env python
 # coding: utf-8
 
 # <img align="right" src="images/dans-small.png"/>
@@ -281,4 +281,10 @@ if hasLex:
     else:
         utils.caption(0, '\tINFO: Same lexeme frequencies computed by lex vs by word')
 utils.caption(0, 'Done')
+
+
+# In[ ]:
+
+
+
 

@@ -1,4 +1,4 @@
-
+#!/usr/bin/env python
 # coding: utf-8
 
 # <img align="right" src="images/dans-small.png"/>
@@ -394,4 +394,10 @@ if SCRIPT:
 
 f = 'subphrase_type'
 print('`' + '` `'.join(sorted(str(x[0]) for x in Fs(f).freqList())) + '`')
+
+
+# In[ ]:
+
+
+
 

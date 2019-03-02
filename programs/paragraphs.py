@@ -1,4 +1,4 @@
-
+#!/usr/bin/env python
 # coding: utf-8
 
 # <img align="right" src="images/dans-small.png"/>
@@ -19,12 +19,12 @@
 # ## Discussion
 # Somebody should tell in more detail what they are, and document it in the feature documentation.
 
-# In[1]:
+# In[3]:
 
 
 import os,sys,re,collections
 from tf.fabric import Fabric
-from tf.transcription import Transcription
+from tf.writing.transcription import Transcription
 import utils
 
 
@@ -326,4 +326,10 @@ for (i, verseNode) in enumerate(F.otype.s('verse')[0:10]):
     verseHeading = '{} {}:{}'.format(*verseLabel) if i == 0 else verseLabel[2]
     utils.caption(0, '\t{}'.format(verseHeading), continuation=True)
     showParagraphs(verseNode)
+
+
+# In[ ]:
+
+
+
 

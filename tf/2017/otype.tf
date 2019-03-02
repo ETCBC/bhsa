@@ -1,7 +1,14 @@
 @node
+@author=Eep Talstra Centre for Bible and Computer
+@dataset=BHSA
+@datasetName=Biblia Hebraica Stuttgartensia Amstelodamensis
+@email=shebanq@ancient-data.org
+@encoders=Constantijn Sikkel (QDF), and Dirk Roorda (TF)
 @valueType=str
+@version=2017
+@website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-01-17T17:25:40Z
+@dateWritten=2019-03-02T09:53:33Z
 
 1-426584	word
 426585-426623	book

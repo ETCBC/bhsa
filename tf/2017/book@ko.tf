@@ -7,12 +7,12 @@
 @language=한국어
 @languageCode=ko
 @languageEnglish=korean
-@provenance=book names according http://www.holybible.or.kr/B_SAENEW/
+@provenance=book names from wikipedia and other sources
 @valueType=str
 @version=2017
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-01-17T17:24:58Z
+@dateWritten=2019-03-02T09:53:07Z
 
 426585	창세기
 출애굽기

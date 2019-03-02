@@ -1,4 +1,4 @@
-
+#!/usr/bin/env python
 # coding: utf-8
 
 # <img align="right" src="images/dans-small.png"/>
@@ -724,4 +724,10 @@ utils.caption(0, '{:<30}: {}'.format(
 utils.caption(4, 'Lexeme info for the first verse')
 
 for w in range(1, 12): showLex(L.u(w, otype='lex')[0])
+
+
+# In[ ]:
+
+
+
 

@@ -1,4 +1,4 @@
-
+#!/usr/bin/env python
 # coding: utf-8
 
 # <img align="right" src="images/dans-small.png"/>
@@ -30,7 +30,7 @@
 
 import os,sys,re,collections
 from tf.fabric import Fabric
-from tf.transcription import Transcription
+from tf.writing.transcription import Transcription
 import utils
 
 
@@ -433,4 +433,10 @@ showVerse = T.sectionFromNode(showNode)
 utils.caption(4, '{} {}:{} in all formats'.format(*showVerse))
 for fmt in T.formats:
     utils.caption(0, '{:<30} {}'.format(fmt, T.text(L.d(showNode, otype='word'), fmt=fmt)))
+
+
+# In[ ]:
+
+
+
 

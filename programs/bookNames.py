@@ -1,4 +1,4 @@
-
+#!/usr/bin/env python
 # coding: utf-8
 
 # <h1>Table of Contents<span class="tocSkip"></span></h1>
@@ -206,4 +206,10 @@ for (lang, langInfo) in sorted(T.languages.items()):
     utils.caption(0, '{:<2} = {:<20} Genesis is {:<20} in {:<20}'.format(lang, langEng, book, language))
 
 utils.caption(0, 'Done')
+
+
+# In[ ]:
+
+
+
 

@@ -8,7 +8,7 @@
 @version=2017
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2018-01-17T17:27:35Z
+@dateWritten=2019-03-02T09:59:58Z
 
 3897	 
 4420	׃
