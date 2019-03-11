@@ -1,8 +1,3 @@
----
-title: Word grammar
-feat: false
----
-
 # Words and morphemes
 
 Words may consist of parts that carry parts of the meaning. These parts are called morphemes.
@@ -18,31 +13,31 @@ The BHSA dataset distinguishes the following morphological elements in a word:
 The information in each of these elements is carried by one or more features in the BHSA dataset.
 These features are also represented by a single shortcut character, which shows up in some feature values, which is why we mention them here.
 
-# prefix
+## prefix
 
 ---|---|---
 [pfm](pfm) | `!` | preformative
 [vbs](vbs) | `]` | verbal stem (root formation)
 
-# lexeme
+## lexeme
 
 ---|---
 [lex](lex) |             word (as dictionary entry)
 [g_word](g_word) |       word (as occurrence in the text)
 
-# suffix
+## suffix
 
 ---|---|---
 [vbe](vbe) | `[` | verbal ending
 [nme](nme) | `/` | nominal ending
 [uvf](uvf) | `~` | univalent final
 
-# enclitic
+## enclitic
 
 ---|---|---
 [prs](prs) | `+` | pronominal suffix
 
-# vowel pattern
+## vowel pattern
 Not present as a separate feature in the dataset.
 
 All these features encode the information that is encountered in the text.

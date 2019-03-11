@@ -1,14 +1,9 @@
----
-title: MQL vs TF-search
-feat: false
----
-
 # Text-Fabric versus SHEBANQ
 
-The [ETCBC]({{site.institute}}) provides two tools to work with its dataset of linguistic annotations
+The [ETCBC]({{institute}}) provides two tools to work with its dataset of linguistic annotations
 to the Hebrew Bible.
 
-One is [SHEBANQ]({{site.shebanq}}) which provides a human readable view on the data on the basis of which researchers
+One is [SHEBANQ]({{shebanq}}) which provides a human readable view on the data on the basis of which researchers
 can write queries. SHEBANQ is an **online** tool that offers to save such queries and show them next to the relevant chapters of the Bible.
 
 SHEBANQ is best used for drawing attention of fellow researchers to interesting patterns in the Hebrew Bible.
@@ -18,37 +13,37 @@ Nevertheless, SHEBANQ falls short for those researchers that want to perform sta
 These researchers need to preprocess the data in ways that an application author cannot anticipate.
 
 The good news is the existence of the other tool,
-[Text-Fabric]({{site.tfw}}).
+[Text-Fabric]({{tfd}}).
 This is an **offline** tool based on exactly the same data that powers SHEBANQ.
 The programming researcher can use Text-Fabric as a preprocessing tool for transforming the complex BHSA data into the formats that are suitable to
 R, spreadsheets, or any format of choice.
-Text-Fabric is open source, downloadable from [GitHub]({{site.tf}}),
-and the data is downloadable from [bhsa]({{site.repo}}).
+Text-Fabric is open source, downloadable from [GitHub]({{tf}}),
+and the data is downloadable from [bhsa]({{repo}}).
 
 It can be installed on MacOS, Windows and Linux.
 The recommended mode of working with the data is: programming in Python within a Jupyter Notebook.
 
-# Tutorial
+## Tutorial
 
 Text-Fabric is ideal if you interested in a certain phenomenon and you want to gather data about that phenomenon.
 Take for example the following notebook:
 
-* [start]({{site.repoBase}}/tutorial/start.ipynb)
-* [search]({{site.repoBase}}/tutorial/search.ipynb)
+* [start]({{repoBase}}/tutorial/start.ipynb)
+* [search]({{repoBase}}/tutorial/search.ipynb)
 
 This points to an explorative way of researching syntactical patterns, without knowing in advance how exactly
 the data is organized.
 
-# Text-Fabric versus MQL
+## Text-Fabric versus MQL
 
 The queries in SHEBANQ are based on MQL, the query language of
-[Emdros]({{site.emdros}}).
+[Emdros]({{emdros}}).
 
 In Text-Fabric we have *search templates*, that can do similar things as MQL queries, but not exactly the same.
 TF-search and MQL-queries have different strengths and weaknesses.
 See the examples in 
 
-* [search vs MQL]({{site.repoBase}}/tutorial/searchFromMQL.ipynb)
+* [search vs MQL]({{repoBase}}/tutorial/searchFromMQL.ipynb)
 
 where we translate a number of MQL queries that are shared by SHEBANQ into Text-Fabric search templates.
 
@@ -72,7 +67,7 @@ where we translate a number of MQL queries that are shared by SHEBANQ into Text-
 * **TF-search** lets you focus on search criteria; because you can process the results after the search, it is very easy to
   draw in context information at will.
    
-### Pitfalls of MQL
+## Pitfalls of MQL
 
 You can also use MQL to get a limited amount of context information.
 If you have a query that pinpoints the textual phenomenon that you are after,

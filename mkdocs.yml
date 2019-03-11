@@ -1,0 +1,62 @@
+site_name: BHSA
+site_description: >- 
+  Biblia Hebraica Stuttgartensia Amstelodamensis core data
+
+site_url: 'https://etcbc.github.io/bhsa/'
+
+site_author: Dirk Roorda
+
+extra:
+  institute: http://www.etcbc.nl
+  org: https://github.com/ETCBC
+  repoBase: https://github.com/ETCBC/bhsa/blob/master
+  repo: https://github.com/ETCBC/bhsa
+  tfBase: https://github.com/annotation/text-fabric/blob/master
+  tf: https://github.com/Dans-labs/text-fabric
+  tfw: https://github.com/Dans-labs/text-fabric/wiki
+  tfd: https://annotation.github.io/text-fabric
+  lf: https://github.com/Dans-labs/laf-fabric
+  shebanq: https://shebanq.ancient-data.org
+  shebanqw: https://github.com/ETCBC/shebanq/wiki
+  dans: https://dans.knaw.nl/nl
+  dbgAcademic: https://www.academic-bible.com/en/online-bibles/biblia-hebraica-stuttgartensia-bhs/read-the-bible-text/
+  dbgMail: mailto:zentrale@dbg.de
+  emdros: https://emdros.org
+  mql: https://emdros.org/mql.html
+  cc: https://creativecommons.org/licenses/by-nc/4.0/
+  doi3: doi.org/10.17026/dans-x8h-y2bv
+  doi3_url: https://doi.org/10.17026%2Fdans-x8h-y2bv 
+  doi4: doi.org/10.17026/dans-2z3-arxf
+  doi4_url: https://doi.org/10.17026/dans-2z3-arxf
+  doi4b: 10.17026/dans-z6y-skyh
+  doi4b_url: https://dx.doi.org/10.17026/dans-z6y-skyh
+  doi2016: doi.org/10.5281/zenodo.591507
+  doi2016_url: https://doi.org/10.5281/zenodo.591507
+  doiBhsa: doi.org/10.5281/zenodo.1007624
+  doiBhsa_url: https://doi.org/10.5281/zenodo.1007624
+  lorentz: http://www.lorentzcenter.nl/lc/web/2012/480/info.php3?wsid=480
+
+
+theme:
+  name: material
+  logo: 'images/etcbc-round-small.png'
+  feature:
+    tabs: false
+repo_url: 'https://github.com/etcbc/bhsa'
+
+strict: false
+
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+
+plugins:
+  - markdownextradata
