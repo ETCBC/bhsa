@@ -21,6 +21,7 @@ Explain why is this a useful feature? Examples needed.
 
 ---|---
 `AjCl`|Adjective clause
+
 `CPen`|Casus pendens
 `Defc`|Defective clause atom
 `Ellp`|Ellipsis
