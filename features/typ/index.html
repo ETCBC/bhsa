@@ -1400,7 +1400,7 @@
                 
                 <p><strong>clause/Phrase(-atom) type</strong></p>
 <p>The linguistic kind of objects.</p>
-<p>This feature is present on objects of type <a href="otype"><em>clause(_atom)</em>, <em>phrase(_atom)</em></a>.</p>
+<p>This feature is present on objects of type <a href="../otype/"><em>clause(_atom)</em>, <em>phrase(_atom)</em></a>.</p>
 <h1 id="clause-atom">Clause (atom)<a class="headerlink" href="#clause-atom" title="Permanent link">&para;</a></h1>
 <p>For <em>clause</em>-like objects the values provide a classification on the basis of the constituents of the clause.
 This feature is also known as <em>clause (atom) type</em>.</p>
@@ -1409,52 +1409,196 @@ This feature is also known as <em>clause (atom) type</em>.</p>
 <p>I prefer a more informative definition.</p>
 </blockquote>
 <p>Explain why is this a useful feature? Examples needed.</p>
-<p>---|---
-<code>AjCl</code>|Adjective clause
-<code>CPen</code>|Casus pendens
-<code>Defc</code>|Defective clause atom
-<code>Ellp</code>|Ellipsis
-<code>InfA</code>|Infinitive absolute clause
-<code>InfC</code>|Infinitive construct clause
-<code>MSyn</code>|Macrosyntactic sign
-<code>NmCl</code>|Nominal clause
-<code>Ptcp</code>|Participle clause
-<code>Reop</code>|Reopening
-<code>Unkn</code>|Unknown
-<code>Voct</code>|Vocative clause
-<code>Way0</code>|Wayyiqtol-null clause
-<code>WayX</code>|Wayyiqtol-X clause
-<code>WIm0</code>|We-imperative-null clause
-<code>WImX</code>|We-imperative-X clause
-<code>WQt0</code>|We-qatal-null clause
-<code>WQtX</code>|We-qatal-X clause
-<code>WxI0</code>|We-x-imperative-null clause
-<code>WXIm</code>|We-X-imperative clause
-<code>WxIX</code>|We-x-imperative-X clause
-<code>WxQ0</code>|We-x-qatal-null clause
-<code>WXQt</code>|We-X-qatal clause
-<code>WxQX</code>|We-x-qatal-X clause
-<code>WxY0</code>|We-x-yiqtol-null clause
-<code>WXYq</code>|We-X-yiqtol clause
-<code>WxYX</code>|We-x-yiqtol-X clause
-<code>WYq0</code>|We-yiqtol-null clause
-<code>WYqX</code>|We-yiqtol-X clause
-<code>xIm0</code>|x-imperative-null clause
-<code>XImp</code>|X-imperative clause
-<code>xImX</code>|x-imperative-X clause
-<code>XPos</code>|Extraposition
-<code>xQt0</code>|x-qatal-null clause
-<code>XQtl</code>|X-qatal clause
-<code>xQtX</code>|x-qatal-X clause
-<code>xYq0</code>|x-yiqtol-null clause
-<code>XYqt</code>|X-yiqtol clause
-<code>xYqX</code>|x-yiqtol-X clause
-<code>ZIm0</code>|Zero-imperative-null clause
-<code>ZImX</code>|Zero-imperative-X clause
-<code>ZQt0</code>|Zero-qatal-null clause
-<code>ZQtX</code>|Zero-qatal-X clause
-<code>ZYq0</code>|Zero-yiqtol-null clause
-<code>ZYqX</code>|Zero-yiqtol-X clause</p>
+<table>
+<thead>
+<tr>
+<th>code</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>AjCl</code></td>
+<td>Adjective clause</td>
+</tr>
+<tr>
+<td><code>CPen</code></td>
+<td>Casus pendens</td>
+</tr>
+<tr>
+<td><code>Defc</code></td>
+<td>Defective clause atom</td>
+</tr>
+<tr>
+<td><code>Ellp</code></td>
+<td>Ellipsis</td>
+</tr>
+<tr>
+<td><code>InfA</code></td>
+<td>Infinitive absolute clause</td>
+</tr>
+<tr>
+<td><code>InfC</code></td>
+<td>Infinitive construct clause</td>
+</tr>
+<tr>
+<td><code>MSyn</code></td>
+<td>Macrosyntactic sign</td>
+</tr>
+<tr>
+<td><code>NmCl</code></td>
+<td>Nominal clause</td>
+</tr>
+<tr>
+<td><code>Ptcp</code></td>
+<td>Participle clause</td>
+</tr>
+<tr>
+<td><code>Reop</code></td>
+<td>Reopening</td>
+</tr>
+<tr>
+<td><code>Unkn</code></td>
+<td>Unknown</td>
+</tr>
+<tr>
+<td><code>Voct</code></td>
+<td>Vocative clause</td>
+</tr>
+<tr>
+<td><code>Way0</code></td>
+<td>Wayyiqtol-null clause</td>
+</tr>
+<tr>
+<td><code>WayX</code></td>
+<td>Wayyiqtol-X clause</td>
+</tr>
+<tr>
+<td><code>WIm0</code></td>
+<td>We-imperative-null clause</td>
+</tr>
+<tr>
+<td><code>WImX</code></td>
+<td>We-imperative-X clause</td>
+</tr>
+<tr>
+<td><code>WQt0</code></td>
+<td>We-qatal-null clause</td>
+</tr>
+<tr>
+<td><code>WQtX</code></td>
+<td>We-qatal-X clause</td>
+</tr>
+<tr>
+<td><code>WxI0</code></td>
+<td>We-x-imperative-null clause</td>
+</tr>
+<tr>
+<td><code>WXIm</code></td>
+<td>We-X-imperative clause</td>
+</tr>
+<tr>
+<td><code>WxIX</code></td>
+<td>We-x-imperative-X clause</td>
+</tr>
+<tr>
+<td><code>WxQ0</code></td>
+<td>We-x-qatal-null clause</td>
+</tr>
+<tr>
+<td><code>WXQt</code></td>
+<td>We-X-qatal clause</td>
+</tr>
+<tr>
+<td><code>WxQX</code></td>
+<td>We-x-qatal-X clause</td>
+</tr>
+<tr>
+<td><code>WxY0</code></td>
+<td>We-x-yiqtol-null clause</td>
+</tr>
+<tr>
+<td><code>WXYq</code></td>
+<td>We-X-yiqtol clause</td>
+</tr>
+<tr>
+<td><code>WxYX</code></td>
+<td>We-x-yiqtol-X clause</td>
+</tr>
+<tr>
+<td><code>WYq0</code></td>
+<td>We-yiqtol-null clause</td>
+</tr>
+<tr>
+<td><code>WYqX</code></td>
+<td>We-yiqtol-X clause</td>
+</tr>
+<tr>
+<td><code>xIm0</code></td>
+<td>x-imperative-null clause</td>
+</tr>
+<tr>
+<td><code>XImp</code></td>
+<td>X-imperative clause</td>
+</tr>
+<tr>
+<td><code>xImX</code></td>
+<td>x-imperative-X clause</td>
+</tr>
+<tr>
+<td><code>XPos</code></td>
+<td>Extraposition</td>
+</tr>
+<tr>
+<td><code>xQt0</code></td>
+<td>x-qatal-null clause</td>
+</tr>
+<tr>
+<td><code>XQtl</code></td>
+<td>X-qatal clause</td>
+</tr>
+<tr>
+<td><code>xQtX</code></td>
+<td>x-qatal-X clause</td>
+</tr>
+<tr>
+<td><code>xYq0</code></td>
+<td>x-yiqtol-null clause</td>
+</tr>
+<tr>
+<td><code>XYqt</code></td>
+<td>X-yiqtol clause</td>
+</tr>
+<tr>
+<td><code>xYqX</code></td>
+<td>x-yiqtol-X clause</td>
+</tr>
+<tr>
+<td><code>ZIm0</code></td>
+<td>Zero-imperative-null clause</td>
+</tr>
+<tr>
+<td><code>ZImX</code></td>
+<td>Zero-imperative-X clause</td>
+</tr>
+<tr>
+<td><code>ZQt0</code></td>
+<td>Zero-qatal-null clause</td>
+</tr>
+<tr>
+<td><code>ZQtX</code></td>
+<td>Zero-qatal-X clause</td>
+</tr>
+<tr>
+<td><code>ZYq0</code></td>
+<td>Zero-yiqtol-null clause</td>
+</tr>
+<tr>
+<td><code>ZYqX</code></td>
+<td>Zero-yiqtol-X clause</td>
+</tr>
+</tbody>
+</table>
 <h1 id="phrase-atom">Phrase (atom)<a class="headerlink" href="#phrase-atom" title="Permanent link">&para;</a></h1>
 <p>For <em>phrase</em>-like objects the values provide a classification on the basis of the syntactic function of the phrase.
 This feature is also known as <em>phrase (atom) type</em>.</p>
@@ -1463,20 +1607,68 @@ This feature is also known as <em>phrase (atom) type</em>.</p>
 <p>I prefer a more informative definition.</p>
 </blockquote>
 <p>Explain why is this a useful feature? Examples needed.</p>
-<p>---|---
-<code>VP</code>   |Verbal phrase
-<code>NP</code>   |Nominal phrase
-<code>PrNP</code> |Proper-noun phrase
-<code>AdvP</code> |Adverbial phrase
-<code>PP</code>   |Prepositional phrase
-<code>CP</code>   |Conjunctive phrase
-<code>PPrP</code> |Personal pronoun phrase
-<code>DPrP</code> |Demonstrative pronoun phrase
-<code>IPrP</code> |Interrogative pronoun phrase
-<code>InjP</code> |Interjectional phrase
-<code>NegP</code> |Negative phrase
-<code>InrP</code> |Interrogative phrase
-<code>AdjP</code> |Adjective phrase</p>
+<table>
+<thead>
+<tr>
+<th>code</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>VP</code></td>
+<td>Verbal phrase</td>
+</tr>
+<tr>
+<td><code>NP</code></td>
+<td>Nominal phrase</td>
+</tr>
+<tr>
+<td><code>PrNP</code></td>
+<td>Proper-noun phrase</td>
+</tr>
+<tr>
+<td><code>AdvP</code></td>
+<td>Adverbial phrase</td>
+</tr>
+<tr>
+<td><code>PP</code></td>
+<td>Prepositional phrase</td>
+</tr>
+<tr>
+<td><code>CP</code></td>
+<td>Conjunctive phrase</td>
+</tr>
+<tr>
+<td><code>PPrP</code></td>
+<td>Personal pronoun phrase</td>
+</tr>
+<tr>
+<td><code>DPrP</code></td>
+<td>Demonstrative pronoun phrase</td>
+</tr>
+<tr>
+<td><code>IPrP</code></td>
+<td>Interrogative pronoun phrase</td>
+</tr>
+<tr>
+<td><code>InjP</code></td>
+<td>Interjectional phrase</td>
+</tr>
+<tr>
+<td><code>NegP</code></td>
+<td>Negative phrase</td>
+</tr>
+<tr>
+<td><code>InrP</code></td>
+<td>Interrogative phrase</td>
+</tr>
+<tr>
+<td><code>AdjP</code></td>
+<td>Adjective phrase</td>
+</tr>
+</tbody>
+</table>
                 
                   
                 

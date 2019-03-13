@@ -1358,40 +1358,120 @@
 As text objects are represented by nodes in
 <a href="https://annotation.github.io/text-fabric">Text-Fabric</a>,
 we shall use both <em>object</em> and <em>node</em> without much consistency.  </p>
-<p>---|---|---
-<code>word</code>         |slot          |single word, fills a <em>slot</em>; sometimes words are not separated by a space
-<code>lex</code>          |--            |lexeme, contains all slots of occupied by its occurrences
-<code>subphrase</code>    |functional    |part of a phrase
-<code>phrase</code>       |functional    |phrase, maybe with gaps
-<code>phrase_atom</code>  |distributional|maximal consecutive part of a phrase
-<code>clause</code>       |functional    |clause, maybe with gaps
-<code>clause_atom</code>  |distributional|maximal consecutive part of a clause
-<code>sentence</code>     |functional    |clause, maybe with gaps
-<code>sentence_atom</code>|distributional|maximal consecutive part of a sentence
-<code>half_verse</code>   |section       |main division of the verse, usually into two, somtimes into three parts
-<code>verse</code>        |section       |numbered unit of a chapter
-<code>chapter</code>      |section       |numbered unit of a book
-<code>book</code>         |section       |named part of the Bible</p>
+<table>
+<thead>
+<tr>
+<th>type</th>
+<th>kind</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>word</code></td>
+<td>slot</td>
+<td>single word, fills a <em>slot</em>; sometimes words are not separated by a space</td>
+</tr>
+<tr>
+<td><code>lex</code></td>
+<td>--</td>
+<td>lexeme, contains all slots of occupied by its occurrences</td>
+</tr>
+<tr>
+<td><code>subphrase</code></td>
+<td>functional</td>
+<td>part of a phrase</td>
+</tr>
+<tr>
+<td><code>phrase</code></td>
+<td>functional</td>
+<td>phrase, maybe with gaps</td>
+</tr>
+<tr>
+<td><code>phrase_atom</code></td>
+<td>distributional</td>
+<td>maximal consecutive part of a phrase</td>
+</tr>
+<tr>
+<td><code>clause</code></td>
+<td>functional</td>
+<td>clause, maybe with gaps</td>
+</tr>
+<tr>
+<td><code>clause_atom</code></td>
+<td>distributional</td>
+<td>maximal consecutive part of a clause</td>
+</tr>
+<tr>
+<td><code>sentence</code></td>
+<td>functional</td>
+<td>clause, maybe with gaps</td>
+</tr>
+<tr>
+<td><code>sentence_atom</code></td>
+<td>distributional</td>
+<td>maximal consecutive part of a sentence</td>
+</tr>
+<tr>
+<td><code>half_verse</code></td>
+<td>section</td>
+<td>main division of the verse, usually into two, somtimes into three parts</td>
+</tr>
+<tr>
+<td><code>verse</code></td>
+<td>section</td>
+<td>numbered unit of a chapter</td>
+</tr>
+<tr>
+<td><code>chapter</code></td>
+<td>section</td>
+<td>numbered unit of a book</td>
+</tr>
+<tr>
+<td><code>book</code></td>
+<td>section</td>
+<td>named part of the Bible</td>
+</tr>
+</tbody>
+</table>
 <p>All objects have a type, which is just a label.
 Objects and their slots are represented in Text-Fabric as <em>nodes</em>.
-The information which object occupies which slot is stored in the edge feature <a href="oslots">oslots</a>.</p>
-<p>---|---
-<a href="#section-types">Section types</a>        |division in books, chapters, etc
-<a href="#word-type">Word type</a>                |all about the individual words
-<a href="#linguistic-types">Linguistic types</a>  |phrases, clauses, etc</p>
+The information which object occupies which slot is stored in the edge feature <a href="../oslots/">oslots</a>.</p>
+<table>
+<thead>
+<tr>
+<th>type</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#section-types">Section types</a></td>
+<td>division in books, chapters, etc</td>
+</tr>
+<tr>
+<td><a href="#word-type">Word type</a></td>
+<td>all about the individual words</td>
+</tr>
+<tr>
+<td><a href="#linguistic-types">Linguistic types</a></td>
+<td>phrases, clauses, etc</td>
+</tr>
+</tbody>
+</table>
 <h1 id="section-types">Section types<a class="headerlink" href="#section-types" title="Permanent link">&para;</a></h1>
 <p>The section types correspond to the various divisional units in the Bible.
 The Hebrew Bible is divided in books, books are divided in chapters, chapters are divided in verses, and verses in half-verses.
 The sectional types
 <code>book</code>, <code>chapter</code>, <code>verse</code>, and <code>half_verse</code>
 specify features which indicate which book, chapter, verse, half-verse their objects refer to.</p>
-<p>A <code>book</code> object carries the <a href="book">book</a> feature, which contains the name of the book.
-A <code>chapter</code> object carries the <a href="chapter">chapter</a> feature, which contains the number of the chapter.
-It carries also the <a href="book">book</a> feature to indicate the book of which it is a chapter.
-Analogously, the <code>verse</code> object carries the <a href="verse">verse</a> feature, which contains the number of the chapter,
-and the <a href="book">book</a> and <a href="chapter">chapter</a> features.
-Additionally, the <code>verse</code> object also carries <a href="label">label</a>, which contains a label string indicating the passage.
-However, the <code>half_verse</code> object only carries the <a href="half_verse">half_verse</a> feature, which contains a key for the half-verse.</p>
+<p>A <code>book</code> object carries the <a href="../book/">book</a> feature, which contains the name of the book.
+A <code>chapter</code> object carries the <a href="../chapter/">chapter</a> feature, which contains the number of the chapter.
+It carries also the <a href="../book/">book</a> feature to indicate the book of which it is a chapter.
+Analogously, the <code>verse</code> object carries the <a href="../verse/">verse</a> feature, which contains the number of the chapter,
+and the <a href="../book/">book</a> and <a href="../chapter/">chapter</a> features.
+Additionally, the <code>verse</code> object also carries <a href="../label/">label</a>, which contains a label string indicating the passage.
+However, the <code>half_verse</code> object only carries the <a href="half_verse.md">half_verse</a> feature, which contains a key for the half-verse.</p>
 <h1 id="word-type">Word type<a class="headerlink" href="#word-type" title="Permanent link">&para;</a></h1>
 <p>There is only one type for words, the <code>word</code> type.
 Word objects correspond to the smallest divisional units in the BHSA dataset.
@@ -1408,22 +1488,55 @@ The <code>_utf8</code> versions contain UNICODE representations of the values, u
 The non <code>_utf8</code> versions contain ASCII representations of the values, according to the
 <a href="https://annotation.github.io/text-fabric/Writing/Hebrew.html">BHSA transliteration</a>.</p>
 <p>The text of a word occurrence is in
-<a href="g_word">g_word</a> (pointed, transliterated) and <a href="g_word_utf8">g_word_utf8</a> (pointed, Hebrew),
-<a href="g_cons">g_cons</a> (consonantal, transliterated) and <a href="g_cons_utf8">g_cons_utf8</a> (consonantal, Hebrew).
+<a href="../g_word/">g_word</a> (pointed, transliterated) and <a href="../g_word_utf8/">g_word_utf8</a> (pointed, Hebrew),
+<a href="../g_cons/">g_cons</a> (consonantal, transliterated) and <a href="../g_cons_utf8/">g_cons_utf8</a> (consonantal, Hebrew).
 None of these features contains material from in between words.
 In order to get inter-word material, use 
-<a href="trailer_utf8">trailer_utf8</a>.</p>
+<a href="../trailer_utf8/">trailer_utf8</a>.</p>
 <p>Word occurrences corresponds to lexemes, i.e. dictionary entries, for which we have a separate object type.
 For the textual representation of lexemes we have a variety of features, in order to get their 
 consonantal values:</p>
-<p>---|---
-<a href="lex">lex</a> | transcription
-<a href="lex0">lex0</a> | transcription without disambiguation characters at the end
-<a href="lex_utf8">lex_utf8</a> | Hebrew</p>
+<table>
+<thead>
+<tr>
+<th>code</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../lex/">lex</a></td>
+<td>transcription</td>
+</tr>
+<tr>
+<td><a href="../lex0/">lex0</a></td>
+<td>transcription without disambiguation characters at the end</td>
+</tr>
+<tr>
+<td><a href="../lex_utf8/">lex_utf8</a></td>
+<td>Hebrew</td>
+</tr>
+</tbody>
+</table>
 <p>or their vocalized values:</p>
-<p>---|---
-<a href="g_lex">g_lex</a> | transcription
-<a href="g_lex_utf8">g_lex_utf8</a> | Hebrew</p>
+<table>
+<thead>
+<tr>
+<th>code</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../g_lex/">g_lex</a></td>
+<td>transcription</td>
+</tr>
+<tr>
+<td><a href="../g_lex_utf8/">g_lex_utf8</a></td>
+<td>Hebrew</td>
+</tr>
+</tbody>
+</table>
 <h1 id="lexeme-type">Lexeme type<a class="headerlink" href="#lexeme-type" title="Permanent link">&para;</a></h1>
 <p>The type <code>lex</code> corresponds to lexemes. A lexeme object occupies the slots of all its occurrences.
 It does not fit into the hierarchy, because these objects will very rarely lie embedded in another object.
@@ -1439,7 +1552,7 @@ lexemes that are unique to books or chapters very easily.</p>
 <blockquote>
 <p>Precisely because of the non-embedding of lexemes in other object types, its use
 in MQL queries is limited. In Text-Fabric there are no problems.
-See the note in <a href="gloss">gloss</a>.</p>
+See the note in <a href="../gloss/">gloss</a>.</p>
 </blockquote>
 <h1 id="linguistic-types">Linguistic types<a class="headerlink" href="#linguistic-types" title="Permanent link">&para;</a></h1>
 <p>Linguistic types correspond to syntactical entities such as sentences, clauses and phrases.

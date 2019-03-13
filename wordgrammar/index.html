@@ -1468,21 +1468,90 @@ They can also be pronominal suffixes, which are almost separate lexemes.</p>
 <p>The information in each of these elements is carried by one or more features in the BHSA dataset.
 These features are also represented by a single shortcut character, which shows up in some feature values, which is why we mention them here.</p>
 <h2 id="prefix">prefix<a class="headerlink" href="#prefix" title="Permanent link">&para;</a></h2>
-<p>---|---|---
-<a href="pfm">pfm</a> | <code>!</code> | preformative
-<a href="vbs">vbs</a> | <code>]</code> | verbal stem (root formation)</p>
+<table>
+<thead>
+<tr>
+<th>feature</th>
+<th>code</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../features/pfm/">pfm</a></td>
+<td><code>!</code></td>
+<td>preformative</td>
+</tr>
+<tr>
+<td><a href="../features/vbs/">vbs</a></td>
+<td><code>]</code></td>
+<td>verbal stem (root formation)</td>
+</tr>
+</tbody>
+</table>
 <h2 id="lexeme">lexeme<a class="headerlink" href="#lexeme" title="Permanent link">&para;</a></h2>
-<p>---|---
-<a href="lex">lex</a> |             word (as dictionary entry)
-<a href="g_word">g_word</a> |       word (as occurrence in the text)</p>
+<table>
+<thead>
+<tr>
+<th>feature</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../features/lex/">lex</a></td>
+<td>word (as dictionary entry)</td>
+</tr>
+<tr>
+<td><a href="../features/g_word/">g_word</a></td>
+<td>word (as occurrence in the text)</td>
+</tr>
+</tbody>
+</table>
 <h2 id="suffix">suffix<a class="headerlink" href="#suffix" title="Permanent link">&para;</a></h2>
-<p>---|---|---
-<a href="vbe">vbe</a> | <code>[</code> | verbal ending
-<a href="nme">nme</a> | <code>/</code> | nominal ending
-<a href="uvf">uvf</a> | <code>~</code> | univalent final</p>
+<table>
+<thead>
+<tr>
+<th>feature</th>
+<th>code</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../features/vbe/">vbe</a></td>
+<td><code>[</code></td>
+<td>verbal ending</td>
+</tr>
+<tr>
+<td><a href="../features/nme/">nme</a></td>
+<td><code>/</code></td>
+<td>nominal ending</td>
+</tr>
+<tr>
+<td><a href="../features/uvf/">uvf</a></td>
+<td><code>~</code></td>
+<td>univalent final</td>
+</tr>
+</tbody>
+</table>
 <h2 id="enclitic">enclitic<a class="headerlink" href="#enclitic" title="Permanent link">&para;</a></h2>
-<p>---|---|---
-<a href="prs">prs</a> | <code>+</code> | pronominal suffix</p>
+<table>
+<thead>
+<tr>
+<th>feature</th>
+<th>code</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../features/prs/">prs</a></td>
+<td><code>+</code></td>
+<td>pronominal suffix</td>
+</tr>
+</tbody>
+</table>
 <h2 id="vowel-pattern">vowel pattern<a class="headerlink" href="#vowel-pattern" title="Permanent link">&para;</a></h2>
 <p>Not present as a separate feature in the dataset.</p>
 <p>All these features encode the information that is encountered in the text.
@@ -1496,13 +1565,47 @@ but the information of several paradigmatical forms must be combined
 to arrive at a definite grammatical label, if this is possible at all.</p>
 <p>If you need to now the grammatical label assigned to a word, e.g. <em>gender</em> = <code>f</code>,
 or <em>state</em> = <code>a</code>, you need to use other features:</p>
-<p>---|---|---
-<a href="gn">gn</a> <a href="prs_gn">prs_gn</a> |  gender       | <code>m</code> <code>f</code>
-<a href="nu">nu</a> <a href="prs_nu">prs_nu</a> |  number       | <code>sg</code> <code>pl</code> <code>du</code>
-<a href="ps">ps</a> <a href="prs_ps">prs_ps</a> |  person       | <code>p1</code> <code>p2</code> <code>p3</code>
-<a href="st">st</a> |  state        | <code>a</code> <code>c</code> <code>e</code>
-<a href="vs">vs</a> |  verbal stem  | <code>qal</code> <code>piel</code> <code>nif</code> <code>hif</code>
-<a href="vt">vt</a> |  verbal tense | <code>perf</code> <code>impf</code> <code>wayq</code></p>
+<table>
+<thead>
+<tr>
+<th>features</th>
+<th>description</th>
+<th>examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../features/gn/">gn</a> <a href="../features/prs_gn/">prs_gn</a></td>
+<td>gender</td>
+<td><code>m</code> <code>f</code></td>
+</tr>
+<tr>
+<td><a href="../features/nu/">nu</a> <a href="../features/prs_nu/">prs_nu</a></td>
+<td>number</td>
+<td><code>sg</code> <code>pl</code> <code>du</code></td>
+</tr>
+<tr>
+<td><a href="../features/ps/">ps</a> <a href="../features/prs_ps/">prs_ps</a></td>
+<td>person</td>
+<td><code>p1</code> <code>p2</code> <code>p3</code></td>
+</tr>
+<tr>
+<td><a href="../features/st/">st</a></td>
+<td>state</td>
+<td><code>a</code> <code>c</code> <code>e</code></td>
+</tr>
+<tr>
+<td><a href="../features/vs/">vs</a></td>
+<td>verbal stem</td>
+<td><code>qal</code> <code>piel</code> <code>nif</code> <code>hif</code></td>
+</tr>
+<tr>
+<td><a href="../features/vt/">vt</a></td>
+<td>verbal tense</td>
+<td><code>perf</code> <code>impf</code> <code>wayq</code></td>
+</tr>
+</tbody>
+</table>
                 
                   
                 
