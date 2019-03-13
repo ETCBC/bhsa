@@ -6,8 +6,9 @@ title: gn
 
 The gender a word (or rather lexeme) belongs to.
 
-This feature is present on objects of type [*word*](otype).
+This feature is present on objects of type [*word*](otype.md).
 
+code|description
 ---|---
 `m`      |masculine
 `f`      |feminine

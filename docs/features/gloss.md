@@ -6,7 +6,7 @@ title: gloss
 
 A short English translation of a single word, disregarding context.
 
-This feature is present on objects of type [*lex*](otype).
+This feature is present on objects of type [*lex*](otype.md).
 
 The *gloss* cannot be used to generate a proper translation.
 Many words have multiple meanings and a good translation chooses between them.

@@ -9,6 +9,7 @@ As text objects are represented by nodes in
 [Text-Fabric]({{tfd}}),
 we shall use both *object* and *node* without much consistency.  
 
+type|kind|description
 ---|---|---
 `word`         |slot          |single word, fills a *slot*; sometimes words are not separated by a space
 `lex`          |--            |lexeme, contains all slots of occupied by its occurrences
@@ -26,8 +27,9 @@ we shall use both *object* and *node* without much consistency.
 
 All objects have a type, which is just a label.
 Objects and their slots are represented in Text-Fabric as *nodes*.
-The information which object occupies which slot is stored in the edge feature [oslots](oslots).
+The information which object occupies which slot is stored in the edge feature [oslots](oslots.md).
 
+type|description
 ---|---
 [Section types](#section-types)        |division in books, chapters, etc
 [Word type](#word-type)                |all about the individual words
@@ -41,13 +43,13 @@ The sectional types
 `book`, `chapter`, `verse`, and `half_verse`
 specify features which indicate which book, chapter, verse, half-verse their objects refer to.
 
-A `book` object carries the [book](book) feature, which contains the name of the book.
-A `chapter` object carries the [chapter](chapter) feature, which contains the number of the chapter.
-It carries also the [book](book) feature to indicate the book of which it is a chapter.
-Analogously, the `verse` object carries the [verse](verse) feature, which contains the number of the chapter,
-and the [book](book) and [chapter](chapter) features.
-Additionally, the `verse` object also carries [label](label), which contains a label string indicating the passage.
-However, the `half_verse` object only carries the [half_verse](half_verse) feature, which contains a key for the half-verse.
+A `book` object carries the [book](book.md) feature, which contains the name of the book.
+A `chapter` object carries the [chapter](chapter.md) feature, which contains the number of the chapter.
+It carries also the [book](book.md) feature to indicate the book of which it is a chapter.
+Analogously, the `verse` object carries the [verse](verse.md) feature, which contains the number of the chapter,
+and the [book](book.md) and [chapter](chapter.md) features.
+Additionally, the `verse` object also carries [label](label.md), which contains a label string indicating the passage.
+However, the `half_verse` object only carries the [half_verse](half_verse.md) feature, which contains a key for the half-verse.
 
 # Word type
 
@@ -68,26 +70,28 @@ The non `_utf8` versions contain ASCII representations of the values, according 
 [BHSA transliteration]({{tfd}}/Writing/Hebrew.html).
 
 The text of a word occurrence is in
-[g_word](g_word) (pointed, transliterated) and [g_word_utf8](g_word_utf8) (pointed, Hebrew),
-[g_cons](g_cons) (consonantal, transliterated) and [g_cons_utf8](g_cons_utf8) (consonantal, Hebrew).
+[g_word](g_word.md) (pointed, transliterated) and [g_word_utf8](g_word_utf8.md) (pointed, Hebrew),
+[g_cons](g_cons.md) (consonantal, transliterated) and [g_cons_utf8](g_cons_utf8.md) (consonantal, Hebrew).
 None of these features contains material from in between words.
 In order to get inter-word material, use 
-[trailer_utf8](trailer_utf8).
+[trailer_utf8](trailer_utf8.md).
 
 Word occurrences corresponds to lexemes, i.e. dictionary entries, for which we have a separate object type.
 For the textual representation of lexemes we have a variety of features, in order to get their 
 consonantal values:
 
+code|description
 ---|---
-[lex](lex) | transcription
-[lex0](lex0) | transcription without disambiguation characters at the end
-[lex_utf8](lex_utf8) | Hebrew
+[lex](lex.md) | transcription
+[lex0](lex0.md) | transcription without disambiguation characters at the end
+[lex_utf8](lex_utf8.md) | Hebrew
 
 or their vocalized values:
 
+code|description
 ---|---
-[g_lex](g_lex) | transcription
-[g_lex_utf8](g_lex_utf8) | Hebrew
+[g_lex](g_lex.md) | transcription
+[g_lex_utf8](g_lex_utf8.md) | Hebrew
 
 # Lexeme type
 
@@ -104,7 +108,7 @@ lexemes that are unique to books or chapters very easily.
 ##### Caution
 > Precisely because of the non-embedding of lexemes in other object types, its use
 in MQL queries is limited. In Text-Fabric there are no problems.
-See the note in [gloss](gloss).
+See the note in [gloss](gloss.md).
 
 # Linguistic types
 

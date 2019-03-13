@@ -7,7 +7,7 @@ title: g_cons_utf8
 
 The consonantal representation of a word occurrence in Hebrew script.
 
-This feature is present on objects of type [*word*](otype).
+This feature is present on objects of type [*word*](otype.md).
 
 Only the consonants of the word occurrence are present: no vowel pointing and no other diacritical marks.
 
@@ -16,5 +16,5 @@ Only the consonants of the word occurrence are present: no vowel pointing and no
 from some other Hebrew text, e.g. from the [SHEBANQ]({{shebanq}}).
 
 You could try to copy and paste Hebrew text into a word processor, then remove all diacritics, and paste the result into
-your query as a value for [g_cons](g_cons).
+your query as a value for [g_cons](g_cons.md).
 

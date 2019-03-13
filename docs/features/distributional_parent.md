@@ -24,5 +24,5 @@ hierarchy.
 
 ##### See also #####
 
-*   [functional_parent](functional_parent)
-*   [mother](mother)
+*   [functional_parent](functional_parent.md)
+*   [mother](mother.md)

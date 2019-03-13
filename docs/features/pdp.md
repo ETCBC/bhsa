@@ -4,7 +4,7 @@ title: pdp
 
 **phrase dependent part-of-speech**
 
-This feature is present on objects of type [*word*](otype).
+This feature is present on objects of type [*word*](otype.md).
 
 The part of speech that is assigned to a word based on its phrase context rather than on its lexical identity.
 
@@ -17,6 +17,7 @@ the word **The** acts as a noun and not as an article, so its `pdp` would be `su
 
 The values consist of an abbreviation, here is the explanation:
 
+code|description
 ---|---
 `art`  |article
 `verb` |verb

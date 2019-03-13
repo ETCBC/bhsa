@@ -7,9 +7,9 @@ title: uvf
 The consonantal representation of the univalent final consonant of a word
 [BHSA transliteration]({{tfd}}/Writing/Hebrew.html).
 
-This feature is present on objects of type [*word*](otype).
+This feature is present on objects of type [*word*](otype.md).
 
-For more about features on morphemes, see [word grammar](../../../wordgrammar).
+For more about features on morphemes, see [word grammar](../wordgrammar.md).
 
 ##### Note
 > The meanings of the univalent final forms need to be listed.

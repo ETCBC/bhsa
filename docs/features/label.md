@@ -5,7 +5,7 @@ title: label
 **(half-)verse label**
 
 
-This feature occurs on objects of type [*verse* and *half-verse*](otype).
+This feature occurs on objects of type [*verse* and *half-verse*](otype.md).
 
 # Half-verse
 

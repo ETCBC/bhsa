@@ -15,27 +15,31 @@ These features are also represented by a single shortcut character, which shows 
 
 ## prefix
 
+feature|code|description
 ---|---|---
-[pfm](pfm) | `!` | preformative
-[vbs](vbs) | `]` | verbal stem (root formation)
+[pfm](features/pfm.md) | `!` | preformative
+[vbs](features/vbs.md) | `]` | verbal stem (root formation)
 
 ## lexeme
 
+feature|description
 ---|---
-[lex](lex) |             word (as dictionary entry)
-[g_word](g_word) |       word (as occurrence in the text)
+[lex](features/lex.md) |             word (as dictionary entry)
+[g_word](features/g_word.md) |       word (as occurrence in the text)
 
 ## suffix
 
+feature|code|description
 ---|---|---
-[vbe](vbe) | `[` | verbal ending
-[nme](nme) | `/` | nominal ending
-[uvf](uvf) | `~` | univalent final
+[vbe](features/vbe.md) | `[` | verbal ending
+[nme](features/nme.md) | `/` | nominal ending
+[uvf](features/uvf.md) | `~` | univalent final
 
 ## enclitic
 
+feature|code|description
 ---|---|---
-[prs](prs) | `+` | pronominal suffix
+[prs](features/prs.md) | `+` | pronominal suffix
 
 ## vowel pattern
 Not present as a separate feature in the dataset.
@@ -54,10 +58,11 @@ to arrive at a definite grammatical label, if this is possible at all.
 If you need to now the grammatical label assigned to a word, e.g. *gender* = `f`,
 or *state* = `a`, you need to use other features:
 
+features|description|examples
 ---|---|---
-[gn](gn) [prs_gn](prs_gn) |  gender       | `m` `f`
-[nu](nu) [prs_nu](prs_nu) |  number       | `sg` `pl` `du`
-[ps](ps) [prs_ps](prs_ps) |  person       | `p1` `p2` `p3`
-[st](st) |  state        | `a` `c` `e`
-[vs](vs) |  verbal stem  | `qal` `piel` `nif` `hif`
-[vt](vt) |  verbal tense | `perf` `impf` `wayq`
+[gn](features/gn.md) [prs_gn](features/prs_gn.md) |  gender       | `m` `f`
+[nu](features/nu.md) [prs_nu](features/prs_nu.md) |  number       | `sg` `pl` `du`
+[ps](features/ps.md) [prs_ps](features/prs_ps.md) |  person       | `p1` `p2` `p3`
+[st](features/st.md) |  state        | `a` `c` `e`
+[vs](features/vs.md) |  verbal stem  | `qal` `piel` `nif` `hif`
+[vt](features/vt.md) |  verbal tense | `perf` `impf` `wayq`

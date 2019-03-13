@@ -6,16 +6,17 @@ title: vs
 
 Stem of the verb that indicates an aspect or constellation of the act expressed by the verb.
 
-This feature is present on objects of type [*word*](otype).
+This feature is present on objects of type [*word*](otype.md).
 
 The Hebrew verb has multiple stems, and each of these stems can be marked with tense/mood.
-For the tenses/moods, see [vt](vt).
+For the tenses/moods, see [vt](vt.md).
 Not all words have verbal stem (e.g. nouns) and these are marked as `NA`.
 
 Here is the list of possible values. Some values are specific for Aramaic.
 
 Hebrew stems:
 
+code|description
 ---|---
 `hif`  |hif‘il
 `hit`  |hitpa“el
@@ -30,6 +31,7 @@ Hebrew stems:
 
 Aramaic stems:
 
+code|description
 ---|---
 `afel` |af‘el
 `etpa` |etpa“al

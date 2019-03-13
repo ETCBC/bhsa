@@ -6,13 +6,13 @@ title: instruction
 
 The so called instruction of a clause atom.
 
-This feature is present on objects of type [*clause_atom*](otype).
+This feature is present on objects of type [*clause_atom*](otype.md).
 
 The value is something like ``.q``, ``..``, ``.d``, ``ve``.
 
 ##### See also
 
-* [txt](txt)
+* [txt](txt.md)
 
 ##### Caution
 > I prefer a more informative definition.

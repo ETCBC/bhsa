@@ -7,7 +7,7 @@ title: tab
 
 The level of this clause_atom in the enclosing hierarchy.
 
-This feature is present on objects of type [*clause_atom*](otype).
+This feature is present on objects of type [*clause_atom*](otype.md).
 
 ##### Note
 > The original definition says:
@@ -20,5 +20,5 @@ they are a member of.
 
 ##### See also
 
-* [code](code)
+* [code](code.md)
 

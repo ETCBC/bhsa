@@ -24,5 +24,5 @@ hierarchy.
 
 ##### See also: #####
 
-*   [distributional_parent](distributional_parent)
-*   [mother](mother)
+*   [distributional_parent](distributional_parent.md)
+*   [mother](mother.md)

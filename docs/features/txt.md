@@ -7,10 +7,11 @@ title: txt
 
 This feature contains property at the level of text.
 
-This feature is present on objects of type [*clause*](otype).
+This feature is present on objects of type [*clause*](otype.md).
 
 The values of this feature are strings consisting of
 
+code|description
 ---|---
 `?`|Unknown
 `N`|Narrative
@@ -19,8 +20,8 @@ The values of this feature are strings consisting of
 
 ##### See also
 
-* [domain](domain)
-* [instruction](instruction)
+* [domain](domain.md)
+* [instruction](instruction.md)
 * A presentation about [text type](../assets/img/txt.pdf)
 
 Text type is a feature of a *clause*, and not of an object type higher 
@@ -42,5 +43,5 @@ the use of a yiqtol (not wayyiqtol) in a narrative environment.
 A `Q` may, but does not always have to be indicated by a *verbum dicendi*: אָמַר or דָּבַר. 
 
 ##### Note
-> What exactly is the connection with [domain](domain)?
+> What exactly is the connection with [domain](domain.md)?
 

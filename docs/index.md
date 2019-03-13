@@ -52,7 +52,7 @@ For the newer versions, starting with `2016`, additional data is available in ot
 In text-fabric it is easy to load the features of several datasets in one session.
 
 ## References
-We have compiled a list of [references](references) to give an impression by what principles
+We have compiled a list of [references](references.md) to give an impression by what principles
 and methods the ETCBC has carried out its text analyses.
 
 ## Workflow

@@ -5,13 +5,13 @@ title: kind
 **clause kind**
 
 
-This feature is present on objects of type [*clause*](otype).
+This feature is present on objects of type [*clause*](otype.md).
 
 ##### Note
 > In version 4 this feature was called `clause_kind`.
 
 This feature divides the clauses into three types: *verbal*, *nominal* and *without predication*.
-It is related to the feature [typ](typ) on clauses, in the sense that each of the values of `kind` 
+It is related to the feature [typ](typ.md) on clauses, in the sense that each of the values of `kind` 
 corresponnds to a set of values of `typ`.
 
 So, this is essentially a feature for convenience: it leads to more concise queries of which the intention is also clearer.

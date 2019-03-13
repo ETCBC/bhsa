@@ -8,7 +8,7 @@ title: g_word
 The pointed representation of a word occurrence in
 [BHSA transliteration]({{tfd}}/Writing/Hebrew.html).
 
-This feature is present on objects of type [*word*](otype).
+This feature is present on objects of type [*word*](otype.md).
 
 All characters of the word occurrence are present: consonants, vowel pointing and other diacritical marks.
 
@@ -19,7 +19,7 @@ The order, chosen in the BHSA dataset is such that the rendering gives optimal r
 The BHSA is not committed to maintain a definite ordering here.
 
 In order not to miss search results, it might be helpful to compare the results with those obtained by using
-[g_cons](g_cons) instead.
+[g_cons](g_cons.md) instead.
 
 ##### Hint
 > Here is an example query:

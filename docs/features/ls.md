@@ -7,10 +7,11 @@ title: ls
 
 Subclassification of part of speech.
 
-This feature is present on objects of type [*lex* and on type *word*](otype).
+This feature is present on objects of type [*lex* and on type *word*](otype.md).
 
 The values consist of an abbreviation, here is the explanation:
 
+code|description
 ---|---
 `nmdi` |distributive noun
 `nmcp` |copulative noun

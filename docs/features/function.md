@@ -6,8 +6,9 @@ title: function
 
 The phrase function denotes the syntactic function of the phrase.
 
-This feature is present on objects of type [*phrase*](otype).
+This feature is present on objects of type [*phrase*](otype.md).
 
+code|description|examples
 ---|---|---
 `Adju`|Adjunct
 `Cmpl`|Complement

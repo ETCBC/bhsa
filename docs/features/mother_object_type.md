@@ -7,8 +7,9 @@ title: mother_object_type
 
 Whether the phrase (atom) is determined or not, in the linguistic sense.
 
-This feature is present on objects of type [*clause*, *subphrase*](otype).
+This feature is present on objects of type [*clause*, *subphrase*](otype.md).
 
+code|description
 ---|---
 `clause`   |mother is a clause object
 `phrase`   |mother is a phrase object
@@ -18,12 +19,12 @@ This feature is present on objects of type [*clause*, *subphrase*](otype).
 
 ##### See also
 
-* [mother](mother).
+* [mother](mother.md).
 
 ##### Note
 > I was unable to locate a definition.
 
-Is there overlap with [dist_unit](dist_unit)?
+Is there overlap with [dist_unit](dist_unit.md)?
 
 There should be an overview page of all mother related features.
 

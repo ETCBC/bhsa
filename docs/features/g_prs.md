@@ -8,9 +8,9 @@ title: g_prs
 The pointed representation of the pronominal suffix of a word in
 [BHSA transliteration]({{tfd}}/Writing/Hebrew.html).
 
-This feature is present on objects of type [*word*](otype).
+This feature is present on objects of type [*word*](otype.md).
 
-For the meaning, see [prs](prs).
+For the meaning, see [prs](prs.md).
 
 ##### Note
 > The defined values of this feature are preceeded by a `+`.

@@ -7,7 +7,7 @@ title: typ
 
 The linguistic kind of objects.
 
-This feature is present on objects of type [*clause(_atom)*, *phrase(_atom)*](otype).
+This feature is present on objects of type [*clause(_atom)*, *phrase(_atom)*](otype.md).
 
 # Clause (atom)
 
@@ -19,7 +19,8 @@ This feature is also known as *clause (atom) type*.
 
 Explain why is this a useful feature? Examples needed.
 
----|---
+code|description
+--- | ---
 `AjCl`|Adjective clause
 `CPen`|Casus pendens
 `Defc`|Defective clause atom
@@ -77,6 +78,7 @@ This feature is also known as *phrase (atom) type*.
 Explain why is this a useful feature? Examples needed.
 
 
+code|description
 ---|---
 `VP`   |Verbal phrase
 `NP`   |Nominal phrase

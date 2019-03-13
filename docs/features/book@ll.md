@@ -54,4 +54,4 @@ The click on the book to see the list of books in that language.
 
 ##### See also
 
-* [book](book)
+* [book](book.md)

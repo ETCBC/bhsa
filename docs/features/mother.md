@@ -6,7 +6,7 @@ title: mother
 necessarily have an embbedding relationship.**
 
 The mother relation exists between objects of many different kinds. The feature
-[code](code) refers to it a lot.
+[code](code.md) refers to it a lot.
 
 See the
 [AtomsAndMothers notebook]({{repoBase}}/programs/AtomsAndMothers.ipynb)
@@ -75,4 +75,4 @@ for c in N():
 
 ##### See also #####
 
-*   [code](code)
+*   [code](code.md)

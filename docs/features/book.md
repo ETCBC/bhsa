@@ -6,11 +6,11 @@ title: book
 
 The Latin name of the present bible book.
 
-This feature is present on objects of type [*book*, *chapter*, and *verse*](otype).
+This feature is present on objects of type [*book*, *chapter*, and *verse*](otype.md).
 
 Below is a list of all books with their number of chapters in the order as encoded in the BHSA dataset.
 
-For book names in other languages: see [book@ll](book@ll)
+For book names in other languages: see [book@ll](book@ll.md)
 
 book | #chapters
 ---|---
