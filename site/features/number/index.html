@@ -1438,7 +1438,7 @@
                 
                 <p><strong>sequence number</strong></p>
 <p>The sequence number of an object within its context.</p>
-<p>This feature is present on objects of type <a href="otype"><em>sentence(_atom)</em>, <em>clause(_atom)</em>, <em>phrase(_atom)</em>, <em>word</em></a>.</p>
+<p>This feature is present on objects of type <a href="../otype/"><em>sentence(_atom)</em>, <em>clause(_atom)</em>, <em>phrase(_atom)</em>, <em>word</em></a>.</p>
 <h5 id="note">Note<a class="headerlink" href="#note" title="Permanent link">&para;</a></h5>
 <blockquote>
 <p>This feature does not occur on <em>subphrases</em>.
@@ -1449,14 +1449,44 @@ Subphrases are numbered per containing phrase.</p>
 </blockquote>
 <p>Numbering starts with 1.
 The manner of numbering objects differs per object type:</p>
-<p>---|---
-phrase_atom  |within the book
-clause_atom  |within the book
-sentence_atom|within the book
-word         |within the book
-phrase       |within the clause
-clause       |within the sentence
-sentence     |within the chapter</p>
+<table>
+<thead>
+<tr>
+<th>type</th>
+<th>numbering</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>phrase_atom</td>
+<td>within the book</td>
+</tr>
+<tr>
+<td>clause_atom</td>
+<td>within the book</td>
+</tr>
+<tr>
+<td>sentence_atom</td>
+<td>within the book</td>
+</tr>
+<tr>
+<td>word</td>
+<td>within the book</td>
+</tr>
+<tr>
+<td>phrase</td>
+<td>within the clause</td>
+</tr>
+<tr>
+<td>clause</td>
+<td>within the sentence</td>
+</tr>
+<tr>
+<td>sentence</td>
+<td>within the chapter</td>
+</tr>
+</tbody>
+</table>
 <h5 id="note_1">Note<a class="headerlink" href="#note_1" title="Permanent link">&para;</a></h5>
 <blockquote>
 <p>An explanation of the rationale behind these numbering schemes would be helpful.</p>

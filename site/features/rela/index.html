@@ -1414,19 +1414,53 @@
                 
                 <p><strong>relation</strong></p>
 <p>The linguistic relation between the object and its context.</p>
-<p>This feature is present on objects of type <a href="otype"><em>clause</em>, <em>phrase(_atom)</em>, and <em>subphrase</em></a>.</p>
+<p>This feature is present on objects of type <a href="../otype/"><em>clause</em>, <em>phrase(_atom)</em>, and <em>subphrase</em></a>.</p>
 <h1 id="subphrase">Subphrase<a class="headerlink" href="#subphrase" title="Permanent link">&para;</a></h1>
-<p>---|---|---
-<code>ADJ</code>|<code>adj</code>|Adjunct
-<code>ATR</code>|<code>atr</code>|Attribute
-<code>DEM</code>|<code>dem</code>|Demonstrative
-<code>MOD</code>|<code>mod</code>|Modifier
-<code>PAR</code>|<code>par</code>|Parallel
-<code>REG</code>|<code>rec</code>|Regens</p>
+<table>
+<thead>
+<tr>
+<th>code</th>
+<th>code</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ADJ</code></td>
+<td><code>adj</code></td>
+<td>Adjunct</td>
+</tr>
+<tr>
+<td><code>ATR</code></td>
+<td><code>atr</code></td>
+<td>Attribute</td>
+</tr>
+<tr>
+<td><code>DEM</code></td>
+<td><code>dem</code></td>
+<td>Demonstrative</td>
+</tr>
+<tr>
+<td><code>MOD</code></td>
+<td><code>mod</code></td>
+<td>Modifier</td>
+</tr>
+<tr>
+<td><code>PAR</code></td>
+<td><code>par</code></td>
+<td>Parallel</td>
+</tr>
+<tr>
+<td><code>REG</code></td>
+<td><code>rec</code></td>
+<td>Regens</td>
+</tr>
+</tbody>
+</table>
 <p>The kind of relationship between the object (daughter) and its mother.
 In case of the regens/rectum relation, the mother is not a subphrase, but a word.
 The upper case values apply to the mother subphrase and the lower case values apply to the daughter subphrase.
-See <a href="mother">mother</a>.</p>
+See <a href="../mother/">mother</a>.</p>
 <h5 id="note">Note<a class="headerlink" href="#note" title="Permanent link">&para;</a></h5>
 <blockquote>
 <p>In MQL the feature applies to the <em>daughter</em> only; the mother has the value <code>NA</code>.</p>
@@ -1438,12 +1472,36 @@ Examples needed.</p>
 </blockquote>
 <p>Explain why is this a useful feature. Examples needed.</p>
 <h1 id="phrase_atom">Phrase_atom<a class="headerlink" href="#phrase_atom" title="Permanent link">&para;</a></h1>
-<p>---|---
-<code>Appo</code>|Apposition
-<code>Sfxs</code>|Suffix specification
-<code>Link</code>|Conjunction
-<code>Spec</code>|Specification
-<code>Para</code>|Parallel</p>
+<table>
+<thead>
+<tr>
+<th>code</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Appo</code></td>
+<td>Apposition</td>
+</tr>
+<tr>
+<td><code>Sfxs</code></td>
+<td>Suffix specification</td>
+</tr>
+<tr>
+<td><code>Link</code></td>
+<td>Conjunction</td>
+</tr>
+<tr>
+<td><code>Spec</code></td>
+<td>Specification</td>
+</tr>
+<tr>
+<td><code>Para</code></td>
+<td>Parallel</td>
+</tr>
+</tbody>
+</table>
 <p>This feature expresses the way a phrase atom is used in building a complex phrase.</p>
 <h5 id="note_2">Note<a class="headerlink" href="#note_2" title="Permanent link">&para;</a></h5>
 <blockquote>
@@ -1451,14 +1509,29 @@ Examples needed.</p>
 </blockquote>
 <p>Explain why is this a useful feature? Examples needed.</p>
 <h1 id="phrase">Phrase<a class="headerlink" href="#phrase" title="Permanent link">&para;</a></h1>
-<p>---|---
-<code>PrAd</code>|Predicative adjunct
-<code>Resu</code>|Resumption</p>
+<table>
+<thead>
+<tr>
+<th>code</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>PrAd</code></td>
+<td>Predicative adjunct</td>
+</tr>
+<tr>
+<td><code>Resu</code></td>
+<td>Resumption</td>
+</tr>
+</tbody>
+</table>
 <p>This feature expresses how phrases refer to each other.
-The value for <em>rela</em> has been derived from the value of phrase <a href="function">function</a> of the daughter
+The value for <em>rela</em> has been derived from the value of phrase <a href="../function/">function</a> of the daughter
 (<code>PrAd</code> yields <code>PrAd</code>)
 or the mother (<code>Frnt</code> yields <code>Resu</code>).
-See <a href="mother">mother</a>.
+See <a href="../mother/">mother</a>.
 The mother of a resumption can be a clause, namely when the constituent in question resumes a casus pendens clause.</p>
 <h5 id="note_3">Note<a class="headerlink" href="#note_3" title="Permanent link">&para;</a></h5>
 <blockquote>
@@ -1468,19 +1541,64 @@ Is the object in question (the one carrying the <em>rela</em> feature), the moth
 <p>I prefer a more informative definition.</p>
 <p>Explain why is this a useful feature? Examples needed.</p>
 <h1 id="clause">Clause<a class="headerlink" href="#clause" title="Permanent link">&para;</a></h1>
-<p>---|---
-<code>Adju</code>|Adjunctive clause
-<code>Attr</code>|Attributive clause
-<code>Cmpl</code>|Complement clause
-<code>Coor</code>|Coordinated clause
-<code>Objc</code>|Object clause
-<code>PrAd</code>|Predicative adjunct clause
-<code>PreC</code>|Predicative complement clause
-<code>ReVo</code>|Referral to the vocative
-<code>Resu</code>|Resumptive clause
-<code>RgRc</code>|Regens/rectum connection
-<code>Spec</code>|Specification clause
-<code>Subj</code>|Subject clause</p>
+<table>
+<thead>
+<tr>
+<th>code</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Adju</code></td>
+<td>Adjunctive clause</td>
+</tr>
+<tr>
+<td><code>Attr</code></td>
+<td>Attributive clause</td>
+</tr>
+<tr>
+<td><code>Cmpl</code></td>
+<td>Complement clause</td>
+</tr>
+<tr>
+<td><code>Coor</code></td>
+<td>Coordinated clause</td>
+</tr>
+<tr>
+<td><code>Objc</code></td>
+<td>Object clause</td>
+</tr>
+<tr>
+<td><code>PrAd</code></td>
+<td>Predicative adjunct clause</td>
+</tr>
+<tr>
+<td><code>PreC</code></td>
+<td>Predicative complement clause</td>
+</tr>
+<tr>
+<td><code>ReVo</code></td>
+<td>Referral to the vocative</td>
+</tr>
+<tr>
+<td><code>Resu</code></td>
+<td>Resumptive clause</td>
+</tr>
+<tr>
+<td><code>RgRc</code></td>
+<td>Regens/rectum connection</td>
+</tr>
+<tr>
+<td><code>Spec</code></td>
+<td>Specification clause</td>
+</tr>
+<tr>
+<td><code>Subj</code></td>
+<td>Subject clause</td>
+</tr>
+</tbody>
+</table>
 <p>For <em>clause</em>-like objects this feature is also called <em>clause constituent relation</em>;
 it indicates the syntactic function of the clause.</p>
 <h5 id="note_4">Note<a class="headerlink" href="#note_4" title="Permanent link">&para;</a></h5>

@@ -1636,7 +1636,7 @@
 <p>This is the key to the meaning of the features of the
 <a href="https://github.com/ETCBC/bhsa">BHSA dataset</a>.</p>
 <p>We organize the features in several groups, roughly analogous to the
-<a href="otype">types of objects</a>
+<a href="../otype/">types of objects</a>
 we have:</p>
 <ul>
 <li><a href="#grid-features">grid</a></li>
@@ -1648,107 +1648,560 @@ we have:</p>
 <li><a href="#generic-features">generic</a></li>
 </ul>
 <h2 id="grid-features">Grid features<a class="headerlink" href="#grid-features" title="Permanent link">&para;</a></h2>
-<p>---|---|---
-<a href="otype">otype</a> | node type | <code>book</code> <code>verse</code> <code>clause</code> <code>phrase</code> <code>word</code>
-<a href="oslots">oslots</a> | slot containment | <code>1</code> <code>1-11</code> <code>2010-2015,2020-2030</code>
-<a href="otext">otext</a> | textapi | <em>no data, only specifications</em>  </p>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>description</th>
+<th>examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../otype/">otype</a></td>
+<td>node type</td>
+<td><code>book</code> <code>verse</code> <code>clause</code> <code>phrase</code> <code>word</code></td>
+</tr>
+<tr>
+<td><a href="../oslots/">oslots</a></td>
+<td>slot containment</td>
+<td><code>1</code> <code>1-11</code> <code>2010-2015,2020-2030</code></td>
+</tr>
+<tr>
+<td><a href="../otext/">otext</a></td>
+<td>textapi</td>
+<td><em>no data, only specifications</em></td>
+</tr>
+</tbody>
+</table>
 <h2 id="sectional-features">Sectional features<a class="headerlink" href="#sectional-features" title="Permanent link">&para;</a></h2>
-<p>---|---|---
-<a href="book">book</a> | name of Bible book | <code>Genesis</code> <code>Psalmi</code> <code>Amos</code>
-<a href="chapter">chapter</a> | number of chapter within book | <code>3</code>
-<a href="verse">verse</a> | number of verse within chapter | <code>4</code>
-<a href="label#verse">label</a> | passage indicator | <code>AMOS 03,04</code>
-<a href="label#half-verse">label</a> | key for part within verse | <code>A</code> <code>B</code> <code>C</code></p>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>description</th>
+<th>examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../book/">book</a></td>
+<td>name of Bible book</td>
+<td><code>Genesis</code> <code>Psalmi</code> <code>Amos</code></td>
+</tr>
+<tr>
+<td><a href="../chapter/">chapter</a></td>
+<td>number of chapter within book</td>
+<td><code>3</code></td>
+</tr>
+<tr>
+<td><a href="../verse/">verse</a></td>
+<td>number of verse within chapter</td>
+<td><code>4</code></td>
+</tr>
+<tr>
+<td><a href="label#verse">label</a></td>
+<td>passage indicator</td>
+<td><code>AMOS 03,04</code></td>
+</tr>
+<tr>
+<td><a href="label#half-verse">label</a></td>
+<td>key for part within verse</td>
+<td><code>A</code> <code>B</code> <code>C</code></td>
+</tr>
+</tbody>
+</table>
 <h2 id="lexeme-features">Lexeme features<a class="headerlink" href="#lexeme-features" title="Permanent link">&para;</a></h2>
 <p>(on node type <code>lex</code>)</p>
-<p>---|---|---
-<a href="lex">lex</a> | lexeme consonantal transliterated | <code>&gt;MR[</code>
-<a href="voc_lex">voc_lex</a> | lexeme pointed transliterated | <code>R;&gt;CIJT</code>
-<a href="voc_lex_utf8">voc_lex_utf8</a> | lexeme pointed hebrew | <code>רֵאשִׁית</code>
-<a href="sp">sp</a> | part of speech | <code>verb</code> <code>subs</code>
-<a href="ls">ls</a> | lexical set | <code>quot</code> <code>ques</code>
-<a href="nametype">nametype</a> | type of named entity | <code>topo</code>
-<a href="gloss">gloss</a> | gloss | <code>beginning</code>
-<a href="language">language</a> | language (English name) | <code>Hebrew</code> <code>Aramaic</code>
-<a href="languageISO">languageISO</a> | language (ISO code) | <code>hbo</code> <code>arc</code></p>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>description</th>
+<th>examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../lex/">lex</a></td>
+<td>lexeme consonantal transliterated</td>
+<td><code>&gt;MR[</code></td>
+</tr>
+<tr>
+<td><a href="../voc_lex/">voc_lex</a></td>
+<td>lexeme pointed transliterated</td>
+<td><code>R;&gt;CIJT</code></td>
+</tr>
+<tr>
+<td><a href="../voc_lex_utf8/">voc_lex_utf8</a></td>
+<td>lexeme pointed hebrew</td>
+<td><code>רֵאשִׁית</code></td>
+</tr>
+<tr>
+<td><a href="../sp/">sp</a></td>
+<td>part of speech</td>
+<td><code>verb</code> <code>subs</code></td>
+</tr>
+<tr>
+<td><a href="../ls/">ls</a></td>
+<td>lexical set</td>
+<td><code>quot</code> <code>ques</code></td>
+</tr>
+<tr>
+<td><a href="../nametype/">nametype</a></td>
+<td>type of named entity</td>
+<td><code>topo</code></td>
+</tr>
+<tr>
+<td><a href="../gloss/">gloss</a></td>
+<td>gloss</td>
+<td><code>beginning</code></td>
+</tr>
+<tr>
+<td><a href="../language/">language</a></td>
+<td>language (English name)</td>
+<td><code>Hebrew</code> <code>Aramaic</code></td>
+</tr>
+<tr>
+<td><a href="../languageISO/">languageISO</a></td>
+<td>language (ISO code)</td>
+<td><code>hbo</code> <code>arc</code></td>
+</tr>
+</tbody>
+</table>
 <h2 id="word-features">Word features<a class="headerlink" href="#word-features" title="Permanent link">&para;</a></h2>
 <h3 id="orthography">Orthography<a class="headerlink" href="#orthography" title="Permanent link">&para;</a></h3>
-<p>---|---|---|---|---
-<a href="g_cons">g_cons</a> | word | consonantal | transliterated | <code>&gt;CR</code>
-<a href="g_cons_utf8">g_cons_utf8</a> | word | consonantal | hebrew | <code>אשׁר</code>
-<a href="g_word">g_word</a> | word | pointed | transliterated | <code>&gt;:ACER&amp;</code>
-<a href="g_word_utf8">g_word_utf8</a> | word | pointed | hebrew | <code>אֲשֶׁר</code>
-<a href="qere">qere</a> | word (qere) | consonantal | hebrew | <code>HAJ:Y;74&gt;</code>
-<a href="qere_utf8">qere_utf8</a> | word (qere) | pointed | hebrew | <code>הַיְצֵ֣א</code>
-<a href="trailer_utf8">trailer_utf8</a> | after-word | pointed | hebrew | <code>׃ ׆̇</code>
-<a href="qere_trailer">qere_trailer</a> | after-word (qere) | pointed | hebrew | <code>׃ ׆̇</code>
-<a href="trailer_utf8">qere_trailer_utf8</a> | after-word (qere) | pointed | hebrew | <code>׃ ׆̇</code></p>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>nodetype</th>
+<th>description</th>
+<th>mode</th>
+<th>examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../g_cons/">g_cons</a></td>
+<td>word</td>
+<td>consonantal</td>
+<td>transliterated</td>
+<td><code>&gt;CR</code></td>
+</tr>
+<tr>
+<td><a href="../g_cons_utf8/">g_cons_utf8</a></td>
+<td>word</td>
+<td>consonantal</td>
+<td>hebrew</td>
+<td><code>אשׁר</code></td>
+</tr>
+<tr>
+<td><a href="../g_word/">g_word</a></td>
+<td>word</td>
+<td>pointed</td>
+<td>transliterated</td>
+<td><code>&gt;:ACER&amp;</code></td>
+</tr>
+<tr>
+<td><a href="../g_word_utf8/">g_word_utf8</a></td>
+<td>word</td>
+<td>pointed</td>
+<td>hebrew</td>
+<td><code>אֲשֶׁר</code></td>
+</tr>
+<tr>
+<td><a href="../qere/">qere</a></td>
+<td>word (qere)</td>
+<td>consonantal</td>
+<td>hebrew</td>
+<td><code>HAJ:Y;74&gt;</code></td>
+</tr>
+<tr>
+<td><a href="../qere_utf8/">qere_utf8</a></td>
+<td>word (qere)</td>
+<td>pointed</td>
+<td>hebrew</td>
+<td><code>הַיְצֵ֣א</code></td>
+</tr>
+<tr>
+<td><a href="../trailer_utf8/">trailer_utf8</a></td>
+<td>after-word</td>
+<td>pointed</td>
+<td>hebrew</td>
+<td><code>׃ ׆̇</code></td>
+</tr>
+<tr>
+<td><a href="../qere_trailer/">qere_trailer</a></td>
+<td>after-word (qere)</td>
+<td>pointed</td>
+<td>hebrew</td>
+<td><code>׃ ׆̇</code></td>
+</tr>
+<tr>
+<td><a href="../trailer_utf8/">qere_trailer_utf8</a></td>
+<td>after-word (qere)</td>
+<td>pointed</td>
+<td>hebrew</td>
+<td><code>׃ ׆̇</code></td>
+</tr>
+</tbody>
+</table>
 <h3 id="lexical-on-node-type-word">Lexical (on node type <code>word</code>)<a class="headerlink" href="#lexical-on-node-type-word" title="Permanent link">&para;</a></h3>
-<p>---|---|---|---|---
-<a href="lex">lex</a> | word | consonantal | transliterated | <code>&gt;MR[</code>
-<a href="lex_utf8">lex_utf8</a> | word | consonantal | hebrew | <code>אמר</code>
-<a href="g_lex">g_lex</a> | word | pointed | transliterated | <code>&gt;MER</code>
-<a href="g_lex_utf8">g_lex_utf8</a> | word | pointed | hebrew | <code>אמֶר</code></p>
-<p>---|---|---|---
-<a href="language">language</a> | language (English name) | <code>Hebrew</code> <code>Aramaic</code>
-<a href="languageISO">languageISO</a> | language (ISO code) | <code>hbo</code> <code>arc</code>
-<a href="sp">sp</a> | part of speech | <code>verb</code> <code>subs</code>
-<a href="pdp">pdp</a> | phrase dependent part of speech | <code>verb</code> <code>subs</code>
-<a href="ls">ls</a> | lexical set | <code>quot</code> <code>ques</code></p>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>nodetype</th>
+<th>description</th>
+<th>mode</th>
+<th>examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../lex/">lex</a></td>
+<td>word</td>
+<td>consonantal</td>
+<td>transliterated</td>
+<td><code>&gt;MR[</code></td>
+</tr>
+<tr>
+<td><a href="../lex_utf8/">lex_utf8</a></td>
+<td>word</td>
+<td>consonantal</td>
+<td>hebrew</td>
+<td><code>אמר</code></td>
+</tr>
+<tr>
+<td><a href="../g_lex/">g_lex</a></td>
+<td>word</td>
+<td>pointed</td>
+<td>transliterated</td>
+<td><code>&gt;MER</code></td>
+</tr>
+<tr>
+<td><a href="../g_lex_utf8/">g_lex_utf8</a></td>
+<td>word</td>
+<td>pointed</td>
+<td>hebrew</td>
+<td><code>אמֶר</code></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>description</th>
+<th>examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../language/">language</a></td>
+<td>language (English name)</td>
+<td><code>Hebrew</code> <code>Aramaic</code></td>
+</tr>
+<tr>
+<td><a href="../languageISO/">languageISO</a></td>
+<td>language (ISO code)</td>
+<td><code>hbo</code> <code>arc</code></td>
+</tr>
+<tr>
+<td><a href="../sp/">sp</a></td>
+<td>part of speech</td>
+<td><code>verb</code> <code>subs</code></td>
+</tr>
+<tr>
+<td><a href="../pdp/">pdp</a></td>
+<td>phrase dependent part of speech</td>
+<td><code>verb</code> <code>subs</code></td>
+</tr>
+<tr>
+<td><a href="../ls/">ls</a></td>
+<td>lexical set</td>
+<td><code>quot</code> <code>ques</code></td>
+</tr>
+</tbody>
+</table>
 <h3 id="morphology">Morphology<a class="headerlink" href="#morphology" title="Permanent link">&para;</a></h3>
-<p>---|---|---
-<a href="gn">gn</a> <a href="prs_gn">prs_gn</a> |  gender       | <code>m</code> <code>f</code>
-<a href="nu">nu</a> <a href="prs_nu">prs_nu</a> |  number       | <code>sg</code> <code>pl</code> <code>du</code>
-<a href="ps">ps</a> <a href="prs_ps">prs_ps</a> |  person       | <code>p1</code> <code>p2</code> <code>p3</code>
-<a href="st">st</a> | state | <code>a</code> <code>c</code> <code>e</code>
-<a href="vs">vs</a> | verbal stem | <code>qal</code> <code>piel</code> <code>nif</code> <code>hif</code>
-<a href="vt">vt</a> | verbal tense | <code>perf</code> <code>impf</code> <code>wayq</code></p>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>description</th>
+<th>examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../gn/">gn</a> <a href="../prs_gn/">prs_gn</a></td>
+<td>gender</td>
+<td><code>m</code> <code>f</code></td>
+</tr>
+<tr>
+<td><a href="../nu/">nu</a> <a href="../prs_nu/">prs_nu</a></td>
+<td>number</td>
+<td><code>sg</code> <code>pl</code> <code>du</code></td>
+</tr>
+<tr>
+<td><a href="../ps/">ps</a> <a href="../prs_ps/">prs_ps</a></td>
+<td>person</td>
+<td><code>p1</code> <code>p2</code> <code>p3</code></td>
+</tr>
+<tr>
+<td><a href="../st/">st</a></td>
+<td>state</td>
+<td><code>a</code> <code>c</code> <code>e</code></td>
+</tr>
+<tr>
+<td><a href="../vs/">vs</a></td>
+<td>verbal stem</td>
+<td><code>qal</code> <code>piel</code> <code>nif</code> <code>hif</code></td>
+</tr>
+<tr>
+<td><a href="../vt/">vt</a></td>
+<td>verbal tense</td>
+<td><code>perf</code> <code>impf</code> <code>wayq</code></td>
+</tr>
+</tbody>
+</table>
 <h3 id="morphemes">Morphemes<a class="headerlink" href="#morphemes" title="Permanent link">&para;</a></h3>
-<p>---|---|---|---|---
-<a href="nme">nme</a> | <a href="g_nme">g_nme</a> | <a href="g_nme_utf8">g_nme_utf8</a> | nominal ending | <code>/</code> <code>/IJM</code> <code>/@H</code>
-<a href="pfm">pfm</a> | <a href="g_pfm">g_pfm</a> | <a href="g_pfm_utf8">g_pfm_utf8</a> | preformative | <code>!!</code> <code>!J.I!</code> <code>!TI!</code>
-<a href="prs">prs</a> | <a href="g_prs">g_prs</a> | <a href="g_prs_utf8">g_prs_utf8</a> | pronominal suffix | <code>+OW</code> <code>+IJ</code> <code>+HEM</code>
-<a href="uvf">uvf</a> | <a href="g_uvf">g_uvf</a> | <a href="g_uvf_utf8">g_uvf_utf8</a> | univalent final | <code>~@H</code> <code>~IJ</code> <code>~OW</code>
-<a href="vbe">vbe</a> | <a href="g_vbe">g_vbe</a> | <a href="g_vbe_utf8">g_vbe_utf8</a> | verbal ending | <code>[</code> <code>[W.</code> <code>[T.IJ</code>
-<a href="vbs">vbs</a> | <a href="g_vbs">g_vbs</a> | <a href="g_vbs_utf8">g_vbs_utf8</a> | root formation | <code>]]</code> <code>]NI]</code> <code>]HA]</code></p>
+<table>
+<thead>
+<tr>
+<th>name (consonantal transliterated)</th>
+<th>name (pointed transliterated)</th>
+<th>name (pointed hebrew)</th>
+<th>description</th>
+<th>examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../nme/">nme</a></td>
+<td><a href="../g_nme/">g_nme</a></td>
+<td><a href="../g_nme_utf8/">g_nme_utf8</a></td>
+<td>nominal ending</td>
+<td><code>/</code> <code>/IJM</code> <code>/@H</code></td>
+</tr>
+<tr>
+<td><a href="../pfm/">pfm</a></td>
+<td><a href="../g_pfm/">g_pfm</a></td>
+<td><a href="../g_pfm_utf8/">g_pfm_utf8</a></td>
+<td>preformative</td>
+<td><code>!!</code> <code>!J.I!</code> <code>!TI!</code></td>
+</tr>
+<tr>
+<td><a href="../prs/">prs</a></td>
+<td><a href="../g_prs/">g_prs</a></td>
+<td><a href="../g_prs_utf8/">g_prs_utf8</a></td>
+<td>pronominal suffix</td>
+<td><code>+OW</code> <code>+IJ</code> <code>+HEM</code></td>
+</tr>
+<tr>
+<td><a href="../uvf/">uvf</a></td>
+<td><a href="../g_uvf/">g_uvf</a></td>
+<td><a href="../g_uvf_utf8/">g_uvf_utf8</a></td>
+<td>univalent final</td>
+<td><code>~@H</code> <code>~IJ</code> <code>~OW</code></td>
+</tr>
+<tr>
+<td><a href="../vbe/">vbe</a></td>
+<td><a href="../g_vbe/">g_vbe</a></td>
+<td><a href="../g_vbe_utf8/">g_vbe_utf8</a></td>
+<td>verbal ending</td>
+<td><code>[</code> <code>[W.</code> <code>[T.IJ</code></td>
+</tr>
+<tr>
+<td><a href="../vbs/">vbs</a></td>
+<td><a href="../g_vbs/">g_vbs</a></td>
+<td><a href="../g_vbs_utf8/">g_vbs_utf8</a></td>
+<td>root formation</td>
+<td><code>]]</code> <code>]NI]</code> <code>]HA]</code></td>
+</tr>
+</tbody>
+</table>
 <h3 id="statistics">Statistics<a class="headerlink" href="#statistics" title="Permanent link">&para;</a></h3>
-<p>---|---
-<a href="freq_lex">freq_lex</a> | frequency of lexeme
-<a href="freq_occ">freq_occ</a> | frequency of word occurrence
-<a href="rank_lex">rank_lex</a> | rank of lexeme
-<a href="rank_occ">rank_occ</a> | rank of word occurrence</p>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../freq_lex/">freq_lex</a></td>
+<td>frequency of lexeme</td>
+</tr>
+<tr>
+<td><a href="../freq_occ/">freq_occ</a></td>
+<td>frequency of word occurrence</td>
+</tr>
+<tr>
+<td><a href="../rank_lex/">rank_lex</a></td>
+<td>rank of lexeme</td>
+</tr>
+<tr>
+<td><a href="../rank_occ/">rank_occ</a></td>
+<td>rank of word occurrence</td>
+</tr>
+</tbody>
+</table>
 <h2 id="linguistic-features">Linguistic features<a class="headerlink" href="#linguistic-features" title="Permanent link">&para;</a></h2>
 <h3 id="sentence-atom-features">Sentence(-atom) features<a class="headerlink" href="#sentence-atom-features" title="Permanent link">&para;</a></h3>
-<p>Nothing specific, just a generic <a href="number">number</a> feature.</p>
+<p>Nothing specific, just a generic <a href="../number/">number</a> feature.</p>
 <h3 id="clause-atom-features">Clause(-atom) features<a class="headerlink" href="#clause-atom-features" title="Permanent link">&para;</a></h3>
-<p>---|---|---
-<a href="typ">typ</a> | clause type | <code>AjCl</code> <code>WayX</code> <code>WXQt</code> <code>ZImX</code>
-<a href="kind">kind</a> | rough clause type | <code>VC</code> <code>NC</code> <code>WP</code>
-<a href="rela">rela</a> | clause constituent relation | <code>Adju</code> <code>Attr</code> <code>Coor</code>
-<a href="domain">domain</a> | text type ?? | <code>Q</code> <code>N</code> <code>D</code>
-<a href="txt">txt</a> | text type | <code>NQ</code> <code>NQQ</code> <code>QNQQ</code> <code>NQND</code>
-<a href="code">code</a> | clause atom relation | <code>200</code> <code>477</code> <code>999</code>
-<a href="is_root">is_root</a> | ??
-<a href="tab">tab</a> | hierarchical tabulation | <code>0</code> <code>3</code> <code>10</code> <code>29</code>
-<a href="pargr">pargr</a> | paragraph number | <code>1</code> <code>1.2</code> <code>2.3.4</code>
-<a href="instruction">instruction</a> | instruction | <code>.q</code> <code>.d</code> <code>..</code> <code>ve</code></p>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>description</th>
+<th>examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../typ/">typ</a></td>
+<td>clause type</td>
+<td><code>AjCl</code> <code>WayX</code> <code>WXQt</code> <code>ZImX</code></td>
+</tr>
+<tr>
+<td><a href="../kind/">kind</a></td>
+<td>rough clause type</td>
+<td><code>VC</code> <code>NC</code> <code>WP</code></td>
+</tr>
+<tr>
+<td><a href="../rela/">rela</a></td>
+<td>clause constituent relation</td>
+<td><code>Adju</code> <code>Attr</code> <code>Coor</code></td>
+</tr>
+<tr>
+<td><a href="../domain/">domain</a></td>
+<td>text type ??</td>
+<td><code>Q</code> <code>N</code> <code>D</code></td>
+</tr>
+<tr>
+<td><a href="../txt/">txt</a></td>
+<td>text type</td>
+<td><code>NQ</code> <code>NQQ</code> <code>QNQQ</code> <code>NQND</code></td>
+</tr>
+<tr>
+<td><a href="../code/">code</a></td>
+<td>clause atom relation</td>
+<td><code>200</code> <code>477</code> <code>999</code></td>
+</tr>
+<tr>
+<td><a href="../is_root/">is_root</a></td>
+<td>??</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="../tab/">tab</a></td>
+<td>hierarchical tabulation</td>
+<td><code>0</code> <code>3</code> <code>10</code> <code>29</code></td>
+</tr>
+<tr>
+<td><a href="../pargr/">pargr</a></td>
+<td>paragraph number</td>
+<td><code>1</code> <code>1.2</code> <code>2.3.4</code></td>
+</tr>
+<tr>
+<td><a href="../instruction/">instruction</a></td>
+<td>instruction</td>
+<td><code>.q</code> <code>.d</code> <code>..</code> <code>ve</code></td>
+</tr>
+</tbody>
+</table>
 <h3 id="phrase-atom-features">Phrase(-atom) features<a class="headerlink" href="#phrase-atom-features" title="Permanent link">&para;</a></h3>
-<p>---|---|---
-<a href="typ">typ</a> | phrase type | <code>VP</code> <code>NP</code> <code>PP</code> <code>AdjP</code> <code>AdvP</code>
-<a href="rela">rela</a> | phrase atom relation | <code>Appo</code> <code>Para</code> <code>Resu</code>
-<a href="function">function</a> | phrase function | <code>Pred</code> <code>Subj</code>
-<a href="det">det</a> | determination | <code>det</code> <code>und</code></p>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>description</th>
+<th>examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../typ/">typ</a></td>
+<td>phrase type</td>
+<td><code>VP</code> <code>NP</code> <code>PP</code> <code>AdjP</code> <code>AdvP</code></td>
+</tr>
+<tr>
+<td><a href="../rela/">rela</a></td>
+<td>phrase atom relation</td>
+<td><code>Appo</code> <code>Para</code> <code>Resu</code></td>
+</tr>
+<tr>
+<td><a href="../function/">function</a></td>
+<td>phrase function</td>
+<td><code>Pred</code> <code>Subj</code></td>
+</tr>
+<tr>
+<td><a href="../det/">det</a></td>
+<td>determination</td>
+<td><code>det</code> <code>und</code></td>
+</tr>
+</tbody>
+</table>
 <h2 id="relationships">Relationships<a class="headerlink" href="#relationships" title="Permanent link">&para;</a></h2>
-<p>---|---
-<a href="mother">mother</a> | relation of linguistic dependency
-<a href="distributional_parent">distributional_parent</a> | the parent in the distributional hierarchy (<code>-atoms</code>)
-<a href="functional_parent">functional_parent</a> | the parent in the distributional hierarchy (<code>sentence clause phrase</code>)</p>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../mother/">mother</a></td>
+<td>relation of linguistic dependency</td>
+</tr>
+<tr>
+<td><a href="../distributional_parent/">distributional_parent</a></td>
+<td>the parent in the distributional hierarchy (<code>-atoms</code>)</td>
+</tr>
+<tr>
+<td><a href="../functional_parent/">functional_parent</a></td>
+<td>the parent in the distributional hierarchy (<code>sentence clause phrase</code>)</td>
+</tr>
+</tbody>
+</table>
 <h2 id="generic-features">Generic features<a class="headerlink" href="#generic-features" title="Permanent link">&para;</a></h2>
-<p>---|---|---
-<a href="number">number</a> | sequence number in context | <code>123</code>
-<a href="dist">dist</a> | distance to mother | <code>-10</code> <code>0</code>  <code>1</code> <code>8</code>
-<a href="dist_unit">dist_unit</a> | unit of measuring distance to mother | <code>clause_atoms</code> <code>phrase_atoms</code> <code>words</code>
-<a href="mother_object_type">mother_object_type</a> | object type of mother | <code>clause</code> <code>phrase</code> <code>subphrase</code> <code>word</code></p>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>description</th>
+<th>examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../number/">number</a></td>
+<td>sequence number in context</td>
+<td><code>123</code></td>
+</tr>
+<tr>
+<td><a href="../dist/">dist</a></td>
+<td>distance to mother</td>
+<td><code>-10</code> <code>0</code>  <code>1</code> <code>8</code></td>
+</tr>
+<tr>
+<td><a href="../dist_unit/">dist_unit</a></td>
+<td>unit of measuring distance to mother</td>
+<td><code>clause_atoms</code> <code>phrase_atoms</code> <code>words</code></td>
+</tr>
+<tr>
+<td><a href="../mother_object_type/">mother_object_type</a></td>
+<td>object type of mother</td>
+<td><code>clause</code> <code>phrase</code> <code>subphrase</code> <code>word</code></td>
+</tr>
+</tbody>
+</table>
                 
                   
                 

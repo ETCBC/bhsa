@@ -1354,7 +1354,7 @@
                 
                 
                 <p><strong>clause atom relation</strong></p>
-<p>This feature is present on objects of type <a href="otype"><em>clause_atom</em></a>.</p>
+<p>This feature is present on objects of type <a href="../otype/"><em>clause_atom</em></a>.</p>
 <h5 id="note">Note<a class="headerlink" href="#note" title="Permanent link">&para;</a></h5>
 <blockquote>
 <p>This is a complex definition.
@@ -1364,21 +1364,72 @@ The definition needs review.</p>
 </blockquote>
 <p>See the hint at the end to see how you could use this feature.</p>
 <p>Clause atom relation is denoted by a code of 1, 2, or 3 digits.</p>
-<p>---|---
-<code>0</code>           | <a href="#no-relation">No relation</a>
-<code>10</code> - <code>16</code>   | <a href="#relative-clause-atoms">Relative clause atoms</a>
-<code>50</code> – <code>74</code>   | <a href="#infinitive-construct-clause-atoms">Infinitive construct clause atoms</a>
-<code>100</code> – <code>167</code> | <a href="#asyndetic-clause-atoms">Asyndetic clause atoms</a>
-<code>200</code> - <code>201</code> | <a href="#parallel-clause-atoms">Parallel clause atoms</a>
-<code>220</code> - <code>223</code> | <a href="#defective-clause-atoms">Defective clause atoms</a>
-<code>300</code> - <code>367</code> | <a href="#conjunctive-adverbs">Conjunctive adverbs</a>
-<code>400</code> - <code>487</code> | <a href="#coordinate-clause-atoms">Coordinate clause atoms</a>
-<code>500</code> - <code>567</code> | <a href="#postulational-clause-atoms">Postulational clause atoms</a>
-<code>600</code> - <code>667</code> | <a href="#conditional-clause-atoms">Conditional clause atoms</a>
-<code>700</code> - <code>767</code> | <a href="#temporal-clause-atoms">Temporal clause atoms</a>
-<code>800</code> - <code>867</code> | <a href="#final-clause-atoms">Final clause atoms</a>
-<code>900</code> - <code>967</code> | <a href="#causal-clause-atoms">Causal clause atoms</a>
-<code>999</code>         | <a href="#direct-speech">Direct speech</a></p>
+<table>
+<thead>
+<tr>
+<th>range</th>
+<th>group</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>0</code></td>
+<td><a href="#no-relation">No relation</a></td>
+</tr>
+<tr>
+<td><code>10</code> - <code>16</code></td>
+<td><a href="#relative-clause-atoms">Relative clause atoms</a></td>
+</tr>
+<tr>
+<td><code>50</code> – <code>74</code></td>
+<td><a href="#infinitive-construct-clause-atoms">Infinitive construct clause atoms</a></td>
+</tr>
+<tr>
+<td><code>100</code> – <code>167</code></td>
+<td><a href="#asyndetic-clause-atoms">Asyndetic clause atoms</a></td>
+</tr>
+<tr>
+<td><code>200</code> - <code>201</code></td>
+<td><a href="#parallel-clause-atoms">Parallel clause atoms</a></td>
+</tr>
+<tr>
+<td><code>220</code> - <code>223</code></td>
+<td><a href="#defective-clause-atoms">Defective clause atoms</a></td>
+</tr>
+<tr>
+<td><code>300</code> - <code>367</code></td>
+<td><a href="#conjunctive-adverbs">Conjunctive adverbs</a></td>
+</tr>
+<tr>
+<td><code>400</code> - <code>487</code></td>
+<td><a href="#coordinate-clause-atoms">Coordinate clause atoms</a></td>
+</tr>
+<tr>
+<td><code>500</code> - <code>567</code></td>
+<td><a href="#postulational-clause-atoms">Postulational clause atoms</a></td>
+</tr>
+<tr>
+<td><code>600</code> - <code>667</code></td>
+<td><a href="#conditional-clause-atoms">Conditional clause atoms</a></td>
+</tr>
+<tr>
+<td><code>700</code> - <code>767</code></td>
+<td><a href="#temporal-clause-atoms">Temporal clause atoms</a></td>
+</tr>
+<tr>
+<td><code>800</code> - <code>867</code></td>
+<td><a href="#final-clause-atoms">Final clause atoms</a></td>
+</tr>
+<tr>
+<td><code>900</code> - <code>967</code></td>
+<td><a href="#causal-clause-atoms">Causal clause atoms</a></td>
+</tr>
+<tr>
+<td><code>999</code></td>
+<td><a href="#direct-speech">Direct speech</a></td>
+</tr>
+</tbody>
+</table>
 <p>These classes are of a distributional, not functional, nature.
 They group lexemes which are hypothesised to share one or more functional aspects into tentative sets,
 so that the resulting clause atom relations codes constitute a useful collection of data for further research.</p>
@@ -1397,38 +1448,84 @@ The reference to Gino's work could be more pin-pointed.</p>
 </blockquote>
 <h1 id="no-relation">No relation<a class="headerlink" href="#no-relation" title="Permanent link">&para;</a></h1>
 <p><strong><code>0</code></strong></p>
-<p>The value <code>0</code> and a <a href="dist">dist</a> of 0 clause atoms to its mother mark a clause atom as the root of the tree of clause atom relations.</p>
+<p>The value <code>0</code> and a <a href="../dist/">dist</a> of 0 clause atoms to its mother mark a clause atom as the root of the tree of clause atom relations.</p>
 <h5 id="note_2">Note<a class="headerlink" href="#note_2" title="Permanent link">&para;</a></h5>
 <blockquote>
 <p>Is the value of <code>0</code> sufficient?
 Can it occur that the value is <code>0</code> and the distance not?
 If not, the distance of 0 is not an extra condition, but an additional phenomenon.
-The definition should then say something like: (and in that case the <a href="dist">dist</a> is also <code>0</code>).
+The definition should then say something like: (and in that case the <a href="../dist/">dist</a> is also <code>0</code>).
 In order to understand this all, there should be an explanation of the intended model
 of clause atom relations. Is it a tree? How is it built up? Maybe a separate page.</p>
 </blockquote>
 <h5 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">&para;</a></h5>
 <ul>
-<li><a href="tab">tab</a>.</li>
+<li><a href="../tab/">tab</a>.</li>
 </ul>
 <p>Examples please.</p>
 <h1 id="relative-clause-atoms">Relative clause atoms<a class="headerlink" href="#relative-clause-atoms" title="Permanent link">&para;</a></h1>
 <p><strong><code>10</code> .. <code>16</code></strong></p>
 <p>Clause atoms whose opening phrase (first phrase?)
-has <a href="typ">typ</a> <code>CP</code> (conjunctive phrase) and
-<a href="function">function</a> <code>Rela</code> (relative).
+has <a href="../typ/">typ</a> <code>CP</code> (conjunctive phrase) and
+<a href="../function/">function</a> <code>Rela</code> (relative).
 The second digit denotes the tense of the verbal predicate of the daughter clause:</p>
 <h5 id="tenses">Tenses<a class="headerlink" href="#tenses" title="Permanent link">&para;</a></h5>
-<p>---|---|---
-<code>0</code>| none
-<code>1</code>| imperfect
-<code>2</code>| perfect
-<code>3</code>| imperative
-<code>4</code>| infinitive construct
-<code>5</code>| infinitive absolute
-<code>6</code>| participle            | (active and passive)
-<code>7</code>| wayyiqtol
-<code>8</code>| weyiqtol              | !</p>
+<table>
+<thead>
+<tr>
+<th>code</th>
+<th>description</th>
+<th>remarks</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>0</code></td>
+<td>none</td>
+<td></td>
+</tr>
+<tr>
+<td><code>1</code></td>
+<td>imperfect</td>
+<td></td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td>perfect</td>
+<td></td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td>imperative</td>
+<td></td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td>infinitive construct</td>
+<td></td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>infinitive absolute</td>
+<td></td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td>participle</td>
+<td>(active and passive)</td>
+</tr>
+<tr>
+<td><code>7</code></td>
+<td>wayyiqtol</td>
+<td></td>
+</tr>
+<tr>
+<td><code>8</code></td>
+<td>weyiqtol</td>
+<td>!</td>
+</tr>
+</tbody>
+</table>
 <h5 id="note_3">Note<a class="headerlink" href="#note_3" title="Permanent link">&para;</a></h5>
 <blockquote>
 <p>The ! appears where the QUEST documentation has a cross mark. 
@@ -1438,32 +1535,142 @@ I do not know why these values have been marked.</p>
 <p><strong><code>50</code>– <code>74</code></strong>
 Clause atoms of which the verbal predicate is an infinitive construct.
 If you subtract 50, the remaining number denotes the class of the preposition used in the construction:</p>
-<p>---|---|---
-<code>0</code> | none
-<code>1</code> |<code>&gt;XR/</code>
-<code>2</code> |<code>&gt;L</code>
-<code>3</code> |<code>&gt;YL/</code>         | !
-<code>4</code> |<code>&gt;T</code>
-<code>5</code> |<code>B</code>, <code>BMW</code>
-<code>6</code> |<code>BJN/</code>         | !
-<code>7</code> |<code>BL&lt;DJ</code>        | !
-<code>8</code> |<em>not used</em>
-<code>9</code> |<code>B&lt;D/</code>         | !
-<code>10</code>|<code>ZWLH/</code>        | !
-<code>11</code>|<code>J&lt;N/</code>
-<code>12</code>|<code>K, KMW</code>
-<code>13</code>|<em>not used</em>
-<code>14</code>|<code>L, LMW</code>
-<code>15</code>|<code>LM&lt;N</code>
-<code>16</code>|<em>not used</em>
-<code>17</code>|<code>MN</code>
-<code>18</code>|<em>not used</em>
-<code>19</code>|<em>not used</em>
-<code>20</code>|<code>&lt;D</code>
-<code>21</code>|<code>&lt;L</code>
-<code>22</code>|<code>&lt;M</code>
-<code>23</code>|<em>not used</em>
-<code>24</code>|<code>TXT/</code></p>
+<table>
+<thead>
+<tr>
+<th>code</th>
+<th>description</th>
+<th>remarks</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>0</code></td>
+<td>none</td>
+<td></td>
+</tr>
+<tr>
+<td><code>1</code></td>
+<td><code>&gt;XR/</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td><code>&gt;L</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>3</code></td>
+<td><code>&gt;YL/</code></td>
+<td>!</td>
+</tr>
+<tr>
+<td><code>4</code></td>
+<td><code>&gt;T</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td><code>B</code>, <code>BMW</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>6</code></td>
+<td><code>BJN/</code></td>
+<td>!</td>
+</tr>
+<tr>
+<td><code>7</code></td>
+<td><code>BL&lt;DJ</code></td>
+<td>!</td>
+</tr>
+<tr>
+<td><code>8</code></td>
+<td><em>not used</em></td>
+<td></td>
+</tr>
+<tr>
+<td><code>9</code></td>
+<td><code>B&lt;D/</code></td>
+<td>!</td>
+</tr>
+<tr>
+<td><code>10</code></td>
+<td><code>ZWLH/</code></td>
+<td>!</td>
+</tr>
+<tr>
+<td><code>11</code></td>
+<td><code>J&lt;N/</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>12</code></td>
+<td><code>K, KMW</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>13</code></td>
+<td><em>not used</em></td>
+<td></td>
+</tr>
+<tr>
+<td><code>14</code></td>
+<td><code>L, LMW</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>15</code></td>
+<td><code>LM&lt;N</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>16</code></td>
+<td><em>not used</em></td>
+<td></td>
+</tr>
+<tr>
+<td><code>17</code></td>
+<td><code>MN</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>18</code></td>
+<td><em>not used</em></td>
+<td></td>
+</tr>
+<tr>
+<td><code>19</code></td>
+<td><em>not used</em></td>
+<td></td>
+</tr>
+<tr>
+<td><code>20</code></td>
+<td><code>&lt;D</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>21</code></td>
+<td><code>&lt;L</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>22</code></td>
+<td><code>&lt;M</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>23</code></td>
+<td><em>not used</em></td>
+<td></td>
+</tr>
+<tr>
+<td><code>24</code></td>
+<td><code>TXT/</code></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h5 id="note_4">Note<a class="headerlink" href="#note_4" title="Permanent link">&para;</a></h5>
 <blockquote>
 <p>The ! appears where the QUEST documentation has a cross mark. 
@@ -1476,7 +1683,7 @@ The second and third digit denote the tense of the verbal predicate of the daugh
 mother clause, respectively. See the <a href="#tenses">tense table</a>.</p>
 <h5 id="see-also_1">See also<a class="headerlink" href="#see-also_1" title="Permanent link">&para;</a></h5>
 <ul>
-<li><a href="mother">mother</a>.</li>
+<li><a href="../mother/">mother</a>.</li>
 </ul>
 <h1 id="parallel-clause-atoms">Parallel clause atoms<a class="headerlink" href="#parallel-clause-atoms" title="Permanent link">&para;</a></h1>
 <p><strong><code>200</code> - <code>201</code></strong></p>
@@ -1485,25 +1692,61 @@ and have equivalent phrases up to the predicate,
 provided that the daughter is not subordinated.</p>
 <h5 id="see-also_2">See also<a class="headerlink" href="#see-also_2" title="Permanent link">&para;</a></h5>
 <ul>
-<li><a href="mother">mother</a>.</li>
+<li><a href="../mother/">mother</a>.</li>
 </ul>
 <p>If either predicate is absent,
-the clause atoms must be of the same clause atom type (<a href="typ">typ</a>).</p>
-<p>---|---
-<code>200</code> | Identical clause atom opening.
-<code>201</code> | Identical clause atom opening when disregarding the coordinating conjunction(s).</p>
+the clause atoms must be of the same clause atom type (<a href="../typ/">typ</a>).</p>
+<table>
+<thead>
+<tr>
+<th>code</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>200</code></td>
+<td>Identical clause atom opening.</td>
+</tr>
+<tr>
+<td><code>201</code></td>
+<td>Identical clause atom opening when disregarding the coordinating conjunction(s).</td>
+</tr>
+</tbody>
+</table>
 <h1 id="defective-clause-atoms">Defective clause atoms<a class="headerlink" href="#defective-clause-atoms" title="Permanent link">&para;</a></h1>
 <p><strong><code>220</code> - <code>223</code></strong></p>
 <p>A clause atom is defective if there is another clause atom which contains
 the predicate (or the main part) of the clause.</p>
-<p>---|---
-<code>220</code>|No verbal predicate in mother or daughter
-<code>221</code>|Unclassified clause atom relation
-<code>222</code>|Verbal predicate in daughter clause atom
-<code>223</code>|Verbal predicate in mother clause atom.</p>
+<table>
+<thead>
+<tr>
+<th>code</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>220</code></td>
+<td>No verbal predicate in mother or daughter</td>
+</tr>
+<tr>
+<td><code>221</code></td>
+<td>Unclassified clause atom relation</td>
+</tr>
+<tr>
+<td><code>222</code></td>
+<td>Verbal predicate in daughter clause atom</td>
+</tr>
+<tr>
+<td><code>223</code></td>
+<td>Verbal predicate in mother clause atom.</td>
+</tr>
+</tbody>
+</table>
 <h5 id="see-also_3">See also<a class="headerlink" href="#see-also_3" title="Permanent link">&para;</a></h5>
 <ul>
-<li><a href="mother">mother</a>.</li>
+<li><a href="../mother/">mother</a>.</li>
 </ul>
 <h1 id="conjunctive-adverbs">Conjunctive adverbs<a class="headerlink" href="#conjunctive-adverbs" title="Permanent link">&para;</a></h1>
 <p><strong><code>300</code> - <code>367</code></strong></p>
@@ -1512,7 +1755,7 @@ The second and third digit denote the tense of the verbal predicate of the daugh
 mother clause, respectively. See the <a href="#tenses">tense table</a>.</p>
 <h5 id="see-also_4">See also<a class="headerlink" href="#see-also_4" title="Permanent link">&para;</a></h5>
 <ul>
-<li><a href="mother">mother</a>.</li>
+<li><a href="../mother/">mother</a>.</li>
 </ul>
 <h1 id="coordinate-clause-atoms">Coordinate clause atoms<a class="headerlink" href="#coordinate-clause-atoms" title="Permanent link">&para;</a></h1>
 <p><strong><code>400</code> - <code>487</code></strong></p>
@@ -1521,13 +1764,39 @@ The second and third digit denote the tense of the verbal predicate of the daugh
 mother clause, respectively. See the <a href="#tenses">tense table</a>.</p>
 <h5 id="see-also_5">See also<a class="headerlink" href="#see-also_5" title="Permanent link">&para;</a></h5>
 <ul>
-<li><a href="mother">mother</a>.</li>
+<li><a href="../mother/">mother</a>.</li>
 </ul>
-<p>---|---|---
-<code>400</code>|coordinating | <code>&gt;W</code>, <code>W</code>
-<code>500</code>|postulational| <code>&gt;CR</code>, <code>DJ</code>, <code>H</code>, <code>ZW</code>, <code>KJ</code>, <code>C</code>
-<code>600</code>|conditional  | <code>&gt;LW</code>, <code>&gt;M</code>, <code>HN</code>, <code>LHN=</code>, <code>LW</code>, <code>LWL&gt;</code>
-<code>800</code>|final        | <code>PN</code></p>
+<table>
+<thead>
+<tr>
+<th>code</th>
+<th>description</th>
+<th>examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>400</code></td>
+<td>coordinating</td>
+<td><code>&gt;W</code>, <code>W</code></td>
+</tr>
+<tr>
+<td><code>500</code></td>
+<td>postulational</td>
+<td><code>&gt;CR</code>, <code>DJ</code>, <code>H</code>, <code>ZW</code>, <code>KJ</code>, <code>C</code></td>
+</tr>
+<tr>
+<td><code>600</code></td>
+<td>conditional</td>
+<td><code>&gt;LW</code>, <code>&gt;M</code>, <code>HN</code>, <code>LHN=</code>, <code>LW</code>, <code>LWL&gt;</code></td>
+</tr>
+<tr>
+<td><code>800</code></td>
+<td>final</td>
+<td><code>PN</code></td>
+</tr>
+</tbody>
+</table>
 <p>The conjunction class is determined by the conjunction opening conjunction phrase.</p>
 <h5 id="note_5">Note<a class="headerlink" href="#note_5" title="Permanent link">&para;</a></h5>
 <blockquote>
@@ -1544,7 +1813,7 @@ The second and third digit denote the tense of the verbal predicate of the daugh
 mother clause, respectively. See the <a href="#tenses">tense table</a>.</p>
 <h5 id="see-also_6">See also<a class="headerlink" href="#see-also_6" title="Permanent link">&para;</a></h5>
 <ul>
-<li><a href="mother">mother</a>.</li>
+<li><a href="../mother/">mother</a>.</li>
 </ul>
 <h1 id="conditional-clause-atoms">Conditional clause atoms<a class="headerlink" href="#conditional-clause-atoms" title="Permanent link">&para;</a></h1>
 <p><strong><code>600</code> - <code>667</code></strong></p>
@@ -1553,7 +1822,7 @@ The second and third digit denote the tense of the verbal predicate of the daugh
 mother clause, respectively. See the <a href="#tenses">tense table</a>.</p>
 <h5 id="see-also_7">See also<a class="headerlink" href="#see-also_7" title="Permanent link">&para;</a></h5>
 <ul>
-<li><a href="mother">mother</a>.</li>
+<li><a href="../mother/">mother</a>.</li>
 </ul>
 <h1 id="temporal-clause-atoms">Temporal clause atoms<a class="headerlink" href="#temporal-clause-atoms" title="Permanent link">&para;</a></h1>
 <p><strong><code>700</code> - <code>767</code></strong></p>
@@ -1562,12 +1831,30 @@ The second and third digit denote the tense of the verbal predicate of the daugh
 mother clause, respectively. See the <a href="#tenses">tense table</a>.</p>
 <h5 id="see-also_8">See also<a class="headerlink" href="#see-also_8" title="Permanent link">&para;</a></h5>
 <ul>
-<li><a href="mother">mother</a>.</li>
+<li><a href="../mother/">mother</a>.</li>
 </ul>
-<p>---|---
-<code>700</code>| <code>&gt;XR/</code>, <code>&gt;L</code>, <code>B</code>, <code>BMW</code>, <code>VRM/</code>, <code>K</code>, <code>KMW</code>, <code>L</code>, <code>LMW</code>, <code>&lt;D</code>
-<code>800</code>| <code>BLT/</code>, <code>ZWLH/</code>, <code>LM&lt;N</code>, <code>MN</code>
-<code>900</code>| <code>J&lt;N/</code>, <code>&lt;L</code>, <code>&lt;QB/</code></p>
+<table>
+<thead>
+<tr>
+<th>code</th>
+<th>examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>700</code></td>
+<td><code>&gt;XR/</code>, <code>&gt;L</code>, <code>B</code>, <code>BMW</code>, <code>VRM/</code>, <code>K</code>, <code>KMW</code>, <code>L</code>, <code>LMW</code>, <code>&lt;D</code></td>
+</tr>
+<tr>
+<td><code>800</code></td>
+<td><code>BLT/</code>, <code>ZWLH/</code>, <code>LM&lt;N</code>, <code>MN</code></td>
+</tr>
+<tr>
+<td><code>900</code></td>
+<td><code>J&lt;N/</code>, <code>&lt;L</code>, <code>&lt;QB/</code></td>
+</tr>
+</tbody>
+</table>
 <p>This preposition class is determined by the preposition that heads the clause opening conjunction phrase.</p>
 <h5 id="note_6">Note<a class="headerlink" href="#note_6" title="Permanent link">&para;</a></h5>
 <blockquote>
@@ -1584,7 +1871,7 @@ The second and third digit denote the tense of the verbal predicate of the daugh
 mother clause, respectively. See the <a href="#tenses">tense table</a>.</p>
 <h5 id="see-also_9">See also<a class="headerlink" href="#see-also_9" title="Permanent link">&para;</a></h5>
 <ul>
-<li><a href="mother">mother</a>.</li>
+<li><a href="../mother/">mother</a>.</li>
 </ul>
 <h1 id="causal-clause-atoms">Causal clause atoms<a class="headerlink" href="#causal-clause-atoms" title="Permanent link">&para;</a></h1>
 <p><strong><code>900</code> - <code>967</code></strong></p>
@@ -1593,7 +1880,7 @@ The second and third digit denote the tense of the verbal predicate of the daugh
 mother clause, respectively. See the <a href="#tenses">tense table</a>.</p>
 <h5 id="see-also_10">See also<a class="headerlink" href="#see-also_10" title="Permanent link">&para;</a></h5>
 <ul>
-<li><a href="mother">mother</a>.</li>
+<li><a href="../mother/">mother</a>.</li>
 </ul>
 <h1 id="direct-speech">Direct speech<a class="headerlink" href="#direct-speech" title="Permanent link">&para;</a></h1>
 <p><strong><code>999</code></strong></p>
@@ -1602,29 +1889,29 @@ mother clause, respectively. See the <a href="#tenses">tense table</a>.</p>
 with a verbum dicendi. In this case, the direct speech section
 depends on the introductory clause atom in terms of clause atom
 relations. The daughter clause atom (the main clause atom of the
-direct speech section) carries the <a href="instruction">instruction</a>
+direct speech section) carries the <a href="../instruction/">instruction</a>
 'q' and has a
 relation 999 with its mother, the introductory clause atom.</p>
 <p>But there are other cases, in which the the direct speech section
 is not introduced at all (Jes 14:16) or in which it is declared by
 an embedded clause atom (Mal 3:17). In such cases, the main clause
-atom of the direct speech section still carries the <a href="instruction">instruction</a>
+atom of the direct speech section still carries the <a href="../instruction/">instruction</a>
 'q', but no longer has a relation 999 with its mother. If there is
 a declarative clause atom, it will have a relation 999 with <em>its</em>
 mother, which is not necessarily the main clause atom of the direct
 speech section, as an example like Mal 3:17 shows.</p>
-<p>In all cases, the <a href="instruction">instruction</a> 'q' means the start of a clause atom
+<p>In all cases, the <a href="../instruction/">instruction</a> 'q' means the start of a clause atom
 hierarchy of direct speech. In view of the above, however, we can
 no longer maintain a direct coupling between 'q' and relation 999.
 We propose to extend the interpretation of relation 999 as follows.
 The meaning of relation 999 is that of a declaration of direct
 speech. Either before the facts, if the daughter starts the direct
 speech, or after the facts, if the daughter has the verbum dicendi.
-In case of the latter, the daughter carries the <a href="instruction">instruction</a> '#' for
+In case of the latter, the daughter carries the <a href="../instruction/">instruction</a> '#' for
 a new embedded paragraph, but pops the Q from the Text Type.</p>
 <h5 id="see-also_11">See also<a class="headerlink" href="#see-also_11" title="Permanent link">&para;</a></h5>
 <ul>
-<li><a href="mother">mother</a>.</li>
+<li><a href="../mother/">mother</a>.</li>
 </ul>
 <h5 id="note_7">Note<a class="headerlink" href="#note_7" title="Permanent link">&para;</a></h5>
 <blockquote>
@@ -1635,7 +1922,7 @@ a new embedded paragraph, but pops the Q from the Text Type.</p>
 <blockquote>
 <p>Here is a public MQL query by Martijn Naaijer that detects chunks of direct speech.
 It uses the combined information carried by the <code>code</code> feature and the 
-<a href="txt">txt</a> feature. View the query on
+<a href="../txt/">txt</a> feature. View the query on
 <a href="https://shebanq.ancient-data.org/hebrew/query?id=518">SHEBANQ</a>.</p>
 </blockquote>
                 

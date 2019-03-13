@@ -49,7 +49,7 @@ It carries also the [book](book.md) feature to indicate the book of which it is 
 Analogously, the `verse` object carries the [verse](verse.md) feature, which contains the number of the chapter,
 and the [book](book.md) and [chapter](chapter.md) features.
 Additionally, the `verse` object also carries [label](label.md), which contains a label string indicating the passage.
-However, the `half_verse` object only carries the [half_verse](half_verse.md) feature, which contains a key for the half-verse.
+However, the `half_verse` object only carries the [half_verse](label.md) feature, which contains a key for the half-verse.
 
 # Word type
 
