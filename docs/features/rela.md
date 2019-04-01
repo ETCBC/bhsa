@@ -2,7 +2,7 @@
 title: rela
 ---
 
-**relation**
+**rela**
 
 
 The linguistic relation between the object and its context.
