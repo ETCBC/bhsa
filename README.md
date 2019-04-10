@@ -2,7 +2,7 @@
 
 
 ## Biblia Hebraica Stuttgartensia (Amstelodamensis)
-[![sha](sha.png) Software Heritage Archive](https://archive.softwareheritage.org/browse/origin/https://github.com/etcbc/bhsa/)
+[![sha](sha.png) Software Heritage Archive](https://archive.softwareheritage.org/browse/origin/https://github.com/ETCBC/bhsa/)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1039470.svg)](https://doi.org/10.5281/zenodo.1007624)
 [![etcbc](programs/images/etcbc.png)](http://www.etcbc.nl)
