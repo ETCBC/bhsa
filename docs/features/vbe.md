@@ -18,6 +18,12 @@ It does not always determine all these properties completely.
 See the frequency table above for which forms signal to which grammatical properties, as far as it possible
 to tell.
 
+##### Values
+
+See also the
+[values]({{tut}}/cookbook/featureValues.ipynb)
+of this feature.
+
 ##### Note
 > One of the values is the empty value.
 

@@ -23,6 +23,12 @@ That information is available in the separate features
 [prs_nu](prs_nu.md)
 [prs_ps](prs_ps.md).
 
+##### Values
+
+See also the
+[values]({{tut}}/cookbook/featureValues.ipynb)
+of this feature.
+
 ##### Note
 > The value `absent` indicates absence (there is no empty value).
 The value `n/a` indicates: *non-applicable*.

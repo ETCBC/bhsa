@@ -18,6 +18,12 @@ It seems to be the nesting depth of the clause atom, but in what tree?
 Maybe we need a separate page about the clause_atoms and the structures
 they are a member of.
 
+##### Values
+
+See also the
+[values]({{tut}}/cookbook/featureValues.ipynb)
+of this feature.
+
 ##### See also
 
 * [code](code.md)

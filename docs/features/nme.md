@@ -14,5 +14,11 @@ For more about features on morphemes, see [word grammar](../wordgrammar.md).
 
 The nominal ending belongs to noun/adjective declination, it marks gender, number and state in a combined fashion.
 
+##### Values
+
+See also the
+[values]({{tut}}/cookbook/featureValues.ipynb)
+of this feature.
+
 ##### Note
 > One of the values is the empty value.

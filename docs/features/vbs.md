@@ -17,6 +17,12 @@ The root formation indicates verbal stem.
 
 * [vs](vs.md)
 
+##### Values
+
+See also the
+[values]({{tut}}/cookbook/featureValues.ipynb)
+of this feature.
+
 ##### Note
 > There is no empty value, but there is an `absent` value.
 
