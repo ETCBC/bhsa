@@ -48,7 +48,26 @@ That means:
 ![tf](programs/images/tf-small.png)
 
 This data can be processed by 
-[Text-Fabric](https://github.com/Dans-labs/text-fabric/wiki).
+[Text-Fabric](https://annotation.github.io/text-fabric/).
+
+Text-Fabric will automatically download the BHSA data.
+
+After installing Text-Fabric, you can start the Text-Fabric browser by this command
+
+```sh
+text-fabric bhsa
+```
+
+Alternatively, you can work in a Jupyter notebook and say
+
+```python
+from tf.app import use
+
+A = use('bhsa')
+```
+
+In both cases the data is downloaded and ends up in your home directory,
+under `text-fabric-data`.
 
 See also 
 [start](https://nbviewer.jupyter.org/github/annotation/tutorials/blob/master/bhsa/start.ipynb)
