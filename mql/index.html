@@ -1470,17 +1470,19 @@ See the examples in </p>
 <p>where we translate a number of MQL queries that are shared by SHEBANQ into Text-Fabric search templates.</p>
 <h2 id="differences-between-tf-search-and-mql-queries">Differences between TF-search and MQL-queries<a class="headerlink" href="#differences-between-tf-search-and-mql-queries" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>MQL-queries</strong> is definitely a richer formalism, in which you can specify more refined queries than in Text-Fabric search.</li>
-<li>you can specify more refined feature conditions on objects (feature <code>NOT IN</code> values; feature <code>~</code> regular expression)</li>
-<li>you can specify <code>NOT EXIST</code> blocks</li>
+<li><strong>MQL-queries</strong> is richer than TF-search query in some respects, while in order areas TF-search is more refined.</li>
+<li>both can specify refined feature conditions on objects (feature <code>NOT IN</code> values; feature <code>~</code> regular expression);</li>
+<li>MQL can specify <code>NOT EXIST</code> blocks, which has no parallel in TF-search;</li>
+<li>TF-search has quantifiers /with/, /without/, /where/ which do not have direct counterparts in MQL;</li>
 <li><strong>TF-search</strong> is more flexible in dealing with spatial relationships between objects</li>
 <li>you can leave the order between objects free, or constrain it as you wish</li>
 <li>you can use a variety of relations like <em>adjacent before</em>, <em>same slots</em>, <em>overlapping</em>, <em>embedded</em> and more to express
     spatial relationships;</li>
 <li><strong>MQL-queries</strong> requires separate software, Emdros, plus a database (MYSQL or SQLite), plus a dataset converted to MQL, in
-  order to work with it. It is not easy command Emdros from a Python3 program and process its results by the same program</li>
+  order to work with it. There is some friction if you want to issue an Emdros query from a Python3 program
+  and process its results by the same program;</li>
 <li><strong>TF-search</strong> works wherever Text-Fabric works, is totally integrated with it, and results are being delivered
-  as tuples that are extremely easy to process further;</li>
+  as Python tuples that are extremely easy to process further;</li>
 <li><strong>MQL-queries</strong> is implemented in C + backend database, and has a really good performance;</li>
 <li><strong>TF-search</strong> is implemented in pure Python, and requires more memory and more CPU time, although performance is quite acceptable.</li>
 <li><strong>MQL-queries</strong> let you define your search criteria very well, but it is poor in letting you specify the context information
