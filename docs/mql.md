@@ -49,17 +49,19 @@ where we translate a number of MQL queries that are shared by SHEBANQ into Text-
 
 ## Differences between TF-search and MQL-queries
 
-* **MQL-queries** is definitely a richer formalism, in which you can specify more refined queries than in Text-Fabric search.
-  * you can specify more refined feature conditions on objects (feature `NOT IN` values; feature `~` regular expression)
-  * you can specify `NOT EXIST` blocks
+* **MQL-queries** is richer than TF-search query in some respects, while in order areas TF-search is more refined.
+  * both can specify refined feature conditions on objects (feature `NOT IN` values; feature `~` regular expression);
+  * MQL can specify `NOT EXIST` blocks, which has no parallel in TF-search;
+  * TF-search has quantifiers /with/, /without/, /where/ which do not have direct counterparts in MQL;
 * **TF-search** is more flexible in dealing with spatial relationships between objects
   * you can leave the order between objects free, or constrain it as you wish
   * you can use a variety of relations like *adjacent before*, *same slots*, *overlapping*, *embedded* and more to express
     spatial relationships;
 * **MQL-queries** requires separate software, Emdros, plus a database (MYSQL or SQLite), plus a dataset converted to MQL, in
-  order to work with it. It is not easy command Emdros from a Python3 program and process its results by the same program
+  order to work with it. There is some friction if you want to issue an Emdros query from a Python3 program
+  and process its results by the same program;
 * **TF-search** works wherever Text-Fabric works, is totally integrated with it, and results are being delivered
-  as tuples that are extremely easy to process further;
+  as Python tuples that are extremely easy to process further;
 * **MQL-queries** is implemented in C + backend database, and has a really good performance;
 * **TF-search** is implemented in pure Python, and requires more memory and more CPU time, although performance is quite acceptable.
 * **MQL-queries** let you define your search criteria very well, but it is poor in letting you specify the context information
