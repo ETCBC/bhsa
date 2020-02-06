@@ -5,7 +5,7 @@ title: mother
 **edge feature, indicating linguistic dependency between elements that do not
 necessarily have an embbedding relationship.**
 
-The ETCBC interactive encoding program (`sy04types`) presents for each clause one or more mother clauses in
+An ETCBC interactive encoding program `sy04types` presents for each clause one or more mother clauses in
 which it could be anchored. A clause’s possible mother clauses are ranked in order of probability. This
 ranking is based on multiple types of observations:
 
