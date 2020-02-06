@@ -5,6 +5,17 @@ title: mother
 **edge feature, indicating linguistic dependency between elements that do not
 necessarily have an embbedding relationship.**
 
+The ETCBC interactive encoding program (`sy04types`) presents for each clause one or more mother clauses in
+which it could be anchored. A clause’s possible mother clauses are ranked in order of probability. This
+ranking is based on multiple types of observations:
+
+* grammatical and lexical correspondences between a clause and its possible mother clause;
+* the number of earlier occurrences of a similar clause connection;
+* the distance (in clause atoms) between the two clauses. 
+
+Eventually, it is the analyst who has to decide which of the proposed clause connections is the most adequate one. His or her decisions are tabulated in different levels of indentations reflecting parallel or dependent relations between
+connected clauses. (Kalkman, *Verbal Forms in Biblical Hebrew Poetry*, 2015, p. 118)
+
 The mother relation exists between objects of many different kinds. The feature
 [code](code.md) refers to it a lot.
 
