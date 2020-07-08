@@ -6,7 +6,7 @@ title: lex0
 
 
 The consonantal representation of the lexeme of a word occurrence in
-[BHSA transliteration]({{tfd}}/Writing/Hebrew.html).
+[BHSA transliteration]({{tfd}}/writing/hebrew.html).
 
 This feature is present on objects of type [*word* and *lex*](otype.md).
 

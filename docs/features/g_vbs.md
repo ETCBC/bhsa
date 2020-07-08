@@ -6,7 +6,7 @@ title: g_vbs
 
 
 The pointed representation of the root formation of a word in
-[BHSA transliteration]({{tfd}}/Writing/Hebrew.html).
+[BHSA transliteration]({{tfd}}/writing/hebrew.html).
 
 This feature is present on objects of type [*word*](otype.md).
 

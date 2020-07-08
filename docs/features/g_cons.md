@@ -6,7 +6,7 @@ title: g_cons
 
 
 The consonantal representation of a word occurrence in
-[BHSA transliteration]({{tfd}}/Writing/Hebrew.html).
+[BHSA transliteration]({{tfd}}/writing/hebrew.html).
 
 This feature is present on objects of type [*word*](otype.md).
 

@@ -5,7 +5,7 @@ title: voc_lex
 **vocalized lexeme -pointed-transliterated**
 
 The pointed representation of the lexeme of a word occurrence in 
-[BHSA transliteration]({{tfd}}/Writing/Hebrew.html).
+[BHSA transliteration]({{tfd}}/writing/hebrew.html).
 
 This feature is present on objects of type [*lex*](otype.md).
 
