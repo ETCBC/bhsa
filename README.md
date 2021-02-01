@@ -48,7 +48,7 @@ That means:
 ![tf](programs/images/tf-small.png)
 
 This data can be processed by 
-[Text-Fabric](https://annotation.github.io/text-fabric/).
+[Text-Fabric](https://annotation.github.io/text-fabric/tf).
 
 Text-Fabric will automatically download the BHSA data.
 

@@ -101,7 +101,7 @@ Except if a lexeme is rare.
 
 ##### Hint
 > Have a look at
-[start]({{repoBase}}/tutorial/start.ipynb).
+[start]({{tut}}/start.ipynb).
 so see how you could exploit this object type to find
 lexemes that are unique to books or chapters very easily.
 
@@ -163,4 +163,4 @@ The *otype* feature has the same values as the possible names of the MQL blocks.
 ##### Hint
 > In Text-Fabric we have developed a new way of querying.
 Read more in
-[search]({{repoBase}}/tutorial/search.ipynb).
+[search]({{tut}}/search.ipynb).
