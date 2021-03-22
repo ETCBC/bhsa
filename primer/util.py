@@ -71,6 +71,24 @@ MQL_RESULTS = {
         "verses": 675,
         "words": 5573,
     },
+    "10b1": {
+        "file": "2017_q4469_text_Dirk_Roorda",
+        "results": 217,
+        "verses": 103,
+        "words": 677,
+    },
+    "10b2": {
+        "file": "2017_q4470_text_Dirk_Roorda",
+        "results": 63,
+        "verses": 63,
+        "words": 406,
+    },
+    "10bm": {
+        "file": "2017_q4471_text_Dirk_Roorda",
+        "results": 8,
+        "verses": 4,
+        "words": 8,
+    },
 }
 
 
