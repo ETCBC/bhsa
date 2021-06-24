@@ -1,0 +1,714 @@
+########################################################################
+#                                                                      #
+#	lexicon: all lexemes in biblical Aramaic                       #
+#                                                                      #
+########################################################################
+#ident "@(#)lexicon	1.23 18/01/05"
+">B/"		sp=subs:gn=m:vc=>AB:gl=father
+">B=/"		sp=subs:gn=m:vc=>;B:gl=fruit
+">BD["		sp=verb:vc=>\:ABAD:gl=perish
+">BN/"		sp=subs:gn=f:vc=>EBEN:gl=stone
+">GRH/"		sp=subs:vc=>IG.\:R@H:gl=letter
+">DJN"		sp=advb:vc=>\:EDAJIN:gl=then
+">DR/"		sp=nmpr:sm=mens:vc=>\:AD@R:gl=Adar
+">DR=/"		sp=subs:vc=>ID.AR:gl=threshing-floor
+">DRGZR/"	sp=subs:vc=>\:ADAR\:G.@ZAR:gl=counselor
+">DRZD>"	sp=advb:vc=>AD\:RAZ\:D.@>:gl=with zeal
+">DR</"		sp=subs:gn=f:vc=>ED\:R@<:gl=arm
+">ZD>"		sp=advb:vc=>AZ\:D.@>:gl=publicly known
+">ZH["		sp=verb:vc=>\:AZ@H:gl=heat
+">ZL["		sp=verb:vc=>\:AZAL:gl=go
+">X/"		sp=subs:ls=nmdi:vc=>AX:gl=brother
+">XJDH/"	sp=subs:vc=>\:AXIJD@H:gl=riddle
+">XMT>/"	sp=nmpr:sm=topo:vc=>AX\:M\:T@>:gl=Ecbatana
+">XR/"		sp=subs:ls=ppre:vc=>AXAR:gl=after
+">XRJ/"		sp=adjv:gn=f:vc=>@X\:@RIJ:gl=another
+">XRJ=/"	sp=subs:vc=>AX\:ARIJ:gl=end
+">XRJN"		sp=advb:vc=>@X\:@R;JN:gl=at last
+">XRN/"		sp=adjv:gn=m:vc=>@X\:@R@N:gl=another
+">XCDRPN/"	sp=subs:vc=>\:AXAC\:D.AR\:P.AN:gl=satrap
+">JLN/"		sp=subs:gn=m:vc=>IJL@N:gl=tree
+">JMTNJ/"	sp=adjv:vc=>;JM\:T@NIJ:gl=terrible
+">JTJ/"		sp=subs:ls=nmcp:vc=>IJTAJ:gl=existence
+">KL["		sp=verb:vc=>\:AKAL:gl=eat
+">L"		sp=nega:vc=>AL:gl=not
+">L="		sp=prde:gn=unknown:nu=p:vc=>;L:gl=these
+">LH"		sp=prde:gn=unknown:nu=p:vc=>;L.EH:gl=these
+">LH/"		sp=subs:gn=m:vc=>\:EL@H.:gl=god
+">LW"		sp=intj:vc=>\:ALW.:gl=behold
+">LJN"		sp=prde:gn=unknown:nu=p:vc=>IL.;JN:gl=these
+">LK"		sp=prde:gn=unknown:nu=p:vc=>IL.;K\::gl=these
+">LP/"		sp=subs:ls=card:vc=>\:ALAP:gl=thousand
+">MH/"		sp=subs:gn=f:vc=>AM.@H:gl=cubit
+">MH=/"		sp=subs:gn=f:vc=>UM.@H:gl=nation
+">MN["		sp=verb:vc=>\:AMAN:gl=be steady
+">MR["		sp=verb:ls=quot:vc=>\:AMAR:gl=say
+">MR/"		sp=subs:vc=>IM.AR:gl=lamb
+">NH"		sp=prps:gn=unknown:ps=1:nu=s:vc=>\:AN@H:gl=I
+">NWN"		sp=prps:sm=ppde:ps=3:nu=p:gn=m:vc=>IN.W.N:gl=they
+">NXN>"		sp=prps:gn=unknown:ps=1:nu=p:vc=>\:ANAX\:N@>:gl=we
+">NJN"		sp=prps:ps=3:nu=p:gn=f:vc=>IN.IJN:gl=they
+">NS["		sp=verb:vc=>\:ANAS:gl=subdue
+">NP/"		sp=subs:gn=m:vc=>\:ANAP:gl=face
+">NC/"		sp=subs:ls=nmdi:gn=m:vc=>\:EN@C:gl=mankind
+">NTH"		sp=prps:ps=2:nu=s:gn=m:vc=>AN\:T.@H:gl=you
+">NTWN"		sp=prps:ps=2:nu=p:gn=m:vc=>AN\:T.W.N:gl=you
+">SWR/"		sp=subs:gn=m:vc=>\:ESW.R:gl=bond
+">SNPR/"	sp=nmpr:sm=pers:gn=m:vc=>@S\:NAP.AR:gl=Assurbanipal
+">SPRN>"	sp=advb:vc=>@S\:P.AR\:N@>:gl=exactly
+">SR/"		sp=subs:gn=m:vc=>\:ES@R:gl=inhibition
+"></"		sp=subs:gn=m:vc=>@<:gl=wood
+">P"		sp=advb:ls=focp:vc=>AP:gl=also
+">PRSJ/"	sp=subs:vc=>\:AP@R\:S@J:gl=<uncertain>
+">PRSKJ/"	sp=subs:vc=>\:APAR\:S\:K@J:gl=<uncertain>
+">PRSTKJ/"	sp=subs:vc=>\:APAR\:SAT\:K@J:gl=<uncertain>
+">PTM/"		sp=subs:vc=>AP.\:TOM:gl=<uncertain>
+">YB</"		sp=subs:vc=>EY\:B.A<:gl=finger
+">RB</"		sp=subs:ls=card:vc=>AR\:B.A<:gl=four
+">RGWN/"	sp=subs:gn=m:vc=>AR\:G.\:W@N:gl=purple
+">RW"		sp=intj:vc=>\:ARW.:gl=behold
+">RX/"		sp=subs:vc=>\:ARAX:gl=way
+">RJH/"		sp=subs:gn=m:vc=>AR\:J;H:gl=lion
+">RJWK/"	sp=nmpr:sm=pers:gn=m:vc=>AR\:JOWK\::gl=Arioch
+">RJK/"		sp=adjv:vc=>\:ARIJK\::gl=fitting
+">RKBH/"	sp=subs:vc=>AR\:KUB.@H:gl=knee
+">RKH/"		sp=subs:vc=>AR\:K@H:gl=length
+">RKWJ/"	sp=adjv:ls=gntl:vc=>AR\:K.\:W@J:gl=Erechite
+">R</"		sp=subs:gn=f:vc=>\:ARA<:gl=earth
+">R<J/"		sp=subs:vc=>AR\:<IJ:gl=bottom
+">RQ/"		sp=subs:gn=f:vc=>\:ARAQ:gl=earth
+">RTXCFT>/"	sp=nmpr:sm=pers:gn=m:vc=>AR\:T.AX\:CAF\:T.\:>:gl=Artaxerxes
+">C/"		sp=subs:vc=>OC:gl=foundation
+">C>/"		sp=subs:vc=>EC.@>:gl=fire
+">CP/"		sp=subs:gn=m:vc=>@CAP:gl=enchanter
+">CRN/"		sp=subs:gn=m:vc=>UC.EREN:gl=<uncertain>
+">CTDWR/"	sp=subs:gn=m:vc=>EC\:T.AD.W.R:gl=revolt
+">T/"		sp=subs:vc=>@T:gl=sign
+">TH["		sp=verb:vc=>\:AT@H:gl=come
+">TWN/"		sp=subs:gn=m:vc=>AT.W.N:gl=furnace
+">TR/"		sp=subs:gn=m:vc=>\:ATAR:gl=place
+"B"		sp=prep:vc=B.\::gl=in
+"B>JC/"		sp=adjv:vc=B.I>JC:gl=bad
+"B>C["		sp=verb:vc=B.\:>;C:gl=be evil
+"B>TR/"		sp=subs:ls=ppre:gn=m:vc=B.@>TAR:gl=after
+"BBL/"		sp=nmpr:sm=topo:vc=B.@BEL:gl=Babylon
+"BBLJ/"		sp=adjv:ls=gntl:vc=B.@B\:L@J:gl=Babylonian
+"BDR["		sp=verb:vc=B.\:DAR:gl=scatter
+"BHJLW/"	sp=subs:gn=f:vc=B.\:HIJLW.:gl=haste
+"BHL["		sp=verb:vc=B.\:HAL:gl=disturb
+"BVL["		sp=verb:vc=B.\:V;L:gl=be idle
+"BJN/"		sp=subs:ls=ppre:vc=B.;JN:gl=between
+"BJNH/"		sp=subs:vc=B.IJN@H:gl=discernment
+"BJRH/"		sp=subs:vc=B.IJR@H:gl=fortified place
+"BJT["		sp=verb:vc=B.IJT:gl=spend the night
+"BJT/"		sp=subs:gn=m:vc=B.AJIT:gl=house
+"BL/"		sp=subs:gn=m:vc=B.@L:gl=mind
+"BLH["		sp=verb:vc=B.\:L@H:gl=wear out
+"BLW/"		sp=subs:gn=m:vc=B.\:LOW:gl=tribute
+"BLVC>YR/"	sp=nmpr:sm=pers:gn=m:vc=B.;L\:V\:CA>Y.AR:gl=Belteshazzar
+"BLC>YR/"	sp=nmpr:sm=pers:gn=m:vc=B.;L\:CA>Y.AR:gl=Belshazzar
+"BNH["		sp=verb:vc=B.\:N@H:gl=build
+"BNJN/"		sp=subs:gn=m:vc=B.IN\:J@N:gl=building
+"BNS["		sp=verb:vc=B.\:NAS:gl=become angry
+"B<H["		sp=verb:vc=B.\:<@H:gl=seek
+"B<W/"		sp=subs:gn=f:vc=B.@<W.:gl=request
+"B<L/"		sp=subs:gn=m:vc=B.\:<;L:gl=master
+"BQ<H/"		sp=subs:vc=B.IQ\:<@H:gl=plain
+"BQR["		sp=verb:vc=B.\:QAR:gl=search
+"BR/"		sp=subs:gn=m:vc=B.AR:gl=son
+"BR=/"		sp=subs:gn=m:vc=B.AR:gl=field
+"BRK["		sp=verb:vc=B.\:RAK\::gl=bless
+"BRK/"		sp=subs:gn=f:vc=B.\:RAK\::gl=knee
+"BRK=["		sp=verb:vc=B.\:RAK\::gl=kneel
+"BRM"		sp=advb:vc=B.\:RAM:gl=but
+"BFR/"		sp=subs:gn=m:vc=B.\:FAR:gl=flesh
+"BT/"		sp=subs:vc=B.AT:gl=bath
+"GB/"		sp=subs:gn=m:vc=G.AB:gl=side
+"GB=/"		sp=subs:gn=m:vc=G.OB:gl=pit
+"GBWRH/"	sp=subs:vc=G.\:BW.R@H:gl=power
+"GBR/"		sp=subs:gn=m:vc=G.\:BAR:gl=man
+"GBR=/"		sp=subs:vc=G.IB.@R:gl=strong man
+"GDBR/"		sp=subs:vc=G.\:D@BAR:gl=treasurer
+"GDD["		sp=verb:vc=G.\:DAD:gl=cut down
+"GW>/"		sp=subs:gn=m:vc=G.OW>:gl=interior
+"GWH/"		sp=subs:vc=G.;W@H:gl=arrogance
+"GWX["		sp=verb:vc=G.W.XA:gl=stir up
+"GZBR/"		sp=subs:vc=G.IZ\:B.AR:gl=treasurer
+"GZR["		sp=verb:vc=G.\:ZAR:gl=cut
+"GZRH/"		sp=subs:vc=G.\:Z;R@H:gl=decision
+"GJR/"		sp=subs:gn=m:vc=G.IJR:gl=plaster
+"GLGL/"		sp=subs:vc=G.AL\:G.AL:gl=wheel
+"GLH["		sp=verb:vc=G.\:L@H:gl=reveal
+"GLW/"		sp=subs:vc=G.@LW.:gl=exile
+"GLL/"		sp=subs:gn=m:vc=G.\:L@L:gl=<uncertain>
+"GMR["		sp=verb:vc=G.\:MAR:gl=bring to an end
+"GNZ/"		sp=subs:vc=G.\:NAZ:gl=treasure
+"GP/"		sp=subs:gn=f:vc=G.AP:gl=wing
+"GRM/"		sp=subs:vc=G.\:RAM:gl=bone
+"GCM/"		sp=subs:gn=m:vc=G.\:C;M:gl=body
+"D>"		sp=prde:nu=s:gn=f:vc=D.@>:gl=this
+"DB/"		sp=subs:gn=m:vc=D.OB:gl=bear
+"DBX["		sp=verb:vc=D.\:BAX:gl=sacrifice
+"DBX/"		sp=subs:vc=D.\:BAX:gl=sacrifice
+"DBQ["		sp=verb:vc=D.\:B;Q:gl=adhere
+"DBRH/"		sp=subs:vc=D.IB\:R@H:gl=matter
+"DHB/"		sp=subs:gn=m:vc=D.\:HAB:gl=gold
+"DHJ/"		sp=adjv:ls=gntl:vc=D.EH@J:gl=Dehite
+"DWQ["		sp=verb:vc=D.W.Q:gl=pulverise
+"DWR["		sp=verb:vc=D.W.R:gl=dwell
+"DWR>/"		sp=nmpr:sm=topo:vc=D.W.R@>:gl=Dura
+"DWC["		sp=verb:vc=D.W.C:gl=trample upon
+"DXWH/"		sp=subs:vc=D.AX\:AW@H:gl=<uncertain>
+"DXL["		sp=verb:vc=D.\:XAL:gl=fear
+"DJ"		sp=prep:vc=D.IJ:gl=<relative>
+"DJN["		sp=verb:vc=D.IJN:gl=judge
+"DJN/"		sp=subs:gn=m:vc=D.IJN:gl=judgement
+"DJN=/"		sp=subs:vc=D.AJ.@N:gl=judge
+"DJNJ/"		sp=adjv:rt=DJN:vc=D.IJN@J:gl=<uncertain>:kb=D.IJN@J;>
+"DK"		sp=prde:nu=s:gn=m:vc=D.;K\::gl=that
+"DK="		sp=prde:nu=s:gn=f:vc=D.@K\::gl=that
+"DKN"		sp=prde:gn=unknown:nu=s:vc=D.IK.;N:gl=that
+"DKR/"		sp=subs:vc=D.\:KAR:gl=ram
+"DKRWN/"	sp=subs:gn=m:vc=D.IK\:ROWN:gl=memorandum
+"DKRN/"		sp=subs:vc=D.@K\:R@N:gl=memorandum
+"DLQ["		sp=verb:vc=D.\:LAQ:gl=burn
+"DMH["		sp=verb:vc=D.\:M@H:gl=resemble
+"DNH"		sp=prde:nu=s:gn=m:vc=D.\:N@H:gl=this
+"DNJ>L/"	sp=nmpr:sm=pers:gn=m:vc=D.@NIJ.;>L:gl=Daniel
+"DQQ["		sp=verb:vc=D.\:QAQ:gl=crush
+"DR/"		sp=subs:gn=m:vc=D.@R:gl=generation
+"DRJWC/"	sp=nmpr:sm=pers:gn=m:vc=D.@R\:J@WEC:gl=Darius
+"DR</"		sp=subs:gn=f:vc=D.\:R@<:gl=arm
+"DT/"		sp=subs:gn=f:vc=D.@T:gl=law
+"DT>/"		sp=subs:gn=m:vc=D.ETE>:gl=vegetation
+"DTBR/"		sp=subs:vc=D.\:T@BAR:gl=law official
+"H"		sp=inrg:ls=ques:vc=H\:A:gl=<interrogative>
+"H>"		sp=intj:vc=H@>:gl=behold
+"H>="		sp=intj:vc=H;>:gl=<idiomatic prefix>
+"HDBR/"		sp=subs:vc=HAD.@BAR:gl=companion
+"HDM/"		sp=subs:vc=HAD.@M:gl=limb
+"HDR["		sp=verb:vc=H\:ADAR:gl=honour
+"HDR/"		sp=subs:gn=m:vc=H\:ADAR:gl=glory
+"HW>"		sp=prps:sm=ppde:ps=3:nu=s:gn=m:vc=HW.>:gl=he
+"HWH["		sp=verb:ls=vbcp:vc=H\:AW@H:gl=be
+"HJ>"		sp=prps:ps=3:nu=s:gn=f:vc=HIJ>:gl=she
+"HJKL/"		sp=subs:gn=m:vc=H;JKAL:gl=palace
+"HLK["		sp=verb:vc=H\:ALAK\::gl=go
+"HLK/"		sp=subs:gn=m:vc=H\:AL@K\::gl=tax
+"HMW"		sp=prps:ps=3:nu=p:gn=m:vc=HIM.OW:gl=they
+"HMWN"		sp=prps:ps=3:nu=p:gn=m:vc=HIM.OWN:gl=they
+"HMNJK/"	sp=subs:gn=m:vc=HAM\:NIJK\::gl=necklace
+"HN"		sp=conj:vc=H;N:gl=if
+"HRHR/"		sp=subs:vc=HAR\:HOR:gl=imagining
+"W"		sp=conj:vc=W\::gl=and
+"ZBN["		sp=verb:vc=Z\:BAN:gl=buy
+"ZHJR/"		sp=adjv:vc=Z\:HIJR:gl=cautious
+"ZWN["		sp=verb:vc=ZW.N:gl=feed
+"ZW<["		sp=verb:vc=ZW.<A:gl=tremble
+"ZJD["		sp=verb:vc=ZIJD:gl=flow over
+"ZJW/"		sp=subs:gn=m:vc=ZIJW:gl=brightness
+"ZKW/"		sp=subs:gn=f:vc=Z@KW.:gl=innocence
+"ZKRJH/"	sp=nmpr:sm=pers:gn=m:vc=Z\:KAR\:J@H:gl=Zechariah
+"ZMN["		sp=verb:vc=Z\:MAN:gl=arrange
+"ZMN/"		sp=subs:gn=m:vc=Z\:M@N:gl=time
+"ZMR/"		sp=subs:gn=m:vc=Z\:M@R:gl=music for strings
+"ZMR=/"		sp=subs:vc=ZAM.@R:gl=musician
+"ZN/"		sp=subs:vc=ZAN:gl=sort
+"Z<JR/"		sp=adjv:vc=Z\:<;JR:gl=small
+"Z<Q["		sp=verb:vc=Z\:<IQ:gl=cry
+"ZQP["		sp=verb:vc=Z\:QAP:gl=erect
+"ZRBBL/"	sp=nmpr:sm=pers:gn=m:vc=Z\:RUB.@BEL:gl=Zerubbabel
+"ZR</"		sp=subs:gn=m:vc=Z\:RA<:gl=seed
+"XBWLH/"	sp=subs:vc=X\:ABW.L@H:gl=harm
+"XBL["		sp=verb:vc=X\:ABAL:gl=be harmful
+"XBL/"		sp=subs:gn=m:vc=X\:AB@L:gl=damage
+"XBR/"		sp=subs:vc=X\:ABAR:gl=colleague
+"XBRH/"		sp=subs:vc=XAB\:R@H:gl=colleague
+"XGJ/"		sp=nmpr:sm=pers:gn=m:vc=XAG.AJ:gl=Haggai
+"XD/"		sp=subs:ls=card:vc=XAD:gl=one
+"XDH/"		sp=subs:vc=X\:AD;H:gl=breast
+"XDWH/"		sp=subs:vc=XED\:W@H:gl=joy
+"XDT/"		sp=adjv:vc=X\:ADAT:gl=new
+"XWH["		sp=verb:vc=X\:AW@H:gl=know
+"XWR/"		sp=adjv:vc=XIW.@R:gl=white
+"XZH["		sp=verb:vc=X\:AZ@H:gl=see
+"XZW/"		sp=subs:gn=m:vc=X\:EZW.:gl=vision
+"XZWT/"		sp=subs:vc=X\:AZOWT:gl=appearance
+"XV>/"		sp=subs:vc=X\:AV@>:gl=sin
+"XV>H/"		sp=subs:vc=XAV.@>@H:gl=sin-offering
+"XJ/"		sp=adjv:vc=XAJ:gl=living
+"XJH["		sp=verb:vc=X\:AJ@H:gl=live
+"XJWH/"		sp=subs:vc=X;JW@H:gl=animal
+"XJJN/"		sp=subs:vc=XAJ.IJN:gl=life
+"XJL/"		sp=subs:gn=m:vc=XAJIL:gl=strength
+"XKJM/"		sp=adjv:vc=XAK.IJM:gl=wise
+"XKMH/"		sp=subs:vc=X@K\:M@H:gl=wisdom
+"XLM/"		sp=subs:gn=m:vc=X;LEM:gl=dream
+"XLP["		sp=verb:vc=X\:ALAP:gl=pass by
+"XLQ/"		sp=subs:gn=m:vc=X\:AL@Q:gl=share
+"XMH/"		sp=subs:vc=X\:AM@H:gl=wrath
+"XMR/"		sp=subs:gn=m:vc=X\:AMAR:gl=wine
+"XNVH/"		sp=subs:gn=f:vc=XIN\:V@H:gl=wheat
+"XNKH/"		sp=subs:vc=X\:ANUK.@H:gl=inauguration
+"XNN["		sp=verb:vc=X\:ANAN:gl=show mercy
+"XNNJH/"	sp=nmpr:sm=pers:gn=m:vc=X\:ANAN\:J@H:gl=Hananiah
+"XSJR/"		sp=adjv:vc=XAS.IJR:gl=wanting
+"XSN["		sp=verb:vc=X\:ASAN:gl=possess
+"XSN/"		sp=subs:gn=m:vc=X\:ES;N:gl=power
+"XSP/"		sp=subs:gn=m:vc=X\:ASAP:gl=clay
+"XYP["		sp=verb:vc=X\:AYAP:gl=be bare
+"XRB["		sp=verb:vc=X\:ARAB:gl=destroy
+"XRVM/"		sp=subs:gn=m:vc=XAR\:V.OM:gl=magician
+"XRK["		sp=verb:vc=X\:ARAK\::gl=burn
+"XRY/"		sp=subs:gn=m:vc=X\:ARAY:gl=hip
+"XCB["		sp=verb:vc=X\:ACAB:gl=consider
+"XCWK/"		sp=subs:gn=m:vc=X\:ACOWK\::gl=darkness
+"XCX["		sp=verb:vc=X\:ACAX:gl=need
+"XCXH/"		sp=subs:vc=XAC\:X@H:gl=need
+"XCXW/"		sp=subs:vc=XAC\:XW.:gl=need
+"XCL["		sp=verb:vc=X\:ACAL:gl=hammer
+"XTM["		sp=verb:vc=X\:ATAM:gl=seal
+"V>B["		sp=verb:vc=V\:>;B:gl=be good
+"VB/"		sp=adjv:vc=V@B:gl=good
+"VBX/"		sp=subs:vc=VAB.AX:gl=executioner
+"VWR/"		sp=subs:gn=m:vc=VW.R:gl=mountain
+"VWT"		sp=advb:vc=V\:W@T:gl=fastingly
+"VJN/"		sp=subs:gn=m:vc=VIJN:gl=clay
+"VL/"		sp=subs:gn=m:vc=VAL:gl=dew
+"VLL["		sp=verb:vc=V\:LAL:gl=shelter
+"V<M["		sp=verb:vc=V\:<;M:gl=eat
+"V<M/"		sp=subs:gn=m:vc=V\:<;M:gl=sense
+"VPR/"		sp=subs:gn=m:vc=V\:PAR:gl=nail
+"VRD["		sp=verb:vc=V\:RAD:gl=drive out
+"VRPLJ/"	sp=subs:vc=VAR\:P.\:L@J:gl=<unknown>
+"JBL["		sp=verb:vc=J\:BAL:gl=bring
+"JBCH/"		sp=subs:vc=JAB.\:C@H:gl=land
+"JGR/"		sp=subs:gn=m:vc=J\:GAR:gl=heap of stones
+"JD/"		sp=subs:gn=f:vc=JAD:gl=hand
+"JDH["		sp=verb:vc=J\:D@H:gl=praise
+"JD<["		sp=verb:vc=J\:DA<:gl=know
+"JHB["		sp=verb:vc=J\:HAB:gl=give
+"JHWD/"		sp=nmpr:sm=topo:vc=J\:HW.D:gl=Judaea
+"JHWDJ/"	sp=adjv:ls=gntl:vc=J\:HW.D@J:gl=Jew
+"JWM/"		sp=subs:gn=m:vc=JOWM:gl=day
+"JWYDQ/"	sp=nmpr:sm=pers:gn=m:vc=JOWY@D@Q:gl=Jozadak
+"JZB["		sp=verb:vc=J\:ZAB:gl=save
+"JXV["		sp=verb:vc=J\:XAV:gl=dig:co=uncertain variant of XVV[
+"JVB["		sp=verb:vc=J\:VAB:gl=be good
+"JKL["		sp=verb:vc=J\:KIL:gl=be able
+"JM/"		sp=subs:gn=m:vc=JAM:gl=sea
+"JSP["		sp=verb:vc=J\:SAP:gl=add
+"J<V["		sp=verb:vc=J\:<AV:gl=advise
+"JY>["		sp=verb:vc=J\:Y@>:gl=go out
+"JYB["		sp=verb:vc=J\:YAB:gl=stand
+"JYJB/"		sp=adjv:vc=JAY.IJB:gl=reliable
+"JQD["		sp=verb:vc=J\:QAD:gl=burn
+"JQDH/"		sp=subs:vc=J\:Q;D@H:gl=firebrand
+"JQJR/"		sp=adjv:vc=JAQ.IJR:gl=difficult
+"JQR/"		sp=subs:gn=m:vc=J\:Q@R:gl=dignity
+"JRWCLM/"	sp=nmpr:sm=topo:vc=J\:RW.C\:LEM:gl=Jerusalem
+"JRX/"		sp=subs:gn=m:vc=J\:RAX:gl=month
+"JRKH/"		sp=subs:vc=JAR\:K@H:gl=thigh
+"JFR>L/"	sp=nmpr:sm=gens:vc=JIF\:R@>;L:gl=Israel
+"JCW</"		sp=nmpr:sm=pers:gn=m:vc=J;CW.<A:gl=Jeshua
+"JT"		sp=prep:vc=J@T:gl=<nota accusativi>
+"JTB["		sp=verb:vc=J\:TIB:gl=sit
+"JTJR/"		sp=adjv:vc=JAT.IJR:gl=excessive
+"K"		sp=prep:vc=K.\::gl=like
+"KDBH/"		sp=subs:vc=K.ID\:B@H:gl=lie
+"KH"		sp=advb:vc=K.@H:gl=here
+"KHL["		sp=verb:vc=K.\:HAL:gl=be able
+"KHN/"		sp=subs:gn=m:vc=K.@H;N:gl=priest
+"KWH/"		sp=subs:gn=f:vc=K.AW.@H:gl=window
+"KWRC/"		sp=nmpr:sm=pers:gn=m:vc=K.OWREC:gl=Cyrus
+"KKR/"		sp=subs:gn=f:vc=K.AK.AR:gl=talent
+"KL/"		sp=subs:ls=nmdi:gn=m:vc=K.OL:gl=whole
+"KLL["		sp=verb:vc=K.\:LAL:gl=finish
+"KN"		sp=advb:vc=K.;N:gl=thus
+"KNM>"		sp=advb:vc=K.\:N;M@>:gl=thus
+"KNC["		sp=verb:vc=K.\:NAC:gl=assemble
+"KNT/"		sp=subs:gn=m:vc=K.\:N@T:gl=colleague
+"KSP/"		sp=subs:gn=m:vc=K.\:SAP:gl=silver
+"K<N"		sp=advb:vc=K.\:<AN:gl=now
+"K<NT"		sp=advb:vc=K.\:<ENET:gl=now
+"K<T"		sp=advb:vc=K.\:<ET:gl=now
+"KPT["		sp=verb:vc=K.\:PAT:gl=bind
+"KR/"		sp=subs:vc=K.OR:gl=kor
+"KRBLH/"	sp=subs:vc=K.AR\:B.\:L@H:gl=hat
+"KRH["		sp=verb:vc=K.\:R@H:gl=be sick
+"KRWZ/"		sp=subs:gn=m:vc=K.@ROWZ:gl=herald
+"KRZ["		sp=verb:vc=K.\:RAZ:gl=proclaim
+"KRS>/"		sp=subs:gn=m:vc=K.@R\:S;>:gl=throne
+"KFDJ/"		sp=adjv:ls=gntl:vc=K.AF\:D.@J:gl=Chaldaean
+"KTB["		sp=verb:vc=K.\:TAB:gl=write
+"KTB/"		sp=subs:gn=m:vc=K.\:T@B:gl=writing
+"KTL/"		sp=subs:gn=m:vc=K.\:TAL:gl=wall
+"L"		sp=prep:vc=L\::gl=to
+"L>"		sp=nega:vc=L@>:gl=not
+"LB/"		sp=subs:gn=m:rt=LBB:vc=L;B:gl=heart
+"LBB/"		sp=subs:gn=m:rt=LBB:vc=L\:BAB:gl=heart
+"LBWC/"		sp=subs:gn=m:rt=LBC:vc=L\:BW.C:gl=garment
+"LBC["		sp=verb:vc=L\:B;C:gl=wear
+"LHN"		sp=advb:ls=cjad:vc=L@H;N:gl=therefore
+"LHN="		sp=conj:vc=L@H;N:gl=but
+"LWJ/"		sp=adjv:ls=gntl:vc=L;W@J:gl=Levite
+"LWT"		sp=prep:vc=L\:W@T:gl=with
+"LXM/"		sp=subs:gn=m:vc=L\:XEM:gl=meal
+"LXNH/"		sp=subs:vc=L\:X;N@H:gl=maid
+"LJLJ/"		sp=subs:gn=m:vc=L;JL;J:gl=night
+"LCN/"		sp=subs:gn=m:vc=LIC.@N:gl=tongue
+"M>H/"		sp=subs:ls=card:vc=M\:>@H:gl=hundred
+"M>ZN>/"	sp=subs:vc=MO>Z\:N;>:gl=balance
+"M>MR/"		sp=subs:gn=m:vc=M;>MAR:gl=word
+"M>N/"		sp=subs:vc=M@>N:gl=vessel
+"MGLH/"		sp=subs:vc=M\:GIL.@H:gl=scroll
+"MGR["		sp=verb:vc=M\:GAR:gl=fall
+"MDBX/"		sp=subs:gn=m:vc=MAD\:B.AX:gl=altar
+"MDH/"		sp=subs:vc=MID.@H:gl=tax
+"MDWR/"		sp=subs:gn=m:vc=M\:DOWR:gl=dwelling
+"MDJ/"		sp=nmpr:sm=topo:vc=M@DAJ:gl=Media
+"MDJ=/"		sp=adjv:ls=gntl:vc=M@DAJ:gl=Median
+"MDJNH/"	sp=subs:vc=M\:DIJN@H:gl=province
+"MH"		sp=prin:gn=unknown:nu=unknown:vc=M@H:gl=what
+"MWT/"		sp=subs:gn=m:vc=MOWT:gl=death
+"MZWN/"		sp=subs:gn=m:vc=M@ZOWN:gl=food
+"MX>["		sp=verb:vc=M\:X@>:gl=hit
+"MXLQH/"	sp=subs:vc=MAX\:L\:Q@H:gl=division
+"MV>["		sp=verb:vc=M\:V@>:gl=come
+"MJC>L/"	sp=nmpr:sm=pers:gn=m:vc=MIJC@>;L:gl=Mishael
+"MJCK/"		sp=nmpr:sm=pers:gn=m:vc=M;JCAK\::gl=Meshach
+"ML>["		sp=verb:vc=M\:L@>:gl=fill
+"ML>K/"		sp=subs:gn=m:vc=MAL\:>AK\::gl=angel
+"MLH/"		sp=subs:gn=f:vc=MIL.@H:gl=word
+"MLX["		sp=verb:vc=M\:LAX:gl=eat salt
+"MLX/"		sp=subs:gn=m:vc=M\:LAX:gl=salt
+"MLK/"		sp=subs:gn=m:vc=MELEK\::gl=king
+"MLK=/"		sp=subs:gn=m:vc=M\:LAK\::gl=advise
+"MLKH/"		sp=subs:vc=MAL\:K.@H:gl=queen
+"MLKW/"		sp=subs:gn=f:vc=MAL\:KW.:gl=kingdom
+"MLL["		sp=verb:ls=quot:vc=M\:LAL:gl=speak
+"MN"		sp=prep:vc=MIN:gl=from
+"MN="		sp=prin:gn=unknown:nu=unknown:vc=MAN:gl=who
+"MN>/"		sp=subs:gn=m:vc=M\:N;>:gl=mina
+"MND</"		sp=subs:gn=m:vc=MAN\:D.A<:gl=knowledge
+"MNH["		sp=verb:vc=M\:N@H:gl=count
+"MNXH/"		sp=subs:vc=MIN\:X@H:gl=offering
+"MNJN/"		sp=subs:gn=m:vc=MIN\:J@N:gl=number
+"M<BD/"		sp=subs:vc=MA<\:AB@D:gl=work
+"M<H/"		sp=subs:vc=M\:<;H:gl=belly
+"M<L/"		sp=subs:vc=ME<AL:gl=entrance
+"MR>/"		sp=subs:gn=m:vc=M@R;>:gl=lord
+"MRD/"		sp=subs:gn=m:vc=M\:RAD:gl=rebellion
+"MRD=/"		sp=adjv:vc=M@R@D:gl=rebellious
+"MRV["		sp=verb:vc=M\:RAV:gl=pluck out
+"MCH/"		sp=nmpr:sm=pers:gn=m:vc=MOCEH:gl=Moses
+"MCX/"		sp=subs:gn=m:vc=M\:CAX:gl=oil
+"MCKB/"		sp=subs:gn=m:vc=MIC\:K.AB:gl=bed
+"MCKN/"		sp=subs:gn=m:vc=MIC\:K.AN:gl=abode
+"MCRWQJ/"	sp=subs:vc=MAC\:ROWQIJ:gl=pipe
+"MCT>/"		sp=subs:gn=m:vc=MIC\:T.;>:gl=banquet
+"MTNH/"		sp=subs:vc=MAT.\:N@H:gl=gift
+"NB>["		sp=verb:vc=N\:B@>:gl=prophesy
+"NBW>H/"	sp=subs:vc=N\:BW.>@H:gl=prophecy
+"NBWKDNYR/"	sp=nmpr:sm=pers:gn=m:vc=N\:BW.KAD\:NEY.AR:gl=Nebuchadnezzar
+"NBZBH/"	sp=subs:vc=N\:BIZ\:B.@H:gl=present
+"NBJ>/"		sp=subs:gn=m:vc=N\:BIJ>:gl=prophet
+"NBRCH/"	sp=subs:vc=NEB\:R\:C@H:gl=lamp
+"NGD["		sp=verb:vc=N\:GAD:gl=flow
+"NGD/"		sp=subs:ls=ppre:vc=NEGED:gl=toward
+"NGH/"		sp=subs:gn=f:vc=N\:GAH.:gl=dawn
+"NDB["		sp=verb:vc=N\:DAB:gl=be willing
+"NDBK/"		sp=subs:gn=m:vc=NID\:B.@K\::gl=layer
+"NDD["		sp=verb:vc=N\:DAD:gl=flee
+"NDNH/"		sp=subs:gn=m:vc=NID\:NEH:gl=sheath
+"NHWR/"		sp=subs:gn=m:vc=N\:HOWR:gl=light
+"NHJRW/"	sp=subs:gn=f:vc=NAHIJRW.:gl=brilliance
+"NHR/"		sp=subs:gn=m:vc=N\:HAR:gl=river
+"NWD["		sp=verb:vc=NW.D:gl=flee
+"NWLW/"		sp=subs:gn=f:vc=N\:W@LW.:gl=dunghill
+"NWR/"		sp=subs:vc=NW.R:gl=fire
+"NZQ["		sp=verb:vc=N\:ZAQ:gl=suffer
+"NXC/"		sp=subs:gn=m:vc=N\:X@C:gl=copper
+"NXT["		sp=verb:vc=N\:X;T:gl=come down
+"NVL["		sp=verb:vc=N\:VAL:gl=lift up
+"NVR["		sp=verb:vc=N\:VAR:gl=guard
+"NJXWX/"	sp=subs:vc=NIJXOWXA:gl=incense
+"NKS/"		sp=subs:vc=N\:KAS:gl=possession
+"NMR/"		sp=subs:gn=m:vc=N\:MAR:gl=panther
+"NSX["		sp=verb:vc=N\:SAX:gl=pull out
+"NSK["		sp=verb:vc=N\:SAK\::gl=poor out
+"NSK/"		sp=subs:vc=N\:SAK\::gl=libation
+"NPL["		sp=verb:vc=N\:PAL:gl=fall
+"NPQ["		sp=verb:vc=N\:PAQ:gl=go out
+"NPQH/"		sp=subs:vc=NIP\:Q@H:gl=expenses
+"NYBH/"		sp=subs:vc=NIY\:B.@H:gl=planting
+"NYX["		sp=verb:vc=N\:YAX:gl=shine
+"NYL["		sp=verb:vc=N\:YAL:gl=save
+"NQ>/"		sp=adjv:vc=N\:Q;>:gl=pure
+"NQC["		sp=verb:vc=N\:QAC:gl=knock
+"NF>["		sp=verb:vc=N\:F@>:gl=take
+"NCJN/"		sp=subs:gn=f:vc=N\:CIJN:gl=women
+"NCMH/"		sp=subs:vc=NIC\:M@H:gl=breath
+"NCR/"		sp=subs:gn=m:vc=N\:CAR:gl=eagle
+"NCTWN/"	sp=subs:gn=m:vc=NIC\:T.\:W@N:gl=decree
+"NTJN/"		sp=subs:vc=N\:TIJN:gl=temple servant
+"NTN["		sp=verb:vc=N\:TAN:gl=give
+"NTR["		sp=verb:vc=N\:TAR:gl=drop
+"SBL["		sp=verb:vc=S\:BAL:gl=carry
+"SBR["		sp=verb:vc=S\:BAR:gl=intend
+"SGD["		sp=verb:vc=S\:GID:gl=bow
+"SGN/"		sp=subs:vc=S\:GAN:gl=prefect
+"SGR["		sp=verb:vc=S\:AGAR:gl=lock
+"SWMPNJH/"	sp=subs:vc=SW.M\:P.ON\:J@H:gl=symphony
+"SWP["		sp=verb:vc=SW.P:gl=end
+"SWP/"		sp=subs:gn=m:vc=SOWP:gl=end
+"SLQ["		sp=verb:vc=S\:L;Q:gl=go up
+"S<D["		sp=verb:vc=S\:<AD:gl=support
+"SPR/"		sp=subs:gn=m:vc=S\:PAR:gl=book
+"SPR=/"		sp=subs:gn=m:vc=S@PAR:gl=scribe
+"SRBL/"		sp=subs:vc=SAR\:B.@L:gl=trousers
+"SRK/"		sp=subs:vc=S@RAK\::gl=high official
+"STR["		sp=verb:vc=S\:TAR:gl=hide
+"STR=["		sp=verb:vc=S\:TAR:gl=demolish
+"<BD["		sp=verb:vc=<\:ABAD:gl=do
+"<BD/"		sp=subs:gn=m:vc=<\:AB;D:gl=servant
+"<BD_NGW/"	sp=nmpr:sm=pers:gn=m:vc=<\:AB;D_N\:GOW:gl=Abed-Nego
+"<BJDH/"	sp=subs:vc=<\:ABIJDAH:gl=work
+"<BR/"		sp=subs:ls=ppre:gn=m:vc=<\:ABAR:gl=opposite bank
+"<D"		sp=prep:vc=<AD:gl=until
+"<DH["		sp=verb:vc=<\:AD@H:gl=go
+"<DW>/"		sp=nmpr:sm=pers:gn=m:vc=<ID.OW>:gl=Iddo
+"<DN/"		sp=subs:gn=m:vc=<ID.@N:gl=time
+"<WD/"		sp=subs:ls=padv:vc=<OWD:gl=still
+"<WJH/"		sp=subs:vc=<\:AW@J@H:gl=iniquity
+"<WP/"		sp=subs:gn=m:vc=<OWP:gl=bird
+"<WR/"		sp=subs:gn=m:vc=<W.R:gl=chaff
+"<Z/"		sp=subs:gn=f:vc=<;Z:gl=goat
+"<ZQH/"		sp=subs:vc=<IZ\:Q@H:gl=seal ring
+"<ZR>/"		sp=nmpr:sm=pers:gn=m:vc=<EZ\:R@>:gl=Ezra
+"<ZRJH/"	sp=nmpr:sm=pers:gn=m:vc=<\:AZAR\:J@H:gl=Azariah
+"<VH/"		sp=subs:gn=f:vc=<;V@H:gl=advice
+"<JN/"		sp=subs:gn=f:vc=<AJIN:gl=eye
+"<JR/"		sp=subs:gn=m:vc=<IJR:gl=angel
+"<L"		sp=prep:vc=<AL:gl=upon
+"<L>"		sp=advb:vc=<;L.@>:gl=above
+"<LH/"		sp=subs:vc=<IL.@H:gl=pretext
+"<LWH/"		sp=subs:vc=<AL\:W@H:gl=sacrifice
+"<LJ/"		sp=adjv:vc=<IL.@J:gl=highest
+"<LJ=/"		sp=subs:vc=<IL.IJ:gl=upper room
+"<LJWN/"	sp=adjv:vc=<EL\:JOWN:gl=most high
+"<LL["		sp=verb:vc=<\:ALAL:gl=enter
+"<LM/"		sp=subs:gn=m:vc=<@LAM:gl=eternity
+"<LMJ/"		sp=adjv:ls=gntl:vc=<;L@MIJ:gl=Elamite
+"<L</"		sp=subs:gn=f:vc=<\:ALA<:gl=rib
+"<M"		sp=prep:vc=<IM:gl=with
+"<M/"		sp=subs:gn=m:vc=<AM:gl=people
+"<MJQ/"		sp=adjv:vc=<AM.IJQ:gl=deep
+"<MR/"		sp=subs:gn=m:vc=<\:AMAR:gl=wool
+"<NH["		sp=verb:vc=<\:AN@H:gl=answer
+"<NH/"		sp=adjv:vc=<\:AN;H:gl=humble
+"<NN/"		sp=subs:vc=<\:AN@N:gl=cloud
+"<NP/"		sp=subs:vc=<\:ANAP:gl=branch
+"<NC/"		sp=subs:gn=m:vc=<\:AN@C:gl=fine
+"<PJ/"		sp=subs:gn=m:vc=<\:@PIJ:gl=foliage
+"<YJB/"		sp=adjv:vc=<\:AYIJB:gl=sad
+"<QR["		sp=verb:vc=<\:AQAR:gl=pluck out
+"<QR/"		sp=subs:gn=m:vc=<IQ.AR:gl=offshoot
+"<R/"		sp=subs:vc=<@R:gl=adversary
+"<RB["		sp=verb:vc=<\:ARAB:gl=mix
+"<RD/"		sp=subs:vc=<\:AR@D:gl=wild ass
+"<RWH/"		sp=subs:vc=<AR\:W@H:gl=nakedness
+"<FB/"		sp=subs:gn=m:vc=<\:AFAB:gl=grass
+"<FR/"		sp=subs:ls=card:vc=<\:AFAR:gl=ten
+"<FRJN/"	sp=subs:ls=card:vc=<EF\:RIJN:gl=twenty
+"<CT["		sp=verb:vc=<\:ACIT:gl=intend
+"<TJD/"		sp=adjv:vc=<\:ATIJD:gl=ready
+"<TJQ/"		sp=adjv:vc=<AT.IJQ:gl=old
+"PXH/"		sp=subs:gn=m:vc=P.EX@H:gl=governor
+"PXR/"		sp=subs:gn=m:vc=P.EX@R:gl=potter
+"PVC/"		sp=subs:gn=m:rt=PVC:vc=P.\:VAC:gl=legging
+"PLG["		sp=verb:vc=P.\:LAG:gl=divide
+"PLG/"		sp=subs:gn=m:vc=P.\:LAG:gl=half
+"PLGH/"		sp=subs:vc=P.\:LUG.@H:gl=division
+"PLX["		sp=verb:vc=P.\:LAX:gl=serve
+"PLXN/"		sp=subs:gn=m:vc=P.@L\:X@N:gl=service
+"PM/"		sp=subs:gn=m:vc=P.UM:gl=mouth
+"PS/"		sp=subs:gn=m:vc=P.AS:gl=palm
+"PSNTRJN/"	sp=subs:gn=m:vc=P.\:SAN\:T.;RIJN:gl=psaltery
+"PRZL/"		sp=subs:gn=m:vc=P.AR\:ZEL:gl=iron
+"PRS["		sp=verb:vc=P.\:RAS:gl=divide
+"PRS/"		sp=nmpr:sm=topo:vc=P.@RAS:gl=Persia
+"PRS=/"		sp=subs:gn=m:vc=P.\:R;S:gl=half-shekel
+"PRSJ/"		sp=adjv:ls=gntl:vc=P.AR\:S@J:gl=Persian
+"PRQ["		sp=verb:vc=P.\:RAQ:gl=atone
+"PRC["		sp=verb:vc=P.\:RAC:gl=interpret
+"PRCGN/"	sp=subs:gn=m:vc=P.AR\:CEGEN:gl=copy
+"PCR["		sp=verb:vc=P.\:CAR:gl=interpret
+"PCR/"		sp=subs:gn=m:vc=P.\:CAR:gl=interpretation
+"PTGM/"		sp=subs:gn=m:vc=P.IT\:G@M:gl=word
+"PTX["		sp=verb:vc=P.\:TAX:gl=open
+"PTJ/"		sp=subs:gn=m:vc=P.\:T@J:gl=breadth
+"YBH["		sp=verb:vc=Y\:B@H:gl=desire
+"YBW/"		sp=subs:gn=f:vc=Y\:BW.:gl=thing
+"YB<["		sp=verb:vc=Y\:BA<:gl=wet
+"YD/"		sp=subs:gn=m:vc=YAD:gl=side
+"YD>"		sp=advb:vc=Y\:D@>:gl=really
+"YDQH/"		sp=subs:vc=YID\:Q@H:gl=charity
+"YW>R/"		sp=subs:gn=m:vc=YAW.A>R:gl=neck
+"YLH["		sp=verb:vc=Y\:L@H:gl=pray
+"YLX["		sp=verb:vc=Y\:LAX:gl=prosper
+"YLM/"		sp=subs:gn=m:vc=Y\:L;M:gl=statue
+"YPJR/"		sp=subs:vc=Y\:PIJR:gl=he-goat
+"YPR/"		sp=subs:gn=f:vc=YIP.AR:gl=bird
+"QBL["		sp=verb:vc=Q\:BAL:gl=receive
+"QBL/"		sp=subs:ls=ppre:vc=Q\:@B;L:gl=opposite
+"QDJC/"		sp=adjv:vc=QAD.IJC:gl=holy
+"QDM/"		sp=subs:ls=ppre:vc=Q\:@D@M:gl=before
+"QDMH/"		sp=subs:ls=ppre:vc=QAD\:M@H:gl=former time
+"QDMJ/"		sp=adjv:ls=ordn:vc=QAD\:M@J:gl=first
+"QWM["		sp=verb:vc=QW.M:gl=stand
+"QVL["		sp=verb:vc=Q\:VAL:gl=kill
+"QVR/"		sp=subs:vc=Q\:VAR:gl=knot
+"QJV/"		sp=subs:gn=m:vc=QAJIV:gl=summer
+"QJM/"		sp=adjv:vc=QAJ.@M:gl=during
+"QJM=/"		sp=subs:gn=m:vc=Q\:J@M:gl=statute
+"QL/"		sp=subs:gn=m:vc=Q@L:gl=voice
+"QNH["		sp=verb:vc=Q\:N@H:gl=buy
+"QYP["		sp=verb:vc=Q\:YAP:gl=get angry
+"QYP/"		sp=subs:gn=m:vc=Q\:YAP:gl=wrath
+"QYY["		sp=verb:vc=Q\:YAY:gl=cut off
+"QYT/"		sp=subs:gn=f:vc=Q\:Y@T:gl=end
+"QR>["		sp=verb:vc=Q\:R@>:gl=call
+"QRB["		sp=verb:vc=Q\:R;B:gl=approach
+"QRB/"		sp=subs:gn=m:vc=Q\:R@B:gl=war
+"QRJH/"		sp=subs:vc=QIR\:J@H:gl=city
+"QRN/"		sp=subs:gn=f:vc=QEREN:gl=horn
+"QRY/"		sp=subs:vc=Q\:RAY:gl=piece
+"QCV/"		sp=subs:gn=m:vc=Q\:COV:gl=truth
+"QTRS/"		sp=subs:gn=m:vc=QAT\:ROS:gl=zither
+"R>C/"		sp=subs:gn=m:vc=R;>C:gl=head
+"RB/"		sp=adjv:vc=RAB:gl=great
+"RB=/"		sp=subs:gn=m:vc=RAB:gl=chief
+"RBH["		sp=verb:vc=R\:B@H:gl=grow
+"RBW/"		sp=subs:gn=f:vc=R\:BW.:gl=greatness
+"RBW=/"		sp=subs:ls=mult:gn=f:vc=RIB.OW:gl=myriad
+"RBJ<J/"	sp=adjv:ls=ordn:vc=R\:BIJ<@J:gl=fourth
+"RBRBNJN/"	sp=subs:vc=RAB\:R\:B@NIJN:gl=lords
+"RGZ["		sp=verb:vc=R\:GAZ:gl=be angry
+"RGZ/"		sp=subs:gn=m:vc=R\:GAZ:gl=anger
+"RGL/"		sp=subs:gn=f:vc=R\:GAL:gl=foot
+"RGC["		sp=verb:vc=R\:GAC:gl=tremble
+"RW/"		sp=subs:gn=m:vc=R;W:gl=appearance
+"RWX/"		sp=subs:gn=f:vc=RW.XA:gl=wind
+"RWM["		sp=verb:vc=RW.M:gl=be high
+"RWM/"		sp=subs:gn=m:vc=RW.M:gl=height
+"RZ/"		sp=subs:gn=m:vc=R@Z:gl=secret
+"RXWM/"		sp=nmpr:sm=pers:gn=m:vc=R\:XW.M:gl=Rehum
+"RXJQ/"		sp=adjv:vc=RAXIJQ:gl=far
+"RXMJN/"	sp=subs:vc=RAX\:AMIJN:gl=mercy
+"RXY["		sp=verb:vc=R\:XAY:gl=trust
+"RJX/"		sp=subs:gn=f:vc=R;JXA:gl=smell
+"RMH["		sp=verb:vc=R\:M@H:gl=throw
+"R<W/"		sp=subs:vc=R\:<W.:gl=will
+"R<JWN/"	sp=subs:gn=m:vc=RA<\:JOWN:gl=thought
+"R<NN/"		sp=adjv:vc=RA<\:NAN:gl=flourishing
+"R<<["		sp=verb:vc=R\:<A<:gl=break
+"RPS["		sp=verb:vc=R\:PAS:gl=trample upon
+"RCM["		sp=verb:vc=R\:CAM:gl=write
+"FB/"		sp=subs:vc=F@B:gl=elder
+"FBK>/"		sp=subs:gn=f:vc=FAB.\:K@>:gl=sambuca
+"FG>["		sp=verb:vc=F\:G@>:gl=be much
+"FGJ>/"		sp=adjv:vc=FAG.IJ>:gl=much
+"FHDW/"		sp=subs:vc=F@H\:ADW.:gl=testimony
+"FVR/"		sp=subs:gn=m:vc=F\:VAR:gl=side
+"FJM["		sp=verb:vc=FIJM:gl=place
+"FKL["		sp=verb:vc=F\:KAL:gl=consider
+"FKLTNW/"	sp=subs:gn=f:vc=F@K\:L\:T@NW.:gl=insight
+"FN>["		sp=verb:vc=F\:N@>:gl=hate
+"F<R/"		sp=subs:gn=m:vc=F\:<AR:gl=hair
+"C>L["		sp=verb:vc=C\:>;L:gl=ask
+"C>LH/"		sp=subs:vc=C\:>;L@H:gl=question
+"C>LTJ>L/"	sp=nmpr:sm=pers:gn=m:vc=C\:>AL\:T.IJ>;L:gl=Shealtiel
+"C>R/"		sp=subs:gn=m:vc=C\:>@R:gl=rest
+"CBX["		sp=verb:vc=C\:BAX:gl=praise
+"CBV/"		sp=subs:vc=C\:BAV:gl=tribe
+"CBJB/"		sp=subs:gn=m:vc=C\:BIJB:gl=flame
+"CB</"		sp=subs:ls=card:vc=C\:BA<:gl=seven
+"CBQ["		sp=verb:vc=C\:BAQ:gl=leave
+"CBC["		sp=verb:vc=C\:BAC:gl=branch off
+"CGL/"		sp=subs:vc=C;GAL:gl=concubine
+"CDR["		sp=verb:vc=C\:DAR:gl=throw
+"CDRK/"		sp=nmpr:sm=pers:gn=m:vc=CAD\:RAK\::gl=Shadrach
+"CWH["		sp=verb:vc=C\:W@H:gl=be equal
+"CWR/"		sp=subs:vc=CW.R:gl=wall
+"CWCNKJ/"	sp=adjv:ls=gntl:vc=CW.CAN\:K@J:gl=man from Susa
+"CXT["		sp=verb:vc=C\:XAT:gl=spoil
+"CKX["		sp=verb:vc=C\:KAX:gl=find
+"CKN["		sp=verb:vc=C\:K;N:gl=dwell
+"CLH/"		sp=adjv:vc=C\:L;H:gl=carefree
+"CLW/"		sp=subs:gn=f:vc=C@LW.:gl=negligence
+"CLWH/"		sp=subs:vc=C\:L;W@H:gl=happiness
+"CLX["		sp=verb:vc=C\:LAX:gl=send
+"CLV["		sp=verb:vc=C\:L;V:gl=rule
+"CLVN/"		sp=subs:gn=m:vc=C@L\:V@N:gl=official
+"CLVN=/"	sp=subs:vc=CIL\:VON:gl=dominion
+"CLJV/"		sp=adjv:vc=CAL.IJV:gl=mighty
+"CLM["		sp=verb:vc=C\:L;M:gl=be finished
+"CLM/"		sp=subs:gn=m:vc=C\:L@M:gl=well-being
+"CM/"		sp=subs:gn=m:vc=CUM:gl=name
+"CMD["		sp=verb:vc=C\:MAD:gl=exterminate
+"CMJN/"		sp=subs:vc=C\:MAJIN:gl=heaven
+"CMM["		sp=verb:vc=C\:MAM:gl=be astonished
+"CM<["		sp=verb:vc=C\:MA<:gl=hear
+"CMRJN/"	sp=nmpr:sm=topo:vc=C@M\:R@JIN:gl=Samaria
+"CMC["		sp=verb:vc=C\:MAC:gl=serve
+"CMC/"		sp=subs:gn=m:vc=C\:MAC:gl=sun
+"CMCJ/"		sp=nmpr:sm=pers:gn=m:vc=CIM\:CAJ:gl=Shimshai
+"CN/"		sp=subs:gn=f:vc=C;N:gl=tooth
+"CNH["		sp=verb:vc=C\:N@H:gl=be different
+"CNH/"		sp=subs:gn=f:vc=C\:N@H:gl=year
+"CNH=/"		sp=subs:vc=C\:N@H:gl=sleep
+"C<H/"		sp=subs:vc=C@<@H:gl=hour
+"CPV["		sp=verb:vc=C\:PAV:gl=judge
+"CPJR/"		sp=adjv:vc=CAP.IJR:gl=beautiful
+"CPL["		sp=verb:vc=C\:P;L:gl=be low
+"CPL/"		sp=adjv:vc=C\:PAL:gl=low
+"CPR["		sp=verb:vc=C\:PAR:gl=please
+"CPRPR/"	sp=subs:gn=m:vc=C\:PAR\:P.@R:gl=dawn
+"CQ/"		sp=subs:gn=m:vc=C@Q:gl=leg
+"CRH["		sp=verb:vc=C\:R@H:gl=loosen
+"CRC/"		sp=subs:vc=C\:ROC:gl=root
+"CRCJ/"		sp=subs:gn=f:vc=C\:ROCIJ:gl=banishment
+"CCBYR/"	sp=nmpr:sm=pers:gn=m:vc=C;C\:B.AY.AR:gl=Sheshbazzar
+"CT/"		sp=subs:ls=card:vc=C;T:gl=six
+"CTH["		sp=verb:vc=C\:T@H:gl=drink
+"CTJN/"		sp=subs:ls=card:vc=CIT.IJN:gl=sixty
+"CTR_BWZNJ/"	sp=nmpr:sm=pers:gn=m:vc=C\:TAR_B.OWZ\:NAJ:gl=Shethar-Bozenai
+"TBR["		sp=verb:vc=T.\:BAR:gl=break
+"TGMWL/"	sp=subs:vc=T.AG\:MW.L:gl=benefit
+"TDJR/"		sp=subs:ls=padv:gn=f:vc=T.\:DIJR:gl=constantly
+"TWB["		sp=verb:vc=T.W.B:gl=return
+"TWH["		sp=verb:vc=T.\:WAH.:gl=be amazed
+"TWR/"		sp=subs:vc=T.OWR:gl=ox
+"TXWT/"		sp=subs:ls=ppre:vc=T.\:XOWT:gl=underneath
+"TLG/"		sp=subs:gn=m:vc=T.\:LAG:gl=snow
+"TLJTJ/"	sp=adjv:ls=ordn:vc=T.\:LIJT@J:gl=third
+"TLT/"		sp=subs:ls=card:vc=T.\:L@T:gl=three
+"TLT=/"		sp=subs:gn=m:vc=T.\:L@T:gl=triumvir
+"TLTJN/"	sp=subs:ls=card:vc=T.\:L@TIJN:gl=thirty
+"TMH"		sp=advb:vc=T.AM.@H:gl=there
+"TMH/"		sp=subs:vc=T.\:MAH.:gl=wonder
+"TNJN/"		sp=adjv:ls=ordn:vc=T.IN\:J@N:gl=second
+"TNJNWT"	sp=advb:vc=T.IN\:J@NW.T:gl=again
+"TPTJ/"		sp=subs:vc=T.IP\:T.@J:gl=police officer
+"TQJP/"		sp=adjv:vc=T.AQ.IJP:gl=strong
+"TQL["		sp=verb:vc=T.\:QAL:gl=weigh
+"TQL/"		sp=subs:gn=m:vc=T.\:Q;L:gl=shekel
+"TQN["		sp=verb:vc=T.\:QAN:gl=be stable
+"TQP["		sp=verb:vc=T.\:Q;P:gl=be strong
+"TQP/"		sp=subs:gn=m:vc=T.\:QOP:gl=strength
+"TQP=/"		sp=subs:gn=m:vc=T.\:QAP:gl=strength
+"TRJN/"		sp=subs:ls=card:vc=T.\:R;JN:gl=two
+"TR</"		sp=subs:gn=m:vc=T.\:RA<:gl=door
+"TR<=/"		sp=subs:vc=T.@R@<:gl=door-keeper
+"TTNJ/"		sp=nmpr:sm=pers:gn=m:vc=T.AT.\:NAJ:gl=Tattenai
