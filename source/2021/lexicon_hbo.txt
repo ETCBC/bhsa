@@ -3,7 +3,7 @@
 #	lexicon: all lexemes in biblical Hebrew                    #
 #                                                                  #
 ####################################################################
-#ident "@(#)lexicon	1.130 21/05/06"
+#ident "@(#)lexicon	1.135 21/08/06"
 # The spelling of proper names is that of the RSV
 ">B/"		sp=subs:gn=m:rt=>BH:vc=>@B:gl=father
 ">B=/"		sp=subs:gn=m:rt=>BB?:vc=>;B:gl=bud
@@ -24,7 +24,7 @@
 ">BJ_<LBWN/"	sp=nmpr:sm=pers:gn=m:vc=>\:ABIJ_<AL\:BOWN:gl=Abi-albon
 ">BJ>L/"	sp=nmpr:sm=pers:gn=m:vc=>\:ABIJ>;L:gl=Abiel
 ">BJ>SP/"	sp=nmpr:sm=pers:gn=m:vc=>\:ABIJ>@S@P:gl=Abiasaph
-">BJB/"		sp=subs:vc=>@BIJB:gl=ears
+">BJB/"		sp=subs:rt=>BB:vc=>@BIJB:gl=ears
 ">BJGJL/"	sp=nmpr:sm=pers:gn=f:vc=>\:ABIJGAJIL:gl=Abigail
 ">BJDN/"	sp=nmpr:sm=pers:gn=m:vc=>\:ABIJD@N:gl=Abidan
 ">BJD</"	sp=nmpr:sm=pers:gn=m:vc=>\:ABIJD@<:gl=Abida
@@ -361,7 +361,7 @@
 ">JLT=/"	sp=subs:rt=>WL:vc=>AJ.ELET:gl=doe
 ">JM/"		sp=adjv:rt=>JM:vc=>@JOM:gl=frightful
 ">JMH/"		sp=subs:gn=f:rt=>JM:vc=>;JM@H:gl=fright
-">JMJM/"	sp=nmpr:vc=>;JMIJM:gl=Emim:sm=gens
+">JMJ/"		sp=adjv:ls=gntl:rt=>JM:vc=>;JMIJ:gl=Emite
 ">JN"		sp=inrg:vc=>AJIN:gl=whence
 ">JN/"		sp=subs:ls=nmcp:gn=m:vc=>AJIN:gl=<NEG>
 ">JN="		sp=conj:vc=>IJN:gl=if
@@ -386,7 +386,7 @@
 ">KZRJ/"	sp=adjv:rt=KZR:vc=>AK\:Z@RIJ:gl=cruel
 ">KZRJWT/"	sp=subs:gn=f:rt=KZR:vc=>AK\:Z\:RIJ.W.T:gl=cruelty
 ">KJLH/"	sp=subs:vc=>\:AKIJL@H:gl=food
-">KJC/"		sp=nmpr:fc=ai:sm=pers:gn=m:vc=>@KIJC:gl=Achish
+">KJC/"		sp=nmpr:sm=pers:gn=m:rt=>KC:vc=>@KIJC:gl=Achish
 ">KL["		sp=verb:vc=>@KAL:gl=eat
 ">KL/"		sp=subs:fc=seg:gn=m:vc=>OKEL:gl=food
 ">KL=/"		sp=subs:gn=m:rt=>KL:vc=>UK@L:gl=<uncertain>
@@ -510,7 +510,7 @@
 ">M/"		sp=subs:gn=f:rt=>MM:vc=>;M:gl=mother
 ">MH/"		sp=subs:vc=>@M@H:gl=handmaid
 ">MH=/"		sp=subs:rt=>MM:vc=>AM.@H:gl=cubit
-">MH==/"	sp=subs:gn=f:vc=>UM.@H:gl=clan
+">MH==/"	sp=subs:gn=f:rt=>MM:vc=>UM.@H:gl=clan
 ">MH===/"	sp=subs:vc=>AM.@H:gl=<uncertain>
 ">MH====/"	sp=nmpr:vc=>AM.@H:gl=Ammah:sm=topo
 ">MWN/"		sp=adjv:rt=>MN:vc=>\:EMW.N:gl=faithful
@@ -521,7 +521,7 @@
 ">MWY/"		sp=nmpr:sm=pers:gn=m:vc=>@MOWY:gl=Amoz
 ">MJ/"		sp=nmpr:sm=pers:gn=m:vc=>@MIJ:gl=Ami
 ">MJY/"		sp=adjv:rt=>MY:vc=>AM.IJY:gl=strong
-">MJR/"		sp=subs:fc=ai:gn=m:vc=>@MIJR:gl=branch
+">MJR/"		sp=subs:gn=m:rt=>MR:vc=>@MIJR:gl=branch
 ">ML["		sp=verb:vc=>@MAL:gl=wither
 ">MLH/"		sp=subs:vc=>\:AMUL@H:gl=<uncertain>
 ">MLL/"		sp=adjv:vc=>\:AM;L@L:gl=decaying
@@ -595,8 +595,8 @@
 ">SWK/"		sp=subs:gn=m:vc=>@SW.K\::gl=jar
 ">SWN/"		sp=subs:gn=m:rt=>SH:vc=>@SOWN:gl=accident
 ">SWR/"		sp=subs:gn=m:vc=>;SW.R:gl=fetter
-">SJP/"		sp=subs:fc=ai:gn=m:vc=>@SIJP:gl=harvesting
-">SJR/"		sp=subs:fc=ai:gn=m:vc=>@SIJR:gl=prisoner
+">SJP/"		sp=subs:gn=m:rt=>SP:vc=>@SIJP:gl=harvesting
+">SJR/"		sp=subs:gn=m:rt=>SR:vc=>@SIJR:gl=prisoner
 ">SJR=/"	sp=subs:fc=ai:gn=m:vc=>AS.IJR:gl=prisoner
 ">SJR==/"	sp=nmpr:fc=ai:sm=pers:gn=m:vc=>AS.IJR:gl=Assir
 ">SM/"		sp=subs:rt=>SM:vc=>@S@M:gl=store
@@ -628,7 +628,7 @@
 ">PJX/"		sp=nmpr:fc=ai:sm=pers:gn=m:vc=>\:APIJXA:gl=Aphiah
 ">PJL/"		sp=adjv:rt=>PL:vc=>@PIJL:gl=late
 ">PJM/"		sp=nmpr:sm=pers:gn=m:vc=>AP.AJIM:gl=Appaim
-">PJQ/"		sp=subs:fc=ai:gn=m:vc=>@PIJQ:gl=stream
+">PJQ/"		sp=subs:gn=m:rt=>PQ:vc=>@PIJQ:gl=stream
 ">PJQ=/"	sp=adjv:rt=>PQ:vc=>@PIJQ:gl=strong
 ">PJQ==/"	sp=nmpr:sm=topo:vc=>\:APIJQ:gl=Aphek
 ">PL/"		sp=subs:fc=ae:gn=m:vc=>@P;L:gl=darkness
@@ -651,12 +651,12 @@
 ">PRX/"		sp=subs:vc=>EP\:ROXA:gl=young one
 ">PRJWN/"	sp=subs:gn=m:vc=>AP.IR\:JOWN:gl=litter
 ">PRJM/"	sp=nmpr:sm=pers,gens,topo:vc=>EP\:RAJIM:gl=Ephraim
-">PRT/"		sp=nmpr:sm=pers,gens:gn=f:st=a:vc=>EP\:R@T:gl=Ephrath
-">PRTH/"	sp=nmpr:sm=pers,gens:gn=f:st=a:vc=>EP\:R@T@H:gl=Ephrathah
+">PRT/"		sp=nmpr:sm=topo,pers:gn=f:st=a:vc=>EP\:R@T:gl=Ephrath
+">PRTH/"	sp=nmpr:sm=topo,pers:gn=f:st=a:vc=>EP\:R@T@H:gl=Ephrathah
 ">PRTJ/"	sp=adjv:ls=gntl:vc=>EP\:R@TIJ:gl=Ephrathite
 ">YBWN/"	sp=nmpr:sm=pers:gn=m:vc=>EY\:B.OWN:gl=Ezbon
 ">YB</"		sp=subs:gn=f:vc=>EY\:B.A<:gl=finger
-">YJL/"		sp=subs:fc=ai:vc=>@YIJL:gl=remote part
+">YJL/"		sp=subs:rt=>YL:vc=>@YIJL:gl=remote part
 ">YJL=/"	sp=adjv:rt=>YL:vc=>@YIJL:gl=noble
 ">YJL==/"	sp=subs:fc=ai:gn=f:vc=>AY.IJL:gl=armpit
 ">YL["		sp=verb:fc=1>:gl=set aside
@@ -725,13 +725,11 @@
 ">RJSJ/"	sp=nmpr:sm=pers:gn=m:vc=>\:ARIJSAJ:gl=Arisai
 ">RK["		sp=verb:vc=>@RAK\::gl=be long
 ">RK/"		sp=adjv:rt=>RK:vc=>@R;K\::gl=long
-">RK=/"		sp=subs:rt=>RK:gn=m:vc=>OREK\::gl=length
+">RK=/"		sp=subs:gn=m:rt=>RK:vc=>OREK\::gl=length
 ">RK==/"	sp=adjv:rt=>RK:vc=>@ROK\::gl=long
 ">RK===/"	sp=nmpr:fc=seg:sm=topo:vc=>EREK\::gl=Erech
 ">RKJ/"		sp=adjv:ls=gntl:vc=>AR\:K.IJ:gl=Arkite
 ">RM/"		sp=nmpr:sm=topo:vc=>\:AR@M:gl=Aram
-">RM_M<KH/"	sp=nmpr:sm=topo:vc=>\:ARAM_MA<\:AK@H:gl=Aram Maacah
-">RM_NHRJM/"	sp=nmpr:sm=topo:vc=>\:ARAM_NAH\:ARAJIM:gl=Mesopotamia
 ">RMWN/"	sp=subs:gn=m:vc=>AR\:MOWN:gl=dwelling tower
 ">RMJ/"		sp=adjv:ls=gntl:vc=>\:ARAM.IJ:gl=Aramean
 ">RMJ=/"	sp=adjv:vc=>\:AR@MIJ:gl=in Aramaic
@@ -872,7 +870,7 @@
 "BDD/"		sp=subs:ls=padv:gn=m:rt=BDD:vc=B.@D@D:gl=alone
 "BDD=/"		sp=nmpr:sm=pers:gn=m:vc=B.\:DAD:gl=Bedad
 "BDJH/"		sp=nmpr:sm=pers:gn=m:vc=B.;D\:J@H:gl=Bedeiah
-"BDJL/"		sp=subs:fc=ai:vc=B.@DIJL:gl=dross of melting
+"BDJL/"		sp=subs:rt=BDL:vc=B.@DIJL:gl=dross of melting
 "BDJL=/"	sp=subs:fc=ai:gn=m:vc=B.\:DIJL:gl=tin
 "BDL["		sp=verb:vc=B.@DAL:gl=separate
 "BDL/"		sp=subs:gn=m:vc=B.@D@L:gl=piece
@@ -921,7 +919,7 @@
 "BZH["		sp=verb:vc=B.@Z@H:gl=despise
 "BZH/"		sp=subs:vc=B.IZ.@H:gl=spoil
 "BZZ["		sp=verb:fc=22:vc=B.@ZAZ:gl=spoil
-"BZJWN/"	sp=subs:gn=m:vc=B.IZ.@JOWN:gl=contempt
+"BZJWN/"	sp=subs:gn=m:rt=BZH:vc=B.IZ.@JOWN:gl=contempt
 "BZJWTJH/"	sp=nmpr:sm=topo:vc=B.IZ\:JOWT\:J@H:gl=Biziothiah
 "BZQ/"		sp=subs:gn=m:vc=B.@Z@Q:gl=<uncertain>
 "BZQ=/"		sp=nmpr:fc=seg:sm=topo:vc=B.EZEQ:gl=Bezek
@@ -946,7 +944,7 @@
 "BVX/"		sp=subs:fc=seg:ls=padv:gn=m:vc=B.EVAX:gl=trust
 "BVX=/"		sp=nmpr:fc=seg:sm=topo:vc=B.EVAX:gl=Tebah
 "BVXH/"		sp=subs:vc=B.IV\:X@H:gl=confidence
-"BVXWN/"	sp=subs:gn=m:vc=B.IV.@XOWN:gl=confidence
+"BVXWN/"	sp=subs:gn=m:rt=BVX:vc=B.IV.@XOWN:gl=confidence
 "BVXWT/"	sp=subs:vc=B.AV.UXOWT:gl=safety
 "BVL["		sp=verb:gl=cease working
 "BVN/"		sp=subs:fc=seg:gn=f:vc=B.EVEN:gl=belly
@@ -1146,8 +1144,8 @@
 "BYH/"		sp=subs:vc=B.IY.@H:gl=marshland
 "BYWR/"		sp=adjv:rt=BYR:vc=B.@YW.R:gl=fortified
 "BYJ/"		sp=nmpr:sm=pers:gn=m:vc=B.;Y@J:gl=Bezai
-"BYJR/"		sp=subs:fc=ai:gn=m:vc=B.@YIJR:gl=vintage
-"BYJR=/"	sp=subs:fc=ai:vc=B.@YIJR:gl=forest
+"BYJR/"		sp=subs:gn=m:rt=BYR:vc=B.@YIJR:gl=vintage
+"BYJR=/"	sp=subs:rt=BYR:vc=B.@YIJR:gl=forest
 "BYL/"		sp=subs:vc=B.@Y@L:gl=onion
 "BYL>L/"	sp=nmpr:sm=pers:gn=m:vc=B.\:YAL\:>;L:gl=Bezalel
 "BYLWT/"	sp=nmpr:sm=pers:gn=m:vc=B.AY\:LW.T:gl=Bazluth
@@ -1164,7 +1162,7 @@
 "BYR==/"	sp=nmpr:sm=pers:gn=m:vc=B.EYER:gl=Bezer
 "BYRH/"		sp=subs:vc=B.@Y\:R@H:gl=<uncertain>
 "BYRH=/"	sp=nmpr:sm=topo:vc=B.@Y\:R@H:gl=Bozrah
-"BYRWN/"	sp=subs:gn=m:vc=B.IY.@ROWN:gl=<uncertain>
+"BYRWN/"	sp=subs:gn=m:rt=BYR:vc=B.IY.@ROWN:gl=<uncertain>
 "BYRT/"		sp=subs:fc=seg:vc=B.AY.ORET:gl=drought
 "BQBWQ/"	sp=nmpr:sm=pers:gn=m:vc=B.AQ\:B.W.Q:gl=Bakbuk
 "BQBQ/"		sp=subs:gn=m:vc=B.AQ\:B.UQ:gl=bottle
@@ -1312,7 +1310,7 @@
 "GBJ</"		sp=subs:fc=ai:gn=m:vc=G.@BIJ<A:gl=cup
 "GBJR/"		sp=subs:gn=m:vc=G.\:BIJR:gl=lord
 "GBJRH/"	sp=subs:vc=G.\:BIJR@H:gl=mistress
-"GBJC/"		sp=subs:fc=ai:gn=m:vc=G.@BIJC:gl=rock-crystal
+"GBJC/"		sp=subs:gn=m:rt=GBC:vc=G.@BIJC:gl=rock-crystal
 "GBL["		sp=verb:vc=G.@BAL:gl=set border
 "GBL/"		sp=nmpr:sm=topo:vc=G.\:B@L:gl=Gebal
 "GBL=/"		sp=nmpr:sm=topo:vc=G.\:BAL:gl=<mountain>
@@ -1359,7 +1357,7 @@
 "GDJ>L/"	sp=nmpr:sm=pers:gn=m:vc=G.AD.IJ>;L:gl=Gaddiel
 "GDJH/"		sp=subs:vc=G.ID\:J@H:gl=bank
 "GDJH=/"	sp=subs:rt=GDH:vc=G.\:DIJ.@H:gl=young goat
-"GDJC/"		sp=subs:fc=ai:gn=m:vc=G.@DIJC:gl=heap
+"GDJC/"		sp=subs:gn=m:rt=GDC:vc=G.@DIJC:gl=heap
 "GDL["		sp=verb:vc=G.@DAL:gl=be strong
 "GDL/"		sp=subs:fc=seg:gn=m:vc=G.ODEL:gl=greatness
 "GDL=/"		sp=adjv:rt=GDL:vc=G.@D;L:gl=growing
@@ -1478,9 +1476,9 @@
 "GLWM/"		sp=subs:rt=GLM:vc=G.\:LOWM:gl=garment
 "GLWT/"		sp=subs:gn=f:rt=GLH:vc=G.@LW.T:gl=exile
 "GLX["		sp=verb:vc=G.@LAX:gl=shave
-"GLJWN/"	sp=subs:gn=m:vc=G.IL.@JOWN:gl=tablet
-"GLJL/"		sp=subs:fc=ai:gn=m:vc=G.@LIJL:gl=pivot
-"GLJL=/"	sp=nmpr:sm=topo:vc=G.@LIJL:gl=Galilee
+"GLJWN/"	sp=subs:gn=m:rt=GLH:vc=G.IL.@JOWN:gl=tablet
+"GLJL/"		sp=subs:gn=m:rt=GLL:vc=G.@LIJL:gl=pivot
+"GLJL=/"	sp=nmpr:sm=topo:rt=GLL:vc=G.@LIJL:gl=Galilee
 "GLJLH/"	sp=subs:vc=G.\:LIJL@H:gl=region
 "GLJLWT/"	sp=nmpr:sm=topo:vc=G.\:LIJLOWT:gl=Geliloth
 "GLJM/"		sp=nmpr:sm=topo:vc=G.AL.IJM:gl=Gallim
@@ -1646,7 +1644,7 @@
 "DDWHW/"	sp=nmpr:sm=pers:gn=m:vc=D.OD@W@HW.:gl=Dodavahu
 "DDN/"		sp=nmpr:sm=topo:vc=D.\:D@N:gl=Dedan
 "DDNJ/"		sp=adjv:ls=gntl:vc=D.\:D@NIJ:gl=Dedanites
-"DDNJM/"	sp=nmpr:sm=gens:vc=D.OD@NIJM:gl=Rodanim
+"DDNJ=/"	sp=adjv:ls=gntl:rt=<uncertain>:vc=D.OD@NIJ:gl=Dodanite
 "DHM["		sp=verb:vc=D.@HAM:gl=surprise
 "DHR["		sp=verb:vc=D.@HAR:gl=dash
 "DHRH/"		sp=subs:rt=DHR:vc=D.AH\:AR@H:gl=dashing
@@ -1787,10 +1785,10 @@
 "DR</"		sp=nmpr:sm=pers:gn=m:vc=D.@RA<:gl=Darda
 "DRQWN/"	sp=nmpr:sm=pers:gn=m:vc=D.AR\:QOWN:gl=Darkon
 "DRC["		sp=verb:vc=D.@RAC:gl=inquire
-"DC>["		sp=verb:vc=D.@C@>:gl=grow green
-"DC>/"		sp=subs:fc=seg:gn=m:vc=D.ECE>:gl=young grass
-"DCN["		sp=verb:vc=D.@C;N:gl=grow fat
-"DCN/"		sp=subs:fc=seg:gn=m:vc=D.ECEN:gl=fatness
+"DC>["		sp=verb:rt=DC>:vc=D.@C@>:gl=grow green
+"DC>/"		sp=subs:gn=m:rt=DC>:vc=D.ECE>:gl=young grass
+"DCN["		sp=verb:rt=DCN:vc=D.@C;N:gl=grow fat
+"DCN/"		sp=subs:gn=m:rt=DCN:vc=D.ECEN:gl=fatness
 "DCN=/"		sp=adjv:rt=DCN:vc=D.@C;N:gl=fat
 "DT/"		sp=subs:gn=f:rt=DT:vc=D.@T:gl=orders
 "DTN/"		sp=nmpr:sm=topo:vc=D.OT@N:gl=Dothan
@@ -1800,18 +1798,18 @@
 "H>"		sp=intj:vc=H;>:gl=behold
 "H>X"		sp=intj:vc=HE>@X:gl=aha
 "HBHBJ/"	sp=subs:vc=HAB\:H@BAJ:gl=<uncertain>
-"HBL["		sp=verb:gl=be vain
+"HBL["		sp=verb:rt=HBL:gl=be vain
 "HBL/"		sp=subs:ls=padv:gn=m:rt=HBL:vc=HEBEL:gl=breath
 "HBL=/"		sp=nmpr:fc=seg:sm=pers:gn=m:vc=HEBEL:gl=Abel
 "HBNJM/"	sp=subs:vc=H@B\:NIJM:gl=ebony
 "HBR["		sp=verb:vc=H@BAR:gl=divide
-"HGH["		sp=verb:vc=H@G@H:gl=mutter
-"HGH/"		sp=subs:gn=m:vc=HEGEH:gl=whisper
+"HGH["		sp=verb:rt=HGH:vc=H@G@H:gl=mutter
+"HGH/"		sp=subs:gn=m:rt=HGH:vc=HEGEH:gl=whisper
 "HGH=["		sp=verb:vc=H@G@H:gl=expel
 "HGWT/"		sp=subs:gn=f:rt=HGH:vc=H@GW.T:gl=meditation
 "HGJ/"		sp=nmpr:sm=pers:gn=m:vc=H;GAJ:gl=Hegai
-"HGJG/"		sp=subs:fc=ai:gn=m:vc=H@GIJG:gl=groaning
-"HGJWN/"	sp=subs:gn=m:vc=HIG.@JOWN:gl=groaning
+"HGJG/"		sp=subs:gn=m:rt=HGG:vc=H@GIJG:gl=groaning
+"HGJWN/"	sp=subs:gn=m:rt=HGH:vc=HIG.@JOWN:gl=groaning
 "HGJNH/"	sp=subs:vc=H\:AGIJN@H:gl=<uncertain>
 "HGR/"		sp=nmpr:sm=pers:gn=f:vc=H@G@R:gl=Hagar
 "HGRJ/"		sp=adjv:ls=gntl:vc=HAG\:RIJ:gl=Hagrite
@@ -2005,7 +2003,7 @@
 "ZW="		sp=prde:nu=s:gn=f:vc=ZOW:gl=this
 "ZWB["		sp=verb:vc=ZW.B:gl=flow
 "ZWB/"		sp=subs:gn=m:vc=ZOWB:gl=flux
-"ZWZJM/"	sp=nmpr:sm=gens:vc=ZW.ZIJM:gl=Zuzim
+"ZWZJ/"		sp=adjv:ls=gntl:rt=ZWZ:vc=ZW.ZIJ:gl=Zuzite
 "ZWXT/"		sp=nmpr:sm=pers:gn=m:vc=ZOWX;T:gl=Zoheth
 "ZWJT/"		sp=subs:rt=ZWH:vc=Z@WIJT:gl=corner
 "ZWL["		sp=verb:vc=ZW.L:gl=lavish
@@ -2046,7 +2044,7 @@
 "ZKR/"		sp=subs:fc=seg:gn=m:vc=Z;KER:gl=mention
 "ZKR=/"		sp=adjv:vc=Z@K@R:gl=male
 "ZKR==/"	sp=nmpr:sm=gens:gn=m:vc=ZEKER:gl=Zeker
-"ZKRWN/"	sp=subs:gn=m:vc=ZIK.@ROWN:gl=remembrance
+"ZKRWN/"	sp=subs:gn=m:rt=ZKR:vc=ZIK.@ROWN:gl=remembrance
 "ZKRJ/"		sp=nmpr:sm=pers:gn=m:vc=ZIK\:RIJ:gl=Zicri
 "ZKRJH/"	sp=nmpr:sm=pers:gn=m:vc=Z\:KAR\:J@H:gl=Zechariah
 "ZKRJHW/"	sp=nmpr:sm=pers:gn=m:vc=Z\:KAR\:J@HW.:gl=Zechariah
@@ -2059,8 +2057,8 @@
 "ZMH=/"		sp=nmpr:sm=pers:gn=m:vc=ZIM.@H:gl=Zimmah
 "ZMWRH/"	sp=subs:gn=f:vc=Z\:MOWR@H:gl=shoot
 "ZMZMJM/"	sp=nmpr:sm=gens:vc=ZAM\:ZUM.IJM:gl=Zamzummites
-"ZMJR/"		sp=subs:fc=ai:gn=m:vc=Z@MIJR:gl=song
-"ZMJR=/"	sp=subs:fc=ai:gn=m:vc=Z@MIJR:gl=pruning
+"ZMJR/"		sp=subs:gn=m:rt=ZMR:vc=Z@MIJR:gl=song
+"ZMJR=/"	sp=subs:gn=m:rt=ZMR:vc=Z@MIJR:gl=pruning
 "ZMJRH/"	sp=nmpr:sm=pers:gn=m:vc=Z\:MIJR@H:gl=Zemirah
 "ZMM["		sp=verb:fc=22:vc=Z@MAM:gl=ponder
 "ZMM/"		sp=subs:gn=m:rt=ZMM:vc=Z@M@M:gl=plan
@@ -2147,7 +2145,7 @@
 "XBB["		sp=verb:vc=X@BAB:gl=love
 "XBB/"		sp=nmpr:sm=pers:gn=m:vc=XOB@B:gl=Hobab
 "XBH["		sp=verb:vc=X@B@H:gl=hide
-"XBH/"		sp=nmpr:sm=pers:gn=m:vc=XUB.@H:gl=Hubbah
+"XBH/"		sp=nmpr:sm=pers:gn=m:rt=XBB:vc=XUB.@H:gl=Hubbah
 "XBWR/"		sp=nmpr:fc=ao:sm=topo:vc=X@BOWR:gl=Habor
 "XBWRH/"	sp=subs:vc=XAB.W.R@H:gl=bruise
 "XBV["		sp=verb:fc=1g:gl=beat off
@@ -2210,7 +2208,7 @@
 "XDH["		sp=verb:vc=X@D@H:gl=rejoice
 "XDWDJM/"	sp=subs:vc=XAD.W.DIJM:gl=points
 "XDWH/"		sp=subs:vc=XED\:W@H:gl=joy
-"XDJD/"		sp=nmpr:fc=ai:sm=topo:vc=X@DIJD:gl=Hadid
+"XDJD/"		sp=nmpr:sm=topo:rt=XDD:vc=X@DIJD:gl=Hadid
 "XDL["		sp=verb:vc=X@DAL:gl=cease
 "XDL/"		sp=adjv:rt=XDL:vc=X@D;L:gl=ceasing
 "XDL=/"		sp=subs:fc=seg:gn=m:vc=XEDEL:gl=<uncertain>
@@ -2278,7 +2276,7 @@
 "XZWT=/"	sp=subs:gn=m:rt=XZH:vc=X\:AZOWT:gl=vision
 "XZJ>L/"	sp=nmpr:sm=pers:gn=m:vc=X\:AZIJ>;L:gl=Haziel
 "XZJH/"		sp=nmpr:sm=pers:gn=m:vc=X\:AZ@J@H:gl=Hazaiah
-"XZJWN/"	sp=subs:gn=m:vc=XIZ.@JOWN:gl=vision
+"XZJWN/"	sp=subs:gn=m:rt=XZH:vc=XIZ.@JOWN:gl=vision
 "XZJWN=/"	sp=nmpr:sm=pers:gn=m:vc=XEZ\:JOWN:gl=Hezion
 "XZJZ/"		sp=subs:fc=ai:gn=m:vc=X\:AZIJZ:gl=storm-cloud
 "XZJR/"		sp=subs:fc=ai:gn=m:vc=X\:AZIJR:gl=swine
@@ -2378,7 +2376,7 @@
 "XLJ=/"		sp=subs:fc=seg:gn=m:vc=X\:ALIJ:gl=ornament
 "XLJ==/"	sp=nmpr:fc=seg:sm=topo:vc=X\:ALIJ:gl=Hali
 "XLJH/"		sp=subs:vc=XEL\:J@H:gl=ornament
-"XLJL/"		sp=subs:fc=ai:gn=m:vc=X@LIJL:gl=flute
+"XLJL/"		sp=subs:gn=m:rt=XLL:vc=X@LIJL:gl=flute
 "XLJLH"		sp=intj:vc=X@LIJL@H:gl=be it far
 "XLJPH/"	sp=subs:vc=X\:ALIJP@H:gl=substitute
 "XLJYH/"	sp=subs:vc=X\:ALIJY@H:gl=stripped
@@ -2445,7 +2443,7 @@
 "XMWT/"		sp=subs:fc=ao:vc=X@MOWT:gl=mother-in-law
 "XMV/"		sp=subs:fc=seg:gn=m:vc=XOMEV:gl=reptile
 "XMVH/"		sp=nmpr:sm=topo:vc=XUM\:V@H:gl=Humtah
-"XMJY/"		sp=subs:fc=ai:gn=m:vc=X@MIJY:gl=sorrelfodder
+"XMJY/"		sp=subs:gn=m:rt=XMY:vc=X@MIJY:gl=sorrelfodder
 "XMJCJ/"	sp=adjv:ls=ordn:rt=XMC:vc=X\:AMIJCIJ:gl=fifth
 "XMJCJT/"	sp=subs:gn=f:rt=XMC:vc=X\:AMIJCIJT:gl=fifth part
 "XML["		sp=verb:vc=X@MAL:gl=have compassion
@@ -2527,7 +2525,7 @@
 "XSWT/"		sp=subs:gn=f:rt=XSH:vc=X@SW.T:gl=refuge
 "XSJD/"		sp=adjv:rt=XSD:vc=X@SIJD:gl=loyal
 "XSJDH/"	sp=subs:vc=X\:ASIJD@H:gl=heron
-"XSJL/"		sp=subs:fc=ai:gn=m:vc=X@SIJL:gl=cockroach
+"XSJL/"		sp=subs:gn=m:rt=XSL:vc=X@SIJL:gl=cockroach
 "XSJN/"		sp=subs:fc=ai:vc=X\:ASIJN:gl=<uncertain>
 "XSL["		sp=verb:fc=1g:gl=consume
 "XSM["		sp=verb:fc=1g:gl=muzzle
@@ -2544,10 +2542,10 @@
 "XP/"		sp=adjv:rt=XPP:vc=XAP:gl=clean
 "XP>["		sp=verb:vc=X@P@>:gl=<uncertain>
 "XPH["		sp=verb:vc=X@P@H:gl=cover
-"XPH/"		sp=subs:vc=XUP.@H:gl=balcony
-"XPH=/"		sp=nmpr:sm=pers:gn=m:vc=XUP.@H:gl=Huppah
+"XPH/"		sp=subs:rt=XPP:vc=XUP.@H:gl=balcony
+"XPH=/"		sp=nmpr:sm=pers:gn=m:rt=XPP:vc=XUP.@H:gl=Huppah
 "XPZ["		sp=verb:fc=1g:gl=hurry
-"XPZWN/"	sp=subs:gn=m:vc=XIP.@ZOWN:gl=haste
+"XPZWN/"	sp=subs:gn=m:rt=XPZ:vc=XIP.@ZOWN:gl=haste
 "XPJM/"		sp=nmpr:sm=pers:gn=m:vc=XUP.IJM:gl=Huppim
 "XPN/"		sp=subs:fc=seg:gn=m:vc=XOPEN:gl=hollow
 "XPNJ/"		sp=nmpr:sm=pers:gn=m:vc=X@P\:NIJ:gl=Hophni
@@ -2579,9 +2577,9 @@
 "XYWT/"		sp=subs:gn=f:vc=X\:AYOWT:gl=middle
 "XYJ/"		sp=subs:fc=seg:gn=m:vc=X\:AYIJ:gl=half
 "XYJ=/"		sp=subs:gn=m:vc=X;YIJ:gl=arrow
-"XYJR/"		sp=subs:fc=ai:gn=m:vc=X@YIJR:gl=grass
-"XYJR=/"	sp=subs:fc=ai:gn=m:vc=X@YIJR:gl=leek
-"XYJR==/"	sp=subs:fc=ai:gn=m:vc=X@YIJR:gl=reed
+"XYJR/"		sp=subs:gn=m:rt=XYR:vc=X@YIJR:gl=grass
+"XYJR=/"	sp=subs:gn=m:rt=XYR:vc=X@YIJR:gl=leek
+"XYJR==/"	sp=subs:gn=m:rt=XYR:vc=X@YIJR:gl=reed
 "XYN/"		sp=subs:fc=seg:gn=m:vc=XOYEN:gl=bosom
 "XYY["		sp=verb:vc=X@YAY:gl=divide
 "XYY/"		sp=subs:gn=m:rt=XYY:vc=X@Y@Y:gl=pebble
@@ -2657,11 +2655,11 @@
 "XRJ=/"		sp=subs:fc=seg:gn=m:vc=X\:@RIJ:gl=heat
 "XRJ==/"	sp=subs:gn=m:vc=XORIJ:gl=cake
 "XRJ===/"	sp=nmpr:sm=pers:gn=m:vc=XORIJ:gl=Hori
-"XRJV/"		sp=subs:fc=ai:vc=X@RIJV:gl=purse
-"XRJP/"		sp=nmpr:sm=pers:gn=m:vc=X@RIJP:gl=Hariph
-"XRJY/"		sp=subs:fc=ai:vc=X@RIJY:gl=axe
-"XRJY=/"	sp=subs:fc=ai:vc=X@RIJY:gl=slice
-"XRJC/"		sp=subs:fc=ai:gn=m:vc=X@RIJC:gl=ploughing
+"XRJV/"		sp=subs:rt=XRV:vc=X@RIJV:gl=purse
+"XRJP/"		sp=nmpr:sm=pers:gn=m:rt=XRP:vc=X@RIJP:gl=Hariph
+"XRJY/"		sp=subs:rt=XRY:vc=X@RIJY:gl=axe
+"XRJY=/"	sp=subs:rt=XRY:vc=X@RIJY:gl=slice
+"XRJC/"		sp=subs:gn=m:rt=XRC:vc=X@RIJC:gl=ploughing
 "XRJCJ/"	sp=adjv:rt=XRC:vc=X\:ARIJCIJ:gl=<uncertain>
 "XRK["		sp=verb:vc=X@RAK\::gl=start?
 "XRKJM/"	sp=subs:vc=X\:ARAK.IJM:gl=lattice
@@ -2724,7 +2722,7 @@
 "XCBDNH/"	sp=nmpr:sm=pers:gn=m:vc=XAC\:B.AD.@N@H:gl=Hashbaddanah
 "XCBH/"		sp=nmpr:sm=pers:gn=f:vc=X\:ACUB@H:gl=Hashubah
 "XCBWN/"	sp=subs:gn=m:vc=XEC\:B.OWN:gl=account
-"XCBWN=/"	sp=subs:gn=m:vc=XIC.@BOWN:gl=invention
+"XCBWN=/"	sp=subs:gn=m:rt=XCB:vc=XIC.@BOWN:gl=invention
 "XCBWN==/"	sp=nmpr:sm=topo:vc=XEC\:B.OWN:gl=Heshbon
 "XCBJH/"	sp=nmpr:sm=pers:gn=m:vc=X\:ACAB\:J@H:gl=Hashabiah
 "XCBJHW/"	sp=nmpr:sm=pers:gn=m:vc=X\:ACAB\:J@HW.:gl=Hashabiah
@@ -2875,7 +2873,7 @@
 "J>H["		sp=verb:vc=J@>@H:gl=be fitting
 "J>ZNJH/"	sp=nmpr:sm=pers:gn=m:vc=JA>\:AZAN\:J@H:gl=Jaazaniah
 "J>ZNJHW/"	sp=nmpr:sm=pers:gn=m:vc=JA>\:AZAN\:J@HW.:gl=Jaazaniah
-"J>JR/"		sp=nmpr:sm=pers:gn=m:vc=J@>IJR:gl=Jair
+"J>JR/"		sp=nmpr:sm=pers:gn=m:rt=>WR:vc=J@>IJR:gl=Jair
 "J>JRJ/"	sp=adjv:ls=gntl:vc=J@>IJRIJ:gl=Jairite
 "J>L["		sp=verb:vc=J@>AL:gl=begin
 "J>L=["		sp=verb:fc=1hwj,2>:gl=be foolish
@@ -2890,7 +2888,7 @@
 "JBWS/"		sp=nmpr:sm=topo:vc=J\:BW.S:gl=Jebus
 "JBWSJ/"	sp=adjv:ls=gntl:vc=J\:BW.SIJ:gl=Jebusite
 "JBXR/"		sp=nmpr:sm=pers:gn=m:vc=JIB\:X@R:gl=Ibhar
-"JBJN/"		sp=nmpr:sm=pers:gn=m:vc=J@BIJN:gl=Jabin
+"JBJN/"		sp=nmpr:sm=pers:gn=m:rt=BJN:vc=J@BIJN:gl=Jabin
 "JBJC=/"	sp=nmpr:sm=topo:vc=J@B;JC:gl=Jabesh
 "JBJC==/"	sp=nmpr:sm=pers:gn=m:vc=J@B;JC:gl=Jabesh
 "JBL["		sp=verb:vc=J@BAL:gl=bring
@@ -3015,7 +3013,7 @@
 "JWM/"		sp=subs:ls=padv:gn=m:rt=<unknown>:vc=JOWM:gl=day
 "JWMM"		sp=advb:rt=<unknown>:vc=JOWM@M:gl=by day
 "JWN/"		sp=subs:fc=ae:gn=m:vc=J@W;N:gl=sediment
-"JWN=/"		sp=nmpr:sm=pers,gens:vc=J@W@N:gl=Greece
+"JWN=/"		sp=nmpr:sm=pers,gens,topo:vc=J@W@N:gl=Greece
 "JWNDB/"	sp=nmpr:sm=pers:gn=m:vc=JOWN@D@B:gl=Jonadab
 "JWNH/"		sp=subs:gn=f:vc=JOWN@H:gl=dove
 "JWNH=/"	sp=nmpr:sm=pers:gn=m:vc=JOWN@H:gl=Jonah
@@ -3046,7 +3044,7 @@
 "JWTR/"		sp=subs:ls=padv:gn=m:rt=JTR:vc=JOWT;R:gl=rest
 "JZJ>L/"	sp=nmpr:sm=pers:gn=m:vc=J\:ZIJ>;L:gl=Jeziel
 "JZJH/"		sp=nmpr:sm=pers:gn=m:vc=JIZ.IJ.@H:gl=Izziah
-"JZJZ/"		sp=nmpr:sm=pers:gn=m:vc=J@ZIJZ:gl=Jaziz
+"JZJZ/"		sp=nmpr:sm=pers:gn=m:rt=ZWZ:vc=J@ZIJZ:gl=Jaziz
 "JZLJ>H/"	sp=nmpr:sm=pers:gn=m:vc=JIZ\:LIJ>@H:gl=Izliah
 "JZN["		sp=verb:fc=1hwj:gl=be ruttish
 "JZNJH/"	sp=nmpr:sm=pers:gn=m:vc=J\:ZAN\:J@H:gl=Jezaniah
@@ -3073,7 +3071,7 @@
 "JXJ>LJ/"	sp=adjv:ls=gntl:vc=J\:XIJ>;LIJ:gl=Jehieli
 "JXJD/"		sp=adjv:rt=JXD:vc=J@XIJD:gl=only one
 "JXJH/"		sp=nmpr:sm=pers:gn=m:vc=J\:XIJ.@H:gl=Jehiah
-"JXJL/"		sp=subs:fc=ai:vc=J@XIJL:gl=<uncertain>
+"JXJL/"		sp=subs:rt=JXL:vc=J@XIJL:gl=<uncertain>
 "JXL["		sp=verb:vc=J@XAL:gl=wait, to hope
 "JXL>L/"	sp=nmpr:sm=pers:gn=m:vc=JAX\:L\:>;L:gl=Jahleel
 "JXL>LJ/"	sp=adjv:ls=gntl:vc=JAX\:L\:>;LIJ:gl=Jahleelite
@@ -3094,8 +3092,8 @@
 "JJN/"		sp=subs:fc=seg:gn=m:vc=JAJIN:gl=wine
 "JKWNJH/"	sp=nmpr:sm=pers:gn=m:vc=J\:KOWN\:J@H:gl=Jehoiachin
 "JKX["		sp=verb:vc=J@KAX:gl=reprove
-"JKJN/"		sp=nmpr:sm=pers:gn=m:vc=J@KIJN:gl=Jakin
-"JKJNJ/"	sp=adjv:ls=gntl:vc=J@KIJNIJ:gl=Jakinite
+"JKJN/"		sp=nmpr:sm=pers:gn=m:rt=KWN:vc=J@KIJN:gl=Jakin
+"JKJNJ/"	sp=adjv:ls=gntl:rt=KWN:vc=J@KIJNIJ:gl=Jakinite
 "JKL["		sp=verb:vc=J@KOL:gl=be able
 "JKLJHW/"	sp=nmpr:sm=pers:gn=f:vc=J\:K@L\:J@HW.:gl=Jecoliah
 "JKNJH/"	sp=nmpr:sm=pers:gn=m:vc=J\:K@N\:J@H:gl=Jehoiachin
@@ -3107,7 +3105,7 @@
 "JLH["		sp=verb:vc=J@LAH.:gl=be confused
 "JLWD/"		sp=adjv:fc=io:vc=JIL.OWD:gl=new-born
 "JLWN/"		sp=nmpr:sm=pers:gn=m:vc=J@LOWN:gl=Jalon
-"JLJD/"		sp=subs:fc=ai:gn=m:vc=J@LIJD:gl=son
+"JLJD/"		sp=subs:gn=m:rt=JLD:vc=J@LIJD:gl=son
 "JLL["		sp=verb:vc=J@LAL:gl=howl
 "JLL/"		sp=subs:gn=m:vc=J\:L;L:gl=howling
 "JLLH/"		sp=subs:vc=J\:L@L@H:gl=howling
@@ -3117,8 +3115,8 @@
 "JM/"		sp=subs:gn=m:rt=JMM:vc=J@M:gl=sea
 "JMW>L/"	sp=nmpr:sm=pers:gn=m:vc=J\:MW.>;L:gl=Jemuel
 "JMJMH/"	sp=nmpr:sm=pers:gn=f:vc=J\:MIJM@H:gl=Jemimah
-"JMJN/"		sp=subs:fc=ai:gn=f:vc=J@MIJN:gl=right-hand side
-"JMJN=/"	sp=nmpr:sm=pers:gn=m:vc=J@MIJN:gl=Jamin
+"JMJN/"		sp=subs:gn=f:rt=JMN:vc=J@MIJN:gl=right-hand side
+"JMJN=/"	sp=nmpr:sm=pers:gn=m:rt=JMN:vc=J@MIJN:gl=Jamin
 "JMJNJ/"	sp=adjv:ls=gntl:rt=JMN:vc=J\:MIJNIJ:gl=Benjaminite
 "JMJNJ=/"	sp=adjv:ls=gntl:vc=J@MIJNIJ:gl=Jaminite
 "JML>/"		sp=nmpr:sm=pers:gn=m:vc=JIM\:L@>:gl=Imlah
@@ -3163,7 +3161,7 @@
 "J<ZR/"		sp=nmpr:sm=topo:vc=JA<\:Z;R:gl=Jazer
 "J<V["		sp=verb:fc=1hwj,2g:gl=<uncertain>:
 "J<J>L/"	sp=nmpr:sm=pers:gn=m:vc=J\:<IJ>;L:gl=Jeiel
-"J<JR/"		sp=nmpr:sm=pers:gn=m:vc=J@<IJR:gl=Jair
+"J<JR/"		sp=nmpr:sm=pers:gn=m:rt=<WR:vc=J@<IJR:gl=Jair
 "J<KN/"		sp=nmpr:sm=pers:gn=m:vc=JA<\:K.@N:gl=Jacan
 "J<L["		sp=verb:vc=J@<AL:gl=profit
 "J<L/"		sp=subs:fc=ae:vc=J@<;L:gl=goat
@@ -3242,10 +3240,10 @@
 "JQWC/"		sp=subs:fc=ao,au:gn=m:vc=J@QW.C:gl=fowler
 "JQWTJ>L/"	sp=nmpr:sm=pers:gn=m:vc=J\:QW.TIJ>;L:gl=Jekuthiel
 "JQVN/"		sp=nmpr:sm=pers:gn=m:vc=J@Q\:V@N:gl=Joktan
-"JQJM/"		sp=nmpr:sm=pers:gn=m:vc=J@QIJM:gl=Jakim
+"JQJM/"		sp=nmpr:sm=pers:gn=m:rt=QWM:vc=J@QIJM:gl=Jakim
 "JQJR/"		sp=adjv:rt=JQR:vc=JAQ.IJR:gl=precious
 "JQMJH/"	sp=nmpr:sm=pers:gn=m:vc=J\:QAM\:J@H:gl=Jekamiah
-"JQM<M/"	sp=nmpr:sm=topo:vc=J@Q\:M\:<@M:gl=Jokmeam:sm=topo:st=a
+"JQM<M/"	sp=nmpr:sm=topo:vc=J@Q\:M\:<@M:gl=Jokmeam:st=a
 "JQM<M=/"	sp=nmpr:sm=pers:st=a:gn=m:vc=J\:QAM\:<@M:gl=Jekameam
 "JQN<M/"	sp=nmpr:sm=topo:vc=J@Q\:N\:<@M:gl=Jokneam
 "JQ<["		sp=verb:fc=1hwj,3g:gl=turn
@@ -3287,9 +3285,9 @@
 "JRX</"		sp=nmpr:sm=pers:gn=m:vc=JAR\:X@<:gl=Jarha
 "JRV["		sp=verb:vc=J@RAV:gl=throw
 "JRJ>L/"	sp=nmpr:sm=pers:gn=m:vc=J\:RIJ>;L:gl=Jeriel
-"JRJB/"		sp=subs:fc=ai:gn=m:vc=J@RIJB:gl=opponent
-"JRJB=/"	sp=nmpr:sm=pers:gn=m:vc=J@RIJB:gl=Jarib
-"JRJBJ/"	sp=nmpr:sm=pers:gn=m:vc=J\:RIJBAJ:gl=Jeribai
+"JRJB/"		sp=subs:gn=m:rt=RJB:vc=J@RIJB:gl=opponent
+"JRJB=/"	sp=nmpr:sm=pers:gn=m:rt=RJB:vc=J@RIJB:gl=Jarib
+"JRJBJ/"	sp=nmpr:sm=pers:gn=m:rt=RJB:vc=J\:RIJBAJ:gl=Jeribai
 "JRJH/"		sp=nmpr:sm=pers:gn=m:vc=J\:RIJ.@H:gl=Jeriah
 "JRJHW/"	sp=nmpr:sm=pers:gn=m:vc=J\:RIJ.@HW.:gl=Jeriah
 "JRJXW/"	sp=nmpr:sm=topo:vc=J\:RIJXOW:gl=Jericho
@@ -3413,7 +3411,7 @@
 "KBWL/"		sp=nmpr:sm=topo:vc=K.@BW.L:gl=Cabul
 "KBWN/"		sp=nmpr:sm=topo:vc=K.AB.OWN:gl=Cabbon
 "KBJR/"		sp=adjv:rt=KBR:vc=K.AB.IJR:gl=great
-"KBJR=/"	sp=subs:fc=ai:gn=m:vc=K.@BIJR:gl=quilt
+"KBJR=/"	sp=subs:gn=m:rt=KBR:vc=K.@BIJR:gl=quilt
 "KBL/"		sp=subs:fc=seg:gn=m:vc=K.EBEL:gl=fetter
 "KBS["		sp=verb:vc=K.@BAS:gl=wash
 "KBR["		sp=verb:gl=multiply
@@ -3510,7 +3508,7 @@
 "KLX=/"		sp=nmpr:sm=topo:vc=K.ELAX:gl=Calah
 "KLJ/"		sp=subs:fc=seg:gn=m:vc=K.\:LIJ:gl=tool
 "KLJH/"		sp=subs:vc=K.IL\:J@H:gl=kidney
-"KLJWN/"	sp=subs:gn=m:vc=K.IL.@JOWN:gl=annihilation
+"KLJWN/"	sp=subs:gn=m:rt=KLH:vc=K.IL.@JOWN:gl=annihilation
 "KLJWN=/"	sp=nmpr:sm=pers:gn=m:vc=K.IL\:JOWN:gl=Kilion
 "KLJL/"		sp=adjv:rt=KLL:vc=K.@LIJL:gl=entire
 "KLKL/"		sp=nmpr:sm=pers:gn=m:vc=K.AL\:K.OL:gl=Calcol
@@ -3593,7 +3591,7 @@
 "KPH/"		sp=subs:vc=K.IP.@H:gl=shoot
 "KPWR/"		sp=subs:gn=m:vc=K.\:POWR:gl=hoar frost
 "KPWR=/"	sp=subs:gn=m:vc=K.\:POWR:gl=bowl
-"KPJS/"		sp=subs:fc=ai:gn=m:vc=K.@PIJS:gl=stucco-work
+"KPJS/"		sp=subs:gn=m:rt=KPS:vc=K.@PIJS:gl=stucco-work
 "KPJR/"		sp=subs:gn=m:vc=K.\:PIJR:gl=young lion
 "KPJRH/"	sp=nmpr:sm=topo:vc=K.\:PIJR@H:gl=Kephirah
 "KPJRJM=/"	sp=nmpr:sm=topo:vc=K.\:PIJRIJM:gl=Kephirim
@@ -3663,7 +3661,7 @@
 "KCJ/"		sp=adjv:ls=gntl:vc=K.UCIJ:gl=Ethiopian
 "KCJL/"		sp=subs:fc=ai:gn=m:vc=K.AC.IJL:gl=axe
 "KCL["		sp=verb:vc=K.@CAL:gl=stumble
-"KCLWN/"	sp=subs:gn=m:vc=K.IC.@LOWN:gl=stumbling
+"KCLWN/"	sp=subs:gn=m:rt=KCL:vc=K.IC.@LOWN:gl=stumbling
 "KCP["		sp=verb:gl=practice sorcery
 "KCP/"		sp=subs:fc=seg:vc=K.ECEP:gl=sorcery
 "KCP=/"		sp=subs:vc=K.AC.@P:gl=sorcerer
@@ -3672,7 +3670,7 @@
 "KTB["		sp=verb:vc=K.@TAB:gl=write
 "KTB/"		sp=subs:gn=m:vc=K.\:T@B:gl=writing
 "KTBT/"		sp=subs:fc=seg:vc=K.\:TOBET:gl=tattooing
-"KTJJM/"	sp=nmpr:sm=gens:vc=K.IT.IJ.IJM:gl=Kittim
+"KTJ/"		sp=adjv:ls=gntl:rt=<uncertain>:vc=K.IT.IJ:gl=Cypriot
 "KTJT/"		sp=adjv:rt=KTT:vc=K.@TIJT:gl=beaten, pure
 "KTL/"		sp=subs:fc=seg:gn=m:vc=K.OTEL:gl=wall
 "KTLJC/"	sp=nmpr:sm=topo:vc=K.IT\:LIJC:gl=Kitlish
@@ -3709,7 +3707,7 @@
 "LBWC/"		sp=subs:gn=m:vc=L\:BW.C:gl=clothing
 "LBWC=/"	sp=adjv:rt=LBC:vc=L@BW.C:gl=clad
 "LBV["		sp=verb:gl=trample
-"LBJ>/"		sp=subs:fc=ai:gn=m:vc=L@BIJ>:gl=lion
+"LBJ>/"		sp=subs:gn=m:rt=LB>:vc=L@BIJ>:gl=lion
 "LBJ>=/"	sp=subs:gn=f:vc=L\:BIJ.@>:gl=lion
 "LBN["		sp=verb:vc=L@B;N:gl=be white
 "LBN/"		sp=adjv:rt=LBN:vc=L@B@N:gl=white
@@ -3806,7 +3804,7 @@
 "LKD["		sp=verb:vc=L@KAD:gl=seize
 "LKD/"		sp=subs:fc=seg:gn=m:vc=LEKED:gl=capture
 "LKH/"		sp=nmpr:sm=topo:vc=L;K@H:gl=Lecah
-"LKJC/"		sp=nmpr:sm=topo:vc=L@KIJC:gl=Lachish
+"LKJC/"		sp=nmpr:sm=topo:rt=LKC:vc=L@KIJC:gl=Lachish
 "LKN"		sp=advb:ls=cjad:vc=L@K;N:gl=therefore
 "LL>T/"		sp=subs:vc=LUL@>OT:gl=loops
 "LMD["		sp=verb:vc=L@MAD:gl=learn
@@ -3883,18 +3881,18 @@
 "MBW</"		sp=subs:gn=m:vc=MAB.W.<A:gl=spring
 "MBWQH/"	sp=subs:vc=M\:BW.Q@H:gl=emptiness
 "MBWCJM/"	sp=subs:vc=M\:BW.CIJM:gl=private parts
-"MBXWR/"	sp=subs:gn=m:vc=MIB\:XOWR:gl=choice
-"MBXR/"		sp=subs:gn=m:vc=MIB\:X@R:gl=choice
+"MBXWR/"	sp=subs:gn=m:rt=BXR:vc=MIB\:XOWR:gl=choice
+"MBXR/"		sp=subs:gn=m:rt=BXR:vc=MIB\:X@R:gl=choice
 "MBXR=/"	sp=nmpr:sm=pers:gn=m:vc=MIB\:X@R:gl=Mibhar
 "MBV/"		sp=subs:gn=m:vc=MAB.@V:gl=hope
-"MBV>/"		sp=subs:gn=m:vc=MIB\:V@>:gl=promise
-"MBVX/"		sp=subs:gn=m:vc=MIB\:V@X:gl=trust
+"MBV>/"		sp=subs:gn=m:rt=BV>:vc=MIB\:V@>:gl=promise
+"MBVX/"		sp=subs:gn=m:rt=BVX:vc=MIB\:V@X:gl=trust
 "MBLJGJT/"	sp=subs:gn=f:rt=BLG:vc=MAB\:LIJGIJT:gl=<uncertain>
 "MBNH/"		sp=subs:gn=m:vc=MIB\:NEH:gl=structure
 "MBNJ/"		sp=nmpr:sm=pers:gn=m:vc=M\:BUN.AJ:gl=Mebunnai
-"MBYR/"		sp=subs:gn=m:vc=MIB\:Y@R:gl=fortification
+"MBYR/"		sp=subs:gn=m:rt=BYR:vc=MIB\:Y@R:gl=fortification
 "MBYR=/"	sp=nmpr:sm=pers:gn=m:vc=MIB\:Y@R:gl=Mibzar
-"MBRX/"		sp=subs:vc=MIB\:R@X:gl=<uncertain>
+"MBRX/"		sp=subs:rt=BRX:vc=MIB\:R@X:gl=<uncertain>
 "MBFM/"		sp=nmpr:sm=pers:gn=m:vc=MIB\:F@M:gl=Mibsam
 "MBCLWT/"	sp=subs:vc=M\:BAC.\:LOWT:gl=cooking places
 "MG/"		sp=subs:gn=m:rt=<Assyrian>:vc=M@G:gl=official
@@ -3931,7 +3929,7 @@
 "MGPJ<C/"	sp=nmpr:sm=pers:gn=m:vc=MAG\:P.IJ<@C:gl=Magpiash
 "MGR["		sp=verb:gl=hurl
 "MGRH/"		sp=subs:vc=M\:G;R@H:gl=stone-saw
-"MGRWN/"	sp=nmpr:sm=topo:vc=MIG\:ROWN:gl=Migron
+"MGRWN/"	sp=nmpr:sm=topo:rt=<uncertain>:vc=MIG\:ROWN:gl=Migron
 "MGR<WT/"	sp=subs:vc=MIG\:R@<OWT:gl=recesses
 "MGRPH/"	sp=subs:rt=GRP:vc=MEG\:R@P@H:gl=shovel
 "MGRC/"		sp=subs:gn=m:rt=GRC:vc=MIG\:R@C:gl=pasture
@@ -3952,14 +3950,14 @@
 "MDWRH/"	sp=subs:vc=M\:DW.R@H:gl=pile
 "MDXH/"		sp=subs:gn=m:vc=MID\:XEH:gl=overthrow
 "MDXPH/"	sp=subs:vc=MAD\:X;P@H:gl=thrust
-"MDJ/"		sp=nmpr:sm=pers,gens:vc=M@DAJ:gl=Media
+"MDJ/"		sp=nmpr:sm=pers,gens,topo:vc=M@DAJ:gl=Media
 "MDJ=/"		sp=adjv:ls=gntl:vc=M@DIJ:gl=Mede
-"MDJN/"		sp=subs:vc=MID\:J@N:gl=contention
+"MDJN/"		sp=subs:rt=DJN:vc=MID\:J@N:gl=contention
 "MDJN=/"	sp=nmpr:sm=pers,gens,topo:vc=MID\:J@N:gl=Midian
 "MDJN==/"	sp=nmpr:sm=topo:vc=MID.IJN:gl=Middin
 "MDJNH/"	sp=subs:vc=M\:DIJN@H:gl=district
 "MDJNJ/"	sp=adjv:ls=gntl:vc=MID\:J@NIJ:gl=Midianite
-"MDKH/"		sp=subs:vc=M\:DOK@H:gl=mortar
+"MDKH/"		sp=subs:rt=DWK:vc=M\:DOK@H:gl=mortar
 "MDMN/"		sp=nmpr:sm=topo:vc=MAD\:M;N:gl=Madmen
 "MDMNH/"	sp=subs:vc=MAD\:M;N@H:gl=dung-place
 "MDMNH=/"	sp=nmpr:sm=topo:vc=MAD\:M;N@H:gl=Madmenah
@@ -3973,7 +3971,7 @@
 "MDQRH/"	sp=subs:vc=MAD\:Q;R@H:gl=stab
 "MDRGH/"	sp=subs:vc=MAD\:R;G@H:gl=steep way
 "MDRK/"		sp=subs:gn=m:vc=MID\:R@K\::gl=footstep
-"MDRC/"		sp=subs:gn=m:vc=MID\:R@C:gl=exposition
+"MDRC/"		sp=subs:gn=m:rt=DRC:vc=MID\:R@C:gl=exposition
 "MDCH/"		sp=subs:vc=M\:DUC@H:gl=trample
 "MH"		sp=prin:gn=unknown:nu=unknown:vc=M@H:gl=what
 "MHH["		sp=verb:vc=M@HAH.:gl=tarry
@@ -4073,20 +4071,20 @@
 "MZX/"		sp=subs:fc=seg:gn=m:vc=M;ZAX:gl=girdle
 "MZX=/"		sp=subs:fc=seg:gn=m:vc=M;ZAX:gl=shipyard
 "MZJX/"		sp=subs:gn=m:vc=M\:ZIJXA:gl=girdle
-"MZLG/"		sp=subs:vc=MIZ\:L@G:gl=fork
+"MZLG/"		sp=subs:rt=ZLG:vc=MIZ\:L@G:gl=fork
 "MZLG=/"	sp=subs:gn=m:vc=MAZ\:L;G:gl=fork
 "MZLWT/"	sp=subs:vc=MAZ.@LOWT:gl=constellation
 "MZMH/"		sp=subs:vc=M\:ZIM.@H:gl=purpose
-"MZMWR/"	sp=subs:gn=m:vc=MIZ\:MOWR:gl=psalm
+"MZMWR/"	sp=subs:gn=m:rt=ZMR:vc=MIZ\:MOWR:gl=psalm
 "MZMRH/"	sp=subs:vc=MAZ\:M;R@H:gl=pruning-knife
 "MZMRT/"	sp=subs:fc=seg:vc=M\:ZAM.ERET:gl=snuffer
-"MZ<R/"		sp=subs:gn=m:vc=MIZ\:<@R:gl=trifle
+"MZ<R/"		sp=subs:gn=m:rt=Z<R:vc=MIZ\:<@R:gl=trifle
 "MZRH/"		sp=subs:gn=m:vc=MIZ\:REH:gl=pitch-fork
 "MZRWT/"	sp=subs:vc=MAZ.@ROWT:gl=constellations
-"MZRX/"		sp=subs:gn=m:vc=MIZ\:R@X:gl=sunrise
+"MZRX/"		sp=subs:gn=m:rt=ZRX:vc=MIZ\:R@X:gl=sunrise
 "MZRJM/"	sp=subs:rt=ZRH:vc=M\:Z@RIJM:gl=north-winds
-"MZR</"		sp=subs:gn=m:vc=MIZ\:R@<:gl=seed-land
-"MZRQ/"		sp=subs:gn=m:vc=MIZ\:R@Q:gl=bowl
+"MZR</"		sp=subs:gn=m:rt=ZR<:vc=MIZ\:R@<:gl=seed-land
+"MZRQ/"		sp=subs:gn=m:rt=ZRQ:vc=MIZ\:R@Q:gl=bowl
 "MX/"		sp=subs:vc=M;XA:gl=fatling
 "MX=/"		sp=subs:gn=m:vc=MOXA:gl=marrow
 "MX>["		sp=verb:vc=M@X@>:gl=clap
@@ -4110,12 +4108,12 @@
 "MXZJ>WT/"	sp=nmpr:sm=pers:gn=m:vc=MAX\:AZIJ>OWT:gl=Mahazioth
 "MXJ/"		sp=subs:gn=m:vc=M\:XIJ:gl=stroke
 "MXJD>/"	sp=nmpr:sm=pers:gn=m:vc=M\:XIJD@>:gl=Mehida
-"MXJH/"		sp=subs:vc=MIX\:J@H:gl=life preservation
+"MXJH/"		sp=subs:rt=XJH:vc=MIX\:J@H:gl=life preservation
 "MXJJ>L/"	sp=nmpr:sm=pers:gn=m:vc=M\:XIJ.J@>;L:gl=Mehujael
 "MXJR/"		sp=subs:gn=m:vc=M\:XIJR:gl=price
 "MXJR=/"	sp=nmpr:sm=pers:gn=m:vc=M\:XIJR:gl=Mehir
 "MXLH/"		sp=subs:vc=MAX\:AL@H:gl=disease
-"MXLH=/"	sp=subs:vc=M\:XOL@H:gl=round dance
+"MXLH=/"	sp=subs:rt=XWL:vc=M\:XOL@H:gl=round dance
 "MXLH==/"	sp=subs:vc=M\:XIL.@H:gl=hole
 "MXLH===/"	sp=subs:gn=m:vc=MAX\:ALEH:gl=disease
 "MXLH====/"	sp=nmpr:sm=pers:gn=m:vc=MAX\:L@H:gl=Mahlah
@@ -4129,7 +4127,7 @@
 "MXLQT/"	sp=subs:fc=seg:vc=MAX\:ALOQET:gl=division
 "MXLT/"		sp=subs:rt=<unknown>:vc=M@X\:ALAT:gl=<uncertain>
 "MXLT=/"	sp=nmpr:sm=pers:gn=f:vc=M@X\:ALAT:gl=Mahalath
-"MXLTJ/"	sp=adjv:ls=gntl:vc=M\:XOL@TIJ:gl=Meholathite
+"MXLTJ/"	sp=adjv:ls=gntl:rt=<uncertain>:vc=M\:XOL@TIJ:gl=Meholathite
 "MXM>T/"	sp=subs:vc=MAX\:AM@>OT:gl=<uncertain>
 "MXMD/"		sp=subs:gn=m:vc=MAX\:M@D:gl=desire
 "MXMD=/"	sp=subs:vc=MAX\:MOD:gl=something precious
@@ -4166,11 +4164,11 @@
 "MVH/"		sp=subs:gn=m:vc=MAV.EH:gl=staff
 "MVH=/"		sp=subs:vc=MIV.@H:gl=couch
 "MVH==/"	sp=subs:ls=padv:gn=m:vc=MAV.@H:gl=low place
-"MVH===/"	sp=subs:vc=MUV.@H:gl=spreading
+"MVH===/"	sp=subs:rt=NVH:vc=MUV.@H:gl=spreading
 "MVH====/"	sp=subs:gn=m:vc=MUV.EH:gl=crookedness
 "MVH=====/"	sp=subs:fc=ae:vc=M@VEH:gl=coming
 "MVWH/"		sp=subs:gn=m:rt=VWH:vc=MAV\:WEH:gl=yarn
-"MVJL/"		sp=subs:fc=ai:gn=m:vc=M@VIJL:gl=rod
+"MVJL/"		sp=subs:gn=m:rt=MVL:vc=M@VIJL:gl=rod
 "MVMN/"		sp=subs:gn=m:vc=MAV\:MON:gl=treasure
 "MV</"		sp=subs:gn=m:vc=MAV.@<:gl=planting
 "MV<MJM/"	sp=subs:gn=m:vc=MAV\:<AM.IJM:gl=savoury food
@@ -4214,33 +4212,33 @@
 "MKBR/"		sp=subs:gn=m:vc=MIK\:B.@R:gl=lattice
 "MKBR=/"	sp=subs:gn=m:vc=MAK\:B.;R:gl=cover
 "MKH/"		sp=subs:gn=f:vc=MAK.@H:gl=blow
-"MKWH/"		sp=subs:vc=MIK\:W@H:gl=scar
+"MKWH/"		sp=subs:rt=KWH:vc=MIK\:W@H:gl=scar
 "MKWN/"		sp=subs:gn=m:rt=KWN:vc=M@KOWN:gl=site
 "MKWNH/"	sp=subs:rt=KWN:vc=M\:KOWN@H:gl=place
 "MKWRH/"	sp=subs:vc=M\:KW.R@H:gl=origin
 "MKJ/"		sp=nmpr:sm=pers:gn=m:vc=M@KIJ:gl=Maki
-"MKJR/"		sp=nmpr:sm=pers,gens:vc=M@KIJR:gl=Makir
+"MKJR/"		sp=nmpr:sm=pers,gens:rt=MKR:vc=M@KIJR:gl=Makir
 "MKJRJ/"	sp=adjv:ls=gntl:vc=M@KIJRIJ:gl=Makirite
 "MKK["		sp=verb:vc=M@KAK\::gl=sink
 "MKL>/"		sp=subs:gn=m:rt=KL>:vc=MIK\:L@>:gl=enclosure
-"MKLWL/"	sp=subs:gn=m:vc=MIK\:LOWL:gl=perfection
-"MKLWT/"	sp=subs:vc=MIK\:LOWT:gl=perfection
-"MKLL/"		sp=subs:gn=m:vc=MIK\:L@L:gl=perfection
+"MKLWL/"	sp=subs:gn=m:rt=KLL:vc=MIK\:LOWL:gl=perfection
+"MKLWT/"	sp=subs:rt=KLH:vc=MIK\:LOWT:gl=perfection
+"MKLL/"		sp=subs:gn=m:rt=KLL:vc=MIK\:L@L:gl=perfection
 "MKLLJM/"	sp=subs:vc=MAK\:LULIJM:gl=garments
 "MKLT/"		sp=subs:fc=seg:vc=MAK.OLET:gl=food
 "MKMNJM/"	sp=subs:vc=MIK\:MAN.IJM:gl=hidden treasures
 "MKMS/"		sp=nmpr:sm=topo:vc=MIK\:M@S:gl=Micmash
-"MKMR/"		sp=subs:gn=m:vc=MIK\:M@R:gl=net
+"MKMR/"		sp=subs:gn=m:rt=KMR:vc=MIK\:M@R:gl=net
 "MKMRT/"	sp=subs:fc=seg:vc=MIK\:MERET:gl=net
 "MKMF/"		sp=nmpr:sm=topo:vc=MIK\:M@F:gl=Micmash
 "MKMTT/"	sp=nmpr:sm=topo:vc=MIK\:M\:T@T:gl=Micmethath
 "MKNDBJ/"	sp=nmpr:sm=pers:gn=m:vc=MAK\:NAD\:BAJ:gl=Macnadebai
-"MKNH/"		sp=nmpr:sm=topo:vc=M\:KON@H:gl=Meconah
-"MKNS/"		sp=subs:vc=MIK\:N@S:gl=drawer
+"MKNH/"		sp=nmpr:sm=topo:rt=<uncertain>:vc=M\:KON@H:gl=Meconah
+"MKNS/"		sp=subs:rt=KNS:vc=MIK\:N@S:gl=drawer
 "MKS/"		sp=subs:fc=seg:gn=m:vc=MEKES:gl=tax
 "MKSH/"		sp=subs:gn=m:vc=MIK\:SEH:gl=covering
 "MKSH=/"	sp=subs:gn=m:vc=M\:KAS.EH:gl=covering
-"MKSH==/"	sp=subs:vc=MIK\:S@H:gl=amount
+"MKSH==/"	sp=subs:rt=KSS:vc=MIK\:S@H:gl=amount
 "MKPLH/"	sp=nmpr:sm=topo:vc=MAK\:P.;L@H:gl=Machpelah
 "MKR["		sp=verb:vc=M@KAR:gl=sell
 "MKR/"		sp=subs:fc=seg:gn=m:vc=MEKER:gl=price
@@ -4249,8 +4247,8 @@
 "MKRH=/"	sp=subs:gn=m:vc=MIK\:REH:gl=pit
 "MKRJ/"		sp=nmpr:sm=pers:gn=m:vc=MIK\:RIJ:gl=Micri
 "MKRTJ/"	sp=adjv:ls=gntl:vc=M\:K;R@TIJ:gl=Mekerathite
-"MKCWL/"	sp=subs:gn=m:vc=MIK\:COWL:gl=stumbling block
-"MKCLH/"	sp=subs:vc=MAK\:C;L@H:gl=decay
+"MKCWL/"	sp=subs:gn=m:rt=KCL:vc=MIK\:COWL:gl=stumbling block
+"MKCLH/"	sp=subs:rt=KCL:vc=MAK\:C;L@H:gl=decay
 "MKTB/"		sp=subs:gn=m:vc=MIK\:T.@B:gl=writing
 "MKTH/"		sp=subs:vc=M\:KIT.@H:gl=crushing
 "MKTM/"		sp=subs:gn=m:vc=MIK\:T.@M:gl=<uncertain>
@@ -4341,10 +4339,10 @@
 "MMR>=/"	sp=nmpr:sm=topo:vc=MAM\:R;>:gl=Mamre
 "MMRWRJM/"	sp=subs:vc=MAM.\:ROWRIJM:gl=bitterness
 "MMCX/"		sp=subs:gn=m:vc=MIM\:CAX:gl=<uncertain>
-"MMCL/"		sp=subs:gn=m:vc=MIM\:C@L:gl=dominion
+"MMCL/"		sp=subs:gn=m:rt=MCL:vc=MIM\:C@L:gl=dominion
 "MMCLH/"	sp=subs:rt=MCL:vc=MEM\:C@L@H:gl=dominion
 "MMCLT/"	sp=subs:rt=MCL:vc=MEM\:CELET:gl=dominion
-"MMCQ/"		sp=subs:gn=m:vc=MIM\:C@Q:gl=<uncertain>
+"MMCQ/"		sp=subs:gn=m:rt=MCQ:vc=MIM\:C@Q:gl=<uncertain>
 "MMTQJM/"	sp=subs:vc=MAM\:TAQ.IJM:gl=sweetness
 "MN"		sp=prep:vc=MIN:gl=from
 "MN/"		sp=subs:gn=m:rt=MN:vc=M@N:gl=manna
@@ -4356,7 +4354,7 @@
 "MNH/"		sp=subs:rt=MNH:vc=M@N@H:gl=portion
 "MNH=/"		sp=subs:gn=m:rt=MNH:vc=M@NEH:gl=mina:co=unit
 "MNH==/"	sp=subs:rt=MNH:vc=MONEH:gl=portion
-"MNHG/"		sp=subs:gn=m:vc=MIN\:H@G:gl=driving
+"MNHG/"		sp=subs:gn=m:rt=NHG:vc=MIN\:H@G:gl=driving
 "MNHRH/"	sp=subs:rt=NHR:vc=MIN\:H@R@H:gl=store
 "MNWD/"		sp=subs:fc=ao:gn=m:vc=M@NOWD:gl=head-shaking
 "MNWX/"		sp=subs:fc=ao:gn=m:vc=M@NOWXA:gl=resting place
@@ -4377,10 +4375,10 @@
 "MNJ=/"		sp=nmpr:sm=topo:vc=MIN.IJ:gl=Minni
 "MNJMJN/"	sp=nmpr:sm=pers:gn=m:vc=MIN\:J@MIJN:gl=Miniamin
 "MNJT/"		sp=nmpr:sm=topo:rt=MNN:vc=MIN.IJT:gl=Minnith
-"MNLM/"		sp=subs:vc=MIN\:L@M:gl=<uncertain>
+"MNLM/"		sp=subs:rt=<uncertain>:vc=MIN\:L@M:gl=<uncertain>
 "MN<["		sp=verb:fc=3g:vc=M@NA<:gl=withhold
 "MN<WL/"	sp=subs:gn=m:vc=MAN\:<W.L:gl=lock
-"MN<L/"		sp=subs:vc=MIN\:<@L:gl=lock
+"MN<L/"		sp=subs:rt=N<L:vc=MIN\:<@L:gl=lock
 "MN<MJM/"	sp=subs:vc=MAN\:<AM.IJM:gl=dainties
 "MN<N<JM/"	sp=subs:vc=M\:NA<AN\:<IJM:gl=sistrum
 "MNQJT/"	sp=subs:rt=NQH:vc=M\:NAQ.IJT:gl=bowl
@@ -4422,7 +4420,7 @@
 "MSS["		sp=verb:vc=M@SAS:gl=melt
 "MS</"		sp=subs:gn=m:vc=MAS.A<:gl=breaking
 "MS<=/"		sp=subs:gn=m:vc=MAS.@<:gl=quarry-stone
-"MS<D/"		sp=subs:gn=m:vc=MIS\:<@D:gl=<uncertain>
+"MS<D/"		sp=subs:gn=m:rt=S<D:vc=MIS\:<@D:gl=<uncertain>
 "MSPD/"		sp=subs:gn=m:vc=MIS\:P.;D:gl=wailing
 "MSPW>/"	sp=subs:gn=m:vc=MIS\:P.OW>:gl=fodder
 "MSPXWT/"	sp=subs:vc=MIS\:P.@XOWT:gl=veils
@@ -4455,7 +4453,7 @@
 "M<WN/"		sp=subs:gn=m:rt=<WN:vc=M@<OWN:gl=dwelling
 "M<WN=/"	sp=nmpr:sm=topo:rt=<WN:vc=M@<OWN:gl=Maon
 "M<WN==/"	sp=nmpr:sm=pers:gn=m:rt=<WN:vc=M@<OWN:gl=Maon
-"M<WNJM/"	sp=nmpr:sm=gens:vc=M\:<W.NIJM:gl=Meunites
+"M<WNJ/"	sp=adjv:ls=gntl:rt=<uncertain>:vc=M\:<W.NIJ:gl=Meunite
 "M<WNTJ/"	sp=nmpr:sm=pers:gn=m:vc=M\:<OWNOTAJ:gl=Meonothai
 "M<WP/"		sp=subs:gn=m:vc=M\:<W.P:gl=darkness
 "M<WR/"		sp=subs:fc=ao:vc=M@<OWR:gl=nakedness
@@ -4492,7 +4490,7 @@
 "M<MD=/"	sp=subs:gn=m:vc=M@<\:@M@D:gl=position
 "M<MSH/"	sp=subs:vc=MA<\:AM@S@H:gl=heavy stone
 "M<MQJM/"	sp=subs:vc=MA<\:AMAQ.IJM:gl=depths
-"M<NH/"		sp=subs:vc=M\:<ON@H:gl=hiding place
+"M<NH/"		sp=subs:rt=<WN:vc=M\:<ON@H:gl=hiding place
 "M<NH=/"	sp=subs:gn=m:vc=MA<\:ANEH:gl=answer
 "M<NH==/"	sp=subs:vc=MA<\:AN@H:gl=ploughing line
 "M<NH===/"	sp=subs:gn=m:vc=MA<\:ANEH:gl=purpose
@@ -4534,17 +4532,17 @@
 "MPL>WT/"	sp=subs:vc=MIP\:L\:>OWT:gl=wonders
 "MPLGH/"	sp=subs:vc=MIP\:LAG.@H:gl=division
 "MPLH/"		sp=subs:vc=MAP.@L@H:gl=decay
-"MPLV/"		sp=subs:gn=m:vc=MIP\:L@V:gl=escape
+"MPLV/"		sp=subs:gn=m:rt=PLV:vc=MIP\:L@V:gl=escape
 "MPLYT/"	sp=subs:fc=seg:vc=MIP\:LEYET:gl=idol
-"MPLF/"		sp=subs:vc=MIP\:L@F:gl=layer
+"MPLF/"		sp=subs:rt=PLF:vc=MIP\:L@F:gl=layer
 "MPLT/"		sp=subs:fc=seg:vc=MAP.ELET:gl=carcass
-"MP<L/"		sp=subs:gn=m:vc=MIP\:<@L:gl=work
+"MP<L/"		sp=subs:gn=m:rt=P<L:vc=MIP\:<@L:gl=work
 "MPY/"		sp=subs:gn=m:vc=MAP.@Y:gl=shattering
 "MPY=/"		sp=subs:gn=m:vc=MAP.;Y:gl=club
-"MPQD/"		sp=subs:gn=m:vc=MIP\:Q@D:gl=order
-"MPRY/"		sp=subs:vc=MIP\:R@Y:gl=landing place
+"MPQD/"		sp=subs:gn=m:rt=PQD:vc=MIP\:Q@D:gl=order
+"MPRY/"		sp=subs:rt=PRY:vc=MIP\:R@Y:gl=landing place
 "MPRQT/"	sp=subs:fc=seg:vc=MAP\:REQET:gl=neck
-"MPRF/"		sp=subs:gn=m:vc=MIP\:R@F:gl=sail
+"MPRF/"		sp=subs:gn=m:rt=PRF:vc=MIP\:R@F:gl=sail
 "MPF<H/"	sp=subs:rt=PF<:vc=MIP\:F@<@H:gl=posterior
 "MPTX/"		sp=subs:gn=m:rt=PTX:vc=MAP\:T.;XA:gl=key
 "MPTX=/"	sp=subs:gn=m:rt=PTX:vc=MIP\:T.@X:gl=opening
@@ -4556,7 +4554,7 @@
 "MYB=/"		sp=subs:gn=m:rt=NYB:vc=MUY.@B:gl=post
 "MYBH/"		sp=subs:rt=NYB:vc=MAY.;B@H:gl=massebe
 "MYBH=/"	sp=subs:rt=NYB:vc=MAY.@B@H:gl=guard
-"MYBJH/"	sp=nmpr:sm=pers:gn=m:vc=M\:YOB@J@H:gl=Mezobaite
+"MYBJH/"	sp=nmpr:sm=pers:gn=m:rt=<uncertain>:vc=M\:YOB@J@H:gl=Mezobaite
 "MYBT/"		sp=subs:rt=NYB:vc=MAY.EBET:gl=stump
 "MYD/"		sp=subs:gn=f:rt=YWD:vc=M\:Y@D:gl=unapproachable
 "MYH["		sp=verb:vc=M@Y@H:gl=drain
@@ -4568,7 +4566,7 @@
 "MYWDH/"	sp=subs:vc=M\:YW.D@H:gl=fortification
 "MYWDH=/"	sp=subs:vc=M\:YW.D@H:gl=net
 "MYWDH==/"	sp=subs:vc=M\:YOWD@H:gl=net
-"MYWH/"		sp=subs:vc=MIY\:W@H:gl=commandment
+"MYWH/"		sp=subs:rt=YWH:vc=MIY\:W@H:gl=commandment
 "MYWLH/"	sp=subs:vc=M\:YOWL@H:gl=depth
 "MYWQ/"		sp=subs:fc=ao:gn=m:vc=M@YOWQ:gl=stress
 "MYWQ=/"	sp=subs:gn=m:vc=M@YW.Q:gl=support
@@ -4577,13 +4575,13 @@
 "MYWR==/"	sp=nmpr:fc=ao:sm=topo:vc=M@YOWR:gl=Egypt
 "MYWRH/"	sp=subs:vc=M\:YW.R@H:gl=fortification
 "MYX/"		sp=subs:fc=seg:gn=m:vc=M;YAX:gl=forehead
-"MYXH/"		sp=subs:vc=MIY\:X@H:gl=front side
+"MYXH/"		sp=subs:rt=MYX:vc=MIY\:X@H:gl=front side
 "MYLH/"		sp=subs:vc=M\:YIL.@H:gl=bell
 "MYLTJM/"	sp=subs:gn=f:vc=M\:YIL\:T.AJIM:gl=cymbals
 "MYNPT/"	sp=subs:fc=seg:vc=MIY\:NEPET:gl=turban
 "MY</"		sp=subs:gn=m:vc=MAY.@<:gl=couch
-"MY<D/"		sp=subs:vc=MIY\:<@D:gl=step
-"MY<R/"		sp=subs:gn=m:vc=MIY\:<@R:gl=little
+"MY<D/"		sp=subs:rt=Y<D:vc=MIY\:<@D:gl=step
+"MY<R/"		sp=subs:gn=m:rt=Y<R:vc=MIY\:<@R:gl=little
 "MYPH/"		sp=subs:gn=m:vc=MIY\:P.EH:gl=watch-tower
 "MYPH=/"	sp=nmpr:sm=topo:vc=MIY\:P.@H:gl=Mizpah
 "MYPH==/"	sp=nmpr:sm=topo:vc=MIY\:P.EH:gl=Mizpeh
@@ -4602,7 +4600,7 @@
 "MQHL/"		sp=subs:gn=m:vc=MAQ\:H;L:gl=assembly
 "MQHLT/"	sp=nmpr:sm=topo:vc=MAQ\:H;LOT:gl=Makheloth
 "MQWH/"		sp=subs:gn=m:vc=MIQ\:WEH:gl=collection
-"MQWH=/"	sp=subs:vc=MIQ\:W@H:gl=reservoir
+"MQWH=/"	sp=subs:rt=QWH:vc=MIQ\:W@H:gl=reservoir
 "MQWH==/"	sp=subs:gn=m:rt=QWH:vc=MIQ\:WEH:gl=hope
 "MQWM/"		sp=subs:gn=m:rt=QWM:vc=M@QOWM:gl=place
 "MQWR/"		sp=subs:gn=m:rt=QWR:vc=M@QOWR:gl=well
@@ -4612,24 +4610,24 @@
 "MQVRWT/"	sp=subs:rt=QVR:vc=M\:QAV.\:ROWT:gl=incense altars
 "MQVRT/"	sp=subs:rt=QVR:vc=MIQ\:VERET:gl=censer
 "MQL/"		sp=subs:gn=m:vc=MAQ.;L:gl=rod
-"MQLWT/"	sp=nmpr:sm=pers:gn=m:vc=MIQ\:LOWT:gl=Mikloth
-"MQLV/"		sp=subs:gn=m:vc=MIQ\:L@V:gl=refuge
-"MQL<T/"	sp=subs:fc=seg:vc=MIQ\:LA<AT:gl=carving
-"MQNH/"		sp=subs:gn=m:vc=MIQ\:NEH:gl=purchase
-"MQNH=/"	sp=subs:vc=MIQ\:N@H:gl=purchase
+"MQLWT/"	sp=nmpr:sm=pers:gn=m:rt=<uncertain>:vc=MIQ\:LOWT:gl=Mikloth
+"MQLV/"		sp=subs:gn=m:rt=QLV:vc=MIQ\:L@V:gl=refuge
+"MQL<T/"	sp=subs:fc=seg:rt=QL<:vc=MIQ\:LA<AT:gl=carving
+"MQNH/"		sp=subs:gn=m:rt=QNH:vc=MIQ\:NEH:gl=purchase
+"MQNH=/"	sp=subs:rt=QNH:vc=MIQ\:N@H:gl=purchase
 "MQNJHW/"	sp=nmpr:sm=pers:gn=m:vc=MIQ\:N;J@HW.:gl=Mikneiah
-"MQSM/"		sp=subs:gn=m:vc=MIQ\:S@M:gl=divination
+"MQSM/"		sp=subs:gn=m:rt=QSM:vc=MIQ\:S@M:gl=divination
 "MQY/"		sp=nmpr:sm=topo:vc=M@QAY:gl=Makaz
-"MQYW</"	sp=subs:gn=m:vc=MIQ\:YOW<A:gl=corner post
+"MQYW</"	sp=subs:gn=m:rt=QY<:vc=MIQ\:YOW<A:gl=corner post
 "MQY<H/"	sp=subs:vc=MAQ\:YU<@H:gl=wood-scraper
 "MQQ["		sp=verb:vc=M@QAQ:gl=putrefy
-"MQR>/"		sp=subs:gn=m:vc=MIQ\:R@>:gl=convocation
+"MQR>/"		sp=subs:gn=m:rt=QR>:vc=MIQ\:R@>:gl=convocation
 "MQRH/"		sp=subs:gn=m:vc=MIQ\:REH:gl=accident
 "MQRH=/"	sp=subs:fc=ptca:gn=m:vc=M\:Q@REH:gl=beam-work
 "MQRH==/"	sp=subs:vc=M\:Q;R@H:gl=coolness
-"MQCH/"		sp=subs:vc=MIQ\:C@H:gl=hammered work
-"MQCH=/"	sp=subs:vc=MIQ\:C@H:gl=cucumber field
-"MQCH==/"	sp=subs:gn=m:vc=MIQ\:CEH:gl=hair setting
+"MQCH/"		sp=subs:rt=QCH:vc=MIQ\:C@H:gl=hammered work
+"MQCH=/"	sp=subs:rt=QC>:vc=MIQ\:C@H:gl=cucumber field
+"MQCH==/"	sp=subs:gn=m:rt=QCH:vc=MIQ\:CEH:gl=hair setting
 "MR/"		sp=adjv:rt=MRR:vc=MAR:gl=bitter
 "MR=/"		sp=subs:gn=m:rt=MRR:vc=MAR:gl=drop
 "MR==/"		sp=subs:gn=m:vc=MOR:gl=myrrh
@@ -4655,7 +4653,7 @@
 "MRD/"		sp=subs:fc=seg:gn=m:vc=MERED:gl=rebellion
 "MRD=/"		sp=nmpr:sm=pers:gn=m:vc=MERED:gl=Mered
 "MRDWT/"	sp=subs:gn=f:vc=MAR\:D.W.T:gl=rebellion
-"MRDK/"		sp=nmpr:sm=pers:gn=m:vc=M\:ROD@K\::gl=Marduk
+"MRDK/"		sp=nmpr:sm=pers:gn=m:rt=<none>:vc=M\:ROD@K\::gl=Marduk
 "MRDK_BL>DN/"	sp=nmpr:sm=pers:gn=m:vc=M\:RODAK\:_B.AL\:>\:AD@N:gl=Merodach-Baladan
 "MRDKJ/"	sp=nmpr:sm=pers:gn=m:vc=M@R\:D.\:@KAJ:gl=Mordecai
 "MRDP/"		sp=subs:gn=m:vc=MUR\:D.@P:gl=<uncertain>
@@ -4694,10 +4692,10 @@
 "MRKBH/"	sp=subs:rt=RKB:vc=MER\:K.@B@H:gl=chariot
 "MRKBT/"	sp=subs:rt=RKB:vc=MIR\:K.EBET:gl=chariot
 "MRKLT/"	sp=subs:fc=seg:vc=MAR\:K.OLET:gl=<uncertain>
-"MRMH/"		sp=subs:vc=MIR\:M@H:gl=deceit
-"MRMH=/"	sp=nmpr:sm=pers:gn=m:vc=MIR\:M@H:gl=Mirmah
+"MRMH/"		sp=subs:rt=RMH:vc=MIR\:M@H:gl=deceit
+"MRMH=/"	sp=nmpr:sm=pers:gn=m:rt=<uncertain>:vc=MIR\:M@H:gl=Mirmah
 "MRMWT/"	sp=nmpr:sm=pers:gn=m:vc=M\:R;MOWT:gl=Meremoth
-"MRMS/"		sp=subs:gn=m:vc=MIR\:M@S:gl=trampled land
+"MRMS/"		sp=subs:gn=m:rt=RMS:vc=MIR\:M@S:gl=trampled land
 "MRNTJ/"	sp=adjv:ls=gntl:vc=M;RONOTIJ:gl=Meronothite
 "MRS/"		sp=nmpr:sm=pers:gn=m:vc=MERES:gl=Meres
 "MRSN>/"	sp=nmpr:sm=pers:gn=m:vc=MAR\:S\:N@>:gl=Marsena
@@ -4719,13 +4717,13 @@
 "MRQXT/"	sp=subs:rt=RQX:vc=MIR\:QAXAT:gl=ointment mixture
 "MRR["		sp=verb:vc=M@RAR:gl=be bitter
 "MRR/"		sp=adjv:rt=MRR:vc=M@ROR:gl=bitter
-"MRRH/"		sp=subs:vc=M\:R;R@H:gl=gall-bladder
-"MRRH=/"	sp=subs:vc=M\:ROR@H:gl=gall
+"MRRH/"		sp=subs:rt=MRR:vc=M\:R;R@H:gl=gall-bladder
+"MRRH=/"	sp=subs:rt=MRR:vc=M\:ROR@H:gl=gall
 "MRRJ/"		sp=adjv:ls=gntl:vc=M\:R@RIJ:gl=Merarite
 "MRRJ=/"	sp=nmpr:sm=pers:gn=m:vc=M\:R@RIJ:gl=Merari
 "MRCH/"		sp=nmpr:sm=pers:gn=m:vc=M@R;C@H:gl=Mareshah
 "MRCH=/"	sp=nmpr:sm=topo:vc=M@R;C@H:gl=Mareshah
-"MRC<T/"	sp=subs:vc=MIR\:CA<AT:gl=wickedness
+"MRC<T/"	sp=subs:rt=RC<:vc=MIR\:CA<AT:gl=wickedness
 "MRTJM/"	sp=nmpr:sm=topo:vc=M\:R@TAJIM:gl=Merathaim
 "MF>/"		sp=subs:gn=m:vc=MAF.@>:gl=burden
 "MF>=/"		sp=subs:gn=m:vc=MAF.@>:gl=utterance
@@ -4738,7 +4736,7 @@
 "MFWR/"		sp=subs:fc=ao:gn=m:vc=MAF.OWR:gl=saw
 "MFWRH/"	sp=subs:vc=M\:FW.R@H:gl=mesura:co=unit
 "MFWF/"		sp=subs:fc=ao:gn=m:vc=M@FOWF:gl=joy
-"MFXQ/"		sp=subs:gn=m:vc=MIF\:X@Q:gl=laughter
+"MFXQ/"		sp=subs:gn=m:rt=FXQ:vc=MIF\:X@Q:gl=laughter
 "MFVMH/"	sp=subs:vc=MAF\:V;M@H:gl=animosity
 "MFKH/"		sp=subs:vc=M\:FUK@H:gl=hedge
 "MFKJL/"	sp=subs:gn=m:vc=MAF\:K.IJL:gl=<uncertain>
@@ -4746,7 +4744,7 @@
 "MFKRT/"	sp=subs:fc=seg:vc=MAF\:K.ORET:gl=wage
 "MFMRH/"	sp=subs:vc=MAF\:M;R@H:gl=nail
 "MFPX/"		sp=subs:gn=m:vc=MIF\:P.@X:gl=deviation
-"MFRH/"		sp=subs:vc=MIF\:R@H:gl=dominion
+"MFRH/"		sp=subs:rt=FRH:vc=MIF\:R@H:gl=dominion
 "MFRPWT/"	sp=subs:vc=MIF\:R\:POWT:gl=burning
 "MFRPWT_MJM/"	sp=nmpr:sm=topo:vc=MIF\:R\:POWT_MAJIM:gl=Misrephoth Maim
 "MFRQH/"	sp=nmpr:sm=topo:vc=MAF\:R;Q@H:gl=Masrekah
@@ -4780,13 +4778,13 @@
 "MCXH==/"	sp=subs:rt=MCX:vc=MIC\:X@H:gl=portion
 "MCXH===/"	sp=subs:rt=MCX:vc=M@C\:X@H:gl=portion
 "MCXJT/"	sp=subs:gn=m:rt=CXT:vc=MAC\:XIJT:gl=destruction
-"MCXR/"		sp=subs:gn=m:vc=MIC\:X@R:gl=<uncertain>
+"MCXR/"		sp=subs:gn=m:rt=CXR:vc=MIC\:X@R:gl=<uncertain>
 "MCXT/"		sp=subs:gn=m:rt=CXT:vc=MAC\:X;T:gl=destruction
 "MCXT=/"	sp=subs:gn=m:rt=CXT:vc=MIC\:X@T:gl=destruction
 "MCXT==/"	sp=subs:gn=m:rt=CXT:vc=M@C\:X@T:gl=corruption
-"MCVWX/"	sp=subs:gn=m:vc=MIC\:VOWXA:gl=scattering
+"MCVWX/"	sp=subs:gn=m:rt=CVX:vc=MIC\:VOWXA:gl=scattering
 "MCVX/"		sp=subs:gn=m:rt=CVX:vc=MIC\:V@X:gl=spreading-place
-"MCVR/"		sp=subs:gn=m:vc=MIC\:V@R:gl=writing
+"MCVR/"		sp=subs:gn=m:rt=CVR:vc=MIC\:V@R:gl=writing
 "MCJ/"		sp=subs:fc=seg:gn=m:vc=MECIJ:gl=textile
 "MCJZB>L/"	sp=nmpr:sm=pers:gn=m:vc=M\:C;JZAB\:>;L:gl=Meshezabel
 "MCJX/"		sp=subs:gn=m:vc=M@CIJXA:gl=anointed
@@ -4802,9 +4800,9 @@
 "MCL=/"		sp=subs:fc=seg:gn=m:vc=MOCEL:gl=dominion
 "MCL==/"	sp=subs:fc=seg:gn=m:vc=MOCEL:gl=likeness
 "MCL===/"	sp=nmpr:sm=topo:vc=M@C@L:gl=Mashal
-"MCLWX/"	sp=subs:gn=m:vc=MIC\:LOWXA:gl=sending
-"MCLX/"		sp=subs:gn=m:vc=MIC\:L@X:gl=undertaking
-"MCLXT/"	sp=subs:fc=seg:vc=MIC\:LAXAT:gl=discharge
+"MCLWX/"	sp=subs:gn=m:rt=CLX:vc=MIC\:LOWXA:gl=sending
+"MCLX/"		sp=subs:gn=m:rt=CLX:vc=MIC\:L@X:gl=undertaking
+"MCLXT/"	sp=subs:fc=seg:rt=CLX:vc=MIC\:LAXAT:gl=discharge
 "MCLM/"		sp=nmpr:sm=pers:gn=m:vc=M\:CUL.@M:gl=Meshullam
 "MCLMWT/"	sp=nmpr:sm=pers:gn=m:vc=M\:CIL.;MOWT:gl=Meshillemoth
 "MCLMJH/"	sp=nmpr:sm=pers:gn=m:vc=M\:CELEM\:J@H:gl=Meshelemiah
@@ -4812,21 +4810,21 @@
 "MCLMJT/"	sp=nmpr:sm=pers:gn=m:vc=M\:CIL.;MIJT:gl=Meshillemith
 "MCLMT/"	sp=nmpr:sm=pers:gn=f:vc=M\:CUL.EMET:gl=Meshullemeth
 "MCMH/"		sp=subs:vc=M\:CAM.@H:gl=devastation
-"MCMN/"		sp=subs:gn=m:vc=MIC\:M@N:gl=fatness
+"MCMN/"		sp=subs:gn=m:rt=CMN:vc=MIC\:M@N:gl=fatness
 "MCMNH/"	sp=nmpr:sm=pers:gn=m:vc=MIC\:MAN.@H:gl=Mishmannah
 "MCMNJM/"	sp=subs:vc=MAC\:MAN.IJM:gl=dishes
-"MCM</"		sp=subs:gn=m:vc=MIC\:M@<:gl=rumour
+"MCM</"		sp=subs:gn=m:rt=CM<:vc=MIC\:M@<:gl=rumour
 "MCM<=/"	sp=nmpr:sm=pers:gn=m:vc=MIC\:M@<:gl=Mishma
-"MCM<T/"	sp=subs:fc=seg:vc=MIC\:MA<AT:gl=subject
-"MCMR/"		sp=subs:gn=m:vc=MIC\:M@R:gl=guard
+"MCM<T/"	sp=subs:fc=seg:rt=CM<:vc=MIC\:MA<AT:gl=subject
+"MCMR/"		sp=subs:gn=m:rt=CMR:vc=MIC\:M@R:gl=guard
 "MCMRT/"	sp=subs:fc=seg:vc=MIC\:MERET:gl=guard-post
 "MCNH/"		sp=subs:gn=m:vc=MIC\:NEH:gl=second
 "MCSH/"		sp=subs:vc=M\:CIS.@H:gl=plunder
-"MC<WL/"	sp=subs:gn=m:vc=MIC\:<OWL:gl=hollow way
+"MC<WL/"	sp=subs:gn=m:rt=C<L:vc=MIC\:<OWL:gl=hollow way
 "MC<J/"		sp=subs:vc=MIC\:<IJ:gl=<uncertain>
 "MC<M/"		sp=nmpr:sm=pers:gn=m:vc=MIC\:<@M:gl=Misham
 "MC<N/"		sp=subs:gn=m:vc=MAC\:<;N:gl=support
-"MC<N=/"	sp=subs:gn=m:vc=MIC\:<@N:gl=support
+"MC<N=/"	sp=subs:gn=m:rt=C<N:vc=MIC\:<@N:gl=support
 "MC<NH/"	sp=subs:vc=MAC\:<;N@H:gl=support
 "MC<NT/"	sp=subs:fc=seg:vc=MIC\:<ENET:gl=support
 "MCPXH/"	sp=subs:rt=CPX:vc=MIC\:P.@X@H:gl=clan
@@ -4837,12 +4835,12 @@
 "MCQ=/"		sp=subs:gn=m:vc=MAC.@Q:gl=rushing
 "MCQD/"		sp=adjv:fc=ptcp:vc=M\:CUQ.@D:gl=almond-like
 "MCQH/"		sp=subs:fc=ptca:gn=m:vc=MAC\:QEH:gl=butler, irrigated, drink
-"MCQWL/"	sp=subs:gn=m:vc=MIC\:QOWL:gl=weight
+"MCQWL/"	sp=subs:gn=m:rt=CQL:vc=MIC\:QOWL:gl=weight
 "MCQWP/"	sp=subs:gn=m:vc=MAC\:QOWP:gl=lintel
-"MCQL/"		sp=subs:gn=m:vc=MIC\:Q@L:gl=weight
+"MCQL/"		sp=subs:gn=m:rt=CQL:vc=MIC\:Q@L:gl=weight
 "MCQLT/"	sp=subs:fc=seg:vc=MIC\:QELET:gl=leveller
-"MCQ</"		sp=subs:gn=m:vc=MIC\:Q@<:gl=clear water
-"MCRH/"		sp=subs:vc=MIC\:R@H:gl=liquid
+"MCQ</"		sp=subs:gn=m:rt=CQ<:vc=MIC\:Q@<:gl=clear water
+"MCRH/"		sp=subs:rt=CRH:vc=MIC\:R@H:gl=liquid
 "MCR<J/"	sp=adjv:ls=gntl:vc=MIC\:R@<IJ:gl=Mishraite
 "MCC["		sp=verb:vc=M@CAC:gl=grope
 "MCTH/"		sp=subs:gn=m:rt=CTH:vc=MIC\:T.EH:gl=drinking
@@ -4910,7 +4908,7 @@
 "NBXZ/"		sp=nmpr:sm=pers:gn=m:vc=NIB\:XAZ:gl=Nibhaz
 "NBV["		sp=verb:vc=N@BAV:gl=look at
 "NBV/"		sp=nmpr:sm=pers:gn=m:vc=N\:B@V:gl=Nebat
-"NBJ>/"		sp=subs:fc=ai:gn=m:vc=N@BIJ>:gl=prophet
+"NBJ>/"		sp=subs:gn=m:rt=NB>:vc=N@BIJ>:gl=prophet
 "NBJ>H/"	sp=subs:vc=N\:BIJ>@H:gl=prophetess
 "NBJWT/"	sp=nmpr:sm=gens:vc=N\:B@JOWT:gl=Nebaioth
 "NBK/"		sp=subs:fc=seg:vc=N;BEK\::gl=sandy ground
@@ -4934,7 +4932,7 @@
 "NGHH/"		sp=subs:vc=N\:GOH@H:gl=brightness
 "NGX["		sp=verb:vc=N@GAX:gl=gore
 "NGX/"		sp=adjv:vc=NAG.@X:gl=goring
-"NGJD/"		sp=subs:fc=ai:gn=m:vc=N@GIJD:gl=chief
+"NGJD/"		sp=subs:gn=m:rt=NGD:vc=N@GIJD:gl=chief
 "NGJNH/"	sp=subs:vc=N\:GIJN@H:gl=music
 "NGN["		sp=verb:vc=N@GAN:gl=play harp
 "NG<["		sp=verb:fc=3g:vc=N@GA<:gl=touch
@@ -5009,8 +5007,8 @@
 "NWYH/"		sp=subs:vc=NOWY@H:gl=plumage
 "NWC["		sp=verb:vc=NW.C:gl=<uncertain>
 "NZH["		sp=verb:vc=N@Z@H:gl=spatter
-"NZJD/"		sp=subs:fc=ai:gn=m:vc=N@ZIJD:gl=boiled food
-"NZJR/"		sp=subs:fc=ai:gn=m:vc=N@ZIJR:gl=singled out
+"NZJD/"		sp=subs:gn=m:rt=NZD:vc=N@ZIJD:gl=boiled food
+"NZJR/"		sp=subs:gn=m:rt=NZR:vc=N@ZIJR:gl=singled out
 "NZL["		sp=verb:vc=N@ZAL:gl=flow
 "NZM/"		sp=subs:fc=seg:gn=m:vc=NEZEM:gl=nose-ring
 "NZQ/"		sp=subs:fc=seg:gn=m:vc=N;ZEQ:gl=damage
@@ -5173,7 +5171,7 @@
 "NPX["		sp=verb:vc=N@PAX:gl=blow
 "NPX/"		sp=nmpr:sm=topo:vc=NOPAX:gl=Nophah
 "NPJLJM/"	sp=subs:vc=N\:PIJLIJM:gl=giants
-"NPJC/"		sp=nmpr:sm=pers:gn=m:vc=N@PIJC:gl=Naphish
+"NPJC/"		sp=nmpr:sm=pers:gn=m:rt=NPC:vc=N@PIJC:gl=Naphish
 "NPK/"		sp=subs:fc=seg:gn=m:vc=NOPEK\::gl=turquoise
 "NPL["		sp=verb:vc=N@PAL:gl=fall
 "NPL/"		sp=subs:fc=seg:gn=m:vc=N;PEL:gl=miscarriage
@@ -5218,7 +5216,7 @@
 "NQWD>/"	sp=nmpr:sm=pers:gn=m:vc=N\:QOWD@>:gl=Nekoda
 "NQJ/"		sp=adjv:rt=NQH:vc=N@QIJ:gl=innocent
 "NQJWN/"	sp=subs:gn=m:rt=NQH:vc=NIQ.@JOWN:gl=innocence
-"NQJQ/"		sp=subs:fc=ai:gn=m:vc=N@QIJQ:gl=cleft
+"NQJQ/"		sp=subs:gn=m:rt=NQQ:vc=N@QIJQ:gl=cleft
 "NQM["		sp=verb:vc=N@QAM:gl=avenge
 "NQM/"		sp=subs:gn=m:rt=NQM:vc=N@Q@M:gl=vengeance
 "NQMH/"		sp=subs:rt=NQM:vc=N\:Q@M@H:gl=vengeance
@@ -5240,8 +5238,8 @@
 "NF>["		sp=verb:vc=N@F@>:gl=lift
 "NFG["		sp=verb:vc=N@FAG:gl=overtake
 "NFW>H/"	sp=subs:vc=N\:FW.>@H:gl=load
-"NFJ>/"		sp=subs:fc=ai:gn=m:vc=N@FIJ>:gl=chief
-"NFJ>=/"	sp=subs:fc=ai:vc=N@FIJ>:gl=fog
+"NFJ>/"		sp=subs:gn=m:rt=NF>:vc=N@FIJ>:gl=chief
+"NFJ>=/"	sp=subs:rt=NF>:vc=N@FIJ>:gl=fog
 "NFQ["		sp=verb:fc=1n:gl=kindle
 "NC>["		sp=verb:vc=N@C@>:gl=give loan
 "NC>=["		sp=verb:vc=N@C@>:gl=beguile
@@ -5268,9 +5266,9 @@
 "NCTWN/"	sp=subs:gn=m:vc=NIC\:T.\:W@N:gl=letter
 "NTX["		sp=verb:fc=1n,3g:gl=cut
 "NTX/"		sp=subs:fc=seg:gn=m:vc=N;TAX:gl=piece
-"NTJB/"		sp=subs:fc=ai:gn=m:vc=N@TIJB:gl=path
+"NTJB/"		sp=subs:gn=m:rt=NTB:vc=N@TIJB:gl=path
 "NTJBH/"	sp=subs:vc=N\:TIJB@H:gl=path
-"NTJN/"		sp=subs:fc=ai:vc=N@TIJN:gl=temple slave
+"NTJN/"		sp=subs:rt=NTN:vc=N@TIJN:gl=temple slave
 "NTK["		sp=verb:vc=N@TAK\::gl=pour
 "NTN["		sp=verb:vc=N@TAN:gl=give
 "NTN/"		sp=nmpr:sm=pers:gn=m:vc=N@T@N:gl=Nathan
@@ -5319,7 +5317,7 @@
 "SGR["		sp=verb:vc=S@GAR:gl=close
 "SGRJR/"	sp=subs:gn=m:vc=SAG\:RIJR:gl=heavy rain
 "SD/"		sp=subs:gn=m:rt=SDD:vc=SAD:gl=stock
-"SDJN/"		sp=subs:fc=ai:gn=m:vc=S@DIJN:gl=wrapper
+"SDJN/"		sp=subs:gn=m:rt=<uncertain>:vc=S@DIJN:gl=wrapper
 "SDM/"		sp=nmpr:sm=topo:vc=S\:DOM:gl=Sodom
 "SDR/"		sp=subs:fc=seg:vc=S;DER:gl=order
 "SHR/"		sp=subs:fc=seg:gn=m:vc=SOHAR:gl=prison
@@ -5353,7 +5351,7 @@
 "SXBWT/"	sp=subs:vc=S\:X@BOWT:gl=rags
 "SXH["		sp=verb:vc=S@X@H:gl=scrap
 "SXJ/"		sp=subs:fc=seg:gn=m:vc=S\:XIJ:gl=refuse
-"SXJC/"		sp=subs:fc=ai:gn=m:vc=S@XIJC:gl=shoot
+"SXJC/"		sp=subs:gn=m:rt=SXC:vc=S@XIJC:gl=shoot
 "SXP["		sp=verb:fc=2g:gl=wash away
 "SXR["		sp=verb:vc=S@XAR:gl=go about
 "SXR/"		sp=subs:gn=m:rt=SXR:vc=SAXAR:gl=gain
@@ -5376,7 +5374,7 @@
 "SJRH/"		sp=subs:gn=f:vc=SIJR@H:gl=hook
 "SK/"		sp=subs:gn=m:rt=SKK:vc=SOK\::gl=cover
 "SK=/"		sp=subs:gn=m:vc=S@K\::gl=<uncertain>
-"SKH/"		sp=subs:vc=SUK.@H:gl=cover of foliage
+"SKH/"		sp=subs:rt=SKK:vc=SUK.@H:gl=cover of foliage
 "SKWT/"		sp=nmpr:sm=topo:vc=SUK.OWT:gl=Succoth
 "SKWT=/"	sp=nmpr:sm=pers:gn=m:vc=SIK.W.T:gl=Sakkuth
 "SKWT_BNWT/"	sp=nmpr:sm=pers:gn=m:vc=SUK.OWT_B.\:NOWT:gl=Succoth Benoth
@@ -5444,8 +5442,8 @@
 "SSMJ/"		sp=nmpr:sm=pers:gn=m:vc=SIS\:MAJ:gl=Sismai
 "S<D["		sp=verb:fc=2g:vc=S@<AD:gl=support
 "S<H["		sp=verb:vc=S@<@H:gl=calumniate
-"S<JP/"		sp=subs:fc=ai:gn=m:vc=S@<IJP:gl=cleft
-"S<JP=/"	sp=subs:fc=ai:vc=S@<IJP:gl=bough
+"S<JP/"		sp=subs:gn=m:rt=S<P:vc=S@<IJP:gl=cleft
+"S<JP=/"	sp=subs:rt=S<P:vc=S@<IJP:gl=bough
 "S<P["		sp=verb:fc=2g:gl=cut off
 "S<P/"		sp=adjv:rt=S<P:vc=S;<;P:gl=despicable
 "S<PH/"		sp=subs:rt=S<P:vc=S\:<AP.@H:gl=bough
@@ -5492,10 +5490,10 @@
 "SRH==/"	sp=nmpr:sm=topo:vc=SIR@H:gl=Sirah
 "SRWX/"		sp=adjv:rt=SRX:vc=S@RW.XA:gl=overhanging
 "SRX["		sp=verb:fc=3g:gl=overhang
-"SRX/"		sp=subs:rt=SRX:gn=m:vc=SERAX:gl=overhanging
+"SRX/"		sp=subs:gn=m:rt=SRX:vc=SERAX:gl=overhanging
 "SRX=["		sp=verb:fc=3g:gl=be corrupt
 "SRJWN/"	sp=subs:gn=m:vc=SIR\:JOWN:gl=scaly coat
-"SRJS/"		sp=subs:fc=ai:gn=m:vc=S@RIJS:gl=official
+"SRJS/"		sp=subs:gn=m:rt=SRS:vc=S@RIJS:gl=official
 "SRN/"		sp=subs:fc=seg:vc=SEREN:gl=axletree
 "SRN=/"		sp=subs:rt=SRN:vc=SEREN:gl=lord
 "SR<PH/"	sp=subs:vc=SAR\:<AP.@H:gl=bough
@@ -5559,7 +5557,7 @@
 "<GBJM/"	sp=subs:rt=<GB:vc=<\:AG@BIJM:gl=<uncertain>
 "<GH/"		sp=subs:vc=<UG@H:gl=cake
 "<GWR/"		sp=subs:gn=m:vc=<@GW.R:gl=bulbul
-"<GJL/"		sp=subs:fc=ai:gn=m:vc=<@GIJL:gl=adornment
+"<GJL/"		sp=subs:gn=m:rt=<GL:vc=<@GIJL:gl=adornment
 "<GL/"		sp=subs:fc=seg:gn=m:vc=<;GEL:gl=bull
 "<GL=/"		sp=adjv:rt=<GL:vc=<@GOL:gl=round
 "<GLH/"		sp=subs:vc=<EG\:L@H:gl=cow
@@ -5589,7 +5587,7 @@
 "<DJH/"		sp=nmpr:sm=pers:gn=m:vc=<\:AD@J@H:gl=Adaiah
 "<DJHW/"	sp=nmpr:sm=pers:gn=m:vc=<\:AD@J@HW.:gl=Adaiah
 "<DJN/"		sp=adjv:rt=<DN:vc=<@DIJN:gl=voluptuous
-"<DJN=/"	sp=nmpr:sm=pers:gn=m:vc=<@DIJN:gl=Adin
+"<DJN=/"	sp=nmpr:sm=pers:gn=m:rt=<DN:vc=<@DIJN:gl=Adin
 "<DJN>/"	sp=nmpr:sm=pers:gn=m:vc=<\:ADIJN@>:gl=Adina
 "<DJNW/"	sp=nmpr:sm=pers:gn=m:vc=<\:ADIJNOW:gl=Adino
 "<DJTJM/"	sp=nmpr:sm=topo:vc=<\:ADIJTAJIM:gl=Adithaim
@@ -5631,8 +5629,8 @@
 "<WH/"		sp=subs:vc=<AW.@H:gl=ruin
 "<WH=/"		sp=nmpr:sm=topo:vc=<IW.@H:gl=Ivvah
 "<WZ["		sp=verb:vc=<OWZ:gl=take refuge
+"<WJ/"		sp=adjv:ls=gntl:rt=<uncertain>:vc=<AW.IJ:gl=Avvite
 "<WJL/"		sp=subs:fc=ai:gn=m:vc=<\:AWIJL:gl=boy
-"<WJM/"		sp=nmpr:sm=gens:vc=<AW.IJM:gl=Avvim
 "<WJT/"		sp=nmpr:sm=topo:vc=<\:AWIJT:gl=Avith
 "<WL["		sp=verb:vc=<W.L:gl=nurse
 "<WL/"		sp=subs:gn=m:vc=<W.L:gl=suckling
@@ -5656,7 +5654,7 @@
 "<WR=["		sp=verb:vc=<@WAR:gl=be blind
 "<WR=/"		sp=subs:gn=m:vc=<OWR:gl=skin
 "<WR==["	sp=verb:vc=<W.R:gl=be naked
-"<WRWN/"	sp=subs:gn=m:vc=<IW.@ROWN:gl=blindness
+"<WRWN/"	sp=subs:gn=m:rt=<WR:vc=<IW.@ROWN:gl=blindness
 "<WRT/"		sp=subs:fc=seg:vc=<AW.ERET:gl=blindness
 "<WC["		sp=verb:vc=<W.C:gl=<uncertain>
 "<WT["		sp=verb:vc=<@WAT:gl=be crooked
@@ -5676,7 +5674,7 @@
 "<ZBWQ/"	sp=nmpr:sm=pers:gn=m:vc=<AZ\:B.W.Q:gl=Azbuk
 "<ZGD/"		sp=nmpr:sm=pers:gn=m:vc=<AZ\:G.@D:gl=Azgad
 "<ZH/"		sp=nmpr:sm=topo:vc=<AZ.@H:gl=Gaza
-"<ZH=/"		sp=nmpr:sm=pers:gn=m:vc=<UZ.@H:gl=Uzzah
+"<ZH=/"		sp=nmpr:sm=pers:gn=m:rt=<ZZ:vc=<UZ.@H:gl=Uzzah
 "<ZWBH/"	sp=nmpr:sm=pers:gn=f:vc=<\:AZW.B@H:gl=Azubah
 "<ZWZ/"		sp=subs:gn=m:vc=<\:EZW.Z:gl=power
 "<ZWZ=/"	sp=adjv:vc=<IZ.W.Z:gl=powerful
@@ -5846,7 +5844,7 @@
 "<MD/"		sp=subs:ls=ppre:gn=m:vc=<IM.@D:gl=company
 "<MD=/"		sp=subs:fc=seg:gn=m:vc=<OMED:gl=place
 "<MDH/"		sp=subs:vc=<EM\:D.@H:gl=standing place
-"<MH/"		sp=subs:vc=<UM.@H:gl=side
+"<MH/"		sp=subs:rt=<MM:vc=<UM.@H:gl=side
 "<MH=/"		sp=nmpr:sm=topo:vc=<UM@H:gl=Ummah
 "<MWD/"		sp=subs:fc=ptcp:gn=m:vc=<AM.W.D:gl=pillar
 "<MWN/"		sp=nmpr:sm=gens:vc=<AM.OWN:gl=Ammon
@@ -5858,7 +5856,7 @@
 "<MJHWD/"	sp=nmpr:sm=pers:gn=m:vc=<AM.IJHW.D:gl=Ammihud
 "<MJZBD/"	sp=nmpr:sm=pers:gn=m:vc=<AM.IJZ@B@D:gl=Ammizabad
 "<MJNDB/"	sp=nmpr:sm=pers:gn=m:vc=<AM.IJN@D@B:gl=Amminadab
-"<MJR/"		sp=subs:fc=ai:gn=m:vc=<@MIJR:gl=grass
+"<MJR/"		sp=subs:gn=m:rt=<MR:vc=<@MIJR:gl=grass
 "<MJCDJ/"	sp=nmpr:sm=pers:gn=m:vc=<AM.IJCAD.@J:gl=Ammishaddai
 "<MJT/"		sp=subs:gn=m:rt=<MH:vc=<@MIJT:gl=fellow
 "<ML["		sp=verb:vc=<@MAL:gl=labour
@@ -5913,7 +5911,7 @@
 "<NJ=/"		sp=subs:gn=m:rt=<NH:vc=<\:@NIJ:gl=poverty
 "<NJ==/"	sp=nmpr:sm=pers:gn=m:vc=<UN.IJ:gl=Unni
 "<NJH/"		sp=nmpr:sm=pers:gn=m:vc=<\:AN@J@H:gl=Anaiah
-"<NJM/"		sp=nmpr:sm=topo:vc=<@NIJM:gl=Anim
+"<NJM/"		sp=nmpr:sm=topo:rt=<NM:vc=<@NIJM:gl=Anim
 "<NJN/"		sp=subs:gn=m:vc=<IN\:J@N:gl=occupation
 "<NM/"		sp=nmpr:sm=topo:vc=<@N;M:gl=Anem
 "<NMJM/"	sp=nmpr:sm=gens:vc=<\:AN@MIJM:gl=Anamites
@@ -5939,7 +5937,7 @@
 "<NTWT=/"	sp=nmpr:sm=pers:gn=m:vc=<\:AN@TOWT:gl=Anathoth
 "<NTTJ/"	sp=adjv:ls=gntl:vc=<AN.\:TOTIJ:gl=Anathothite
 "<NTTJH/"	sp=nmpr:sm=pers:gn=m:vc=<AN\:TOTIJ.@H:gl=Anthothijah
-"<SJS/"		sp=subs:fc=ai:gn=m:vc=<@SIJS:gl=juice
+"<SJS/"		sp=subs:gn=m:rt=<SS:vc=<@SIJS:gl=juice
 "<SS["		sp=verb:vc=<@SAS:gl=tread down
 "<PJ/"		sp=subs:fc=seg:vc=<\:@PIJ:gl=foliage
 "<PL["		sp=verb:fc=1g:gl=be heedless
@@ -5968,7 +5966,7 @@
 "<YB====/"	sp=subs:fc=seg:gn=m:vc=<EYEB:gl=form
 "<YB=====/"	sp=subs:vc=<AY.@B:gl=<uncertain>
 "<YBH/"		sp=subs:rt=<YB:vc=<AY.@B@H:gl=pain
-"<YBWN/"	sp=subs:gn=m:vc=<IY.@BOWN:gl=pain
+"<YBWN/"	sp=subs:gn=m:rt=<YB:vc=<IY.@BOWN:gl=pain
 "<YBT/"		sp=subs:rt=<YB:vc=<AY.EBET:gl=pain
 "<YH["		sp=verb:vc=<@Y@H:gl=blink
 "<YH/"		sp=subs:rt=J<Y:vc=<;Y@H:gl=counsel
@@ -6105,7 +6103,7 @@
 "<FR=/"		sp=subs:ls=card:gn=m:vc=<EFER:gl=ten
 "<FRH/"		sp=subs:ls=card:rt=<FR:vc=<EF\:R;H:gl=-teen
 "<FRH=/"	sp=subs:ls=card:vc=<\:AF@R@H:gl=ten
-"<FRWN/"	sp=subs:gn=m:vc=<IF.@ROWN:gl=tenth part
+"<FRWN/"	sp=subs:gn=m:rt=<FR:vc=<IF.@ROWN:gl=tenth part
 "<FRJM/"	sp=subs:ls=card:vc=<EF\:RIJM:gl=twenty
 "<C/"		sp=subs:gn=m:rt=<CC:vc=<@C:gl=moth
 "<C=/"		sp=subs:gn=m:rt=<CC:vc=<@C:gl=putrefaction
@@ -6170,8 +6168,8 @@
 "P>R["		sp=verb:vc=P.@>AR:gl=glorify
 "P>R/"		sp=subs:gn=m:vc=P.\:>;R:gl=headdress
 "P>R=["		sp=verb:fc=2>:gl=knock down
-"P>RH/"		sp=subs:vc=P.U>R@H:gl=bough
-"P>RH=/"	sp=subs:vc=P.O>R@H:gl=shoot
+"P>RH/"		sp=subs:rt=P>R:vc=P.U>R@H:gl=bough
+"P>RH=/"	sp=subs:rt=P>R:vc=P.O>R@H:gl=shoot
 "P>RWR/"	sp=subs:gn=m:vc=P.@>RW.R:gl=glow
 "P>RN/"		sp=nmpr:sm=topo:vc=P.@>R@N:gl=Paran
 "PG/"		sp=subs:gn=f:rt=PGG:vc=P.AG:gl=unripe fig
@@ -6292,10 +6290,10 @@
 "PLVJH/"	sp=nmpr:sm=pers:gn=m:vc=P.\:LAV\:J@H:gl=Pelatiah
 "PLVJHW/"	sp=nmpr:sm=pers:gn=m:vc=P.\:LAV\:J@HW.:gl=Pelatiah
 "PLJH/"		sp=nmpr:sm=pers:gn=m:vc=P.\:L@J@H:gl=Pelaiah
-"PLJV/"		sp=subs:fc=ai:gn=m:vc=P.@LIJV:gl=escaped one
+"PLJV/"		sp=subs:gn=m:rt=PLV:vc=P.@LIJV:gl=escaped one
 "PLJV=/"	sp=subs:fc=ae:vc=P.@L;JV:gl=escaped one
 "PLJVH/"	sp=subs:vc=P.\:L;JV@H:gl=escape
-"PLJL/"		sp=subs:fc=ai:vc=P.@LIJL:gl=judge
+"PLJL/"		sp=subs:rt=PLL:vc=P.@LIJL:gl=judge
 "PLJLH/"	sp=subs:vc=P.\:LIJL@H:gl=decision
 "PLJLJ/"	sp=adjv:rt=PLL:vc=P.\:LIJLIJ:gl=calling for judgment
 "PLJLJH/"	sp=subs:vc=P.\:LIJLIJ.@H:gl=decision
@@ -6338,7 +6336,7 @@
 "PSX/"		sp=subs:fc=seg:gn=m:vc=P.ESAX:gl=Passover
 "PSX=/"		sp=adjv:fc=ie:vc=P.IS.;XA:gl=lame
 "PSX==/"	sp=nmpr:sm=pers:gn=m:vc=P.@S;XA:gl=Paseah
-"PSJL/"		sp=subs:fc=ai:vc=P.@SIJL:gl=idol
+"PSJL/"		sp=subs:rt=PSL:vc=P.@SIJL:gl=idol
 "PSK/"		sp=nmpr:sm=pers:gn=m:vc=P.@SAK\::gl=Pasach
 "PSL["		sp=verb:vc=P.@SAL:gl=cut
 "PSL/"		sp=subs:fc=seg:gn=m:vc=P.ESEL:gl=idol
@@ -6371,7 +6369,7 @@
 "PQ/"		sp=subs:gn=m:rt=PWQ:vc=P.IQ:gl=tottering
 "PQD["		sp=verb:vc=P.@QAD:gl=miss
 "PQDH/"		sp=subs:vc=P.\:QUD.@H:gl=commission
-"PQDWN/"	sp=subs:gn=m:vc=P.IQ.@DOWN:gl=deposit
+"PQDWN/"	sp=subs:gn=m:rt=PQD:vc=P.IQ.@DOWN:gl=deposit
 "PQDT/"		sp=subs:gn=f:rt=PQD:vc=P.\:QIDUT:gl=oversight
 "PQWD/"		sp=nmpr:sm=topo:vc=P.\:QOWD:gl=Pekod
 "PQWDJM/"	sp=subs:vc=P.IQ.W.DIJM:gl=orders
@@ -6380,7 +6378,7 @@
 "PQX=/"		sp=nmpr:sm=pers:gn=m:vc=P.EQAX:gl=Pekah
 "PQX_QWX/"	sp=subs:gn=m:vc=P.\:QAX_QOWXA:gl=opening
 "PQXJH/"	sp=nmpr:sm=pers:gn=m:vc=P.\:QAX\:J@H:gl=Pekahiah
-"PQJD/"		sp=subs:fc=ai:gn=m:vc=P.@QIJD:gl=officer
+"PQJD/"		sp=subs:gn=m:rt=PQD:vc=P.@QIJD:gl=officer
 "PQ<JM/"	sp=subs:vc=P.\:Q@<IJM:gl=gourd-ornament
 "PQ<T/"		sp=subs:vc=P.AQ.U<OT:gl=gourd
 "PR/"		sp=subs:gn=m:rt=PRR:vc=P.AR:gl=young bull
@@ -6415,8 +6413,8 @@
 "PRV/"		sp=subs:fc=seg:gn=m:vc=P.EREV:gl=berries
 "PRJ/"		sp=subs:fc=seg:gn=m:vc=P.\:RIJ:gl=fruit
 "PRJD>/"	sp=nmpr:sm=pers:gn=m:vc=P.\:RIJD@>:gl=Perida
-"PRJY/"		sp=subs:fc=ai:gn=m:vc=P.@RIJY:gl=robber
-"PRJY=/"	sp=subs:fc=ai:gn=m:vc=P.@RIJY:gl=burglar
+"PRJY/"		sp=subs:gn=m:rt=PRY:vc=P.@RIJY:gl=robber
+"PRJY=/"	sp=subs:gn=m:rt=PRY:vc=P.@RIJY:gl=burglar
 "PRK/"		sp=subs:fc=seg:gn=m:vc=P.EREK\::gl=act of violence
 "PRKT/"		sp=subs:fc=seg:vc=P.@ROKET:gl=curtain
 "PRM["		sp=verb:vc=P.@RAM:gl=rent
@@ -6486,21 +6484,21 @@
 "PTX/"		sp=subs:gn=m:rt=PTX:vc=P.ETAX:gl=opening
 "PTX=["		sp=verb:fc=3g:gl=engrave
 "PTX=/"		sp=subs:fc=seg:gn=m:vc=P.;TAX:gl=disclosure
-"PTXWN/"	sp=subs:gn=m:vc=P.IT.@XOWN:gl=inducement
+"PTXWN/"	sp=subs:gn=m:rt=PTX:vc=P.IT.@XOWN:gl=inducement
 "PTXJH/"	sp=nmpr:sm=pers:gn=m:vc=P.\:TAX\:J@H:gl=Pethahiah
 "PTJ/"		sp=subs:fc=seg:gn=m:vc=P.ETIJ:gl=young man
 "PTJ=/"		sp=subs:fc=seg:gn=m:vc=P.ETIJ:gl=simplicity
 "PTJGJL/"	sp=subs:gn=m:vc=P.\:TIJGIJL:gl=garment
 "PTJWT/"	sp=subs:gn=f:vc=P.\:TAJ.W.T:gl=<uncertain>
 "PTJXH/"	sp=subs:vc=P.\:TIJX@H:gl=dagger
-"PTJL/"		sp=subs:fc=ai:gn=m:vc=P.@TIJL:gl=cord
+"PTJL/"		sp=subs:gn=m:rt=PTL:vc=P.@TIJL:gl=cord
 "PTL["		sp=verb:gl=twist
 "PTLTL/"	sp=adjv:vc=P.\:TAL\:T.OL:gl=queer
 "PTM/"		sp=nmpr:sm=topo:vc=P.ITOM:gl=Pithom
 "PTN/"		sp=subs:fc=seg:gn=m:vc=P.ETEN:gl=cobra
 "PT</"		sp=subs:ls=padv:gn=m:rt=PT<:vc=P.ETA<:gl=instant
 "PTR["		sp=verb:vc=P.@TAR:gl=interpret
-"PTRWN/"	sp=subs:gn=m:vc=P.IT.@ROWN:gl=interpretation
+"PTRWN/"	sp=subs:gn=m:rt=PTR:vc=P.IT.@ROWN:gl=interpretation
 "PTRWS/"	sp=nmpr:sm=topo:vc=P.AT\:ROWS:gl=Upper Egypt
 "PTRSJM/"	sp=nmpr:sm=gens:vc=P.AT\:RUSIJM:gl=Pathrusites
 "PTCGN/"	sp=subs:fc=seg:gn=m:vc=P.AT\:CEGEN:gl=copy
@@ -6660,15 +6658,15 @@
 "YM>/"		sp=adjv:rt=YM>:vc=Y@M;>:gl=thirsty
 "YM>=/"		sp=subs:gn=m:vc=Y@M@>:gl=thirst
 "YM>H/"		sp=subs:vc=YIM\:>@H:gl=thirst
-"YM>WN/"	sp=subs:gn=m:vc=YIM.@>OWN:gl=thirsty ground
+"YM>WN/"	sp=subs:gn=m:rt=YM>:vc=YIM.@>OWN:gl=thirsty ground
 "YMD["		sp=verb:gl=attach
 "YMD/"		sp=subs:fc=seg:gn=m:vc=YEMED:gl=span
 "YMH/"		sp=subs:vc=YAM.@H:gl=veil
 "YMWQJM/"	sp=subs:vc=YIM.W.QIJM:gl=cakes
 "YMX["		sp=verb:fc=3g:vc=Y@MAX:gl=sprout
 "YMX/"		sp=subs:fc=seg:gn=m:vc=YEMAX:gl=sprout
-"YMJD/"		sp=subs:fc=ai:gn=m:vc=Y@MIJD:gl=bracelet
-"YMJD=/"	sp=subs:fc=ai:gn=m:vc=Y@MIJD:gl=cover
+"YMJD/"		sp=subs:gn=m:rt=YMD:vc=Y@MIJD:gl=bracelet
+"YMJD=/"	sp=subs:gn=m:rt=YMD:vc=Y@MIJD:gl=cover
 "YMJM/"		sp=subs:vc=YAM.IJM:gl=<uncertain>
 "YMQ["		sp=verb:gl=shrivel
 "YMR/"		sp=subs:fc=seg:gn=m:vc=YEMER:gl=wool
@@ -6687,7 +6685,7 @@
 "YNWR/"		sp=subs:fc=io:gn=m:vc=YIN.OWR:gl=water-tunnel
 "YNX["		sp=verb:fc=3g:gl=clap one's hand
 "YNJNJM/"	sp=subs:vc=Y\:NIJNIJM:gl=pricks
-"YNJP/"		sp=subs:fc=ai:gn=m:vc=Y@NIJP:gl=turban
+"YNJP/"		sp=subs:gn=m:rt=YNP:vc=Y@NIJP:gl=turban
 "YNJPH/"	sp=subs:vc=Y\:NIJP@H:gl=turban
 "YNM/"		sp=adjv:fc=ptcp:vc=Y@NUM:gl=barren
 "YNN/"		sp=nmpr:sm=topo:vc=Y\:N@N:gl=Zenan
@@ -6702,7 +6700,7 @@
 "Y<H["		sp=verb:vc=Y@<@H:gl=put in chains
 "Y<JP/"		sp=subs:gn=m:rt=Y<P:vc=Y@<IJP:gl=shawl
 "Y<JR/"		sp=adjv:rt=Y<R:vc=Y@<IJR:gl=little
-"Y<JR=/"	sp=nmpr:sm=topo:vc=Y@<IJR:gl=Zair
+"Y<JR=/"	sp=nmpr:sm=topo:rt=Y<R:vc=Y@<IJR:gl=Zair
 "Y<JRH/"	sp=subs:rt=Y<R:vc=Y\:<IJR@H:gl=youth
 "Y<N["		sp=verb:fc=2g:gl=pack up
 "Y<N/"		sp=nmpr:sm=topo:vc=YO<AN:gl=Zoan
@@ -6732,7 +6730,7 @@
 "YPJXT/"	sp=subs:gn=f:rt=YPX:vc=YAP.IJXIT:gl=flat cake
 "YPJ</"		sp=subs:fc=ai:vc=Y@PIJ<A:gl=dung
 "YPJ<H/"	sp=subs:vc=Y\:PIJ<@H:gl=leaf
-"YPJR/"		sp=subs:fc=ai:gn=m:vc=Y@PIJR:gl=he-goat
+"YPJR/"		sp=subs:gn=m:rt=YPR:vc=Y@PIJR:gl=he-goat
 "YPJRH/"	sp=subs:vc=Y\:PIJR@H:gl=<uncertain>
 "YPJT/"		sp=subs:gn=f:rt=YPH:vc=Y@PIJT:gl=seat order
 "YPN["		sp=verb:vc=Y@PAN:gl=hide
@@ -6752,7 +6750,7 @@
 "YPT=/"		sp=nmpr:sm=topo:vc=Y\:PAT:gl=Zephath
 "YPTH/"		sp=nmpr:sm=topo:vc=Y\:PAT@H:gl=Zephathah
 "YQLG/"		sp=nmpr:sm=topo:vc=YIQ\:LAG:gl=Ziklag
-"YQLWN/"	sp=subs:gn=m:vc=YIQ.@LOWN:gl=<uncertain>
+"YQLWN/"	sp=subs:gn=m:rt=YQL:vc=YIQ.@LOWN:gl=<uncertain>
 "YR/"		sp=adjv:rt=YRR:vc=YAR:gl=narrow
 "YR=/"		sp=subs:gn=m:rt=YRR:vc=YAR:gl=adversary
 "YR==/"		sp=subs:gn=m:vc=YOR:gl=pebble
@@ -6796,7 +6794,7 @@
 "QB/"		sp=subs:gn=m:rt=QBB:vc=QAB:gl=kab:co=unit
 "QBB["		sp=verb:vc=Q@BAB:gl=curse
 "QBH/"		sp=subs:rt=QBH:vc=Q;B@H:gl=rennet-bag
-"QBH=/"		sp=subs:vc=QUB.@H:gl=women's room
+"QBH=/"		sp=subs:rt=QBB:vc=QUB.@H:gl=women's room
 "QBWY/"		sp=subs:fc=iu:vc=QIB.W.Y:gl=<uncertain>
 "QBWRH/"	sp=subs:vc=Q\:BW.R@H:gl=grave
 "QBL["		sp=verb:vc=Q@BAL:gl=take
@@ -6971,7 +6969,7 @@
 "QNZ/"		sp=nmpr:sm=pers,gens:vc=Q\:NAZ:gl=Kenaz
 "QNZJ/"		sp=adjv:ls=gntl:vc=Q\:NIZ.IJ:gl=Kenizzite
 "QNJN/"		sp=subs:gn=m:vc=QIN\:J@N:gl=property
-"QNMWN/"	sp=subs:gn=m:vc=QIN.@MOWN:gl=cinnamon
+"QNMWN/"	sp=subs:gn=m:rt=<uncertain>:vc=QIN.@MOWN:gl=cinnamon
 "QNN["		sp=verb:vc=Q@NAN:gl=make nest
 "QNY/"		sp=subs:fc=seg:vc=QENEY:gl=<uncertain>
 "QNT/"		sp=nmpr:sm=topo:vc=Q\:N@T:gl=Kenath
@@ -6983,7 +6981,7 @@
 "Q<Q</"		sp=subs:gn=m:vc=QA<\:AQA<:gl=tattoo
 "Q<RH/"		sp=subs:vc=Q\:<@R@H:gl=platter
 "QP>["		sp=verb:vc=Q@P@>:gl=condense
-"QP>WN/"	sp=subs:gn=m:vc=QIP.@>OWN:gl=frost
+"QP>WN/"	sp=subs:gn=m:rt=QP>:vc=QIP.@>OWN:gl=frost
 "QPD["		sp=verb:vc=Q@PAD:gl=roll up
 "QPD/"		sp=subs:gn=m:rt=QPD:vc=QIP.OD:gl=hedgehog
 "QPDH/"		sp=subs:vc=Q\:P@D@H:gl=anguish
@@ -7000,12 +6998,12 @@
 "QYWR/"		sp=adjv:rt=QYR:vc=Q@YW.R:gl=shorter
 "QYWT/"		sp=subs:vc=Q\:YOWT:gl=end
 "QYX/"		sp=subs:fc=seg:gn=m:vc=QEYAX:gl=black cumin
-"QYJN/"		sp=subs:fc=ai:gn=m:vc=Q@YIJN:gl=chief
+"QYJN/"		sp=subs:gn=m:rt=QYN:vc=Q@YIJN:gl=chief
 "QYJ<H/"	sp=subs:vc=Q\:YIJ<@H:gl=cassia
 "QYJ<H=/"	sp=nmpr:sm=pers:gn=f:vc=Q\:YIJ<@H:gl=Keziah
 "QYJY/"		sp=nmpr:sm=topo:vc=Q\:YIJY:gl=Emek Keziz
-"QYJR/"		sp=subs:fc=ai:gn=m:vc=Q@YIJR:gl=harvest
-"QYJR=/"	sp=subs:fc=ai:gn=m:vc=Q@YIJR:gl=bough
+"QYJR/"		sp=subs:gn=m:rt=QYR:vc=Q@YIJR:gl=harvest
+"QYJR=/"	sp=subs:gn=m:rt=QYR:vc=Q@YIJR:gl=bough
 "QY<["		sp=verb:vc=Q@YA<:gl=cut off
 "QY<=["		sp=verb:vc=Q@YA<:gl=scrape off
 "QYP["		sp=verb:vc=Q@YAP:gl=be angry
@@ -7136,7 +7134,7 @@
 "RBH=["		sp=verb:vc=R@B@H:gl=shoot
 "RBW>/"		sp=subs:ls=card:vc=RIB.OW>:gl=ten thousand
 "RBJBJM/"	sp=subs:vc=R\:BIJBIJM:gl=rain
-"RBJD/"		sp=subs:fc=ai:gn=m:vc=R@BIJD:gl=necklace
+"RBJD/"		sp=subs:gn=m:rt=RBD:vc=R@BIJD:gl=necklace
 "RBJ<J/"	sp=adjv:ls=ordn:rt=RB<:vc=R\:BIJ<IJ:gl=fourth
 "RBJT/"		sp=nmpr:sm=topo:rt=RBB:vc=RAB.IJT:gl=Rabbith
 "RBK["		sp=verb:gl=mix
@@ -7184,9 +7182,9 @@
 "RHB==/"	sp=nmpr:sm=topo:vc=RAHAB:gl=<Egypt>
 "RHGH/"		sp=nmpr:sm=pers:gn=m:vc=R@H\:G.@H:gl=Rohgah
 "RHV/"		sp=subs:vc=RAHAV:gl=trough
-"RHJV/"		sp=subs:fc=ai:gn=m:vc=R@HIJV:gl=rafter
+"RHJV/"		sp=subs:gn=m:rt=RHV:vc=R@HIJV:gl=rafter
 "RWD["		sp=verb:vc=RW.D:gl=roam
-"RWDNJM/"	sp=nmpr:sm=gens:vc=ROWD@NIJM:gl=Rodanim
+"RWDNJ/"	sp=adjv:ls=gntl:rt=<none>:vc=ROWD@NIJ:gl=Rhodian
 "RWH["		sp=verb:vc=R@W@H:gl=drink
 "RWH/"		sp=adjv:rt=RWH:vc=R@WEH:gl=watered
 "RWX["		sp=verb:fc=2wj,3g:vc=R@WAX:gl=be spacious
@@ -7281,7 +7279,7 @@
 "RKH/"		sp=nmpr:sm=topo:vc=R;K@H:gl=Recah
 "RKWB/"		sp=subs:gn=m:vc=R\:KW.B:gl=chariot
 "RKWC/"		sp=subs:gn=m:vc=R\:KW.C:gl=property
-"RKJL/"		sp=subs:fc=ai:gn=m:vc=R@KIJL:gl=slanderer
+"RKJL/"		sp=subs:gn=m:rt=RKL:vc=R@KIJL:gl=slanderer
 "RKK["		sp=verb:vc=R@KAK\::gl=be tender
 "RKL["		sp=verb:gl=trade
 "RKL/"		sp=nmpr:sm=topo:vc=R@K@L:gl=Racal
@@ -7328,8 +7326,8 @@
 "RNNH/"		sp=subs:rt=RNN:vc=R\:N@N@H:gl=cry of joy
 "RNNJM/"	sp=subs:rt=RNN:vc=R\:N@NIJM:gl=she-ostriches
 "RSH/"		sp=nmpr:sm=topo:vc=RIS.@H:gl=Rissah
-"RSJS/"		sp=subs:fc=ai:vc=R@SIJS:gl=drop
-"RSJS=/"	sp=subs:fc=ai:vc=R@SIJS:gl=fragment
+"RSJS/"		sp=subs:rt=RSS:vc=R@SIJS:gl=drop
+"RSJS=/"	sp=subs:rt=RSS:vc=R@SIJS:gl=fragment
 "RSN/"		sp=subs:fc=seg:gn=m:vc=RESEN:gl=bridle
 "RSN=/"		sp=nmpr:sm=topo:vc=RESEN:gl=Resen
 "RSS["		sp=verb:vc=R@SAS:gl=sprinkle
@@ -7396,7 +7394,7 @@
 "RPJDH/"	sp=subs:vc=R\:PIJD@H:gl=saddle-cloth
 "RPJDJM/"	sp=nmpr:sm=topo:vc=R\:PIJDIJM:gl=Rephidim
 "RPJH/"		sp=nmpr:sm=pers:gn=m:vc=R\:P@J@H:gl=Rephaiah
-"RPJWN/"	sp=subs:gn=m:vc=RIP.@JOWN:gl=despair
+"RPJWN/"	sp=subs:gn=m:rt=RPH:vc=RIP.@JOWN:gl=despair
 "RPS["		sp=verb:vc=R@PAS:gl=<uncertain>:
 "RPSDWT/"	sp=subs:vc=RAP\:SODOWT:gl=rafts
 "RPP["		sp=verb:vc=R@PAP:gl=shake
@@ -7427,7 +7425,7 @@
 "RQ=/"		sp=adjv:rt=RQQ:vc=RAQ:gl=thin
 "RQB["		sp=verb:vc=R@Q;B:gl=rot
 "RQB/"		sp=subs:gn=m:vc=R@Q@B:gl=rottenness
-"RQBWN/"	sp=subs:gn=m:vc=RIQ.@BOWN:gl=rottenness
+"RQBWN/"	sp=subs:gn=m:rt=RQB:vc=RIQ.@BOWN:gl=rottenness
 "RQD["		sp=verb:gl=skip
 "RQH/"		sp=subs:vc=RAQ.@H:gl=temple
 "RQWN/"		sp=nmpr:sm=topo:vc=RAQ.OWN:gl=Rakkon
@@ -7437,7 +7435,7 @@
 "RQX==/"	sp=subs:vc=RAQ.@X:gl=ointment mixer
 "RQX===/"	sp=subs:fc=seg:gn=m:vc=REQAX:gl=spice
 "RQJ</"		sp=subs:fc=ai:gn=m:vc=R@QIJ<A:gl=firmament
-"RQJQ/"		sp=subs:fc=ai:gn=m:vc=R@QIJQ:gl=wafer
+"RQJQ/"		sp=subs:gn=m:rt=RQQ:vc=R@QIJQ:gl=wafer
 "RQM["		sp=verb:vc=R@QAM:gl=weave
 "RQM/"		sp=nmpr:sm=pers:gn=m:vc=REQEM:gl=Rekem
 "RQM=/"		sp=nmpr:sm=topo:vc=REQEM:gl=Rekem
@@ -7508,7 +7506,7 @@
 "FXW/"		sp=subs:fc=ptcp:gn=m:vc=F@XW.:gl=swimming
 "FXWQ/"		sp=subs:fc=inf:gn=m:vc=F\:XOWQ:gl=laughter
 "FXV["		sp=verb:gl=squeeze out
-"FXJP/"		sp=subs:fc=ai:gn=m:vc=F@XIJP:gl=<uncertain>
+"FXJP/"		sp=subs:gn=m:rt=FXP:vc=F@XIJP:gl=<uncertain>
 "FXQ["		sp=verb:fc=2g:vc=F@XAQ:gl=laugh
 "FV/"		sp=subs:rt=FWV:vc=F;V:gl=<uncertain>
 "FVH["		sp=verb:vc=F@V@H:gl=turn aside
@@ -7532,7 +7530,7 @@
 "FJM["		sp=verb:vc=FIJM:gl=put
 "FK/"		sp=subs:vc=F;K\::gl=thorn
 "FK=/"		sp=subs:gn=m:vc=FOK\::gl=<uncertain>
-"FKH/"		sp=subs:vc=FUK.@H:gl=harpoon
+"FKH/"		sp=subs:rt=FKK:vc=FUK.@H:gl=harpoon
 "FKW/"		sp=nmpr:sm=topo:vc=FEKW.:gl=Secu
 "FKWJ/"		sp=subs:gn=m:vc=FEK\:WIJ:gl=cock
 "FKJH/"		sp=subs:vc=F\:KIJ.@H:gl=ship
@@ -7567,9 +7565,9 @@
 "FN>H/"		sp=subs:vc=FIN\:>@H:gl=hatred
 "FNJ>/"		sp=adjv:rt=FN>:vc=F@NIJ>:gl=disdained
 "FNJR/"		sp=nmpr:sm=topo:vc=F\:NIJR:gl=Senir
-"F<JR/"		sp=subs:fc=ai:gn=m:vc=F@<IJR:gl=he-goat
-"F<JR=/"	sp=subs:fc=ai:gn=m:vc=F@<IJR:gl=demon
-"F<JR==/"	sp=subs:fc=ai:vc=F@<IJR:gl=shower of rain
+"F<JR/"		sp=subs:gn=m:rt=F<R:vc=F@<IJR:gl=he-goat
+"F<JR=/"	sp=subs:gn=m:rt=F<R:vc=F@<IJR:gl=demon
+"F<JR==/"	sp=subs:rt=F<R:vc=F@<IJR:gl=shower of rain
 "F<JR===/"	sp=adjv:rt=F<R:vc=F@<IJR:gl=hairy
 "F<JR====/"	sp=nmpr:sm=topo:vc=F;<IJR:gl=Seir
 "F<JRH/"	sp=subs:vc=F\:<IJR@H:gl=goat
@@ -7614,9 +7612,9 @@
 "FRV/"		sp=subs:gn=m:rt=FRV:vc=FEREV:gl=tattoo
 "FRVT/"		sp=subs:rt=FRV:vc=F@REVET:gl=tattoo
 "FRJ/"		sp=nmpr:sm=pers:gn=f:rt=FRR:vc=F@RAJ:gl=Sarai
-"FRJG/"		sp=subs:fc=ai:vc=F@RIJG:gl=tendril
-"FRJD/"		sp=subs:fc=ai:gn=m:vc=F@RIJD:gl=survivor
-"FRJD=/"	sp=nmpr:sm=topo:vc=F@RIJD:gl=Sarid
+"FRJG/"		sp=subs:rt=FRG:vc=F@RIJG:gl=tendril
+"FRJD/"		sp=subs:gn=m:rt=FRD:vc=F@RIJD:gl=survivor
+"FRJD=/"	sp=nmpr:sm=topo:rt=FRD:vc=F@RIJD:gl=Sarid
 "FRJH/"		sp=nmpr:sm=pers:gn=m:vc=F\:R@J@H:gl=Seraiah
 "FRJHW/"	sp=nmpr:sm=pers:gn=m:vc=F\:R@J@HW.:gl=Seraiah
 "FRJN/"		sp=nmpr:sm=topo:vc=FIR\:JON:gl=Sirion
@@ -7684,11 +7682,11 @@
 "CBJ/"		sp=subs:gn=m:vc=C\:BIJ:gl=captive
 "CBJ=/"		sp=nmpr:sm=pers:gn=m:vc=COBIJ:gl=Shobi
 "CBJ==/"	sp=nmpr:sm=pers:gn=m:vc=COB@J:gl=Shobai
-"CBJB/"		sp=subs:fc=ai:gn=m:vc=C@BIJB:gl=spark
+"CBJB/"		sp=subs:gn=m:rt=CBB:vc=C@BIJB:gl=spark
 "CBJH/"		sp=subs:vc=C\:BIJ.@H:gl=captive
 "CBJH=/"	sp=subs:vc=CIB\:J@H:gl=captives
 "CBJL/"		sp=subs:gn=m:vc=C\:BIJL:gl=path
-"CBJS/"		sp=subs:fc=ai:vc=C@BIJS:gl=headband
+"CBJS/"		sp=subs:rt=CBS:vc=C@BIJS:gl=headband
 "CBJ<J/"	sp=adjv:ls=ordn:rt=CB<:vc=C\:BIJ<IJ:gl=seventh
 "CBJT/"		sp=subs:gn=f:rt=CBH:vc=C\:BIJT:gl=captivity
 "CBL/"		sp=subs:fc=seg:gn=m:vc=COBEL:gl=train
@@ -7713,7 +7711,7 @@
 "CBR=/"		sp=subs:gn=m:rt=CBR:vc=CEBER:gl=corn
 "CBR==/"	sp=subs:fc=seg:gn=m:vc=C;BER:gl=interpretation
 "CBR===/"	sp=nmpr:fc=seg:sm=pers:gn=m:vc=CEBER:gl=Sheber
-"CBRWN/"	sp=subs:gn=m:vc=CIB.@ROWN:gl=breakdown
+"CBRWN/"	sp=subs:gn=m:rt=CBR:vc=CIB.@ROWN:gl=breakdown
 "CBRJM/"	sp=nmpr:sm=topo:vc=C\:B@RIJM:gl=Shebarim
 "CBT["		sp=verb:vc=C@BAT:gl=cease
 "CBT/"		sp=subs:rt=CBT:vc=CAB.@T:gl=sabbath
@@ -7726,10 +7724,10 @@
 "CGH/"		sp=nmpr:sm=pers:gn=m:vc=C@G;H:gl=Shagee
 "CGX["		sp=verb:fc=3g:gl=gaze
 "CGJ>H/"	sp=subs:vc=C\:GIJ>@H:gl=sin
-"CGJWN/"	sp=subs:gn=f:vc=CIG.@JOWN:gl=dirge
+"CGJWN/"	sp=subs:gn=f:rt=CGH:vc=CIG.@JOWN:gl=dirge
 "CGL/"		sp=subs:gn=f:vc=C;GAL:gl=queen
 "CG<["		sp=verb:vc=C@GA<:gl=be mad
-"CG<WN/"	sp=subs:gn=m:vc=CIG.@<OWN:gl=madness
+"CG<WN/"	sp=subs:gn=m:rt=CG<:vc=CIG.@<OWN:gl=madness
 "CGR/"		sp=subs:fc=seg:gn=f:vc=CEGER:gl=litter
 "CD/"		sp=subs:gn=m:rt=CDD:vc=COD:gl=violence
 "CD=/"		sp=subs:gn=m:rt=CDH:vc=CAD:gl=breast
@@ -7743,7 +7741,7 @@
 "CDMH/"		sp=subs:vc=C\:D;M@H:gl=terrace
 "CDP["		sp=verb:gl=scorch
 "CDPH/"		sp=subs:vc=C\:D;P@H:gl=scorching
-"CDPWN/"	sp=subs:gn=m:vc=CID.@POWN:gl=scorching
+"CDPWN/"	sp=subs:gn=m:rt=CDP:vc=CID.@POWN:gl=scorching
 "CDRK/"		sp=nmpr:sm=pers:gn=m:vc=CAD\:RAK\::gl=Shadrach
 "CHM/"		sp=subs:gn=m:vc=COHAM:gl=carnelian
 "CHM=/"		sp=nmpr:sm=pers:gn=m:vc=COHAM:gl=Shoham
@@ -7831,7 +7829,7 @@
 "CXVH/"		sp=subs:vc=CAX\:AV@H:gl=oppression
 "CXJVH/"	sp=subs:vc=C\:XIJV@H:gl=slaying
 "CXJN/"		sp=subs:gn=m:vc=C\:XIJN:gl=boil
-"CXJS/"		sp=subs:fc=ai:gn=m:vc=C@XIJS:gl=<uncertain>
+"CXJS/"		sp=subs:gn=m:rt=CXS:vc=C@XIJS:gl=<uncertain>
 "CXJT/"		sp=subs:gn=f:rt=CXH:vc=C\:XIJT:gl=pit
 "CXL/"		sp=subs:gn=m:vc=CAXAL:gl=young lion
 "CXLT/"		sp=subs:fc=seg:vc=C\:X;LET:gl=incense
@@ -7904,14 +7902,14 @@
 "CKR["		sp=verb:vc=C@KAR:gl=be drunk
 "CKR/"		sp=adjv:fc=ptcp:vc=C@KUR:gl=drunk
 "CKR=/"		sp=subs:gn=m:vc=C;K@R:gl=strong drink
-"CKRWN/"	sp=subs:gn=m:vc=CIK.@ROWN:gl=drunkenness
+"CKRWN/"	sp=subs:gn=m:rt=CKR:vc=CIK.@ROWN:gl=drunkenness
 "CKRWN=/"	sp=nmpr:sm=topo:vc=CIK.\:ROWN:gl=Shikkeron
 "CL/"		sp=subs:vc=CAL:gl=<uncertain>
 "CL>NN/"	sp=subs:vc=CAL\:>\:ANAN:gl=<uncertain>
 "CLB["		sp=verb:vc=C@LAB:gl=bind
 "CLB/"		sp=subs:rt=CLB:vc=C@L@B:gl=cross-bar
 "CLG["		sp=verb:vc=C@LAG:gl=snow
-"CLG/"		sp=subs:rt=CLG:gn=m:vc=CELEG:gl=snow
+"CLG/"		sp=subs:gn=m:rt=CLG:vc=CELEG:gl=snow
 "CLG=/"		sp=subs:fc=seg:gn=m:vc=CELEG:gl=soap
 "CLH["		sp=verb:vc=C@L@H:gl=be easy
 "CLH/"		sp=nmpr:sm=topo:vc=CILOH:gl=Shiloh
@@ -7945,8 +7943,8 @@
 "CLJW/"		sp=adjv:vc=C@L;JW:gl=quiet
 "CLJV/"		sp=adjv:rt=CLV:vc=CAL.IJV:gl=tyrant
 "CLJC/"		sp=subs:gn=m:rt=CLC:vc=C@LIJC:gl=third part
-"CLJC=/"	sp=subs:fc=ai:gn=m:vc=C@LIJC:gl=adjutant
-"CLJC==/"	sp=subs:fc=ai:vc=C@LIJC:gl=triangle
+"CLJC=/"	sp=subs:gn=m:rt=CLC:vc=C@LIJC:gl=adjutant
+"CLJC==/"	sp=subs:rt=CLC:vc=C@LIJC:gl=triangle
 "CLJCJ/"	sp=adjv:ls=ordn:rt=CLC:vc=C\:LIJCIJ:gl=third
 "CLJCJT/"	sp=subs:gn=f:rt=CLC:vc=C\:LIJCIJT:gl=third part
 "CLK["		sp=verb:vc=C@LAK\::gl=throw
@@ -8009,16 +8007,16 @@
 "CMJD<J/"	sp=adjv:ls=gntl:vc=C\:MIJD@<IJ:gl=Shemidaite
 "CMJM/"		sp=subs:rt=CMH:vc=C@MAJIM:gl=heavens
 "CMJNJ/"	sp=adjv:ls=ordn:rt=CMN:vc=C\:MIJNIJ:gl=eighth
-"CMJR/"		sp=subs:fc=ai:gn=m:vc=C@MIJR:gl=thorn-bush
-"CMJR=/"	sp=subs:fc=ai:gn=m:vc=C@MIJR:gl=diamond
-"CMJR==/"	sp=nmpr:fc=ai:sm=topo:vc=C@MIJR:gl=Shamir
-"CMJR===/"	sp=nmpr:fc=ai:sm=pers:gn=m:vc=C@MIJR:gl=Shamir
+"CMJR/"		sp=subs:gn=m:rt=CMR:vc=C@MIJR:gl=thorn-bush
+"CMJR=/"	sp=subs:gn=m:rt=CMR:vc=C@MIJR:gl=diamond
+"CMJR==/"	sp=nmpr:sm=topo:rt=CMR:vc=C@MIJR:gl=Shamir
+"CMJR===/"	sp=nmpr:sm=pers:gn=m:rt=CMR:vc=C@MIJR:gl=Shamir
 "CMJRMWT/"	sp=nmpr:sm=pers:gn=m:vc=C\:MIJR@MOWT:gl=Shemiramoth
 "CMM["		sp=verb:vc=C@M;M:gl=be desolate
 "CMM/"		sp=adjv:rt=CMM:vc=C@M;M:gl=desolate
 "CMMH/"		sp=subs:vc=C\:M@M@H:gl=desolation
 "CMMH=/"	sp=subs:vc=CIM\:AM@H:gl=<uncertain>
-"CMMWN/"	sp=subs:gn=m:vc=CIM.@MOWN:gl=horror
+"CMMWN/"	sp=subs:gn=m:rt=CMM:vc=CIM.@MOWN:gl=horror
 "CMN["		sp=verb:vc=C@M;N:gl=be fat
 "CMN/"		sp=subs:fc=seg:gn=m:vc=CEMEN:gl=oil
 "CMN=/"		sp=adjv:rt=CMN:vc=C@M;N:gl=fat
@@ -8130,7 +8128,7 @@
 "CPJ=/"		sp=nmpr:sm=pers:gn=m:vc=C\:PIJ:gl=Shephi
 "CPJM/"		sp=nmpr:sm=pers:gn=m:vc=CUP.IJM:gl=Shuppim
 "CPJPN/"	sp=subs:gn=m:vc=C\:PIJPON:gl=snake
-"CPJR/"		sp=nmpr:sm=topo:vc=C@PIJR:gl=Shaphir
+"CPJR/"		sp=nmpr:sm=topo:rt=CPR:vc=C@PIJR:gl=Shaphir
 "CPK["		sp=verb:vc=C@PAK\::gl=pour
 "CPK/"		sp=subs:gn=m:rt=CPK:vc=CEPEK\::gl=rubbish-heap
 "CPKH/"		sp=subs:rt=CPK:vc=C@P\:K@H:gl=penis
@@ -8194,7 +8192,7 @@
 "CRJ/"		sp=nmpr:sm=pers:gn=m:vc=C@RAJ:gl=Sharai
 "CRJH/"		sp=subs:vc=CIR\:J@H:gl=arrow-head
 "CRJWN/"	sp=subs:gn=m:vc=CIR\:JOWN:gl=scaly mail
-"CRJR/"		sp=subs:fc=ai:vc=C@RIJR:gl=sinew
+"CRJR/"		sp=subs:rt=CRR:vc=C@RIJR:gl=sinew
 "CRY["		sp=verb:vc=C@RAY:gl=swarm
 "CRY/"		sp=subs:fc=seg:gn=m:vc=CEREY:gl=swarming creatures
 "CRQ["		sp=verb:vc=C@RAQ:gl=whistle
@@ -8229,7 +8227,7 @@
 "CTJ/"		sp=subs:fc=seg:gn=m:vc=C\:TIJ:gl=texture
 "CTJ=/"		sp=subs:fc=seg:gn=m:vc=C\:TIJ:gl=drinking
 "CTJH/"		sp=subs:vc=C\:TIJ.@H:gl=drinking
-"CTJL/"		sp=subs:fc=ai:vc=C@TIJL:gl=layer
+"CTJL/"		sp=subs:rt=CTL:vc=C@TIJL:gl=layer
 "CTL["		sp=verb:vc=C@TAL:gl=transplant
 "CTLXJ/"	sp=adjv:ls=gntl:vc=CUTAL\:XIJ:gl=Shuthelahite
 "CTM/"		sp=subs:gn=m:vc=C\:TUM:gl=<uncertain>
@@ -8392,16 +8390,16 @@
 "TLTL/"		sp=subs:gn=f:vc=T.AL\:T.@L:gl=date-panicle
 "TM/"		sp=adjv:rt=TMM:vc=T.@M:gl=complete
 "TM=/"		sp=subs:gn=m:rt=TMM:vc=T.OM:gl=completeness
-"TMH["		sp=verb:vc=T.@MAH.:gl=be astounded
-"TMH/"		sp=subs:vc=T.UM.@H:gl=integrity
-"TMHWN/"	sp=subs:gn=m:vc=T.IM.@HOWN:gl=bewilderment
+"TMH["		sp=verb:rt=TMH:vc=T.@MAH.:gl=be astounded
+"TMH/"		sp=subs:rt=TMM:vc=T.UM.@H:gl=integrity
+"TMHWN/"	sp=subs:gn=m:rt=TMH:vc=T.IM.@HOWN:gl=bewilderment
 "TMWZ/"		sp=nmpr:sm=pers:gn=m:vc=T.AM.W.Z:gl=Tammuz
 "TMWL/"		sp=subs:ls=padv:gn=m:vc=T.\:MOWL:gl=yesterday
 "TMWNH/"	sp=subs:vc=T.\:MW.N@H:gl=form
 "TMWRH/"	sp=subs:vc=T.\:MW.R@H:gl=exchange
 "TMWTH/"	sp=subs:vc=T.\:MW.T@H:gl=death
 "TMX/"		sp=nmpr:sm=pers:gn=m:vc=T.@MAX:gl=Temah
-"TMJD/"		sp=subs:fc=ai:ls=padv:gn=m:vc=T.@MIJD:gl=continuity
+"TMJD/"		sp=subs:ls=padv:gn=m:rt=MWD:vc=T.@MIJD:gl=continuity
 "TMJM/"		sp=adjv:rt=TMM:vc=T.@MIJM:gl=complete
 "TMJM=/"	sp=subs:vc=T.UM.IJM:gl=tummim
 "TMK["		sp=verb:vc=T.@MAK\::gl=grasp

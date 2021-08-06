@@ -799,8 +799,8 @@ IISA 18,17  L-       L:-               1.000  L:-               L-
 IISA 18,17  >HLW     >OH@L@75JW00      1.000  >OH@L@75W00       >HLW
 IISA 18,18  B-       B:-               1.000  B:-               B-
 IISA 18,18  XJW      XAJ.@JW03         1.000  XAJ.@W03          XJW
-IISA 18,20  <L       <AL&              1.000  <AL;71            <L
-IISA 18,20  .        K.;71N            1.000  -                 *
+IISA 18,20  <L       <AL&              1.000  <AL               <L
+IISA 18,20  .        K.;71N            1.000  ;71               *
 IISA 19,07  L>       L74W.             1.000  LU74>             L>
 IISA 19,19  B-       B.:-              1.000  B.:-              B-
 IISA 19,19  <JNW     <;JN@92JW         1.000  <;JN@92W          <JNW
@@ -991,7 +991,7 @@ IISA 24,22  <JNW     <;JN@92JW         1.000  <;JN@92W          <JNW
  ICHR26,25  CLMWT    C:LOMI71JT       1.000  C:LOMI71WT       CLMWT
  ICHR27,12  L-       LA-              1.000  LA-              L-
  ICHR27,12  .-       -                1.000  -                -
- ICHR27,12  BN-      B.;74N05         1.000  B.;74N05         BN-
+ ICHR27,12  BN-      B.;74N05         1.000  B.;74N05-        BN-
  ICHR27,12  JMJNJ    J:MIJNI92J       1.000  J:MIJNI92J       JMJNJ
  ICHR27,29  CVRJ     CIR:VA73J        1.000  CIV:RA73J        CVRJ
  ICHR29,16  HJ>      H73W.>           1.000  H73J.>           HJ>
@@ -1353,7 +1353,7 @@ ISAM 30,06  BNW      B.@N@74JW          1.000  B.@N@74W          BNW
  JES 42,24  L-        LI-                  1.000  LI-                 L-
  JES 42,24  MCWSH     M:CIJS.@94H          1.000  M:CIWS.@94H         MCWSH
  JES 44,17  JSGWD     JIS:G.@D&            0.512  JIS:G.@WD&          JSGWD&
- JES 44,24  MJ        M;-                  0.908  M;J-                MJ
+ JES 44,24  MJ        M;-                  0.908  M;J                 MJ
  JES 44,24  >TJ       >IT.I75J00           1.000  >IT.I75J00          >TJ
  JES 45,02  >WCR      >:AJAC.;92R          1.000  >:AWAC.;92R         >WCR
  JES 46,11  <YTW      <:AY@TI92J           1.000  <:AY@TI92W          <YTW
