@@ -1,0 +1,1892 @@
+AMOS 08,04  <NWJ    <:ANIJ.;J&      1.000  <:ANIW.;J&     <NWJ&
+AMOS 08,08  W-      W:-             1.000  W:-            W-
+AMOS 08,08  NCQH    NIC:Q:<@73H     1.000  NIC:Q:H@73     NCQH
+AMOS 09,06  M<LWTW  MA<:ALOWT@80JW  1.000  MA<:ALOWT@80W  M<LWTW
+ DAN 01,04  M>WM      MW.M04              1.000  MU>WM04           M>WM
+ DAN 02,04  L-        L:-                 1.000  L:-               L-
+ DAN 02,04  <BDJK     <AB:D@73K:          0.558  <AB:D@73JK:       <BDJK
+ DAN 02,05  L-        L:-                 1.000  L:-               L-
+ DAN 02,05  KFDJ>     KAF:D.@>;80J        1.000  KAF:D.@J>;80      KFDJ>
+ DAN 02,09  HZMNTWN   HIZ:D.:MIN:T.W.N03  1.000  HIZ::MIN:T.W.N03  HZMNTWN
+ DAN 02,10  KFDJ>     KAF:D.@>;70J        1.000  KAF:D.@J>;70      KFDJ>
+ DAN 02,22  W-        W.-                 1.000  W.-               W-
+ DAN 02,22  NHJR>     N:HOWR@73>          1.000  N:HOJR@73>        NHJR>
+ DAN 02,26  H-        HA45-               1.000  HA45-             H-
+ DAN 02,26  >JTJK     >IJT@74K:           0.558  >IJT@74JK:        >JTJK
+ DAN 02,29  >NTH      >A74N:T.:           0.603  >A74N:T.:H        >NTH
+ DAN 02,31  >NTH      >A74N:T.:           0.603  >A74N:T.:H        >NTH
+ DAN 02,33  MNHWN     MIN.:H;JN03         1.000  MIN.:H;WN03       MNHWN
+ DAN 02,33  W-        W.-                 1.000  W.-               W-
+ DAN 02,33  MNHWN     MIN.:H;73JN         1.000  MIN.:H;73WN       MNHWN
+ DAN 02,37  >NTH      >A74N:T.:           0.603  >A74N:T.:H        >NTH
+ DAN 02,38  D>RJN     D@45J:RI74JN        1.000  D@45>:RI74JN      D>RJN
+ DAN 02,38  >NTH      >AN:T.:&            0.649  >AN:T.:H&         >NTH&
+ DAN 02,39  TLJTJ>    T:LIJT@>@70H        1.000  T:LIJT@J>@70      TLJTJ>
+ DAN 02,40  RBJ<JH    R:BI74J<@>@80H      1.000  R:BI74J<@J@80H    RBJ<JH
+ DAN 02,41  MNHWN     MIN.:H;62JN         1.000  MIN.:H;62WN       MNHWN
+ DAN 02,41  W-        W.-                 1.000  W.-               W-
+ DAN 02,41  MNHWN     MIN.:H;74JN         1.000  MIN.:H;74WN       MNHWN
+ DAN 02,42  MNHWN     MIN.:H;71JN         1.000  MIN.:H;71WN       MNHWN
+ DAN 02,42  W-        W.-                 1.000  W.-               W-
+ DAN 02,42  MNHWN     MIN.:H;74JN         1.000  MIN.:H;74WN       MNHWN
+ DAN 02,43  .-        W:-                 1.000  :-                -
+ DAN 02,43  DJ        DI74J               1.000  DI74J             DJ
+ DAN 03,03  W-        W:-                 1.000  W:-               W-
+ DAN 03,03  Q>MJN     Q@45J:MIJN03        1.000  Q@45>:MIJN03      Q>MJN
+ DAN 03,05  QJTRWS    QAT:RO63WS          0.515  QAJT:RO63WS       QJTRWS
+ DAN 03,07  QJTRS     QAT:RO70WS          1.000  QAJT:RO70S        QJTRS
+ DAN 03,10  >NTH      >A74N:T.:           0.603  >A74N:T.:H        >NTH
+ DAN 03,10  QJTRS     QAT:RO63WS          1.000  QAJT:RO63S        QJTRS
+ DAN 03,10  W-        W:-                 1.000  W:-               W-
+ DAN 03,10  SJPNJH    SW.P.O74N:J@80H     1.000  SJ.P.O74N:J@80H   SJPNJH
+ DAN 03,12  <LJK      <:AL@70K:           0.558  <:AL@70JK:        <LJK
+ DAN 03,12  L-        L;45-               1.000  L;45-             L-
+ DAN 03,12  >LHJK     >L@H@K:03           0.515  >L@H@JK:03        >LHJK
+ DAN 03,15  QJTRS     QAT:RO74WS          1.000  QAJT:RO74S        QJTRS
+ DAN 03,18  >JTJN>    >IJTA74N@>          0.558  >IJTA74JN@>       >JTJN>
+ DAN 03,19  >CTNW     >EC:T.AN.I80J       1.000  >EC:T.AN.I80W     >CTNW
+ DAN 03,21  PVJCJHWN  P.AV.:C;JHO80WN     0.512  P.AV.:JC;JHO80WN  PVJCJHWN
+ DAN 03,25  RBJ<J>    R:45BIJ<@>@80H      1.000  R:45BIJ<@J>@80    RBJ<J>
+ DAN 03,26  <LJ>      <IL.@>@73H          1.000  <IL.@J>@73        <LJ>
+ DAN 03,28  GCMJHWN   GEC:M:HO81WN        0.515  GEC:M:JHO81WN     GCMJHWN
+ DAN 03,29  CLH       C@LW.03             1.000  C@LUH03           CLH
+ DAN 03,31  D>RJN     D@J:RI71JN          1.000  D@>:RI71JN        D>RJN
+ DAN 03,32  <LJ>      <IL.@>@92H          1.000  <IL.@J>@92        <LJ>
+ DAN 04,04  <LLJN     <@L.I81JN           0.532  <@L.I81LJN        <LLJN
+ DAN 04,04  KFDJ>     K.AF:D.@>;73J       1.000  K.AF:D.@J>;73     KFDJ>
+ DAN 04,09  JDRWN     J:DW.R@N03          1.000  J:DUR@WN03        JDRWN
+ DAN 04,13  >NWC>     >:AN@C@74>          0.515  >:AN@WC@74>       >NWC>
+ DAN 04,14  <LJ>      <IL.@>@61H          1.000  <IL.@J>@61        <LJ>
+ DAN 04,14  >NWC>     >:AN@C@81>          0.515  >:AN@WC@81>       >NWC>
+ DAN 04,14  <LJH      <:ALA75H.00         0.558  <:ALA75JH.00      <LJH
+ DAN 04,15  W-        W:-                 1.000  W:-               W-
+ DAN 04,15  >NTH      >A63N:T.:           0.603  >A63N:T.:H        >NTH
+ DAN 04,15  W-        W:-                 1.000  W:-               W-
+ DAN 04,15  >NTH      >A74N:T.:           0.603  >A74N:T.:H        >NTH
+ DAN 04,16  MR>J      M@RI85J             0.558  M@RI85>J          MR>J
+ DAN 04,16  L-        L:-                 1.000  L:-               L-
+ DAN 04,16  FN>JK     F@45N:>@73K:        0.558  F@45N:>@73JK:     FN>JK
+ DAN 04,16  L-        L:-                 1.000  L:-               L-
+ DAN 04,16  <RJK      <@R@75K:00          0.558  <@R@75JK:00       <RJK
+ DAN 04,19  >NTH      >AN:T.:&            0.649  >AN:T.:H&         >NTH&
+ DAN 04,21  <LJ>      <IL.@>@H03          1.000  <IL.@J>@03        <LJ>
+ DAN 04,21  MR>J      M@RI71J             0.558  M@RI71>J          MR>J
+ DAN 04,22  <LJK      <:AL@92K:           0.558  <:AL@92JK:        <LJK
+ DAN 04,22  <LJ>      <IL.@>@H03          1.000  <IL.@J>@03        <LJ>
+ DAN 04,24  <LJK      <:AL@80K:           0.558  <:AL@80JK:        <LJK
+ DAN 04,24  W-        WA-                 1.000  WA-               W-
+ DAN 04,24  XVJK      X:AV@>@K:03         1.000  X:AV@J@K:03       XVJK
+ DAN 04,29  <LJK      <:AL@92K:           0.558  <:AL@92JK:        <LJK
+ DAN 04,29  <LJ>      <IL.@>@H03          1.000  <IL.@J>@03        <LJ>
+ DAN 04,31  W-        W.-                 1.000  W.-               W-
+ DAN 04,31  L-        L:-                 1.000  L:-               L-
+ DAN 04,31  <LJ>      <IL.@>@H03          1.000  <IL.@J>@03        <LJ>
+ DAN 04,32  D>RJ      D.@J:R;70J          1.000  D.@>:R;70J        D>RJ
+ DAN 04,32  W-        W:-                 1.000  W:-               W-
+ DAN 04,32  D>RJ      D@J:R;73J           1.000  D@>:R;73J         D>RJ
+ DAN 05,05  NPQW      N:PA33Q@H03         1.000  N:PA33Q@W03       NPQW
+ DAN 05,07  KFDJ>     K.AF:D.@>;73J       1.000  K.AF:D.@J>;73     KFDJ>
+ DAN 05,07  W-        W:-                 1.000  W:-               W-
+ DAN 05,07  HMWNK>    HA45M:NIJK@70H      1.000  HA45M:WNIK@70>    HMWNK>
+ DAN 05,08  <LLJN     <@95L.I80JN         0.532  <@95L.I80LJN      <LLJN
+ DAN 05,08  W-        W.-                 1.000  W.-               W-
+ DAN 05,08  PCR>      PIC:R;73H.          1.000  PIC:R;73>.        PCR>
+ DAN 05,10  <LLT      <AL.A92T            0.532  <AL.A92LT         <LLT
+ DAN 05,13  >NTH      >AN:T.:&            0.649  >AN:T.:H&         >NTH&
+ DAN 05,14  <LJK      <:AL@80K:           0.558  <:AL@80JK:        <LJK
+ DAN 05,16  <LJK      <:AL@80K:           0.558  <:AL@80JK:        <LJK
+ DAN 05,16  TWKL      TIK.71W.L           1.000  TIWK.U71L         TWKL
+ DAN 05,16  TWKL      T.IK.63W.L          1.000  T.IWK.U63L        TWKL
+ DAN 05,16  W-        W:-                 1.000  W:-               W-
+ DAN 05,16  HMWNK>    HA45M:NIJK@70H      1.000  HA45M:WNIK@70>    HMWNK>
+ DAN 05,18  >NTH      >A73N:T.:           0.603  >A73N:T.:H        >NTH
+ DAN 05,18  <LJ>      <IL.@>@80H          1.000  <IL.@J>@80        <LJ>
+ DAN 05,19  Z><JN     Z@J:<I71JN          1.000  Z@>:<I71JN        Z><JN
+ DAN 05,21  CWJ       CAW.I81J:W          1.000  CAW.I81J:         CWJ
+ DAN 05,21  <LJ>      <IL.@>@H03          1.000  <IL.@J>@03        <LJ>
+ DAN 05,21  <LJH      <:ALA75H.00         0.558  <:ALA75JH.00      <LJH
+ DAN 05,22  W-        W:-                 1.000  W:-               W-
+ DAN 05,22  >NTH      >A70N:T.:           0.603  >A70N:T.:H        >NTH
+ DAN 05,23  QDMJK     Q@45D@M@81K:        0.558  Q@45D@M@81JK:     QDMJK
+ DAN 05,23  W-        W:-                 1.000  W:-               W-
+ DAN 05,23  >NTH      >A63N:T.:           0.603  >A63N:T.:H        >NTH
+ DAN 05,23  W-        W:-                 1.000  W:-               W-
+ DAN 05,23  RBRBNJK   RAB:R:B@N@61K:      0.558  RAB:R:B@N@61JK:   RBRBNJK
+ DAN 05,29  W-        W:-                 1.000  W:-               W-
+ DAN 05,29  HMWNK>    HA45M:NIJK@71>      1.000  HA45M:WNIK@71>    HMWNK>
+ DAN 05,30  KFDJ>     KAF:D.@>@75H00      1.000  KAF:D.@J>@7500    KFDJ>
+ DAN 06,01  MDJ>      M@45D@>@80H         1.000  M@45D@J>@80       MDJ>
+ DAN 06,14  <LJK      <:AL@70K:           0.558  <:AL@70JK:        <LJK
+ DAN 06,17  >NTH      >A70N:T.:           0.603  >A70N:T.:H        >NTH
+ DAN 06,21  >NTH      >A70N:T.:           0.603  >A70N:T.:H        >NTH
+ DAN 06,23  QDMJK     Q@45D@M@K:03        0.515  Q@45D@M@JK:03     QDMJK
+ DAN 06,26  D>RJN     D@J:RI71JN          1.000  D@>:RI71JN        D>RJN
+ DAN 06,27  Z><JN     Z@J:<IJN03          1.000  Z@>:<IJN03        Z><JN
+ DAN 06,29  PRSJ>     P.@R:S@>@75H00      1.000  P.@R:S@J>@7500    PRSJ>
+ DAN 07,05  CNJH      CIN.A92H.           0.532  CIN.A92JH.        CNJH
+ DAN 07,06  GBJH      G.AB.A92H.          0.532  G.AB.A92JH.       GBJH
+ DAN 07,07  RBJ<JH    R:45BIJ<@>@83H      1.000  R:45BIJ<@J@83H    RBJ<JH
+ DAN 07,07  B-        B.:-                1.000  B.:-              B-
+ DAN 07,07  RGLJH     RAG:LA74H.          0.558  RAG:LA74JH.       RGLJH
+ DAN 07,08  BJNJHWN   B.;45JN;JH;80N      0.558  B.;45JN;JH;80WN   BJNJHWN
+ DAN 07,08  >T<QRW    >ET:<:AQA73R@H      1.000  >ET:<:AQA73R@W    >T<QRW
+ DAN 07,08  QDMJH     Q:@D@MA92H.         0.558  Q:@D@MA92JH.      QDMJH
+ DAN 07,10  >LPJM     >AL:PIJN03          1.000  >AL:PIJM03        >LPJM
+ DAN 07,10  RBWN      RIB:B@73N           1.000  RIB:W@73N         RBWN
+ DAN 07,19  KLHWN     K.@L.:H;92JN        1.000  K.@L.:H;92WN      KLHWN
+ DAN 07,19  CNJH      CIN.A70H.           0.532  CIN.A70JH.        CNJH
+ DAN 07,20  W-        W.-                 1.000  W.-               W-
+ DAN 07,20  NPLW      N:PA71L@H           1.000  N:PA71L@W         NPLW
+ DAN 07,20  QDMJH     Q:@D@MA73H.         0.558  Q:@D@MA73JH.      QDMJH
+ DAN 07,23  RBJ<J>    R:BIJ<@>@H03        1.000  R:BIJ<@J>@03      RBJ<J>
+ DAN 07,25  <LJ>      <IL.@>@H03          1.000  <IL.@J>@03        <LJ>
+ DAN 08,11  HRJM      HW.RA74M            1.000  HURA74JM          HRJM
+ DAN 09,05  WHRC<NW   HIR:CA74<:NW.       1.000  WHIR:CA74<:NW.    WHRC<NW
+ DAN 09,12  DBRJW     D.:B@RO74W05        0.558  D.:B@RO74JW05     DBRJW
+ DAN 09,18  PQXH      P.:QA74X            1.000  P.:QA74XH         PQXH
+ DAN 09,24  W-        W.-                 1.000  W.-               W-
+ DAN 09,24  L-        L:-                 1.000  L:-               L-
+ DAN 09,24  XTM       H@T;70M             1.000  X@T;70M           XTM
+ DAN 09,24  XV>WT     XAV.@>T03           1.000  XAV.@>WT03        XV>WT
+ DAN 11,10  W-        W.-                 1.000  W.-               W-
+ DAN 11,10  BNW       B@N@74JW            1.000  B@N@74W           BNW
+ DAN 11,10  W-        W:-                 1.000  W:-               W-
+ DAN 11,10  JTGRW     JIT:G.@RE73H        1.000  JIT:G.@RE73W      JTGRW
+ DAN 11,10  M<ZH      M@<UZ.O75W00        1.000  M@<UZ.O75H00      M<ZH
+ DAN 11,12  J-        W:-                 1.000  J:-               J-
+ DAN 11,12  RWM       R@74M               0.558  R@74WM            RWM
+ DAN 11,18  W-        W:-                 1.000  W:-               W-
+ DAN 11,18  JCB       J@F;94M05           1.000  J@C;94B05         JCB
+ DAN 11,39  HKJR      JAK.I73JR           1.000  HAK.I73JR         HKJR
+ DEUT02,33  BNW     B.@N@73JW        1.000  B.@N@73W         BNW
+ DEUT05,10  MYWTW   MIY:WOT@75J00    1.000  MIY:WOT@75W00    MYWTW
+ DEUT07,09  MYWTW   MIY:WOT@73JW     1.000  MIY:WOT@73W      MYWTW
+ DEUT08,02  MYWTW   MIY:WOT@73JW     1.000  MIY:WOT@73W      MYWTW
+ DEUT13,16  H-      HA-              1.000  HA-              H-
+ DEUT13,16  HW>     HI73J>           1.000  HI73W>           HW>
+ DEUT21,07  CPKH    C@45P:KW.03      1.000  C@45P:KUH03      CPKH
+ DEUT22,15  H-      HA45-            1.000  HA45-            H-
+ DEUT22,15  N<R     N.A<:AR@73H      1.000  N.A<:AR@73       N<R
+ DEUT22,15  H-      HA45-            1.000  HA45-            H-
+ DEUT22,15  N<R     N.A<:AR@91H      1.000  N.A<:AR@91       N<R
+ DEUT22,16  H-      HA45-            1.000  HA45-            H-
+ DEUT22,16  N<R     N.A<:AR@73H      1.000  N.A<:AR@73       N<R
+ DEUT22,20  L-      LA45-            1.000  LA45-            L-
+ DEUT22,20  .-      -                1.000  -                -
+ DEUT22,20  N<R     N.A<:AR@75H00    1.000  N.A<:AR@7500     N<R
+ DEUT22,21  H-      HA45-            1.000  HA45-            H-
+ DEUT22,21  N<R     N.A<:AR@61H      1.000  N.A<:AR@61       N<R
+ DEUT22,23  N<R     NA<:AR@74H       1.000  NA<:AR@74        N<R
+ DEUT22,24  H-      HA45-            1.000  HA45-            H-
+ DEUT22,24  N<R     N.A<:AR@81H      1.000  N.A<:AR@81       N<R
+ DEUT22,25  H-      HA45-            1.000  HA45-            H-
+ DEUT22,25  N<R     N.A<:AR@H03      1.000  N.A<:AR@03       N<R
+ DEUT22,26  W-      W:-              1.000  W:-              W-
+ DEUT22,26  L-      LA45-            1.000  LA45-            L-
+ DEUT22,26  .-      -                1.000  -                -
+ DEUT22,26  N<R     N.A<:AR@H03      1.000  N.A<:AR@03       N<R
+ DEUT22,26  L-      LA45-            1.000  LA45-            L-
+ DEUT22,26  .-      -                1.000  -                -
+ DEUT22,26  N<R     N.A<:AR@73H      1.000  N.A<:AR@73       N<R
+ DEUT22,27  H-      HA45-            1.000  HA45-            H-
+ DEUT22,27  N<R     N.A<:AR@H03      1.000  N.A<:AR@03       N<R
+ DEUT22,28  N<R     NA<:AR@70H       1.000  NA<:AR@70        N<R
+ DEUT22,29  H-      HA45-            1.000  HA45-            H-
+ DEUT22,29  N<R     N.A<:AR@73H      1.000  N.A<:AR@73       N<R
+ DEUT27,10  MYWTW   MIY:WOT@JW03     1.000  MIY:WOT@W03      MYWTW
+ DEUT28,27  W-      W.-              1.000  W.-              W-
+ DEUT28,27  B-      BA-              1.000  BA-              B-
+ DEUT28,27  .-      -                1.000  -                -
+ DEUT28,27  <PLJM   V.:XORI80JM      1.000  <:POLI80JM       <PLJM
+ DEUT28,30  JCGLNH  JIC:K.@BE80N.@H  1.000  JIC:G.@LE80N.@H  JCGLNH
+ DEUT29,22  W-      W.-              1.000  W.-              W-
+ DEUT29,22  YBJJM   Y:BOWJI80M       1.000  Y:BOJJI80M       YBJJM
+ DEUT32,13  BMWTJ   B.@74M:@T;J      0.515  B.@74M:@WT;J     BMWTJ
+ DEUT33,02  >C-     >;71C            1.000  >;71C-           >C-
+ DEUT33,02  DT      D.@73T           1.000  D.@73T           DT
+ DEUT33,09  BNW     B.@N@73JW        1.000  B.@N@73W         BNW
+ EST 01,16  MWMKN    M:MW.K@81N         1.000  M:WM.K@81N       MWMKN
+ EST 03,04  B-       K.:-               1.000  B.:-             B-
+ EST 03,04  >MRM     >@M:R@70M          1.000  >@M:R@70M        >MRM
+ EST 04,04  W-       14WA-              1.000  14WA-            W-
+ EST 04,04  TBW>JNH  T.@BOW>N@H         1.000  T.@BOW>JN@H      TBW>JNH
+ EST 04,07  B-       B.A-               1.000  B.A-             B-
+ EST 04,07  .-       -                  1.000  -                -
+ EST 04,07  JHWDJJM  J.:HW.DI73JM       1.000  J.:HW.DI73JJM    JHWDJJM
+ EST 08,01  H-       HA-                1.000  HA-              H-
+ EST 08,01  JHWDJJM  J.:HW.DI92JM       1.000  J.:HW.DI92JJM    JHWDJJM
+ EST 08,07  B-       B.A-               1.000  B.A-             B-
+ EST 08,07  .-       -                  1.000  -                -
+ EST 08,07  JHWDJJM  J.:HW.DI75JM00     1.000  J.:HW.DI75JJM00  JHWDJJM
+ EST 08,13  H-       HA-                1.000  HA-              H-
+ EST 08,13  JHWDJJM  J.:HW.DI70JM       1.000  J.:HW.DI70JJM    JHWDJJM
+ EST 08,13  <TWDJM   <:ATIJDIJM03       1.000  <:ATIWDIJM03     <TWDJM
+ EST 09,15  H-       HA-                1.000  HA-              H-
+ EST 09,15  JHWDJJM  J.:HW.DI74JM       1.000  J.:HW.DI74JJM    JHWDJJM
+ EST 09,18  W-       W:-                1.000  W:-              W-
+ EST 09,18  H-       HA-                1.000  HA-              H-
+ EST 09,18  JHWDJJM  J.:HW.DI74JM       1.000  J.:HW.DI74JJM    JHWDJJM
+ EST 09,19  H-       HA-                1.000  HA-              H-
+ EST 09,19  PRWZJM   P.:R@ZI81JM        0.515  P.:R@WZI81JM     PRWZJM
+ EST 09,27  W-       W:-                1.000  W:-              W-
+ EST 09,27  QBL      QIB.:L74W.         1.000  QIB.:LU74        QBL
+ EST 10,01  >XCRC    >:AXAC:W;RO94WC05  1.000  >:AXAC:;RO94C05  >XCRC
+ EXO 04,02  M-      MAH&            1.000  MA-            M-
+ EXO 04,02  ZH      Z.E74H          1.000  Z.E74H         ZH
+ EXO 16,02  W-      WA-             1.000  WA-            W-
+ EXO 16,02  JLJNW   J.IL.O61WNW.    1.000  J.IL.O61JNW.   JLJNW
+ EXO 16,07  TLWNW   TAL.I73JNW.     1.000  TAL.I73WNW.    TLWNW
+ EXO 21,08  L>      LO71W           1.000  LO71>          L>
+ EXO 22,04  B<JRH   B.:<IJRO80W     1.000  B.:<IJRO80H    B<JRH
+ EXO 22,26  KSWTH   K:SW.TOW03      1.000  K:SW.TOH03     KSWTH
+ EXO 27,11  W-      W:-             1.000  W:-            W-
+ EXO 27,11  <MDW    <AM.W.D@74JW    1.000  <AM.UD@74W     <MDW
+ EXO 28,28  M-      MI45-           1.000  MI45-          M-
+ EXO 28,28  VB<TW   V.AB.:<OT@62JW  1.000  V.AB.:<OT@62W  VB<TW
+ EXO 32,17  B-      B.:-            1.000  B.:-           B-
+ EXO 32,17  R<H     R;<O92W         1.000  R;<O92H        R<H
+ EXO 32,19  M-      MI-             1.000  MI-            M-
+ EXO 32,19  JDW     J.@D@JW03       1.000  J.@D@W03       JDW
+ EXO 35,11  BRJXW   B.:RIJX@85JW    1.000  B.:RIJX@85W    BRJXW
+ EXO 37,08  QYWWTW  Q:YOWT@75JW00   1.000  Q:YOWWT@75W00  QYWWTW
+ EXO 39,04  QYWWTW  Q:YOWT@73JW     1.000  Q:YWOWT@73W    QYWWTW
+ EXO 39,33  BRJXW   B.:RIJX@73JW    1.000  B.:RIJX@73W    BRJXW
+ EZE 01,08  W-       WI-                 1.000  WI-               W-
+ EZE 01,08  JDW      JD;74J              1.000  JD;74W            JDW
+ EZE 03,15  W-       W@45-               1.000  W@45-             W-
+ EZE 03,15  >CR      >;C;80B             1.000  >;C;80R           >CR
+ EZE 03,20  YDQTW    YID:QOT@JW03        1.000  YID:QOT@W03       YDQTW
+ EZE 04,06  H-       HA-                 1.000  HA-               H-
+ EZE 04,06  JMWNJ    J:M@NIJ03           0.515  J:M@WNIJ03        JMWNJ
+ EZE 04,15  YPW<J    Y:PIJ<;74J          1.000  Y:PIW<;74J        YPW<J
+ EZE 06,03  W-       W:-                 1.000  W:-               W-
+ EZE 06,03  L-       LA-                 1.000  LA-               L-
+ EZE 06,03  .-       -                   1.000  -                 -
+ EZE 06,03  G>JT     G.;>@JO81WT         1.000  G.;>@JO81T        G>JT
+ EZE 07,02  >RB<T    >AR:B.A73<          1.000  >AR:B.A73<T       >RB<T
+ EZE 07,21  W-       W:-                 1.000  W:-               W-
+ EZE 07,21  XLLH     XIL.:L75W.HW.00     1.000  XIL.:LU75HU00     XLLH
+ EZE 08,06  M-       M@74H               1.000  M@74-             M-
+ EZE 08,06  HM       H;74M               1.000  H;74M             HM
+ EZE 09,04  >LW      >;L@80JW            1.000  >;L@80W           >LW
+ EZE 09,05  <L       >AL&                1.000  <AL&              <L&
+ EZE 09,05  <JNJKM   <;JN:KE73M          0.515  <;JN:JKE73M       <JNJKM
+ EZE 09,11  K-       K.:-                1.000  K.:-              K-
+ EZE 09,11  .-       KO73L               1.000  73-               -
+ EZE 09,11  >CR      >:ACE71R            1.000  >:ACE71R          >CR
+ EZE 12,14  <ZRH     <EZ:RO91W           1.000  <EZ:RO91H         <ZRH
+ EZE 14,04  BH       B@73>               1.000  B@73H             BH
+ EZE 14,14  DN>L     D.@NIJ>;74L         1.000  D.@NI>;74L        DN>L
+ EZE 14,20  DN>L     D.@NIJ>;74L         1.000  D.@NI>;74L        DN>L
+ EZE 16,13  CCJ      C;70C               1.000  C;70CJ            CCJ
+ EZE 16,13  >KLTJ    >@K@92L:T.:         0.603  >@K@92L:T.:J      >KLTJ
+ EZE 16,18  NTTJ     N@TA73T.:           0.603  N@TA73T.:J        NTTJ
+ EZE 16,20  M-       MI-                 1.000  MI-               M-
+ EZE 16,20  TZNTK    T.AZ:NW.T@75JIK:00  1.000  T.AZ:N.T@75IK:00  TZNTK
+ EZE 16,22  ZKRTJ    Z@KA73R:T.:         0.603  Z@KA73R:T.:J      ZKRTJ
+ EZE 16,25  TZNTK    T.AZ:NW.T@75JIK:00  1.000  T.AZ:N.T@75IK:00  TZNTK
+ EZE 16,31  <FJTJ    <@FI73JT            1.000  <@FI73JTJ         <FJTJ
+ EZE 16,31  HJJTJ    H@JI71JT            1.000  H@JI71JTJ         HJJTJ
+ EZE 16,43  ZKRTJ    Z@KAR:T.:03         0.597  Z@KAR:T.J:03      ZKRTJ
+ EZE 16,43  <FJTJ    <@FIJT03            0.723  <@FIJT03J         <FJTJ
+ EZE 16,47  <FJTJ    <@FI92JT            1.000  <@FI92JTJ         <FJTJ
+ EZE 16,51  >XWTK    >:AXOWTA80JIK:      1.000  >:AXOWTA80IK:     >XWTK
+ EZE 16,51  <FJTJ    <@FI75JT00          1.000  <@FI75JTJ00       <FJTJ
+ EZE 16,53  CBJT     C:B70W.T            1.000  C:B70J.T          CBJT
+ EZE 16,53  CBJT     C:B71W.T            1.000  C:B71J.T          CBJT
+ EZE 16,53  W-       W.-                 1.000  W.-               W-
+ EZE 16,53  CBJT     C:B71W.T            1.000  C:B71J.T          CBJT
+ EZE 16,59  W-       W:-                 1.000  W:-               W-
+ EZE 16,59  <FJT     <@FI71JTIJ          1.000  <@FI71JTI         <FJT
+ EZE 17,21  MBRXW    MIB:R@X@70JW        1.000  MIB:R@X@70W       MBRXW
+ EZE 18,20  .-       H@-                 1.000  @-                -
+ EZE 18,20  RC<      R@C@73<             1.000  R@C@73<           RC<
+ EZE 18,21  XV>TW    XAV.O>T@JW03        1.000  XAV.O>T@W03       XV>TW
+ EZE 18,24  YDQTW    YID:QOT@70JW        1.000  YID:QOT@70W       YDQTW
+ EZE 18,28  W-       WA-                 1.000  WA-               W-
+ EZE 18,28  JCWB     J.@80C@B            0.515  J.@80C@WB         JCWB
+ EZE 21,28  K-       K.I-                1.000  K.I-              K-
+ EZE 21,28  QSWM     Q:S@M&              0.515  Q:S@WM&           QSWM&
+ EZE 22,18  L-       L:-                 1.000  L:-               L-
+ EZE 22,18  SWG      SI92JG              1.000  SI92WG            SWG
+ EZE 23,14  KFDJJM   KAF:D.I80JM         1.000  KAF:D.I80JJM      KFDJJM
+ EZE 23,16  W-       WA-                 1.000  WA-               W-
+ EZE 23,16  T<GB     T.A<:G.:B@71H       1.000  T.A<:G.:B@71      T<GB
+ EZE 23,42  SWB>JM   S@B@>I73JM          0.515  S@WB@>I73JM       SWB>JM
+ EZE 23,43  <T       <AT.@91H            1.000  <AT.@91           <T
+ EZE 23,43  JZNH     JIZ:N71W.           1.000  JIZ:N71H.         JZNH
+ EZE 24,02  KTWB     K.:T@B&             0.515  K.:T@WB&          KTWB&
+ EZE 25,07  L-       L:-                 1.000  L:-               L-
+ EZE 25,07  BG       BAZ03               1.000  BAG03             BG
+ EZE 25,09  W-       W:-                 1.000  W:-               W-
+ EZE 25,09  QRJTMH   QIR:J@T@75J:M@H00   1.000  QIR:J@T@75:M@H00  QRJTMH
+ EZE 27,03  H-       HA-                 1.000  HA-               H-
+ EZE 27,03  JCBTJ    J.OCE33BET03        0.723  J.OCE33BET03J     JCBTJ
+ EZE 27,06  KTJM     K.IT.IJ.I75JM00     1.000  K.IT.IJ.I75M00    KTJM
+ EZE 27,15  W-       W:-                 1.000  W:-               W-
+ EZE 27,15  HWBNJM   H@B:NI80JM          0.515  H@WB:NI80JM       HWBNJM
+ EZE 28,03  M-       MI-                 1.000  MI-               M-
+ EZE 28,03  DN>L     D.@45NIJ>;92L       1.000  D.@45NI>;92L      DN>L
+ EZE 29,04  XXJJM    XAXIJM03            1.000  XAXIJJM03         XXJJM
+ EZE 29,07  B-       BA-                 1.000  BA-               B-
+ EZE 29,07  .-       -                   1.000  -                 -
+ EZE 29,07  KPK      K.AP03              0.723  K.AP03K           KPK
+ EZE 30,16  TXJL     T.@XW.L03           1.000  T.@XJ.L03         TXJL
+ EZE 31,05  P>RTW    PO>ROT@91JW         1.000  PO>ROT@91W        P>RTW
+ EZE 31,18  HMWNH    H:AMOWNO80W         1.000  H:AMOWNO80H       HMWNH
+ EZE 32,31  HMWNH    H:AMOWNO92W         1.000  H:AMOWNO92H       HMWNH
+ EZE 32,32  XTJTW    XIT.IJTI73J         1.000  XIT.IJTI73W       XTJTW
+ EZE 32,32  HMWNH    H:AMOWNO80W         1.000  H:AMOWNO80H       HMWNH
+ EZE 33,13  YDQTW    YID:QOT@JW03        1.000  YID:QOT@W03       YDQTW
+ EZE 33,16  XV>TW    XAV.O>T@JW03        1.000  XAV.O>T@W03       XV>TW
+ EZE 35,09  TJCBNH   T@CO92B:N@H         0.515  T@JCO92B:N@H      TJCBNH
+ EZE 35,12  CMMH     C@M;92MW.           1.000  C@M;92MUH         CMMH
+ EZE 36,13  >TJ      >@92T.:             0.603  >@92T.:J          >TJ
+ EZE 36,13  GWJK     G.OWJA73JIK:        1.000  G.OWJA73IK:       GWJK
+ EZE 36,14  W-       W:-                 1.000  W:-               W-
+ EZE 36,14  GWJK     GOWJA73JIK:         1.000  GOWJA73IK:        GWJK
+ EZE 36,14  TKCLJ    T:CAK.:LIJ&         1.000  T:KAC.:LIJ&       TKCLJ&
+ EZE 36,15  W-       W:-                 1.000  W:-               W-
+ EZE 36,15  GWJK     GOWJA33JIK:03       1.000  GOWJA33IK:03      GWJK
+ EZE 37,16  XBRW     X:AB;R@92JW         1.000  X:AB;R@92W        XBRW
+ EZE 37,16  XBRW     X:AB;R@75JW00       1.000  X:AB;R@75W00      XBRW
+ EZE 37,19  XBRW     X:AB;R@92JW         1.000  X:AB;R@92W        XBRW
+ EZE 37,22  JHJH     JI45H:JW.&          1.000  JI45H:JUH&        JHJH&
+ EZE 39,11  HMWNH    H:AMOWNO80W         1.000  H:AMOWNO80H       HMWNH
+ EZE 39,25  CBJT     C:B74W.T            1.000  C:B74J.T          CBJT
+ EZE 40,06  B-       B.:-                1.000  B.:-              B-
+ EZE 40,06  M<LWTW   MA45<:ALOWT@92JW    1.000  MA45<:ALOWT@92W   M<LWTW
+ EZE 40,09  W-       W:-                 1.000  W:-               W-
+ EZE 40,09  >JLW     >;JL@73JW           1.000  >;JL@73W          >JLW
+ EZE 40,15  H-       H@45-               1.000  H@45-             H-
+ EZE 40,15  J>TWN    >IJTO80WN           1.000  J>ITO80WN         J>TWN
+ EZE 40,21  W-       W:-                 1.000  W:-               W-
+ EZE 40,21  T>W      T@>@81JW            1.000  T@>@81W           T>W
+ EZE 40,21  W-       W:-                 1.000  W:-               W-
+ EZE 40,21  >JLW     >;JL@70JW           1.000  >;JL@70W          >JLW
+ EZE 40,21  W-       W:-                 1.000  W:-               W-
+ EZE 40,21  >LMW     >;45LAM.@JW03       1.000  >;45LAM.@W03      >LMW
+ EZE 40,22  W-       W:-                 1.000  W:-               W-
+ EZE 40,22  XLWNW    XAL.OWN@70JW        1.000  XAL.OWN@70W       XLWNW
+ EZE 40,22  W-       W:-                 1.000  W:-               W-
+ EZE 40,22  >LMW     >;45LAM.@JW03       1.000  >;45LAM.@W03      >LMW
+ EZE 40,22  W-       W:-                 1.000  W:-               W-
+ EZE 40,22  TMRW     TI74MOR@80JW        1.000  TI74MOR@80W       TMRW
+ EZE 40,22  W-       W:-                 1.000  W:-               W-
+ EZE 40,22  >JLMW    >;45JLAM.@73JW      1.000  >;45JLAM.@73W     >JLMW
+ EZE 40,24  >JLW     >;JL@JW03           1.000  >;JL@W03          >JLW
+ EZE 40,24  W-       W:-                 1.000  W:-               W-
+ EZE 40,24  >JLMW    >;74JLAM.@80JW      1.000  >;74JLAM.@80W     >JLMW
+ EZE 40,25  W-       W.-                 1.000  W.-               W-
+ EZE 40,25  L-       L:-                 1.000  L:-               L-
+ EZE 40,25  >JLMW    >;45JLAM.@JW03      1.000  >;45JLAM.@W03     >JLMW
+ EZE 40,26  <LWTW    <O45LOWT@80JW       1.000  <O45LOWT@80W      <LWTW
+ EZE 40,26  W-       W:-                 1.000  W:-               W-
+ EZE 40,26  >LMW     >;45LAM.@73JW       1.000  >;45LAM.@73W      >LMW
+ EZE 40,26  >JLW     >;JL@75JW00         1.000  >;JL@75W00        >JLW
+ EZE 40,29  W-       W:-                 1.000  W:-               W-
+ EZE 40,29  T>W      T@>@62JW            1.000  T@>@62W           T>W
+ EZE 40,29  W-       W:-                 1.000  W:-               W-
+ EZE 40,29  >JLW     >;JL@70JW           1.000  >;JL@70W          >JLW
+ EZE 40,29  W-       W:-                 1.000  W:-               W-
+ EZE 40,29  >LMW     >;45LAM.@JW03       1.000  >;45LAM.@W03      >LMW
+ EZE 40,29  W-       W.-                 1.000  W.-               W-
+ EZE 40,29  L-       L:-                 1.000  L:-               L-
+ EZE 40,29  >LMW     >;LAM.@73JW         1.000  >;LAM.@73W        >LMW
+ EZE 40,31  W-       W:-                 1.000  W:-               W-
+ EZE 40,31  >LMW     >;LAM.@81JW         1.000  >;LAM.@81W        >LMW
+ EZE 40,31  >JLW     >;JL@92JW           1.000  >;JL@92W          >JLW
+ EZE 40,31  M<LW     MA<:AL@75JW00       1.000  MA<:AL@75W00      M<LW
+ EZE 40,33  W-       W:-                 1.000  W:-               W-
+ EZE 40,33  T>W      T@>@62JW            1.000  T@>@62W           T>W
+ EZE 40,33  W-       W:-                 1.000  W:-               W-
+ EZE 40,33  >LW      >;L@70JW            1.000  >;L@70W           >LW
+ EZE 40,33  W-       W:-                 1.000  W:-               W-
+ EZE 40,33  >LMW     >;45LAM.@JW03       1.000  >;45LAM.@W03      >LMW
+ EZE 40,33  W-       W.-                 1.000  W.-               W-
+ EZE 40,33  L-       L:-                 1.000  L:-               L-
+ EZE 40,33  >LMW     >;LAM.@73JW         1.000  >;LAM.@73W        >LMW
+ EZE 40,34  W-       W:-                 1.000  W:-               W-
+ EZE 40,34  >LMW     >;LAM.@81JW         1.000  >;LAM.@81W        >LMW
+ EZE 40,34  >LW      >;L@73JW            1.000  >;L@73W           >LW
+ EZE 40,34  M<LW     MA<:AL@75JW00       1.000  MA<:AL@75W00      M<LW
+ EZE 40,36  T>W      T.@>@JW03           1.000  T.@>@W03          T>W
+ EZE 40,36  >LW      >;L@74JW            1.000  >;L@74W           >LW
+ EZE 40,36  W-       W:-                 1.000  W:-               W-
+ EZE 40,36  >LMW     >;95LAM.@80JW       1.000  >;95LAM.@80W      >LMW
+ EZE 40,37  W-       W:-                 1.000  W:-               W-
+ EZE 40,37  >JLW     >;JL@81JW           1.000  >;JL@81W          >JLW
+ EZE 40,37  >JLW     >;JL@73JW           1.000  >;JL@73W          >JLW
+ EZE 40,37  M<LW     MA<:AL@75JW00       1.000  MA<:AL@75W00      M<LW
+ EZE 41,08  MJSDWT   MW.S:DO70WT         1.000  MJ.S:DO70WT       MJSDWT
+ EZE 41,15  W-       W:-                 1.000  W:-               W-
+ EZE 41,15  >TWQJH>  >AT.IJQE91JH@>      1.000  >AT.IWQE91JH@>    >TWQJH>
+ EZE 42,09  W-       W.-                 1.000  W.-               W-
+ EZE 42,09  M-       MI-                 1.000  MI-               M-
+ EZE 42,09  TXTH     T.A73XAT            1.000  T.A73XATH         TXTH
+ EZE 42,09  .-       HA-                 1.000  A-                -
+ EZE 42,09  LCKWT    L.:C@KO74WT         1.000  L.:C@KO74WT       LCKWT
+ EZE 42,09  H-       HA-                 1.000  HA-               H-
+ EZE 42,09  MBW>     M.;BIJ>03           1.000  M.;BIW>03         MBW>
+ EZE 42,14  J-       W:-                 1.000  J:-               J-
+ EZE 42,14  LBCW     L@B:CW.03           1.000  L@B:CW.03         LBCW
+ EZE 42,16  >MWT     M;>O71WT            1.000  >;MO71WT          >MWT
+ EZE 43,11  YWRTW    Y45W.ROT@83JW       1.000  Y45W.ROT@83W      YWRTW
+ EZE 43,11  YWRTW    Y63W.ROT@70JW       1.000  Y63W.ROT@70W      YWRTW
+ EZE 43,11  TWRTW    T.OWROT@JW03        1.000  T.OWROT@W03       TWRTW
+ EZE 43,15  W-       W.-                 1.000  W.-               W-
+ EZE 43,15  M-       M;-                 1.000  M;-               M-
+ EZE 43,15  H-       H@-                 1.000  H@-               H-
+ EZE 43,15  >R>JL    >:ARIJ>;74L         1.000  >:ARI>J;74L       >R>JL
+ EZE 43,16  W-       W:-                 1.000  W:-               W-
+ EZE 43,16  H-       H@-                 1.000  H@-               H-
+ EZE 43,16  >R>JL    >:ARIJ>;81L         1.000  >:ARI>J;81L       >R>JL
+ EZE 43,26  JDW      J@D@75JW00          1.000  J@D@75W00         JDW
+ EZE 44,03  L-       LE-                 1.000  LE-               L-
+ EZE 44,03  >KWL     >:EK@L&             0.515  >:EK@WL&          >KWL&
+ EZE 44,05  TWRTW    T.O45WROT@92JW      1.000  T.O45WROT@92W     TWRTW
+ EZE 44,24  L-       L:-                 1.000  L:-               L-
+ EZE 44,24  CPV      MIC:P.@80V          1.000  IC:P.@80V         CPV
+ EZE 44,24  WCPVHW   JIC:P.:VU92HW.      1.000  WIC:P.:VU92HW.    WCPVHW
+ EZE 45,03  XMC      X:AMIC.@70H         1.000  X:AMIC.@70        XMC
+ EZE 45,05  J-       W:45-               1.000  J:45-             J-
+ EZE 45,05  HJH      H@J@83H             1.000  H@J@83H           HJH
+ EZE 46,09  JY>W     J;Y;75>00           1.000  J;Y;75>W00        JY>W
+ EZE 46,15  W<FW     JA<:AF63W.          1.000  WA<:AF63W.        W<FW
+ EZE 46,19  B-       B.A-                1.000  B.A-              B-
+ EZE 46,19  .-       -                   1.000  -                 -
+ EZE 46,19  JRKTM    J.AR:K@TA73JIM      1.000  J.AR:K@TA73IM     JRKTM
+ EZE 47,08  W-       W:-                 1.000  W:-               W-
+ EZE 47,08  NRP>W    NIR:P.71W.          0.558  NIR:P.71>W.       NRP>W
+ EZE 47,10  J<MDW    <@M:D63W.           1.000  J<@M:D63W.        J<MDW
+ EZE 47,11  BY>TW    B.IY.O>T@94JW       1.000  B.IY.O>T@94W      BY>TW
+ EZE 47,12  W-       W:-                 1.000  W:-               W-
+ EZE 47,12  HJW      H@J@70H             1.000  H@J@70W           HJW
+ EZE 48,14  J<BWR    JA<:ABI73JR         1.000  JA<:ABI73WR       J<BWR
+ EZE 48,15  B-       B.:-                1.000  B.:-              B-
+ EZE 48,15  TWKH     TOWKO75W00          1.000  TOWKO75H00        TWKH
+ EZE 48,16  XMC_XMC  X:AM;71C            1.000  X:AM;71C_XMC      X:AM;71C_XMC
+ EZE 48,18  TBW>TH   T:B45W.>@TOW03      1.000  T:B45W.>@TOH03    TBW>TH
+ EZE 48,21  B-       B.:-                1.000  B.:-              B-
+ EZE 48,21  TWKH     TOWKO75W00          1.000  TOWKO75H00        TWKH
+ ESR 02,01  NBWKDNYWR  N:BW.KAD:NEY.A71R   0.532  N:BW.KAD:NEY.A71WR   NBWKDNYWR
+ ESR 02,46  CMLJ       CAL:MA73J           1.000  CAM:LA73J            CMLJ
+ ESR 02,50  M<JNJM     M:<W.NI73JM         1.000  M:<J.NI73JM          M<JNJM
+ ESR 02,50  NPJSJM     N:PW.SI75JM00       1.000  N:PJ.SI75JM00        NPJSJM
+ ESR 03,03  W-         WA-                 1.000  WA-                  W-
+ ESR 03,03  J<L        J.A<:AL63W.         1.000  J.A<:ALU63           J<L
+ ESR 04,02  W-         W:-                 1.000  W:-                  W-
+ ESR 04,02  L>         LO74W05             1.000  LO74>05              L>
+ ESR 04,04  W-         W.95-               1.000  W.95-                W-
+ ESR 04,04  MBLHJM     M:BAH:ALI71JM       1.000  M:BAL:AHI71JM        MBLHJM
+ ESR 04,07  KNWTW      K.:N@WOT@80JW       1.000  K.:N@WOT@80W         KNWTW
+ ESR 04,07  >RTXCFT>   >AR:T.AX:CA73F:T.:  0.603  >AR:T.AX:CA73F:T.:>  >RTXCFT>
+ ESR 04,09  >RKWJ      >AR:K.:W@J;70>      1.000  >AR:K.:W@J;70        >RKWJ
+ ESR 04,09  DHW>       D.EH@J;73>          1.000  D.EH@W;73>           DHW>
+ ESR 04,11  <BDJK      <AB:D@91K:          0.558  <AB:D@91JK:          <BDJK
+ ESR 04,12  W-         W.-                 1.000  W.-                  W-
+ ESR 04,12  B>JCT>     BI45JC:T.@>03       0.558  BI45>JC:T.@>03       B>JCT>
+ ESR 04,12  W-         W:-                 1.000  W:-                  W-
+ ESR 04,12  CWRJ       CW.RAJ.@74>         1.000  CW.RAJ.@74           CWRJ
+ ESR 04,12  >CKLLW     CAK:LI80JLW.        1.000  >CAK:LI80LW.         >CKLLW
+ ESR 04,23  >RTXCFT>   >AR:T.AX:CA74F:T.:  0.603  >AR:T.AX:CA74F:T.:>  >RTXCFT>
+ ESR 05,01  NBJ>H      N:BIJ.@81>          1.000  N:BIJ.@81>H          NBJ>H
+ ESR 05,01  NBJ>J>     N:BIJ.AJ.@80>       0.512  N:BIJ.A>J.@80>       NBJ>J>
+ ESR 05,02  NBJ>J>     N:BIJ.AJ.@71>       0.512  N:BIJ.A>J.@71>       NBJ>J>
+ ESR 05,12  KSDJ>      K.AS:D.@>@92H       1.000  K.AS:D.@J>@92        KSDJ>
+ ESR 05,15  >LH        10>;L               1.000  10>;LH               >LH
+ ESR 06,14  NBJ>H      N:BIJ.@80>          1.000  N:BIJ.@80>H          NBJ>H
+ ESR 06,17  L-         L:-                 1.000  L:-                  L-
+ ESR 06,17  XVJ>       XAV.@>@70H          1.000  XAV.@J>@70           XVJ>
+ ESR 07,18  <LJK       <:AL@63K:           0.558  <:AL@63JK:           <LJK
+ ESR 07,18  >XJK       >EX@61K:            0.558  >EX@61JK:            >XJK
+ ESR 07,25  D>NJN      D.@>J:NIJN03        1.000  D.@>:NIJN03          D>NJN
+ ESR 07,26  L-         LI-                 1.000  LI-                  L-
+ ESR 07,26  CRCW       C:ROCI80J           1.000  C:ROCI80W            CRCW
+ ESR 08,14  W-         W:-                 1.000  W:-                  W-
+ ESR 08,14  ZBWD       ZAK.92W.R           1.000  ZAB.92W.D            ZBWD
+ ESR 08,17  W-         W@-                 1.000  W@-                  W-
+ ESR 08,17  >WY>H      >:AYAW.E70H         0.515  >:AW.AYE70>H         >WY>H
+ ESR 08,17  H-         HA-                 1.000  HA-                  H-
+ ESR 08,17  NTWNJM     N.:TIJNIJM03        1.000  N.:TIWNIJM03         NTWNJM
+ ESR 08,25  W-         W@-                 1.000  W@-                  W-
+ ESR 08,25  >CQWLH     >EC:Q:@L@74H        0.515  >EC:Q:@WL@74H        >CQWLH
+ ESR 10,02  <WLM       <;JL@M03            1.000  <;WL@M03             <WLM
+ ESR 10,12  K-         K.I-                1.000  K.I-                 K-
+ ESR 10,12  DBRJK      D:B@R:K@71          0.515  D:B@R:JK@71          DBRJK
+ ESR 10,29  J-         W:-                 1.000  J:-                  J-
+ ESR 10,29  RMWT       R@MO75WT00          1.000  R@MO75WT00           RMWT
+ ESR 10,35  KLHJ       K.:L75W.HW.00       1.000  K.:LU75HJ.00         KLHJ
+ ESR 10,37  W-         W:-                 1.000  W:-                  W-
+ ESR 10,37  J<FW       JA<:AF@75J00        1.000  JA<:AF@75W00         J<FW
+ ESR 10,43  JDW        JAD.A71J            1.000  JAD.A71W             JDW
+ ESR 10,44  NF>W       N@F:>73W.           1.000  N@F:>73W.            NF>W
+ GEN 08,17  HWY>   HAJ:Y;74>              1.000  HAW:Y;74>             HWY>
+ GEN 09,21  >HLH   >@H:@LO75W00           1.000  >@H:@LO75H00          >HLH
+ GEN 12,08  >HLH   >@H:@LO92W             1.000  >@H:@LO92H            >HLH
+ GEN 13,03  >HLH   >@95H:@LOW03           1.000  >@95H:@LOH03          >HLH
+ GEN 14,02  YBJJM  Y:BOWJI80M             1.000  Y:BOJJI80M            YBJJM
+ GEN 14,08  YBJJM  Y:BOWJI80M             1.000  Y:BOJJI80M            YBJJM
+ GEN 24,33  W-     WA-                    1.000  WA-                   W-
+ GEN 24,33  JJFM   J.W.FA70M              1.000  J.UJFA70M             JJFM
+ GEN 25,23  GJJM   GOWJIM03               1.000  GOJJIM03              GJJM
+ GEN 27,03  YJDH   Y@75JID00              1.000  Y@75JIDH00            YJDH
+ GEN 27,29  W-     W:-                    1.000  W:-                   W-
+ GEN 27,29  JCTXW  JI45C:T.AX:AW70W.      1.000  JI45C:T.AX:AWU70      JCTXW
+ GEN 30,11  B-     B.@74>                 1.000  B.@74-                B-
+ GEN 30,11  GD     G@92D                  1.000  G@92D                 GD
+ GEN 33,04  YW>RW  YAW.@>R@73JW           1.000  YAW.@>R@73W           YW>RW
+ GEN 35,21  >HLH   >@45H:@LO80W           1.000  >@45H:@LO80H          >HLH
+ GEN 36,05  J<JC   J:<71W.C               1.000  J:<71J.C              J<JC
+ GEN 36,14  J<JC   J:<71W.C               1.000  J:<71J.C              J<JC
+ GEN 39,20  >SWRJ  >:ASIJR;71J            1.000  >:ASIWR;71J           >SWRJ
+ GEN 43,28  W-     WA-                    1.000  WA-                   W-
+ GEN 43,28  JCTXW  J.I45C:T.AX:AW.75W.00  1.000  J.I45C:T.AX:AW.U7500  JCTXW
+ GEN 49,10  CJLH   CIJLO80W               1.000  CIJLO80H              CJLH
+ GEN 49,11  <JRH   <IJRO80W               1.000  <IJRO80H              <JRH
+ GEN 49,11  SWTH   SW.TO75W00             1.000  SW.TO75H00            SWTH
+ HAB 03,04  <ZH   <UZ.O75W00   1.000  <UZ.O75H00  <ZH
+ HAB 03,14  PRZW  P.:R@Z@80JW  1.000  P.:R@Z@80W  PRZW
+ HAG 01,08  W-    W:-           1.000  W:-          W-
+ HAG 01,08  >KBD  >EK.@B:D@73H  1.000  >EK.@B:D@73  >KBD
+ CAN 01,17  RXJVNW  RAHIJV;73NW.  1.000  RAXIJV;73NW.  RXJVNW
+ CAN 02,11  H-      HA-           1.000  HA-           H-
+ CAN 02,11  STW     S.:T@73JW     1.000  S.:T@73W      STW
+ CAN 02,13  LKJ     L@91K:        0.747  L@91K:J       LKJ
+ CAN 04,09  B-      B.:-          1.000  B.:-          B-
+ CAN 04,09  >XD     >AXA74T       1.000  >AXA74D       >XD
+ HOS 06,10  C<RJRJH  CA<:AR45W.RIJ.@92H  1.000  CA<:AR45J.RIJ.@92H  C<RJRJH
+ HOS 08,12  >KTWB    >E63K:T.@B&         0.512  >E63K:T.@WB&        >KTWB&
+ HOS 08,12  RBW      RUB.;73J            1.000  RUB.;73W            RBW
+ HOS 09,16  BLJ      BA45L&              1.000  BA45LJ&             BLJ&
+ HOS 10,10  <JNTM    <OWNOT@75M00        1.000  <OJNOT@75M00        <JNTM
+IIKON02,16  H-        HA-              1.000  HA-               H-
+IIKON02,16  GJ>WT     G.;>@JO92WT      1.000  G.;J>@O92WT       GJ>WT
+IIKON03,24  W-        WA-              1.000  WA-               W-
+IIKON03,24  JBW       J.AK.W.&         1.000  J.AB.W.&          JBW&
+IIKON04,02  LKJ       L@73K:           0.747  L@73K:J           LKJ
+IIKON04,03  CKNKJ     C:K;N@92JIK:     1.000  C:K;N@92KIJ       CKNKJ
+IIKON04,05  MJYQT     MOWY@75QET00     1.000  MOJY@75QET00      MJYQT
+IIKON04,07  NCJKJ     NIC:J;92K:       0.747  NIC:J;92K:J       NCJKJ
+IIKON04,07  .-        W.-              1.000  U-                -
+IIKON04,07  BNJKJ     B@NA80JIK:       0.747  B@NA80JIK:J       BNJKJ
+IIKON04,16  >TJ       >A73T.:          0.603  >A73T.:J          >TJ
+IIKON04,23  >TJ       >A74T.:          0.603  >A74T.:J          >TJ
+IIKON04,23  HLKTJ     HOLE70KET        1.000  HOLE70KETJ        HLKTJ
+IIKON04,34  KPW       K.AP.@80JW       1.000  K.AP.@80W         KPW
+IIKON05,09  B-        B.:-             1.000  B.:-              B-
+IIKON05,09  SWSW      SW.S@74JW        1.000  SW.S@74W          SWSW
+IIKON05,12  >BNH      >:AM@N@63H       1.000  >:AB@N@63H        >BNH
+IIKON05,18  JSLX_N>   JIS:LAX          1.000  JIS:LAX&N>        JIS:LAX&N>
+IIKON05,25  M-        M;-              1.000  M;-               M-
+IIKON05,25  >N        >A73JIN          1.000  >A73IN            >N
+IIKON06,10  W-        W:-              1.000  W:-               W-
+IIKON06,10  HZHJRH    HIZ:HIJRO73W     1.000  HIZ:HIJRO73H      HZHJRH
+IIKON06,25  XRJJWNJM  D.IB:JOWNI73JM   0.515  XIR:JJOWNI73JM    XRJJWNJM
+IIKON07,12  B-        BA-              1.000  BA-               B-
+IIKON07,12  H-        -                0.500  H-                H-
+IIKON07,12  FDH       F.@DEH03         1.000  F.@DEH03          FDH
+IIKON07,13  HHMWN     H:AMO70WN        0.515  H:AHMO70WN        HHMWN
+IIKON07,15  BH-       B.:-             0.649  B.:H-             BH-
+IIKON07,15  XPZM      X@P:Z@92M        1.000  X@P:Z@92M         XPZM
+IIKON08,01  >TJ       >A74T.:          0.603  >A74T.:J          >TJ
+IIKON08,10  L>        LO73W            1.000  LO73>             L>
+IIKON08,17  CNH       C@NI80JM         1.000  C@NI80H           CNH
+IIKON09,15  L-        L:-              1.000  L:-               L-
+IIKON09,15  GJD       HAG.I71JD        1.000  AG.I71JD          GJD
+IIKON09,25  CLCH      C@45LICO80W      1.000  C@45LICO80H       CLCH
+IIKON09,33  CMVHW     CIM:V73W.H@      1.000  CIM:VU73H@W       CMVHW
+IIKON09,37  W-        W:45-            1.000  W:45-             W-
+IIKON09,37  HJT       H@J:T@62H        1.000  H@J:T@62          HJT
+IIKON10,27  L-        L:-              1.000  L:-               L-
+IIKON10,27  MXR>WT    MO45WY@>O73WT    1.000  MO45X@R>O73WT     MXR>WT
+IIKON11,01  WR>TH     R@>:AT@73H       1.000  WR@>:AT@73H       WR>TH
+IIKON11,02  H-        HA-              1.000  HA-               H-
+IIKON11,02  MMWTTJM   M.74W.M@TI80JM   0.558  M.U74M@WTI80TJM   MMWTTJM
+IIKON11,04  H-        HA-              1.000  HA-               H-
+IIKON11,04  M>JWT     M.;>O81WT        0.558  M.;>O81JWT        M>JWT
+IIKON11,09  H-        HA-              1.000  HA-               H-
+IIKON11,09  M>JWT     M.;>O81WT        0.558  M.;>O81JWT        M>JWT
+IIKON11,10  H-        HA-              1.000  HA-               H-
+IIKON11,10  M>JWT     M.;>O81WT        0.558  M.;>O81JWT        M>JWT
+IIKON11,15  H-        HA-              1.000  HA-               H-
+IIKON11,15  MJ>WT     M.;>O74WT05      0.512  M.;J>O74WT05      MJ>WT
+IIKON11,18  MZBXTW    MIZ:B.:XOT@70JW  1.000  MIZ:B.:XOT@70W    MZBXTW
+IIKON11,20  .-        HA-              1.000  A-                -
+IIKON11,20  MLK       M.E75LEK:00      1.000  M.E75LEK:00       MLK
+IIKON12,10  B-        MI-              1.000  BI-               B-
+IIKON12,10  JMJN      J.@MI81JN        1.000  J.@MI81JN         JMJN
+IIKON12,12  JD        J:D;J03          1.000  J:D;03            JD
+IIKON12,12  H-        HA-              1.000  HA-               H-
+IIKON12,12  PQDJM     M.UP:Q@DI73JM    1.000  UP.:Q@DI73JM      PQDJM
+IIKON13,06  HXVJ      HEX:EVI71J>      1.000  HEX:EVI71J        HXVJ
+IIKON14,02  JHW<DJN   J:HO45W<AD.@73N  0.532  J:HO45W<AD.@73JN  JHW<DJN
+IIKON14,06  JMWT      JW.M@75T00       1.000  JUM@75WT00        JMWT
+IIKON14,07  HMLX      ME33LAX03        1.000  HME33LAX03        HMLX
+IIKON14,12  L-        L:-              1.000  L:-               L-
+IIKON14,12  >HLW      >OH@L@75JW00     1.000  >OH@L@75W00       >HLW
+IIKON14,13  W-        WA-              1.000  WA-               W-
+IIKON14,13  JB>W      J.@BO>03         0.723  J.@BO>03W         JB>W
+IIKON15,25  .-        HA-              1.000  A-                -
+IIKON15,25  MLK       M.E33LEK:03      1.000  M.E33LEK:03       MLK
+IIKON16,06  W-        WA45-            1.000  WA45-             W-
+IIKON16,06  >RMJM     >:ADOMIJM03      1.000  >:AROMIJM03       >RMJM
+IIKON16,15  W-        WA-              1.000  WA-               W-
+IIKON16,15  JYWHW     J:YAW.E74H       1.000  J:YAW.E74HW       JYWHW
+IIKON16,17  W>T       >ET&             1.000  W>ET&             W>T&
+IIKON16,18  MJSK      MW.SA63K:        1.000  MJ.SA63K:         MJSK
+IIKON17,13  NBJ>W     N:BIJ>;63J       1.000  N:BIJ>;63W        NBJ>W
+IIKON17,16  CNJM      C:N;74J          1.000  C:N;74JM          CNJM
+IIKON17,21  W-        WA-              1.000  WA-               W-
+IIKON17,21  JD>       J.AD.A63X        1.000  J.AD.A63>         JD>
+IIKON17,31  >LH       >:ELOH;71J       1.000  >:ELOH;71         >LH
+IIKON17,31  SPRJM     S:PAR:W@75JIM00  1.000  S:PAR:J@75IM00    SPRJM
+IIKON18,27  XRJHM     YOW>@T@81M       1.000  XOR@JH@81M        XRJHM
+IIKON18,27  C-        M;45JM;J         1.000  C;45-             C-
+IIKON18,27  JNJHM     RAG:L;JHE73M     1.000  JAN:J;HE73M       JNJHM
+IIKON19,23  B-        B.:-             1.000  B.:-              B-
+IIKON19,23  RKB       RO71B            0.558  RO71KB            RKB
+IIKON19,23  QYH       QIY.O80W         1.000  QIY.O80H          QYH
+IIKON19,31  .         Y:B@73>OWT       1.000  :@73              *
+IIKON19,37  .         B.@N@JW03        1.000  @@03              *
+IIKON20,04  H<JR      X@Y;73R          0.558  H@<;73JR          H<JR
+IIKON20,13  NKTH      N:KOTO83W        1.000  N:KOTO83H         NKTH
+IIKON20,18  JQX       JIQ.@92XW.       1.000  JIQ.@92XU         JQX
+IIKON21,12  CM<JW     CO74M:<@80H.     0.747  CO74M:<@80J.W     CM<JW
+IIKON22,05  W-        W:-              1.000  W:-               W-
+IIKON22,05  JTNH      JIT.:NU81HW.     1.000  JIT.:NU81HU       JTNH
+IIKON22,05  BBJT      B.;74JT          0.532  BB.;74JT          BBJT
+IIKON23,10  BNJ       BEN&             1.000  BENJ&             BNJ&
+IIKON23,33  B-        MI-              1.000  B.I-              B-
+IIKON23,33  MLK       M.:LO73K:        1.000  M.:LO73K:         MLK
+IIKON23,36  ZBJDH     Z:BW.D.@71H      1.000  Z:BJ.D.@71H       ZBJDH
+IIKON24,10  <LH       <@L81W.          1.000  <@LU81H           <LH
+IIKON24,14  <FRH      <:AFE70RET       1.000  <:AFE70REH        <FRH
+IIKON24,15  >WLJ      >;JL;74J         1.000  >;WL;74J          >WLJ
+IIKON24,18  XMJVL     X:AMW.VA71L      1.000  X:AMJ.VA71L       XMJVL
+IIKON25,17  >MH       >AM.OWT01        1.000  >AM.OH01          >MH
+IICHR03,17  H-        HA-                 1.000  HA-                  H-
+IICHR03,17  JMJNJ     J:M@NIJ03           0.515  J:M@JNIJ03           JMJNJ
+IICHR04,11  XJRM      XW.R@81M            1.000  XJ.R@81M             XJRM
+IICHR05,12  MXYRRJM   MAX:Y:RI73JM        0.558  MAX:Y:RRI73JM        MXYRRJM
+IICHR05,13  L-        LA-                 1.000  LA-                  L-
+IICHR05,13  .-        -                   1.000  -                    -
+IICHR05,13  MXYYRJM   M:XAY.:RI63JM       0.512  M:XAY.:YRI63JM       MXYYRJM
+IICHR07,06  MXYYRJM   MAX:Y:RI74JM        0.515  MAX:Y:YI74RJM        MXYYRJM
+IICHR08,10  H-        HA-                 1.000  HA-                  H-
+IICHR08,10  NYJBJM    N.IY.@BI91JM        0.512  N.IY.@JBI91JM        NYJBJM
+IICHR08,18  >WNJWT    >:@NIJ.O81WT        0.515  >:@WNIJ.O81WT        >WNJWT
+IICHR09,10  XJRM      XW.R@M03            1.000  XJ.R@M03             XJRM
+IICHR09,29  J<DJ      JE<:D.O74W          1.000  JE<:D.O74J           J<DJ
+IICHR11,18  BN        B.AT&               1.000  B.AN&                BN&
+IICHR13,14  MXYYRJM   MAX:Y:RI73JM        0.515  MAX:Y:YI73RJM        MXYYRJM
+IICHR13,19  <PRWN     <EP:RA73JIN         1.000  <EP:RA73WIN          <PRWN
+IICHR17,08  W-        W.-                 1.000  W.-                  W-
+IICHR17,08  CMRJMWT   C:MI45JR@MO83WT     1.000  C:MI45R@JMO83WT      CMRJMWT
+IICHR18,08  MJKHW     MIJK@71J:HW.        1.000  MIJK@71H:W.          MJKHW
+IICHR18,33  JDJK      J@D:K@91            0.515  J@D:JK@91            JDJK
+IICHR24,25  B-        B.:-                1.000  B.:-                 B-
+IICHR24,25  MXLJJM    MAX:ALW.JI74M       1.000  MAX:ALUJI74JM        MXLJJM
+IICHR24,27  WRB       JI94RE62B           1.000  WI94RE62B            WRB
+IICHR25,17  LK        L:K@73H             1.000  L:K@73               LK
+IICHR26,03  JKJLJH    J:K@L:J@73H         0.515  J:K@JL:J@73H         JKJLJH
+IICHR26,07  H-        H@45-               1.000  H@45-                H-
+IICHR26,07  <RBJJM    <AR:BI91JM          1.000  <AR:BI91JJM          <RBJJM
+IICHR26,11  J<W>L     J:<IJ>;74L          1.000  J:<IW>;74L           J<W>L
+IICHR26,21  H-        HA45-               1.000  HA45-                H-
+IICHR26,21  XPCWT     X@P:CIJT03          1.000  X@P:CIWT03           XPCWT
+IICHR29,08  L-        L:-                 1.000  L:-                  L-
+IICHR29,08  ZW<H      ZA45<:AW@H03        1.000  ZA45W<:AH@03         ZW<H
+IICHR29,13  W-        WI-                 1.000  WI-                  W-
+IICHR29,13  J<W>L     J<IJ>;92L           1.000  J<IW>;92L            J<W>L
+IICHR29,14  JXW>L     J:XIJ>;74L          1.000  J:XIW>;74L           JXW>L
+IICHR29,28  MXYYRJM   MAX:Y:RI92JM        0.515  MAX:Y:YRI92JM        MXYYRJM
+IICHR31,12  KWNNJHW   K.@45NAN:J@74HW.    0.532  K.@45WNAN:J@74HW.    KWNNJHW
+IICHR31,13  KWNNJHW   K.@45NAN:J@33HW.03  0.532  K.@45WNAN:J@33HW.03  KWNNJHW
+IICHR32,21  W-        W.-                 1.000  W.-                  W-
+IICHR32,21  MJYJ>W    MI45JYIJ>;74J       1.000  MI45JYIJ>;74W        MJYJ>W
+IICHR33,16  W-        WA-                 1.000  WA-                  W-
+IICHR33,16  JKN       J.I33BEN03          1.000  J.I33KEN03           JKN
+IICHR34,05  MZBXWTJM  MIZ:B.:XOWT@92M     0.558  MIZ:B.:XOWT@92JM     MZBXWTJM
+IICHR34,06  B-        B.:-                1.000  B.:-                 B-
+IICHR34,06  HR_BTJHM  XAR:BOT;JHE73M      0.515  HAR:_BOT;JHE73M      HR_BTJHM
+IICHR34,09  W-        WA-                 1.000  WA-                  W-
+IICHR34,09  JCBJ      J.@CU73BW.          1.000  J.@CU73BJ.           JCBJ
+IICHR34,22  TWQHT     T.@Q:HA81T          0.512  T.@WQ:HA81T          TWQHT
+IICHR34,25  W-        WA45-               1.000  WA45-                W-
+IICHR34,25  JQVJRW    J:QAV.:RW.03        0.512  J:QAV.:JRW.03        JQVJRW
+IICHR35,03  H-        HA-                 1.000  HA-                  H-
+IICHR35,03  MBWNJM    M.:BIJNI63JM        1.000  M.:BIWNI63JM         MBWNJM
+IICHR35,04  W-        W:-                 1.000  W:-                  W-
+IICHR35,04  HKWNW     H@KI71JNW.          1.000  H@KI71WNW.           HKWNW
+IICHR35,09  W-        14W:-               1.000  14W:-                W-
+IICHR35,09  KWNNJHW   K@45NAN:J@HW.       0.558  K@45WNAN:J@HW.       KWNNJHW
+IICHR36,14  L-        LI-                 1.000  LI-                  L-
+IICHR36,14  M<WL      M:<@L&              0.515  M:<@WL&              M<WL&
+IICHR36,17  KFDJJM    K.AF:D.I81JM        1.000  K.AF:D.I81JJM        KFDJJM
+IISA 01,08  W-       W@-               1.000  W@-               W-
+IISA 01,08  J>MR     >OMA74R           1.000  J>OMA74R          J>MR
+IISA 01,11  B-       B.I-              1.000  B.I-              B-
+IISA 01,11  BGDW     B:G@D@73JW        1.000  B:G@D@73W         BGDW
+IISA 01,16  DMJK     D.@M:K@73         0.515  D.@M:JK@73        DMJK
+IISA 02,23  TXTW     T.AX:T.@92JW      1.000  T.AX:T.@92W       TXTW
+IISA 03,02  W-       WA-               1.000  WA-               W-
+IISA 03,02  JLDW     J.IW.@L:D94W.     1.000  J.I@L:D94W.       JLDW
+IISA 03,03  L-       LA-               1.000  LA-               L-
+IISA 03,03  >BJGL    >:ABIJGA85JIL     1.000  >:ABIJGA85IL      >BJGL
+IISA 03,12  TXTW     T.AX:T.@71JW      1.000  T.AX:T.@71W       TXTW
+IISA 03,15  LWC      L@75JIC00         1.000  L@75WIC00         LWC
+IISA 03,25  MBW>K    MO74WB@>E80K@     1.000  MO74B@W>E80K@     MBW>K
+IISA 05,02  HJJTH    H@JI91JT@         0.747  H@JI91JT@H        HJJTH
+IISA 05,02  .-       HA-               1.000  A-                -
+IISA 05,02  MWYJ>    M.OWYI71J>        1.000  M.OWYI71J>        MWYJ>
+IISA 05,02  W-       W:-               1.000  W:-               W-
+IISA 05,02  H-       HA-               1.000  HA-               H-
+IISA 05,02  MBJ      M.;BI73J>         1.000  M.;BI73J          MBJ
+IISA 05,08  FN>W     F:NU>;73J         1.000  F:NU>;73W         FN>W
+IISA 05,24  B-       K.:45-            1.000  B.:45-            B-
+IISA 05,24  CM<K     C@M:<:AK@62       1.000  C@M:<:AK@62       CM<K
+IISA 08,03  .        P.:R@75T00        1.000  :@7500            *
+IISA 10,09  BJFR>L   JIF:R@>;80L       1.000  BJIF:R@>;80L      BJFR>L
+IISA 11,24  W-       WA-               1.000  WA-               W-
+IISA 11,24  JR>W     J.OR63W.          0.876  J.OR>63W.         JR>W
+IISA 11,24  H-       HA-               1.000  HA-               H-
+IISA 11,24  MWR>JM   M.OWRI70JM        0.558  M.OWRI70>JM       MWR>JM
+IISA 12,09  B-       B.:-              1.000  B.:-              B-
+IISA 12,09  <JNW     <;JNAJ01          1.000  <;JNAW01          <JNW
+IISA 12,20  FMLTW    FIM:LOT@80JW      1.000  FIM:LOT@80W       FMLTW
+IISA 12,22  J-       W:-               1.000  J:-               J-
+IISA 12,22  XNNJ     XAN.A71NIJ        1.000  XAN.A71NIJ        XNNJ
+IISA 12,24  W-       WA-               1.000  WA-               W-
+IISA 12,24  JQR>     T.IQ:R@70>        1.000  J.IQ:R@70>        JQR>
+IISA 12,31  B-       B.A-              1.000  B.A-              B-
+IISA 12,31  .-       -                 1.000  -                 -
+IISA 12,31  MLKN     M.AL:B.;80N       1.000  M.AL:K.;80N       MLKN
+IISA 13,08  W-       WA-               1.000  WA-               W-
+IISA 13,08  TLWC     T.@33L@C03        0.515  T.@33L@WC03       TLWC
+IISA 13,34  <JNW     <;JN@80JW         1.000  <;JN@80W          <JNW
+IISA 13,37  <MJXWR   <AM.IJH73W.D      1.000  <AM.IJX73W.R      <MJXWR
+IISA 14,07  FWM      FIJM&             1.000  FIWM&             FWM&
+IISA 14,11  M-       M;-               1.000  M;-               M-
+IISA 14,11  HRBJT    HAR:B.A62T        0.532  HAR:B.A62JT       HRBJT
+IISA 14,22  <BDW     <AB:D.E75K@00     1.000  <AB:D.E75W@00     <BDW
+IISA 14,30  W-       W:-               1.000  W:-               W-
+IISA 14,30  HWYTJH   HAY.IJT74W.H@     1.000  HAWY.IT74J.H@     HWYTJH
+IISA 15,08  JCJB     J@CO63WB          1.000  J@CO63JB          JCJB
+IISA 15,20  >NW<K    >:ANI45J<:AK@70   1.000  >:ANI45W<:AK@70   >NW<K
+IISA 15,28  B-       B.:-              1.000  B.:-              B-
+IISA 15,28  <BRWT    <A45R:BO73WT      1.000  <A45B:RO73WT      <BRWT
+IISA 16,02  WL-      W:-               0.908  W:L-              WL-
+IISA 16,02  H-       HA-               1.000  HA-               H-
+IISA 16,02  LXM      L.E70XEM          1.000  L.E70XEM          LXM
+IISA 16,08  TXTW     T.AX:T.@80JW      1.000  T.AX:T.@80W       TXTW
+IISA 16,10  KJ       K.O74H            1.000  K.O74J            KJ
+IISA 16,10  WKJ      K.I70J            1.000  WK.I70J           WKJ
+IISA 16,12  B-       B.:-              1.000  B.:-              B-
+IISA 16,12  <WNJ     <;JNI92J          1.000  <;WNI92J          <WNJ
+IISA 16,18  L>       LO71W             1.000  LO71>             L>
+IISA 16,23  .        >I73JC            1.000  I73               *
+IISA 17,12  B-       B.:-              1.000  B.:-              B-
+IISA 17,12  >XT      >AXA70D           1.000  >AXA70T           >XT
+IISA 18,03  L-       LA-               1.000  LA-               L-
+IISA 18,03  <ZJR     <:ZO75WR00        1.000  <:ZO75JR00        <ZJR
+IISA 18,08  NPYJT    N@PO73WYET        1.000  N@PO73YEJT        NPYJT
+IISA 18,12  W-       W:-               1.000  W:-               W-
+IISA 18,12  L>       L63W.             1.000  LU63>             L>
+IISA 18,13  B-       B:-               1.000  B:-               B-
+IISA 18,13  NPCW     NAP:CIJ03         1.000  NAP:CIW03         NPCW
+IISA 18,17  L-       L:-               1.000  L:-               L-
+IISA 18,17  >HLW     >OH@L@75JW00      1.000  >OH@L@75W00       >HLW
+IISA 18,18  B-       B:-               1.000  B:-               B-
+IISA 18,18  XJW      XAJ.@JW03         1.000  XAJ.@W03          XJW
+IISA 18,20  <L       <AL&              1.000  <AL               <L
+IISA 18,20  .        K.;71N            1.000  ;71               *
+IISA 19,07  L>       L74W.             1.000  LU74>             L>
+IISA 19,19  B-       B.:-              1.000  B.:-              B-
+IISA 19,19  <JNW     <;JN@92JW         1.000  <;JN@92W          <JNW
+IISA 19,32  B-       HA-               1.000  BA-               B-
+IISA 19,32  JRDN     J.AR:D.;75N00     1.000  J.AR:D.;75N00     JRDN
+IISA 19,41  WJ<BRW   HE<:EBI74JRW.     1.000  WEJ<:EBI74RW.     WJ<BRW
+IISA 20,05  W-       WA-               1.000  WA-               W-
+IISA 20,05  JJXR     J.O85WXER         1.000  J.O85JXER         JJXR
+IISA 20,08  W-       W:-               1.000  W:-               W-
+IISA 20,08  <LW      <@L@62JW          1.000  <@L@62W           <LW
+IISA 20,14  W-       WA-               1.000  WA-               W-
+IISA 20,14  JQLHW    J.IQ.@74H:AL80W.  1.000  J.IQ.@74L:AH80W.  JQLHW
+IISA 20,23  H-       HA-               1.000  HA-               H-
+IISA 20,23  KRJ      K.:R;TI73J        1.000  K.:R;IJ73         KRJ
+IISA 20,25  W-       W.-               1.000  W.-               W-
+IISA 20,25  CJ>      C:W@73>           1.000  C:J@73>           CJ>
+IISA 21,04  LJ       L@61NW.           1.000  L@61J.            LJ
+IISA 21,06  JNTN     JUT.AN&           0.515  JUNT.AN&          JNTN&
+IISA 21,09  CB<TJM   C:BA<:T.@73M      0.532  C:BA<:T.@73JM     CB<TJM
+IISA 21,09  W-       W:-               1.000  W:-               W-
+IISA 21,09  HM       H;63M.@H          1.000  H;63M.@           HM
+IISA 21,09  .-       B.I-              1.000  I-                -
+IISA 21,09  TXLT     T:XIL.A73T        1.000  T:XIL.A73T        TXLT
+IISA 21,12  TLWM     T.:L@>71W.M       1.000  T.:L@W.71M        TLWM
+IISA 21,12  CM       C@33M.@H03        1.000  C@33M.@03         CM
+IISA 21,12  HPLCTJM  P.:LIC:T.I80JM    1.000  HP.:LIC:T.I80JM   HPLCTJM
+IISA 21,16  W-       W:-               1.000  W:-               W-
+IISA 21,16  JCBW     JIC:B.I63J        1.000  JIC:B.I63W        JCBW
+IISA 21,20  MDJN     M@DO81WN          1.000  M@DO81JN          MDJN
+IISA 21,21  CM<J     CIM:<@73H         1.000  CIM:<@73J         CM<J
+IISA 22,08  W-       WA-               1.000  WA-               W-
+IISA 22,08  TG<C     J.IT:G.@<A70C     1.000  IT:G.@<A70C       TG<C
+IISA 22,15  W-       WA-               1.000  WA-               W-
+IISA 22,15  JHMM     J.@HO75M00        1.000  J.@HO75MM00       JHMM
+IISA 22,23  MCPVW    MIC:P.@V@73JW     1.000  MIC:P.@V@73W      MCPVW
+IISA 22,33  DRKW     D.AR:K.I75J00     1.000  D.AR:K.I75W00     DRKW
+IISA 22,34  RGLJW    RAG:LA73J         1.000  RAG:LA73JW        RGLJW
+IISA 22,51  MGDJL    MIG:D.O73WL       1.000  MIG:D.O73JL       MGDJL
+IISA 23,08  H-       H@45-             1.000  H@45-             H-
+IISA 23,08  <YNW     <EY:NI80J         1.000  <EY:NI80W         <YNW
+IISA 23,08  >XD      >EX@75T00         1.000  >EX@75D00         >XD
+IISA 23,09  W-       W:-               1.000  W:-               W-
+IISA 23,09  >XRW     >AX:AR@91JW       1.000  >AX:AR@91W        >XRW
+IISA 23,09  DDJ      D.ODO73W          1.000  D.ODO73J          DDJ
+IISA 23,09  .-       HA-               1.000  A-                -
+IISA 23,09  GBRJM    G.IB.ORI61JM      1.000  G.IB.ORI61JM      GBRJM
+IISA 23,13  CLCJM    C:LOC@61H         1.000  C:LOC@61JM        CLCJM
+IISA 23,18  H-       HA-               1.000  HA-               H-
+IISA 23,18  CLCJ     C.:LOC@80H        1.000  C.:LOC@80J        CLCJ
+IISA 23,20  XJ       XA91JIL           1.000  XA91JI            XJ
+IISA 23,20  H-       H@-               1.000  H@-               H-
+IISA 23,20  >RJH     >:ARI91J          1.000  >:ARI91JH         >RJH
+IISA 23,21  >CR      >I74JC            1.000  >I74CR            >CR
+IISA 23,35  XYRW     XEY:RAJ03         1.000  XEY:RAW03         XYRW
+IISA 23,37  NF>J     NOF;85>           1.000  NOF;85>J          NF>J
+IISA 24,14  RXMW     RA45X:AM@80JW     1.000  RA45X:AM@80W      RXMW
+IISA 24,16  H-       H@-               1.000  H@-               H-
+IISA 24,16  >WRNH    >:ARA71W:N@H      1.000  >:AWA71R:N@H      >WRNH
+IISA 24,18  >RNJH    >:ARA71W:N@H      1.000  >:ARA71N:J@H      >RNJH
+IISA 24,22  B-       B.:-              1.000  B.:-              B-
+IISA 24,22  <JNW     <;JN@92JW         1.000  <;JN@92W          <JNW
+ IKON01,27  <BDJK     <AB:D.:K@80         0.512  <AB:D.:JK@80         <BDJK
+ IKON01,37  JHJ       JI45H:JE74H         1.000  JI45H:JE74           JHJ
+ IKON01,47  >LHJK     >:ELOHI61JM         1.000  >:ELOHI61JK          >LHJK
+ IKON02,24  W-        WA-                 1.000  WA-                  W-
+ IKON02,24  JWCJBJNJ  J.O45WCIJBA33NIJ03  0.558  J.O45WCIJBA33JNIJ03  JWCJBJNJ
+ IKON04,07  .-        H@-                 1.000  @-                   -
+ IKON04,07  >XD       >EX@73D             1.000  >EX@73D              >XD
+ IKON05,17  RGLW      RAG:L@75J00         1.000  RAG:L@75W00          RGLW
+ IKON06,05  JYW<      J@YI33J<A03         1.000  J@YI33W<A03          JYW<
+ IKON06,06  H-        HA-                 1.000  HA-                  H-
+ IKON06,06  JYW<      J.@YI63J<A          1.000  J.@YI63W<A           JYW<
+ IKON06,10  H-        HA-                 1.000  HA-                  H-
+ IKON06,10  JYW<      J.@YI33J<A03        1.000  J.@YI33W<A03         JYW<
+ IKON06,16  M-        MI45-               1.000  MI45-                M-
+ IKON06,16  JRKWTJ    J.AR:K.:T;70J       0.512  J.AR:K.:WT;70J       JRKWTJ
+ IKON06,21  B-        B.:-                1.000  B.:-                 B-
+ IKON06,21  RTJQWT    RAT.W.QO70WT        1.000  RAT.J.QO70WT         RTJQWT
+ IKON06,38  MCPVW     MIC:P.@V@92JW       1.000  MIC:P.@V@92W         MCPVW
+ IKON07,20  .-        HA-                 1.000  A-                   -
+ IKON07,20  FBKH      F.:B@K@92H          1.000  F.:B@K@92H           FBKH
+ IKON07,23  W-        W:-                 1.000  W:-                  W-
+ IKON07,23  QWH       Q@W03               0.723  Q@W03H               QWH
+ IKON07,36  WMSGRTJH  MIS:G.:ROTE80JH@    1.000  WMIS:G.:ROTE80JH@    WMSGRTJH
+ IKON07,45  H-        H@-                 1.000  H@-                  H-
+ IKON07,45  >HL       >;80L.EH            1.000  >;80HEL              >HL
+ IKON08,26  DBRJK     D.:B@74R:K@80       0.515  D.:B@74R:JK@80       DBRJK
+ IKON08,48  BNJT      B.@NI71JTIJ         1.000  B.@NI71JTI           BNJT
+ IKON09,09  W-        WA-                 1.000  WA-                  W-
+ IKON09,09  JCTXW     J.IC:T.AX:AW71W.    1.000  J.IC:T.AX:AW71.      JCTXW
+ IKON09,18  TMR       T.AD:MO71R          1.000  T.A:MO71R            TMR
+ IKON10,05  MCRTW     M:C@R:T@61JW        1.000  M:C@R:T@61W          MCRTW
+ IKON12,03  W-        WA-                 1.000  WA-                  W-
+ IKON12,03  JB>W      J.@BO71>            1.000  J.@BO71>W            JB>W
+ IKON12,07  W-        WA-                 1.000  WA-                  W-
+ IKON12,07  JDBR      J:DAB.:RW.03        1.000  J:DAB.:RU03          JDBR
+ IKON12,12  W-        WA-                 1.000  WA-                  W-
+ IKON12,12  JBW       J.@BO63W>           1.000  J.@BO63W             JBW
+ IKON12,21  W-        WA-                 1.000  WA-                  W-
+ IKON12,21  JB>W      J.@BO74>            1.000  J.@BO74>W            JB>W
+ IKON12,33  M-        MI-                 1.000  MI-                  M-
+ IKON12,33  LBD       L.IB.O92W           1.000  L.IB.O92D            LBD
+ IKON14,02  >TJ       >A73T.:             0.603  >A73T.:J             >TJ
+ IKON14,25  CWCQ      CIJCA71Q            1.000  CIWCA71Q             CWCQ
+ IKON15,15  W-        W:-                 1.000  W:-                  W-
+ IKON15,15  QDCW      Q@D:C;73J           1.000  Q@D:C;73W            QDCW
+ IKON15,18  .-        HA-                 1.000  A-                   -
+ IKON15,18  MLK       M.E80LEK:           1.000  M.E80LEK:            MLK
+ IKON16,19  XV>TW     XAV.O>T@JW03        1.000  XAV.O>T@W03          XV>TW
+ IKON16,26  W-        W.-                 1.000  W.-                  W-
+ IKON16,26  B-        B:-                 1.000  B:-                  B-
+ IKON16,26  XV>TJW    XAV.@>TO80W         0.558  XAV.@>T80JOW         XV>TJW
+ IKON16,34  W-        W.-                 1.000  W.-                  W-
+ IKON16,34  B-        BI-                 1.000  BI-                  B-
+ IKON16,34  FGJB      F:G70W.B            1.000  F:G70J.B             FGJB
+ IKON17,14  TTN       T.;T&               1.000  T.;TN&               TTN&
+ IKON17,15  HW>       HI45J>&             1.000  HI45W>&              HW>&
+ IKON17,15  W-        W@-                 1.000  W@-                  W-
+ IKON17,15  HJ>       H91W.>              1.000  H91J.>               HJ>
+ IKON18,36  W-        W.-                 1.000  W.-                  W-
+ IKON18,36  B-        BI-                 1.000  BI-                  B-
+ IKON18,36  DBRJK     D:B@R:K@74          0.515  D:B@R:JK@74          DBRJK
+ IKON18,42  BRKW      B.IR:K.@75JW00      1.000  B.IR:K.@75W00        BRKW
+ IKON19,04  >XT       >EX@92D             1.000  >EX@92T              >XT
+ IKON20,41  M-        M;-                 1.000  M;-                  M-
+ IKON20,41  <L        <:AL;73J            1.000  <:AL;73              <L
+ IKON21,08  HSPRJM    S:P@RI81JM          1.000  HS:P@RI81JM          HSPRJM
+ IKON21,21  MBJ       M;BI70J>            1.000  M;BI70J              MBJ
+ IKON21,29  >BJ       >@BI70J>            1.000  >@BI70J              >BJ
+ IKON22,13  DBRJK     D:B@R:K@81          0.515  D:B@R:JK@81          DBRJK
+ IKON22,49  <FR       <@F@H04             1.000  <@F@R04              <FR
+ IKON22,49  NCBRH     NIC:B.:R71W.        1.000  NIC:B.:RU71H         NCBRH
+ ICHR01,11  LWDJJM   LW.DI94JM        1.000  LW.DI94JJM       LWDJJM
+ ICHR01,46  <JWT     <:AWI75JT00      1.000  <:AJI75WT00      <JWT
+ ICHR01,51  <LJH     <A45L:W@73H      1.000  <A45L:J@73H      <LJH
+ ICHR02,16  W-       W:-              1.000  W:-              W-
+ ICHR02,16  >XJTJHM  >AX:JOWT;JHE73M  1.000  >AX:JOT;JHE73M   >XJTJHM
+ ICHR02,55  JCBW     JOC:B;74J        1.000  JOC:B;74W        JCBW
+ ICHR03,24  HDJWHW   HOWDAW:J@83HW.   1.000  HODAJ:83W@HW.    HDJWHW
+ ICHR04,07  J-       W:-              1.000  J:-              J-
+ ICHR04,07  YXR      YO73XAR          1.000  YO73XAR          YXR
+ ICHR04,20  W-       W:-              1.000  W:-              W-
+ ICHR04,20  TWLWN    TIJLO92WN        1.000  TIWLO92WN        TWLWN
+ ICHR04,41  H-       HA-              1.000  HA-              H-
+ ICHR04,41  M<JNJM   M.:<W.NI63JM     1.000  M.:<J.NI63JM     M<JNJM
+ ICHR06,11  BNW      B.:N;J03         1.000  B.:N;W03         BNW
+ ICHR06,20  YJP      YW.P03           1.000  YJ.P03           YJP
+ ICHR07,01  JCJB     J@C71W.B         1.000  J@C71J.B         JCJB
+ ICHR07,10  J<JC     J:<83W.C         1.000  J:<83J.C         J<JC
+ ICHR07,31  BRZWT    BIR:Z@75JIT00    1.000  BIR:Z@75WIT00    BRZWT
+ ICHR07,34  W-       W:-              1.000  W:-              W-
+ ICHR07,34  RWHGH    R@H:G.@73H       0.515  R@WH:G.@73H      RWHGH
+ ICHR07,34  J-       W:-              1.000  J:-              J-
+ ICHR07,34  XBH      XUB.@71H         1.000  XUB.@71H         XBH
+ ICHR08,25  W-       W.-              1.000  W.-              W-
+ ICHR08,25  PNJ>L    P:NW.>;73L       1.000  P:NJ.>;73L       PNJ>L
+ ICHR09,04  BNJ-     B.@NI80J         1.000  B.@NI80J-        BNJ-
+ ICHR09,04  MN       MIN&             1.000  MIN&             MN&
+ ICHR09,33  PVJRJM   P.:VW.RI92JM     1.000  P.:VJ.RI92JM     PVJRJM
+ ICHR09,35  J<W>L    J:<IJ>;92L       1.000  J:<IW>;92L       J<W>L
+ ICHR11,11  H-       HA-              1.000  HA-              H-
+ ICHR11,11  CLWCJM   C.@74LIJCI80JM   1.000  C.@74LIWCI80JM   CLWCJM
+ ICHR11,17  W-       WA-              1.000  WA-              W-
+ ICHR11,17  JT>W     J.IT:>@71JW      1.000  J.IT:>@71W       JT>W
+ ICHR11,20  W-       W:-              1.000  W:-              W-
+ ICHR11,20  L>       LOW&             1.000  LO>&             L>&
+ ICHR11,44  W-       WI45-            1.000  WI45-            W-
+ ICHR11,44  J<W>L    J<IJ>;80L        1.000  J<IW>;80L        J<W>L
+ ICHR12,03  W-       WI-              1.000  WI-              W-
+ ICHR12,03  JZW>L    JZIJ>;71L        1.000  JZIW>;71L        JZW>L
+ ICHR12,06  H-       HA-              1.000  HA-              H-
+ ICHR12,06  XRJPJ    X:ARW.PI75J00    1.000  X:ARJ.PI75J00    XRJPJ
+ ICHR12,16  GDJTJW   G.:DOWT@92JW     1.000  G.:DOJT@92JW     GDJTJW
+ ICHR12,19  H-       HA-              1.000  HA-              H-
+ ICHR12,19  CLWCJM   C.@LIJCIJM01     1.000  C.@LIWCIJM01     CLWCJM
+ ICHR14,01  XJRM     XW.R@63M         1.000  XJ.R@63M         XJRM
+ ICHR14,10  PLCTJJM  P.:LIC:T.I80JM   1.000  P.:LIC:T.I80JJM  PLCTJJM
+ ICHR15,24  MXYYRJM  MAX:Y:RIJM03     0.515  MAX:Y:YRIJM03    MXYYRJM
+ ICHR18,10  L-       LI-              1.000  LI-              L-
+ ICHR18,10  C>WL     C:>@L&           0.515  C:>@WL&          C>WL&
+ ICHR20,05  J<WR     J@<I81JR         1.000  J@<I81WR         J<WR
+ ICHR22,07  BNW      B.:NI85J         1.000  B.:NI85W         BNW
+ ICHR23,09  CLMWT    C:LOWMI94JT      1.000  C:LOMI94WT       CLMWT
+ ICHR24,24  CMWR     C@MI75JR00       1.000  C@MI75WR00       CMWR
+ ICHR25,01  H-       HA45-            1.000  HA45-            H-
+ ICHR25,01  NBJ>JM   N.IB.:>I91JM     0.512  N.IB.:J>I91JM    NBJ>JM
+ ICHR26,25  W-       W.-              1.000  W.-              W-
+ ICHR26,25  CLMWT    C:LOMI71JT       1.000  C:LOMI71WT       CLMWT
+ ICHR27,12  L-       LA-              1.000  LA-              L-
+ ICHR27,12  .-       -                1.000  -                -
+ ICHR27,12  BN-      B.;74N05         1.000  B.;74N05-        BN-
+ ICHR27,12  JMJNJ    J:MIJNI92J       1.000  J:MIJNI92J       JMJNJ
+ ICHR27,29  CVRJ     CIR:VA73J        1.000  CIV:RA73J        CVRJ
+ ICHR29,16  HJ>      H73W.>           1.000  H73J.>           HJ>
+ISAM 02,03  W-       W:-                1.000  W:-               W-
+ISAM 02,03  L>       LO71W              1.000  LO71>             L>
+ISAM 02,09  XSJDW    X:ASIJD@JW03       1.000  X:ASIJD@W03       XSJDW
+ISAM 02,10  MRJBW    M:RIJB@81JW        1.000  M:RIJB@81W        MRJBW
+ISAM 02,10  <LW      <@L@JW03           1.000  <@L@W03           <LW
+ISAM 02,16  LW       LO>03              1.000  LOW03             LW
+ISAM 03,02  W-       W:-                1.000  W:-               W-
+ISAM 03,02  <JNW     <;JN@JW03          1.000  <;JN@W03          <JNW
+ISAM 03,18  B-       B.:-               1.000  B.:-              B-
+ISAM 03,18  <JNW     <;JN@73JW          1.000  <;JN@73W          <JNW
+ISAM 04,13  JK       JA71D              1.000  JA71K             JK
+ISAM 05,06  B-       B.A-               1.000  B.A-              B-
+ISAM 05,06  .-       -                  1.000  -                 -
+ISAM 05,06  <PLJM    V.:XORI80JM        1.000  <:POLI80JM        <PLJM
+ISAM 05,09  <PLJM    V:XORI75JM00       1.000  <:POLI75JM00      <PLJM
+ISAM 05,12  B-       B.A-               1.000  B.A-              B-
+ISAM 05,12  .-       -                  1.000  -                 -
+ISAM 05,12  <PLJM    V.:XORI92JM        1.000  <:POLI92JM        <PLJM
+ISAM 06,04  <PLJ     V:XOR;74J          1.000  <:POL;74J         <PLJ
+ISAM 06,05  <PLJKM   V:XOR;JKE61M       1.000  <:POL;JKE61M      <PLJKM
+ISAM 07,09  W-       WA-                1.000  WA-               W-
+ISAM 07,09  J<LH     J.A<:AL;94HW.      1.000  J.A<:AL;94HU      J<LH
+ISAM 08,03  B-       B.I-               1.000  B.I-              B-
+ISAM 08,03  DRKW     D:R@K@80JW         1.000  D:R@K@80W         DRKW
+ISAM 09,01  M-       MI-                1.000  MI-               M-
+ISAM 09,01  BN_JMJN  B.IN:J@MI81JN      0.515  B.IN&J@MI81JN     BN&JMJN
+ISAM 09,26  H-       HA-                1.000  HA-               H-
+ISAM 09,26  GG       G.@74G@H           1.000  G.@74G@           GG
+ISAM 10,07  TB>JNH   T@BO91>N@H         1.000  T@BO91>JN@H       TB>JNH
+ISAM 10,21  L-       L:-                1.000  L:-               L-
+ISAM 10,21  MCPXTW   MIC:P.:XOT@80JW    1.000  MIC:P.:XOT@80W    MCPXTW
+ISAM 11,06  B-       K.:-               1.000  B.:-              B-
+ISAM 11,06  CM<W     C@M:<O73W          1.000  C@M:<O73W         CM<W
+ISAM 11,09  B-       K.:-               1.000  B.:-              B-
+ISAM 11,09  XM       XO74M              1.000  XO74M             XM
+ISAM 12,10  W-       WA-                1.000  WA-               W-
+ISAM 12,10  J>MR     J.O>M:R74W.        1.000  J.O>M:RU74        J>MR
+ISAM 13,08  W-       WA-                1.000  WA-               W-
+ISAM 13,08  JJXL     J.O74WXEL05        1.000  J.O74JXEL05       JJXL
+ISAM 13,19  >MR      >@M:R74W.          1.000  >@M:RU74          >MR
+ISAM 14,27  W-       WA-                1.000  WA-               W-
+ISAM 14,27  TR>NH    T.@>O73R:N@H       1.000  T.@RO73>:N@H      TR>NH
+ISAM 14,32  W-       WA-                1.000  WA-               W-
+ISAM 14,32  J<F      J.A70<AV           1.000  J.A70<AF          J<F
+ISAM 14,32  .-       HA-                1.000  A-                -
+ISAM 14,32  CLL      C.@L@80L           1.000  C.@L@80L          CLL
+ISAM 15,16  W-       WA-                1.000  WA-               W-
+ISAM 15,16  J>MRW    J.O71>MER          1.000  J.O71>MERW        J>MRW
+ISAM 17,07  W-       W:-                1.000  W:-               W-
+ISAM 17,07  XY       <;74Y              1.000  X;74Y             XY
+ISAM 17,23  M-       MI-                1.000  MI-               M-
+ISAM 17,23  M<RWT    M.A<AR:KO74WT      1.000  M.A<:AR:OW74T     M<RWT
+ISAM 18,01  W-       WA-                1.000  WA-               W-
+ISAM 18,01  J>HBW    J.E>:EH@B;71HW.    1.000  J.E>:EH@B;71W.    J>HBW
+ISAM 18,06  L-       L@-                1.000  L@-               L-
+ISAM 18,06  CWR      CI74JR             1.000  CI74WR            CWR
+ISAM 18,07  B-       B.A-               1.000  B.A-              B-
+ISAM 18,07  >LPW     >:AL@P@80JW        1.000  >:AL@P@80W        >LPW
+ISAM 18,09  <WN      <OWJ;74N           1.000  <OW;74N           <WN
+ISAM 18,14  DRKW     D.:R@K@73JW        1.000  D.:R@K@73W        DRKW
+ISAM 18,22  <BDW     <:AB@D@81JW        1.000  <:AB@D@81W        <BDW
+ISAM 19,18  B-       B.:-               1.000  B.:-              B-
+ISAM 19,18  NWJT     N@75JOWT00         1.000  N@75WOJT00        NWJT
+ISAM 19,19  B-       B.:-               1.000  B.:-              B-
+ISAM 19,19  NWJT     N@JO73WT           1.000  N@WO73JT          NWJT
+ISAM 19,22  B-       B.:-               1.000  B.:-              B-
+ISAM 19,22  NWJT     N@JO71WT           1.000  N@WO71JT          NWJT
+ISAM 19,23  NWJT     N@JO73WT           1.000  N@WO73JT          NWJT
+ISAM 19,23  B-       B.:-               1.000  B.:-              B-
+ISAM 19,23  NWJT     N@JO71WT           1.000  N@WO71JT          NWJT
+ISAM 20,01  M-       MI-                1.000  MI-               M-
+ISAM 20,01  NWWT     N.@JO73WT          1.000  N.@WO73WT         NWWT
+ISAM 20,02  LW       LO45>&             1.000  LO45W&            LW&
+ISAM 20,02  <FH      JA<:AFE63H         1.000  A<:AFE63H         <FH
+ISAM 20,24  <L       >EL&               1.000  <EL&              <L&
+ISAM 20,38  H-       HA74-              1.000  HA74-             H-
+ISAM 20,38  XYJ      XIY.I80JM          1.000  XIY.I80J          XYJ
+ISAM 21,12  B-       B.A-               1.000  B.A-              B-
+ISAM 21,12  >LPW     >:AL@P@80JW        1.000  >:AL@P@80W        >LPW
+ISAM 21,12  B-       B.:-               1.000  B.:-              B-
+ISAM 21,12  RBBTW    RIB:BOT@75JW00     1.000  RIB:BOT@75W00     RBBTW
+ISAM 21,14  W-       WA-                1.000  WA-               W-
+ISAM 21,14  JTW      J:T@JW03           1.000  J:T@W03           JTW
+ISAM 22,13  >LW      >;L@JW03           1.000  >;L@W03           >LW
+ISAM 22,15  L-       LI-                1.000  LI-               L-
+ISAM 22,15  C>WL     C:>@L&             0.515  C:>@WL&           C>WL&
+ISAM 22,17  >ZNW     >@Z:NI92J          1.000  >@Z:NI92W         >ZNW
+ISAM 22,18  L-       L:-                1.000  L:-               L-
+ISAM 22,18  DWJG     DOW>;80G           1.000  DOWJ;80G          DWJG
+ISAM 22,18  DWJG     D.OW>;74G          1.000  D.OWJ;74G         DWJG
+ISAM 22,22  DWJG     D.OW>;74G          1.000  D.OWJ;74G         DWJG
+ISAM 23,05  W-       WA-                1.000  WA-               W-
+ISAM 23,05  >NCW     >:AN@C@63JW        1.000  >:AN@C@63W        >NCW
+ISAM 24,05  >JBJK    >O45JIB:K@03       0.515  >O45JIB:JK@03     >JBJK
+ISAM 24,09  MN       M;45-              0.880  M;45N&            MN&
+ISAM 24,09  H-       HA-                1.000  HA-               H-
+ISAM 24,09  M<RH     M.:<@R@80H         1.000  M.:<@R@80H        M<RH
+ISAM 24,19  W-       W:-                1.000  W:-               W-
+ISAM 24,19  >T       >AT.@H03           1.000  >AT.@03           >T
+ISAM 25,03  KLBW     K@LIB.I75J00       1.000  K@LIB.I75W00      KLBW
+ISAM 25,18  >BWGJL   >:ABIJGA83JIL      1.000  >:ABIWGA83JIL     >BWGJL
+ISAM 25,18  <FWWT    <:AFW.JOWT03       1.000  <:AFW.WOT03       <FWWT
+ISAM 25,34  W-       WA-                1.000  WA-               W-
+ISAM 25,34  TB>TJ    T.@BO>T03          0.723  T.@BO>T03J        TB>TJ
+ISAM 26,05  SBJBTW   S:BIJBOT@75JW00    1.000  S:BIJBOT@75W00    SBJBTW
+ISAM 26,07  MR>CTW   M:RA>:ACOT@92JW    1.000  M:RA>:ACOT@92W    MR>CTW
+ISAM 26,07  SBJBTW   S:BIJBOT@75JW00    1.000  S:BIJBOT@75W00    SBJBTW
+ISAM 26,11  MR>CTW   M:RA>:ACOT@91JW    1.000  M:RA>:ACOT@91W    MR>CTW
+ISAM 26,16  MR>CTW   M:RA>:ACOT@75JW00  1.000  M:RA>:ACOT@75W00  MR>CTW
+ISAM 26,22  HXNJT    X:ANI74JT          1.000  HX:ANI74JT        HXNJT
+ISAM 27,04  JWSP     J@SA71P            0.515  J@WSA71P          JWSP
+ISAM 27,08  W-       W:-                1.000  W:-               W-
+ISAM 27,08  H-       HA-                1.000  HA-               H-
+ISAM 27,08  GRZJ     G.IZ:RI73J         1.000  G.IR:ZI73J        GRZJ
+ISAM 28,08  QSWMJ    Q@95S:@MIJ&        0.515  Q@95S:@WMIJ&      QSWMJ&
+ISAM 29,05  B-       B.:-               1.000  B.:-              B-
+ISAM 29,05  RBBTW    RIB:BOT@75JW00     1.000  RIB:BOT@75W00     RBBTW
+ISAM 30,06  BNW      B.@N@74JW          1.000  B.@N@74W          BNW
+ JER 01,05  >YWRK       >EY.@R:K@70           0.512  >EY.@WR:K@70           >YWRK
+ JER 02,03  TBW>TH      T.:BW.>@TO92W         1.000  T.:BW.>@TO92H          TBW>TH
+ JER 02,15  NYTH        NIY.:T73W.            1.000  NIY.:TU73H             NYTH
+ JER 02,16  W-          W:-                   1.000  W:-                    W-
+ JER 02,16  TXPNS       TAX:P.AN:X;92S        1.000  TAX:P.AN:;92S          TXPNS
+ JER 02,20  ><BD        >E<:EBO92WR           1.000  >E<:EBO92D             ><BD
+ JER 02,24  NPCW        NAP:C@H.03            1.000  NAP:C@W.03             NPCW
+ JER 02,25  W-          W.-                   1.000  W.-                    W-
+ JER 02,25  GWRNK       G:ROWN;73K:           1.000  G:WRON;73K:            GWRNK
+ JER 02,27  JLDTNJ      J:LID:T.@80NW.        1.000  J:LID:T.@80NJ.         JLDTNJ
+ JER 02,33  LMDTJ       LIM.A73D:T.:          0.603  LIM.A73D:T.:J          LMDTJ
+ JER 03,02  CGLT        CUK.A80B.:T.:         1.000  CUG.A80L:T.:           CGLT
+ JER 03,04  QR>TJ       Q@R@71>T              1.000  Q@R@71>TJ              QR>TJ
+ JER 03,05  DBRTJ       DIB.A91R:T.:          0.603  DIB.A91R:T.:J          DBRTJ
+ JER 03,07  W-          WA-                   1.000  WA-                    W-
+ JER 03,07  TR>H        T.;91RE>              1.000  T.;91RE>H              TR>H
+ JER 03,19  TQR>W       T.IQ:R:>IJ&           1.000  T.IQ:R:>IW&            TQR>W&
+ JER 03,19  TCWBW       T@C75W.BIJ00          1.000  T@C75W.BIW00           TCWBW
+ JER 04,05  WTQ<W       T.IQ:<71W.            1.000  WT.IQ:<71W.            WTQ<W
+ JER 04,19  >XWLH       >OWXI61JL@H           1.000  >OXI61WL@H             >XWLH
+ JER 04,19  CM<TJ       C@MA74<AT.:           0.603  C@MA74<AT.:J           CM<TJ
+ JER 04,30  W-          W:-                   1.000  W:-                    W-
+ JER 04,30  >TJ         >A63T.:               0.603  >A63T.:J               >TJ
+ JER 05,07  >SLWX       >E45S:LA45X&          0.558  >E45S:LA45WX&          >SLWX&
+ JER 05,24  WJRH        JOWRE71H              1.000  WOJRE71H               WJRH
+ JER 06,07  BWR         B.A33JIR03            1.000  B.A33WIR03             BWR
+ JER 06,21  J-          W:-                   1.000  J:-                    J-
+ JER 06,21  >BDW        >@B@75DW.00           1.000  >@B@75DW.00            >BDW
+ JER 06,25  TY>J        T.;45Y:>W.03          1.000  T.;45Y:>J.03           TY>J
+ JER 06,25  TLKJ        T.;L;92KW.            1.000  T.;L;92KJ.             TLKJ
+ JER 06,29  M-          M;-                   1.000  M;-                    M-
+ JER 06,29  >C-         >;73C                 1.000  >;73C-                 >C-
+ JER 06,29  TM          T.A74M                1.000  T.A74M                 TM
+ JER 07,22  HWYJ>       HOWYIJ>I71J           1.000  HOWYIJ>I71             HWYJ>
+ JER 08,01  WJYJ>W      JOWYI74J>W.           1.000  WOJYI74J>W.            WJYJ>W
+ JER 08,06  B-          B.I-                  1.000  B.I-                   B-
+ JER 08,06  MRYWTM      M:R74W.Y@T@80M        1.000  M:RU74Y@WT@80M         MRYWTM
+ JER 08,07  W-          W:-                   1.000  W:-                    W-
+ JER 08,07  SWS         SIJS03                1.000  SIWS03                 SWS
+ JER 09,07  CWXV        C@X91W.V              1.000  C@WXU91V               CWXV
+ JER 10,13  .-          H@-                   1.000  @-                     -
+ JER 10,13  >RY         >@92REY               1.000  >@92REY                >RY
+ JER 10,17  JCBTJ       JOCE73BET             1.000  JOCE73BETJ             JCBTJ
+ JER 13,16  J-          W:-                   1.000  J:-                    J-
+ JER 13,16  CJT         CI73JT                1.000  CI73JT                 CJT
+ JER 13,20  F>J         F:>70W.               1.000  F:>70J.                F>J
+ JER 13,20  W-          W.-                   1.000  W.-                    W-
+ JER 13,20  R>J         R:>80W.               1.000  R:>80J.                R>J
+ JER 14,03  Y<WRJHM     Y:<IJR;JHE73M         1.000  Y:<IWR;JHE73M          Y<WRJHM
+ JER 14,14  W-          WE45-                 1.000  WE45-                  W-
+ JER 14,14  >LWL        >:ELIJL03             1.000  >:ELIWL03              >LWL
+ JER 14,14  W-          W:-                   1.000  W:-                    W-
+ JER 14,14  TRMWT       TAR:MI74JT            1.000  TAR:MI74WT             TRMWT
+ JER 15,04  L-          L:-                   1.000  L:-                    L-
+ JER 15,04  ZW<H        ZA45<:AW@80H          1.000  ZA45W:A<@80H           ZW<H
+ JER 15,08  >LMNTW      >AL:M:NOWT@JW03       1.000  >AL:M:NOT@W03          >LMNTW
+ JER 15,09  B>H         B.@71>                1.000  B.@71>H                B>H
+ JER 15,11  CRWTK       C;45RIJTI73K@         1.000  C;45RIWTI73K@          CRWTK
+ JER 15,16  DBRJK       D:B@45R:K@03          0.515  D:B@45R:JK@03          DBRJK
+ JER 16,16  L-          L:-                   1.000  L:-                    L-
+ JER 16,16  DWGJM       DAJ.@GI71JM           1.000  DAW.@GI71JM            DWGJM
+ JER 17,08  JR>         JIR:>EH03             1.000  JIR:>E03               JR>
+ JER 17,10  K-          K.I-                  1.000  K.I-                   K-
+ JER 17,10  DRKW        D:R@K@80JW            1.000  D:R@K@80W              DRKW
+ JER 17,11  JMW         J@M@JW03              1.000  J@M@W03                JMW
+ JER 17,13  J-          W:-                   1.000  J:-                    J-
+ JER 17,13  SWRJ        SW.RAJ03              1.000  SW.RAJ03               SWRJ
+ JER 17,19  .-          H@-                   1.000  @-                     -
+ JER 17,19  <M          <@80M                 1.000  <@80M                  <M
+ JER 17,23  CWM<        C:MO80W<A             1.000  C:WMO80<A              CWM<
+ JER 17,24  BH          B.O73W                1.000  B.O73H                 BH
+ JER 18,03  W-          W:-                   1.000  W:-                    W-
+ JER 18,03  HN-         HIN.;H&               1.000  HIN.;-                 HN-
+ JER 18,03  HW          H91W.>                1.000  H91W.                  HW
+ JER 18,10  H-          H@-                   1.000  H@-                    H-
+ JER 18,10  R<H         RA<03                 0.723  RA<03H                 R<H
+ JER 18,16  CRWQT       C:RIJQO74T            1.000  C:RIWQO74T             CRWQT
+ JER 18,22  CJXH        CW.X@H03              1.000  CJ.X@H03               CJXH
+ JER 18,23  W-          W:-                   1.000  W:-                    W-
+ JER 18,23  HJW         JIH:J70W.             1.000  IH:J70W.               HJW
+ JER 19,02  H-          HA45-                 1.000  HA45-                  H-
+ JER 19,02  XRSWT       XAR:SI92JT            1.000  XAR:SI92WT             XRSWT
+ JER 19,15  MBJ         M;BI61J>              1.000  M;BI61J                MBJ
+ JER 21,09  J-          W:-                   1.000  J:-                    J-
+ JER 21,09  XJH         X@J@80H               1.000  X@J@80H                XJH
+ JER 21,12  M<LLJHM     MA<AL:L;JKE75M00      1.000  MA<AL:L;JHE75M00       M<LLJHM
+ JER 22,04  W-          WA-                   1.000  WA-                    W-
+ JER 22,04  <BDW        <:AB@D@73JW           1.000  <:AB@D@73W             <BDW
+ JER 22,06  NWCBH       NOWC@75BW.00          1.000  NOWC@75BUH00           NWCBH
+ JER 22,18  HDH         HODO75W00             1.000  HODO75H00              HDH
+ JER 22,23  JCBTJ       JOCAB:T.:03           0.597  JOCAB:T.:J03           JCBTJ
+ JER 22,23  MQNNTJ      M:QUN.A73N:T.:        0.603  M:QUN.A73N:T.:J        MQNNTJ
+ JER 23,18  DBRJ        D.:B@RO73W            1.000  D.:B@RO73J             DBRJ
+ JER 24,09  L-          L:-                   1.000  L:-                    L-
+ JER 24,09  ZW<H        ZA<:AW@74H            1.000  ZAW:A<@74H             ZW<H
+ JER 25,07  HK<SWNJ     HAK:<IJS;91NIJ        1.000  HAK:<IS;W91NIJ         HK<SWNJ
+ JER 25,13  W-          W:-                   1.000  W:-                    W-
+ JER 25,13  HB>JTJ      H;45B;>TIJ03          1.000  H;45B;>JTIJ03          HB>JTJ
+ JER 26,06  H-          HA-                   1.000  HA-                    H-
+ JER 26,06  Z>TH        Z.O>T03               0.723  Z.O>T03H               Z>TH
+ JER 26,18  MJKJH       MIJK@H03              0.515  MIJK@JH03              MJKJH
+ JER 27,20  JKWNJH      J:K@N:J@63H           0.515  J:K@WN:J@63H           JKWNJH
+ JER 28,01  B-          B.A-                  1.000  B.A-                   B-
+ JER 28,01  .-          -                     1.000  -                      -
+ JER 28,01  CNT         C.@N@H03              1.000  C.@N@T03               CNT
+ JER 29,14  CBJTKM      C:BW.T:KE81M          1.000  C:BJ.T:KE81M           CBJTKM
+ JER 29,18  L-          L:-                   1.000  L:-                    L-
+ JER 29,18  ZW<H        ZA<:AW@61H            1.000  ZAW:A<@61H             ZW<H
+ JER 29,23  H-          HA-                   1.000  HA-                    H-
+ JER 29,23  WJD<        J.OWD;71<A            1.000  W.OJD;71<A             WJD<
+ JER 31,21  HLKTJ       H@L@92K:T.:           0.603  H@L@92K:T.:J           HLKTJ
+ JER 31,38  .           B.@>I73JM             1.000  .@I73                  *
+ JER 31,39  QWH         Q@70W                 1.000  Q@70WH                 QWH
+ JER 31,40  H-          HA-                   1.000  HA-                    H-
+ JER 31,40  CRMWT       C.:D;MOWT04           1.000  C.:R;MOWT04            CRMWT
+ JER 32,01  B-          B.A-                  1.000  B.A-                   B-
+ JER 32,01  .-          -                     1.000  -                      -
+ JER 32,01  CNT         C.@N@H03              1.000  C.@N@T03               CNT
+ JER 32,04  <JNW        <;JN@71JW             1.000  <;JN@71W               <JNW
+ JER 32,23  W-          W.-                   1.000  W.-                    W-
+ JER 32,23  B-          B:-                   1.000  B:-                    B-
+ JER 32,23  TRWTK       TOWR@T:K@74           1.000  TOR@WT:K@74            TRWTK
+ JER 32,35  HXVJ        HAX:AVI71J>           1.000  HAX:AVI71J             HXVJ
+ JER 33,08  L-          L:-                   1.000  L:-                    L-
+ JER 33,08  KWL         K@L&                  0.515  K@WL&                  KWL&
+ JER 33,26  >CWB        >@CI71JB              1.000  >@CI71WB               >CWB
+ JER 34,11  W-          WA45-                 1.000  WA45-                  W-
+ JER 34,11  JKBJCWM     J.IK:B.:C80W.M        0.512  J.IK:B.:JC80W.M        JKBJCWM
+ JER 34,17  L-          L:-                   1.000  L:-                    L-
+ JER 34,17  ZW<H        ZA<:AW@80H            1.000  ZAW:A<@80H             ZW<H
+ JER 37,04  H-          HA-                   1.000  HA-                    H-
+ JER 37,04  KLJ>        K.:L75W.>00           1.000  K.:L75J.>00            KLJ>
+ JER 37,19  W-          W:-                   1.000  W:-                    W-
+ JER 37,19  >JW         >AJ.;H03              1.000  >AJ.;W03               >JW
+ JER 38,02  J-          W:-                   1.000  J:-                    J-
+ JER 38,02  XJH         X@J@80H               1.000  X@J@80H                XJH
+ JER 38,11  HSXBWT      S:X@BO80WT            1.000  HS:X@BO80WT            HSXBWT
+ JER 38,16  >T_>CR      >:ACER04              0.444  >T_>:ACER04            >T_>:ACER04
+ JER 39,12  KJ_>M       K.I81J                1.000  K.I81J_>M              K.I81J_>M
+ JER 39,16  MBJ         M;BI63J>              1.000  M;BI63J                MBJ
+ JER 40,03  .-          HA-                   1.000  A-                     -
+ JER 40,03  DBR         D.@B@71R              1.000  D.@B@71R               DBR
+ JER 40,08  <WPJ        <;JPA74J              1.000  <;WPA74J               <WPJ
+ JER 40,16  T<F         T.A<:AF;73H           1.000  T.A<:AF;73             T<F
+ JER 41,17  KMWHM       K.IM:H@80M            0.515  K.IM:WH@80M            KMWHM
+ JER 42,06  >NW         >:ANA61X:NW.          1.000  >:ANA61:W.             >NW
+ JER 42,20  HT<TJM      HIT:<;TEM02           0.515  HIT:<;TEJM02           HT<TJM
+ JER 43,10  CPRWRW      CAP:RIJRO73W          1.000  CAP:RIWRO73W           CPRWRW
+ JER 43,11  W-          W.-                   1.000  W.-                    W-
+ JER 43,11  B>H         B@85>                 1.000  B@85>H                 B>H
+ JER 46,11  HRBJTJ      HIR:B.;74JT           1.000  HIR:B.;74JTJ           HRBJTJ
+ JER 48,04  Y<WRJH      Y:<IJRE75JH@00        1.000  Y:<IWRE75JH@00         Y<WRJH
+ JER 48,05  H-          HA-                   1.000  HA-                    H-
+ JER 48,05  LXWT        L.UXI80JT             1.000  L.UXI80WT              LXWT
+ JER 48,07  KMJC        K:MOWC03              1.000  K:MOJC03               KMJC
+ JER 48,07  JXD         JAX:D.@75JW00         1.000  JAX:D.@7500            JXD
+ JER 48,18  J-          W.-                   1.000  J.-                    J-
+ JER 48,18  CBJ         C:BI74J               1.000  C:BI74J                CBJ
+ JER 48,20  HJLJLJ      H;JLI74JLW.05         1.000  H;JLI74JLJ.05          HJLJLJ
+ JER 48,20  W-          W.45-                 1.000  W.45-                  W-
+ JER 48,20  Z<QJ        Z:<@92QW.             1.000  Z:<@92QJ.              Z<QJ
+ JER 48,21  MWP<T       M;JP@75<AT00          1.000  M;WP@75<AT00           MWP<T
+ JER 48,27  NMY>H       NIM:Y@92>             1.000  NIM:Y@92>H             NMY>H
+ JER 48,44  H-          HA-                   1.000  HA-                    H-
+ JER 48,44  NJS         N.@62S                0.532  N.@J62S                NJS
+ JER 49,25  THLH        T.:HIL.@92T           1.000  T.:HIL.@92H            THLH
+ JER 49,28  NBWKDR>YWR  N:B45W.KAD:RE>Y.A74R  0.532  N:B45W.KAD:RE>Y.AW74R  NBWKDR>YWR
+ JER 49,30  <LJHM       <:AL;JKE73M           1.000  <:AL;JHE73M            <LJHM
+ JER 49,36  <WLM        <;JL@75M00            1.000  <;WL@75M00             <WLM
+ JER 49,39  >CWB        >@CI91JB              1.000  >@CI91WB               >CWB
+ JER 49,39  CBJT        C:B71W.T              1.000  C:B71J.T               CBJT
+ JER 50,06  HJH         H@J74W.               1.000  H@JU74H                HJH
+ JER 50,06  CWBBJM      CO45WB:B92W.M         1.000  CO45WB:B92J.M          CWBBJM
+ JER 50,08  JY>W        Y;92>W.               1.000  JY;92>W.               JY>W
+ JER 50,11  TFMXJ       TIF:M:XW.03           1.000  TIF:M:XJ.03            TFMXJ
+ JER 50,11  T<LZJ       TA45<AL:Z80W.         1.000  TA45<AL:Z80J.          T<LZJ
+ JER 50,11  TPWCJ       T@P33W.CW.03          1.000  T@P33W.CJ.03           TPWCJ
+ JER 50,11  W-          W:-                   1.000  W:-                    W-
+ JER 50,11  TYHLJ       TIY:H:AL73W.          1.000  TIY:H:AL73J.           TYHLJ
+ JER 50,15  >CWJTJH     >@C:JOWTE80JH@        1.000  >@C:WOJTE80JH@         >CWJTJH
+ JER 50,29  .           L@H.03                1.000  @03                    *
+ JER 50,44  >RWYM       >:ARIJY;M03           1.000  >:ARIWY;M03            >RWYM
+ JER 51,03  JDRK_JDRK   JID:RO70K:            0.304  JID:RO70K:_JDRK        JID:RO70K:_JDRK
+ JER 51,09  RP>NW       RIP.I74JNW.           1.000  RIP.I74>NW.            RP>NW
+ JER 51,13  CKNTJ       COKAN:T.:03           0.597  COKAN:T.:J03           CKNTJ
+ JER 51,34  >KLNW       >:AK@LA74NIJ          1.000  >:AK@LA74NIW           >KLNW
+ JER 51,34  HMMNW       H:AM@MA81NIJ          1.000  H:AM@MA81NIW           HMMNW
+ JER 51,34  HYJGNW      HIY.IJGA33NIJ03       1.000  HIY.IJGA33NIW03        HYJGNW
+ JER 51,34  BL<NW       B.:L@<A33NIJ03        1.000  B.:L@<A33NIW03         BL<NW
+ JER 51,34  HDJXNW      H:EDIJX@75NIJ00       1.000  H:EDIJX@75NIW00        HDJXNW
+ JER 52,01  XMJVL       X:AMW.VA71L           1.000  X:AMJ.VA71L            XMJVL
+ JER 52,11  BBJT        B;45JT&               0.558  BB;45JT&               BBJT&
+ JER 52,21  QWMH        QOWMAT03              1.000  QOWMAH03               QWMH
+ JER 52,31  H-          HA-                   1.000  HA-                    H-
+ JER 52,31  KLJ>        K.:L75W.>00           1.000  K.:L75J.>00            KLJ>
+ JER 52,32  .-          HA-                   1.000  A-                     -
+ JER 52,32  MLKJM       M.:L@KI91JM           1.000  M.:L@KI91JM            MLKJM
+ JES 03,15  M-        M.AH&                1.000  MA-                 M-
+ JES 03,15  LKM       L.@KEM03             1.000  L.@KEM03            LKM
+ JES 03,16  NVWWT     N:VW.JO74WT          1.000  N:VW.O74WT          NVWWT
+ JES 05,29  WC>G      JIC:>A63G            1.000  WIC:>A63G           WC>G
+ JES 09,02  L>        LO73W                1.000  LO73>               L>
+ JES 09,06  L-        L:-                  1.000  L:-                 L-
+ JES 09,06  MRBH      MAR:B.;63H           1.000  MAR:B.;63H          MRBH
+ JES 10,06  W-        W.-                  1.000  W.-                 W-
+ JES 10,06  L-        L:-                  1.000  L:-                 L-
+ JES 10,06  FJMW      FW.MO71W             1.000  FJ.MO71W            FJMW
+ JES 10,13  W-        WA-                  1.000  WA-                 W-
+ JES 10,13  <TJDTJHM  <:ATW.DO45WT;JHEM03  1.000  <:ATJ.DO45T;JHEM03  <TJDTJHM
+ JES 10,32  BJT       B.AT&                0.512  B.AJT&              BJT&
+ JES 12,05  MJD<T     MW.DA71<AT           1.000  MJ.DA71<AT          MJD<T
+ JES 13,16  TCGLNH    T.IC.@KA75B:N@H00    1.000  T.IC.@GA75L:N@H00   TCGLNH
+ JES 16,03  HBJ>W     H@BI70J>IJ           1.000  H@BI70J>IW          HBJ>W
+ JES 18,04  >CQWVH    >EC:Q:@V@73H         0.515  >EC:Q:@WV@73H       >CQWVH
+ JES 23,12  KTJJM     K.IT.IJM03           1.000  K.IT.IJJM03         KTJJM
+ JES 23,13  BXJNJW    BAXW.N@81JW          1.000  BAXJ.N@81JW         BXJNJW
+ JES 25,10  BMJ       B.:MO71W             1.000  B.:MO71J            BMJ
+ JES 26,20  DLTJK     D.:L@T:K@73          0.515  D.:L@T:JK@73        DLTJK
+ JES 26,20  J<BWR     JA<:AB@R&            0.515  JA<:AB@WR&          J<BWR&
+ JES 28,15  CJV       CO74WV               1.000  CO74JV              CJV
+ JES 28,15  <BR       JA95<:ABOR03         1.000  A95<:ABOR03         <BR
+ JES 29,11  HSPR      S;91PER              1.000  HS;91PER            HSPR
+ JES 30,32  BH        B.@75M00             1.000  B.@75H00            BH
+ JES 30,33  HW>       HI91J>               1.000  HI91W>              HW>
+ JES 32,07  <NWJM     <:ANIJ.IJM03         1.000  <:ANIW.IJM03        <NWJM
+ JES 32,15  W-        W:-                  1.000  W:-                 W-
+ JES 32,15  .-        HA-                  1.000  A-                  -
+ JES 32,15  KRML      K.AR:ME73L           1.000  K.AR:ME73L          KRML
+ JES 36,12  XR>JHM    YOW>@T@81M           0.558  XOR@>JH@81M         XR>JHM
+ JES 36,12  CJ-       M;JM;71J             1.000  C;J;71-             CJ-
+ JES 36,12  NJHM      RAG:L;JHE73M         1.000  NAJ:;HE73M          NJHM
+ JES 37,30  W-        W:-                  1.000  W:-                 W-
+ JES 37,30  >KWL      >IK:L71W.            1.000  >IK:WLU71           >KWL
+ JES 39,02  NKTH      N:KOTO83W            1.000  N:KOTO83H           NKTH
+ JES 41,23  W-        W:-                  1.000  W:-                 W-
+ JES 41,23  NR>       NIR:>E71H            1.000  NIR:>E71            NR>
+ JES 42,20  R>JT      R@>O71WT             1.000  R@>O71JT            R>JT
+ JES 42,24  L-        LI-                  1.000  LI-                 L-
+ JES 42,24  MCWSH     M:CIJS.@94H          1.000  M:CIWS.@94H         MCWSH
+ JES 44,17  JSGWD     JIS:G.@D&            0.512  JIS:G.@WD&          JSGWD&
+ JES 44,24  MJ        M;-                  0.908  M;J                 MJ
+ JES 44,24  >TJ       >IT.I75J00           1.000  >IT.I75J00          >TJ
+ JES 45,02  >WCR      >:AJAC.;92R          1.000  >:AWAC.;92R         >WCR
+ JES 46,11  <YTW      <:AY@TI92J           1.000  <:AY@TI92W          <YTW
+ JES 47,13  HBRW      HOB:R;74J            1.000  HOB:R;74W           HBRW
+ JES 49,05  L>        LO74W                1.000  LO74>               L>
+ JES 49,06  W-        W.-                  1.000  W.-                 W-
+ JES 49,06  NYJRJ     N:YW.R;71J           1.000  N:YJ.R;71J          NYJRJ
+ JES 49,13  J-        W.-                  1.000  J.-                 J-
+ JES 49,13  PYXW      PIY:X71W.            1.000  PIY:X71W.           PYXW
+ JES 52,02  HTPTXW    HI45T:P.AT.:XIJ03    1.000  HI45T:P.AT.:XIW03   HTPTXW
+ JES 52,05  MJ        MAH&                 1.000  MAJ&                MJ&
+ JES 52,05  LJ        L.IJ&                1.000  L.IJ&               LJ&
+ JES 52,05  MCLW      MOC:L@70JW           1.000  MOC:L@70W           MCLW
+ JES 54,16  HN        HIN.;70H             1.000  HIN.;70             HN
+ JES 55,13  .-        W:-                  1.000  :-                  -
+ JES 55,13  TXT       TA71XAT              1.000  TA71XAT             TXT
+ JES 56,10  YPW       YOP@62JW             1.000  YOP@62W             YPW
+ JES 57,19  NWB       NI74JB               1.000  NI74WB              NWB
+ JES 58,14  BMWTJ     B.@74M:@T;J          0.515  B.@74M:@WT;J        BMWTJ
+ JES 60,21  MV<W      MAV.@<A91J           1.000  MAV.@<A91W          MV<W
+ JES 62,03  W-        W.-                  1.000  W.-                 W-
+ JES 62,03  YNWP      Y:NI71JP             1.000  Y:NI71WP            YNWP
+ JES 63,09  L>        LO74W                1.000  LO74>               L>
+ JES 65,04  W-        W.-                  1.000  W.-                 W-
+ JES 65,04  PRQ       M:RA71Q              1.000  P:RA71Q             PRQ
+ JES 65,07  <L        >EL&                 1.000  <EL&                <L&
+ JES 66,17  >XD       >AXAT03              1.000  >AXAD03             >XD
+ IOB 01,04  >XJTJHM  >AX:JO45WT;JHE80M  1.000  >AX:JO45T;JHE80M  >XJTJHM
+ IOB 01,10  >T       14>AT.@H           1.000  14>AT.@           >T
+ IOB 01,21  JYTJ     J@Y@61>TIJ         1.000  J@Y@61TIJ         JYTJ
+ IOB 02,07  .-       W:-                1.000  :-                -
+ IOB 02,07  <D       <A71D              1.000  <A71D             <D
+ IOB 05,18  W-       W:-                1.000  W:-               W-
+ IOB 05,18  JDW      J@D@71JW           1.000  J@D@71W           JDW
+ IOB 06,02  W-       11W:-              1.000  11W:-             W-
+ IOB 06,02  HJTJ     HAW.@TI81J         1.000  HAJ.@TI81J        HJTJ
+ IOB 06,21  L>       LO92W              1.000  LO92>             L>
+ IOB 06,29  W-       W:-                1.000  W:-               W-
+ IOB 06,29  CBJ      CU45BW.            1.000  CU45BJ.           CBJ
+ IOB 07,01  <L       <:AL;J&            1.000  <:AL;&            <L&
+ IOB 07,05  W-       W:-                1.000  W:-               W-
+ IOB 07,05  GJC      G74W.C             1.000  G74J.C            GJC
+ IOB 09,13  TXTW     T.AX:T.@71JW       1.000  T.AX:T.@71W       TXTW
+ IOB 09,30  B-       B:-                1.000  B:-               B-
+ IOB 09,30  MW       M;J&               1.000  M;W&              MW&
+ IOB 10,20  J-       WA-                1.000  JA-               J-
+ IOB 10,20  XDL      X:AD@92L           1.000  X:AD@92L          XDL
+ IOB 10,20  J-       W:-                1.000  J:-               J-
+ IOB 10,20  CJT      CI71JT             1.000  CI71JT            CJT
+ IOB 13,15  L>       LO74W              1.000  LO74>             L>
+ IOB 14,05  XQW      XUQ.@71JW          1.000  XUQ.@71W          XQW
+ IOB 15,15  B-       13B.I-             1.000  13B.I-            B-
+ IOB 15,15  QDCW     Q:DOC@JW           1.000  Q:DOC@W           QDCW
+ IOB 15,22  W-       W:-                1.000  W:-               W-
+ IOB 15,22  YPW      Y@P73W.J           1.000  Y@P73W.           YPW
+ IOB 15,31  B-       B.A-               1.000  B.A-              B-
+ IOB 15,31  .-       -                  1.000  -                 -
+ IOB 15,31  CW       C.@74JW            1.000  C.@74W            CW
+ IOB 16,16  XMRMRH   13X:@MAR:M:RW.     1.000  13X:@MAR:M:RUH    XMRMRH
+ IOB 19,29  CDJN     CAD.75W.N00        1.000  CAD.75J.N00       CDJN
+ IOB 20,11  <LWMW    <:ALW.M@92JW       1.000  <:ALW.M@92W       <LWMW
+ IOB 21,13  JBLW     J:KAL.74W.         1.000  J:BAL.74W.        JBLW
+ IOB 21,20  <JNW     <;JN@74JW          1.000  <;JN@74W          <JNW
+ IOB 24,01  W-       11W:-              1.000  11W:-             W-
+ IOB 24,01  JD<W     JOD:<@81JW         1.000  JOD:<@81W         JD<W
+ IOB 24,06  JQYJRW   JIQ:YO92WRW.       1.000  JIQ:YO92JRW.      JQYJRW
+ IOB 26,12  W-       11W.-              1.000  11W.-             W-
+ IOB 26,12  B-       BI-                1.000  BI-               B-
+ IOB 26,12  TWBNTW   T:BW.N@TO81W       1.000  T:WBUN@TO81W      TWBNTW
+ IOB 26,14  DRKW     D.:R@K@81JW        1.000  D.:R@K@81W        DRKW
+ IOB 26,14  GBWRTW   11G.:BW.ROT@81JW   1.000  11G.:BW.ROT@81W   GBWRTW
+ IOB 27,15  FRJDW    13F:RIJD@JW        1.000  13F:RIJD@W        FRJDW
+ IOB 30,11  JTRW     JIT:RI74J          1.000  JIT:RI74W         JTRW
+ IOB 30,22  TCWH     T.W.CIJ.@75H00     1.000  T.UCIW.@75H00     TCWH
+ IOB 31,11  HW>      HI71J>             1.000  HI71W>            HW>
+ IOB 31,11  W-       11W:-              1.000  11W:-             W-
+ IOB 31,11  HJ>      H81W.>             1.000  H81J.>            HJ>
+ IOB 31,20  XLYW     X:AL@Y@92JW        1.000  X:AL@Y@92W        XLYW
+ IOB 33,19  W-       W:-                1.000  W:-               W-
+ IOB 33,19  RJB      RO73WB             1.000  RO73JB            RJB
+ IOB 33,21  W-       W:-                1.000  W:-               W-
+ IOB 33,21  CPJ      CUP.71W.           1.000  CUP.71J.          CPJ
+ IOB 33,28  NPCJ     13NAP:COW          1.000  13NAP:COJ         NPCJ
+ IOB 33,28  W-       11W:-              1.000  11W:-             W-
+ IOB 33,28  XJTJ     XAJ.@TOW           1.000  XAJ.@TOJ          XJTJ
+ IOB 37,12  B-       B.:-               1.000  B.:-              B-
+ IOB 37,12  TXBWLTW  TAX:B.W.LOT@74JW   1.000  TAX:B.W.LOT@74W   TXBWLTW
+ IOB 38,01  MN       MI71N05            1.000  MI71N05           MN
+ IOB 38,01  H-       HA-                1.000  HA-               H-
+ IOB 38,01  S<RH     S.:<@R@81H         1.000  S.:<@R@81H        S<RH
+ IOB 38,12  JD<T-    JID.A73<:T.@       1.000  JID.A73<:T.@-     JD<T-
+ IOB 38,12  H        HA-                1.000  HA                H
+ IOB 38,12  CXR      C.A74XAR           1.000  C.A74XAR          CXR
+ IOB 38,41  JLDW     13J:L@D@JW         1.000  13J:L@D@W         JLDW
+ IOB 39,12  JCWB     J@CI74JB           1.000  J@CI74WB          JCWB
+ IOB 39,26  KNPW     K.:N@P@74JW        1.000  K.:N@P@74W        KNPW
+ IOB 39,30  W-       W:-                1.000  W:-               W-
+ IOB 39,30  >PRXW    >EP:ROX@71JW       1.000  >EP:ROX@71W       >PRXW
+ IOB 40,06  MN       MI71N05            1.000  MI71N05           MN
+ IOB 40,06  S<RH     S:<@R@81H          1.000  S:<@R@81H         S<RH
+ IOB 40,17  PXDW     PAX:AD@74JW        1.000  PAX:AD@74W        PXDW
+ IOB 41,04  L>       LO45W&             1.000  LO45>&            L>&
+ IOB 42,02  JD<T     13J@DA<:T.IJ       1.000  13J@DA<:T.I       JD<T
+ IOB 42,10  CBJT     C:B74W.T           1.000  C:B74J.T          CBJT
+ IOB 42,11  >XJTJW   >AX:JOWT@61JW      1.000  >AX:JOT@61JW      >XJTJW
+ IOB 42,16  W-       WA-                1.000  WA-               W-
+ IOB 42,16  JR>      J.IR:>E81H         1.000  J.IR:>E81         JR>
+ JOE 04,01  >CWB  >@CI91JB  1.000  >@CI91WB  >CWB
+ JOZ 02,13  >XWTJ    >AX:JOWTA80J     1.000  >AX:OWTA80J      >XWTJ
+ JOZ 03,04  W-       W.-              1.000  W.-              W-
+ JOZ 03,04  BJNW     B;JN@80JW        1.000  B;JN@80W         BJNW
+ JOZ 03,16  B-       M;45-            1.000  B;45-            B-
+ JOZ 03,16  >DM      >@D@70M          1.000  >@D@70M          >DM
+ JOZ 04,18  B-       K.A-             1.000  B.A-             B-
+ JOZ 04,18  <LWT     <:ALO63WT        1.000  <:ALO63WT        <LWT
+ JOZ 05,01  <BRNW    <@B:R@92M        1.000  <@B:R@92NW       <BRNW
+ JOZ 06,05  B-       K.:-             1.000  B.:-             B-
+ JOZ 06,05  CM<KM    C@M:<:AKEM03     1.000  C@M:<:AKEM03     CM<KM
+ JOZ 06,07  W-       WA-              1.000  WA-              W-
+ JOZ 06,07  J>MRW    J.O33>MER03      0.723  J.O33>MER03W     J>MRW
+ JOZ 06,09  TQ<W     T.OQ:<;73J       1.000  T.OQ:<;73W       TQ<W
+ JOZ 06,13  HWLK     H@LO73WK:        1.000  H@WLO73K:        HWLK
+ JOZ 07,21  W-       W@-              1.000  W@-              W-
+ JOZ 07,21  >R>H     >;74RE>          1.000  >;74RE>H         >R>H
+ JOZ 08,11  BJNW     B.;JN@71JW       1.000  B.;JN@71W        BJNW
+ JOZ 08,16  B-       B.@-             1.000  B.@-             B-
+ JOZ 08,16  .-       -                1.000  -                -
+ JOZ 08,16  <JR      <A80J            1.000  <A80JR           <JR
+ JOZ 09,07  W-       WA-              1.000  WA-              W-
+ JOZ 09,07  J>MRW    J.O71>MER        1.000  J.O71>MERW       J>MRW
+ JOZ 09,07  >KRWT    >E45K:R@T&       0.515  >E45K:R@WT&      >KRWT&
+ JOZ 15,04  W-       W:-              1.000  W:-              W-
+ JOZ 15,04  HJH      H@J91W.          1.000  H@JU91H          HJH
+ JOZ 15,47  H-       HA-              1.000  HA-              H-
+ JOZ 15,47  GBWL     G.@DO73WL        1.000  G.@BO73WL        GBWL
+ JOZ 15,53  W-       W:-              1.000  W:-              W-
+ JOZ 15,53  JNJM     J@N71W.M         1.000  J@N71J.M         JNJM
+ JOZ 15,63  JWKLW    J@K:L71W.        0.515  J@WK:L71W.       JWKLW
+ JOZ 16,03  TY>TW    TOY:>OT@73JW     1.000  TOY:>OT@73W      TY>TW
+ JOZ 18,12  W-       W:-              1.000  W:-              W-
+ JOZ 18,12  HJH      H@JW.03          1.000  H@JUH03          HJH
+ JOZ 18,14  W-       W:-              1.000  W:-              W-
+ JOZ 18,14  HJH      H@J74W.          1.000  H@JU74H          HJH
+ JOZ 18,19  W-       W:-              1.000  W:-              W-
+ JOZ 18,19  HJH      H@J74W.05        1.000  H@JU74H05        HJH
+ JOZ 18,19  TY>WTJW  T.OY:>O74WT      1.000  T.OY:>O74WTJW    TY>WTJW
+ JOZ 18,24  H-       H@45-            1.000  H@45-            H-
+ JOZ 18,24  <MNJ     <AM.ON@91H       1.000  <AM.ON@91J       <MNJ
+ JOZ 19,22  W-       W:-              1.000  W:-              W-
+ JOZ 19,22  CXYWMH   CAX:AYI33JM@H03  1.000  CAX:AYI33WM@H03  CXYWMH
+ JOZ 19,29  W-       W:-              1.000  W:-              W-
+ JOZ 19,29  JHJW     H@J94W.          1.000  JH@J94W.         JHJW
+ JOZ 20,08  GLWN     G.OWL@71N        1.000  G.OL@71WN        GLWN
+ JOZ 21,27  GLWN     G.OWL@70N        1.000  G.OL@70WN        GLWN
+ JOZ 22,07  M-       B.:-             1.000  M:-              M-
+ JOZ 22,07  <BR      <;71BER          1.000  <;71BER          <BR
+ JOZ 24,03  W-       W@-              1.000  W@-              W-
+ JOZ 24,03  >RB      >AR:B.EH03       1.000  >AR:B.E03        >RB
+ JOZ 24,08  W-       W@-              1.000  W@-              W-
+ JOZ 24,08  >B>H     >@BI74J>         1.000  >@BI74>H         >B>H
+ JOZ 24,15  B-       M;-              1.000  B.;-             B-
+ JOZ 24,15  <BR      <;74BER          1.000  <;74BER          <BR
+ THR 01,06  MN        MI-               0.908  MIN                MN
+ THR 01,06  BT        B.AT&             1.000  B.AT&              BT&
+ THR 01,11  MXMWDJHM  MAX:AMAD.;JHE91M  0.515  MAX:AMAWD.;JHE91M  MXMWDJHM
+ THR 01,18  .-        H@45-             1.000  @45-               -
+ THR 01,18  <MJM      <AM.I81JM         1.000  <AM.I81JM          <MJM
+ THR 02,02  .-        W:-               1.000  :-                 -
+ THR 02,02  L>        LO74>             1.000  LO74>              L>
+ THR 02,14  CBJTK     C:BW.T;92K:       1.000  C:BJ.T;92K:        CBJTK
+ THR 02,19  B-        BA-               1.000  BA-                B-
+ THR 02,19  .-        -                 1.000  -                  -
+ THR 02,19  LJL       L.A81J:L@H        1.000  L.A81J:L@          LJL
+ THR 03,10  >RJH      >:ARI73J          1.000  >:ARI73JH          >RJH
+ THR 03,20  W-        W:-               1.000  W:-                W-
+ THR 03,20  TCJX      T@CO71WXA         1.000  T@CO71JXA          TCJX
+ THR 03,25  L-        L:-               1.000  L:-                L-
+ THR 03,25  QWW       QOW@80JW          1.000  QOW@80W            QWW
+ THR 03,32  XSDW      X:AS@D@75JW00     1.000  X:AS@D@75W00       XSDW
+ THR 03,39  XV>W      X:AV@>@75JW00     1.000  X:AV@>@75W00       XV>W
+ THR 04,03  TNJN      T.AN.IJM03        1.000  T.AN.IJN03         TNJN
+ THR 04,03  KJ        K.A-              0.649  K.AJ:              KJ
+ THR 04,03  .-        -                 1.000  -                  -
+ THR 04,03  <NJM      J:<;NI73JM        1.000  <;NI73JM           <NJM
+ THR 04,12  WKL       K.O73L            1.000  WK.O73L            WKL
+ THR 04,16  .-        W.-               1.000  -                  -
+ THR 04,16  ZQNJM     Z:Q;NI73JM        1.000  Z:Q;NI73JM         ZQNJM
+ THR 04,17  <WDJNH    <OWD;33JNW.03     1.000  <OWD;33JNUH03      <WDJNH
+ THR 04,21  JWCBTJ    JOWCE73BET        1.000  JOWCE73BETJ        JWCBTJ
+ THR 05,01  HBJV      HAB.I73JV@H       1.000  HAB.I73JV@         HBJV
+ THR 05,03  .-        W:-               1.000  :-                 -
+ THR 05,03  >JN       >;74JN            1.000  >;74JN             >JN
+ THR 05,05  .-        W:-               1.000  :-                 -
+ THR 05,05  L>        LO71>             1.000  LO71>              L>
+ THR 05,07  .-        W:-               1.000  :-                 -
+ THR 05,07  >JNM      >;JN@80M          1.000  >;JN@80M           >JNM
+ THR 05,07  .-        WA-               1.000  A-                 -
+ THR 05,07  >NXNW     >:ANA73X:NW.      1.000  >:ANA73X:NW.       >NXNW
+ THR 05,21  W-        W:45-             1.000  W:45-              W-
+ THR 05,21  NCWB      N@C80W.B@H        1.000  N@C80W.B@          NCWB
+ LEV 09,22  JDW    J@D@91JW     1.000  J@D@91W      JDW
+ LEV 11,21  L>     LO70W        1.000  LO70>        L>
+ LEV 16,21  JDW    J@D@81JW     1.000  J@D@81W      JDW
+ LEV 21,05  JQRXH  JIQ:R:X70W.  1.000  JIQ:R:XU70H  JQRXH
+ LEV 23,13  W-     W:-          1.000  W:-          W-
+ LEV 23,13  NSKH   NIS:K.O71W   1.000  NIS:K.O71H   NSKH
+ LEV 25,30  L>     LO74W        1.000  LO74>        L>
+ MICH01,03  BMWTJ    B.@71M:@T;J        0.515  B.@71M:@WT;J        BMWTJ
+ MICH01,08  CJLL     COWL@73L           1.000  COJL@73L            CJLL
+ MICH01,10  HTPLCTJ  HIT:P.AL.@75CIJ00  0.515  HIT:P.AL.@75CITJ00  HTPLCTJ
+ MICH03,02  R<H      R@92<              1.000  R@92<H              R<H
+ NAH 01,03  W-      W.-              1.000  W.-              W-
+ NAH 01,03  GDWL    G:D@L&           0.515  G:D@WL&          GDWL&
+ NAH 02,01  L-      LA45-            1.000  LA45-            L-
+ NAH 02,01  <BWR    <:AB@R&          0.515  <:AB@WR&         <BWR&
+ NAH 02,06  B-      B.A-             1.000  B.A-             B-
+ NAH 02,06  HLKWTM  H:ALI45JK@T@92M  1.000  H:ALI45K@WT@92M  HLKWTM
+ NAH 03,03  J-      W:-              1.000  J:-              J-
+ NAH 03,03  KCLW    K@C:L73W.        1.000  K@C:L73W.        KCLW
+ NEH 01,01  KSLW      K.IS:L;JW03        1.000  K.IS:L;W03          KSLW
+ NEH 01,09  W-        WA-                1.000  WA-                 W-
+ NEH 01,09  HBW>TJM   H:ABI45J>OWTIJM03  1.000  H:ABI45W>OTIJM03    HBW>TJM
+ NEH 02,13  HM-       H;74M05            1.000  H;74M05-            HM-
+ NEH 02,13  PRWYJM    P.:RW.YI80JM       1.000  P.:RW.YI80JM        PRWYJM
+ NEH 03,15  W-        W:-                1.000  W:-                 W-
+ NEH 03,15  J<MJDW    JA<:AMIJD03        0.723  JA<:AMIJD03W        J<MJDW
+ NEH 03,20  ZBJ       ZAK.A73J           1.000  ZAB.A73J            ZBJ
+ NEH 03,30  >XRJ      >AX:AR@63JW        1.000  >AX:AR@63J          >XRJ
+ NEH 03,31  >XRJ      >AX:AR@74JW        1.000  >AX:AR@74J          >XRJ
+ NEH 04,07  B-        B.A-               1.000  B.A-                B-
+ NEH 04,07  .-        -                  1.000  -                   -
+ NEH 04,07  YXXJJM    Y.:XIJXI92JM       1.000  Y.:XIXI92JJM        YXXJJM
+ NEH 04,09  W-        WA-                1.000  WA-                 W-
+ NEH 04,09  NCWB      N.@70C@B           0.515  N.@70C@WB           NCWB
+ NEH 05,09  W-        W@-                1.000  W@-                 W-
+ NEH 05,09  J>MR      >OMA85R            1.000  J>OMA85R            J>MR
+ NEH 07,03  W-        W@-                1.000  W@-                 W-
+ NEH 07,03  J>MR      >OMA74R            1.000  J>OMA74R            J>MR
+ NEH 07,52  NPWCSJM   N:PI45JC:SI75JM00  1.000  N:PI45WC:SI75JM00   NPWCSJM
+ NEH 09,06  >T        >AT.@74H           1.000  >AT.@74             >T
+ NEH 09,17  WXSD      XE73SED            1.000  WXE73SED            WXSD
+ NEH 10,20  NWBJ      N;JB@75J00         1.000  N;WB@75J00          NWBJ
+ NEH 11,17  JDJTWN    J:DW.T75W.N00      1.000  J:DJ.T75W.N00       JDJTWN
+ NEH 12,09  W-        W:-                1.000  W:-                 W-
+ NEH 12,09  <NW       <UN.I94J           1.000  <UN.I94W            <NW
+ NEH 12,14  L-        LI-                1.000  LI-                 L-
+ NEH 12,14  MLWKJ     M:LI33JKW.03       1.000  M:LI33WKJ.03        MLWKJ
+ NEH 12,16  L-        L:-                1.000  L:-                 L-
+ NEH 12,16  <DJ>      <ID.O71W>          1.000  <ID.O71J>           <DJ>
+ NEH 12,46  R>C       R@>C;J03           1.000  R@>C;03             R>C
+ NEH 13,23  >CDWDJWT  >AC:D.:@DIJ.O80WT  0.512  >AC:D.:@WDIJ.O80WT  >CDWDJWT
+ NEH 13,23  <MWNJWT   <AM.:@NIJ.O73WT    0.512  <AM.:@WNIJ.O73WT    <MWNJWT
+ NUM 01,16  QRJ>J   Q:RW.>;74J    1.000  Q:RJ.>;74J    QRJ>J
+ NUM 12,03  <NW     <@N@74JW      1.000  <@N@74W       <NW
+ NUM 14,36  W-      WA-           1.000  WA-           W-
+ NUM 14,36  JLWNW   J.AL.I70JNW.  1.000  J.AL.I70WNW.  JLWNW
+ NUM 16,11  TLWNW   TAL.I73JNW.   1.000  TAL.I73WNW.   TLWNW
+ NUM 21,32  W-      WA-           1.000  WA-           W-
+ NUM 21,32  JJRC    J.O73WREC     1.000  J.O73JREC     JJRC
+ NUM 23,13  LK      L:K@H&        1.000  L:K@&         LK&
+ NUM 26,09  QRW>J   Q:RIJ>;74J    1.000  Q:RIW>;74J    QRW>J
+ NUM 32,07  TNW>WN  T:NIJ>80W.N   1.000  T:NIW>80W.N   TNW>WN
+ NUM 34,04  W-      W:-           1.000  W:-           W-
+ NUM 34,04  HJH     H@JW.03       1.000  H@JUH03       HJH
+ OBAD01,11  C<RW  C:<@R@81JW  1.000  C:<@R@81W  C<RW
+ QOH 04,08  <JNJW   <;JNO73W      0.558  <;JN73JOW      <JNJW
+ QOH 04,17  RGLJK   RAG:L:K@81    0.515  RAG:L:JK@81    RGLJK
+ QOH 05,08  HJ>     H92W.>        1.000  H92J.>         HJ>
+ QOH 05,10  R>JT    R:>71W.T      1.000  R:>71J.T       R>JT
+ QOH 06,10  CH-     CE-           0.908  CEH-           CH-
+ QOH 06,10  TQJP    T.AQ.I73JP    1.000  T.AQ.I73JP     TQJP
+ QOH 07,22  >T      >AT.@73H      1.000  >AT.@73        >T
+ QOH 09,04  JBXR    J:XUB.A80R    1.000  J:BUXA80R      JBXR
+ QOH 10,03  K-      K.:-          1.000  K.:-           K-
+ QOH 10,03  CH-     CE-           0.908  CEH-           CH-
+ QOH 10,03  SKL     S.@K@71L      1.000  S.@K@71L       SKL
+ QOH 10,10  HKCJR   HAK:C;73R     0.558  HAK:C;73JR     HKCJR
+ QOH 10,20  HKNPJM  K.:N@PA73JIM  1.000  HK.:N@PA73JIM  HKNPJM
+ QOH 12,06  JRXQ    J;R@T;Q03     1.000  J;R@X;Q03      JRXQ
+ PS005,009  HWCR     HAJ:CA73R         1.000  HAW:CA73R         HWCR
+ PS006,004  W-       W:-               1.000  W:-               W-
+ PS006,004  >T       >AT.@71H          1.000  >AT.@71           >T
+ PS009,013  <NJJM    <:AN@WI25JM00     1.000  <:AN@JI25JM00     <NJJM
+ PS009,019  <NWJM    11<:ANIJ.I81JM    1.000  11<:ANIW81J.IM    <NWJM
+ PS010,005  DRKW     D:R@K@63JW05      1.000  D:R@K@63W05       DRKW
+ PS010,010  WDKH     JID:K.E71H        1.000  WID:K.E71H        WDKH
+ PS010,010  XL-      X;74JL            1.000  X;74L-            XL-
+ PS010,010  K>JM     K.@>I75JM00       1.000  K.@>I75JM00       K>JM
+ PS010,012  <NJJM    <:AN@WI25JM00     1.000  <:AN@JI25JM00     <NJJM
+ PS011,001  NWDW     11N81W.DIJ        1.000  11N81W.DIW        NWDW
+ PS017,011  SBBWNJ   S:B@B92W.NW.      1.000  S:B@B92W.NJ.      SBBWNJ
+ PS017,014  W-       W.95-             1.000  W.95-             W-
+ PS017,014  YPJNK    Y:PW.N:K@02       1.000  Y:PJ.N:K@02       YPJNK
+ PS018,051  MGDL     MAG:D.IJL02       1.000  MAG:D.IL02        MGDL
+ PS024,006  DRCW     D.OR:C@92JW       1.000  D.OR:C@92W        DRCW
+ PS026,002  YRWPH    Y@R:P@73H         0.515  Y@R:WP@73H        YRWPH
+ PS030,004  M-       MI-               1.000  MI-               M-
+ PS030,004  JWRDJ    J.@45R:DIJ&       0.532  J.@45WR:DIJ&      JWRDJ&
+ PS038,021  RDWPJ    R@45D:PIJ&        0.515  R@45D:WPIJ&       RDWPJ&
+ PS039,001  L-       LI45-             1.000  LI45-             L-
+ PS039,001  JDJTWN   JDW.T81W.N        1.000  JDJ.T81W.N        JDJTWN
+ PS041,003  J-       W:-               1.000  J:-               J-
+ PS041,003  >CR      >UC.A74R          1.000  >UC.A74R          >CR
+ PS042,009  CJRH     CIJRO74W          1.000  CIJRO74H          CJRH
+ PS049,015  W-       13W:-             1.000  13W:-             W-
+ PS049,015  YJRM     YW.R@M            1.000  YJ.R@M            YJRM
+ PS051,004  HRBH     13HEREB           1.000  13HEREBH          HRBH
+ PS054,007  JCWB     J@CI74JB          1.000  J@CI74WB          JCWB
+ PS055,016  JCJ-     JAC.I70J          1.000  JAC.I70J-         JCJ-
+ PS055,016  MWT      M@63WET05         1.000  M@63WET05         MWT
+ PS056,007  JYPJNW   JIY:P.O81WNW.     1.000  JIY:P.O81JNW.     JYPJNW
+ PS058,008  XYW      11XIY.@81JW       1.000  11XIY.@81W        XYW
+ PS059,011  XSDW     XAS:D.I74J        1.000  XAS:D.I74W        XSDW
+ PS059,016  JNW<WN   J:NIJ<74W.N       1.000  J:NIW<74W.N       JNW<WN
+ PS060,007  W-       WA-               1.000  WA-               W-
+ PS060,007  <NNW     <:AN;75NIJ00      1.000  <:AN;75NIW00      <NNW
+ PS066,007  JRJMW    J@R73W.MW.        1.000  J@R73J.MW.        JRJMW
+ PS071,012  XJCH     X75W.C@H00        1.000  X75J.C@H00        XJCH
+ PS071,020  HR>JTNW  HIR:>IJTA63NIJ05  1.000  HIR:>IJTA63NIW05  HR>JTNW
+ PS071,020  TXJJNW   T.:XAJ.;92JNIJ    1.000  T.:XAJ.;92JNIW    TXJJNW
+ PS072,017  JNJN     JIN.O97WN         1.000  JIN.O97JN         JNJN
+ PS073,002  NVWJ     N@V@74JW.         1.000  N@V@74WUJ         NVWJ
+ PS073,002  CPKH     CUP.:K71W.        1.000  CUP.:KU71H        CPKH
+ PS073,010  JCJB     J@C74W.B          1.000  J@C74J.B          JCJB
+ PS073,016  HJ>      H74W.>            1.000  H74J.>            HJ>
+ PS074,006  W-       13W:-             1.000  13W:-             W-
+ PS074,006  <T       <AT.@H            1.000  <AT.@             <T
+ PS074,011  XWQK     X;95JQ:K@74       1.000  X;95WQ:K@74       XWQK
+ PS077,001  JDJTWN   J:DW.T81W.N       1.000  J:DJ.T81W.N       JDJTWN
+ PS077,012  >ZKJR    >EZ:K.O71WR       1.000  >EZ:K.O71JR       >ZKJR
+ PS077,020  W-       13W.95-           1.000  13W.95-           W-
+ PS077,020  CBJLJK   C:BI45JL:K@       0.515  C:BI45JL:JK@      CBJLJK
+ PS079,010  B-       B.A-              1.000  B.A-              B-
+ PS079,010  .-       -                 1.000  -                 -
+ PS079,010  GJJM     G.OWJI74M         1.000  G.OJJI74M         GJJM
+ PS085,002  CBWT     C:BI74JT          1.000  C:BI74WT          CBWT
+ PS089,018  TRJM     T.@R71W.M         1.000  T.@R71J.M         TRJM
+ PS089,029  >CMWR    >EC:M@R&          0.515  >EC:M@WR&         >CMWR&
+ PS090,008  CT       CAT.@74H          1.000  CAT.@74           CT
+ PS092,016  <LTH     <AW:L@71T@H       1.000  <A:L@71T@H        <LTH
+ PS100,003  W-       W:-               1.000  W:-               W-
+ PS100,003  L>       LO74W             1.000  LO74>             L>
+ PS101,005  MLWCNJ   M:L@C:NI64J       0.515  M:L@WC:NI64J      MLWCNJ
+ PS102,024  KXW      K.OXI81J          1.000  K.OXI81W          KXW
+ PS105,018  RGLJW    RAG:LO92W         0.558  RAG:LO92JW        RGLJW
+ PS105,028  DBRWW    D.:B@RO75W00      1.000  D.:B@RO75WW00     DBRWW
+ PS106,045  XSDW     X:AS@D@75JW00     1.000  X:AS@D@75W00      XSDW
+ PS119,079  W-       11W:-             1.000  11W:-             W-
+ PS119,079  JD<W     JOD:<;81J         1.000  JOD:<;81W         JD<W
+ PS119,147  L-       LI-               1.000  LI-               L-
+ PS119,147  DBRJK    D:B@R:K@71        0.515  D:B@R:JK@71       DBRJK
+ PS119,161  W-       11W.-             1.000  11W.-             W-
+ PS119,161  M-       MI-               1.000  MI-               M-
+ PS119,161  DBRJK    D.:B@R:K@81       0.515  D.:B@R:JK@81      DBRJK
+ PS123,004  L-       LI-               1.000  LI-               L-
+ PS123,004  G>-      G:>;71J           1.000  G:>;71-           G>-
+ PS123,004  JWNJM    JOWNI75JM00       1.000  JOWNI75JM00       JWNJM
+ PS126,004  CBWTNW   C:BIJT;92NW.      1.000  C:BIWT;92NW.      CBWTNW
+ PS129,003  L-       L:-               1.000  L:-               L-
+ PS129,003  M<NWTM   MA<:ANIJT@75M00   1.000  MA<:ANIWT@75M00   M<NWTM
+ PS139,006  PL>JH    P.:LI74J>@45H     1.000  P.:LI74>@45JH     PL>JH
+ PS139,016  W-       W:-               1.000  W:-               W-
+ PS139,016  L>       LO73W             1.000  LO73>             L>
+ PS140,010  JKSWMW   J:KAS.;75JMOW00   1.000  J:KAS.;75WMOW00   JKSWMW
+ PS140,011  JMJVW    JIM.O71WVW.       1.000  JIM.O71JVW.       JMJVW
+ PS140,013  JD<T     J@DA81<:T.IJ      1.000  J@DA81<:T.I       JD<T
+ PS145,006  W-       W.-               1.000  W.-               W-
+ PS145,006  GDWLTJK  G:DW.L.@T:K@71    0.515  G:DW.L.@T:JK@71   GDWLTJK
+ PS147,019  DBRW     D.:B@R@74JW       1.000  D.:B@R@74W        DBRW
+ PS148,002  YB>W     Y:B@>@75JW00      1.000  Y:B@>@75W00       YB>W
+RICHT01,27  JCB     JOC:B;63J       1.000  JOC:B;63         JCB
+RICHT04,11  B-      B.:-            1.000  B.:-             B-
+RICHT04,11  Y<NJM   YA<:ANAN.I73JM  1.000  YA<:AN.AJI73M    Y<NJM
+RICHT06,05  J-      W.-             1.000  J.-              J-
+RICHT06,05  B>W     B@70>W.         1.000  B@70>W.          B>W
+RICHT07,13  YLWL    Y:LI61JL        1.000  Y:LI61WL         YLWL
+RICHT07,21  W-      WA-             1.000  WA-              W-
+RICHT07,21  JNJSW   J.@N75W.SW.00   1.000  J.@N75J.SW.00    JNJSW
+RICHT09,08  MLWKH   M@L:K@71H       0.515  M@L:WK@71H       MLWKH
+RICHT09,12  MLWKJ   M@L:KI71J       0.515  M@L:WKI71J       MLWKJ
+RICHT11,37  W-      W:-             1.000  W:-              W-
+RICHT11,37  R<JTJ   R;<OWT@75J00    1.000  R;<OJT@75J00     R<JTJ
+RICHT13,17  DBRJK   D:B@R:K@73      0.515  D:B@R:JK@73      DBRJK
+RICHT16,18  LH      LI73J           1.000  LI73H            LH
+RICHT16,21  H-      H@-             1.000  H@-              H-
+RICHT16,21  >SJRJM  >:ASW.RI75JM00  1.000  >:ASJ.RI75JM00   >SJRJM
+RICHT16,25  KJ      K.:-            0.649  K.:J             KJ
+RICHT16,25  VWB     VO74WB          1.000  VO74WB           VWB
+RICHT16,25  H-      H@-             1.000  H@-              H-
+RICHT16,25  >SJRJM  >:ASW.RI81JM    1.000  >:ASJ.RI81JM     >SJRJM
+RICHT16,26  W-      WA-             1.000  WA-              W-
+RICHT16,26  HJMCNJ  H:AMIC;33NIJ03  0.515  H:AJMIC;33NIJ03  HJMCNJ
+RICHT17,02  W-      W:-             1.000  W:-              W-
+RICHT17,02  >TJ     >A70T.:         0.603  >A70T.:J         >TJ
+RICHT19,03  L-      LA-             1.000  LA-              L-
+RICHT19,03  HCJBW   H:ACIJB@80H.    1.000  H:ACIJB@80W.     HCJBW
+RICHT19,13  LK      L:K@71H         1.000  L:K@71           LK
+RICHT19,21  W-      WA-             1.000  WA-              W-
+RICHT19,21  JBWL    J.@73B@L        0.515  J.@73B@WL        JBWL
+RICHT19,25  B-      K.A-            1.000  B.A-             B-
+RICHT19,25  <LWT    <:ALO71WT       1.000  <:ALO71WT        <LWT
+RICHT20,13  .       B.:N;74J        1.000  :;74             *
+RICHT20,13  BNJMN   BIN:J@MI80N     1.000  B.IN:J@MI80N     BNJMN
+RICHT21,20  W-      WA-             1.000  WA-              W-
+RICHT21,20  JYW     J:YAW.85W.      1.000  J:YAW.U85        JYW
+RICHT21,22  L-      L@-             1.000  L@-              L-
+RICHT21,22  RWB     RI74JB05        1.000  RI74WB05         RWB
+ RUTH01,08  J<FH    JA74<AF          1.000  JA74<AFH        J<FH
+ RUTH02,01  MJD<    MOWDA74<         1.000  MOJDA74<        MJD<
+ RUTH03,03  FMLTK   FIM:LOTA91JIK:   1.000  FIM:LOTA91IK:   FMLTK
+ RUTH03,03  W-      W:-              1.000  W:-             W-
+ RUTH03,03  JRDTJ   J@RA74D:T.:      0.603  J@RA74D:T.:J    JRDTJ
+ RUTH03,04  W-      W:-              1.000  W:-             W-
+ RUTH03,04  CKBTJ   C@K@92B:T.:      0.603  C@K@92B:T.:J    CKBTJ
+ RUTH03,05  .       >;LA73J          1.000  ;A73            *
+ RUTH03,12  KJ_>M   K.I71J           1.000  K.I71J_>M       K.I71J_>M
+ RUTH03,14  MRGLTW  MAR:G.:LOT@JW03  1.000  MAR:G.:LOT@W03  MRGLTW
+ RUTH03,14  B-      B.:-             1.000  B.:-            B-
+ RUTH03,14  VRWM    VE91REM          0.515  VE91REWM        VRWM
+ RUTH03,17  .       >;LA80J          1.000  ;A80            *
+ RUTH04,04  W-      W:-              1.000  W:-             W-
+ RUTH04,04  >D<     >;45D:<@H03      1.000  >;45D:<@03      >D<
+ RUTH04,05  QNJTJ   Q@NI80JT@H       1.000  Q@NI80JT@J      QNJTJ
+ RUTH04,06  L-      LI-              1.000  LI-             L-
+ RUTH04,06  G>WL    G:>@L&           0.515  G:>@WL&         G>WL&
+ PRO 01,27  K-      K:-              1.000  K:-             K-
+ PRO 01,27  C>WH    COW>@63H05       1.000  CO>@63WH05      C>WH
+ PRO 02,07  WYPN    JIY:P.O74N       1.000  WIY:P.O74N      WYPN
+ PRO 02,08  XSJDW   X:ASIJD@74JW     1.000  X:ASIJD@74W     XSJDW
+ PRO 03,15  M-      MI-              1.000  MI-             M-
+ PRO 03,15  PNJJM   P.:NIJNI92JM     1.000  P.:NIJI92JM     PNJJM
+ PRO 03,27  JDJK    J@D:K@74         0.515  J@D:JK@74       JDJK
+ PRO 03,28  L-      L:-              1.000  L:-             L-
+ PRO 03,28  R<JK    R;45<:AK@6305    0.515  R;45<:AJK@6305  R<JK
+ PRO 03,30  TRWB    T.@RI74JB        1.000  T.@RI74WB       TRWB
+ PRO 03,34  W-      11W:-            1.000  11W:-           W-
+ PRO 03,34  L-      LA-              1.000  LA-             L-
+ PRO 03,34  <NJJM   <:AN@WI81JM      1.000  <:AN@JI81JM     <NJJM
+ PRO 04,16  JKCWLW  JAK:CI75JLW.00   1.000  JAK:CI75WLW.00  JKCWLW
+ PRO 06,13  B-      13B.:-           1.000  13B.:-          B-
+ PRO 06,13  <JNW    <;JN@JW          1.000  <;JN@W          <JNW
+ PRO 06,13  B-      B.:-             1.000  B.:-            B-
+ PRO 06,13  RGLW    RAG:L@92JW       1.000  RAG:L@92W       RGLW
+ PRO 06,14  MDNJM   MID:J@NI71JM     1.000  MID:@NI71JM     MDNJM
+ PRO 06,16  TW<BWT  T.OW<:ABA71T     0.558  T.OW<:ABA71WT   TW<BWT
+ PRO 08,17  >HBJH   >OH:ABA74J       1.000  >OH:ABA74JH     >HBJH
+ PRO 08,35  MY>J    M@Y@74>          1.000  M@Y@74>J        MY>J
+ PRO 11,03  WCDM    J:C@D.;75M00     1.000  W:C@D.;75M00    WCDM
+ PRO 12,14  JCWB    J@CI71JB         1.000  J@CI71WB        JCWB
+ PRO 13,20  HLWK    HOL;74K:         0.558  HOL;74WK:       HLWK
+ PRO 13,20  WXKM    JEX:K.@92M       1.000  WEX:K.@92M      WXKM
+ PRO 14,21  <NJJM   <:AN@WI74JM      1.000  <:AN@JI74JM     <NJJM
+ PRO 15,14  W-      W.-              1.000  W.-             W-
+ PRO 15,14  PNJ     PI71J            0.558  PI71NJ          PNJ
+ PRO 16,19  <NJJM   <:AN@WI92JM      1.000  <:AN@JI92JM     <NJJM
+ PRO 16,27  FPTJW   11F:P@TO81W      0.558  11F:P@TO81JW    FPTJW
+ PRO 17,13  TMJC    T@M71W.C         1.000  T@M71J.C        TMJC
+ PRO 17,27  WQR     J:QAR&           1.000  W:QAR&          WQR&
+ PRO 18,17  J-      W.-              1.000  J.-             J-
+ PRO 18,17  B>      B@45>&           1.000  B@45>&          B>&
+ PRO 18,19  W-      11W.-            1.000  11W.-           W-
+ PRO 18,19  MDWNJM  MID:J@NI81JM     1.000  MID:W@NI81JM    MDWNJM
+ PRO 19,07  L>      LOW&             1.000  LO>&            L>&
+ PRO 19,16  JWMT    J@M75W.T00       1.000  J@WMU75T00      JWMT
+ PRO 19,19  GRL     G.:45D@L&        1.000  G.:45R@L&       GRL&
+ PRO 20,04  J-      W:-              1.000  J:-             J-
+ PRO 20,04  C>L     C@>A73L          1.000  C@>A73L         C>L
+ PRO 20,16  NKRJM   N@K:RIJ.@74H     1.000  N@K:RIJ.@74M    NKRJM
+ PRO 20,20  B-      B.E-             1.000  B.E-            B-
+ PRO 20,20  >JCWN   >:EC71W.N        0.515  >:EJC71W.N      >JCWN
+ PRO 20,21  MBXLT   M:BOHE74LET      1.000  M:BOXE74LET     MBXLT
+ PRO 20,30  TMRJQ   T.AM:R74W.Q      1.000  T.AM:R74J.Q     TMRJQ
+ PRO 21,19  MDWNJM  MID:J@NI74JM     1.000  MID:W@NI74JM    MDWNJM
+ PRO 21,29  JKJN    J@BI64JN         1.000  J@KI64JN        JKJN
+ PRO 21,29  DRKJW   D.AR:K.O75W00    0.532  D.AR:K.O75JW00  DRKJW
+ PRO 22,03  W-      W:-              1.000  W:-             W-
+ PRO 22,03  JSTR    NIS:T.@92R       1.000  JIS:T.@92R      JSTR
+ PRO 22,08  JQYWR   JIQ:Y@R&         0.515  JIQ:Y@WR&       JQYWR&
+ PRO 22,11  VHWR    V:H@R&           0.515  V:H@WR&         VHWR&
+ PRO 22,14  JPWL    JIP.@L&          0.512  JIP.@WL&        JPWL&
+ PRO 22,20  CLCWM   C@LIJCI92JM      1.000  C@LICI92WM      CLCWM
+ PRO 22,25  >RXTW   >O45R:XOT@92JW   1.000  >O45R:XOT@92W   >RXTW
+ PRO 23,03  TT>W    13T.IT:>@JW      1.000  13T.IT:>@W      TT>W
+ PRO 23,05  H-      H:A-             1.000  H:A-            H-
+ PRO 23,05  T<WP    T@70<IJP         1.000  T@70<IWP        T<WP
+ PRO 23,05  W<JP    J@<71W.P         1.000  W@<71J.P        W<JP
+ PRO 23,06  TT>W    11T.IT:>@81JW    1.000  11T.IT:>@81W    TT>W
+ PRO 23,24  GWL     G.I74JL          1.000  G.I74WL         GWL
+ PRO 23,24  JGWL    13J@GIJL         1.000  13J@GIWL        JGWL
+ PRO 23,24  .-      W:-              1.000  :-              -
+ PRO 23,24  JWLD    JOWL;71D         1.000  JOWL;71D        JWLD
+ PRO 23,24  WJFMX   JIF:MAX&         1.000  WJIF:MAX&       WJFMX&
+ PRO 23,26  TRYNH   T.IY.O75R:N@H00  1.000  T.IRO75Y:N@H00  TRYNH
+ PRO 23,29  MDWNJM  MID:J@NI63JM05   1.000  MID:W@NI63JM05  MDWNJM
+ PRO 23,31  B-      B.A-             1.000  B.A-            B-
+ PRO 23,31  .-      -                1.000  -               -
+ PRO 23,31  KJS     K.O74WS          1.000  K.O74JS         KJS
+ PRO 24,01  TT>W    11T.IT:>@81JW    1.000  11T.IT:>@81W    TT>W
+ PRO 24,17  >WJBJK  13>O45WJIB:K@    0.515  13>O45WJIB:JK@  >WJBJK
+ PRO 25,24  MDWNJM  11MID:J@NI81JM   1.000  11MID:W@NI81JM  MDWNJM
+ PRO 26,02  L>      LO74W            1.000  LO74>           L>
+ PRO 26,21  MDWNJM  11MID:J@NI81JM   1.000  11MID:W@NI81JM  MDWNJM
+ PRO 26,24  B-      13B.I-           1.000  13B.I-          B-
+ PRO 26,24  FPTW    F:P@T@JW         1.000  F:P@T@W         FPTW
+ PRO 27,10  W-      W:-              1.000  W:-             W-
+ PRO 27,10  R<H     R;93<A           0.747  R;93<AH         R<H
+ PRO 27,15  MDWNJM  11MID:J@NI81JM   1.000  11MID:W@NI81JM  MDWNJM
+ PRO 27,20  W-      13WA-            1.000  13WA-           W-
+ PRO 27,20  >BDH    >:ABAD.OW        1.000  >:ABAD.OH       >BDH
+ PRO 27,24  .-      W@-              1.000  @-              -
+ PRO 27,24  DWR     DO75WR00         1.000  DO75WR00        DWR
+ PRO 28,08  W-      W:-              1.000  W:-             W-
+ PRO 28,08  BTRBJT  TAR:B.I92JT      1.000  BTAR:B.I92JT    BTRBJT
+ PRO 28,16  FN>J    FO71N;>          1.000  FO71N;>J        FN>J
+ PRO 30,10  >DNW    >:ADON@92JW      1.000  >:ADON@92W      >DNW
+ PRO 30,18  W-      11W:-            1.000  11W:-           W-
+ PRO 30,18  >RB<    >AR:B.@<@81H     1.000  >AR:B.@<@81     >RB<
+ PRO 31,04  >W      >;74J            1.000  >;74W           >W
+ PRO 31,16  NV<     N@74V:<@H        1.000  N@74V:<@        NV<
+ PRO 31,18  B-      BA-              1.000  BA-             B-
+ PRO 31,18  .-      -                1.000  -               -
+ PRO 31,18  LJL     L.A74J:L@H       1.000  L.A74J:L@       LJL
+ ZACH01,04  W-        W.-               1.000  W.-                 W-
+ ZACH01,04  M<LJLJKM  MA45<AL:L;JKE73M  0.515  MA45<:AL:JL;JKE73M  M<LJLJKM
+ ZACH01,16  W-        W:-               1.000  W:-                 W-
+ ZACH01,16  QWH       Q@71W             1.000  Q@71WH              QWH
+ ZACH02,08  >LW       >;L@80JW          1.000  >;L@80W             >LW
+ ZACH04,02  W-        W@-               1.000  W@-                 W-
+ ZACH04,02  J>MR      >OMA83R           1.000  J>OMA83R            J>MR
+ ZACH11,02  H-        HA-               1.000  HA-                 H-
+ ZACH11,02  BYWR      B.@YI75JR00       1.000  B.@YI75WR00         BYWR
+ ZACH14,02  TCGLNH    T.IC.@KA92B:N@H   1.000  T.IC.@GA92L:N@H     TCGLNH
+ ZACH14,06  J-        W:-               1.000  J:-                 J-
+ ZACH14,06  QP>WN     QIP.@>O75WN00     1.000  QIP.@>O75WN00       QP>WN
+ ZEP 02,07  CBWTM  C:BIJT@75M00  1.000  C:BIWT@75M00  CBWTM
+ ZEP 02,09  GWJ    G.OWJI73J     1.000  G.OWJI73      GWJ

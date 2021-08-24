@@ -19,30 +19,33 @@
 # ## Discussion
 # Somebody should tell in more detail what they are, and document it in the feature documentation.
 
-# In[3]:
+# In[1]:
 
 
-import os,sys,re,collections
+import os
+import sys
+import re
 from tf.fabric import Fabric
-from tf.writing.transcription import Transcription
 import utils
 
 
 # # Pipeline
-# See [operation](https://github.com/ETCBC/pipeline/blob/master/README.md#operation) 
+# See [operation](https://github.com/ETCBC/pipeline/blob/master/README.md#operation)
 # for how to run this script in the pipeline.
 
 # In[2]:
 
 
-if 'SCRIPT' not in locals():
+if "SCRIPT" not in locals():
     SCRIPT = False
     FORCE = True
-    CORE_NAME = 'bhsa'
-    VERSION= 'c'
+    CORE_NAME = "bhsa"
+    VERSION = "2021"
+
 
 def stop(good=False):
-    if SCRIPT: sys.exit(0 if good else 1)
+    if SCRIPT:
+        sys.exit(0 if good else 1)
 
 
 # # Setting up the context: source file and target directories
@@ -53,22 +56,22 @@ def stop(good=False):
 # In[3]:
 
 
-repoBase = os.path.expanduser('~/github/etcbc')
-thisRepo = '{}/{}'.format(repoBase, CORE_NAME)
+repoBase = os.path.expanduser("~/github/etcbc")
+thisRepo = "{}/{}".format(repoBase, CORE_NAME)
 
-thisSource = '{}/source/{}'.format(thisRepo, VERSION)
+thisSource = "{}/source/{}".format(thisRepo, VERSION)
 
-thisTemp = '{}/_temp/{}'.format(thisRepo, VERSION)
-thisTempSource = '{}/source'.format(thisTemp)
-thisTempTf = '{}/tf'.format(thisTemp)
+thisTemp = "{}/_temp/{}".format(thisRepo, VERSION)
+thisTempSource = "{}/source".format(thisTemp)
+thisTempTf = "{}/tf".format(thisTemp)
 
-thisTf = '{}/tf/{}'.format(thisRepo, VERSION)
+thisTf = "{}/tf/{}".format(thisRepo, VERSION)
 
 
 # In[4]:
 
 
-testFeature = 'pargr'
+testFeature = "pargr"
 
 
 # # Test
@@ -80,40 +83,44 @@ testFeature = 'pargr'
 
 
 if SCRIPT:
-    (good, work) = utils.mustRun(None, '{}/.tf/{}.tfx'.format(thisTf, testFeature), force=FORCE)
-    if not good: stop(good=False)
-    if not work: stop(good=True)
+    (good, work) = utils.mustRun(
+        None, "{}/.tf/{}.tfx".format(thisTf, testFeature), force=FORCE
+    )
+    if not good:
+        stop(good=False)
+    if not work:
+        stop(good=True)
 
 
 # # TF Settings
 # 
 # * a piece of metadata that will go into these features; the time will be added automatically
 # * new text formats for the `otext` feature of TF, based on lexical features.
-#   We select the version specific otext material, 
+#   We select the version specific otext material,
 #   falling back on a default if nothing appropriate has been specified in oText.
-#  
+# 
 # We do not do this for the older versions `4` and `4b`.
 
 # In[6]:
 
 
 provenanceMetadata = dict(
-    dataset='BHSA',
-    datasetName='Biblia Hebraica Stuttgartensia Amstelodamensis',
+    dataset="BHSA",
+    datasetName="Biblia Hebraica Stuttgartensia Amstelodamensis",
     version=VERSION,
-    author='Eep Talstra Centre for Bible and Computer',
-    encoders='Constantijn Sikkel (QDF), and Dirk Roorda (TF)',
-    website='https://shebanq.ancient-data.org',
-    email='shebanq@ancient-data.org',
+    author="Eep Talstra Centre for Bible and Computer",
+    encoders="Constantijn Sikkel (QDF), and Dirk Roorda (TF)",
+    website="https://shebanq.ancient-data.org",
+    email="shebanq@ancient-data.org",
 )
 
 
 # In[7]:
 
 
-utils.caption(4, 'Load the existing TF dataset')
-TF = Fabric(locations=thisTf, modules=[''])
-api = TF.load('label number')
+utils.caption(4, "Load the existing TF dataset")
+TF = Fabric(locations=thisTf, modules=[""])
+api = TF.load("label number")
 api.makeAvailableIn(globals())
 
 
@@ -124,21 +131,21 @@ api.makeAvailableIn(globals())
 # In[8]:
 
 
-utils.caption(0, '\tLabeling clause_atoms')
+utils.caption(0, "\tLabeling clause_atoms")
 
 labelNumberFromNode = {}
 nodeFromLabelNumber = {}
-for n in N():
+for n in N.walk():
     otype = F.otype.v(n)
-    if otype == 'book':
+    if otype == "book":
         curSubtract = 0
         curChapterSeq = 0
-    elif otype == 'chapter':
+    elif otype == "chapter":
         curSubtract += curChapterSeq
         curChapterSeq = 0
-    elif otype == 'verse':
+    elif otype == "verse":
         curLabel = F.label.v(n)
-    elif otype == 'clause_atom':
+    elif otype == "clause_atom":
         curChapterSeq += 1
         nm = int(F.number.v(n)) - curSubtract
         nodeFromLabelNumber[(curLabel, nm)] = n
@@ -148,11 +155,11 @@ nLabs = len(nodeFromLabelNumber)
 nNodes = len(labelNumberFromNode)
 
 if nLabs == nNodes:
-    utils.caption(0, '\tOK: clause atoms succesfully labeled')
-    utils.caption(0, '\t{} clause atoms'.format(nNodes))
+    utils.caption(0, "\tOK: clause atoms succesfully labeled")
+    utils.caption(0, "\t{} clause atoms".format(nNodes))
 else:
-    utils.caption(0, '\tWARNING: clause atoms not uniquely labeled')
-    utils.caption(0, '\t{} labels =/= {} nodes'.format(nLabs, nNodes))
+    utils.caption(0, "\tWARNING: clause atoms not uniquely labeled")
+    utils.caption(0, "\t{} labels =/= {} nodes".format(nLabs, nNodes))
 
 
 # # Read the PX files
@@ -160,11 +167,11 @@ else:
 # In[9]:
 
 
-utils.caption(4, 'Parsing paragraph data in PX')
+utils.caption(4, "Parsing paragraph data in PX")
 
-pxFile = '{}/paragraphs.txt'.format(thisTempSource)
-pxzFile = '{}/paragraphs.txt.bz2'.format(thisSource)
-utils.caption(0, 'bunzipping {} ...'.format(pxzFile))
+pxFile = "{}/paragraphs.txt".format(thisTempSource)
+pxzFile = "{}/paragraphs.txt.bz2".format(thisSource)
+utils.caption(0, "bunzipping {} ...".format(pxzFile))
 utils.bunzip(pxzFile, pxFile)
 pxHandle = open(pxFile)
 
@@ -173,20 +180,25 @@ notFound = set()
 
 ln = 0
 can = 0
-featurescan = re.compile(r'0 0 (..) [0-9]+ LineNr\s*([0-9]+).*?Pargr:\s*([0-9.]+)')
+featurescan = re.compile(r"0 0 (..) [0-9]+ LineNr\s*([0-9]+).*?Pargr:\s*([0-9.]+)")
 curLabel = None
 
 for line in pxHandle:
     ln += 1
-    if line.strip()[0] != '*':
+    if line.strip()[0] != "*":
         curLabel = line[0:10]
         continue
     can += 1
     features = featurescan.findall(line)
     if len(features) == 0:
-        utils.caption(0, '\tWarning: line {}: no instruction, LineNr, Pargr found'.format(ln))
+        utils.caption(
+            0, "\tWarning: line {}: no instruction, LineNr, Pargr found".format(ln)
+        )
     elif len(features) > 1:
-        utils.caption(0, '\tWarning: line {}: multiple instruction, LineNr, Pargr found'.format(ln))
+        utils.caption(
+            0,
+            "\tWarning: line {}: multiple instruction, LineNr, Pargr found".format(ln),
+        )
     else:
         feature = features[0]
         theIns = feature[0]
@@ -198,21 +210,25 @@ for line in pxHandle:
             continue
         data.append((nodeFromLabelNumber[labNum], theIns, theN, thePara))
 pxHandle.close()
-utils.caption(0, '\tRead {} paragraph annotations'.format(len(data)))
+utils.caption(0, "\tRead {} paragraph annotations".format(len(data)))
 
 if notFound:
-    utils.caption(0, '\tWARNING: Could not find {} label/line entries in index: {}'.format(
-        len(notFound), sorted({lab for lab in notFound}),
-    ))
+    utils.caption(
+        0,
+        "\tWARNING: Could not find {} label/line entries in index: {}".format(
+            len(notFound),
+            sorted({lab for lab in notFound}),
+        ),
+    )
 else:
-    utils.caption(0, '\tOK: All label/line entries found in index')
+    utils.caption(0, "\tOK: All label/line entries found in index")
 
 
 # In[10]:
 
 
 if not SCRIPT:
-    print('\n'.join(repr(d) for d in data[0:10]))
+    print("\n".join(repr(d) for d in data[0:10]))
 
 
 # # Prepare TF features
@@ -220,26 +236,26 @@ if not SCRIPT:
 # In[11]:
 
 
-utils.caption(0, 'Prepare TF paragraph features')
+utils.caption(0, "Prepare TF paragraph features")
 
 metaData = {
-  '': provenanceMetadata,
+    "": provenanceMetadata,
 }
 nodeFeatures = {}
 
-newFeatures = '''
+newFeatures = """
     pargr
     instruction
-'''.strip().split()
+""".strip().split()
 
-nodeFeatures = dict( 
+nodeFeatures = dict(
     instruction=dict(((x[0], x[1]) for x in data)),
     pargr=dict(((x[0], x[3]) for x in data)),
 )
 
 for f in nodeFeatures:
     metaData[f] = {}
-    metaData[f]['valueType'] = 'str'
+    metaData[f]["valueType"] = "str"
 
 
 # In[12]:
@@ -255,7 +271,7 @@ changedFeatures = set(nodeFeatures)
 # In[13]:
 
 
-utils.caption(4, 'write new/changed features to TF ...')
+utils.caption(4, "write new/changed features to TF ...")
 TF = Fabric(locations=thisTempTf, silent=True)
 TF.save(nodeFeatures=nodeFeatures, edgeFeatures={}, metaData=metaData)
 
@@ -281,7 +297,7 @@ TF.save(nodeFeatures=nodeFeatures, edgeFeatures={}, metaData=metaData)
 utils.checkDiffs(thisTempTf, thisTf, only=changedFeatures)
 
 
-# # Deliver 
+# # Deliver
 # 
 # Copy the new TF dataset from the temporary location where it has been created to its final destination.
 
@@ -298,10 +314,10 @@ utils.deliverFeatures(thisTempTf, thisTf, changedFeatures)
 # In[16]:
 
 
-utils.caption(4, 'Load and compile the new TF features')
+utils.caption(4, "Load and compile the new TF features")
 
-TF = Fabric(locations=thisTf, modules=[''])
-api = TF.load(' '.join(changedFeatures))
+TF = Fabric(locations=thisTf, modules=[""])
+api = TF.load(" ".join(changedFeatures))
 api.makeAvailableIn(globals())
 
 
@@ -310,26 +326,31 @@ api.makeAvailableIn(globals())
 # In[17]:
 
 
-utils.caption(4, 'Test: paragraphs of the first verses')
+utils.caption(4, "Test: paragraphs of the first verses")
+
 
 def showParagraphs(verseNode):
-    clause_atoms = L.d(verseNode, otype='clause_atom')
+    clause_atoms = L.d(verseNode, otype="clause_atom")
     for ca in clause_atoms:
-        utils.caption(0, '\t\t{:<3} {:>12} {}'.format(
-            F.instruction.v(ca),
-            F.pargr.v(ca),
-            T.text(L.d(ca, otype='word'))
-        ), continuation=True)
+        utils.caption(
+            0,
+            "\t\t{:<3} {:>12} {}".format(
+                F.instruction.v(ca), F.pargr.v(ca), T.text(L.d(ca, otype="word"))
+            ),
+            continuation=True,
+        )
 
-for (i, verseNode) in enumerate(F.otype.s('verse')[0:10]):
+
+for (i, verseNode) in enumerate(F.otype.s("verse")[0:10]):
     verseLabel = T.sectionFromNode(verseNode)
-    verseHeading = '{} {}:{}'.format(*verseLabel) if i == 0 else verseLabel[2]
-    utils.caption(0, '\t{}'.format(verseHeading), continuation=True)
+    verseHeading = "{} {}:{}".format(*verseLabel) if i == 0 or True else verseLabel[2]
+    utils.caption(0, "\t{}".format(verseHeading), continuation=True)
     showParagraphs(verseNode)
 
 
-# In[ ]:
+# In[14]:
 
 
-
+if SCRIPT:
+    stop(good=True)
 

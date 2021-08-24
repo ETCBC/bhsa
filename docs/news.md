@@ -1,5 +1,10 @@
 # Updates
 
+## 2021-08-24
+
+Data version `2021` has arrived from the ETCBC. According to Constantijn Sikkel the most
+consistent version ever.
+
 ## 2019-01-31
 
 Some features only had values for lexeme nodes: `gloss nametype voc_lex voc_lex_utf8`.
@@ -26,6 +31,8 @@ So I added the values of these features for lexemes to all of their occurrences.
 There is a fixed version, 2017 (imported on 2017-10-06), and a nearly identical version `c`,
 imported at the same time. 
 Version `c` is continuous and will be frequently updated.
+(Spoiler as of 2021-08-24: these updates have only happened a few times.
+We discontinue continuous versions. All new versions will be stable versions.)
 
 ## 2017-10-05
 

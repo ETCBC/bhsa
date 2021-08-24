@@ -41,31 +41,34 @@
 # In[1]:
 
 
-import os,sys,re,collections
+import os
+import sys
 from shutil import rmtree
 from tf.fabric import Fabric
 import utils
 
 
 # # Pipeline
-# See [operation](https://github.com/ETCBC/pipeline/blob/master/README.md#operation) 
+# See [operation](https://github.com/ETCBC/pipeline/blob/master/README.md#operation)
 # for how to run this script in the pipeline.
 
-# In[11]:
+# In[2]:
 
 
-if 'SCRIPT' not in locals():
+if "SCRIPT" not in locals():
     SCRIPT = False
     FORCE = True
-    CORE_NAME = 'bhsa'
-    VERSION = '_temp'
-    RENAME=(
-        ('g_suffix', 'trailer'),
-        ('g_suffix_utf8', 'trailer_utf8'),
+    CORE_NAME = "bhsa"
+    VERSION = "2021"
+    RENAME = (
+        ("g_suffix", "trailer"),
+        ("g_suffix_utf8", "trailer_utf8"),
     )
 
+
 def stop(good=False):
-    if SCRIPT: sys.exit(0 if good else 1)
+    if SCRIPT:
+        sys.exit(0 if good else 1)
 
 
 # # Setting up the context: source file and target directories
@@ -73,21 +76,21 @@ def stop(good=False):
 # The conversion is executed in an environment of directories, so that sources, temp files and
 # results are in convenient places and do not have to be shifted around.
 
-# In[12]:
+# In[3]:
 
 
-repoBase = os.path.expanduser('~/github/etcbc')
-thisRepo = '{}/{}'.format(repoBase, CORE_NAME)
+repoBase = os.path.expanduser("~/github/etcbc")
+thisRepo = "{}/{}".format(repoBase, CORE_NAME)
 
-thisSource = '{}/source/{}'.format(thisRepo, VERSION)
-mqlzFile = '{}/{}.mql.bz2'.format(thisSource, CORE_NAME)
+thisSource = "{}/source/{}".format(thisRepo, VERSION)
+mqlzFile = "{}/{}.mql.bz2".format(thisSource, CORE_NAME)
 
-thisTemp = '{}/_temp/{}'.format(thisRepo, VERSION)
-thisTempSource = '{}/source'.format(thisTemp)
-mqlFile = '{}/{}.mql'.format(thisTempSource, CORE_NAME)
-thisTempTf = '{}/tf'.format(thisTemp)
+thisTemp = "{}/_temp/{}".format(thisRepo, VERSION)
+thisTempSource = "{}/source".format(thisTemp)
+mqlFile = "{}/{}.mql".format(thisTempSource, CORE_NAME)
+thisTempTf = "{}/tf".format(thisTemp)
 
-thisTf = '{}/tf/{}'.format(thisRepo, VERSION)
+thisTf = "{}/tf/{}".format(thisRepo, VERSION)
 
 
 # # Test
@@ -95,14 +98,18 @@ thisTf = '{}/tf/{}'.format(thisRepo, VERSION)
 # Check whether this conversion is needed in the first place.
 # Only when run as a script.
 
-# In[13]:
+# In[4]:
 
 
 if SCRIPT:
-    testFile = '{}/.tf/otype.tfx'.format(thisTf)
-    (good, work) = utils.mustRun(mqlzFile, '{}/.tf/otype.tfx'.format(thisTf), force=FORCE)
-    if not good: stop(good=False)
-    if not work: stop(good=True)
+    testFile = "{}/.tf/otype.tfx".format(thisTf)
+    (good, work) = utils.mustRun(
+        mqlzFile, "{}/.tf/otype.tfx".format(thisTf), force=FORCE
+    )
+    if not good:
+        stop(good=False)
+    if not work:
+        stop(good=True)
 
 
 # # TF Settings
@@ -118,30 +125,30 @@ if SCRIPT:
 # We save the configs we need per source and version.
 # And we define a stripped down default version to start with.
 
-# In[14]:
+# In[5]:
 
 
-slotType = 'word'
+slotType = "word"
 
 featureMetaData = dict(
-    dataset='BHSA',
+    dataset="BHSA",
     version=VERSION,
-    datasetName='Biblia Hebraica Stuttgartensia Amstelodamensis',
-    author='Eep Talstra Centre for Bible and Computer',
-    encoders='Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)',
-    website='https://shebanq.ancient-data.org',
-    email='shebanq@ancient-data.org',
+    datasetName="Biblia Hebraica Stuttgartensia Amstelodamensis",
+    author="Eep Talstra Centre for Bible and Computer",
+    encoders="Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)",
+    website="https://shebanq.ancient-data.org",
+    email="shebanq@ancient-data.org",
 )
 
 oText = {
-    '': {
-        '': '''
+    "": {
+        "": """
 @sectionFeatures=book,chapter,verse
 @sectionTypes=book,chapter,verse
 @fmt:text-orig-full={g_word_utf8}{g_suffix_utf8}
-''',
+""",
     },
-    '_temp': '''
+    "_temp": """
 @fmt:lex-orig-full={g_lex_utf8} 
 @fmt:lex-orig-plain={lex_utf8} 
 @fmt:lex-trans-full={g_lex} 
@@ -152,8 +159,8 @@ oText = {
 @fmt:text-trans-plain={g_cons}{trailer}
 @sectionFeatures=book,chapter,verse
 @sectionTypes=book,chapter,verse
-''',
-    'c': '''
+""",  # noqa W291
+    "2021": """
 @fmt:lex-orig-full={g_lex_utf8} 
 @fmt:lex-orig-plain={lex_utf8} 
 @fmt:lex-trans-full={g_lex} 
@@ -164,9 +171,8 @@ oText = {
 @fmt:text-trans-plain={g_cons}{trailer}
 @sectionFeatures=book,chapter,verse
 @sectionTypes=book,chapter,verse
-
-''',
-    '2017': '''
+""",  # noqa W291
+    "2017": """
 @fmt:lex-orig-full={g_lex_utf8} 
 @fmt:lex-orig-plain={lex_utf8} 
 @fmt:lex-trans-full={g_lex} 
@@ -177,9 +183,8 @@ oText = {
 @fmt:text-trans-plain={g_cons}{trailer}
 @sectionFeatures=book,chapter,verse
 @sectionTypes=book,chapter,verse
-
-''',    
-    '2016': '''
+""",  # noqa W291
+    "2016": """
 @fmt:lex-orig-full={g_lex_utf8} 
 @fmt:lex-orig-plain={lex_utf8} 
 @fmt:lex-trans-full={g_lex} 
@@ -190,9 +195,8 @@ oText = {
 @fmt:text-trans-plain={g_cons}{trailer}
 @sectionFeatures=book,chapter,verse
 @sectionTypes=book,chapter,verse
-
-''',
-    '4b': '''
+""",  # noqa W291
+    "4b": """
 @fmt:lex-orig-full={g_lex_utf8} 
 @fmt:lex-orig-plain={lex_utf8} 
 @fmt:lex-trans-full={g_lex} 
@@ -205,8 +209,8 @@ oText = {
 @fmt:text-trans-plain={g_cons} 
 @sectionFeatures=book,chapter,verse
 @sectionTypes=book,chapter,verse
-''',
-    '4': '''
+""",  # noqa W291
+    "4": """
 @fmt:lex-orig-full={g_lex_utf8} 
 @fmt:lex-orig-plain={lex_utf8} 
 @fmt:lex-trans-full={g_lex} 
@@ -219,8 +223,8 @@ oText = {
 @fmt:text-trans-plain={g_cons} 
 @sectionFeatures=book,chapter,verse
 @sectionTypes=book,chapter,verse
-''',
-    '3': '''
+""",  # noqa W291
+    "3": """
 @fmt:lex-orig-full={graphical_lexeme_utf8} 
 @fmt:lex-orig-plain={lexeme_utf8} 
 @fmt:lex-trans-full={graphical_lexeme} 
@@ -231,24 +235,40 @@ oText = {
 @fmt:text-trans-plain={surface_consonants} 
 @sectionFeatures=book,chapter,verse
 @sectionTypes=book,chapter,verse
-''',
+""",  # noqa W291
+    "c": """
+@fmt:lex-orig-full={g_lex_utf8} 
+@fmt:lex-orig-plain={lex_utf8} 
+@fmt:lex-trans-full={g_lex} 
+@fmt:lex-trans-plain={lex} 
+@fmt:text-orig-full={g_word_utf8}{trailer_utf8}
+@fmt:text-orig-plain={g_cons_utf8}{trailer_utf8}
+@fmt:text-trans-full={g_word}{trailer}
+@fmt:text-trans-plain={g_cons}{trailer}
+@sectionFeatures=book,chapter,verse
+@sectionTypes=book,chapter,verse
+""",  # noqa W291
 }
 
 
-# The next function selects the proper otext material, falling back on a default if nothing 
+# The next function selects the proper otext material, falling back on a default if nothing
 # appropriate has been specified in `oText`.
 
-# In[15]:
+# In[6]:
 
 
-thisOtext = oText.get(VERSION, oText[''])
+thisOtext = oText.get(VERSION, oText[""])
 
-if thisOtext is oText['']:
-    utils.caption(0, 'WARNING: no otext feature info provided, using a meager default value')
+if thisOtext is oText[""]:
+    utils.caption(
+        0, "WARNING: no otext feature info provided, using a meager default value"
+    )
     otextInfo = {}
 else:
-    utils.caption(0, 'INFO: otext feature information found')
-    otextInfo = dict(line[1:].split('=', 1) for line in thisOtext.strip('\n').split('\n'))
+    utils.caption(0, "INFO: otext feature information found")
+    otextInfo = dict(
+        line[1:].split("=", 1) for line in thisOtext.strip("\n").split("\n")
+    )
     for x in sorted(otextInfo.items()):
         utils.caption(0, '\t{:<20} = "{}"'.format(*x))
 
@@ -256,7 +276,7 @@ else:
 # # Overview
 # 
 # The program has several stages:
-#    
+# 
 # 1. **prepare** the source (utils.bunzip if needed)
 # 1. **convert** convert the MQL file into a text-fabric dataset
 # 1. **differences** (informational)
@@ -267,17 +287,18 @@ else:
 # 
 # Check the source, utils.bunzip it if needed, empty the result directory.
 
-# In[16]:
+# In[7]:
 
 
 if not os.path.exists(thisTempSource):
     os.makedirs(thisTempSource)
 
-utils.caption(0, 'bunzipping {} ...'.format(mqlzFile))
+utils.caption(0, "bunzipping {} ...".format(mqlzFile))
 utils.bunzip(mqlzFile, mqlFile)
-utils.caption(0, 'Done')
+utils.caption(0, "Done")
 
-if os.path.exists(thisTempTf): rmtree(thisTempTf)
+if os.path.exists(thisTempTf):
+    rmtree(thisTempTf)
 os.makedirs(thisTempTf)
 
 
@@ -285,7 +306,7 @@ os.makedirs(thisTempTf)
 # Transform the collected information in feature-like data-structures, and write it all
 # out to `.tf` files.
 
-# In[17]:
+# In[8]:
 
 
 TF = Fabric(locations=thisTempTf, silent=True)
@@ -295,22 +316,24 @@ TF.importMQL(mqlFile, slotType=slotType, otext=otextInfo, meta=featureMetaData)
 # # Rename features
 # We rename the features mentioned in the RENAME dictionary.
 
-# In[8]:
+# In[9]:
 
 
-if RENAME == None:
-    utils.caption(4, 'Rename features: nothing to do')
+if RENAME is None:
+    utils.caption(4, "Rename features: nothing to do")
 else:
-    utils.caption(4, 'Renaming {} features in {}'.format(len(RENAME), thisTempTf))
+    utils.caption(4, "Renaming {} features in {}".format(len(RENAME), thisTempTf))
     for (srcFeature, dstFeature) in RENAME:
-        srcPath = '{}/{}.tf'.format(thisTempTf, srcFeature)
-        dstPath = '{}/{}.tf'.format(thisTempTf, dstFeature)
+        srcPath = "{}/{}.tf".format(thisTempTf, srcFeature)
+        dstPath = "{}/{}.tf".format(thisTempTf, dstFeature)
         if os.path.exists(srcPath):
             os.rename(srcPath, dstPath)
-            utils.caption(0, '\trenamed {} to {}'.format(srcFeature, dstFeature))
+            utils.caption(0, "\trenamed {} to {}".format(srcFeature, dstFeature))
         else:
-            utils.caption(0, '\tsource feature {} does not exist.'.format(srcFeature))
-            utils.caption(0, '\tdestination feature {} will not be created.'.format(dstFeature))        
+            utils.caption(0, "\tsource feature {} does not exist.".format(srcFeature))
+            utils.caption(
+                0, "\tdestination feature {} will not be created.".format(dstFeature)
+            )
 
 
 # # Diffs
@@ -328,17 +351,17 @@ else:
 # For each changed feature we show the first line where the new feature differs from the old one.
 # We ignore changes in the metadata, because the timestamp in the metadata will always change.
 
-# In[9]:
+# In[10]:
 
 
 utils.checkDiffs(thisTempTf, thisTf)
 
 
-# # Deliver 
+# # Deliver
 # 
 # Copy the new TF dataset from the temporary location where it has been created to its final destination.
 
-# In[10]:
+# In[11]:
 
 
 utils.deliverDataset(thisTempTf, thisTf)
@@ -354,46 +377,46 @@ utils.deliverDataset(thisTempTf, thisTf)
 # will be loaded, as well as the features for sections.
 # 
 # At that point we have access to the full list of features.
-# We grab them and are going to load them all! 
+# We grab them and are going to load them all!
 
-# In[5]:
+# In[12]:
 
 
-utils.caption(4, 'Load and compile standard TF features')
-TF = Fabric(locations=thisTf, modules=[''])
-api = TF.load('')
+utils.caption(4, "Load and compile standard TF features")
+TF = Fabric(locations=thisTf, modules=[""])
+api = TF.load("")
 
-utils.caption(4, 'Load and compile all other TF features')
+utils.caption(4, "Load and compile all other TF features")
 allFeatures = TF.explore(silent=False, show=True)
-loadableFeatures = allFeatures['nodes'] + allFeatures['edges']
+loadableFeatures = allFeatures["nodes"] + allFeatures["edges"]
 api = TF.load(loadableFeatures)
 api.makeAvailableIn(globals())
 
 
 # # Examples
 
-# In[12]:
+# In[13]:
 
 
-utils.caption(4, 'Basic test')
-utils.caption(4, 'First verse in all formats')
+utils.caption(4, "Basic test")
+utils.caption(4, "First verse in all formats")
 for fmt in T.formats:
-    utils.caption(0, '{}'.format(fmt), continuation=True)
-    utils.caption(0, '\t{}'.format(T.text(range(1,12), fmt=fmt)), continuation=True)
+    utils.caption(0, "{}".format(fmt), continuation=True)
+    utils.caption(0, "\t{}".format(T.text(range(1, 12), fmt=fmt)), continuation=True)
 
 
-# In[ ]:
+# In[14]:
 
 
 if SCRIPT:
     stop(good=True)
 
 
-# In[21]:
+# In[16]:
 
 
-f = 'subphrase_type'
-print('`' + '` `'.join(sorted(str(x[0]) for x in Fs(f).freqList())) + '`')
+f = "subphrase_type"
+print("`" + "` `".join(sorted(str(x[0]) for x in Fs(f).freqList())) + "`")
 
 
 # In[ ]:

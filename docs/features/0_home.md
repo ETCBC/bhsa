@@ -1,10 +1,7 @@
-This is *continuous* version **c**.
+This is data version **2021**.
 
-To be updated regularly.
-
-Viewable in [SHEBANQ]({{shebanq}}).
-
-**the weekly updates have not started yet**.
+Viewable in [SHEBANQ]({{shebanq}}) shortly
+(currently the newest stable version in SHEBANQ is 2017).
 
 ## Introduction
 This is the key to the meaning of the features of the

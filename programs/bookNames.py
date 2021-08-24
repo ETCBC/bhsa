@@ -11,7 +11,7 @@
 # 
 # # Booknames (multilingual)
 # 
-# This notebook adds multilingual book names to a 
+# This notebook adds multilingual book names to a
 # [BHSA](https://github.com/ETCBC/bhsa) dataset in
 # [text-Fabric](https://github.com/Dans-labs/text-fabric)
 # format.
@@ -32,30 +32,33 @@
 # This program works for all datasets and versions that have this feature with the
 # intended meaning.
 
-# In[12]:
+# In[1]:
 
 
-import os,sys,re,collections
+import os
+import sys
 import utils
 from tf.fabric import Fabric
 from blang import bookLangs, bookNames
 
 
 # # Pipeline
-# See [operation](https://github.com/ETCBC/pipeline/blob/master/README.md#operation) 
+# See [operation](https://github.com/ETCBC/pipeline/blob/master/README.md#operation)
 # for how to run this script in the pipeline.
 
-# In[13]:
+# In[2]:
 
 
-if 'SCRIPT' not in locals():
+if "SCRIPT" not in locals():
     SCRIPT = False
     FORCE = True
-    CORE_NAME = 'bhsa'
-    VERSION= 'c'
+    CORE_NAME = "bhsa"
+    VERSION = "2021"
+
 
 def stop(good=False):
-    if SCRIPT: sys.exit(0 if good else 1)
+    if SCRIPT:
+        sys.exit(0 if good else 1)
 
 
 # # Setting up the context: source file and target directories
@@ -63,52 +66,52 @@ def stop(good=False):
 # The conversion is executed in an environment of directories, so that sources, temp files and
 # results are in convenient places and do not have to be shifted around.
 
-# In[14]:
+# In[3]:
 
 
-repoBase = os.path.expanduser('~/github/etcbc')
-thisRepo = '{}/{}'.format(repoBase, CORE_NAME)
+repoBase = os.path.expanduser("~/github/etcbc")
+thisRepo = "{}/{}".format(repoBase, CORE_NAME)
 
-thisTemp = '{}/_temp/{}'.format(thisRepo, VERSION)
-thisTempTf = '{}/tf'.format(thisTemp)
+thisTemp = "{}/_temp/{}".format(thisRepo, VERSION)
+thisTempTf = "{}/tf".format(thisTemp)
 
-thisTf = '{}/tf/{}'.format(thisRepo, VERSION)
+thisTf = "{}/tf/{}".format(thisRepo, VERSION)
 
 
 # # Collect
 # 
 # We collect the book names.
 
-# In[15]:
+# In[4]:
 
 
-utils.caption(4, 'Book names')
+utils.caption(4, "Book names")
 
-metaData={
-    '': dict(
-            dataset='BHSA',
-            version=VERSION,
-            datasetName='Biblia Hebraica Stuttgartensia Amstelodamensis',
-            author='Eep Talstra Centre for Bible and Computer',
-            provenance='book names from wikipedia and other sources',
-            encoders='Dirk Roorda (TF)',
-            website='https://shebanq.ancient-data.org',
-            email='shebanq@ancient-data.org',
-        ),
+metaData = {
+    "": dict(
+        dataset="BHSA",
+        version=VERSION,
+        datasetName="Biblia Hebraica Stuttgartensia Amstelodamensis",
+        author="Eep Talstra Centre for Bible and Computer",
+        provenance="book names from wikipedia and other sources",
+        encoders="Dirk Roorda (TF)",
+        website="https://shebanq.ancient-data.org",
+        email="shebanq@ancient-data.org",
+    ),
 }
 
 for (langCode, (langEnglish, langName)) in bookLangs.items():
-    metaData['book@{}'.format(langCode)] = {
-        'valueType': 'str',
-        'language': langName,
-        'languageCode': langCode,
-        'languageEnglish': langEnglish,
+    metaData["book@{}".format(langCode)] = {
+        "valueType": "str",
+        "language": langName,
+        "languageCode": langCode,
+        "languageEnglish": langEnglish,
     }
 
-newFeatures = sorted(m for m in metaData if m != '')
-newFeaturesStr = ' '.join(newFeatures)
+newFeatures = sorted(m for m in metaData if m != "")
+newFeaturesStr = " ".join(newFeatures)
 
-utils.caption(0, '{} languages ...'.format(len(newFeatures)))
+utils.caption(0, "{} languages ...".format(len(newFeatures)))
 
 
 # # Test
@@ -116,45 +119,49 @@ utils.caption(0, '{} languages ...'.format(len(newFeatures)))
 # Check whether this conversion is needed in the first place.
 # Only when run as a script.
 
-# In[16]:
+# In[5]:
 
 
 if SCRIPT:
-    (good, work) = utils.mustRun(None, '{}/.tf/{}.tfx'.format(thisTf, newFeatures[0]), force=FORCE)
-    if not good: stop(good=False)
-    if not work: stop(good=True)
+    (good, work) = utils.mustRun(
+        None, "{}/.tf/{}.tfx".format(thisTf, newFeatures[0]), force=FORCE
+    )
+    if not good:
+        stop(good=False)
+    if not work:
+        stop(good=True)
 
 
 # # Load existing data
 
-# In[17]:
+# In[6]:
 
 
-utils.caption(4, 'Loading relevant features')
+utils.caption(4, "Loading relevant features")
 
-TF = Fabric(locations=thisTf, modules=[''])
-api = TF.load('book')
+TF = Fabric(locations=thisTf, modules=[""])
+api = TF.load("book")
 api.makeAvailableIn(globals())
 
 nodeFeatures = {}
-nodeFeatures['book@la'] = {}
+nodeFeatures["book@la"] = {}
 
 bookNodes = []
-for b in F.otype.s('book'):
+for b in F.otype.s("book"):
     bookNodes.append(b)
-    nodeFeatures['book@la'][b] = F.book.v(b)
+    nodeFeatures["book@la"][b] = F.book.v(b)
 
 for (langCode, langBookNames) in bookNames.items():
-    nodeFeatures['book@{}'.format(langCode)] = dict(zip(bookNodes, langBookNames))
-utils.caption(0, '{} book name features created'.format(len(nodeFeatures)))
+    nodeFeatures["book@{}".format(langCode)] = dict(zip(bookNodes, langBookNames))
+utils.caption(0, "{} book name features created".format(len(nodeFeatures)))
 
 
 # # Write new features
 
-# In[18]:
+# In[7]:
 
 
-utils.caption(4, 'Write book name features as TF')
+utils.caption(4, "Write book name features as TF")
 TF = Fabric(locations=thisTempTf, silent=True)
 TF.save(nodeFeatures=nodeFeatures, edgeFeatures={}, metaData=metaData)
 
@@ -163,17 +170,17 @@ TF.save(nodeFeatures=nodeFeatures, edgeFeatures={}, metaData=metaData)
 # 
 # Check differences with previous versions.
 
-# In[19]:
+# In[8]:
 
 
 utils.checkDiffs(thisTempTf, thisTf, only=set(newFeatures))
 
 
-# # Deliver 
+# # Deliver
 # 
 # Copy the new Text-Fabric features from the temporary location where they have been created to their final destination.
 
-# In[20]:
+# In[9]:
 
 
 utils.deliverFeatures(thisTempTf, thisTf, newFeatures)
@@ -181,35 +188,34 @@ utils.deliverFeatures(thisTempTf, thisTf, newFeatures)
 
 # # Compile TF
 
-# In[21]:
+# In[10]:
 
 
-utils.caption(4, 'Load and compile the new TF features')
+utils.caption(4, "Load and compile the new TF features")
 
-TF = Fabric(locations=thisTf, modules=[''])
-api = TF.load('')
+TF = Fabric(locations=thisTf, modules=[""])
+api = TF.load("")
 api.makeAvailableIn(globals())
 
 
 # # Examples
 
-# In[22]:
+# In[11]:
 
 
-utils.caption(4, 'Genesis in all languages')
-genesisNode = F.otype.s('book')[0]
+utils.caption(4, "Genesis in all languages")
+genesisNode = F.otype.s("book")[0]
 
 for (lang, langInfo) in sorted(T.languages.items()):
-    language = langInfo['language']
-    langEng = langInfo['languageEnglish']
+    language = langInfo["language"]
+    langEng = langInfo["languageEnglish"]
     book = T.sectionFromNode(genesisNode, lang=lang)[0]
-    utils.caption(0, '{:<2} = {:<20} Genesis is {:<20} in {:<20}'.format(lang, langEng, book, language))
+    utils.caption(
+        0,
+        "{:<2} = {:<20} Genesis is {:<20} in {:<20}".format(
+            lang, langEng, book, language
+        ),
+    )
 
-utils.caption(0, 'Done')
-
-
-# In[ ]:
-
-
-
+utils.caption(0, "Done")
 

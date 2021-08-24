@@ -1,0 +1,396 @@
+@node
+@author=Eep Talstra Centre for Bible and Computer
+@dataset=BHSA
+@datasetName=Biblia Hebraica Stuttgartensia Amstelodamensis
+@dateWritten=2019-03-02T09:50:34Z
+@email=shebanq@ancient-data.org
+@encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)
+@valueType=str
+@version=2017
+@volume=small:Malachi-Joel
+@website=https://shebanq.ancient-data.org
+@writtenBy=Text-Fabric
+@writtenBy=Text-Fabric
+@dateWritten=2021-08-24T09:47:45Z
+
+3697	A
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+8779	 JOE 01,01
+ JOE 01,02
+ JOE 01,03
+ JOE 01,04
+ JOE 01,05
+ JOE 01,06
+ JOE 01,07
+ JOE 01,08
+ JOE 01,09
+ JOE 01,10
+ JOE 01,11
+ JOE 01,12
+ JOE 01,13
+ JOE 01,14
+ JOE 01,15
+ JOE 01,16
+ JOE 01,17
+ JOE 01,18
+ JOE 01,19
+ JOE 01,20
+ JOE 02,01
+ JOE 02,02
+ JOE 02,03
+ JOE 02,04
+ JOE 02,05
+ JOE 02,06
+ JOE 02,07
+ JOE 02,08
+ JOE 02,09
+ JOE 02,10
+ JOE 02,11
+ JOE 02,12
+ JOE 02,13
+ JOE 02,14
+ JOE 02,15
+ JOE 02,16
+ JOE 02,17
+ JOE 02,18
+ JOE 02,19
+ JOE 02,20
+ JOE 02,21
+ JOE 02,22
+ JOE 02,23
+ JOE 02,24
+ JOE 02,25
+ JOE 02,26
+ JOE 02,27
+ JOE 03,01
+ JOE 03,02
+ JOE 03,03
+ JOE 03,04
+ JOE 03,05
+ JOE 04,01
+ JOE 04,02
+ JOE 04,03
+ JOE 04,04
+ JOE 04,05
+ JOE 04,06
+ JOE 04,07
+ JOE 04,08
+ JOE 04,09
+ JOE 04,10
+ JOE 04,11
+ JOE 04,12
+ JOE 04,13
+ JOE 04,14
+ JOE 04,15
+ JOE 04,16
+ JOE 04,17
+ JOE 04,18
+ JOE 04,19
+ JOE 04,20
+ JOE 04,21
+ MAL 01,01
+ MAL 01,02
+ MAL 01,03
+ MAL 01,04
+ MAL 01,05
+ MAL 01,06
+ MAL 01,07
+ MAL 01,08
+ MAL 01,09
+ MAL 01,10
+ MAL 01,11
+ MAL 01,12
+ MAL 01,13
+ MAL 01,14
+ MAL 02,01
+ MAL 02,02
+ MAL 02,03
+ MAL 02,04
+ MAL 02,05
+ MAL 02,06
+ MAL 02,07
+ MAL 02,08
+ MAL 02,09
+ MAL 02,10
+ MAL 02,11
+ MAL 02,12
+ MAL 02,13
+ MAL 02,14
+ MAL 02,15
+ MAL 02,16
+ MAL 02,17
+ MAL 03,01
+ MAL 03,02
+ MAL 03,03
+ MAL 03,04
+ MAL 03,05
+ MAL 03,06
+ MAL 03,07
+ MAL 03,08
+ MAL 03,09
+ MAL 03,10
+ MAL 03,11
+ MAL 03,12
+ MAL 03,13
+ MAL 03,14
+ MAL 03,15
+ MAL 03,16
+ MAL 03,17
+ MAL 03,18
+ MAL 03,19
+ MAL 03,20
+ MAL 03,21
+ MAL 03,22
+ MAL 03,23
+ MAL 03,24
