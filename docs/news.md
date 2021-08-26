@@ -19,7 +19,7 @@ So I added the values of these features for lexemes to all of their occurrences.
 * There has been a conversion error: a single lexeme node became tied to a single stray node,
   due to a programming error.
   I have removed the error, and regenerated all versions of the BHSA, except 3, which was not affected.
-* The `feature `language` used to contain the values `Hebrew` and `Aramaic`, at least in SHEBANQ.
+* The feature `language` used to contain the values `Hebrew` and `Aramaic`, at least in SHEBANQ.
   But since we use the pipeline to generate data for SHEBANQ, the `language` feature contains the 
   ISO codes instead: `hbo` and `arc`.
   Because this breaks interoperability with Bible Online learner and Paratext
