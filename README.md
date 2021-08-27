@@ -1,10 +1,11 @@
 # Biblia Hebraica Stuttgartensia (Amstelodamensis)
 
 [![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/ETCBC/bhsa/)](https://archive.softwareheritage.org/browse/origin/https://github.com/ETCBC/bhsa/)
-
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1039470.svg)](https://doi.org/10.5281/zenodo.1007624)
 [![etcbc](programs/images/etcbc.png)](http://www.etcbc.nl)
 [![dans](programs/images/dans.png)](https://dans.knaw.nl/en)
+[![tf](programs/images/tf-small.png)](https://annotation.github.io/text-fabric/tf)
+
 
 ### BHSA Family
 
@@ -60,8 +61,6 @@ That means:
     [German Bible Society](zentrale@dbg.de).
 
 ## How to use
-
-![tf](programs/images/tf-small.png)
 
 This data can be processed by 
 [Text-Fabric](https://annotation.github.io/text-fabric/tf).
