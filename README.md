@@ -2,6 +2,7 @@
 
 [![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/ETCBC/bhsa/)](https://archive.softwareheritage.org/browse/origin/https://github.com/ETCBC/bhsa/)
 [![DOI](https://zenodo.org/badge/104559294.svg)](https://zenodo.org/badge/latestdoi/104559294)
+
 [![etcbc](programs/images/etcbc.png)](http://www.etcbc.nl)
 [![dans](programs/images/dans.png)](https://dans.knaw.nl/en)
 [![tf](programs/images/tf-small.png)](https://annotation.github.io/text-fabric/tf)
