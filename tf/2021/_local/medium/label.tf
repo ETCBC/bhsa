@@ -1,0 +1,787 @@
+@node
+@author=Eep Talstra Centre for Bible and Computer
+@dataset=BHSA
+@datasetName=Biblia Hebraica Stuttgartensia Amstelodamensis
+@dateWritten=2021-08-24T11:10:25Z
+@email=shebanq@ancient-data.org
+@encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)
+@valueType=str
+@version=2021
+@volume=medium:Ezra
+@website=https://shebanq.ancient-data.org
+@writtenBy=Text-Fabric
+@writtenBy=Text-Fabric
+@dateWritten=2021-08-26T11:57:40Z
+
+6974	A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+A
+A
+A
+B
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+B
+A
+A
+A
+A
+B
+A
+B
+A
+B
+A
+B
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+B
+A
+A
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+A
+A
+A
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+A
+B
+A
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+B
+A
+A
+B
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+B
+A
+B
+16016	 ESR 01,01
+ ESR 01,02
+ ESR 01,03
+ ESR 01,04
+ ESR 01,05
+ ESR 01,06
+ ESR 01,07
+ ESR 01,08
+ ESR 01,09
+ ESR 01,10
+ ESR 01,11
+ ESR 02,01
+ ESR 02,02
+ ESR 02,03
+ ESR 02,04
+ ESR 02,05
+ ESR 02,06
+ ESR 02,07
+ ESR 02,08
+ ESR 02,09
+ ESR 02,10
+ ESR 02,11
+ ESR 02,12
+ ESR 02,13
+ ESR 02,14
+ ESR 02,15
+ ESR 02,16
+ ESR 02,17
+ ESR 02,18
+ ESR 02,19
+ ESR 02,20
+ ESR 02,21
+ ESR 02,22
+ ESR 02,23
+ ESR 02,24
+ ESR 02,25
+ ESR 02,26
+ ESR 02,27
+ ESR 02,28
+ ESR 02,29
+ ESR 02,30
+ ESR 02,31
+ ESR 02,32
+ ESR 02,33
+ ESR 02,34
+ ESR 02,35
+ ESR 02,36
+ ESR 02,37
+ ESR 02,38
+ ESR 02,39
+ ESR 02,40
+ ESR 02,41
+ ESR 02,42
+ ESR 02,43
+ ESR 02,44
+ ESR 02,45
+ ESR 02,46
+ ESR 02,47
+ ESR 02,48
+ ESR 02,49
+ ESR 02,50
+ ESR 02,51
+ ESR 02,52
+ ESR 02,53
+ ESR 02,54
+ ESR 02,55
+ ESR 02,56
+ ESR 02,57
+ ESR 02,58
+ ESR 02,59
+ ESR 02,60
+ ESR 02,61
+ ESR 02,62
+ ESR 02,63
+ ESR 02,64
+ ESR 02,65
+ ESR 02,66
+ ESR 02,67
+ ESR 02,68
+ ESR 02,69
+ ESR 02,70
+ ESR 03,01
+ ESR 03,02
+ ESR 03,03
+ ESR 03,04
+ ESR 03,05
+ ESR 03,06
+ ESR 03,07
+ ESR 03,08
+ ESR 03,09
+ ESR 03,10
+ ESR 03,11
+ ESR 03,12
+ ESR 03,13
+ ESR 04,01
+ ESR 04,02
+ ESR 04,03
+ ESR 04,04
+ ESR 04,05
+ ESR 04,06
+ ESR 04,07
+ ESR 04,08
+ ESR 04,09
+ ESR 04,10
+ ESR 04,11
+ ESR 04,12
+ ESR 04,13
+ ESR 04,14
+ ESR 04,15
+ ESR 04,16
+ ESR 04,17
+ ESR 04,18
+ ESR 04,19
+ ESR 04,20
+ ESR 04,21
+ ESR 04,22
+ ESR 04,23
+ ESR 04,24
+ ESR 05,01
+ ESR 05,02
+ ESR 05,03
+ ESR 05,04
+ ESR 05,05
+ ESR 05,06
+ ESR 05,07
+ ESR 05,08
+ ESR 05,09
+ ESR 05,10
+ ESR 05,11
+ ESR 05,12
+ ESR 05,13
+ ESR 05,14
+ ESR 05,15
+ ESR 05,16
+ ESR 05,17
+ ESR 06,01
+ ESR 06,02
+ ESR 06,03
+ ESR 06,04
+ ESR 06,05
+ ESR 06,06
+ ESR 06,07
+ ESR 06,08
+ ESR 06,09
+ ESR 06,10
+ ESR 06,11
+ ESR 06,12
+ ESR 06,13
+ ESR 06,14
+ ESR 06,15
+ ESR 06,16
+ ESR 06,17
+ ESR 06,18
+ ESR 06,19
+ ESR 06,20
+ ESR 06,21
+ ESR 06,22
+ ESR 07,01
+ ESR 07,02
+ ESR 07,03
+ ESR 07,04
+ ESR 07,05
+ ESR 07,06
+ ESR 07,07
+ ESR 07,08
+ ESR 07,09
+ ESR 07,10
+ ESR 07,11
+ ESR 07,12
+ ESR 07,13
+ ESR 07,14
+ ESR 07,15
+ ESR 07,16
+ ESR 07,17
+ ESR 07,18
+ ESR 07,19
+ ESR 07,20
+ ESR 07,21
+ ESR 07,22
+ ESR 07,23
+ ESR 07,24
+ ESR 07,25
+ ESR 07,26
+ ESR 07,27
+ ESR 07,28
+ ESR 08,01
+ ESR 08,02
+ ESR 08,03
+ ESR 08,04
+ ESR 08,05
+ ESR 08,06
+ ESR 08,07
+ ESR 08,08
+ ESR 08,09
+ ESR 08,10
+ ESR 08,11
+ ESR 08,12
+ ESR 08,13
+ ESR 08,14
+ ESR 08,15
+ ESR 08,16
+ ESR 08,17
+ ESR 08,18
+ ESR 08,19
+ ESR 08,20
+ ESR 08,21
+ ESR 08,22
+ ESR 08,23
+ ESR 08,24
+ ESR 08,25
+ ESR 08,26
+ ESR 08,27
+ ESR 08,28
+ ESR 08,29
+ ESR 08,30
+ ESR 08,31
+ ESR 08,32
+ ESR 08,33
+ ESR 08,34
+ ESR 08,35
+ ESR 08,36
+ ESR 09,01
+ ESR 09,02
+ ESR 09,03
+ ESR 09,04
+ ESR 09,05
+ ESR 09,06
+ ESR 09,07
+ ESR 09,08
+ ESR 09,09
+ ESR 09,10
+ ESR 09,11
+ ESR 09,12
+ ESR 09,13
+ ESR 09,14
+ ESR 09,15
+ ESR 10,01
+ ESR 10,02
+ ESR 10,03
+ ESR 10,04
+ ESR 10,05
+ ESR 10,06
+ ESR 10,07
+ ESR 10,08
+ ESR 10,09
+ ESR 10,10
+ ESR 10,11
+ ESR 10,12
+ ESR 10,13
+ ESR 10,14
+ ESR 10,15
+ ESR 10,16
+ ESR 10,17
+ ESR 10,18
+ ESR 10,19
+ ESR 10,20
+ ESR 10,21
+ ESR 10,22
+ ESR 10,23
+ ESR 10,24
+ ESR 10,25
+ ESR 10,26
+ ESR 10,27
+ ESR 10,28
+ ESR 10,29
+ ESR 10,30
+ ESR 10,31
+ ESR 10,32
+ ESR 10,33
+ ESR 10,34
+ ESR 10,35
+ ESR 10,36
+ ESR 10,37
+ ESR 10,38
+ ESR 10,39
+ ESR 10,40
+ ESR 10,41
+ ESR 10,42
+ ESR 10,43
+ ESR 10,44

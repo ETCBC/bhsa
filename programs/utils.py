@@ -122,6 +122,7 @@ def _duration():
 
 
 def caption(level, heading, good=None, newLine=True, continuation=False):
+    channel = sys.stdout if good is None or good else sys.stderr
     prefix = "" if good is None else "SUCCES " if good else "FAILURE "
     duration = "" if continuation else "{:>11} ".format(_duration())
     reportHeading = "{}{}{}".format(duration, prefix, heading)
@@ -176,9 +177,10 @@ def caption(level, heading, good=None, newLine=True, continuation=False):
             "." * 90,
         )
     if newLine:
-        print(formattedString)
+        channel.write(formattedString + "\n")
     else:
-        sys.stdout.write(formattedString)
+        channel.write(formattedString)
+    channel.flush()
 
 
 def mustRun(fileIn, fileOut, force=False):

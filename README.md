@@ -1,11 +1,27 @@
-# BHSA
+# Biblia Hebraica Stuttgartensia (Amstelodamensis)
 
-
-## Biblia Hebraica Stuttgartensia (Amstelodamensis)
 [![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/ETCBC/bhsa/)](https://archive.softwareheritage.org/browse/origin/https://github.com/ETCBC/bhsa/)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1039470.svg)](https://doi.org/10.5281/zenodo.1007624)
 [![etcbc](programs/images/etcbc.png)](http://www.etcbc.nl)
+[![dans](programs/images/dans.png)](https://dans.knaw.nl/en)
+
+### BHSA Family
+
+* [bhsa](https://github.com/etcbc/bhsa) Core data and feature documentation
+* [phono](https://github.com/etcbc/phono) Phonological representation of Hebrew words
+* [parallels](https://github.com/etcbc/parallels) Links between similar verses
+* [valence](https://github.com/etcbc/valence) Verbal valence for all occurrences
+  of some verbs
+* [trees](https://github.com/etcbc/trees) Tree structures for all sentences
+* [bridging](https://github.com/etcbc/bridging) Open Scriptures morphology
+  ported to the BHSA
+* [pipeline](https://github.com/etcbc/pipeline) Generate the BHSA and SHEBANQ
+  from internal ETCBC data files
+* [shebanq](https://github.com/etcbc/shebanq) Engine of the
+  [shebanq](https://shebanq.ancient-data.org) website
+
+## About
 
 This is the
 [text-fabric](https://github.com/Dans-labs/text-fabric/wiki)
@@ -43,7 +59,7 @@ That means:
     for any commercial use, please contact the
     [German Bible Society](zentrale@dbg.de).
 
-# How to use
+## How to use
 
 ![tf](programs/images/tf-small.png)
 
