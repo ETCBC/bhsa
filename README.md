@@ -89,6 +89,3 @@ See also
 [start](https://nbviewer.jupyter.org/github/annotation/tutorials/blob/master/bhsa/start.ipynb)
 and
 [search](https://nbviewer.jupyter.org/github/annotation/tutorials/blob/master/bhsa/search.ipynb).
-
-[![dans](programs/images/dans.png)](https://www.dans.knaw.nl)
-
