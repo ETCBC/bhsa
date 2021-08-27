@@ -45,6 +45,7 @@ Thumbs.db
 _site/
 _themes/
 _temp/
+_local/
 _build/
 __pycache__/
 .ipynb_checkpoints/
