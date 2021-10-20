@@ -1,7 +1,5 @@
-This is data version **2021**.
-
-Viewable in [SHEBANQ]({{shebanq}}) shortly
-(currently the newest stable version in SHEBANQ is 2017).
+This is data version **2021**,
+viewable in [SHEBANQ]({{shebanq}}).
 
 ## Introduction
 This is the key to the meaning of the features of the

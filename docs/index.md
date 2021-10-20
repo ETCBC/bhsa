@@ -73,10 +73,8 @@ frozen version. But we have abandoned the idea, and it has become a frozen versi
 sitting oddly between `2017` and `2021`.
 We preserve it, because SHEBANQ has saved queries against this version.
 
-For reliable query saving, every one or two years a new fixed version,
-called `2017`, `2019`, ... will be added to SHEBANQ.
-
-Fixed versions in SHEBANQ will remain there forever, and publishing queries and annotations against fixed
+Frozen versions in SHEBANQ will remain there forever,
+and publishing queries and annotations against frozen
 versions will remain supported.
 
 In particular, versions `3`, `4` and `4b` are here to stay.
@@ -119,7 +117,7 @@ and
   "@context" : "http://schema.org",
   "@type" : "Dataset",
   "name" : "bhsa",
-  "description" : "Hebrew Bible + Linguistic annotations in text-fabric format. Fixed and ongoing versions.",
+  "description" : "Hebrew Bible + Linguistic annotations in text-fabric format. Periodically frozen versions.",
   "license" : "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)",
   "distribution" : {
     "@type" : "DataDownload",
