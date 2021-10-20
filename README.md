@@ -32,8 +32,8 @@ containing the text of the Hebrew Bible augmented with linguistic annotations co
 [Eep Talstra Centre for Bible and Computer](http://etcbc.nl), VU University Amsterdam.
 
 This repository contains several versions of the dataset, going back to 2011.
-It is meant to accumulate new versions over the years, and have one continuous version,
-a version that we deliberately update with a high frequency.
+It is meant to accumulate new versions over the years.
+The data in versions will not change, new versions will be stored next to the old versions.
 
 So this repository addresses the need for permanency as well as the urge for change.
 

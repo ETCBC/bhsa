@@ -67,11 +67,11 @@ in this pipeline.
 We intend to follow a practice that allows for data updates on the one hand, and reproduction of old
 results on the other.
 
-Besides the continuously changing version `c`, we have the fixed, year-bound versions.
-In SHEBANQ, 
-it will not be possible to publish queries and annotations executed against the `c` version.
-It is likely that they will break, when version `c` is modified, week after week.
-So, saved queries against this version are not guaranteed to show their original results.
+In SHEBANQ, there are several versions of the data and they are all frozen.
+Data version `c` is peculiar, because it was intended as a moving version, alongside the
+frozen version. But we have abandoned the idea, and it has become a frozen version,
+sitting oddly between `2017` and `2021`.
+We preserve it, because SHEBANQ has saved queries against this version.
 
 For reliable query saving, every one or two years a new fixed version,
 called `2017`, `2019`, ... will be added to SHEBANQ.

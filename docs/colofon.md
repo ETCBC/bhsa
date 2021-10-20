@@ -8,7 +8,7 @@
 * [pipeline = Data pipeline to make manage versions of all related data and transfer them to SHEBANQ](https://github.com/etcbc/pipeline))
 
 ## People
-* [Wido van Peursen](mailto:w.t.van.peursen@vu.nl)
+* [Willem van Peursen](mailto:w.t.van.peursen@vu.nl)
 * [Martijn Naaijer](mailto:m.naaijer@vu.nl)
 * [Christiaan Erwich](mailto:c.m.erwich@vu.nl)
 * [Cody Kingham](mailto:c.a.kingham@student.vu.nl)
