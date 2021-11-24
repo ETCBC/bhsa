@@ -2,6 +2,7 @@
 
 [![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/ETCBC/bhsa/)](https://archive.softwareheritage.org/browse/origin/https://github.com/ETCBC/bhsa/)
 [![DOI](https://zenodo.org/badge/104559294.svg)](https://zenodo.org/badge/latestdoi/104559294)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
 [![etcbc](programs/images/etcbc.png)](http://www.etcbc.nl)
 [![dans](programs/images/dans.png)](https://dans.knaw.nl/en)
@@ -22,6 +23,16 @@
   from internal ETCBC data files
 * [shebanq](https://github.com/etcbc/shebanq) Engine of the
   [shebanq](https://shebanq.ancient-data.org) website
+
+### Extended family
+
+* [dss](https://github.com/etcbc/dss) Dead Sea Scrolls
+* [extrabiblical](https://github.com/etcbc/extrabiblical)
+  Extra-biblical writings from ETCBC-encoded texts
+* [peshitta](https://github.com/etcbc/peshitta)
+  Syriac translation of the Hebrew Bible
+* [syrnt](https://github.com/etcbc/syrnt)
+  Syriac translation of the New Testament
 
 ## About
 
@@ -89,3 +100,10 @@ See also
 [start](https://nbviewer.jupyter.org/github/annotation/tutorials/blob/master/bhsa/start.ipynb)
 and
 [search](https://nbviewer.jupyter.org/github/annotation/tutorials/blob/master/bhsa/search.ipynb).
+
+# Author
+
+[Dirk Roorda](https://github.com/dirkroorda)
+
+Note that the data content of this repo is the multi-year work of the 
+[Eep Talstra Centre for Bible and Computer](http://etcbc.nl), VU University Amsterdam.
