@@ -6,7 +6,7 @@ title: nametype
 
 The type of a named entity.
 
-This feature is present on objects of type [*lex*](otype.md).
+This feature is present on objects of type [*word* and *lex*](otype.md).
 
 It is a comma separated list of the following values:
 

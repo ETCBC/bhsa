@@ -1,5 +1,15 @@
 # Updates
 
+## 2021-11-30
+
+It turned out that in version 2021
+
+*   `gloss` was not present on word nodes
+*   `lex0`, `lex_utf8` and `languageISO` were not present on lex nodes
+
+Both have been remedied. Note that `g_lex` and `g_lex_utf8` are not defined on lex nodes,
+because their values do not always agree between occurrences of the same lexeme. 
+
 ## 2021-08-24
 
 Data version `2021` has arrived from the ETCBC. According to Constantijn Sikkel the most

@@ -8,7 +8,7 @@
 @version=2021
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2021-08-24T11:10:23Z
+@dateWritten=2021-11-30T15:25:41Z
 
 B.:-
 R;>CI73JT

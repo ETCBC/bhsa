@@ -7,7 +7,8 @@ title: lex_utf8
 
 The consonantal representation of the lexeme of a word occurrence in Hebrew script.
 
-This feature is present on objects of type [*word*](otype.md).
+This feature is present on objects of type [*word* and *lex*](otype.md).
+(Only in version 2021 it is present on *lex* nodes as well).
 
 Only the consonants of the lexeme are present: no vowel pointing and no other diacritical marks.
 

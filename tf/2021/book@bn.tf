@@ -12,7 +12,7 @@
 @version=2021
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2021-08-24T11:12:50Z
+@dateWritten=2021-11-30T15:28:05Z
 
 426591	আদিপুস্তক
 যাত্রাপুস্তক

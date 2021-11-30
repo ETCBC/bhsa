@@ -66,15 +66,17 @@
 # 
 # ## Various issues
 # 1. `lex` contains the lexeme (in transcription) with disambiguation marks (`[/=`) appended.
-#    For text transformations we prefer the bare lexeme
+#    For text transformations we prefer the bare lexeme, and we store that in a new feature `lex0`
 # 1. `lex_utf` has frills at the end of many values.
 #    They occur where the final consonant as an alternative form. See analysis below.
 # 1. `language` has values `Hebrew` and `Aramaic`. We prefer ISO language codes: `hbo` and `arc` instead.
 #    By adding `language` for lexeme nodes we already have switched to ISO codes. Here we do the rest.
+# 1. the feature lex_utf8 occurs only on word nodes, but is consistent across lexemes. We add it to lexeme nodes
+#    as well, together with `lex0`.
 # 
 # We are going to deal with these issues [later](#Deal-with-various-issues).
 
-# In[1]:
+# In[9]:
 
 
 import os
@@ -88,7 +90,7 @@ import utils
 # See [operation](https://github.com/ETCBC/pipeline/blob/master/README.md#operation)
 # for how to run this script in the pipeline.
 
-# In[2]:
+# In[10]:
 
 
 if "SCRIPT" not in locals():
@@ -116,7 +118,7 @@ def stop(good=False):
 # 
 # We translate the UTF sequences found in the MQL source into real Unicode characters:
 
-# In[3]:
+# In[11]:
 
 
 if not SCRIPT:
@@ -167,7 +169,7 @@ if not SCRIPT:
 # The conversion is executed in an environment of directories, so that sources, temp files and
 # results are in convenient places and do not have to be shifted around.
 
-# In[4]:
+# In[12]:
 
 
 repoBase = os.path.expanduser("~/github/etcbc")
@@ -182,7 +184,7 @@ thisTempTf = "{}/tf".format(thisTemp)
 thisTf = "{}/tf/{}".format(thisRepo, VERSION)
 
 
-# In[5]:
+# In[13]:
 
 
 testFeature = "lex0"
@@ -193,7 +195,7 @@ testFeature = "lex0"
 # Check whether this conversion is needed in the first place.
 # Only when run as a script.
 
-# In[6]:
+# In[14]:
 
 
 if SCRIPT:
@@ -215,7 +217,7 @@ if SCRIPT:
 # 
 # We do not do this for the older versions `4` and `4b`.
 
-# In[7]:
+# In[15]:
 
 
 provenanceMetadata = dict(
@@ -247,7 +249,7 @@ else:
 # The lexical data will not be added as features of words, but as features of lexemes.
 # The lexemes will be added as fresh nodes, of a new type `lex`.
 
-# In[8]:
+# In[16]:
 
 
 utils.caption(4, "Load the existing TF dataset")
@@ -266,9 +268,12 @@ api.makeAvailableIn(globals())
 # 
 # We remember the mapping between nodes and lexemes.
 # 
+# We check whether the word features `lex_utf8` and `g_lex_utf` are consistent between occurrences
+# of the same lexeme.
+# 
 # This stage does not yet involve the lexical files.
 
-# In[9]:
+# In[18]:
 
 
 utils.caption(4, "Collect lexemes from the text")
@@ -287,6 +292,7 @@ langIMap = {
 }
 
 doValueCompare = {"sp", "ls", "gn", "ps", "nu", "st"}
+doFeatureCheck = {"lex_utf8", "g_lex_utf8"}
 
 lexText = {}
 
@@ -315,6 +321,18 @@ for n in F.otype.s("word"):
         lexNode += 1
         nodeFromLex[lexId] = lexNode
         lexFromNode[lexNode] = lexId
+        
+utils.caption(0, f"Check consistency of {', '.join(doFeatureCheck)}")
+inconsistent = {ft: 0 for ft in doFeatureCheck}
+
+for (lexId, ws) in lexOccs.items():
+    for ft in doFeatureCheck:
+        values = {Fs(ft).v(w) for w in ws}
+        if len(values) != 1:
+            inconsistent[ft] += 1
+for ft in doFeatureCheck:
+    nInc = inconsistent[ft]
+    utils.caption(0, f"{nInc} inconsistencies in {ft}" if nInc else f"{ft} is consistent over lexeme occurrences")
 
 for n in range(maxNode + 1, lexNode + 1):
     otypeData[n] = "lex"
@@ -332,7 +350,7 @@ for lan in sorted(lexText):
 # # Lexicon pass
 # Here we are going to read the lexicons, one for Aramaic, and one for Hebrew.
 
-# In[10]:
+# In[19]:
 
 
 utils.caption(4, "Collect lexeme info from the lexicon")
@@ -423,7 +441,7 @@ utils.caption(0, "Done")
 # 
 # Let us now check whether all lexemes in the text occur in the lexicon and vice versa.
 
-# In[11]:
+# In[20]:
 
 
 utils.caption(4, "Test - Match between text and lexicon")
@@ -503,7 +521,7 @@ for (myset, mymsg) in (
 # 
 # Supposing it is all consistent, we will call the new lexeme features `voc_lex` and `voc_lex_utf8`.
 
-# In[12]:
+# In[21]:
 
 
 utils.caption(4, "Test - Consistency of vocalized lexeme")
@@ -582,7 +600,7 @@ else:
 # 
 # We now collect the lexical information into the features for nodes of type `lex`.
 
-# In[13]:
+# In[22]:
 
 
 utils.caption(4, "Prepare TF lexical features")
@@ -600,8 +618,9 @@ lexFields = (
 overlapFeatures = {"lex", "language", "sp", "ls"} | set(EXTRA_OVERLAP.strip().split())
 # these are features that occur both on word- and lex- otypes
 
-extendFeatures = {"root", "nametype"}
+extendFeatures = {"root", "nametype", "gloss"}
 # these are features coming from the lexicon and not yet present on words
+# they will be made present on words
 
 for f in overlapFeatures:
     nodeFeatures[f] = dict((n, Fs(f).v(n)) for n in N.walk() if Fs(f).v(n) is not None)
@@ -636,7 +655,7 @@ for (lan, lexemes) in lexEntries.items():
 # ## Deal with various issues
 # We address the issues listed under [various issues](#Various-issues) above.
 
-# In[14]:
+# In[30]:
 
 
 utils.caption(4, "Various tweaks in features")
@@ -646,6 +665,14 @@ nodeFeatures["lex_utf8"] = {}
 nodeFeatures["languageISO"] = {}
 
 geresh = chr(0x59C)
+
+contractFeatures = dict(lex_utf8=True, lex0=False, languageISO=False)
+# these are features that exists already on words, but are not covered by the lexicon
+# we have already test their consistency for lexeme nodes.
+# We copy their values
+# to the relevant lexeme nodes
+# lex_utf8 does already exist on word nodes, we can pick it up from F,
+# but lex0 must be picked up from nodeFeatures["lex0"]
 
 for n in F.otype.s("word"):
     lex = F.lex.v(n)
@@ -657,11 +684,17 @@ for n in F.otype.s("word"):
     nodeFeatures["lex_utf8"][n] = lex_utf8
     nodeFeatures["languageISO"][n] = langMap[lan]
     nodeFeatures["language"][n] = langIMap[lan]
+    
+for (lexId, lexNode) in nodeFromLex.items():
+    wordNodes = lexOccs[lexId]
+    wordNode = wordNodes[0]
+    for (ft, exists) in contractFeatures.items():
+        nodeFeatures[ft][lexNode] = Fs(ft).v(wordNode) if exists else nodeFeatures[ft][wordNode]
 
 
 # We update the `otype`, `otext` and `oslots` features.
 
-# In[15]:
+# In[31]:
 
 
 utils.caption(4, "Update the otype, oslots and otext features")
@@ -688,7 +721,7 @@ edgeFeatures["oslots"] = dict(
 edgeFeatures["oslots"].update(oslotsData)
 
 
-# In[16]:
+# In[32]:
 
 
 utils.caption(0, "Features that have new or modified data")
@@ -707,7 +740,7 @@ if DO_VOCALIZED_LEXEME:
 
 # We specify the features to delete and list the new/changed features.
 
-# In[17]:
+# In[33]:
 
 
 deleteFeatures = (
@@ -729,7 +762,7 @@ else:
     utils.caption(0, "\tNo features to remove")
 
 
-# In[18]:
+# In[34]:
 
 
 changedDataFeatures = set(nodeFeatures) | set(edgeFeatures)
@@ -740,7 +773,7 @@ changedFeatures = changedDataFeatures | {"otext"}
 # Transform the collected information in feature-like data-structures, and write it all
 # out to `.tf` files.
 
-# In[19]:
+# In[35]:
 
 
 utils.caption(4, "write new/changed features to TF ...")

@@ -8,6 +8,7 @@ title: languageISO
 The language a word (or rather lexeme) belongs to.
 
 This feature is present on objects of type [*word* and *lex*](otype.md).
+(Only in version 2021 it is present on *lex* nodes as well).
 
 There are only two languages in the Hebrew Bible.
 Aramaic is, like Hebrew, a semitic language.

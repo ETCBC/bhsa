@@ -8,7 +8,7 @@
 @version=2021
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2021-08-24T11:14:30Z
+@dateWritten=2021-11-30T15:31:02Z
 
 3897	HAJ:Y;74>
 4420	>@H:@LO75W

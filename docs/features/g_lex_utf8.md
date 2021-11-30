@@ -13,6 +13,9 @@ The vowels and consonants of the word lexeme are present; a lexeme does not have
 ##### Note
 > There is no disambiguation material at the end of the value such as in [lex](lex.md).
 
+##### Note
+> Words that are occurrences of the same lexeme might have slightly different values for `g_lex_utf8`.
+
 ##### Hint
 > It is difficult to enter Hebrew text. One of the handiest ways to get Hebrew text into a query is to copy and paste it
 from some other Hebrew text, e.g. from the [SHEBANQ]({{shebanq}}).
