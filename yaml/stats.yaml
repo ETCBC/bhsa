@@ -1,0 +1,8 @@
+freq_occ:
+  desc: ✅ frequency of occurrences
+rank_occ:
+  desc: ✅ ranking of occurrences based on frequency
+freq_lex:
+  desc: ✅ frequency of lexemes
+rank_lex:
+  desc: ✅ ranking of lexemes based on freqnuecy

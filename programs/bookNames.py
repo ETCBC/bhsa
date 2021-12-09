@@ -32,12 +32,13 @@
 # This program works for all datasets and versions that have this feature with the
 # intended meaning.
 
-# In[1]:
+# In[3]:
 
 
 import os
 import sys
 import utils
+import yaml
 from tf.fabric import Fabric
 from blang import bookLangs, bookNames
 
@@ -46,7 +47,7 @@ from blang import bookLangs, bookNames
 # See [operation](https://github.com/ETCBC/pipeline/blob/master/README.md#operation)
 # for how to run this script in the pipeline.
 
-# In[2]:
+# In[4]:
 
 
 if "SCRIPT" not in locals():
@@ -66,7 +67,7 @@ def stop(good=False):
 # The conversion is executed in an environment of directories, so that sources, temp files and
 # results are in convenient places and do not have to be shifted around.
 
-# In[3]:
+# In[5]:
 
 
 repoBase = os.path.expanduser("~/github/etcbc")
@@ -82,31 +83,28 @@ thisTf = "{}/tf/{}".format(thisRepo, VERSION)
 # 
 # We collect the book names.
 
-# In[4]:
+# In[8]:
 
 
 utils.caption(4, "Book names")
 
-metaData = {
-    "": dict(
-        dataset="BHSA",
-        version=VERSION,
-        datasetName="Biblia Hebraica Stuttgartensia Amstelodamensis",
-        author="Eep Talstra Centre for Bible and Computer",
-        provenance="book names from wikipedia and other sources",
-        encoders="Dirk Roorda (TF)",
-        website="https://shebanq.ancient-data.org",
-        email="shebanq@ancient-data.org",
-    ),
-}
+genericMetaPath = f"{thisRepo}/yaml/generic.yaml"
+with open(genericMetaPath) as fh:
+    genericMeta = yaml.load(fh, Loader=yaml.FullLoader)
+    genericMeta["version"] = VERSION
+
+metaData = {"": genericMeta}
 
 for (langCode, (langEnglish, langName)) in bookLangs.items():
-    metaData["book@{}".format(langCode)] = {
-        "valueType": "str",
-        "language": langName,
-        "languageCode": langCode,
-        "languageEnglish": langEnglish,
-    }
+    metaData["book@{}".format(langCode)] = dict(
+        valueType="str",
+        language=langName,
+        languageCode=langCode,
+        languageEnglish=langEnglish,
+        provenance="book names from wikipedia and other sources",
+        encoders="Dirk Roorda (TF)",
+        description=f"✅ book name in {langEnglish} ({langName})",
+    )
 
 newFeatures = sorted(m for m in metaData if m != "")
 newFeaturesStr = " ".join(newFeatures)
@@ -119,7 +117,7 @@ utils.caption(0, "{} languages ...".format(len(newFeatures)))
 # Check whether this conversion is needed in the first place.
 # Only when run as a script.
 
-# In[5]:
+# In[10]:
 
 
 if SCRIPT:
@@ -134,7 +132,7 @@ if SCRIPT:
 
 # # Load existing data
 
-# In[6]:
+# In[11]:
 
 
 utils.caption(4, "Loading relevant features")
@@ -158,7 +156,7 @@ utils.caption(0, "{} book name features created".format(len(nodeFeatures)))
 
 # # Write new features
 
-# In[7]:
+# In[12]:
 
 
 utils.caption(4, "Write book name features as TF")
@@ -170,7 +168,7 @@ TF.save(nodeFeatures=nodeFeatures, edgeFeatures={}, metaData=metaData)
 # 
 # Check differences with previous versions.
 
-# In[8]:
+# In[13]:
 
 
 utils.checkDiffs(thisTempTf, thisTf, only=set(newFeatures))
@@ -180,7 +178,7 @@ utils.checkDiffs(thisTempTf, thisTf, only=set(newFeatures))
 # 
 # Copy the new Text-Fabric features from the temporary location where they have been created to their final destination.
 
-# In[9]:
+# In[14]:
 
 
 utils.deliverFeatures(thisTempTf, thisTf, newFeatures)
@@ -188,7 +186,7 @@ utils.deliverFeatures(thisTempTf, thisTf, newFeatures)
 
 # # Compile TF
 
-# In[10]:
+# In[15]:
 
 
 utils.caption(4, "Load and compile the new TF features")
@@ -200,7 +198,7 @@ api.makeAvailableIn(globals())
 
 # # Examples
 
-# In[11]:
+# In[16]:
 
 
 utils.caption(4, "Genesis in all languages")

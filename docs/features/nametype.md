@@ -18,3 +18,8 @@ code|description
 `topo`   |place
 `ppde`   |demonstrative personal pronoun
 
+##### Caution
+
+>
+It is unclear how completely and correctly this feature has been assigned.
+

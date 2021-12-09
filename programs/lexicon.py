@@ -76,13 +76,15 @@
 # 
 # We are going to deal with these issues [later](#Deal-with-various-issues).
 
-# In[9]:
+# In[1]:
 
 
 import os
 import sys
 import re
+import yaml
 from tf.fabric import Fabric
+from tf.core.helpers import formatMeta
 import utils
 
 
@@ -90,7 +92,7 @@ import utils
 # See [operation](https://github.com/ETCBC/pipeline/blob/master/README.md#operation)
 # for how to run this script in the pipeline.
 
-# In[10]:
+# In[2]:
 
 
 if "SCRIPT" not in locals():
@@ -118,7 +120,7 @@ def stop(good=False):
 # 
 # We translate the UTF sequences found in the MQL source into real Unicode characters:
 
-# In[11]:
+# In[3]:
 
 
 if not SCRIPT:
@@ -169,7 +171,7 @@ if not SCRIPT:
 # The conversion is executed in an environment of directories, so that sources, temp files and
 # results are in convenient places and do not have to be shifted around.
 
-# In[12]:
+# In[4]:
 
 
 repoBase = os.path.expanduser("~/github/etcbc")
@@ -184,7 +186,7 @@ thisTempTf = "{}/tf".format(thisTemp)
 thisTf = "{}/tf/{}".format(thisRepo, VERSION)
 
 
-# In[13]:
+# In[5]:
 
 
 testFeature = "lex0"
@@ -195,7 +197,7 @@ testFeature = "lex0"
 # Check whether this conversion is needed in the first place.
 # Only when run as a script.
 
-# In[14]:
+# In[6]:
 
 
 if SCRIPT:
@@ -217,18 +219,22 @@ if SCRIPT:
 # 
 # We do not do this for the older versions `4` and `4b`.
 
-# In[15]:
+# In[7]:
 
 
-provenanceMetadata = dict(
-    dataset="BHSA",
-    version=VERSION,
-    datasetName="Biblia Hebraica Stuttgartensia Amstelodamensis",
-    author="Eep Talstra Centre for Bible and Computer",
-    encoders="Constantijn Sikkel (QDF), and Dirk Roorda (TF)",
-    website="https://shebanq.ancient-data.org",
-    email="shebanq@ancient-data.org",
-)
+genericMetaPath = f"{thisRepo}/yaml/generic.yaml"
+coreMetaPath = f"{thisRepo}/yaml/core.yaml"
+lexiconMetaPath = f"{thisRepo}/yaml/lexicon.yaml"
+
+with open(genericMetaPath) as fh:
+    genericMeta = yaml.load(fh, Loader=yaml.FullLoader)
+    genericMeta["version"] = VERSION
+with open(coreMetaPath) as fh:
+    coreMeta = formatMeta(yaml.load(fh, Loader=yaml.FullLoader))
+with open(lexiconMetaPath) as fh:
+    lexiconMeta = formatMeta(yaml.load(fh, Loader=yaml.FullLoader))
+
+metaData = {"": genericMeta}
 
 lexType = "lex"
 
@@ -249,7 +255,7 @@ else:
 # The lexical data will not be added as features of words, but as features of lexemes.
 # The lexemes will be added as fresh nodes, of a new type `lex`.
 
-# In[16]:
+# In[8]:
 
 
 utils.caption(4, "Load the existing TF dataset")
@@ -273,7 +279,7 @@ api.makeAvailableIn(globals())
 # 
 # This stage does not yet involve the lexical files.
 
-# In[18]:
+# In[9]:
 
 
 utils.caption(4, "Collect lexemes from the text")
@@ -350,7 +356,7 @@ for lan in sorted(lexText):
 # # Lexicon pass
 # Here we are going to read the lexicons, one for Aramaic, and one for Hebrew.
 
-# In[19]:
+# In[10]:
 
 
 utils.caption(4, "Collect lexeme info from the lexicon")
@@ -441,7 +447,7 @@ utils.caption(0, "Done")
 # 
 # Let us now check whether all lexemes in the text occur in the lexicon and vice versa.
 
-# In[20]:
+# In[11]:
 
 
 utils.caption(4, "Test - Match between text and lexicon")
@@ -521,7 +527,7 @@ for (myset, mymsg) in (
 # 
 # Supposing it is all consistent, we will call the new lexeme features `voc_lex` and `voc_lex_utf8`.
 
-# In[21]:
+# In[12]:
 
 
 utils.caption(4, "Test - Consistency of vocalized lexeme")
@@ -600,7 +606,7 @@ else:
 # 
 # We now collect the lexical information into the features for nodes of type `lex`.
 
-# In[22]:
+# In[13]:
 
 
 utils.caption(4, "Prepare TF lexical features")
@@ -655,7 +661,7 @@ for (lan, lexemes) in lexEntries.items():
 # ## Deal with various issues
 # We address the issues listed under [various issues](#Various-issues) above.
 
-# In[30]:
+# In[14]:
 
 
 utils.caption(4, "Various tweaks in features")
@@ -694,13 +700,10 @@ for (lexId, lexNode) in nodeFromLex.items():
 
 # We update the `otype`, `otext` and `oslots` features.
 
-# In[31]:
+# In[21]:
 
 
 utils.caption(4, "Update the otype, oslots and otext features")
-metaData = {
-    "": provenanceMetadata,
-}
 edgeFeatures = {}
 
 metaData["otext"] = dict()
@@ -710,8 +713,14 @@ metaData["otype"] = dict(valueType="str")
 metaData["oslots"] = dict(valueType="str")
 
 for f in nodeFeatures:
-    metaData[f] = {}
+    if f in lexiconMeta:
+        metaData[f] = lexiconMeta[f]
+    elif f in coreMeta:
+        metaData[f] = coreMeta[f]
+    else:
+        metaData[f] = {}
     metaData[f]["valueType"] = "str"
+    metaData[f]["provenance"] = "from additional lexicon file provided by the ETCBC"
 
 nodeFeatures["otype"] = dict((n, F.otype.v(n)) for n in range(1, maxNode + 1))
 nodeFeatures["otype"].update(otypeData)
@@ -721,7 +730,7 @@ edgeFeatures["oslots"] = dict(
 edgeFeatures["oslots"].update(oslotsData)
 
 
-# In[32]:
+# In[22]:
 
 
 utils.caption(0, "Features that have new or modified data")
@@ -740,7 +749,7 @@ if DO_VOCALIZED_LEXEME:
 
 # We specify the features to delete and list the new/changed features.
 
-# In[33]:
+# In[23]:
 
 
 deleteFeatures = (
@@ -762,7 +771,7 @@ else:
     utils.caption(0, "\tNo features to remove")
 
 
-# In[34]:
+# In[24]:
 
 
 changedDataFeatures = set(nodeFeatures) | set(edgeFeatures)
@@ -773,7 +782,7 @@ changedFeatures = changedDataFeatures | {"otext"}
 # Transform the collected information in feature-like data-structures, and write it all
 # out to `.tf` files.
 
-# In[35]:
+# In[25]:
 
 
 utils.caption(4, "write new/changed features to TF ...")
@@ -796,7 +805,7 @@ TF.save(nodeFeatures=nodeFeatures, edgeFeatures=edgeFeatures, metaData=metaData)
 # For each changed feature we show the first line where the new feature differs from the old one.
 # We ignore changes in the metadata, because the timestamp in the metadata will always change.
 
-# In[20]:
+# In[26]:
 
 
 utils.checkDiffs(thisTempTf, thisTf, only=changedFeatures)
@@ -806,7 +815,7 @@ utils.checkDiffs(thisTempTf, thisTf, only=changedFeatures)
 # 
 # Copy the new TF dataset from the temporary location where it has been created to its final destination.
 
-# In[21]:
+# In[27]:
 
 
 utils.deliverFeatures(
@@ -818,7 +827,7 @@ utils.deliverFeatures(
 # 
 # We load the new features, use the new format, check some values
 
-# In[22]:
+# In[28]:
 
 
 utils.caption(4, "Load and compile the new TF features")
@@ -830,7 +839,7 @@ api.makeAvailableIn(globals())
 
 # # Examples
 
-# In[23]:
+# In[30]:
 
 
 features = [f[1] for f in lexFields] + (

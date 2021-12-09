@@ -31,8 +31,10 @@
 import os
 import sys
 import collections
+import yaml
 from tf.fabric import Fabric
 from tf.writing.transcription import Transcription
+from tf.core.helpers import formatMeta
 import utils
 
 
@@ -107,18 +109,26 @@ if SCRIPT:
 # 
 # We do not do this for the older versions `4` and `4b`.
 
-# In[7]:
+# In[19]:
 
 
-provenanceMetadata = dict(
-    dataset="BHSA",
-    version=VERSION,
-    datasetName="Biblia Hebraica Stuttgartensia Amstelodamensis",
-    author="Eep Talstra Centre for Bible and Computer",
-    encoders="Constantijn Sikkel (QDF), and Dirk Roorda (TF)",
-    website="https://shebanq.ancient-data.org",
-    email="shebanq@ancient-data.org",
-)
+genericMetaPath = f"{thisRepo}/yaml/generic.yaml"
+coreMetaPath = f"{thisRepo}/yaml/core.yaml"
+ketivqereMetaPath = f"{thisRepo}/yaml/ketivqere.yaml"
+
+with open(genericMetaPath) as fh:
+    genericMeta = yaml.load(fh, Loader=yaml.FullLoader)
+    genericMeta["version"] = VERSION
+with open(coreMetaPath) as fh:
+    coreMeta = formatMeta(yaml.load(fh, Loader=yaml.FullLoader))
+with open(ketivqereMetaPath) as fh:
+    ketivqereMeta = formatMeta(yaml.load(fh, Loader=yaml.FullLoader))
+
+metaData = {"": genericMeta}
+
+
+# In[20]:
+
 
 oText = {
     "_temp": """
@@ -162,7 +172,7 @@ else:
         utils.caption(0, '{:<30} = "{}"'.format(*x))
 
 
-# In[8]:
+# In[21]:
 
 
 utils.caption(4, "Load the existing TF dataset")
@@ -175,7 +185,7 @@ api.makeAvailableIn(globals())
 # The ketiv-qere files deal with different verse labels.
 # We make a mapping between verse labels and nodes.
 
-# In[9]:
+# In[22]:
 
 
 utils.caption(0, "Mapping between verse labels and verse nodes")
@@ -188,7 +198,7 @@ utils.caption(0, "{} verses".format(len(nodeFromLabel)))
 
 # # Read the Ketiv-Qere file
 
-# In[10]:
+# In[23]:
 
 
 utils.caption(4, "Parsing Ketiv-Qere data")
@@ -222,7 +232,7 @@ kqHandle.close()
 utils.caption(0, "\tRead {} ketiv-qere annotations".format(ln))
 
 
-# In[11]:
+# In[24]:
 
 
 data = []
@@ -268,14 +278,14 @@ for vnode in verseInfo:
 utils.caption(0, "\tParsed {} ketiv-qere annotations".format(len(data)))
 
 
-# In[12]:
+# In[25]:
 
 
 if not SCRIPT:
     print("\n".join(repr(d) for d in data[0:10]))
 
 
-# In[13]:
+# In[26]:
 
 
 if notFound:
@@ -333,7 +343,7 @@ else:
 
 # # Prepare TF features
 
-# In[14]:
+# In[27]:
 
 
 utils.caption(0, "Prepare TF ketiv qere features")
@@ -357,25 +367,27 @@ nodeFeatures = dict(
 
 # We update the `otext` feature with new/changed formats
 
-# In[15]:
+# In[28]:
 
 
 utils.caption(0, "Update the otext feature")
 
-metaData = {
-    "": provenanceMetadata,
-}
+for f in nodeFeatures:
+    if f in ketivqereMeta:
+        metaData[f] = ketivqereMeta[f]
+    elif f in coreMeta:
+        metaData[f] = coreMeta[f]
+    else:
+        metaData[f] = {}
+    metaData[f]["valueType"] = "str"
+    metaData[f]["provenance"] = "from additional ketiv/qere file provided by the ETCBC"
 
 metaData["otext"] = dict()
 metaData["otext"].update(T.config)
 metaData["otext"].update(otextInfo)
 
-for f in nodeFeatures:
-    metaData[f] = {}
-    metaData[f]["valueType"] = "str"
 
-
-# In[16]:
+# In[30]:
 
 
 changedDataFeatures = set(nodeFeatures)
@@ -386,7 +398,7 @@ changedFeatures = changedDataFeatures | {"otext"}
 # Transform the collected information in feature-like datastructures, and write it all
 # out to `.tf` files.
 
-# In[17]:
+# In[31]:
 
 
 utils.caption(4, "write new/changed features to TF ...")
@@ -409,7 +421,7 @@ TF.save(nodeFeatures=nodeFeatures, edgeFeatures={}, metaData=metaData)
 # For each changed feature we show the first line where the new feature differs from the old one.
 # We ignore changes in the metadata, because the timestamp in the metadata will always change.
 
-# In[18]:
+# In[32]:
 
 
 utils.checkDiffs(thisTempTf, thisTf, only=changedFeatures)
@@ -419,7 +431,7 @@ utils.checkDiffs(thisTempTf, thisTf, only=changedFeatures)
 # 
 # Copy the new TF dataset from the temporary location where it has been created to its final destination.
 
-# In[19]:
+# In[33]:
 
 
 utils.deliverFeatures(thisTempTf, thisTf, changedFeatures)
@@ -429,7 +441,7 @@ utils.deliverFeatures(thisTempTf, thisTf, changedFeatures)
 # 
 # We load the new features, use the new format, check some values
 
-# In[20]:
+# In[ ]:
 
 
 utils.caption(4, "Load and compile the new TF features")
@@ -443,7 +455,7 @@ api.makeAvailableIn(globals())
 
 # # Examples
 
-# In[21]:
+# In[ ]:
 
 
 utils.caption(4, "Basic tests")

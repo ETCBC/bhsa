@@ -2,13 +2,15 @@
 @author=Eep Talstra Centre for Bible and Computer
 @dataset=BHSA
 @datasetName=Biblia Hebraica Stuttgartensia Amstelodamensis
+@description=✅ vocalized lexeme pointed-Hebrew (בְּ רֵאשִׁית ברא אֱלֹהִים)
 @email=shebanq@ancient-data.org
-@encoders=Constantijn Sikkel (QDF), and Dirk Roorda (TF)
+@encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)
+@provenance=from additional lexicon file provided by the ETCBC
 @valueType=str
 @version=2021
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2021-11-30T15:28:53Z
+@dateWritten=2021-12-09T14:21:17Z
 
 בְּ
 רֵאשִׁית

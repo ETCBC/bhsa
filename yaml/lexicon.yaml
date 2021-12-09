@@ -1,0 +1,21 @@
+root:
+  desc: ⚠️ root of word or lexeme
+  eg: "R>C CMH XCK <unknown>"
+nametype:
+  desc: ⚠️ named entity type
+  eg: pers; mens; gens; topo; ppde.
+gloss:
+  desc: 🆗 english translation of lexeme
+  eg: "beginning create god(s)"
+lex0:
+  desc: ✅ lexeme consonantal-transliterated without disambiguation
+  eg: "B R>CJT BR> >LHJM"
+languageISO:
+  desc: ✅ of word or lexeme in ISO code
+  eg: hbo arc.
+voc_lex:
+  desc: ✅ vocalized lexeme pointed-transliterated
+  eg: "B.: R;>CIJT BR> >:ELOHIJM"
+voc_lex_utf8:
+  desc: ✅ vocalized lexeme pointed-Hebrew
+  eg: בְּ רֵאשִׁית ברא אֱלֹהִים

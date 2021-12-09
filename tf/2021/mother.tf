@@ -2,13 +2,14 @@
 @author=Eep Talstra Centre for Bible and Computer
 @dataset=BHSA
 @datasetName=Biblia Hebraica Stuttgartensia Amstelodamensis
+@description=✅ linguistic dependency between textual objects
 @email=shebanq@ancient-data.org
 @encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)
 @valueType=str
 @version=2021
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2021-11-30T15:25:58Z
+@dateWritten=2021-12-09T14:18:22Z
 
 427567	427566
 427579	105

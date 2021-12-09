@@ -1,12 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
-
-
-
 # <img align="right" src="images/dans-small.png"/>
 # <img align="right" src="images/tf-small.png"/>
 # <img align="right" src="images/etcbc.png"/>
@@ -44,13 +38,22 @@
 # ```sudo -H pip3 install --upgrade text-fabric
 # ```
 
-# In[19]:
+# In[1]:
+
+
+get_ipython().run_line_magic('load_ext', 'autoreload')
+get_ipython().run_line_magic('autoreload', '2')
+
+
+# In[2]:
 
 
 import os
 import sys
+import yaml
 from shutil import rmtree
 from tf.fabric import Fabric
+from tf.core.helpers import formatMeta
 import utils
 
 
@@ -58,7 +61,7 @@ import utils
 # See [operation](https://github.com/ETCBC/pipeline/blob/master/README.md#operation)
 # for how to run this script in the pipeline.
 
-# In[2]:
+# In[3]:
 
 
 if "SCRIPT" not in locals():
@@ -72,7 +75,7 @@ if "SCRIPT" not in locals():
     )
 
 
-# In[3]:
+# In[4]:
 
 
 def stop(good=False):
@@ -85,21 +88,21 @@ def stop(good=False):
 # The conversion is executed in an environment of directories, so that sources, temp files and
 # results are in convenient places and do not have to be shifted around.
 
-# In[4]:
+# In[5]:
 
 
 repoBase = os.path.expanduser("~/github/etcbc")
 thisRepo = "{}/{}".format(repoBase, CORE_NAME)
 
 
-# In[5]:
+# In[6]:
 
 
 thisSource = "{}/source/{}".format(thisRepo, VERSION)
 mqlzFile = "{}/{}.mql.bz2".format(thisSource, CORE_NAME)
 
 
-# In[6]:
+# In[7]:
 
 
 thisTemp = "{}/_temp/{}".format(thisRepo, VERSION)
@@ -108,7 +111,7 @@ mqlFile = "{}/{}.mql".format(thisTempSource, CORE_NAME)
 thisTempTf = "{}/tf".format(thisTemp)
 
 
-# In[7]:
+# In[8]:
 
 
 thisTf = "{}/tf/{}".format(thisRepo, VERSION)
@@ -119,7 +122,7 @@ thisTf = "{}/tf/{}".format(thisRepo, VERSION)
 # Check whether this conversion is needed in the first place.
 # Only when run as a script.
 
-# In[8]:
+# In[9]:
 
 
 if SCRIPT:
@@ -146,27 +149,28 @@ if SCRIPT:
 # We save the configs we need per source and version.
 # And we define a stripped down default version to start with.
 
-# In[9]:
+# In[10]:
 
 
 slotType = "word"
 
 
-# In[10]:
+# In[13]:
 
 
-featureMetaData = dict(
-    dataset="BHSA",
-    version=VERSION,
-    datasetName="Biblia Hebraica Stuttgartensia Amstelodamensis",
-    author="Eep Talstra Centre for Bible and Computer",
-    encoders="Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)",
-    website="https://shebanq.ancient-data.org",
-    email="shebanq@ancient-data.org",
-)
+genericMetaPath = f"{thisRepo}/yaml/generic.yaml"
+coreMetaPath = f"{thisRepo}/yaml/core.yaml"
+
+with open(genericMetaPath) as fh:
+    genericMeta = yaml.load(fh, Loader=yaml.FullLoader)
+    genericMeta["version"] = VERSION
+with open(coreMetaPath) as fh:
+    coreMeta = formatMeta(yaml.load(fh, Loader=yaml.FullLoader))
+    
+featureMetaData = {"": genericMeta, **coreMeta}
 
 
-# In[11]:
+# In[13]:
 
 
 oText = {
@@ -283,13 +287,13 @@ oText = {
 # The next function selects the proper otext material, falling back on a default if nothing
 # appropriate has been specified in `oText`.
 
-# In[12]:
+# In[14]:
 
 
 thisOtext = oText.get(VERSION, oText[""])
 
 
-# In[13]:
+# In[15]:
 
 
 if thisOtext is oText[""]:
@@ -320,14 +324,14 @@ else:
 # 
 # Check the source, utils.bunzip it if needed, empty the result directory.
 
-# In[14]:
+# In[16]:
 
 
 if not os.path.exists(thisTempSource):
     os.makedirs(thisTempSource)
 
 
-# In[15]:
+# In[17]:
 
 
 utils.caption(0, "bunzipping {} ...".format(mqlzFile))
@@ -335,7 +339,7 @@ utils.bunzip(mqlzFile, mqlFile)
 utils.caption(0, "Done")
 
 
-# In[16]:
+# In[18]:
 
 
 if os.path.exists(thisTempTf):
@@ -347,17 +351,22 @@ os.makedirs(thisTempTf)
 # Transform the collected information in feature-like data-structures, and write it all
 # out to `.tf` files.
 
-# In[17]:
+# In[28]:
 
 
-TF = Fabric(locations=thisTempTf, silent=True)
+TF = Fabric(locations=thisTempTf, silent=SCRIPT)
+
+
+# In[29]:
+
+
 TF.importMQL(mqlFile, slotType=slotType, otext=otextInfo, meta=featureMetaData)
 
 
 # # Rename features
 # We rename the features mentioned in the RENAME dictionary.
 
-# In[18]:
+# In[30]:
 
 
 if RENAME is None:
@@ -392,7 +401,7 @@ else:
 # For each changed feature we show the first line where the new feature differs from the old one.
 # We ignore changes in the metadata, because the timestamp in the metadata will always change.
 
-# In[19]:
+# In[31]:
 
 
 utils.checkDiffs(thisTempTf, thisTf)
@@ -402,7 +411,7 @@ utils.checkDiffs(thisTempTf, thisTf)
 # 
 # Copy the new TF dataset from the temporary location where it has been created to its final destination.
 
-# In[20]:
+# In[32]:
 
 
 utils.deliverDataset(thisTempTf, thisTf)
@@ -420,7 +429,7 @@ utils.deliverDataset(thisTempTf, thisTf)
 # At that point we have access to the full list of features.
 # We grab them and are going to load them all!
 
-# In[14]:
+# In[33]:
 
 
 utils.caption(4, "Load and compile standard TF features")
@@ -428,7 +437,7 @@ TF = Fabric(locations=thisTf, modules=[""])
 api = TF.load("")
 
 
-# In[15]:
+# In[34]:
 
 
 utils.caption(4, "Load and compile all other TF features")
@@ -440,7 +449,7 @@ api.makeAvailableIn(globals())
 
 # # Examples
 
-# In[17]:
+# In[35]:
 
 
 utils.caption(4, "Basic test")
@@ -450,7 +459,7 @@ for fmt in T.formats:
     utils.caption(0, "\t{}".format(T.text(range(1, 12), fmt=fmt)), continuation=True)
 
 
-# In[18]:
+# In[36]:
 
 
 if SCRIPT:

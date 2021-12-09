@@ -2,6 +2,7 @@
 @author=Eep Talstra Centre for Bible and Computer
 @dataset=BHSA
 @datasetName=Biblia Hebraica Stuttgartensia Amstelodamensis
+@description=✅ book name in korean (한국어)
 @email=shebanq@ancient-data.org
 @encoders=Dirk Roorda (TF)
 @language=한국어
@@ -12,7 +13,7 @@
 @version=2021
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2021-11-30T15:28:05Z
+@dateWritten=2021-12-09T14:20:27Z
 
 426591	창세기
 출애굽기

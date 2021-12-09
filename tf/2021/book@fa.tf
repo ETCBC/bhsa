@@ -2,6 +2,7 @@
 @author=Eep Talstra Centre for Bible and Computer
 @dataset=BHSA
 @datasetName=Biblia Hebraica Stuttgartensia Amstelodamensis
+@description=✅ book name in farsi (فارسی)
 @email=shebanq@ancient-data.org
 @encoders=Dirk Roorda (TF)
 @language=فارسی
@@ -12,7 +13,7 @@
 @version=2021
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2021-11-30T15:28:05Z
+@dateWritten=2021-12-09T14:20:27Z
 
 426591	پيدايش
 خروج

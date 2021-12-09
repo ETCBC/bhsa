@@ -2,14 +2,15 @@
 @author=Eep Talstra Centre for Bible and Computer
 @dataset=BHSA
 @datasetName=Biblia Hebraica Stuttgartensia Amstelodamensis
+@description=✅ frequency of lexemes
 @email=shebanq@ancient-data.org
-@encoders=Dirk Roorda (TF)
-@provenance=computed addition to core set of features
+@encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)
+@provenance=computed on the basis of the ETCBC core set of features
 @valueType=int
 @version=2021
 @website=https://shebanq.ancient-data.org
 @writtenBy=Text-Fabric
-@dateWritten=2021-11-30T15:32:18Z
+@dateWritten=2021-12-09T14:24:45Z
 
 15542
 51

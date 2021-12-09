@@ -25,7 +25,9 @@
 import os
 import sys
 import re
+import yaml
 from tf.fabric import Fabric
+from tf.core.helpers import formatMeta
 import utils
 
 
@@ -104,15 +106,16 @@ if SCRIPT:
 # In[6]:
 
 
-provenanceMetadata = dict(
-    dataset="BHSA",
-    datasetName="Biblia Hebraica Stuttgartensia Amstelodamensis",
-    version=VERSION,
-    author="Eep Talstra Centre for Bible and Computer",
-    encoders="Constantijn Sikkel (QDF), and Dirk Roorda (TF)",
-    website="https://shebanq.ancient-data.org",
-    email="shebanq@ancient-data.org",
-)
+genericMetaPath = f"{thisRepo}/yaml/generic.yaml"
+paragraphMetaPath = f"{thisRepo}/yaml/paragraph.yaml"
+
+with open(genericMetaPath) as fh:
+    genericMeta = yaml.load(fh, Loader=yaml.FullLoader)
+    genericMeta["version"] = VERSION
+with open(paragraphMetaPath) as fh:
+    paragraphMeta = formatMeta(yaml.load(fh, Loader=yaml.FullLoader))
+
+metaData = {"": genericMeta}
 
 
 # In[7]:
@@ -238,9 +241,6 @@ if not SCRIPT:
 
 utils.caption(0, "Prepare TF paragraph features")
 
-metaData = {
-    "": provenanceMetadata,
-}
 nodeFeatures = {}
 
 newFeatures = """
@@ -256,6 +256,15 @@ nodeFeatures = dict(
 for f in nodeFeatures:
     metaData[f] = {}
     metaData[f]["valueType"] = "str"
+    metaData[f]["provenance"] = "from additional paragraph file provided by the ETCBC"
+    
+for f in nodeFeatures:
+    if f in paragraphMeta:
+        metaData[f] = paragraphMeta[f]
+    else:
+        metaData[f] = {}
+    metaData[f]["valueType"] = "str"
+    metaData[f]["provenance"] = "from additional paragraph file provided by the ETCBC"
 
 
 # In[12]:

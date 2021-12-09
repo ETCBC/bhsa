@@ -1,0 +1,196 @@
+book:
+  desc: ✅ book name in Latin
+  eg: Genesis; Numeri; Reges1; ...
+chapter:
+  desc: ✅ chapter number
+  eg: "1; 2; 3; ..."
+code:
+  desc: ✅ identifier of a clause atom relationship
+  eg: "0; 74; 367; ..."
+det:
+  desc: ✅ determinedness of phrase(atom)
+  eg: det; und; NA.
+dist:
+  desc: ✅ distance to mother of the object
+  eg: "0; 1; 2; -6; -6; ..."
+dist_unit:
+  desc: ✅ unit of measure for the dist feature
+  eg: words; phrase_atoms; clause_atoms.
+distributional_parent:
+  desc: ✅ parent releationship between phrase/clause/sentence atoms
+domain:
+  desc: ✅ text type of clause
+  eg: "? (Unknown); N (narrative); D (discursive); Q (Quotation)."
+function:
+  desc: ✅ syntactic function of phrase
+  eg: Cmpl; Objc; Pred; ...
+functional_parent:
+  desc: ✅ parent releationship between phrases/clauses/sentences
+g_cons:
+  desc: ✅ word consonantal-transliterated
+  eg: "B R>CJT BR> >LHJM ..."
+g_cons_utf8:
+  desc: ✅ word consonantal-Hebrew
+  eg: ב ראשׁית ברא אלהים
+g_lex:
+  desc: ✅ lexeme pointed-transliterated
+  eg: "B.:- R;>CIJT B.@R@> >:ELOH ..."
+g_lex_utf8:
+  desc: ✅ lexeme pointed-Hebrew
+  eg: בְּ רֵאשִׁית בָּרָא אֱלֹה
+g_nme:
+  desc: ✅ nominal ending pointed-transliterated
+  eg: "/IJM /ET /;J ..."
+g_nme_utf8:
+  desc: ✅ nominal ending pointed-Hebrew
+  eg: ים ֶ֜ת  ֵ֜י
+g_pfm:
+  desc: ✅ preformative pointed-transliterated
+  eg: "!J.O! !J:! !J:! !J.A! ..."
+g_pfm_utf8:
+  desc: ✅ preformative pointed-Hebrew
+  eg: יְ יְ יַּ
+g_prs:
+  desc: ✅ pronominal suffix pointed-transliterated
+  eg: "+OW +;HW ..."
+g_prs_utf8:
+  desc: ✅ pronominal suffix pointed-Hebrew
+  eg: ו ֵהוּ
+g_suffix:
+  desc: ✅ interword material pointed-transliterated
+  eg: "& 00 05 00_P ..."
+g_suffix_utf8:
+  desc: ✅ interword material pointed-Hebrew
+  eg: ־ ׃ 
+g_uvf:
+  desc: ✅ univalent final consonant pointed-transliterated
+  eg: "~OW ~E ~@H ..."
+g_uvf_utf8:
+  desc: ✅ univalent final consonant pointed-Hebrew
+  eg:  ֶ ָה
+g_vbe:
+  desc: ✅ verbal ending pointed-transliterated
+  eg: "[W. ..."
+g_vbe_utf8:
+  desc: ✅ verbal ending pointed-Hebrew
+  eg: וּ
+g_vbs:
+  desc: ✅ root formation pointed-transliteratedeg
+  eg: "]] ]HA] ..."
+g_vbs_utf8:
+  desc: ✅ root formation pointed-Hebrew
+  eg: הַ
+g_voc_lex:
+  desc: ✅ vocalized lexeme pointed-transliterated
+  eg: "B.: R;>CIJT BR> >:ELOHIJM"
+g_voc_lex_utf8:
+  desc: ✅ vocalized lexeme pointed-Hebrew
+  eg: בְּ רֵאשִׁית ברא אֱלֹהִים
+g_word: 
+  desc: ✅ word pointed-transliterated
+  eg: "B.:- R;>CI73JT B.@R@74> >:ELOHI92JM"
+g_word_utf8:
+  desc: ✅ word pointed-Hebrew
+  eg: בְּ רֵאשִׁ֖ית בָּרָ֣א אֱלֹהִ֑ים
+gn:
+  desc: ✅ grammatical gender
+  eg: "m; f; NA; unknown."
+isroot:
+  desc: unclear feature of clause atoms
+  eg: "false; true."
+kind:
+  desc: ✅ clause kind
+  eg: "VC (verbal); NC (nominal); WP (without predication)"
+kq_hybrid:
+  desc: "❓ unclear, ketiv/qere related"
+kq_hybrid_utf8:
+  desc: "❓ unclear, ketiv/qere related"
+label:
+  desc: "✅ (half-)verse label"
+  eg: "half verses: A; B; C; verses:  GEN 01,02"
+language:
+  desc: ✅ of word or lexeme
+  eg: Hebrew; Aramaic.
+lex:
+  desc: ✅ lexeme consonantal-transliterated
+  eg: "B R>CJT/ BR>[ >LHJM/"
+lex_utf8:
+  desc: ✅ lexeme consonantal-Hebrew
+  eg: ב ראשׁית֜ ברא אלהים֜ 
+lexeme_count:
+  desc: "✅ on words: the number of occurrences of its lexeme"
+ls:
+  desc: "✅ lexical set, subclassification of part-of-speech"
+  eg: card; ques; mult
+mother_object_type:
+  desc: "✅ phrase(atom): type its linguistic mother"
+  eg: clause; phrase; subphrase; word; NA.
+mother:
+  desc: ✅ linguistic dependency between textual objects
+nme:
+  desc: ✅ nominal ending consonantal-transliterated
+  eg: "absent; n/a; JM, ..."
+nu:
+  desc: ✅ grammatical number
+  eg: "sg; du; pl; NA; unknown."
+number:
+  desc: ✅ sequence number of an object within its context
+pdp:
+  desc: ✅ phrase dependent part-of-speech
+  eg: art; verb; subs; nmpr, ...
+pfm:
+  desc: ✅ preformative consonantal-transliterated
+  eg: "absent; n/a; J, ..."
+prs:
+  desc: ✅ pronominal suffix consonantal-transliterated
+  eg: "absent; n/a; W; ..." 
+prs_gn:
+  desc: ✅ pronominal suffix gender
+  eg: "m; f; NA; unknown."
+prs_nu:
+  desc: ✅ pronominal suffix number
+  eg: "sg; du; pl; NA; unknown."
+prs_ps:
+  desc: ✅ pronominal suffix person
+  eg: "p1; p2; p3; NA; unknown."
+ps:
+  desc: ✅ grammatical person
+  eg: "p1; p2; p3; NA; unknown."
+qere:
+  desc: ✅ word pointed-transliterated masoretic reading correction
+qere_utf8:
+  desc: ✅ word pointed-Hebrew masoretic reading correction
+rela:
+  desc: ✅ linguistic relation between clause/(sub)phrase(atom)
+  eg: "ADJ; MOD; ATR; ..."
+sp:
+  desc: ✅ part-of-speech
+  eg: art; verb; subs; nmpr, ...
+st:
+  desc: ✅ state of a noun
+  eg: "a (absolute); c (construct); e (emphatic)."
+tab:
+  desc: "✅ clause atom: its level in the linguistic embedding"
+txt:
+  desc: ✅ text type of clause and surrounding
+  eg: "repetion of ? N D Q as in feature domain"
+typ:
+  desc: ✅ clause/phrase(atom) type
+  eg: "VP; NP; Ellp; Ptcp; WayX"
+uvf:
+  desc: ✅ univalent final consonant consonantal-transliterated
+  eg: "absent; N; J; ..."
+vbe:
+  desc: ✅ verbal ending consonantal-transliterated
+  eg: "n/a; W; ..."
+vbs:
+  desc: ✅ root formation consonantal-transliterated
+  eg: "absent; n/a; H; ..."
+verse:
+  desc: ✅ verse number
+vs:
+  desc: ✅ verbal stem
+  eg: "qal; piel; hif; apel; pael"
+vt:
+  desc: ✅ verbal tense
+  eg: "perf; impv; wayq; infc"

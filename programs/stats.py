@@ -41,21 +41,23 @@
 # Lexemes are identified by the `lex` feature within a biblical language.
 # We will not identify lexemes across language.
 
-# In[4]:
+# In[9]:
 
 
 import os
 import sys
 import collections
+import yaml
 import utils
 from tf.fabric import Fabric
+from tf.core.helpers import formatMeta
 
 
 # # Pipeline
 # See [operation](https://github.com/ETCBC/pipeline/blob/master/README.md#operation)
 # for how to run this script in the pipeline.
 
-# In[5]:
+# In[2]:
 
 
 if "SCRIPT" not in locals():
@@ -78,7 +80,7 @@ def stop(good=False):
 # The conversion is executed in an environment of directories, so that sources, temp files and
 # results are in convenient places and do not have to be shifted around.
 
-# In[6]:
+# In[3]:
 
 
 repoBase = os.path.expanduser("~/github/etcbc")
@@ -90,7 +92,7 @@ thisTempTf = "{}/tf".format(thisTemp)
 thisTf = "{}/tf/{}".format(thisRepo, VERSION)
 
 
-# In[7]:
+# In[4]:
 
 
 newFeaturesStr = """
@@ -107,7 +109,7 @@ newFeatures = newFeaturesStr.strip().split()
 # Check whether this conversion is needed in the first place.
 # Only when run as a script.
 
-# In[8]:
+# In[5]:
 
 
 if SCRIPT:
@@ -124,7 +126,7 @@ if SCRIPT:
 # 
 # We collect the statistics.
 
-# In[9]:
+# In[6]:
 
 
 utils.caption(4, "Loading relevant features")
@@ -136,7 +138,7 @@ api.makeAvailableIn(globals())
 hasLex = "lex" in set(F.otype.all)
 
 
-# In[10]:
+# In[7]:
 
 
 utils.caption(0, "Counting occurrences")
@@ -176,29 +178,30 @@ for lan in langs:
             wstats["ranks"][tp][lan][x] = rank
 
 
-# In[11]:
+# In[15]:
 
 
 utils.caption(0, "Making statistical features")
-metaData = {
-    "": dict(
-        dataset="BHSA",
-        version=VERSION,
-        datasetName="Biblia Hebraica Stuttgartensia Amstelodamensis",
-        author="Eep Talstra Centre for Bible and Computer",
-        provenance="computed addition to core set of features",
-        encoders="Dirk Roorda (TF)",
-        website="https://shebanq.ancient-data.org",
-        email="shebanq@ancient-data.org",
-    ),
-}
+
+genericMetaPath = f"{thisRepo}/yaml/generic.yaml"
+statsMetaPath = f"{thisRepo}/yaml/stats.yaml"
+
+with open(genericMetaPath) as fh:
+    genericMeta = yaml.load(fh, Loader=yaml.FullLoader)
+    genericMeta["version"] = VERSION
+with open(statsMetaPath) as fh:
+    statsMeta = formatMeta(yaml.load(fh, Loader=yaml.FullLoader))
+
+metaData = {"": genericMeta}
 
 nodeFeatures = {}
 edgeFeatures = {}
 
-for ft in newFeatures:
-    nodeFeatures[ft] = {}
-    metaData.setdefault(ft, {})["valueType"] = "int"
+for f in newFeatures:
+    nodeFeatures[f] = {}
+    metaData[f] = statsMeta[f]
+    metaData[f]["valueType"] = "int"
+    metaData[f]["provenance"] = "computed on the basis of the ETCBC core set of features"
 
 for w in F.otype.s("word"):
     lan = Fs(LANG_FEATURE).v(w)
@@ -216,7 +219,7 @@ if hasLex:
         nodeFeatures["rank_lex"][lx] = nodeFeatures["rank_lex"][firstOcc]
 
 
-# In[12]:
+# In[16]:
 
 
 utils.caption(4, "Write statistical features as TF")
@@ -228,7 +231,7 @@ TF.save(nodeFeatures=nodeFeatures, edgeFeatures=edgeFeatures, metaData=metaData)
 # 
 # Check differences with previous versions.
 
-# In[13]:
+# In[17]:
 
 
 utils.checkDiffs(thisTempTf, thisTf, only=set(newFeatures))
@@ -238,7 +241,7 @@ utils.checkDiffs(thisTempTf, thisTf, only=set(newFeatures))
 # 
 # Copy the new TF features from the temporary location where they have been created to their final destination.
 
-# In[14]:
+# In[18]:
 
 
 utils.deliverFeatures(thisTempTf, thisTf, newFeatures)
@@ -246,7 +249,7 @@ utils.deliverFeatures(thisTempTf, thisTf, newFeatures)
 
 # # Compile TF
 
-# In[17]:
+# In[19]:
 
 
 utils.caption(4, "Load and compile the new TF features")
@@ -258,7 +261,7 @@ api.makeAvailableIn(globals())
 
 # # Examples
 
-# In[16]:
+# In[20]:
 
 
 utils.caption(4, "Basic test")
