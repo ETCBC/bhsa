@@ -1,0 +1,114 @@
+apiVersion: 3
+dataDisplay:
+  exampleSectionHtml: <code>Genesis 1:1</code> (use <a href="https://github.com/{org}/{repo}/blob/master/tf/{version}/book%40en.tf"
+    target="_blank">English book names</a>)
+  excludedFeatures:
+  - g_uvf_utf8
+  - g_vbs
+  - kq_hybrid
+  - languageISO
+  - g_nme
+  - lex0
+  - is_root
+  - g_vbs_utf8
+  - g_uvf
+  - dist
+  - root
+  - suffix_person
+  - g_vbe
+  - dist_unit
+  - suffix_number
+  - distributional_parent
+  - kq_hybrid_utf8
+  - crossrefSET
+  - instruction
+  - g_prs
+  - lexeme_count
+  - rank_occ
+  - g_pfm_utf8
+  - freq_occ
+  - crossrefLCS
+  - functional_parent
+  - g_pfm
+  - g_nme_utf8
+  - g_vbe_utf8
+  - kind
+  - g_prs_utf8
+  - suffix_gender
+  - mother_object_type
+  noneValues:
+  - none
+  - unknown
+  - null
+  - NA
+docs:
+  docBase: '{docRoot}/{repo}'
+  docExt: ''
+  docPage: 0_home
+  docRoot: https://{org}.github.io
+  featurePage: 0_home
+interfaceDefaults: {}
+provenanceSpec:
+  corpus: BHSA = Biblia Hebraica Stuttgartensia Amstelodamensis
+  doi: 10.5281/zenodo.1007624
+  moduleSpecs:
+  - corpus: Phonetic Transcriptions
+    docUrl: '{urlNb}/etcbc/phono/blob/master/programs/phono.ipynb'
+    doi: 10.5281/zenodo.1007636
+    org: etcbc
+    repo: phono
+  - corpus: Parallel Passages
+    docUrl: '{urlNb}/{org}/parallels/blob/master/programs/parallels.ipynb'
+    doi: 10.5281/zenodo.1007642
+    repo: parallels
+  version: 2021
+  webBase: https://shebanq.ancient-data.org/hebrew
+  webHint: Show this on SHEBANQ
+  webLang: la
+  webLexId: true
+  webUrl: '{webBase}/text?book=<1>&chapter=<2>&verse=<3>&version={version}&mr=m&qw=q&tp=txt_p&tr=hb&wget=v&qget=v&nget=vt'
+  webUrlLex: '{webBase}/word?version={version}&id=<lid>'
+typeDisplay:
+  clause:
+    label: '{typ} {rela}'
+    style: ""
+  clause_atom:
+    level: 1
+    hidden: true
+    label: '{code}'
+    style: ""
+  half_verse:
+    hidden: true
+    label: '{label}'
+    verselike: true
+    style: ""
+  lex:
+    featuresBare: gloss
+    lexOcc: word
+    template: '{voc_lex_utf8}'
+    label: '{voc_lex_utf8}'
+    style: orig
+  phrase:
+    label: '{typ} {function}'
+    style: ""
+  phrase_atom:
+    level: 1
+    hidden: true
+    label: '{typ} {rela}'
+    style: ""
+  sentence:
+    label: '{number}'
+    style: ""
+  sentence_atom:
+    level: 1
+    hidden: true
+    label: '{number}'
+    style: ""
+  subphrase:
+    hidden: true
+    label: '{number}'
+    style: ""
+  word:
+    features: pdp vs vt
+    featuresBare: lex:gloss
+writing: hbo
