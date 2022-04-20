@@ -42,7 +42,9 @@ sometimes there is a space between book and chapter, and sometimes not.
 the abbreviation of the name of the book is not the abbreviation of the latin name of the book.
 We recommend to use the *book*, *chapter*, and *verse* features.
 
-If you are in Text-Fabric, use the [`T.sectionFromNode`](/text-data/wiki/Api#sectioning) function.
+If you are in Text-Fabric, use the
+[`T.sectionFromNode`](https://annotation.github.io/text-fabric/tf/core/text.html#tf.core.text.Text.sectionFromNode) 
+function.
 
 The main use of this function is in cases where you want to combine data in this set with other files
 from the ETCBC.
