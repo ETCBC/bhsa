@@ -44,7 +44,7 @@ dataDisplay:
 docs:
   docBase: '{docRoot}/{repo}'
   docExt: ''
-  docPage: 0_home
+  docPage: ''
   docRoot: https://{org}.github.io
   featurePage: 0_home
 interfaceDefaults: {}
