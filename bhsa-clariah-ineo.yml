@@ -15,7 +15,7 @@ properties:
     - link: https://dans.knaw.nl/en/
       title: DANS
     - link: https://di.huc.knaw.nl
-      title: Humanities Cluster - Digital Infrastructure
+      title: KNAW Humanities Cluster - Digital Infrastructure
     - link: http://etcbc.nl/
       title: ETCBC
     - title: >-
@@ -68,7 +68,7 @@ properties:
     - '11.17'
     - '19.3'
   resourceHost:
-    - link: https://etcbc.github.io/bhsa/
+    - link: https://ETCBC.github.io/bhsa/
       title: ETCBC Github
   resourceOwner:
     - link: http://etcbc.nl/
@@ -92,48 +92,89 @@ relatedResources:
 slug: bhsa
 tabs:
   learn:
-    body: "## Learn\nDifferent ways to explore this dataset are supported.\n\n•\tUsing the website SHEBANQ for users that do not want to use the resource programmatically: you can execute linguistic queries and save and publish them.\n\n![](https://cdn.sanity.io/images/0v602vuh/production/be69557154a0a694960f71b4045fd6673b2a694e-3120x3364.png?auto=format&fit=crop&dpr=1&fit=fill&q=80&w=1400)\n\n•\tUse the Text-Fabric browser. You need Python, but you do not have to program in it. You can execute queries in your browser, served by a local webserver.\n\n![](https://cdn.sanity.io/images/0v602vuh/production/d959213a1276b09c9eddfdb03302f353c8f7a8e2-3154x2698.png?auto=format&fit=crop&dpr=1&fit=fill&q=80&w=700)\n\n•\tUse Text-Fabric as a library. You need to program in Python. You can build data workflows, and you can write exploratory Jupyter notebooks, by which you have ultimate control over the data, and powerful methods to render parts of the corpus in rich displays.\n\n![](https://cdn.sanity.io/images/0v602vuh/production/fbd4a1c6fe6396280a742e9146d2b21c6160eee9-2264x3398.png?auto=format&fit=crop&dpr=1&fit=fill&q=80&w=700)\n\n* Text-Fabric is on the [Python Package Index](https://pypi.org/project/text-fabric/) and can be installed by means of pip. Once Text-Fabric is installed, it will fetch a working copy of the data to your computer when it needs it. You can also obtain the data directly from [GitHub](https://github.com/etcbc/bhsa/).\n\n* There is an extensive set of tutorials for working with the BHSA by means of Text-Fabric.\n* Repo: https://github.com/annotation/tutorials/tree/master/bhsa\n* Entry point: https://nbviewer.jupyter.org/github/annotation/tutorials/blob/master/bhsa/start.ipynb"
+    body: >-
+      ## Learn
+      
+      Different ways to explore this dataset are supported.
+    
+      * Using the website SHEBANQ for users that
+        do not want to use the resource programmatically:
+        you can execute linguistic queries and save and publish them.
+    
+        ![](https://cdn.sanity.io/images/0v602vuh/production/be69557154a0a694960f71b4045fd6673b2a694e-3120x3364.png?auto=format&fit=crop&dpr=1&fit=fill&q=80&w=1400)
+    
+      * Use the Text-Fabric browser. You need Python,
+        but you do not have to program in it.
+        You can execute queries in your browser, served by a local webserver.
+    
+        ![](https://cdn.sanity.io/images/0v602vuh/production/d959213a1276b09c9eddfdb03302f353c8f7a8e2-3154x2698.png?auto=format&fit=crop&dpr=1&fit=fill&q=80&w=700)
+    
+      * Use Text-Fabric as a library. You need to program in Python.
+        You can build data workflows, and you can write exploratory Jupyter notebooks,
+        by which you have ultimate control over the data,
+        and powerful methods to render parts of the corpus in rich displays.
+    
+        ![](https://cdn.sanity.io/images/0v602vuh/production/fbd4a1c6fe6396280a742e9146d2b21c6160eee9-2264x3398.png?auto=format&fit=crop&dpr=1&fit=fill&q=80&w=700)
+    
+      * Text-Fabric is on the [Python Package Index](https://pypi.org/project/text-fabric/)
+        and can be installed by means of pip.
+        Once Text-Fabric is installed, it will fetch a working copy of the data to your computer
+        when it needs it.
+        You can also obtain the data directly from [GitHub](https://github.com/ETCBC/bhsa/).
+      * There is an extensive set of tutorials for working with the BHSA by means of Text-Fabric:
+        [in the repo](https://github.com/ETCBC/bhsa/tree/master/tutorial) or via
+        [nbviewer](https://nbviewer.jupyter.org/github/ETCBC/bhsa/blob/master/tutorial/start.ipynb).
   mentions:
-    body: "## Publications\n*\t[Coding the Hebrew Bible](https://doi.org/10.1163/24523666-01000011)\n*\t[The Hebrew Bible as Data: Laboratory – Sharing – Experiences](https://doi.org/10.5334/bbi.18 ). CLARIN in the Low Countries, Ch. 18. \n"
+    body: >-
+      ## Publications
+
+      * [Coding the Hebrew Bible](https://doi.org/10.1163/24523666-01000011)
+      * [The Hebrew Bible as Data: Laboratory – Sharing – Experiences](https://doi.org/10.5334/bbi.18 ).
+        CLARIN in the Low Countries, Ch. 18. 
   overview:
-    body: >+
+    body: >-
       ## Overview
 
-      * This [text-fabric
-      ](https://annotation.github.io/text-fabric/tf)representation of the Hebrew
-      Bible Database contains the text of the Hebrew Bible augmented with
-      linguistic annotations compiled by the [Eep Talstra Centre for Bible and
-      Computer](http://etcbc.nl/), VU University Amsterdam.
+      * This
+        [text-fabric](https://annotation.github.io/text-fabric/tf)
+        representation of the Hebrew Bible Database contains the text of the Hebrew Bible
+        augmented with linguistic annotations compiled by the
+        [Eep Talstra Centre for Bible and Computer](http://etcbc.nl/),
+        VU University Amsterdam.
 
-      * The text is based on the [Biblia Hebraica
-      Stuttgartensia](https://www.academic-bible.com/en/online-bibles/biblia-hebraica-stuttgartensia-bhs/read-the-bible-text/)
-      edited by Karl Elliger and Wilhelm Rudolph, Fifth Revised Edition, edited
-      by Adrian Schenker, © 1977 and 1997 Deutsche Bibelgesellschaft, Stuttgart.
+      * The text is based on the
+        [Biblia Hebraica Stuttgartensia](https://www.academic-bible.com/en/online-bibles/biblia-hebraica-stuttgartensia-bhs/read-the-bible-text/)
+        edited by Karl Elliger and Wilhelm Rudolph,
+        Fifth Revised Edition, edited by Adrian Schenker,
+        © 1977 and 1997 Deutsche Bibelgesellschaft, Stuttgart.
 
-      * The [text-fabric ](https://annotation.github.io/text-fabric/tf)version
-      has been prepared by Dirk Roorda, [Data Archiving and Networked
-      Services](https://dans.knaw.nl/nl), with support from Martijn Naaijer,
-      Cody Kingham, and Constantijn Sikkel.
+      * The [text-fabric](https://annotation.github.io/text-fabric/tf)
+        version has been prepared by Dirk Roorda,
+        [Data Archiving and Networked Services](https://dans.knaw.nl/nl),
+        now
+        [KNAW Humanities Cluster](https://di.huc.knaw.nl),
+        with support from Martijn Naaijer, Cody Kingham, and Constantijn Sikkel.
 
-      * The data is available in more formats. In the SHEBANQ subdirectory you
-      find data in MQL format and in MYSQL format that directly goes into the
-      [SHEBANQ website](http://shebanq.ancient-data.org/).
+      * The data is available in more formats.
+        In the SHEBANQ subdirectory you find data in MQL format and in MYSQL format
+        that directly goes into the
+        [SHEBANQ website](https://shebanq.ancient-data.org/).
 
       * In the
-      [bigTables](https://github.com/ETCBC/bhsa/blob/master/programs/bigTables.ipynb)
-      you find ways to export the complete data as one big table, and store it
-      in R format or in Pandas format. The notebooks
-      [bigTablesP](https://github.com/ETCBC/bhsa/blob/master/programs/bigTablesP.ipynb)
-      and
-      [bigTablesR](https://github.com/ETCBC/bhsa/blob/master/programs/bigTablesR.ipynb)
-      show you a few things that you can do in R and Pandas.
+        [bigTables](https://github.com/ETCBC/bhsa/blob/master/programs/bigTables.ipynb)
+        you find ways to export the complete data as one big table, and store it
+        in R format or in Pandas format.
+        The notebooks
+        [bigTablesP](https://github.com/ETCBC/bhsa/blob/master/programs/bigTablesP.ipynb)
+        and
+        [bigTablesR](https://github.com/ETCBC/bhsa/blob/master/programs/bigTablesR.ipynb)
+        show you a few things that you can do in R and Pandas.
 
-    bodyMore: >
+    bodyMore: >-
       This dataset contains a precise transcription of the Codex Leningradensis.
       It follows the Biblia Hebraica Stuttgartensia. The text is augmented with
       linguistic annotations, from lemmatization and morphology, to syntax and
       discourse structures.
-
 
       All this data is represented in such a way that you can compute with it.
       Text and annotations are transparently encoded in plain text files. The
@@ -142,9 +183,9 @@ tabs:
       very same data. Text-Fabric also supports the publishing of your own
       results so that others can use it alongside the main dataset.
 
-
-      The data is licensed by the [CC-BY-NC
-      license](https://creativecommons.org/licenses/by-nc/4.0/). This means that
+      The data is licensed by the
+      [CC-BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/).
+      This means that
       you can do everything you want with it, provided you give attribution and
       you do not use it commercially. For commercial use you have to contact the
       German Bible Society. As long as you stay within these restrictions, you
@@ -152,15 +193,15 @@ tabs:
       re-publish it under whatever license, provided the new license does not
       permit commercial re-use.
 
-
       ### Provenance
 
       The source data resides on a server of the ETCBC, managed by Constantijn
       Sikkel. He makes that data available as an MQL database dump, together
       with supplementary data files. From there it is transported to this GitHub
-      repo by means of a [pipeline](https://github.com/ETCBC/pipeline). This
-      dataset contains several versions of the BHSA, from 2011 till now. When
-      you navigate to a version, you'll see more information about that version
+      repo by means of a
+      [pipeline](https://github.com/ETCBC/pipeline).
+      This dataset contains several versions of the BHSA, from 2011 till now.
+      When you navigate to a version, you'll see more information about that version
       and its provenance. For all versions the
       [pipeline](https://github.com/ETCBC/pipeline) has been followed. 
 title: BHSA
