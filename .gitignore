@@ -46,6 +46,7 @@ site/
 _site/
 _themes/
 _temp/
+pandas/
 _local/
 _build/
 __pycache__/
