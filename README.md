@@ -12,6 +12,7 @@
 ### BHSA Family
 
 * [bhsa](https://github.com/etcbc/bhsa) Core data and feature documentation
+* [bhsa-min](https://github.com/etcbc/bhsa) Minimalistic version of BHSA
 * [phono](https://github.com/etcbc/phono) Phonological representation of Hebrew words
 * [parallels](https://github.com/etcbc/parallels) Links between similar verses
 * [valence](https://github.com/etcbc/valence) Verbal valence for all occurrences

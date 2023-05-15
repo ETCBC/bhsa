@@ -37,6 +37,8 @@ dataDisplay:
   - suffix_gender
   - mother_object_type
   noneValues:
+  - absent
+  - n/a
   - none
   - unknown
   - null
@@ -55,7 +57,6 @@ provenanceSpec:
   - corpus: Phonetic Transcriptions
     docUrl: '{urlNb}/etcbc/phono/blob/master/programs/phono.ipynb'
     doi: 10.5281/zenodo.1007636
-    org: etcbc
     repo: phono
   - corpus: Parallel Passages
     docUrl: '{urlNb}/{org}/parallels/blob/master/programs/parallels.ipynb'
