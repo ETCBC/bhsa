@@ -62,6 +62,7 @@ provenanceSpec:
     docUrl: '{urlNb}/{org}/parallels/blob/master/programs/parallels.ipynb'
     doi: 10.5281/zenodo.1007642
     repo: parallels
+  extraData: ner
   version: 2021
   webBase: https://shebanq.ancient-data.org/hebrew
   webHint: Show this on SHEBANQ

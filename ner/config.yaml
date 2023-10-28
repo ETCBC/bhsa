@@ -16,4 +16,6 @@ keywordFeatures:
 defaultValues:
   kind: PER
 
+spaceEscaped: true
+
 transform: {}
