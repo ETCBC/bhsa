@@ -1,0 +1,19 @@
+entityType: ent
+entitySet: "{entityType}-nodes"
+
+bucketType: verse
+
+strFeature: g_cons_utf8
+afterFeature: trailer_utf8
+
+features:
+  - eid
+  - kind
+
+keywordFeatures:
+  - kind
+
+defaultValues:
+  kind: PER
+
+transform: {}
