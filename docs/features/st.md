@@ -1,5 +1,5 @@
 ---
-title: st
+title: `st`
 ---
 
 **state**
@@ -7,7 +7,8 @@ title: st
 
 Form of the noun that indicates a connection with a neighbouring noun.
 
-This feature is present on objects of type [*word*](otype.md).
+This feature is present on objects of type
+[`word`](otype.md).
 
 There are three states in the Hebrew Bible:
 

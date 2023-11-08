@@ -1,5 +1,5 @@
 ---
-title: otext
+title: `otext`
 ---
 
 **text configuration**

@@ -1,5 +1,5 @@
 ---
-title: txt
+title: `txt`
 ---
 
 **text type**
@@ -7,7 +7,8 @@ title: txt
 
 This feature contains property at the level of text.
 
-This feature is present on objects of type [*clause*](otype.md).
+This feature is present on objects of type
+[`clause`](otype.md).
 
 The values of this feature are strings consisting of
 
@@ -20,8 +21,8 @@ code|description
 
 ##### See also
 
-* [domain](domain.md)
-* [instruction](instruction.md)
+* [`domain`](domain.md)
+* [`instruction`](instruction.md)
 * A presentation about [text type](../assets/img/txt.pdf)
 
 Text type is a feature of a *clause*, and not of an object type higher 
@@ -29,9 +30,9 @@ in that hierarchy, because sometimes sentences are built from
 clauses of distinct text types. So a text type transition does not imply 
 a new (sub-)paragraph. Nor does a new (sub-)paragraph imply a text type transition.
 
-Within one and the same *clause*, every *clause_atom* must have the 
+Within one and the same *clause*, every `clause_atom` must have the 
 same value for text type. The sequence of characters corresponds with embedding, 
-so a *clause* having the value “QND”, for example, stands for a discursive piece within 
+so a *clause* having the value `QND`, for example, stands for a discursive piece within 
 a narrative, enclosed in direct speech.
 
 ****Discursive****
@@ -43,5 +44,5 @@ the use of a yiqtol (not wayyiqtol) in a narrative environment.
 A `Q` may, but does not always have to be indicated by a *verbum dicendi*: אָמַר or דָּבַר. 
 
 ##### Note
-> What exactly is the connection with [domain](domain.md)?
+> What exactly is the connection with [`domain`](domain.md)?
 

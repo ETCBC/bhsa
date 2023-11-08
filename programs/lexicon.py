@@ -4,66 +4,66 @@
 # <img align="right" src="images/dans-small.png"/>
 # <img align="right" src="images/tf-small.png"/>
 # <img align="right" src="images/etcbc.png"/>
-# 
-# 
+#
+#
 # # Lexicon
-# 
+#
 # This notebook can read lexicon info in files issued by the ETCBC and transform them
 # into new features.
 # There will be new features at the word level and a new level will be made: lexeme.
-# 
+#
 # Most lexical features do not go to the word nodes but to the lexeme nodes.
-# 
+#
 # **NB** This conversion will not work for versions `4` and `4b`.
-# 
+#
 # ## Discussion
 # There are several issues that we deal with here.
-# 
+#
 # Language: are an Aramaic lexeme and a Hebrew lexeme with the same value identical?
 # In short: no.
-# 
+#
 # The lexicon is a piece of data not conceptually contained in the text.
 # So where do we leave that data?
-# 
+#
 # The lexicon contains information about lexemes. Some of that information is also present
 # on individual occurrences.
 # The question arises, should a lexical feature have consistent values across its occurrences.
-# 
+#
 # And of course: does the lexicon *match* the text?
 # Do all lexemes in the text have a lexical entry, and does every lexical entry have actual
 # occurrences in the text?
-# 
+#
 # ### Lexeme language
 # Lexemes do not cross languages, so the set of Aramaic and Hebrew lexemes are disjoint.
 # Whenever we index lexemes, we have to specify it as a pair of its language and lex values.
-# 
+#
 # ### Lexeme node type
 # The answer where to leave the lexical information in a text-fabric data set is surprisingly simple:
 # on nodes of a new type `lex`.
 # Nodes of type lex will be connected via the `oslots` feature to all its occurrences, so lexemes *contain* there
 # occurrences.
 # All features encountered in the lexicon, we will store on these `lex` nodes.
-# 
+#
 # However, experience has taught us that it is very convenient to duplicate feature values of lexeme nodes to all
 # corresponding word nodes.
 # This is what we will do.
-# 
+#
 # ### Lexical consistency
 # It is quite possible that some occurrences have got a different value for a lexical feature than its lexeme.
 # A trivial case are adjectives, whose lexical gender is `NA`, but whose occurrences usually have a distinct gender.
-# 
+#
 # Other features really should be fully consistent, for example the *vocalized lexeme*.
 # We encounter this feature in the text (`g_voc_lex` and also its Hebrew version `g_voc_lex_utf8`),
 # and in the lexicon it is present as feature `vc`.
 # In this case we observe a deficiency in the lexicon: `vc` is often absent.
 # Apart from that, the textual features `g_voc_lex` and `g_voc_lex_utf8` are fully consistent, so I take their values
 # and put them in the lexicon, and I remove the `g_voc_lex` and `g_voc_lex_utf8` from the dataset.
-# 
+#
 # ## Match between lexicon and text
 # We perform quite a number of checks.
 # The match should be perfect.
 # If not, then quite possible the MQL core data has been exported at an other time the the lexical data.
-# 
+#
 # ## Various issues
 # 1. `lex` contains the lexeme (in transcription) with disambiguation marks (`[/=`) appended.
 #    For text transformations we prefer the bare lexeme, and we store that in a new feature `lex0`
@@ -73,7 +73,7 @@
 #    By adding `language` for lexeme nodes we already have switched to ISO codes. Here we do the rest.
 # 1. the feature lex_utf8 occurs only on word nodes, but is consistent across lexemes. We add it to lexeme nodes
 #    as well, together with `lex0`.
-# 
+#
 # We are going to deal with these issues [later](#Deal-with-various-issues).
 
 # In[1]:
@@ -115,9 +115,9 @@ def stop(good=False):
 
 
 # # Analysis of lex_utf8
-# 
+#
 # Let us focus on a few cases.
-# 
+#
 # We translate the UTF sequences found in the MQL source into real Unicode characters:
 
 # In[3]:
@@ -129,7 +129,7 @@ if not SCRIPT:
     uniscan = re.compile(r"(?:\\x..)+")
 
     def makeuni(match):
-        """Make proper unicode of a text that contains byte escape codes such as backslash xb6"""
+        """Make unicode of a text containing escape codes such as backslash `xb6`"""
         byts = eval('"' + match.group(0) + '"')
         return byts.encode("latin1").decode("utf-8")
 
@@ -144,7 +144,7 @@ if not SCRIPT:
         al=r"\xd7\xa2\xd7\x9c",
     )
 
-    for (case, utf8) in sorted(cases.items()):
+    for case, utf8 in sorted(cases.items()):
         uword = uni(utf8)
         uLast = uword[-1]
         uCode = ord(uLast)
@@ -167,7 +167,7 @@ if not SCRIPT:
 
 
 # # Setting up the context: source file and target directories
-# 
+#
 # The conversion is executed in an environment of directories, so that sources, temp files and
 # results are in convenient places and do not have to be shifted around.
 
@@ -193,7 +193,7 @@ testFeature = "lex0"
 
 
 # # Test
-# 
+#
 # Check whether this conversion is needed in the first place.
 # Only when run as a script.
 
@@ -211,12 +211,12 @@ if SCRIPT:
 
 
 # # TF Settings
-# 
+#
 # * a piece of metadata that will go into these features; the time will be added automatically
 # * new text formats for the `otext` feature of TF, based on lexical features.
 #   We select the version specific otext material,
 #   falling back on a default if nothing appropriate has been specified in oText.
-# 
+#
 # We do not do this for the older versions `4` and `4b`.
 
 # In[7]:
@@ -271,12 +271,12 @@ api.makeAvailableIn(globals())
 # We map the values in the language feature to standardized ISO values: `arc` and `hbo`.
 # We run over all word occurrences, grab the language and lexeme identifier, and create for each
 # unique pair a new lexeme node.
-# 
+#
 # We remember the mapping between nodes and lexemes.
-# 
+#
 # We check whether the word features `lex_utf8` and `g_lex_utf` are consistent between occurrences
 # of the same lexeme.
-# 
+#
 # This stage does not yet involve the lexical files.
 
 # In[9]:
@@ -327,18 +327,23 @@ for n in F.otype.s("word"):
         lexNode += 1
         nodeFromLex[lexId] = lexNode
         lexFromNode[lexNode] = lexId
-        
+
 utils.caption(0, f"Check consistency of {', '.join(doFeatureCheck)}")
 inconsistent = {ft: 0 for ft in doFeatureCheck}
 
-for (lexId, ws) in lexOccs.items():
+for lexId, ws in lexOccs.items():
     for ft in doFeatureCheck:
         values = {Fs(ft).v(w) for w in ws}
         if len(values) != 1:
             inconsistent[ft] += 1
 for ft in doFeatureCheck:
     nInc = inconsistent[ft]
-    utils.caption(0, f"{nInc} inconsistencies in {ft}" if nInc else f"{ft} is consistent over lexeme occurrences")
+    utils.caption(
+        0,
+        f"{nInc} inconsistencies in {ft}"
+        if nInc
+        else f"{ft} is consistent over lexeme occurrences",
+    )
 
 for n in range(maxNode + 1, lexNode + 1):
     otypeData[n] = "lex"
@@ -442,9 +447,9 @@ utils.caption(0, "Done")
 
 
 # # Tests
-# 
+#
 # ## Matching of text and lexicon
-# 
+#
 # Let us now check whether all lexemes in the text occur in the lexicon and vice versa.
 
 # In[11]:
@@ -498,7 +503,7 @@ arcLexMinText = arcLex - arcText
 hboTextMinLex = hboText - hboLex
 hboLexMinText = hboLex - hboText
 
-for (myset, mymsg) in (
+for myset, mymsg in (
     (arcTextMinLex, "arc: lexemes in text but not in lexicon"),
     (arcLexMinText, "arc: lexemes in lexicon but not in text"),
     (hboTextMinLex, "hbo: lexemes in text but not in lexicon"),
@@ -515,16 +520,16 @@ for (myset, mymsg) in (
 
 
 # ## Consistency of vocalized lexeme
-# 
+#
 # The lexicon file provides an attribute `vc` for each lexeme, which is the vocalized lexeme.
 # The BHSA core data also has features `g_voc_lex` and `g_voc_lex_utf8` for each occurrence.
-# 
+#
 # We investigate whether the latter features are *consistent*, i.e. a property of the lexeme and lexeme only.
 # If they are somehow dependent on the word occurrence, they are not consistent.
-# 
+#
 # When they are consistent, we can omit them on the occurrences and use them on the lexemes.
 # We'll also check whether the `vc` property found in the lexicon coincides with the `g_voc_lex` on the occurrences.
-# 
+#
 # Supposing it is all consistent, we will call the new lexeme features `voc_lex` and `voc_lex_utf8`.
 
 # In[12]:
@@ -548,7 +553,7 @@ else:
         else:
             utils.caption(0, "\t{} inconsistent cases".format(nCases))
             limit = 10
-            for (i, (lan, lex)) in enumerate(cases):
+            for i, (lan, lex) in enumerate(cases):
                 if i == limit:
                     utils.caption(0, "\t\t...and {} more.".format(nCases - limit))
                     break
@@ -562,7 +567,7 @@ else:
     for w in F.otype.s("word"):
         lan = langMap[F.language.v(w)]
         lex = F.lex.v(w)
-        for (f, values) in vocFeatures.items():
+        for f, values in vocFeatures.items():
             current = values.get((lan, lex), None)
             new = Fs("g_{}".format(f)).v(w)
             if current is None:
@@ -583,7 +588,7 @@ else:
     nMissing = len(missing)
 
     utils.caption(0, "lexemes with missing vc property: {}x".format(nMissing))
-    for (lan, lex) in sorted(missing)[0:20]:
+    for lan, lex in sorted(missing)[0:20]:
         utils.caption(
             0,
             "\t{}-{} supplied from occurrence: {}".format(
@@ -603,7 +608,7 @@ else:
 
 
 # # Prepare TF features
-# 
+#
 # We now collect the lexical information into the features for nodes of type `lex`.
 
 # In[13]:
@@ -633,8 +638,8 @@ for f in overlapFeatures:
 
 newFeatures = [f[1] for f in lexFields]
 
-for (lan, lexemes) in lexEntries.items():
-    for (lex, lexValues) in lexemes.items():
+for lan, lexemes in lexEntries.items():
+    for lex, lexValues in lexemes.items():
         lexId = (lan, lex)
         node = nodeFromLex.get(lexId, None)
         if node is None:
@@ -642,7 +647,7 @@ for (lan, lexemes) in lexEntries.items():
         nodeFeatures.setdefault("lex", {})[node] = lex
         nodeFeatures.setdefault("languageISO", {})[node] = langMap[lan]
         nodeFeatures.setdefault("language", {})[node] = langIMap[lan]
-        for (f, newF) in lexFields:
+        for f, newF in lexFields:
             value = lexValues.get(f, None)
             if value is not None:
                 nodeFeatures.setdefault(newF, {})[node] = value
@@ -650,7 +655,7 @@ for (lan, lexemes) in lexEntries.items():
                     for wordNode in lexOccs[lexId]:
                         nodeFeatures[newF][wordNode] = value
         if DO_VOCALIZED_LEXEME:
-            for (f, vocValues) in vocFeatures.items():
+            for f, vocValues in vocFeatures.items():
                 value = vocValues.get((lan, lex), None)
                 if value is not None:
                     nodeFeatures.setdefault(f, {})[node] = value
@@ -690,12 +695,14 @@ for n in F.otype.s("word"):
     nodeFeatures["lex_utf8"][n] = lex_utf8
     nodeFeatures["languageISO"][n] = langMap[lan]
     nodeFeatures["language"][n] = langIMap[lan]
-    
-for (lexId, lexNode) in nodeFromLex.items():
+
+for lexId, lexNode in nodeFromLex.items():
     wordNodes = lexOccs[lexId]
     wordNode = wordNodes[0]
-    for (ft, exists) in contractFeatures.items():
-        nodeFeatures[ft][lexNode] = Fs(ft).v(wordNode) if exists else nodeFeatures[ft][wordNode]
+    for ft, exists in contractFeatures.items():
+        nodeFeatures[ft][lexNode] = (
+            Fs(ft).v(wordNode) if exists else nodeFeatures[ft][wordNode]
+        )
 
 
 # We update the `otype`, `otext` and `oslots` features.
@@ -791,15 +798,15 @@ TF.save(nodeFeatures=nodeFeatures, edgeFeatures=edgeFeatures, metaData=metaData)
 
 
 # # Diffs
-# 
+#
 # Check differences with previous versions.
-# 
+#
 # The new dataset has been created in a temporary directory,
 # and has not yet been copied to its destination.
-# 
+#
 # Here is your opportunity to compare the newly created features with the older features.
 # You expect some differences in some features.
-# 
+#
 # We check the differences between the previous version of the features and what has been generated.
 # We list features that will be added and deleted and changed.
 # For each changed feature we show the first line where the new feature differs from the old one.
@@ -812,7 +819,7 @@ utils.checkDiffs(thisTempTf, thisTf, only=changedFeatures)
 
 
 # # Deliver
-# 
+#
 # Copy the new TF dataset from the temporary location where it has been created to its final destination.
 
 # In[27]:
@@ -824,7 +831,7 @@ utils.deliverFeatures(
 
 
 # # Compile TF
-# 
+#
 # We load the new features, use the new format, check some values
 
 # In[28]:
@@ -894,4 +901,3 @@ for w in range(1, 12):
 
 if SCRIPT:
     stop(good=True)
-

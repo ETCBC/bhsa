@@ -1,10 +1,11 @@
 ---
-title: prs_nu
+title: `prs_nu`
 ---
 
 **pronominal suffix number**
 
-This feature is present on objects of type [*word*](otype.md).
+This feature is present on objects of type
+[`word`](otype.md).
 
 The pronominal suffix attaches to verbs as a verb-complement.
 It may carry number information, and that information is stored in this feature.
@@ -17,7 +18,7 @@ code|description
 `NA`     |not applicable
 `unknown`|unknown
 
-The pronominal suffix itself is stored in [prs](prs.md).
+The pronominal suffix itself is stored in [`prs`](prs.md).
 For more about features on morphemes, see [word grammar](../wordgrammar.md).
 
 ##### Note
@@ -26,4 +27,4 @@ The value `NA` indicates: *non-applicable*.
 
 ##### See also
 
-[nu](nu.md)
+[`nu`](nu.md)

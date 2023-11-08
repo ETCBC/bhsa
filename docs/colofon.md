@@ -1,4 +1,4 @@
-# Colofon
+# Colophon
 
 ## Repositories
 * [bhsa = Biblia Hebraica Stuttgartensia Amstelodamensis core data](https://github.com/etcbc/bhsa))
@@ -23,7 +23,7 @@
 * [SHEBANQ admin](mailto:shebanq@ancient-data.org)
   Mail us
 * [ETCBC on Slack](https://etcbc-vu.slack.com/signup)
-  Signup with our Slack team
+  Sign up with our Slack team
 * [ETCBC twitter](https://twitter.com/etcbc_vu)
   follow events
 

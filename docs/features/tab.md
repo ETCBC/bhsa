@@ -1,13 +1,14 @@
 ---
-title: tab
+title: `tab`
 ---
 
 **tabulation**
 
 
-The level of this clause_atom in the enclosing hierarchy.
+The level of this `clause_atom` in the enclosing hierarchy.
 
-This feature is present on objects of type [*clause_atom*](otype.md).
+This feature is present on objects of type
+[`clause_atom`](otype.md).
 
 ##### Note
 > The original definition says:
@@ -15,7 +16,7 @@ This feature is present on objects of type [*clause_atom*](otype.md).
 How can this feature be understood without reference to a display?
 It seems to be the nesting depth of the clause atom, but in what tree?
 
-Maybe we need a separate page about the clause_atoms and the structures
+Maybe we need a separate page about the `clause_atoms` and the structures
 they are a member of.
 
 ##### Values
@@ -26,5 +27,5 @@ of this feature.
 
 ##### See also
 
-* [code](code.md)
+* [`code`](code.md)
 

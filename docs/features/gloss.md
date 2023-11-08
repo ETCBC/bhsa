@@ -1,12 +1,13 @@
 ---
-title: gloss
+title: `gloss`
 ---
 
 **gloss**
 
 A short English translation of a single word, disregarding context.
 
-This feature is present on objects of type [*word* and *lex*](otype.md).
+This feature is present on objects of type
+[`word` and `lex`](otype.md).
 (Only in version 2021 it is present on *word* nodes as well).
 
 The *gloss* cannot be used to generate a proper translation.
@@ -22,7 +23,8 @@ This feature has been added to the dataset in a later stage as package called `l
 You can use it in SHEBANQ queries.
 
 ##### Note
-> In version 2021 the `gloss` feature is also present on objects of type [*word*](otype.md)
+> In version 2021 the `gloss` feature is also present on objects of type
+[`word`](otype.md)
 
 > In pre 2021 versions This feature is not available on *words*, only on nodes of type *lex*.
 That makes it difficult to use in MQL queries, because something like this will generally not work

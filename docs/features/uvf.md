@@ -1,5 +1,5 @@
 ---
-title: uvf
+title: `uvf`
 ---
 
 **univalent final consonant -consonantal-transliterated**
@@ -7,7 +7,8 @@ title: uvf
 The consonantal representation of the univalent final consonant of a word
 [BHSA transliteration]({{tfd}}/writing/hebrew.html).
 
-This feature is present on objects of type [*word*](otype.md).
+This feature is present on objects of type
+[`word`](otype.md).
 
 For more about features on morphemes, see [word grammar](../wordgrammar.md).
 

@@ -1,12 +1,13 @@
 ---
-title: freq_occ
+title: `freq_occ`
 ---
 
 **frequency-occurrence**
 
 The frequency of a word occurrence, measured as the number of occurrences in the whole Hebrew Bible.
 
-This feature is present on objects of type [*word*](otype.md).
+This feature is present on objects of type
+[`word`](otype.md).
 
 What is counted is the consonantal representation of the words, without accents.
 
@@ -19,8 +20,8 @@ are not taken into account.
     
 ##### See also
  
-* [freq_lex](freq_lex.md)
-* [rank_lex](rank_lex.md)
-* [freq_occ](freq_occ.md)
-* [rank_occ](rank_occ.md)
+* [`freq_lex`](freq_lex.md)
+* [`rank_lex`](rank_lex.md)
+* [`freq_occ`](freq_occ.md)
+* [`rank_occ`](rank_occ.md)
 

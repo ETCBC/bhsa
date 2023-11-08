@@ -1,5 +1,5 @@
 ---
-title: prs
+title: `prs`
 ---
 
 **pronominal suffix -consonantal-transliterated**
@@ -9,9 +9,10 @@ The consonantal representation of the pronominal suffix of a word
 
 ##### Note
 > The grammatical function of the suffix is not indicated at the word level, but at the level of
-the phrase. See the [function](function.md) feature.
+the phrase. See the [`function`](function.md) feature.
 
-This feature is present on objects of type [*word*](otype.md).
+This feature is present on objects of type
+[`word`](otype.md).
 
 For more about features on morphemes, see [word grammar](../wordgrammar.md).
 
@@ -19,9 +20,9 @@ The pronominal suffix attaches to verbs as a verb-complement.
 
 Pronominal suffixes may carry *gender*, *number* and *person* information.
 That information is available in the separate features
-[prs_gn](prs_gn.md)
-[prs_nu](prs_nu.md)
-[prs_ps](prs_ps.md).
+[`prs_gn`](prs_gn.md)
+[`prs_nu`](prs_nu.md)
+[`prs_ps`](prs_ps.md).
 
 ##### Values
 

@@ -1,5 +1,5 @@
 ---
-title: g_word_utf8
+title: `g_word_utf8`
 ---
 
 **word -pointed-Hebrew**
@@ -7,17 +7,18 @@ title: g_word_utf8
 
 The pointed representation of a word occurrence in Hebrew script.
 
-This feature is present on objects of type [*word*](otype.md).
+This feature is present on objects of type
+[`word`](otype.md).
 
 All characters of the word occurrence are present:
 consonants, vowel pointing and other diacritical marks.
 
 ??? note
     When there is a ketiv-qere discrepancy,
-    this feature contains the *unvocalized* **ketiv**.
+    this feature contains the *unvocalised* **ketiv**.
     In those cases, SHEBANQ does not use this feature,
     but takes the *vocalized* **qere** from
-    [qere_utf8](qere_utf8.md).
+    [`qere_utf8`](qere_utf8.md).
 
 ??? hint
     It is hazardous to use this feature for queries.
@@ -29,7 +30,7 @@ consonants, vowel pointing and other diacritical marks.
 
     In order not to miss search results,
     it might be helpful to compare the results with those obtained by using
-    [g_cons_utf8](g_cons_utf8.md) instead.
+    [`g_cons_utf8`](g_cons_utf8.md) instead.
 
 ??? hint
     It is difficult to enter Hebrew text.
@@ -42,7 +43,7 @@ consonants, vowel pointing and other diacritical marks.
 
     You could try to copy and paste Hebrew text into a word processor,
     then remove all diacritics, and paste the result into
-    your query as a value for [g_cons](g_cons.md).
+    your query as a value for [`g_cons`](g_cons.md).
 
 ??? caution "Paseq"
     Some accents in a word can interact with a *paseq*
@@ -51,6 +52,6 @@ consonants, vowel pointing and other diacritical marks.
 
 ##### See also
 
-* [qere](qere.md). 
-* [qere_utf8](qere_utf8.md). 
-* [trailer_utf8](trailer_utf8.md). 
+* [`qere`](qere.md). 
+* [`qere_utf8`](qere_utf8.md). 
+* [`trailer_utf8`](trailer_utf8.md). 

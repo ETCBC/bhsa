@@ -1,10 +1,11 @@
 ---
-title: pdp
+title: `pdp`
 ---
 
 **phrase dependent part-of-speech**
 
-This feature is present on objects of type [*word*](otype.md).
+This feature is present on objects of type
+[`word`](otype.md).
 
 The part of speech that is assigned to a word based on its phrase context rather than on its lexical identity.
 

@@ -26,12 +26,12 @@ In the `shebanq` subdirectory you find data in MQL format and in MYSQL format th
 the SHEBANQ website.
 
 In the
-[bigTables]({{repoBase}}/programs/bigTables.ipynb)
+[`bigTables`]({{repoBase}}/programs/bigTables.ipynb)
 you find ways to export the complete data as one big table, and store it in R format or in Pandas format.
 The notebooks 
-[bigTablesP]({{repoBase}}/programs/bigTablesP.ipynb)
+[`bigTablesP`]({{repoBase}}/programs/bigTablesP.ipynb)
 and
-[bigTablesR]({{repoBase}}/programs/bigTablesR.ipynb)
+[`bigTablesR`]({{repoBase}}/programs/bigTablesR.ipynb)
 show you a few things that you can do in R and Pandas.
 
 ## Provenance

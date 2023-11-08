@@ -1,5 +1,5 @@
 ---
-title: typ
+title: `typ`
 ---
 
 **clause/Phrase(-atom) type**
@@ -7,7 +7,8 @@ title: typ
 
 The linguistic kind of objects.
 
-This feature is present on objects of type [*clause(_atom)*, *phrase(_atom)*](otype.md).
+This feature is present on objects of type
+[`clause(_atom)`, `phrase(_atom)`](otype.md).
 
 # Clause (atom)
 

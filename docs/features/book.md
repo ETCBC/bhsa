@@ -1,16 +1,17 @@
 ---
-title: book
+title: `book`
 ---
 
 **book name**
 
 The Latin name of the present bible book.
 
-This feature is present on objects of type [*book*, *chapter*, and *verse*](otype.md).
+This feature is present on objects of type
+[`book`, `chapter`, and `verse`](otype.md).
 
 Below is a list of all books with their number of chapters in the order as encoded in the BHSA dataset.
 
-For book names in other languages: see [book@ll](book@ll.md)
+For book names in other languages: see [`book@ll`](book@ll.md)
 
 book | #chapters
 ---|---
@@ -56,8 +57,11 @@ book | #chapters
   
   
   
-###SHEBANQ/MQL Query Example
-In the following query we use the otype `book` and the corresponding feature `book` (`[book book`) in order to count all words (`[word FOCUS]`) that appear in the Pentateuch (`IN (Genesis, Exodus, Leviticus, Numeri, Deuteronomium)`).
+### SHEBANQ/MQL Query Example
+
+In the following query we use the node type `book` and the corresponding
+feature `book` (`[book book`) in order to count all words (`[word FOCUS]`) that
+appear in the Pentateuch (`IN (Genesis, Exodus, Leviticus, Numeri, Deuteronomium)`).
 
 ```
 select all objects where  
@@ -67,4 +71,5 @@ select all objects where
 ```
 
 See this query (with results) on [SHEBANQ]({{shebanq}}/hebrew/query?version=4b&id=1502).
-Note that the data version used on SHEBANQ is **4b**, while this documentation is for version **2016**.
+Note that the data version used on SHEBANQ is **4b**, while this documentation
+is for version **2016**.

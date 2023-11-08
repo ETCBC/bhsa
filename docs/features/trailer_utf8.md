@@ -1,5 +1,5 @@
 ---
-title: trailer_utf8
+title: `trailer_utf8`
 ---
 
 **interword material -pointed-Hebrew**
@@ -7,7 +7,8 @@ title: trailer_utf8
 
 The material that follows the word in question, up till the next word.
 
-This feature is present on objects of type [*word*](otype.md).
+This feature is present on objects of type
+[`word`](otype.md).
 
 The value consists of spaces, newlines, punctuations
 and special marks that sometimes occur between verses, such as the
@@ -22,7 +23,7 @@ and special marks that sometimes occur between verses, such as the
     After the last word of a verse, a newline has been inserted
     in the BHSA working text.
     This newline has become part of the
-    [trailer_utf8](trailer_utf8.md) value of the last word of the verse.
+    [`trailer_utf8`](trailer_utf8.md) value of the last word of the verse.
 
     This feature is only present with values in UNICODE Hebrew.
 
@@ -32,7 +33,7 @@ and special marks that sometimes occur between verses, such as the
 
 ##### See also
 
-* [qere](qere.md) 
-* [qere_utf8](qere_utf8.md) 
-* [g_word_utf8](g_word_utf8.md) 
-* [qere_trailer_utf8](qere_trailer_utf8.md) 
+* [`qere`](qere.md) 
+* [`qere_utf8`](qere_utf8.md) 
+* [`g_word_utf8`](g_word_utf8.md) 
+* [`qere_trailer_utf8`](qere_trailer_utf8.md) 

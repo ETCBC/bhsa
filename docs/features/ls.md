@@ -1,5 +1,5 @@
 ---
-title: ls
+title: `ls`
 ---
 
 **lexical set**
@@ -7,7 +7,8 @@ title: ls
 
 Subclassification of part of speech.
 
-This feature is present on objects of type [*lex* and on type *word*](otype.md).
+This feature is present on objects of type
+[`lex` and on type `word`](otype.md).
 
 The values consist of an abbreviation, here is the explanation:
 

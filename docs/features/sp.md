@@ -1,5 +1,5 @@
 ---
-title: sp
+title: `sp`
 ---
 
 **part-of-speech**
@@ -7,7 +7,8 @@ title: sp
 
 The part of speech a word (or rather lexeme) belongs to.
 
-This feature is present on objects of type [*word* and *lex*](otype.md).
+This feature is present on objects of type
+[`word` and *lex*](otype.md).
 
 The values consist of an abbreviation, here is the explanation:
 

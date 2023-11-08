@@ -1,5 +1,5 @@
 ---
-title: nme
+title: `nme`
 ---
 
 **nominal ending -consonantal-transliterated**
@@ -8,7 +8,8 @@ title: nme
 The consonantal representation of the nominal ending of a word
 [BHSA transliteration]({{tfd}}/writing/hebrew.html).
 
-This morpheme feature is present on objects of type [*word*](otype.md).
+This morpheme feature is present on objects of type
+[`word`](otype.md).
 
 For more about features on morphemes, see [word grammar](../wordgrammar.md).
 

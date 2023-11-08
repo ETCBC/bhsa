@@ -1,5 +1,5 @@
 ---
-title: vbs
+title: `vbs`
 ---
 
 **root formation -consonantal-transliterated**
@@ -7,7 +7,8 @@ title: vbs
 The consonantal representation of the root formation of a verb.
 [BHSA transliteration]({{tfd}}/writing/hebrew.html).
 
-This feature is present on objects of type [*word*](otype.md).
+This feature is present on objects of type
+[`word`](otype.md).
 
 For more about features on morphemes, see [word grammar](../wordgrammar.md)
 
@@ -15,7 +16,7 @@ The root formation indicates verbal stem.
 
 ##### See also
 
-* [vs](vs.md)
+* [`vs`](vs.md)
 
 ##### Values
 

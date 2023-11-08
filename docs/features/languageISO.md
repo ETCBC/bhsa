@@ -1,5 +1,5 @@
 ---
-title: languageISO
+title: `languageISO`
 ---
 
 **language (ISO)**
@@ -7,7 +7,8 @@ title: languageISO
 
 The language a word (or rather lexeme) belongs to.
 
-This feature is present on objects of type [*word* and *lex*](otype.md).
+This feature is present on objects of type
+[`word` and `lex`](otype.md).
 (Only in version 2021 it is present on *lex* nodes as well).
 
 There are only two languages in the Hebrew Bible.
@@ -21,5 +22,5 @@ ISO-639-code ISO-639 description | name
 
 ##### See also
 
-* [language](language.md)
+* [`language`](language.md)
   which holds the English names of these languages as values.

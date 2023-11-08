@@ -1,5 +1,5 @@
 ---
-title: g_word
+title: `g_word`
 ---
 
 **word -pointed-transliterated**
@@ -8,7 +8,8 @@ title: g_word
 The pointed representation of a word occurrence in
 [BHSA transliteration]({{tfd}}/writing/hebrew.html).
 
-This feature is present on objects of type [*word*](otype.md).
+This feature is present on objects of type
+[`word`](otype.md).
 
 All characters of the word occurrence are present:
 consonants, vowel pointing and other diacritical marks.
@@ -24,7 +25,7 @@ consonants, vowel pointing and other diacritical marks.
 
     In order not to miss search results,
     it might be helpful to compare the results with those obtained by using
-    [g_cons](g_cons.md) instead.
+    [`g_cons`](g_cons.md) instead.
 
 ??? caution "Paseq"
     Some accents in a word can interact with a *paseq*
@@ -33,4 +34,4 @@ consonants, vowel pointing and other diacritical marks.
 
 ??? example "example query"
     Here is an example query:
-    [setuma and petucha]({{shebanq}}/hebrew/text?mr=r&qw=q&iid=499) .
+    [setuma and petuhah]({{shebanq}}/hebrew/text?mr=r&qw=q&iid=499) .

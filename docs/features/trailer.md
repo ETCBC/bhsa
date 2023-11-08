@@ -1,5 +1,5 @@
 -
-title: trailer
+title: `trailer`
 ---
 
 **interword material -pointed-transliterated**
@@ -7,7 +7,8 @@ title: trailer
 
 The material that follows the word in question, up till the next word.
 
-This feature is present on objects of type [*word*](otype.md).
+This feature is present on objects of type
+[`word`](otype.md).
 
 The value consists of spaces, newlines, punctuations and special marks
 that sometimes occur between verses, such as the
@@ -24,5 +25,5 @@ that sometimes occur between verses, such as the
 
 ##### See also
 
-* [g_word](g_word.md) 
-* [trailer_utf8](trailer_utf8.md) 
+* [`g_word`](g_word.md) 
+* [`trailer_utf8`](trailer_utf8.md) 

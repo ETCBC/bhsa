@@ -1,12 +1,13 @@
 ---
-title: function
+title: `function`
 ---
 
 **phrase function**
 
 The phrase function denotes the syntactic function of the phrase.
 
-This feature is present on objects of type [*phrase*](otype.md).
+This feature is present on objects of type
+[`phrase`](otype.md).
 
 code|description|examples
 ---|---|---

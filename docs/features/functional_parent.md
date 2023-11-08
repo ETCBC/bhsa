@@ -1,5 +1,5 @@
 ---
-title: functional_parent
+title: `functional_parent`
 ---
 
 **Edge feature**.
@@ -24,5 +24,5 @@ hierarchy.
 
 ##### See also: #####
 
-*   [distributional_parent](distributional_parent.md)
-*   [mother](mother.md)
+*   [`distributional_parent`](distributional_parent.md)
+*   [`mother`](mother.md)
