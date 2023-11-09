@@ -32,8 +32,8 @@ name|description|examples
 [`book`](book.md) | name of Bible book | `Genesis` `Psalmi` `Amos`
 [`chapter`](chapter.md) | number of chapter within book | `3`
 [`verse`](verse.md) | number of verse within chapter | `4`
-[`label`](label#verse) | passage indicator | `AMOS 03,04`
-[`label`](label#half-verse) | key for part within verse | `A` `B` `C`
+[`label`](label.md#verse) | passage indicator | `AMOS 03,04`
+[`label`](label.md#half-verse) | key for part within verse | `A` `B` `C`
 
 ## Lexeme features
 (on node type `lex`)
