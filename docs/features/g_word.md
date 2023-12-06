@@ -34,4 +34,4 @@ consonants, vowel pointing and other diacritical marks.
 
 ??? example "example query"
     Here is an example query:
-    [setuma and petuhah]({{shebanq}}/hebrew/text?mr=r&qw=q&iid=499) .
+    [setumah and petuhah]({{shebanq}}/hebrew/text?mr=r&qw=q&iid=499) .

@@ -60,11 +60,12 @@ name|node type|description|mode|examples
 [`g_cons_utf8`](g_cons_utf8.md) | word | consonantal | hebrew | `אשׁר`
 [`g_word`](g_word.md) | word | pointed | transliterated | `>:ACER&`
 [`g_word_utf8`](g_word_utf8.md) | word | pointed | hebrew | `אֲשֶׁר`
-[`qere`](qere.md) | word (qere) | consonantal | hebrew | `HAJ:Y;74>`
+[`qere`](qere.md) | word (qere) | consonantal | transliterated | `HAJ:Y;74>`
 [`qere_utf8`](qere_utf8.md) | word (qere) | pointed | hebrew | `הַיְצֵ֣א`
-[`trailer_utf8`](trailer_utf8.md) | after-word | pointed | hebrew | `׃ ׆̇`
-[`qere_trailer`](qere_trailer.md) | after-word (qere) | pointed | hebrew | `׃ ׆̇`
-[`qere_trailer_utf8`](trailer_utf8.md) | after-word (qere) | pointed | hebrew | `׃ ׆̇`
+[`trailer`](trailer.md) | after-word | pointed | transliterated | `׃ ׆̇`
+[`trailer_utf8`](trailer_utf8.md) | after-word | pointed | hebrew | `00_N`
+[`qere_trailer`](qere_trailer.md) | after-word (qere) | pointed | transliterated | `00 &`
+[`qere_trailer_utf8`](trailer_utf8.md) | after-word (qere) | pointed | hebrew | `׃ ־`
 
 ### Lexical (on node type `word`)
 
