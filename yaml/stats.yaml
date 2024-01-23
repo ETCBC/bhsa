@@ -5,4 +5,4 @@ rank_occ:
 freq_lex:
   desc: ✅ frequency of lexemes
 rank_lex:
-  desc: ✅ ranking of lexemes based on freqnuecy
+  desc: ✅ ranking of lexemes based on frequency
