@@ -12,7 +12,7 @@ extra:
   repoBase: https://github.com/ETCBC/bhsa/blob/master
   repo: https://github.com/ETCBC/bhsa
   tfBase: https://github.com/annotation/text-fabric/blob/master
-  tut: https://nbviewer.jupyter.org/github/annotation/tutorials/blob/master/bhsa
+  tut: https://nbviewer.org/github/ETCBC/bhsa/blob/master/tutorial
   tfd: https://annotation.github.io/text-fabric/tf
   lf: https://github.com/Dans-labs/laf-fabric
   shebanq: https://shebanq.ancient-data.org
