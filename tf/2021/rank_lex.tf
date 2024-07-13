@@ -2,7 +2,7 @@
 @author=Eep Talstra Centre for Bible and Computer
 @dataset=BHSA
 @datasetName=Biblia Hebraica Stuttgartensia Amstelodamensis
-@description=✅ ranking of lexemes based on freqnuecy
+@description=✅ ranking of lexemes based on frequency
 @email=shebanq@ancient-data.org
 @encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)
 @provenance=computed on the basis of the ETCBC core set of features
