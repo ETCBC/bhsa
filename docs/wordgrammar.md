@@ -44,7 +44,7 @@ feature|code|description
 ## vowel pattern
 Not present as a separate feature in the dataset.
 
-All these features encode the information that is encountered in the text.
+All these features encode information encountered in the text.
 So, although the values carry grammatical information, these features do not label the grammatical information. 
 
 There is, however, one level of abstraction: 
@@ -55,7 +55,7 @@ but usually they do not do that on their own,
 but the information of several paradigmatic forms must be combined
 to arrive at a definite grammatical label, if this is possible at all.
 
-If you need to now the grammatical label assigned to a word, e.g. *gender* = `f`,
+If you need to know the grammatical label assigned to a word, e.g. *gender* = `f`,
 or *state* = `a`, you need to use other features:
 
 features|description|examples
